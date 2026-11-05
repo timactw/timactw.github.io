@@ -1,7 +1,7 @@
 // Offline cache: precache the whole (small) site, serve cache-first, refresh in background.
-const VERSION = 'anatomy-v3';
+const VERSION = 'anatomy-v4';
 const ASSETS = [
-  './', 'index.html', 'style.css', 'app.js', 'content.js', 'actions.js', 'manifest.webmanifest',
+  './', 'index.html', 'style.css', 'app.js', 'content.js', 'actions.js', 'anim.js', 'bvh.js', 'manifest.webmanifest',
   'vendor/three/build/three.module.min.js',
   'vendor/three/examples/jsm/controls/OrbitControls.js',
   'vendor/three/examples/jsm/loaders/GLTFLoader.js',

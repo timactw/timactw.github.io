@@ -4,6 +4,8 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 import { FORENSICS_HTML, ABOUT_HTML } from './content.js';
 import { ACTIONS } from './actions.js';
+import { buildBVH, bvhRay } from './bvh.js';
+import { ANIMS, animInner, animCaption, cycleT } from './anim.js';
 
 // ---------- safe storage ----------
 const store = {
@@ -32,6 +34,14 @@ let showOI = false;         // muscle origin / insertion markers
 let ATTACH = null;          // models/attach.json
 let action = null;          // { def, prime:Set, syn:Set }
 let ROLE = '';
+// v3: auto see-through (parts that block the selected part, seen from the current camera, turn semi-transparent)
+let autoSee = store.get('autoSee', true);
+let occDirty = true, occLast = 0, occInterval = 150;
+const occTargets = new Set();        // part ids that currently block the selection
+const occActive = new Set();         // parts whose fade is still running
+const skinOcc = { cur: 0, tgt: 0, base: 0 };
+const OCC_OP = 0.15;                 // opacity of a blocking part
+const REDUCED = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : { matches: false, addEventListener() {} };
 
 // ---------- three setup ----------
 const canvas = $('#c');
@@ -99,6 +109,8 @@ function loop(now) {
     if (k >= 1) anim = null;
   }
   controls.update();
+  tickOcc(now);
+  tickAnim(now);
   if (oiGroup.children.length) { const k = Math.max(1, camera.position.distanceTo(controls.target) / 90); oiGroup.children.forEach((c) => c.scale.setScalar(k)); }
   renderer.render(scene, camera);
   requestAnimationFrame(loop);
@@ -137,6 +149,7 @@ function applyMaterial(p) {
   if (dim) op = Math.min(op, 0.12);
   if (action && !aPrime && !aSyn && !isSel) op = Math.min(op, p.sys === 'skeleton' ? 0.45 : 0.1);
   if (xray && !quiz.active && !action && !isSel) op = Math.min(op, (selected || extraHi.size) ? 0.1 : 0.35);
+  if (p.occ > 0 && !isSel) op = Math.min(op, 1 - (1 - OCC_OP) * p.occ);   // auto see-through only ever lowers opacity
   m.opacity = op;
   m.transparent = op < 0.999;
   m.depthWrite = op >= 0.999;
@@ -147,7 +160,7 @@ function applyMaterial(p) {
   m.needsUpdate = true;
   p.mesh.visible = !hiddenParts.has(p.id) && (!isolatePart || isolatePart === p.id);
 }
-function refreshAll() { for (const p of PART.values()) if (p.mesh) applyMaterial(p); }
+function refreshAll() { occDirty = true; for (const p of PART.values()) if (p.mesh) applyMaterial(p); }
 
 // ---------- loading ----------
 const loader = new GLTFLoader();
@@ -185,6 +198,7 @@ function loadSystem(sys) {
       });
       scene.add(g);
       sysGroup[sys] = g;
+      warmBVH(sys);
       setLoading(false);
       resolve(g);
     }, undefined, (err) => { setLoading(false); console.error(err); sysLoaded[sys] = null; reject(err); });
@@ -193,6 +207,7 @@ function loadSystem(sys) {
 }
 
 async function setSystem(sys, on) {
+  occDirty = true;
   if (on) { await loadSystem(sys); sysGroup[sys].visible = true; }
   else if (sysGroup[sys]) sysGroup[sys].visible = false;
   const cb = $(`input[data-sys="${sys}"]`); if (cb) cb.checked = on;
@@ -236,6 +251,7 @@ function select(p, opts = {}) {
   if (p) showCard(p); else $('#card').hidden = true;
   if (p && !opts.focus) cardGuard = performance.now() + 450;
   if (xray) refreshAll();
+  computeOcc(performance.now());
   updateOI();
   $$('#list button').forEach((b) => b.classList.toggle('sel', p && b.dataset.id === p.id));
   if (p && opts.focus) focusPart(p);
@@ -343,10 +359,12 @@ function updateChips() {
   const n = hiddenParts.size, extra = !!(isolatePart || isoSys);
   $('#hiddenN').textContent = extra ? (n ? `${n}＋${tr('隔離', 'iso')}` : tr('隔離', 'iso')) : String(n);
   $('#restoreBtn').classList.toggle('active', n > 0 || extra);
+  $('#autoBtn').classList.toggle('on', autoSee); $('#autoBtn').setAttribute('aria-pressed', String(autoSee));
   $('#xrayBtn').classList.toggle('on', xray); $('#xrayBtn').setAttribute('aria-pressed', String(xray));
   if (selected) { $('#cardIsoPart').textContent = isolatePart === selected.id ? tr('取消隔離', 'Show all') : tr('只看這個部位', 'Isolate part'); $('#cardIsoSys').textContent = isoSys && isoSys.sys === selected.sys ? tr('取消只看系統', 'Show all systems') : tr('只看這個系統', 'Isolate system'); }
 }
 function hidePart(p) {
+  occDirty = true;
   hiddenParts.add(p.id);
   if (selected === p) select(null);
   applyMaterial(p); updateChips();
@@ -386,13 +404,131 @@ $$('#peelSteps button').forEach((b) => b.onclick = () => applyPeel(+b.dataset.pe
 $('#peelIn').onclick = () => applyPeel(peelLevel === null ? 1 : peelLevel + 1);
 $('#peelOut').onclick = () => applyPeel(peelLevel === null ? 0 : peelLevel - 1);
 async function setSkin(pct) {
+  occDirty = true;
   $('#skin').value = pct;
   const v = pct / 100;
   if (v > 0) await loadSystem('skin');
   const g = sysGroup.skin; if (!g) return;
   g.visible = v > 0;
+  skinOcc.base = v; applySkinOpacity();
+}
+
+// ---------- auto see-through (v3) ----------
+// Precedence: parts that are not visible (hidden / isolated away / system off) never count as blockers. The selected part and
+// forensics highlights are never made see-through. For everything else the final opacity is min(existing rules, blocker opacity),
+// so auto see-through can only lower opacity and never fights X-ray, the muscle slider, action dimming or peel layers.
+const occRay = new THREE.Raycaster();
+const occCamP = new THREE.Vector3(1e9, 0, 0), occCamT = new THREE.Vector3();
+const occSamples = new Map();
+let occPrevNow = 0, occSkinMesh = null;
+const OCC_DIRS = (() => {
+  const a = [[1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, -1, 0], [0, 0, 1], [0, 0, -1]];
+  for (const x of [-1, 1]) for (const y of [-1, 1]) for (const z of [-1, 1]) a.push([x, y, z].map((v) => v / Math.sqrt(3)));
+  return a;
+})();
+function isVis(o) { for (let x = o; x; x = x.parent) if (!x.visible) return false; return true; }
+function samplesFor(p) {   // up to 14 spread-out surface vertices (pulled 10% toward the centre) + the box centre, in local space
+  let s = occSamples.get(p.id); if (s) return s;
+  const g = p.mesh.geometry, pos = g.attributes.position;
+  if (!g.boundingBox) g.computeBoundingBox();
+  const c = g.boundingBox.getCenter(new THREE.Vector3());
+  const best = OCC_DIRS.map(() => ({ d: -Infinity, i: -1 }));
+  for (let i = 0; i < pos.count; i++) {
+    const x = pos.getX(i), y = pos.getY(i), z = pos.getZ(i);
+    for (let k = 0; k < OCC_DIRS.length; k++) { const dd = x * OCC_DIRS[k][0] + y * OCC_DIRS[k][1] + z * OCC_DIRS[k][2]; if (dd > best[k].d) { best[k].d = dd; best[k].i = i; } }
+  }
+  s = [c.clone()];
+  for (const i of new Set(best.map((b) => b.i))) { const v = new THREE.Vector3().fromBufferAttribute(pos, i); s.push(v.lerp(c, 0.1)); }
+  occSamples.set(p.id, s);
+  return s;
+}
+function wsphere(m) {
+  if (!m.userData.ws) { if (!m.geometry.boundingSphere) m.geometry.computeBoundingSphere(); m.userData.ws = m.geometry.boundingSphere.clone().applyMatrix4(m.matrixWorld); }
+  return m.userData.ws;
+}
+const _o = new THREE.Vector3(), _p = new THREE.Vector3();
+function rayHit(m, O, dir, tmax, any) {     // world-space ray vs one mesh through its BVH; t is a world distance
+  const u = m.userData;
+  if (!u.bvh) { u.bvh = buildBVH(m.geometry); u.inv = m.matrixWorld.clone().invert(); }
+  _o.copy(O).applyMatrix4(u.inv); _p.copy(O).add(dir).applyMatrix4(u.inv).sub(_o);
+  return bvhRay(u.bvh, _o.x, _o.y, _o.z, _p.x, _p.y, _p.z, tmax, any);
+}
+const warmQ = [];
+function warmBVH(sys) { const g = sysGroup[sys]; if (g) g.traverse((o) => { if (o.isMesh && !o.userData.bvh) warmQ.push(o); }); }
+function warmTick() {   // build BVHs in the background, <=3 ms per frame, so the first see-through does not stall
+  const t0 = performance.now();
+  while (warmQ.length && performance.now() - t0 < 3) { const m = warmQ.shift(); if (!m.userData.bvh) { m.updateWorldMatrix(true, false); m.userData.bvh = buildBVH(m.geometry); m.userData.inv = m.matrixWorld.clone().invert(); } }
+}
+function computeOcc(now) {
+  occDirty = false; occLast = now;
+  const t0 = performance.now();
+  const tgt = autoSee && selected && selected.mesh && !quiz.active && !isolatePart && isVis(selected.mesh) ? selected : null;
+  const hit = new Set(); let skinHit = false;
+  if (tgt) {
+    scene.updateMatrixWorld();
+    const cands = [];
+    for (const q of PART.values()) {
+      const m = q.mesh;
+      if (!m || q === tgt || extraHi.has(q.id) || !isVis(m)) continue;
+      cands.push({ id: q.id, m, sph: wsphere(m) });
+    }
+    if (sysGroup.skin && sysGroup.skin.visible) {
+      if (!occSkinMesh) sysGroup.skin.traverse((o) => { if (o.isMesh && !occSkinMesh) occSkinMesh = o; });
+      if (occSkinMesh) cands.push({ id: '__skin', m: occSkinMesh, sph: wsphere(occSkinMesh) });
+    }
+    const O = camera.position, target = tgt.mesh, v = new THREE.Vector3(), dir = new THREE.Vector3();
+    for (const lp of samplesFor(tgt)) {
+      v.copy(lp); target.localToWorld(v);
+      dir.subVectors(v, O); const dist = dir.length(); if (dist < 1e-3) continue; dir.multiplyScalar(1 / dist);
+      occRay.set(O, dir);
+      const th = rayHit(target, O, dir, dist + 1, false);
+      const tmax = (th === Infinity ? dist : th) - 0.3;   // anything hit before the target's own surface is in the way
+      if (tmax <= 0) continue;
+      for (const c of cands) {
+        if (c.done) continue;
+        const sp = c.sph, tca = (sp.center.x - O.x) * dir.x + (sp.center.y - O.y) * dir.y + (sp.center.z - O.z) * dir.z;
+        if (tca + sp.radius < 0 || tca - sp.radius > tmax) continue;                     // bounding-sphere prefilter
+        if (occRay.ray.distanceSqToPoint(sp.center) > sp.radius * sp.radius) continue;
+        if (rayHit(c.m, O, dir, tmax, true) !== Infinity) { c.done = true; if (c.id === '__skin') skinHit = true; else hit.add(c.id); }
+      }
+    }
+  }
+  occTargets.clear(); hit.forEach((id) => { occTargets.add(id); const p = PART.get(id); if ((p.occ || 0) !== 1) occActive.add(id); });
+  for (const p of PART.values()) if (p.occ > 0 && !occTargets.has(p.id)) occActive.add(p.id);
+  skinOcc.tgt = skinHit ? 1 : 0;
+  occCamP.copy(camera.position); occCamT.copy(controls.target);
+  occInterval = Math.max(150, Math.min(900, (performance.now() - t0) * 10));      // slow device -> compute less often
+}
+function applySkinOpacity() {
+  const g = sysGroup.skin; if (!g) return;
+  const v = skinOcc.cur > 0 ? Math.min(skinOcc.base, 1 - (1 - OCC_OP) * skinOcc.cur) : skinOcc.base;
   g.traverse((o) => { if (o.isMesh) o.material.opacity = v; });
 }
+function fadeOcc(dt) {
+  const step = REDUCED.matches ? 1 : dt / 180;
+  for (const id of [...occActive]) {
+    const p = PART.get(id), tg = occTargets.has(id) ? 1 : 0, c = p.occ || 0;
+    p.occ = tg > c ? Math.min(tg, c + step) : Math.max(tg, c - step);
+    if (p.mesh) applyMaterial(p);
+    if (p.occ === tg) occActive.delete(id);
+  }
+  if (skinOcc.cur !== skinOcc.tgt) {
+    skinOcc.cur = skinOcc.tgt > skinOcc.cur ? Math.min(skinOcc.tgt, skinOcc.cur + step) : Math.max(skinOcc.tgt, skinOcc.cur - step);
+    applySkinOpacity();
+  }
+}
+function tickOcc(now) {
+  if (warmQ.length && autoSee) warmTick();
+  const dt = Math.min(64, now - (occPrevNow || now)); occPrevNow = now;
+  if (autoSee && selected && now - occLast >= occInterval &&
+      (occDirty || camera.position.distanceToSquared(occCamP) > 0.04 || controls.target.distanceToSquared(occCamT) > 0.04)) computeOcc(now);
+  if (occActive.size || skinOcc.cur !== skinOcc.tgt) fadeOcc(dt);
+}
+$('#autoBtn').onclick = () => {
+  autoSee = !autoSee; store.set('autoSee', autoSee);
+  computeOcc(performance.now()); updateChips();
+  snack(autoSee ? tr('自動透明：選一個被擋住的部位，擋在前面的部位會變半透明', 'Auto see-through on: parts in front of the selected part turn transparent') : tr('自動透明已關閉', 'Auto see-through off'));
+};
 
 // ---------- part list ----------
 function buildList() {
@@ -619,15 +755,34 @@ function buildActionList() {
   }
   if (action) renderActionInfo();
 }
+// movement animation (line figure). Reduced-motion users get a static start / end pair instead of the loop.
+let animCur = null, animPaused = false;
+function animBoxHTML(d) {
+  if (!ANIMS[d.id]) return '';
+  const cap = esc(animCaption(d.id, LANG === 'en'));
+  if (REDUCED.matches) {
+    const one = (t, zh, en) => `<figure><svg class="fig" viewBox="0 0 150 150" role="img" aria-label="${esc(tr(d.zh + '・' + zh + '姿勢', d.en + ' · ' + en + ' pose'))}">${animInner(d.id, t)}</svg><div class="pairlab">${tr(zh, en)}</div></figure>`;
+    return `<div class="animbox pair">${one(0, '開始', 'Start')}${one(1, '結束', 'End')}</div><div class="animcap">${cap}</div>`;
+  }
+  return `<div class="animbox"><button class="animwrap" aria-pressed="${animPaused}" aria-label="${esc(tr('動作示意動畫，點一下暫停或播放', 'Movement animation; tap to pause or play'))}"><svg class="fig live" viewBox="0 0 150 150" role="img" aria-label="${esc(tr(d.zh + '的示意動畫', d.en + ' animation'))}">${animInner(d.id, 0)}</svg></button><div class="animcap">${cap}</div></div>`;
+}
+function tickAnim(now) {
+  if (!animCur || animPaused || animCur.freeze != null || tab !== 'actions' || now - animCur.last < 33) return;
+  animCur.last = now;
+  if (animCur.svg && animCur.svg.isConnected) animCur.svg.innerHTML = animInner(animCur.id, cycleT(now));
+}
+if (REDUCED.addEventListener) REDUCED.addEventListener('change', () => { if (action) renderActionInfo(); });
 function renderActionInfo() {
   const d = action.def, box = $('#actionInfo'); box.hidden = false;
   const chip = (k, cls) => { const id = keyIds(k)[0]; const p = PART.get(id); return `<button class="pchip ${cls}" data-id="${id}">${LANG === 'en' ? esc(p.qen) : esc(p.qzh)}</button>`; };
   const pk = d.prime.map((k) => chip(k, 'p')).join(''), sk = d.syn.map((k) => chip(k, 's')).join('');
-  box.innerHTML = `<h4>${bi(d.zh, d.en)}</h4><p>${LANG === 'en' ? esc(d.enLine) : esc(d.zhLine)}</p>` +
+  box.innerHTML = animBoxHTML(d) + `<h4>${bi(d.zh, d.en)}</h4><p>${LANG === 'en' ? esc(d.enLine) : esc(d.zhLine)}</p>` +
     (pk ? `<div class="grp"><span class="dot p"></span><b>${tr('主動肌（主力）', 'Prime movers')}</b><div class="chips">${pk}</div></div>` : '') +
     (sk ? `<div class="grp"><span class="dot s"></span><b>${tr('協同肌（幫忙）', 'Synergists')}</b><div class="chips">${sk}</div></div>` : '') +
     (d.miss ? `<div class="oinote">${tr('這個模型沒有的肌肉：', 'Not in this model: ')}${esc(d.miss)}</div>` : '') +
     `<div class="oinote">${tr('資料：各肌肉的作用取自 OpenStax《解剖學與生理學》第 2 版（CC BY 4.0）；複合動作由各肌肉作用組合而成，是簡化版教學說明。', 'Source: muscle actions from OpenStax A&P 2e (CC BY 4.0); compound movements are a simplified combination.')}</div>`;
+  animCur = ANIMS[d.id] && !REDUCED.matches ? { id: d.id, svg: box.querySelector('svg.live'), last: 0, freeze: null } : null;
+  const wrap = box.querySelector('.animwrap'); if (wrap) wrap.onclick = () => { animPaused = !animPaused; wrap.setAttribute('aria-pressed', String(animPaused)); };
   try { box.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } catch (e) { /* ignore */ }
   $('#legend').hidden = false;
   $('#legend').innerHTML = `<span class="dot p"></span>${tr('主動肌', 'Prime')} <span class="dot s"></span>${tr('協同肌', 'Synergist')}`;
@@ -649,7 +804,7 @@ async function runAction(d) {
     flyTo(sph.center, new THREE.Vector3(...d.dir), Math.max(sph.radius / Math.sin(fov / 2) * 1.2, 60));
   }
 }
-function stopAction() { action = null; $('#legend').hidden = true; $('#actionInfo').hidden = true; refreshAll(); buildActionList(); }
+function stopAction() { action = null; animCur = null; $('#legend').hidden = true; $('#actionInfo').hidden = true; refreshAll(); buildActionList(); }
 document.addEventListener('click', (e) => {
   const c = e.target.closest('.pchip'); if (!c) return;
   const p = PART.get(c.dataset.id); if (p && p.mesh) { select(p); }
@@ -701,4 +856,4 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
 }
 
 // test hooks (used by automated checks only)
-window.__anatomy = { hidePart, runAction, applyPeel, ACTIONS, getState: () => ({ xray, hidden: hiddenParts.size, isolatePart, isoSys: !!isoSys, peelLevel, showOI, markers: oiGroup.children.length, action: action && action.def.id, selected: selected && selected.id, attach: ATTACH && Object.keys(ATTACH).length, vis: Object.fromEntries(Object.entries(sysGroup).map(([k, g]) => [k, g.visible])) }), oiGroup, renderFrame: () => renderer.render(scene, camera), PART, camera, controls, sysGroup, setTab, select, quiz, pickAtNDC: (x, y) => { const r = canvas.getBoundingClientRect(); return pick(r.left + (x + 1) / 2 * r.width, r.top + (1 - y) / 2 * r.height); }, projectPart: (id) => { const p = PART.get(id); const b = new THREE.Box3().setFromObject(p.mesh); const c = b.getCenter(new THREE.Vector3()).project(camera); const r = canvas.getBoundingClientRect(); return { x: r.left + (c.x + 1) / 2 * r.width, y: r.top + (1 - c.y) / 2 * r.height }; } };
+window.__anatomy = { occFlush: () => { computeOcc(performance.now()); fadeOcc(10000); }, animSeek: (t) => { if (animCur) { animCur.freeze = t; animCur.svg.innerHTML = animInner(animCur.id, t); } }, animInfo: () => ({ live: !!animCur, paused: animPaused, reduced: REDUCED.matches }), hidePart, runAction, applyPeel, ACTIONS, getState: () => ({ autoSee, occluders: [...occTargets], skinOccluded: skinOcc.tgt === 1, xray, hidden: hiddenParts.size, isolatePart, isoSys: !!isoSys, peelLevel, showOI, markers: oiGroup.children.length, action: action && action.def.id, selected: selected && selected.id, attach: ATTACH && Object.keys(ATTACH).length, vis: Object.fromEntries(Object.entries(sysGroup).map(([k, g]) => [k, g.visible])) }), oiGroup, renderFrame: () => renderer.render(scene, camera), PART, camera, controls, sysGroup, setTab, select, quiz, pickAtNDC: (x, y) => { const r = canvas.getBoundingClientRect(); return pick(r.left + (x + 1) / 2 * r.width, r.top + (1 - y) / 2 * r.height); }, projectPart: (id) => { const p = PART.get(id); const b = new THREE.Box3().setFromObject(p.mesh); const c = b.getCenter(new THREE.Vector3()).project(camera); const r = canvas.getBoundingClientRect(); return { x: r.left + (c.x + 1) / 2 * r.width, y: r.top + (1 - c.y) / 2 * r.height }; } };

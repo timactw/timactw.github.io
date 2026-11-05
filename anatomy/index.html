@@ -43,6 +43,7 @@
     <div id="loading" class="toast" hidden><span class="spin"></span><span id="loadingText">載入中…</span></div>
     <div id="hint" class="hint" data-zh="單指旋轉・兩指縮放與平移・點一下部位看說明" data-en="1 finger: rotate · 2 fingers: zoom & pan · tap a part">單指旋轉・兩指縮放與平移・點一下部位看說明</div>
     <div id="tools" class="tools">
+      <button id="autoBtn" class="chip on" aria-pressed="true" title="選一個被擋住的部位時，擋在前面的部位自動變半透明"><span class="ic" aria-hidden="true">◌</span><span data-zh="自動透明" data-en="Auto see-through">自動透明</span></button>
       <button id="xrayBtn" class="chip" aria-pressed="false"><span class="ic" aria-hidden="true">◐</span><span data-zh="透視" data-en="X-ray">透視</span></button>
       <button id="restoreBtn" class="chip" aria-label="復原全部 Restore all"><span class="ic" aria-hidden="true">↺</span><span data-zh="復原全部" data-en="Restore all">復原全部</span><b id="hiddenN" class="badge">0</b></button>
     </div>
@@ -89,7 +90,7 @@
       <label class="slider"><span data-zh="皮膚（透明外形）" data-en="Skin outline">皮膚（透明外形）</span><input id="skin" type="range" min="0" max="60" value="0" aria-label="皮膚透明度 Skin opacity"></label>
       <label class="slider"><span data-zh="肌肉透明度" data-en="Muscle opacity">肌肉透明度</span><input id="muscleOp" type="range" min="15" max="100" value="100" aria-label="肌肉透明度 Muscle opacity"></label>
       <div class="row"><button id="showAll" class="btn ghost" data-zh="復原全部（顯示被隱藏的部位）" data-en="Restore all hidden parts">復原全部（顯示被隱藏的部位）</button></div>
-      <p class="tiny" data-zh="小技巧：長按任何部位約半秒可以快速隱藏；右上角的「透視」可以讓其他部位變半透明。" data-en="Tip: long-press a part to hide it; use “X-ray” (top right) to see through other parts.">小技巧：長按任何部位約半秒可以快速隱藏；右上角的「透視」可以讓其他部位變半透明。</p>
+      <p class="tiny" data-zh="小技巧：長按任何部位約半秒可以快速隱藏；右上角的「透視」可以讓其他部位變半透明；點選被擋住的部位時，前面擋住的部位會自動變半透明（「自動透明」可關閉）。" data-en="Tip: long-press a part to hide it; use “X-ray” (top right) to see through other parts; when you select a hidden-behind part, whatever is in front turns transparent automatically (switch “Auto see-through” off if you don’t want that).">小技巧：長按任何部位約半秒可以快速隱藏；右上角的「透視」可以讓其他部位變半透明；點選被擋住的部位時，前面擋住的部位會自動變半透明（「自動透明」可關閉）。</p>
       <h3 data-zh="部位清單" data-en="Part list">部位清單</h3>
       <input id="search" type="search" placeholder="搜尋，例如：股骨、femur" aria-label="搜尋部位 Search">
       <div id="list" class="list"></div>
@@ -101,6 +102,7 @@
       <p class="tiny" data-zh="點一個動作：橘色是主動肌（主力），黃綠色是協同肌（幫忙的）。" data-en="Tap a movement: orange = prime movers, lime = synergists (helpers).">點一個動作：橘色是主動肌（主力），黃綠色是協同肌（幫忙的）。</p>
       <div id="actionList" class="actionlist"></div>
       <div id="actionInfo" class="actioninfo" hidden></div>
+      <p class="actnote" data-zh="想知道其他動作用到哪些肌肉？把動作名稱、照片或短影片傳給爸爸，就能加進來。" data-en="Want to know which muscles another movement uses? Send Dad the movement's name, a photo or a short video and it can be added.">想知道其他動作用到哪些肌肉？把動作名稱、照片或短影片傳給爸爸，就能加進來。</p>
     </section>
 
     <!-- QUIZ -->
