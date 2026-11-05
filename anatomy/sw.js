@@ -1,17 +1,17 @@
 // Offline cache: precache the whole (small) site, serve cache-first, refresh in background.
-const VERSION = 'anatomy-v2';
+const VERSION = 'anatomy-v3';
 const ASSETS = [
-  './', 'index.html', 'style.css', 'app.js', 'content.js', 'manifest.webmanifest',
+  './', 'index.html', 'style.css', 'app.js', 'content.js', 'actions.js', 'manifest.webmanifest',
   'vendor/three/build/three.module.min.js',
   'vendor/three/examples/jsm/controls/OrbitControls.js',
   'vendor/three/examples/jsm/loaders/GLTFLoader.js',
   'vendor/three/examples/jsm/utils/BufferGeometryUtils.js',
   'vendor/three/examples/jsm/libs/meshopt_decoder.module.js',
-  'models/parts.json', 'models/skeleton.glb', 'models/organs.glb', 'models/muscles.glb', 'models/skin.glb',
+  'models/parts.json', 'models/skeleton.glb', 'models/organs.glb', 'models/muscles.glb', 'models/ligaments.glb', 'models/attach.json', 'models/skin.glb',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',
 ];
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then((c) => Promise.all(ASSETS.map((a) => c.add(new Request(a, { cache: 'reload' }))))).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim()));

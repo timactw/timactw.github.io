@@ -89,6 +89,16 @@ export const ABOUT_HTML = `
 <p style="margin-bottom:0"><b>本網站做的修改：</b>把座標轉成公分、Y 軸朝上；把多個元件合併成一個部位（例如三束三角肌合成「三角肌」）；減面（降低多邊形數量）並用 meshopt 壓縮成 GLB。資料庫沒有肺的實體模型，所以<b>左右肺是依支氣管樹的外輪廓計算出來的近似形狀</b>，不是真實掃描。模型來自一位成年男性，沒有尾骨，牙齒沒有第三臼齒（智齒）；部分大肌肉（例如闊背肌、腹直肌、咀嚼肌）資料庫裡沒有，所以這裡也沒有。</p>
 </div>
 
+<h2>肌肉起點、終點與動作的資料來源</h2>
+<div class="box">
+<p style="margin-top:0"><b>OpenStax, <i>Anatomy and Physiology 2e</i>（《解剖學與生理學》第 2 版），第 11 章「肌肉系統」，<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>。</b> <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction" target="_blank" rel="noopener">openstax.org</a></p>
+<p>肌肉的起點、終點與作用，以及「什麼動作用到什麼肌肉」的主動肌與協同肌，都以這本教科書的表格與內文為準。OpenStax 的表格有些肌肉沒有寫終點，這些項目在說明卡上標「†」，內容取自標準解剖學教科書（Gray's Anatomy、Moore《Clinically Oriented Anatomy》）。投球、跑步、深蹲等複合動作是把各肌肉的作用組合起來的簡化說明，不是動作分析的結果。</p>
+<p style="margin-bottom:0"><b>標記位置怎麼來的：</b>紅點（起點）與藍點（終點）不是手動點上去的。程式把每塊肌肉的 3D 資料，找出最貼近文獻所寫那塊骨頭的部分，再貼到骨頭模型表面最近的一點。因為模型是簡化過的，標記只能指出大概的位置（例如「肩胛骨喙突附近」），不是精確的附著區形狀；肌肉模型沒有畫出肌腱的部分，所以肌腱才連到骨頭的終點（例如手指）沒有標記。</p>
+</div>
+
+<h2>韌帶與肌腱</h2>
+<p>BodyParts3D 只收錄少數韌帶與肌腱：跟腱、髂脛束、足底長韌帶、小腿與前臂的骨間膜、腕部屈肌支持帶、白線、莖突舌骨韌帶，另外還有喉部與眼睛周圍的小韌帶。膝蓋的十字韌帶、側韌帶、髕韌帶等重要韌帶資料庫裡沒有，所以這裡也沒有，我們不另外捏造形狀。</p>
+
 <h2>名詞</h2>
 <p>中文解剖名詞以國家教育研究院「樂詞網」的「人體解剖學」與「醫學名詞」詞表為主（<a href="https://terms.naer.edu.tw/" target="_blank" rel="noopener">terms.naer.edu.tw</a>），詞表沒有收錄的則採用臺灣國中、高中生物課本常見說法（例如「腦幹」「食道」）。語言切換會改變部位名稱的顯示方式；部位說明只有中文。</p>
 

@@ -28,6 +28,7 @@
     <div class="brand"><span class="logo" aria-hidden="true"></span><span data-zh="人體解剖 3D" data-en="Anatomy 3D">人體解剖 3D</span></div>
     <nav id="tabs" role="tablist">
       <button role="tab" data-tab="explore" class="on" data-zh="探索" data-en="Explore">探索</button>
+      <button role="tab" data-tab="actions" data-zh="動作" data-en="Moves">動作</button>
       <button role="tab" data-tab="quiz" data-zh="測驗" data-en="Quiz">測驗</button>
       <button role="tab" data-tab="forensics" data-zh="法醫入門" data-en="Forensics">法醫入門</button>
       <button role="tab" data-tab="about" data-zh="關於" data-en="About">關於</button>
@@ -41,6 +42,12 @@
     <canvas id="c" aria-label="3D 人體模型"></canvas>
     <div id="loading" class="toast" hidden><span class="spin"></span><span id="loadingText">載入中…</span></div>
     <div id="hint" class="hint" data-zh="單指旋轉・兩指縮放與平移・點一下部位看說明" data-en="1 finger: rotate · 2 fingers: zoom & pan · tap a part">單指旋轉・兩指縮放與平移・點一下部位看說明</div>
+    <div id="tools" class="tools">
+      <button id="xrayBtn" class="chip" aria-pressed="false"><span class="ic" aria-hidden="true">◐</span><span data-zh="透視" data-en="X-ray">透視</span></button>
+      <button id="restoreBtn" class="chip" aria-label="復原全部 Restore all"><span class="ic" aria-hidden="true">↺</span><span data-zh="復原全部" data-en="Restore all">復原全部</span><b id="hiddenN" class="badge">0</b></button>
+    </div>
+    <div id="snack" class="snack" hidden role="status"></div>
+    <div id="legend" class="legend" hidden></div>
     <button id="resetView" class="fab" title="重設視角" aria-label="重設視角 Reset view">⟲</button>
 
     <!-- info card -->
@@ -50,7 +57,13 @@
       <h2 id="cardZh"></h2>
       <div id="cardEn" class="en"></div>
       <p id="cardDesc"></p>
-      <div class="row"><button id="cardFocus" class="btn" data-zh="放大看這裡" data-en="Zoom to part">放大看這裡</button><button id="cardHide" class="btn ghost" data-zh="暫時隱藏" data-en="Hide part">暫時隱藏</button></div>
+      <div class="row">
+        <button id="cardFocus" class="btn" data-zh="放大看這裡" data-en="Zoom to part">放大看這裡</button>
+        <button id="cardHide" class="btn ghost" data-zh="隱藏" data-en="Hide">隱藏</button>
+        <button id="cardIsoPart" class="btn ghost" data-zh="只看這個部位" data-en="Isolate part">只看這個部位</button>
+        <button id="cardIsoSys" class="btn ghost" data-zh="只看這個系統" data-en="Isolate system">只看這個系統</button>
+      </div>
+      <div id="cardOI" class="oi" hidden></div>
     </section>
   </main>
 
@@ -63,13 +76,31 @@
         <label class="tg"><input type="checkbox" data-sys="skeleton" checked><span class="sw"></span><span class="tl"><b data-zh="骨骼" data-en="Skeleton">骨骼</b><small>Skeleton</small></span></label>
         <label class="tg"><input type="checkbox" data-sys="organs"><span class="sw"></span><span class="tl"><b data-zh="主要器官" data-en="Major organs">主要器官</b><small>Major organs</small></span></label>
         <label class="tg"><input type="checkbox" data-sys="muscles"><span class="sw"></span><span class="tl"><b data-zh="主要肌肉" data-en="Major muscles">主要肌肉</b><small>Major muscles</small></span></label>
+        <label class="tg"><input type="checkbox" data-sys="ligaments"><span class="sw"></span><span class="tl"><b data-zh="韌帶與肌腱" data-en="Ligaments &amp; tendons">韌帶與肌腱</b><small>Ligaments &amp; tendons</small></span></label>
+        <label class="tg"><input type="checkbox" id="oiToggle"><span class="sw"></span><span class="tl"><b data-zh="肌肉起點／終點" data-en="Muscle origin / insertion">肌肉起點／終點</b><small data-zh="選一塊肌肉：紅點＝起點、藍點＝終點" data-en="Select a muscle: red = origin, blue = insertion">選一塊肌肉：紅點＝起點、藍點＝終點</small></span></label>
+      </div>
+      <h3 data-zh="剝層（由外而內）" data-en="Peel layers (outside in)">剝層（由外而內）</h3>
+      <div class="peel">
+        <div id="peelSteps" class="seg wide peelsteps" role="group" aria-label="剝層 Peel layers">
+          <button data-peel="0" data-zh="皮膚" data-en="Skin">皮膚</button><button data-peel="1" data-zh="肌肉" data-en="Muscle">肌肉</button><button data-peel="2" data-zh="器官" data-en="Organs">器官</button><button data-peel="3" data-zh="骨骼" data-en="Bone">骨骼</button>
+        </div>
+        <div class="row"><button id="peelIn" class="btn" data-zh="剝掉一層 ↓" data-en="Peel a layer ↓">剝掉一層 ↓</button><button id="peelOut" class="btn ghost" data-zh="加回一層 ↑" data-en="Add a layer ↑">加回一層 ↑</button></div>
       </div>
       <label class="slider"><span data-zh="皮膚（透明外形）" data-en="Skin outline">皮膚（透明外形）</span><input id="skin" type="range" min="0" max="60" value="0" aria-label="皮膚透明度 Skin opacity"></label>
       <label class="slider"><span data-zh="肌肉透明度" data-en="Muscle opacity">肌肉透明度</span><input id="muscleOp" type="range" min="15" max="100" value="100" aria-label="肌肉透明度 Muscle opacity"></label>
-      <div class="row"><button id="showAll" class="btn ghost" data-zh="顯示被隱藏的部位" data-en="Show hidden parts">顯示被隱藏的部位</button></div>
+      <div class="row"><button id="showAll" class="btn ghost" data-zh="復原全部（顯示被隱藏的部位）" data-en="Restore all hidden parts">復原全部（顯示被隱藏的部位）</button></div>
+      <p class="tiny" data-zh="小技巧：長按任何部位約半秒可以快速隱藏；右上角的「透視」可以讓其他部位變半透明。" data-en="Tip: long-press a part to hide it; use “X-ray” (top right) to see through other parts.">小技巧：長按任何部位約半秒可以快速隱藏；右上角的「透視」可以讓其他部位變半透明。</p>
       <h3 data-zh="部位清單" data-en="Part list">部位清單</h3>
       <input id="search" type="search" placeholder="搜尋，例如：股骨、femur" aria-label="搜尋部位 Search">
       <div id="list" class="list"></div>
+    </section>
+
+    <!-- ACTIONS -->
+    <section class="pane" data-pane="actions">
+      <h3 data-zh="什麼動作用到什麼肌肉？" data-en="Which muscles does a movement use?">什麼動作用到什麼肌肉？</h3>
+      <p class="tiny" data-zh="點一個動作：橘色是主動肌（主力），黃綠色是協同肌（幫忙的）。" data-en="Tap a movement: orange = prime movers, lime = synergists (helpers).">點一個動作：橘色是主動肌（主力），黃綠色是協同肌（幫忙的）。</p>
+      <div id="actionList" class="actionlist"></div>
+      <div id="actionInfo" class="actioninfo" hidden></div>
     </section>
 
     <!-- QUIZ -->

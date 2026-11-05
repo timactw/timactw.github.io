@@ -22,3 +22,11 @@ Traditional Chinese anatomical names follow 國家教育研究院 樂詞網 (htt
 
 ## Site code & text
 Site code, part explanations and the forensics article: CC BY-SA 4.0 (same as the models). Article sources are listed in the 法醫入門 page.
+
+## Muscle origins/insertions, movements, ligament notes (v2)
+- OpenStax, *Anatomy and Physiology 2e*, chapter 11 "The Muscular System" (CC BY 4.0), https://openstax.org/books/anatomy-and-physiology-2e/pages/11-introduction
+  (text also read via the LibreTexts mirror, https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_2e_(OpenStax)/02:_Support_and_Movement/11:_The_Muscular_System).
+  Used for muscle origins, insertions and actions (`models/attach.json`, `actions.js`). Where an OpenStax table omits an insertion, the entry is
+  marked with a dagger (†) in the app and comes from standard anatomy references (Gray's Anatomy; Moore, *Clinically Oriented Anatomy*).
+- Marker positions (red = origin, blue = insertion) are computed at build time from the BodyParts3D muscle and bone meshes (`tools/compute_attach.py`).
+- "Ligaments & tendons" contains only the structures that exist in BodyParts3D 4.0 (is_a set); nothing was modelled by hand.
