@@ -1,0 +1,255 @@
+{
+  "id": "m8-09",
+  "subject": "math",
+  "grade": 8,
+  "order": 9,
+  "title": "函數與一次函數的圖形",
+  "codes": [
+    {
+      "code": "F-8-1",
+      "text": "一次函數：透過對應關係認識函數（不要出現 f(x) 的抽象型式）、常數函數（y=c）、一次函數（y=ax+b）。"
+    },
+    {
+      "code": "F-8-2",
+      "text": "一次函數的圖形：常數函數的圖形；一次函數的圖形。"
+    }
+  ],
+  "intro": "函數是一種對應關係：每給一個 x，就恰好對到一個 y。這單元認識常數函數 y=c 和一次函數 y=ax+b，並學會畫出它們的直線圖形。",
+  "sections": [
+    {
+      "title": "什麼是函數",
+      "points": [
+        "$x$ 每取一個值，$y$ 都恰好對應到一個值，就說 $y$ 是 $x$ 的函數。",
+        "判斷方法：同一個 $x$ 對到兩個不同的 $y$，就不是函數；不同的 $x$ 對到同一個 $y$ 沒關係。",
+        "生活例子：月租費 199 元、每分鐘通話 2 元，通話 $x$ 分鐘的費用 $y=2x+199$，$y$ 是 $x$ 的函數。"
+      ]
+    },
+    {
+      "title": "常數函數 y=c",
+      "points": [
+        "不論 $x$ 是多少，$y$ 都等於同一個數 $c$，叫常數函數。",
+        "圖形是通過 $(0,c)$ 的水平線，例如 $y=-2$ 是通過 $(0,-2)$、和 $x$ 軸平行的直線。",
+        "注意：$x=-2$ 是鉛直線，不是函數 $y=-2$ 的圖形。"
+      ]
+    },
+    {
+      "title": "一次函數 y=ax+b",
+      "points": [
+        "$y=ax+b$ 且 $a\\ne 0$ 叫一次函數，圖形是一條直線。",
+        "畫圖：取兩個 $x$ 值算出 $y$，描出兩點再連成直線。例如 $y=2x-1$：$x=0$ 時 $y=-1$，$x=2$ 時 $y=3$。",
+        "判斷點在不在直線上：把點的坐標代入，等號成立就在線上。"
+      ],
+      "svg": "<svg viewBox=\"0 0 284 284\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\"><line x1=\"22\" y1=\"262\" x2=\"22\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"262\" x2=\"262\" y2=\"262\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"52\" y1=\"262\" x2=\"52\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"232\" x2=\"262\" y2=\"232\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"82\" y1=\"262\" x2=\"82\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"202\" x2=\"262\" y2=\"202\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"112\" y1=\"262\" x2=\"112\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"172\" x2=\"262\" y2=\"172\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"112\" x2=\"262\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"202\" y1=\"262\" x2=\"202\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"82\" x2=\"262\" y2=\"82\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"232\" y1=\"262\" x2=\"232\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"52\" x2=\"262\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"262\" y1=\"262\" x2=\"262\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"22\" x2=\"262\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"5.5\" y1=\"142\" x2=\"278.5\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"142\" y1=\"278.5\" x2=\"142\" y2=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"278.5,142 271.5,138 271.5,146\" fill=\"currentColor\"/><polygon points=\"142,5.5 138,12.5 146,12.5\" fill=\"currentColor\"/><text x=\"274.5\" y=\"158\">x</text><text x=\"149\" y=\"15.5\">y</text><text x=\"129\" y=\"156\">O</text><text x=\"15\" y=\"156\" font-size=\"10\">-4</text><text x=\"126\" y=\"266\" font-size=\"10\">-4</text><text x=\"45\" y=\"156\" font-size=\"10\">-3</text><text x=\"126\" y=\"236\" font-size=\"10\">-3</text><text x=\"75\" y=\"156\" font-size=\"10\">-2</text><text x=\"126\" y=\"206\" font-size=\"10\">-2</text><text x=\"105\" y=\"156\" font-size=\"10\">-1</text><text x=\"126\" y=\"176\" font-size=\"10\">-1</text><text x=\"169\" y=\"156\" font-size=\"10\">1</text><text x=\"131\" y=\"116\" font-size=\"10\">1</text><text x=\"199\" y=\"156\" font-size=\"10\">2</text><text x=\"131\" y=\"86\" font-size=\"10\">2</text><text x=\"229\" y=\"156\" font-size=\"10\">3</text><text x=\"131\" y=\"56\" font-size=\"10\">3</text><text x=\"259\" y=\"156\" font-size=\"10\">4</text><text x=\"131\" y=\"26\" font-size=\"10\">4</text><line x1=\"97\" y1=\"262\" x2=\"217\" y2=\"22\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"217\" y=\"28\" font-size=\"13\">y=2x−1</text><circle cx=\"142\" cy=\"172\" r=\"4\" fill=\"currentColor\"/><text x=\"150\" y=\"186\" font-size=\"12\">(0, −1)</text><circle cx=\"202\" cy=\"52\" r=\"4\" fill=\"currentColor\"/><text x=\"158\" y=\"54\" font-size=\"12\">(2, 3)</text></svg>",
+      "caption": "y=2x−1：描出 (0, −1) 和 (2, 3) 兩點再連線"
+    },
+    {
+      "title": "和兩軸的交點與 a 的正負",
+      "points": [
+        "和 $y$ 軸的交點：令 $x=0$，得 $(0,b)$。",
+        "和 $x$ 軸的交點：令 $y=0$，解出 $x=-\\frac{b}{a}$，得 $\\left(-\\frac{b}{a},0\\right)$。",
+        "$a>0$：$x$ 越大 $y$ 越大，直線由左下往右上；$a<0$：直線由左上往右下。",
+        "例：$y=-x+2$ 和 $y$ 軸交於 $(0,2)$、和 $x$ 軸交於 $(2,0)$，往右下降。"
+      ],
+      "svg": "<svg viewBox=\"0 0 284 284\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\"><line x1=\"22\" y1=\"262\" x2=\"22\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"262\" x2=\"262\" y2=\"262\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"52\" y1=\"262\" x2=\"52\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"232\" x2=\"262\" y2=\"232\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"82\" y1=\"262\" x2=\"82\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"202\" x2=\"262\" y2=\"202\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"112\" y1=\"262\" x2=\"112\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"172\" x2=\"262\" y2=\"172\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"112\" x2=\"262\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"202\" y1=\"262\" x2=\"202\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"82\" x2=\"262\" y2=\"82\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"232\" y1=\"262\" x2=\"232\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"52\" x2=\"262\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"262\" y1=\"262\" x2=\"262\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"22\" x2=\"262\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"5.5\" y1=\"142\" x2=\"278.5\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"142\" y1=\"278.5\" x2=\"142\" y2=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"278.5,142 271.5,138 271.5,146\" fill=\"currentColor\"/><polygon points=\"142,5.5 138,12.5 146,12.5\" fill=\"currentColor\"/><text x=\"274.5\" y=\"158\">x</text><text x=\"149\" y=\"15.5\">y</text><text x=\"129\" y=\"156\">O</text><text x=\"15\" y=\"156\" font-size=\"10\">-4</text><text x=\"126\" y=\"266\" font-size=\"10\">-4</text><text x=\"45\" y=\"156\" font-size=\"10\">-3</text><text x=\"126\" y=\"236\" font-size=\"10\">-3</text><text x=\"75\" y=\"156\" font-size=\"10\">-2</text><text x=\"126\" y=\"206\" font-size=\"10\">-2</text><text x=\"105\" y=\"156\" font-size=\"10\">-1</text><text x=\"126\" y=\"176\" font-size=\"10\">-1</text><text x=\"169\" y=\"156\" font-size=\"10\">1</text><text x=\"131\" y=\"116\" font-size=\"10\">1</text><text x=\"199\" y=\"156\" font-size=\"10\">2</text><text x=\"131\" y=\"86\" font-size=\"10\">2</text><text x=\"229\" y=\"156\" font-size=\"10\">3</text><text x=\"131\" y=\"56\" font-size=\"10\">3</text><text x=\"259\" y=\"156\" font-size=\"10\">4</text><text x=\"131\" y=\"26\" font-size=\"10\">4</text><line x1=\"82\" y1=\"22\" x2=\"262\" y2=\"202\" class=\"hl2\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"40\" y=\"40\" font-size=\"13\">y=−x+2</text><line x1=\"22\" y1=\"202\" x2=\"262\" y2=\"202\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"196\" y=\"196\" font-size=\"13\">y=−2</text><circle cx=\"142\" cy=\"82\" r=\"4\" fill=\"currentColor\"/><text x=\"149\" y=\"76\" font-size=\"12\">(0, 2)</text><circle cx=\"202\" cy=\"142\" r=\"4\" fill=\"currentColor\"/><text x=\"206\" y=\"134\" font-size=\"12\">(2, 0)</text></svg>",
+      "caption": "一次函數 y=−x+2（往右下降）與常數函數 y=−2（水平線）"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "函數",
+      "body": "每個 $x$ 恰好對應一個 $y$"
+    },
+    {
+      "name": "常數函數",
+      "body": "$y=c$，圖形是通過 $(0,c)$ 的水平線"
+    },
+    {
+      "name": "一次函數",
+      "body": "$y=ax+b$（$a\\ne 0$），圖形是直線"
+    },
+    {
+      "name": "與 y 軸交點",
+      "body": "令 $x=0$，交點 $(0,b)$"
+    },
+    {
+      "name": "與 x 軸交點",
+      "body": "令 $y=0$，交點 $\\left(-\\frac{b}{a},0\\right)$"
+    },
+    {
+      "name": "點在線上",
+      "body": "坐標代入式子，等號成立"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-09-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "函數意義",
+      "q": "下列四組 $(x,y)$ 的對應中，哪一組的 $y$ 是 $x$ 的函數？",
+      "choices": [
+        "$(1,3)$、$(1,4)$、$(2,5)$",
+        "$(2,1)$、$(2,-1)$、$(3,0)$",
+        "$(1,2)$、$(2,2)$、$(3,2)$",
+        "$(0,1)$、$(0,2)$、$(0,3)$"
+      ],
+      "answer": 2,
+      "explain": "函數要求每個 $x$ 只對到一個 $y$。第一組 $x=1$ 對到 $3$ 和 $4$；第二組 $x=2$ 對到 $1$ 和 $-1$；第四組 $x=0$ 對到三個值。第三組每個 $x$ 都只對到 $2$，不同的 $x$ 對到同一個 $y$ 是可以的。答案是 $(1,2)$、$(2,2)$、$(3,2)$。",
+      "codes": [
+        "F-8-1"
+      ]
+    },
+    {
+      "id": "m8-09-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "一次函數求值",
+      "q": "一次函數 $y=3x-4$，當 $x=-2$ 時，$y$ 是多少？",
+      "choices": [
+        "$2$",
+        "$-10$",
+        "$-2$",
+        "$10$"
+      ],
+      "answer": 1,
+      "explain": "代入：$y=3\\times(-2)-4=-6-4=-10$。$2$ 是把 $3\\times(-2)$ 算成 $6$。答案是 $-10$。",
+      "codes": [
+        "F-8-1"
+      ]
+    },
+    {
+      "id": "m8-09-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "一次函數列式",
+      "q": "某手機方案月租費 199 元，另外每通話 1 分鐘加收 2 元。一個月通話 $x$ 分鐘的總費用是 $y$ 元，$y$ 和 $x$ 的關係式是什麼？",
+      "choices": [
+        "$y=2x+199$",
+        "$y=199x+2$",
+        "$y=201x$",
+        "$y=2x-199$"
+      ],
+      "answer": 0,
+      "explain": "總費用 $=$ 月租費 $+$ 每分鐘 2 元 $\\times$ 分鐘數，所以 $y=199+2x$，即 $y=2x+199$。例如通話 10 分鐘要 $219$ 元。答案是 $y=2x+199$。",
+      "codes": [
+        "F-8-1"
+      ]
+    },
+    {
+      "id": "m8-09-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "圖形與坐標軸交點",
+      "q": "直線 $y=-2x+6$ 和 $x$ 軸的交點坐標是什麼？",
+      "choices": [
+        "$(0,6)$",
+        "$(-3,0)$",
+        "$(6,0)$",
+        "$(3,0)$"
+      ],
+      "answer": 3,
+      "explain": "和 $x$ 軸相交時 $y=0$：$0=-2x+6$，$x=3$，交點是 $(3,0)$。$(0,6)$ 是和 $y$ 軸的交點，$(-3,0)$ 是解方程式時正負號弄錯。答案是 $(3,0)$。",
+      "codes": [
+        "F-8-2"
+      ]
+    },
+    {
+      "id": "m8-09-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "一次函數求值",
+      "q": "點 $(a,5)$ 在一次函數 $y=4x-3$ 的圖形上，$a$ 是多少？",
+      "choices": [
+        "$17$",
+        "$2$",
+        "$\\frac{1}{2}$",
+        "$-2$"
+      ],
+      "answer": 1,
+      "explain": "點在圖形上，坐標代入要成立：$5=4a-3$，$4a=8$，$a=2$。$17$ 是把 $5$ 當成 $x$ 代入算出的 $y$。答案是 $2$。",
+      "codes": [
+        "F-8-2"
+      ]
+    },
+    {
+      "id": "m8-09-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "一次函數圖形",
+      "q": "圖中直線通過 $(0,2)$ 和 $(1,0)$ 兩點，它是下列哪一個一次函數的圖形？",
+      "svg": "<svg viewBox=\"0 0 284 284\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\"><line x1=\"22\" y1=\"262\" x2=\"22\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"262\" x2=\"262\" y2=\"262\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"52\" y1=\"262\" x2=\"52\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"232\" x2=\"262\" y2=\"232\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"82\" y1=\"262\" x2=\"82\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"202\" x2=\"262\" y2=\"202\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"112\" y1=\"262\" x2=\"112\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"172\" x2=\"262\" y2=\"172\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"112\" x2=\"262\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"202\" y1=\"262\" x2=\"202\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"82\" x2=\"262\" y2=\"82\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"232\" y1=\"262\" x2=\"232\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"52\" x2=\"262\" y2=\"52\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"262\" y1=\"262\" x2=\"262\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"22\" y1=\"22\" x2=\"262\" y2=\"22\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"5.5\" y1=\"142\" x2=\"278.5\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"142\" y1=\"278.5\" x2=\"142\" y2=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"278.5,142 271.5,138 271.5,146\" fill=\"currentColor\"/><polygon points=\"142,5.5 138,12.5 146,12.5\" fill=\"currentColor\"/><text x=\"274.5\" y=\"158\">x</text><text x=\"149\" y=\"15.5\">y</text><text x=\"129\" y=\"156\">O</text><text x=\"15\" y=\"156\" font-size=\"10\">-4</text><text x=\"126\" y=\"266\" font-size=\"10\">-4</text><text x=\"45\" y=\"156\" font-size=\"10\">-3</text><text x=\"126\" y=\"236\" font-size=\"10\">-3</text><text x=\"75\" y=\"156\" font-size=\"10\">-2</text><text x=\"126\" y=\"206\" font-size=\"10\">-2</text><text x=\"105\" y=\"156\" font-size=\"10\">-1</text><text x=\"126\" y=\"176\" font-size=\"10\">-1</text><text x=\"169\" y=\"156\" font-size=\"10\">1</text><text x=\"131\" y=\"116\" font-size=\"10\">1</text><text x=\"199\" y=\"156\" font-size=\"10\">2</text><text x=\"131\" y=\"86\" font-size=\"10\">2</text><text x=\"229\" y=\"156\" font-size=\"10\">3</text><text x=\"131\" y=\"56\" font-size=\"10\">3</text><text x=\"259\" y=\"156\" font-size=\"10\">4</text><text x=\"131\" y=\"26\" font-size=\"10\">4</text><line x1=\"112\" y1=\"22\" x2=\"232\" y2=\"262\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"142\" cy=\"82\" r=\"4\" fill=\"currentColor\"/><circle cx=\"172\" cy=\"142\" r=\"4\" fill=\"currentColor\"/></svg>",
+      "choices": [
+        "$y=2x+2$",
+        "$y=-x+2$",
+        "$y=-2x+1$",
+        "$y=-2x+2$"
+      ],
+      "answer": 3,
+      "explain": "設 $y=ax+b$。通過 $(0,2)$：$b=2$。通過 $(1,0)$：$0=a+2$，$a=-2$。所以是 $y=-2x+2$。直線往右下降，$a$ 應為負，$y=2x+2$ 不對；$y=-x+2$ 通過 $(2,0)$ 而不是 $(1,0)$。答案是 $y=-2x+2$。",
+      "codes": [
+        "F-8-2"
+      ]
+    },
+    {
+      "id": "m8-09-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "常數函數",
+      "q": "關於常數函數 $y=-3$ 的圖形，下列敘述何者正確？",
+      "choices": [
+        "是通過 $(-3,0)$ 的鉛直線",
+        "是通過 $(0,-3)$ 的水平線",
+        "會通過原點",
+        "當 $x=-3$ 時，$y=0$"
+      ],
+      "answer": 1,
+      "explain": "$y=-3$ 表示不論 $x$ 是多少，$y$ 都是 $-3$，所以圖形是通過 $(0,-3)$、和 $x$ 軸平行的水平線。通過 $(-3,0)$ 的鉛直線是 $x=-3$；原點的 $y$ 是 0，不在圖形上；$x=-3$ 時 $y$ 仍是 $-3$。答案是「通過 $(0,-3)$ 的水平線」。",
+      "codes": [
+        "F-8-1",
+        "F-8-2"
+      ]
+    },
+    {
+      "id": "m8-09-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "一次函數求式",
+      "q": "一次函數 $y=ax+b$ 的圖形通過 $(1,4)$ 和 $(3,10)$ 兩點，它和 $y$ 軸的交點坐標是什麼？",
+      "choices": [
+        "$(0,3)$",
+        "$(1,0)$",
+        "$(0,1)$",
+        "$(0,-2)$"
+      ],
+      "answer": 2,
+      "explain": "代入兩點：$a+b=4$，$3a+b=10$。相減得 $2a=6$，$a=3$，$b=1$，所以 $y=3x+1$。和 $y$ 軸交點令 $x=0$，得 $(0,1)$。$(0,3)$ 是把 $a$ 當成交點的 $y$ 坐標。答案是 $(0,1)$。",
+      "codes": [
+        "F-8-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 24 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 F-8-1"
+      },
+      {
+        "label": "113 年第 16 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 F-8-1"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「一次函數」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B8"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

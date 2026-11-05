@@ -1,0 +1,217 @@
+{
+  "id": "m9-08",
+  "subject": "math",
+  "grade": 9,
+  "order": 8,
+  "title": "三角形的外心",
+  "codes": [
+    {
+      "code": "S-9-8",
+      "text": "三角形的外心：外心的意義與外接圓；三角形的外心到三角形的三個頂點等距；直角三角形的外心即斜邊的中點。"
+    }
+  ],
+  "intro": "外心是三邊中垂線的交點，到三個頂點一樣遠，也就是外接圓的圓心。會考常考外心位置、直角三角形斜邊中點，以及等腰三角形求半徑。",
+  "sections": [
+    {
+      "title": "外心的意義",
+      "points": [
+        "中垂線上的任一點到線段兩端點等距。",
+        "三角形三邊的中垂線交於一點，叫**外心**（常記為 $O$）。",
+        "外心到三個頂點等距：$\\overline{OA}=\\overline{OB}=\\overline{OC}$。",
+        "以外心為圓心、$\\overline{OA}$ 為半徑畫圓，會通過三個頂點，這個圓叫**外接圓**。",
+        "生活應用：要找一個點到三個地方一樣遠（例如三個社區共用的水塔），就是找外心。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 245\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"135\" cy=\"135.1\" r=\"101.2\" stroke-dasharray=\"5 4\"/><polygon points=\"120,35 40,170 230,170\"/><line x1=\"80\" y1=\"102.5\" x2=\"135\" y2=\"135.1\" class=\"hl2\"/><polyline points=\"76.4,108.5 82.5,112.1 86,106.1\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"170\" x2=\"135\" y2=\"135.1\" class=\"hl2\"/><polyline points=\"142,170 142,163 135,163\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"102.5\" x2=\"135\" y2=\"135.1\" class=\"hl2\"/><polyline points=\"170.6,97.1 165.2,101.5 169.6,106.9\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"135.1\" x2=\"120\" y2=\"35\" class=\"hl\"/><line x1=\"135\" y1=\"135.1\" x2=\"40\" y2=\"170\" class=\"hl\"/><line x1=\"135\" y1=\"135.1\" x2=\"230\" y2=\"170\" class=\"hl\"/><circle cx=\"135\" cy=\"135.1\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"143\" y=\"139.1\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"120\" y=\"27\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"30\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"240\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"300\" y=\"90\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl\" font-size=\"13\">OA＝OB＝OC</text><text x=\"300\" y=\"114\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">中垂線交於 O</text></svg>",
+      "caption": "三邊中垂線交於外心 $O$，$\\overline{OA}=\\overline{OB}=\\overline{OC}$ 為外接圓半徑。"
+    },
+    {
+      "title": "外心的位置",
+      "points": [
+        "銳角三角形：外心在三角形**內部**。",
+        "直角三角形：外心在**斜邊的中點**。",
+        "鈍角三角形：外心在三角形**外部**（在最長邊的外側）。"
+      ]
+    },
+    {
+      "title": "直角三角形的外心",
+      "points": [
+        "外心 $M$ 是斜邊 $\\overline{AB}$ 的中點，外接圓半徑 $=\\frac{1}{2}\\times$ 斜邊。",
+        "所以斜邊上的中線 $\\overline{CM}$ 等於斜邊的一半：$\\overline{MA}=\\overline{MB}=\\overline{MC}$。",
+        "例：兩股 $6$、$8$，斜邊 $10$，外接圓半徑 $5$。"
+      ],
+      "svg": "<svg viewBox=\"0 -15 440 240\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"160\" cy=\"100\" r=\"108.2\" stroke-dasharray=\"5 4\"/><polygon points=\"70,40 250,160 70,160\"/><polyline points=\"70,150 80,150 80,160\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"100\" x2=\"70\" y2=\"160\" class=\"hl\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"168\" y=\"92\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">M</text><text x=\"60\" y=\"38\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"262\" y=\"166\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"60\" y=\"172\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"330\" y=\"90\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">M 為斜邊中點</text><text x=\"330\" y=\"114\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl\" font-size=\"13\">MA＝MB＝MC</text></svg>",
+      "caption": "直角三角形的外心是斜邊中點 $M$。"
+    },
+    {
+      "title": "外心與角度",
+      "points": [
+        "因為 $\\overline{OA}=\\overline{OB}=\\overline{OC}$，$\\triangle OAB$、$\\triangle OBC$、$\\triangle OCA$ 都是等腰三角形，底角相等。",
+        "外心在內部時，$\\angle BOC$ 是外接圓的圓心角，$\\angle A$ 是同弧圓周角，所以 $\\angle BOC=2\\angle A$。",
+        "等腰三角形的外心在頂角的角平分線（也是底邊的中垂線）上，求半徑時常配畢氏定理。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "外心",
+      "body": "三邊中垂線的交點"
+    },
+    {
+      "name": "外心性質",
+      "body": "到三頂點等距：$\\overline{OA}=\\overline{OB}=\\overline{OC}=R$"
+    },
+    {
+      "name": "外心位置",
+      "body": "銳角在內部、直角在斜邊中點、鈍角在外部"
+    },
+    {
+      "name": "直角三角形",
+      "body": "外接圓半徑 $=\\frac{1}{2}$ 斜邊；斜邊中線 $=\\frac{1}{2}$ 斜邊"
+    },
+    {
+      "name": "外心角度",
+      "body": "外心在內部時 $\\angle BOC=2\\angle A$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-08-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "外心的意義",
+      "q": "三角形的外心是哪三條線的交點？",
+      "choices": [
+        "三個內角的角平分線",
+        "三條中線",
+        "三條高",
+        "三邊的中垂線"
+      ],
+      "answer": 3,
+      "explain": "外心要到三個頂點等距，而到兩點等距的點都在這兩點連線的中垂線上，所以外心是三邊中垂線的交點。角平分線交於內心、中線交於重心。答案是三邊的中垂線。"
+    },
+    {
+      "id": "m9-08-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "直角三角形外心",
+      "q": "直角三角形的兩股長分別是 $6$ 和 $8$，它的外接圓半徑是多少？",
+      "choices": [
+        "$5$",
+        "$10$",
+        "$4$",
+        "$7$"
+      ],
+      "answer": 0,
+      "explain": "斜邊 $=\\sqrt{6^2+8^2}=10$。直角三角形的外心是斜邊中點，外接圓半徑 $=10\\div 2=5$。$10$ 是直徑。答案是 $5$。"
+    },
+    {
+      "id": "m9-08-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "外心的位置",
+      "q": "鈍角三角形的外心在哪裡？",
+      "choices": [
+        "三角形的內部",
+        "三角形的外部",
+        "最長邊的中點",
+        "鈍角的頂點"
+      ],
+      "answer": 1,
+      "explain": "銳角三角形的外心在內部，直角三角形的在斜邊中點，鈍角三角形的在外部（最長邊的外側）。答案是三角形的外部。"
+    },
+    {
+      "id": "m9-08-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "直角三角形外心",
+      "q": "坐標平面上，$A(0,0)$、$B(8,0)$、$C(0,6)$。$\\triangle ABC$ 的外心坐標是多少？",
+      "choices": [
+        "$(4,3)$",
+        "$(\\frac{8}{3},2)$",
+        "$(2,2)$",
+        "$(0,0)$"
+      ],
+      "answer": 0,
+      "explain": "$\\angle A=90^\\circ$，斜邊是 $\\overline{BC}$，外心是 $\\overline{BC}$ 的中點 $(\\frac{8+0}{2},\\frac{0+6}{2})=(4,3)$。（$(\\frac{8}{3},2)$ 是重心，$(2,2)$ 是內心，$(0,0)$ 是直角頂點。）答案是 $(4,3)$。"
+    },
+    {
+      "id": "m9-08-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "外心與角度",
+      "q": "$O$ 是銳角三角形 $ABC$ 的外心，$\\angle A=65^\\circ$。$\\angle BOC$ 是幾度？",
+      "choices": [
+        "$65^\\circ$",
+        "$115^\\circ$",
+        "$130^\\circ$",
+        "$32.5^\\circ$"
+      ],
+      "answer": 2,
+      "explain": "$O$ 是外接圓圓心，$\\angle BOC$ 是弧 $BC$ 的圓心角，$\\angle A$ 是同一段弧的圓周角，所以 $\\angle BOC=2\\angle A=130^\\circ$。答案是 $130^\\circ$。"
+    },
+    {
+      "id": "m9-08-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "直角三角形外心",
+      "q": "$\\triangle ABC$ 中 $\\angle C=90^\\circ$，$M$ 是 $\\overline{AB}$ 的中點，$\\overline{CM}=7.5$、$\\overline{AC}=9$。$\\overline{BC}$ 是多少？",
+      "choices": [
+        "$6$",
+        "$12$",
+        "$15$",
+        "$3\\sqrt{34}$"
+      ],
+      "answer": 1,
+      "explain": "$M$ 是直角三角形的外心，$\\overline{CM}=\\overline{AM}=\\overline{BM}$，所以斜邊 $\\overline{AB}=2\\times 7.5=15$。$\\overline{BC}=\\sqrt{15^2-9^2}=\\sqrt{144}=12$。答案是 $12$。"
+    },
+    {
+      "id": "m9-08-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "外心與角度",
+      "q": "$O$ 是 $\\triangle ABC$ 的外心，且 $O$ 在三角形內部。已知 $\\angle OAB=20^\\circ$、$\\angle OBC=30^\\circ$，$\\angle OCA$ 是幾度？",
+      "choices": [
+        "$30^\\circ$",
+        "$50^\\circ$",
+        "$20^\\circ$",
+        "$40^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "$\\overline{OA}=\\overline{OB}=\\overline{OC}$，三個小三角形都是等腰：$\\angle OBA=\\angle OAB=20^\\circ$，$\\angle OCB=\\angle OBC=30^\\circ$，$\\angle OAC=\\angle OCA=x$。$\\triangle ABC$ 內角和：$2(20^\\circ+30^\\circ+x)=180^\\circ$，$x=40^\\circ$。答案是 $40^\\circ$。"
+    },
+    {
+      "id": "m9-08-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "外接圓半徑",
+      "q": "等腰三角形 $ABC$ 中，$\\overline{AB}=\\overline{AC}=10$、$\\overline{BC}=12$。它的外接圓半徑是多少？",
+      "choices": [
+        "$\\frac{16}{3}$",
+        "$5$",
+        "$\\frac{25}{4}$",
+        "$6$"
+      ],
+      "answer": 2,
+      "explain": "作 $\\overline{AD}\\perp\\overline{BC}$ 於 $D$，$\\overline{BD}=6$，$\\overline{AD}=\\sqrt{10^2-6^2}=8$。外心 $O$ 在 $\\overline{AD}$ 上，設 $\\overline{OA}=\\overline{OB}=R$，則 $\\overline{OD}=8-R$。$\\triangle OBD$ 中 $(8-R)^2+6^2=R^2$，$100-16R=0$，$R=\\frac{25}{4}$。（$\\frac{16}{3}$ 是重心到頂點的距離。）答案是 $\\frac{25}{4}$。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 16 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-9-8"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「外心」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%A4%96%E5%BF%83"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

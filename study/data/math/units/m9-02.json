@@ -1,0 +1,254 @@
+{
+  "id": "m9-02",
+  "subject": "math",
+  "grade": 9,
+  "order": 2,
+  "title": "相似形與三角形相似",
+  "codes": [
+    {
+      "code": "S-9-1",
+      "text": "相似形：平面圖形縮放的意義；多邊形相似的意義；對應角相等；對應邊長成比例。"
+    },
+    {
+      "code": "S-9-2",
+      "text": "三角形的相似性質：三角形的相似判定（AA、SAS、SSS）；對應邊長之比＝對應高之比；對應面積之比＝對應邊長平方之比；利用三角形相似的概念解應用問題；相似符號（~）。"
+    }
+  ],
+  "intro": "形狀相同、大小可以不同就是相似。會考最愛考三角形相似的判定，以及邊長比、面積比的換算。",
+  "sections": [
+    {
+      "title": "縮放與相似的意義",
+      "points": [
+        "把圖形每個長度都乘同一個倍數（縮放），形狀不變，得到的圖形和原圖**相似**。",
+        "兩個多邊形相似，要**同時**滿足：對應角都相等、對應邊長都成比例。",
+        "只滿足一個條件不夠：兩個長方形角都相等，邊卻不一定成比例；兩個菱形邊成比例，角卻不一定相等。",
+        "任意兩個正方形、任意兩個正三角形、任意兩個圓都相似。",
+        "全等是相似的特例（相似比 $1:1$）。"
+      ]
+    },
+    {
+      "title": "三角形相似的判定",
+      "points": [
+        "**AA**：兩組對應角相等（第三組角自然相等）。",
+        "**SAS**：兩組對應邊成比例，且夾角相等。",
+        "**SSS**：三組對應邊都成比例。",
+        "記法 $\\triangle ABC\\sim\\triangle DEF$ 時，頂點要按對應順序寫：$A$ 對 $D$、$B$ 對 $E$、$C$ 對 $F$。",
+        "注意：SSA（兩邊和非夾角）不能判定相似。"
+      ],
+      "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"50,90 30,150 110,150\" class=\"soft\"/><polygon points=\"220,60 190,150 310,150\" class=\"soft2\"/><text x=\"50\" y=\"82\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"22\" y=\"166\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"118\" y=\"166\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"220\" y=\"52\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"182\" y=\"166\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">E</text><text x=\"318\" y=\"166\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">F</text><text x=\"70\" y=\"168\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">4</text><text x=\"250\" y=\"168\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">6</text><text x=\"150\" y=\"20\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">△ABC ~ △DEF，相似比 2:3</text></svg>",
+      "caption": "$\\triangle ABC\\sim\\triangle DEF$，$\\overline{BC}=4$、$\\overline{EF}=6$，相似比 $2:3$。"
+    },
+    {
+      "title": "相似三角形的比例關係",
+      "points": [
+        "相似比 $k$（小：大）＝對應邊長比＝對應高比＝周長比。",
+        "面積比＝相似比的平方：相似比 $2:3$ 時，面積比 $4:9$。",
+        "已知面積比求邊長比要開根號：面積比 $9:16$ → 邊長比 $3:4$。"
+      ]
+    },
+    {
+      "title": "常見的相似圖形",
+      "points": [
+        "直角三角形斜邊上的高把它分成兩個小三角形，三個三角形兩兩相似（AA）。",
+        "如圖，$\\angle ACB=90^\\circ$、$\\overline{CD}\\perp\\overline{AB}$，由 $\\triangle ACD\\sim\\triangle CBD$ 得 $\\overline{CD}^2=\\overline{AD}\\times\\overline{BD}$。",
+        "兩三角形共用一個角、夾這個角的兩邊成比例 → SAS 相似，但要小心「哪一邊對哪一邊」。",
+        "影長問題：同一時刻陽光平行，物高：影長的比值相同。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"30,170 342,170 126,26\"/><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"170\" class=\"hl\" stroke-dasharray=\"5 4\"/><polyline points=\"136,170 136,160 126,160\" stroke-width=\"1.5\"/><polyline points=\"120.5,34.3 128.8,39.9 134.3,31.5\" stroke-width=\"1.5\"/><text x=\"20\" y=\"175\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"352\" y=\"175\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"126\" y=\"18\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"126\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"78\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">4</text><text x=\"234\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">9</text></svg>",
+      "caption": "$\\overline{AD}=4$、$\\overline{BD}=9$，則 $\\overline{CD}^2=4\\times 9=36$，$\\overline{CD}=6$。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "相似多邊形",
+      "body": "對應角相等 **且** 對應邊長成比例"
+    },
+    {
+      "name": "三角形相似判定",
+      "body": "AA、SAS、SSS（SSA 不行）"
+    },
+    {
+      "name": "邊、高、周長",
+      "body": "對應邊長比＝對應高比＝周長比＝相似比"
+    },
+    {
+      "name": "面積比",
+      "body": "面積比＝相似比的平方，$a:b \\Rightarrow a^2:b^2$"
+    },
+    {
+      "name": "直角三角形斜邊上的高",
+      "body": "$\\overline{CD}^2=\\overline{AD}\\times\\overline{BD}$（由相似推得）"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-02-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "相似形判斷",
+      "q": "下列哪一組圖形一定相似？",
+      "choices": [
+        "兩個長方形",
+        "兩個菱形",
+        "兩個正三角形",
+        "兩個等腰三角形"
+      ],
+      "answer": 2,
+      "explain": "正三角形的三個角都是 $60^\\circ$，三邊等長，所以任兩個正三角形對應角相等、對應邊成比例，一定相似。長方形的長寬比可以不同；菱形的內角可以不同；等腰三角形的頂角可以不同。答案是兩個正三角形。",
+      "codes": [
+        "S-9-1"
+      ]
+    },
+    {
+      "id": "m9-02-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "相似三角形對應邊",
+      "q": "已知 $\\triangle ABC\\sim\\triangle DEF$，$\\overline{AB}=6$、$\\overline{DE}=9$、$\\overline{BC}=8$，則 $\\overline{EF}$ 是多少？",
+      "choices": [
+        "$12$",
+        "$10$",
+        "$11$",
+        "$\\frac{16}{3}$"
+      ],
+      "answer": 0,
+      "explain": "$A$ 對 $D$、$B$ 對 $E$、$C$ 對 $F$，相似比 $\\overline{AB}:\\overline{DE}=6:9=2:3$。$\\overline{BC}:\\overline{EF}=2:3$，$\\overline{EF}=8\\times\\frac{3}{2}=12$。若比例倒過來會得 $\\frac{16}{3}$。答案是 $12$。",
+      "codes": [
+        "S-9-2"
+      ]
+    },
+    {
+      "id": "m9-02-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "相似形面積比",
+      "q": "兩個相似三角形的相似比為 $2:3$，小三角形的面積是 $20$ 平方公分，大三角形的面積是多少平方公分？",
+      "choices": [
+        "$30$",
+        "$45$",
+        "$40$",
+        "$60$"
+      ],
+      "answer": 1,
+      "explain": "面積比＝相似比的平方＝$4:9$。大三角形面積 $=20\\times\\frac{9}{4}=45$ 平方公分。直接用 $2:3$ 會誤得 $30$。答案是 $45$。",
+      "codes": [
+        "S-9-2"
+      ]
+    },
+    {
+      "id": "m9-02-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "相似三角形應用",
+      "q": "同一時刻，身高 $160$ 公分的小安影長 $120$ 公分，旁邊旗桿的影長是 $9$ 公尺。旗桿高多少公尺？",
+      "choices": [
+        "$6.75$ 公尺",
+        "$10$ 公尺",
+        "$13.5$ 公尺",
+        "$12$ 公尺"
+      ],
+      "answer": 3,
+      "explain": "同一時刻光線平行，人與旗桿形成的直角三角形相似，所以 高：影長 相同。$\\frac{160}{120}=\\frac{h}{9}$，$h=9\\times\\frac{4}{3}=12$ 公尺。比例寫反會得 $6.75$。答案是 $12$ 公尺。",
+      "codes": [
+        "S-9-2"
+      ]
+    },
+    {
+      "id": "m9-02-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "直角三角形相似",
+      "q": "如圖，$\\triangle ABC$ 中 $\\angle ACB=90^\\circ$，$\\overline{CD}\\perp\\overline{AB}$ 於 $D$。若 $\\overline{AD}=4$、$\\overline{BD}=9$，則 $\\overline{CD}$ 是多少？",
+      "svg": "<svg viewBox=\"0 0 380 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"30,170 342,170 126,26\"/><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"170\" class=\"hl\" stroke-dasharray=\"5 4\"/><polyline points=\"136,170 136,160 126,160\" stroke-width=\"1.5\"/><polyline points=\"120.5,34.3 128.8,39.9 134.3,31.5\" stroke-width=\"1.5\"/><text x=\"20\" y=\"175\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"352\" y=\"175\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"126\" y=\"18\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"126\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"78\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">4</text><text x=\"234\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">9</text></svg>",
+      "choices": [
+        "$6$",
+        "$\\sqrt{13}$",
+        "$6.5$",
+        "$36$"
+      ],
+      "answer": 0,
+      "explain": "$\\angle A+\\angle ACD=90^\\circ$，$\\angle BCD+\\angle ACD=90^\\circ$，所以 $\\angle A=\\angle BCD$；又 $\\angle ADC=\\angle CDB=90^\\circ$，由 AA 得 $\\triangle ADC\\sim\\triangle CDB$。$\\frac{\\overline{AD}}{\\overline{CD}}=\\frac{\\overline{CD}}{\\overline{BD}}$，$\\overline{CD}^2=4\\times 9=36$，$\\overline{CD}=6$（$36$ 是忘了開根號）。答案是 $6$。",
+      "codes": [
+        "S-9-2"
+      ]
+    },
+    {
+      "id": "m9-02-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "相似三角形判定",
+      "q": "$\\triangle ABC$ 中，$\\overline{AB}=8$、$\\overline{AC}=6$、$\\overline{BC}=10$。點 $D$ 在 $\\overline{AB}$ 上且 $\\overline{AD}=3$，點 $E$ 在 $\\overline{AC}$ 上且 $\\overline{AE}=4$。$\\overline{DE}$ 的長是多少？",
+      "choices": [
+        "$\\frac{15}{4}$",
+        "$\\frac{20}{3}$",
+        "$5$",
+        "$6$"
+      ],
+      "answer": 2,
+      "explain": "$\\frac{\\overline{AD}}{\\overline{AC}}=\\frac{3}{6}=\\frac{1}{2}$，$\\frac{\\overline{AE}}{\\overline{AB}}=\\frac{4}{8}=\\frac{1}{2}$，又共用 $\\angle A$，由 SAS 得 $\\triangle ADE\\sim\\triangle ACB$（$D$ 對 $C$、$E$ 對 $B$）。所以 $\\overline{DE}=\\overline{CB}\\times\\frac{1}{2}=5$。若誤配成 $\\triangle ADE\\sim\\triangle ABC$，會算出 $\\frac{15}{4}$。答案是 $5$。",
+      "codes": [
+        "S-9-2"
+      ]
+    },
+    {
+      "id": "m9-02-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "相似三角形對應邊",
+      "q": "$\\triangle ABC$ 中，$D$、$E$ 分別在 $\\overline{AB}$、$\\overline{AC}$ 上，$\\overline{DE}\\parallel\\overline{BC}$，$\\overline{AD}:\\overline{DB}=2:3$。若 $\\triangle ADE$ 的面積是 $8$，則四邊形 $DBCE$ 的面積是多少？",
+      "choices": [
+        "$42$",
+        "$12$",
+        "$50$",
+        "$18$"
+      ],
+      "answer": 0,
+      "explain": "$\\overline{DE}\\parallel\\overline{BC}$，同位角相等，由 AA 得 $\\triangle ADE\\sim\\triangle ABC$。相似比 $\\overline{AD}:\\overline{AB}=2:(2+3)=2:5$，面積比 $4:25$，所以 $\\triangle ABC$ 面積 $=8\\times\\frac{25}{4}=50$。四邊形 $DBCE=50-8=42$。答案是 $42$。",
+      "codes": [
+        "S-9-2"
+      ]
+    },
+    {
+      "id": "m9-02-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "相似形判斷",
+      "q": "一張長方形紙對折（長邊對半）後，得到的小長方形與原來的長方形相似。原長方形的長：寬是多少？",
+      "choices": [
+        "$2:1$",
+        "$\\sqrt{2}:1$",
+        "$3:2$",
+        "$\\sqrt{3}:1$"
+      ],
+      "answer": 1,
+      "explain": "設原長方形長 $L$、寬 $W$，對折後長 $W$、寬 $\\frac{L}{2}$。相似要求 $\\frac{L}{W}=\\frac{W}{L/2}$，得 $L^2=2W^2$，$L:W=\\sqrt{2}:1$（A4 紙就是這個比例）。答案是 $\\sqrt{2}:1$。",
+      "codes": [
+        "S-9-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 21 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-9-2"
+      },
+      {
+        "label": "113 年第 23 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-9-2"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「相似」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%9B%B8%E4%BC%BC"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

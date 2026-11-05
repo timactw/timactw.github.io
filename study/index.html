@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>會考衝刺站</title>
+<meta name="description" content="國中教育會考複習：重點整理、必背、自我測驗、錯題本。">
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15171b" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="會考衝刺">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="assets/app.css">
+<script defer src="vendor/katex/katex.min.js"></script>
+<script defer src="vendor/katex/contrib/auto-render.min.js"></script>
+<script defer src="assets/app.js"></script>
+</head>
+<body data-page="home">
+<header class="topbar"><div class="in">
+<a class="brand" href="index.html">📘 會考衝刺站</a><span class="sp"></span>
+<a class="navbtn" href="mistakes.html">錯題本</a>
+</div></header>
+<main class="wrap">
+<div id="main">
+<h1>今天也前進一點</h1>
+<div class="card countdown" id="countdown"><div class="num">…</div></div>
+<h2>科目</h2>
+<div class="grid" id="subjects"></div>
+<h2>錯題本</h2>
+<a class="card subj" style="--c:var(--bad);min-height:auto;flex-direction:row;align-items:center" href="mistakes.html"><span class="ic">📕</span><span><span class="nm">錯題本</span><br><span class="bl" id="mistake-count">讀取中…</span></span></a>
+<h2>讀書進度表</h2>
+<div class="card" id="progress"></div>
+<h2>備份</h2>
+<div class="card"><p class="small muted" style="margin-top:0">進度和錯題本存在這台 iPad 的瀏覽器裡。換裝置或清除網站資料前，先下載備份檔；之後可以從備份檔還原。</p>
+<div class="qbtns"><button class="btn" id="export">下載備份檔</button><button class="btn" id="import">從備份檔還原</button><input type="file" id="import-file" accept="application/json,.json" hidden></div></div></div>
+<footer class="site">本站不追蹤、不收集任何資料；進度與錯題本只存在這台裝置的瀏覽器裡。<span id="offline-state"></span></footer>
+</main>
+</body>
+</html>

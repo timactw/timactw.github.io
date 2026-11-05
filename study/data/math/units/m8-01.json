@@ -1,0 +1,263 @@
+{
+  "id": "m8-01",
+  "subject": "math",
+  "grade": 8,
+  "order": 1,
+  "title": "二次方根與近似值",
+  "codes": [
+    {
+      "code": "N-8-1",
+      "text": "二次方根：二次方根的意義；根式的化簡及四則運算。"
+    },
+    {
+      "code": "N-8-2",
+      "text": "二次方根的近似值：二次方根的近似值；二次方根的整數部分；十分逼近法。使用計算機√鍵。"
+    }
+  ],
+  "intro": "認識平方根與根號，學會把根式化成最簡根式並做四則運算，再估算根號的近似值。會考常考化簡、根式計算，以及「介於哪兩個整數之間」。",
+  "sections": [
+    {
+      "title": "平方根與根號",
+      "points": [
+        "若 $x^2=a$（$a\\ge 0$），$x$ 就叫做 $a$ 的平方根。",
+        "正數 $a$ 有兩個平方根：$\\sqrt{a}$ 和 $-\\sqrt{a}$，例如 $9$ 的平方根是 $\\pm 3$。",
+        "$0$ 的平方根只有 $0$；負數沒有平方根。",
+        "$\\sqrt{a}$ 一定大於或等於 $0$；$(\\sqrt{a})^2=a$，$\\sqrt{a^2}=|a|$。"
+      ]
+    },
+    {
+      "title": "最簡根式",
+      "points": [
+        "最簡根式要同時做到三件事：根號內沒有大於 1 的平方數因數、根號內沒有分母、分母沒有根號。",
+        "把平方因數拉到根號外：$\\sqrt{48}=\\sqrt{16\\times 3}=4\\sqrt{3}$。",
+        "分母有根號就有理化：$\\frac{6}{\\sqrt{3}}=\\frac{6\\sqrt{3}}{3}=2\\sqrt{3}$。",
+        "根號內有分數就上下同乘：$\\sqrt{\\frac{2}{3}}=\\sqrt{\\frac{6}{9}}=\\frac{\\sqrt{6}}{3}$。"
+      ]
+    },
+    {
+      "title": "根式的四則運算",
+      "points": [
+        "乘法：$\\sqrt{a}\\times\\sqrt{b}=\\sqrt{ab}$；除法：$\\sqrt{a}\\div\\sqrt{b}=\\sqrt{\\frac{a}{b}}$（$a\\ge 0$，$b>0$）。",
+        "加減：先化成最簡根式，根號內相同（同類根式）才能合併，例如 $\\sqrt{12}+\\sqrt{27}=2\\sqrt{3}+3\\sqrt{3}=5\\sqrt{3}$。",
+        "常見錯誤：$\\sqrt{2}+\\sqrt{3}\\ne\\sqrt{5}$，根號內的數不能直接相加。",
+        "像 $(\\sqrt{3}+1)^2$ 這種要用乘法公式展開的式子，放在「乘法公式」單元處理。"
+      ]
+    },
+    {
+      "title": "近似值與整數部分",
+      "points": [
+        "找夾住它的兩個連續完全平方數：$49<50<64$，所以 $7<\\sqrt{50}<8$，整數部分是 $7$。",
+        "十分逼近法：再夾小數第一位，$7.0^2=49$、$7.1^2=50.41$，所以 $7.0<\\sqrt{50}<7.1$。",
+        "用計算機的 $\\sqrt{\\ }$ 鍵可直接得到近似值：$\\sqrt{50}\\approx 7.071$。",
+        "常用近似值：$\\sqrt{2}\\approx 1.414$、$\\sqrt{3}\\approx 1.732$、$\\sqrt{5}\\approx 2.236$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 100\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\"><line x1=\"15\" y1=\"50\" x2=\"365\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"368,50 360,46 360,54\" fill=\"currentColor\"/><line x1=\"30\" y1=\"44\" x2=\"30\" y2=\"56\" stroke=\"currentColor\"/><text x=\"26\" y=\"74\">0</text><line x1=\"110\" y1=\"44\" x2=\"110\" y2=\"56\" stroke=\"currentColor\"/><text x=\"106\" y=\"74\">1</text><line x1=\"190\" y1=\"44\" x2=\"190\" y2=\"56\" stroke=\"currentColor\"/><text x=\"186\" y=\"74\">2</text><line x1=\"270\" y1=\"44\" x2=\"270\" y2=\"56\" stroke=\"currentColor\"/><text x=\"266\" y=\"74\">3</text><line x1=\"350\" y1=\"44\" x2=\"350\" y2=\"56\" stroke=\"currentColor\"/><text x=\"346\" y=\"74\">4</text><circle cx=\"143.1\" cy=\"50\" r=\"5\" class=\"hl\" fill=\"currentColor\"/><text x=\"119.1\" y=\"36\" font-size=\"13\">√2≈1.41</text><circle cx=\"208.9\" cy=\"50\" r=\"5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"184.9\" y=\"36\" font-size=\"13\">√5≈2.24</text><circle cx=\"283.0\" cy=\"50\" r=\"5\" class=\"hl\" fill=\"currentColor\"/><text x=\"259.0\" y=\"36\" font-size=\"13\">√10≈3.16</text></svg>",
+      "caption": "√2、√5、√10 在數線上的位置：都落在兩個連續整數之間"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "平方根",
+      "body": "$x^2=a$（$a>0$）$\\Rightarrow x=\\pm\\sqrt{a}$"
+    },
+    {
+      "name": "根號的乘除",
+      "body": "$\\sqrt{a}\\times\\sqrt{b}=\\sqrt{ab}$；$\\frac{\\sqrt{a}}{\\sqrt{b}}=\\sqrt{\\frac{a}{b}}$"
+    },
+    {
+      "name": "平方與開方",
+      "body": "$(\\sqrt{a})^2=a$；$\\sqrt{a^2}=|a|$"
+    },
+    {
+      "name": "最簡根式三條件",
+      "body": "根號內無平方因數、根號內無分母、分母無根號"
+    },
+    {
+      "name": "有理化分母",
+      "body": "$\\frac{b}{\\sqrt{a}}=\\frac{b\\sqrt{a}}{a}$"
+    },
+    {
+      "name": "常用近似值",
+      "body": "$\\sqrt{2}\\approx 1.414$，$\\sqrt{3}\\approx 1.732$，$\\sqrt{5}\\approx 2.236$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-01-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "最簡根式",
+      "q": "下列哪一個是最簡根式？",
+      "choices": [
+        "$\\sqrt{12}$",
+        "$\\sqrt{\\frac{1}{3}}$",
+        "$\\sqrt{15}$",
+        "$\\frac{2}{\\sqrt{5}}$"
+      ],
+      "answer": 2,
+      "explain": "$\\sqrt{12}=2\\sqrt{3}$，根號內有平方因數 $4$；$\\sqrt{\\frac{1}{3}}$ 根號內有分母；$\\frac{2}{\\sqrt{5}}$ 分母有根號。$15=3\\times 5$ 沒有平方因數，所以最簡根式是 $\\sqrt{15}$。",
+      "codes": [
+        "N-8-1"
+      ]
+    },
+    {
+      "id": "m8-01-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "根式乘法",
+      "q": "把 $\\sqrt{48}$ 化成最簡根式，結果是什麼？",
+      "choices": [
+        "$2\\sqrt{12}$",
+        "$16\\sqrt{3}$",
+        "$3\\sqrt{4}$",
+        "$4\\sqrt{3}$"
+      ],
+      "answer": 3,
+      "explain": "$48=16\\times 3$，$\\sqrt{48}=\\sqrt{16}\\times\\sqrt{3}=4\\sqrt{3}$。$2\\sqrt{12}$ 雖然值相同，但 $12$ 還含平方因數 $4$，不是最簡。答案是 $4\\sqrt{3}$。",
+      "codes": [
+        "N-8-1"
+      ]
+    },
+    {
+      "id": "m8-01-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "根式加減",
+      "q": "計算 $\\sqrt{2}\\times\\sqrt{18}$ 的值。",
+      "choices": [
+        "$6$",
+        "$\\sqrt{20}$",
+        "$9$",
+        "$36$"
+      ],
+      "answer": 0,
+      "explain": "$\\sqrt{2}\\times\\sqrt{18}=\\sqrt{36}=6$。$\\sqrt{20}$ 是把根號內相加的錯誤，$36$ 是忘了開根號。答案是 $6$。",
+      "codes": [
+        "N-8-1"
+      ]
+    },
+    {
+      "id": "m8-01-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "分母有理化",
+      "q": "計算 $\\sqrt{50}-\\sqrt{8}+\\sqrt{18}$ 的值。",
+      "choices": [
+        "$\\sqrt{60}$",
+        "$6\\sqrt{2}$",
+        "$4\\sqrt{2}$",
+        "$2\\sqrt{15}$"
+      ],
+      "answer": 1,
+      "explain": "先化簡：$\\sqrt{50}=5\\sqrt{2}$，$\\sqrt{8}=2\\sqrt{2}$，$\\sqrt{18}=3\\sqrt{2}$。合併同類根式：$5\\sqrt{2}-2\\sqrt{2}+3\\sqrt{2}=6\\sqrt{2}$。答案是 $6\\sqrt{2}$。",
+      "codes": [
+        "N-8-1"
+      ]
+    },
+    {
+      "id": "m8-01-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "平方根估計",
+      "q": "把 $\\frac{6}{\\sqrt{3}}$ 的分母有理化，結果是什麼？",
+      "choices": [
+        "$6\\sqrt{3}$",
+        "$\\sqrt{2}$",
+        "$3\\sqrt{2}$",
+        "$2\\sqrt{3}$"
+      ],
+      "answer": 3,
+      "explain": "分子分母同乘 $\\sqrt{3}$：$\\frac{6}{\\sqrt{3}}=\\frac{6\\sqrt{3}}{3}=2\\sqrt{3}$。$6\\sqrt{3}$ 是忘了除以 $3$，$\\sqrt{2}$ 是把 $6\\div 3$ 放進根號的錯誤。答案是 $2\\sqrt{3}$。",
+      "codes": [
+        "N-8-1"
+      ]
+    },
+    {
+      "id": "m8-01-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "平方根估計",
+      "q": "小安家有一塊正方形花圃，面積是 60 平方公尺。花圃的邊長介於哪兩個數之間？",
+      "choices": [
+        "6 公尺與 7 公尺之間",
+        "7 公尺與 8 公尺之間",
+        "8 公尺與 9 公尺之間",
+        "30 公尺與 31 公尺之間"
+      ],
+      "answer": 1,
+      "explain": "邊長是 $\\sqrt{60}$ 公尺。因為 $7^2=49<60<64=8^2$，所以 $7<\\sqrt{60}<8$。「30 與 31」是把面積除以 2 的錯誤。答案是 7 公尺與 8 公尺之間。",
+      "codes": [
+        "N-8-2"
+      ]
+    },
+    {
+      "id": "m8-01-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "根式加減",
+      "q": "已知 $4.4^2=19.36$、$4.5^2=20.25$。若 $\\sqrt{20}$ 的整數部分是 $a$，小數點後第一位數字是 $b$，則 $a+b$ 是多少？",
+      "choices": [
+        "$8$",
+        "$9$",
+        "$6$",
+        "$7$"
+      ],
+      "answer": 0,
+      "explain": "$4^2=16<20<25=5^2$，所以 $a=4$。再用十分逼近：$4.4^2=19.36<20<20.25=4.5^2$，所以 $4.4<\\sqrt{20}<4.5$，小數第一位 $b=4$。$a+b=8$。答案是 $8$。",
+      "codes": [
+        "N-8-2"
+      ]
+    },
+    {
+      "id": "m8-01-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "根式加減",
+      "q": "一個長方形的長是 $\\sqrt{45}$ 公分、寬是 $\\sqrt{20}$ 公分，它的周長是多少公分？",
+      "choices": [
+        "$5\\sqrt{5}$",
+        "$2\\sqrt{65}$",
+        "$10\\sqrt{5}$",
+        "$30$"
+      ],
+      "answer": 2,
+      "explain": "$\\sqrt{45}=3\\sqrt{5}$，$\\sqrt{20}=2\\sqrt{5}$。周長 $=2\\times(3\\sqrt{5}+2\\sqrt{5})=2\\times 5\\sqrt{5}=10\\sqrt{5}$。$5\\sqrt{5}$ 是忘了乘 2，$30$ 是面積 $\\sqrt{900}$。答案是 $10\\sqrt{5}$ 公分。",
+      "codes": [
+        "N-8-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 3 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 N-8-1"
+      },
+      {
+        "label": "114 年第 8 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 N-8-1"
+      },
+      {
+        "label": "113 年第 11 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 N-8-1"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「平方根」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B9%B3%E6%96%B9%E6%A0%B9"
+    },
+    {
+      "label": "均一教育平台：搜尋「根式」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%A0%B9%E5%BC%8F"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

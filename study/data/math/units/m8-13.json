@@ -1,0 +1,263 @@
+{
+  "id": "m8-13",
+  "subject": "math",
+  "grade": 8,
+  "order": 13,
+  "title": "全等圖形與三角形全等",
+  "codes": [
+    {
+      "code": "S-8-4",
+      "text": "全等圖形：全等圖形的意義（兩個圖形經過平移、旋轉或翻轉可以完全疊合）；兩個多邊形全等則其對應邊和對應角相等（反之亦然）。"
+    },
+    {
+      "code": "S-8-5",
+      "text": "三角形的全等性質：三角形的全等判定（SAS、SSS、ASA、AAS、RHS）；全等符號（≅）。"
+    }
+  ],
+  "intro": "兩個圖形經過平移、旋轉或翻轉能完全疊合，就是全等。三角形只要符合 SSS、SAS、ASA、AAS、RHS 其中一種，就能判定全等，並推出對應邊、對應角相等。",
+  "sections": [
+    {
+      "title": "全等圖形",
+      "points": [
+        "兩個圖形經過平移、旋轉或翻轉後可以完全疊合，就稱為全等圖形。",
+        "疊合時互相重合的頂點、邊、角，分別叫對應頂點、對應邊、對應角。",
+        "$\\triangle ABC\\cong\\triangle DEF$ 表示 A 對 D、B 對 E、C 對 F，**字母順序就是對應關係**。"
+      ],
+      "svg": "<svg viewBox=\"0 0 300 160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"30,130 120,130 60,40\" class=\"soft\"/><polygon points=\"270,130 180,130 240,40\" class=\"soft2\"/><line x1=\"75\" y1=\"124\" x2=\"75\" y2=\"136\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"136\" x2=\"225\" y2=\"124\" stroke-width=\"1.5\"/><line x1=\"86.4\" y1=\"90.4\" x2=\"96.4\" y2=\"83.8\" stroke-width=\"1.5\"/><line x1=\"83.6\" y1=\"86.2\" x2=\"93.6\" y2=\"79.6\" stroke-width=\"1.5\"/><line x1=\"203.6\" y1=\"83.8\" x2=\"213.6\" y2=\"90.4\" stroke-width=\"1.5\"/><line x1=\"206.4\" y1=\"79.6\" x2=\"216.4\" y2=\"86.2\" stroke-width=\"1.5\"/><line x1=\"52.3\" y1=\"82.2\" x2=\"40.9\" y2=\"78.4\" stroke-width=\"1.5\"/><line x1=\"50.7\" y1=\"86.9\" x2=\"39.3\" y2=\"83.1\" stroke-width=\"1.5\"/><line x1=\"49.1\" y1=\"91.6\" x2=\"37.7\" y2=\"87.8\" stroke-width=\"1.5\"/><line x1=\"259.1\" y1=\"78.4\" x2=\"247.7\" y2=\"82.2\" stroke-width=\"1.5\"/><line x1=\"260.7\" y1=\"83.1\" x2=\"249.3\" y2=\"86.9\" stroke-width=\"1.5\"/><line x1=\"262.3\" y1=\"87.8\" x2=\"250.9\" y2=\"91.6\" stroke-width=\"1.5\"/><text x=\"22\" y=\"146\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"126\" y=\"146\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"60\" y=\"32\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"278\" y=\"146\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"174\" y=\"146\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"240\" y=\"32\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">F</text><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"150\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/></svg>",
+      "caption": "△ABC 翻轉後與 △DEF 疊合：同樣記號的邊等長，$\\triangle ABC\\cong\\triangle DEF$。"
+    },
+    {
+      "title": "全等多邊形的性質",
+      "points": [
+        "兩個多邊形全等 ⇒ 所有對應邊相等、所有對應角相等。",
+        "反之，兩多邊形的對應邊都相等、對應角也都相等 ⇒ 全等。",
+        "全等圖形的周長、面積一定相等；但面積相等不一定全等。"
+      ]
+    },
+    {
+      "title": "三角形全等的五種判定",
+      "points": [
+        "SSS：三組對應邊相等。",
+        "SAS：兩組對應邊與它們的**夾角**相等。",
+        "ASA：兩組對應角與它們的**夾邊**相等。",
+        "AAS：兩組對應角與其中一角的**對邊**相等（第三角也會相等，可轉成 ASA）。",
+        "RHS：兩個**直角三角形**的斜邊相等，且一股相等。"
+      ]
+    },
+    {
+      "title": "不能判定全等的情形",
+      "points": [
+        "AAA：三個角相等只保證形狀一樣，大小可以不同。",
+        "SSA：兩邊與其中一邊的**對角**（不是夾角）相等，可能作出兩種不同的三角形。",
+        "SSA 的例外：那個角是直角時，就是 RHS，可以判定全等。"
+      ],
+      "svg": "<svg viewBox=\"0 0 290 165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"30\" y1=\"140\" x2=\"280\" y2=\"140\"/><line x1=\"30\" y1=\"140\" x2=\"144.9\" y2=\"43.6\"/><line x1=\"144.9\" y1=\"43.6\" x2=\"92\" y2=\"140\" class=\"hl\"/><line x1=\"144.9\" y1=\"43.6\" x2=\"197.9\" y2=\"140\" class=\"hl2\"/><path stroke-dasharray=\"4 4\" stroke-width=\"1\" d=\"M67.1,121.4 A110,110 0 0 0 222.7,121.4\"/><path d=\"M52,140 A22,22 0 0 0 46.9,125.9\"/><text x=\"63.8\" y=\"131.9\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40°</text><text x=\"24\" y=\"156\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"144.9\" y=\"35.6\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"92\" y=\"158\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C₁</text><text x=\"197.9\" y=\"158\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C₂</text></svg>",
+      "caption": "∠A＝40°、$\\overline{AB}$ 固定、$\\overline{BC}$ 固定長度，C 可以落在 C₁ 或 C₂：SSA 不保證全等。"
+    },
+    {
+      "title": "用全等做推理",
+      "points": [
+        "想證明兩線段或兩角相等，先找出含有它們的一對三角形，證明全等，再說「對應邊（角）相等」。",
+        "常用的隱藏條件：公共邊、公共角、對頂角相等、平行線的內錯角相等。",
+        "寫全等時頂點順序要對應正確，否則對應邊、對應角會找錯。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "全等的意義",
+      "body": "經平移、旋轉、翻轉能完全疊合"
+    },
+    {
+      "name": "全等符號",
+      "body": "$\\triangle ABC\\cong\\triangle DEF$，頂點依序對應"
+    },
+    {
+      "name": "判定性質",
+      "body": "SSS、SAS、ASA、AAS、RHS"
+    },
+    {
+      "name": "SAS 的 A",
+      "body": "必須是兩邊的夾角"
+    },
+    {
+      "name": "ASA 的 S",
+      "body": "必須是兩角的夾邊"
+    },
+    {
+      "name": "不能判定",
+      "body": "AAA、SSA（直角時的 RHS 除外）"
+    },
+    {
+      "name": "全等的結論",
+      "body": "對應邊相等、對應角相等"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-13-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "全等性質",
+      "q": "已知 $\\triangle ABC\\cong\\triangle PQR$，下列敘述何者一定正確？",
+      "choices": [
+        "$\\overline{AB}=\\overline{PQ}$",
+        "$\\overline{AB}=\\overline{QR}$",
+        "$\\angle A=\\angle Q$",
+        "$\\overline{BC}=\\overline{PR}$"
+      ],
+      "answer": 0,
+      "explain": "全等符號的字母順序就是對應：A 對 P、B 對 Q、C 對 R。所以 $\\overline{AB}$ 對 $\\overline{PQ}$、$\\overline{BC}$ 對 $\\overline{QR}$、∠A 對 ∠P。答案是 $\\overline{AB}=\\overline{PQ}$。",
+      "codes": [
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "全等判定",
+      "q": "$\\triangle ABC$ 與 $\\triangle DEF$ 中，$\\overline{AB}=\\overline{DE}$、$\\overline{BC}=\\overline{EF}$、$\\angle B=\\angle E$。可以用哪一個全等性質判定兩三角形全等？",
+      "choices": [
+        "SSS",
+        "ASA",
+        "SAS",
+        "RHS"
+      ],
+      "answer": 2,
+      "explain": "∠B 夾在 $\\overline{AB}$ 與 $\\overline{BC}$ 之間，∠E 夾在 $\\overline{DE}$ 與 $\\overline{EF}$ 之間，是「兩邊及其夾角」，用 SAS。答案是 SAS。",
+      "codes": [
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "全等判定",
+      "q": "下列哪一種條件，不能用來判定兩個三角形全等？",
+      "choices": [
+        "SSS",
+        "AAS",
+        "RHS",
+        "AAA"
+      ],
+      "answer": 3,
+      "explain": "三個角對應相等只能保證形狀一樣，大小可以不同（例如邊長 1 與邊長 2 的正三角形），所以 AAA 不能判定全等。其餘三者都是全等性質。答案是 AAA。",
+      "codes": [
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "全等對應邊角",
+      "q": "已知 $\\triangle ABC\\cong\\triangle DEF$，$\\overline{AB}=7$、$\\overline{BC}=9$、$\\overline{AC}=5$，∠A＝50°、∠B＝60°。下列何者正確？",
+      "choices": [
+        "$\\overline{EF}=7$，$\\angle F=70^\\circ$",
+        "$\\overline{EF}=9$，$\\angle F=70^\\circ$",
+        "$\\overline{EF}=9$，$\\angle F=60^\\circ$",
+        "$\\overline{EF}=5$，$\\angle F=50^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "$\\overline{EF}$ 對應 $\\overline{BC}$，所以 $\\overline{EF}=9$。∠F 對應 ∠C $=180^\\circ-50^\\circ-60^\\circ=70^\\circ$。答案是 $\\overline{EF}=9$，$\\angle F=70^\\circ$。",
+      "codes": [
+        "S-8-4",
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "全等推理應用",
+      "q": "如圖，想量池塘兩端 A、B 的距離。在空地上找一點 O，延長 $\\overline{AO}$ 到 C 使 $\\overline{OC}=\\overline{OA}$，延長 $\\overline{BO}$ 到 D 使 $\\overline{OD}=\\overline{OB}$，量得 $\\overline{CD}=25$ 公尺。$\\overline{AB}$ 的長與判定全等的依據是？",
+      "svg": "<svg viewBox=\"0 0 260 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"115\" cy=\"40\" rx=\"75\" ry=\"24\" class=\"soft\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30\" x2=\"200\" y2=\"190\"/><line x1=\"170\" y1=\"50\" x2=\"90\" y2=\"170\"/><line x1=\"60\" y1=\"30\" x2=\"170\" y2=\"50\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"200\" y1=\"190\" x2=\"90\" y2=\"170\" class=\"hl\"/><line x1=\"99.5\" y1=\"66\" x2=\"90.5\" y2=\"74\" stroke-width=\"1.5\"/><line x1=\"169.5\" y1=\"146\" x2=\"160.5\" y2=\"154\" stroke-width=\"1.5\"/><line x1=\"156.4\" y1=\"81.2\" x2=\"146.4\" y2=\"74.6\" stroke-width=\"1.5\"/><line x1=\"153.6\" y1=\"85.4\" x2=\"143.6\" y2=\"78.8\" stroke-width=\"1.5\"/><line x1=\"116.4\" y1=\"141.2\" x2=\"106.4\" y2=\"134.6\" stroke-width=\"1.5\"/><line x1=\"113.6\" y1=\"145.4\" x2=\"103.6\" y2=\"138.8\" stroke-width=\"1.5\"/><text x=\"50\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"180\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"144\" y=\"114\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"210\" y=\"196\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"80\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"115\" y=\"44\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">池塘</text></svg>",
+      "choices": [
+        "25 公尺，SSS",
+        "50 公尺，SAS",
+        "12.5 公尺，SAS",
+        "25 公尺，SAS"
+      ],
+      "answer": 3,
+      "explain": "$\\triangle AOB$ 與 $\\triangle COD$：$\\overline{OA}=\\overline{OC}$，∠AOB＝∠COD（對頂角），$\\overline{OB}=\\overline{OD}$，是兩邊夾一角，SAS 全等。對應邊 $\\overline{AB}=\\overline{CD}=25$。只知道兩組邊不能說 SSS，因為 $\\overline{AB}$ 正是要求的邊。答案是 25 公尺，SAS。",
+      "codes": [
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "全等判定",
+      "q": "$\\triangle ABC$ 與 $\\triangle DEF$ 中，∠C＝∠F＝90°，$\\overline{AB}=\\overline{DE}=13$，$\\overline{AC}=\\overline{DF}=5$。下列何者正確？",
+      "choices": [
+        "$\\overline{EF}=12$，依據 RHS 全等",
+        "$\\overline{EF}=12$，但這是 SSA，不一定全等",
+        "$\\overline{EF}=8$，依據 RHS 全等",
+        "條件不足，求不出 $\\overline{EF}$"
+      ],
+      "answer": 0,
+      "explain": "兩個直角三角形，斜邊 $\\overline{AB}=\\overline{DE}$、一股 $\\overline{AC}=\\overline{DF}$，符合 RHS，全等。$\\overline{EF}=\\overline{BC}=\\sqrt{13^2-5^2}=\\sqrt{144}=12$。直角時的 SSA 就是 RHS，可以判定；8 是誤用 $13-5$。答案是 $\\overline{EF}=12$，依據 RHS。",
+      "codes": [
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "全等判定",
+      "q": "下列哪一組條件「一定」能判定 $\\triangle ABC\\cong\\triangle DEF$？",
+      "choices": [
+        "$\\overline{AB}=\\overline{DE}$，$\\overline{BC}=\\overline{EF}$，$\\angle A=\\angle D$",
+        "$\\angle A=\\angle D$，$\\angle B=\\angle E$，$\\angle C=\\angle F$",
+        "$\\overline{AB}=\\overline{DE}$，$\\angle A=\\angle D$，$\\angle C=\\angle F$",
+        "$\\angle A=\\angle D=90^\\circ$，$\\overline{BC}=\\overline{EF}$"
+      ],
+      "answer": 2,
+      "explain": "第一個：∠A 不是 $\\overline{AB}$、$\\overline{BC}$ 的夾角，是 SSA，不一定全等。第二個：AAA，不一定。第三個：∠A、∠C 兩角，加上 ∠C 的對邊 $\\overline{AB}$，是 AAS，一定全等。第四個：直角三角形只知道斜邊，少一股，不足以判定。答案是第三個。",
+      "codes": [
+        "S-8-5"
+      ]
+    },
+    {
+      "id": "m8-13-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "全等推理應用",
+      "q": "四邊形 ABCD 中 $\\overline{AB}=\\overline{AD}$、$\\overline{CB}=\\overline{CD}$，連接 $\\overline{AC}$。要說明 ∠ABC＝∠ADC，下列哪個推理最正確？",
+      "choices": [
+        "$\\triangle ABC\\cong\\triangle ADC$（SAS），對應角相等",
+        "$\\triangle ABC\\cong\\triangle ADC$（SSS），對應角相等",
+        "$\\triangle ABC\\cong\\triangle CDA$（SSS），對應角相等",
+        "$\\overline{AC}$ 平分 ∠BAD，所以 ∠ABC＝∠ADC"
+      ],
+      "answer": 1,
+      "explain": "$\\triangle ABC$ 與 $\\triangle ADC$：$\\overline{AB}=\\overline{AD}$，$\\overline{BC}=\\overline{DC}$，$\\overline{AC}$ 是公共邊，三組邊相等，SSS 全等；A 對 A、B 對 D、C 對 C，所以 ∠ABC＝∠ADC。題目沒給任何角，不能用 SAS；寫成 $\\triangle CDA$ 會讓 A 對到 C，對應錯誤；「平分 ∠BAD」是全等之後才推得出的結論，不能拿來當理由。答案是 SSS 那一個。",
+      "codes": [
+        "S-8-5"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 12 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-8-5"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「全等」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%85%A8%E7%AD%89"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

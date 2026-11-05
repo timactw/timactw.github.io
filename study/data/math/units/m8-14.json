@@ -1,0 +1,242 @@
+{
+  "id": "m8-14",
+  "subject": "math",
+  "grade": 8,
+  "order": 14,
+  "title": "三角形的基本性質",
+  "codes": [
+    {
+      "code": "S-8-8",
+      "text": "三角形的基本性質：等腰三角形兩底角相等；非等腰三角形大角對大邊，大邊對大角；三角形兩邊和大於第三邊；外角等於其內對角和。"
+    }
+  ],
+  "intro": "三角形的角與邊互相牽制：內角和 180°、外角等於兩內對角和、等腰三角形兩底角相等、大邊對大角、兩邊和大於第三邊。",
+  "sections": [
+    {
+      "title": "內角與外角",
+      "points": [
+        "三角形三個內角和為 $180^\\circ$。",
+        "外角：一邊與鄰邊延長線所夾的角，例如延長 $\\overline{BC}$ 到 D，∠ACD 是 ∠C 的外角。",
+        "**外角等於兩個內對角的和**：∠ACD $=\\angle A+\\angle B$。",
+        "因為外角也等於 $180^\\circ-\\angle C$，而 $\\angle A+\\angle B=180^\\circ-\\angle C$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 270 165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"100,35 30,140 160,140\" class=\"soft\"/><line x1=\"160\" y1=\"140\" x2=\"250\" y2=\"140\" stroke-dasharray=\"5 4\"/><path d=\"M182,140 A22,22 0 0 0 149.1,120.9\" class=\"hl\"/><path d=\"M88.9,51.6 A20,20 0 0 0 109.9,52.4\" class=\"hl2\"/><path d=\"M50,140 A20,20 0 0 0 41.1,123.4\" class=\"hl2\"/><text x=\"100\" y=\"27\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"22\" y=\"156\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"160\" y=\"158\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"250\" y=\"158\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>",
+      "caption": "外角 ∠ACD（主色）等於兩個內對角 ∠A、∠B（橘色）的和。"
+    },
+    {
+      "title": "等腰三角形",
+      "points": [
+        "兩邊相等的三角形是等腰三角形；相等的兩邊叫腰，兩腰的夾角叫頂角，另外兩個角叫底角。",
+        "等腰三角形**兩底角相等**；反過來，兩角相等的三角形，這兩角的對邊也相等。",
+        "頂角 $\\theta$ ⇒ 每個底角 $=\\frac{180^\\circ-\\theta}{2}$；底角 $\\alpha$ ⇒ 頂角 $=180^\\circ-2\\alpha$。",
+        "正三角形三邊相等，三個角都是 $60^\\circ$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 240 165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"120,25 50,145 190,145\" class=\"soft\"/><line x1=\"90.2\" y1=\"88\" x2=\"79.8\" y2=\"82\" stroke-width=\"1.5\"/><line x1=\"160.2\" y1=\"82\" x2=\"149.8\" y2=\"88\" stroke-width=\"1.5\"/><path d=\"M70,145 A20,20 0 0 0 60.1,127.7\" class=\"hl\"/><path d=\"M179.9,127.7 A20,20 0 0 0 170,145\" class=\"hl\"/><text x=\"120\" y=\"17\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A（頂角）</text><text x=\"42\" y=\"161\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"198\" y=\"161\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"120\" y=\"160\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">底邊</text></svg>",
+      "caption": "$\\overline{AB}=\\overline{AC}$ ⇒ ∠B＝∠C。"
+    },
+    {
+      "title": "大邊對大角",
+      "points": [
+        "在同一個三角形中，較長的邊所對的角較大；較大的角所對的邊較長。",
+        "比較角的大小，先比它們的**對邊**；比較邊的長短，先比它們的**對角**。",
+        "直角三角形的斜邊對 $90^\\circ$，是最大角，所以斜邊最長；鈍角三角形中鈍角所對的邊最長。"
+      ]
+    },
+    {
+      "title": "三邊關係",
+      "points": [
+        "三角形任意兩邊長的和大於第三邊；任意兩邊長的差小於第三邊。",
+        "判斷三數能否成為三角形：兩個較短邊的和大於最長邊即可。",
+        "已知兩邊 $a$、$b$，第三邊 $c$ 的範圍：$|a-b|<c<a+b$。",
+        "等腰三角形已知兩個不同的邊長時，要分兩種情況試，再用三邊關係刪去不合的。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "內角和",
+      "body": "$\\angle A+\\angle B+\\angle C=180^\\circ$"
+    },
+    {
+      "name": "外角定理",
+      "body": "外角＝兩個內對角的和"
+    },
+    {
+      "name": "等腰三角形",
+      "body": "兩腰相等 ⇔ 兩底角相等"
+    },
+    {
+      "name": "底角與頂角",
+      "body": "底角 $=\\frac{180^\\circ-頂角}{2}$"
+    },
+    {
+      "name": "邊角關係",
+      "body": "大邊對大角、大角對大邊"
+    },
+    {
+      "name": "三邊關係",
+      "body": "$|a-b|<c<a+b$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-14-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "等腰三角形底角",
+      "q": "一個等腰三角形的頂角是 40°，它的一個底角是多少度？",
+      "choices": [
+        "$40^\\circ$",
+        "$70^\\circ$",
+        "$140^\\circ$",
+        "$100^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "兩底角相等，和為 $180^\\circ-40^\\circ=140^\\circ$，每個底角 $=140^\\circ\\div2=70^\\circ$。$140^\\circ$ 是忘了除以 2。答案是 $70^\\circ$。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "三邊關係",
+      "q": "下列哪一組數作為三邊長，可以構成三角形？",
+      "choices": [
+        "3、4、8",
+        "5、5、10",
+        "2、6、9",
+        "4、6、9"
+      ],
+      "answer": 3,
+      "explain": "看兩短邊和是否大於最長邊：$3+4=7<8$ 不行；$5+5=10$ 等於 10，不大於，不行；$2+6=8<9$ 不行；$4+6=10>9$ 可以。答案是 4、6、9。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "外角定理",
+      "q": "$\\triangle ABC$ 中 ∠A＝48°、∠B＝67°，延長 $\\overline{BC}$ 到 D。∠ACD 是多少度？",
+      "choices": [
+        "$65^\\circ$",
+        "$48^\\circ$",
+        "$115^\\circ$",
+        "$132^\\circ$"
+      ],
+      "answer": 2,
+      "explain": "∠ACD 是 ∠C 的外角，等於兩內對角和：$48^\\circ+67^\\circ=115^\\circ$。$65^\\circ$ 是 ∠C 本身；$132^\\circ$ 是 $180^\\circ-48^\\circ$。答案是 $115^\\circ$。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "大邊對大角",
+      "q": "$\\triangle ABC$ 中 $\\overline{AB}=7$、$\\overline{BC}=5$、$\\overline{CA}=9$。三個內角由大到小的順序是？",
+      "choices": [
+        "∠B＞∠C＞∠A",
+        "∠A＞∠C＞∠B",
+        "∠C＞∠A＞∠B",
+        "∠B＞∠A＞∠C"
+      ],
+      "answer": 0,
+      "explain": "大邊對大角，先找每個角的對邊：∠A 對 $\\overline{BC}=5$，∠B 對 $\\overline{CA}=9$，∠C 對 $\\overline{AB}=7$。對邊 $9>7>5$，所以 ∠B＞∠C＞∠A。把「對邊」看成「鄰邊」就會選錯。答案是 ∠B＞∠C＞∠A。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "三邊關係",
+      "q": "一個三角形有兩邊長是 4 和 9，第三邊長是整數，第三邊有幾種可能？",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explain": "$9-4<c<9+4$，即 $5<c<13$，整數 $c=6,7,8,9,10,11,12$，共 7 種。誤把 5 或 13 也算進去會多算。答案是 7 種。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "三邊關係",
+      "q": "一個等腰三角形有兩邊長分別是 4 公分和 9 公分，它的周長是多少公分？",
+      "choices": [
+        "17",
+        "22",
+        "17 或 22",
+        "13"
+      ],
+      "answer": 1,
+      "explain": "情況一：腰 4、底 9，三邊 4、4、9，$4+4=8<9$，不能成三角形。情況二：腰 9、底 4，三邊 9、9、4，$9+4>9$，可以。周長 $9+9+4=22$。沒有用三邊關係檢查會誤選「17 或 22」。答案是 22 公分。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "等腰三角形底角",
+      "q": "如圖，$\\triangle ABC$ 中 $\\overline{AB}=\\overline{AC}$，D 在 $\\overline{AC}$ 上，且 $\\overline{AD}=\\overline{BD}=\\overline{BC}$。∠A 是多少度？",
+      "svg": "<svg viewBox=\"0 0 240 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"120,20 73.6,162.7 166.4,162.7\" class=\"soft\"/><line x1=\"73.6\" y1=\"162.7\" x2=\"148.6\" y2=\"108.2\" class=\"hl\"/><line x1=\"140\" y1=\"62.2\" x2=\"128.6\" y2=\"65.9\" stroke-width=\"1.5\"/><line x1=\"107.6\" y1=\"130.6\" x2=\"114.7\" y2=\"140.3\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"156.7\" x2=\"120\" y2=\"168.7\" stroke-width=\"1.5\"/><text x=\"120\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"63.6\" y=\"170.7\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"176.4\" y=\"170.7\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"160.6\" y=\"112.2\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>",
+      "choices": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$72^\\circ$",
+        "$36^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "設 ∠A＝$x$。$\\overline{AD}=\\overline{BD}$ ⇒ ∠ABD＝∠A＝$x$。∠BDC 是 $\\triangle ABD$ 的外角 $=x+x=2x$。$\\overline{BD}=\\overline{BC}$ ⇒ ∠C＝∠BDC＝$2x$。$\\overline{AB}=\\overline{AC}$ ⇒ ∠ABC＝∠C＝$2x$。內角和 $x+2x+2x=180^\\circ$，$x=36^\\circ$。$72^\\circ$ 是底角。答案是 $36^\\circ$。",
+      "codes": [
+        "S-8-8"
+      ]
+    },
+    {
+      "id": "m8-14-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "三角形外角平分線",
+      "q": "如圖，$\\triangle ABC$ 中 ∠A＝70°。∠ABC 的平分線與 ∠C 的外角 ∠ACD 的平分線交於 P。∠BPC 是多少度？",
+      "svg": "<svg viewBox=\"0 0 300 180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"87.1,61.2 30,160 170,160\" class=\"soft\"/><line x1=\"170\" y1=\"160\" x2=\"280\" y2=\"160\" stroke-dasharray=\"5 4\"/><line x1=\"30\" y1=\"160\" x2=\"221.6\" y2=\"49.4\" class=\"hl\"/><line x1=\"170\" y1=\"160\" x2=\"221.6\" y2=\"49.4\" class=\"hl2\"/><text x=\"87.1\" y=\"53.2\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"22\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"170\" y=\"178\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"280\" y=\"178\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"231.6\" y=\"49.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text></svg>",
+      "choices": [
+        "$35^\\circ$",
+        "$70^\\circ$",
+        "$55^\\circ$",
+        "$110^\\circ$"
+      ],
+      "answer": 0,
+      "explain": "設 ∠ABC＝$2x$、∠ACD＝$2y$。外角定理：$2y=70^\\circ+2x$，所以 $y-x=35^\\circ$。在 $\\triangle PBC$ 中，∠PCD 是外角：$y=\\angle BPC+x$，所以 ∠BPC $=y-x=35^\\circ$。也就是 ∠BPC 永遠是 ∠A 的一半，跟 ∠B 多大無關。答案是 $35^\\circ$。",
+      "codes": [
+        "S-8-8"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「三角形的邊角關係」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E9%82%8A%E8%A7%92%E9%97%9C%E4%BF%82"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

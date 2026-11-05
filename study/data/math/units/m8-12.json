@@ -1,0 +1,279 @@
+{
+  "id": "m8-12",
+  "subject": "math",
+  "grade": 8,
+  "order": 12,
+  "title": "多邊形內角和與正三角形面積",
+  "codes": [
+    {
+      "code": "S-8-2",
+      "text": "凸多邊形的內角和：凸多邊形的意義；內角與外角的意義；凸多邊形的內角和公式；正 n 邊形的每個內角度數。"
+    },
+    {
+      "code": "S-8-7",
+      "text": "平面圖形的面積：正三角形的高與面積公式，及其相關之複合圖形的面積。"
+    }
+  ],
+  "intro": "用「切成三角形」求凸多邊形內角和，進而算正多邊形每個內角；再用畢氏定理推出正三角形的高與面積。",
+  "sections": [
+    {
+      "title": "凸多邊形、內角與外角",
+      "points": [
+        "凸多邊形：每一個內角都小於 $180^\\circ$，圖形沒有向內凹的地方。",
+        "內角：多邊形相鄰兩邊所夾、在圖形內部的角。",
+        "外角：一邊與相鄰邊的延長線所夾的角；同一頂點的內角與外角互補（和為 $180^\\circ$）。"
+      ]
+    },
+    {
+      "title": "內角和公式",
+      "points": [
+        "從凸 $n$ 邊形的一個頂點畫對角線，可畫 $n-3$ 條，把圖形分成 $n-2$ 個三角形。",
+        "每個三角形內角和 $180^\\circ$，所以凸 $n$ 邊形內角和 $=(n-2)\\times180^\\circ$。",
+        "常用值：三角形 $180^\\circ$、四邊形 $360^\\circ$、五邊形 $540^\\circ$、六邊形 $720^\\circ$、八邊形 $1080^\\circ$。",
+        "已知內角和反推邊數：$(n-2)\\times180=$ 內角和，解出 $n$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 240 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"120,25 48.7,76.8 75.9,160.7 164.1,160.7 191.3,76.8\" class=\"soft\"/><line x1=\"120\" y1=\"25\" x2=\"75.9\" y2=\"160.7\" class=\"hl\" stroke-dasharray=\"5 4\"/><line x1=\"120\" y1=\"25\" x2=\"164.1\" y2=\"160.7\" class=\"hl\" stroke-dasharray=\"5 4\"/><text x=\"80\" y=\"122\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">①</text><text x=\"120\" y=\"150\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">②</text><text x=\"160\" y=\"122\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">③</text><text x=\"120\" y=\"17\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text></svg>",
+      "caption": "五邊形從頂點 A 畫 2 條對角線，分成 3 個三角形：$3\\times180^\\circ=540^\\circ$。"
+    },
+    {
+      "title": "正 n 邊形的每個內角",
+      "points": [
+        "正 $n$ 邊形：每邊等長、每個內角都相等。",
+        "每個內角 $=\\frac{(n-2)\\times180^\\circ}{n}$。",
+        "常用值：正三角形 $60^\\circ$、正方形 $90^\\circ$、正五邊形 $108^\\circ$、正六邊形 $120^\\circ$、正八邊形 $135^\\circ$。",
+        "已知每個內角反推 $n$：列 $\\frac{(n-2)\\times180}{n}=$ 內角度數，兩邊乘 $n$ 再解。"
+      ]
+    },
+    {
+      "title": "正三角形的高與面積",
+      "points": [
+        "正三角形從頂點作底邊的垂線，垂足是底邊中點，把底邊分成兩段 $\\frac{a}{2}$。",
+        "由畢氏定理：高 $h=\\sqrt{a^2-(\\frac{a}{2})^2}=\\frac{\\sqrt{3}}{2}a$。",
+        "面積 $=\\frac{1}{2}\\times a\\times\\frac{\\sqrt{3}}{2}a=\\frac{\\sqrt{3}}{4}a^2$。",
+        "已知面積求邊長：$\\frac{\\sqrt{3}}{4}a^2=$ 面積，先求 $a^2$ 再開根號。"
+      ],
+      "svg": "<svg viewBox=\"0 0 240 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"40,165 200,165 120,26.4\" class=\"soft\"/><line x1=\"120\" y1=\"26.4\" x2=\"120\" y2=\"165\" class=\"hl\" stroke-dasharray=\"5 4\"/><polyline stroke-width=\"1.5\" points=\"129,165 129,156 120,156\"/><text x=\"70\" y=\"183\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">a/2</text><text x=\"160\" y=\"183\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">a/2</text><text x=\"68\" y=\"95\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">a</text><text x=\"172\" y=\"95\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">a</text><text x=\"126\" y=\"110\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">h</text></svg>",
+      "caption": "邊長 a 的正三角形，高 h 把底邊平分：$h=\\frac{\\sqrt{3}}{2}a$。"
+    },
+    {
+      "title": "複合圖形的面積",
+      "points": [
+        "正六邊形可由中心切成 6 個全等的正三角形，面積 $=6\\times\\frac{\\sqrt{3}}{4}a^2=\\frac{3\\sqrt{3}}{2}a^2$。",
+        "複雜圖形用「拆開相加」或「大塊扣小塊」，正三角形的部分用 $\\frac{\\sqrt{3}}{4}a^2$。",
+        "需要某點到某邊的距離時，常要先算出正三角形的高 $\\frac{\\sqrt{3}}{2}a$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 240 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"200,95 160,25.7 80,25.7 40,95 80,164.3 160,164.3\" class=\"soft\"/><line x1=\"120\" y1=\"95\" x2=\"200\" y2=\"95\" stroke-dasharray=\"5 4\"/><line x1=\"120\" y1=\"95\" x2=\"160\" y2=\"25.7\" stroke-dasharray=\"5 4\"/><line x1=\"120\" y1=\"95\" x2=\"80\" y2=\"25.7\" stroke-dasharray=\"5 4\"/><line x1=\"120\" y1=\"95\" x2=\"40\" y2=\"95\" stroke-dasharray=\"5 4\"/><line x1=\"120\" y1=\"95\" x2=\"80\" y2=\"164.3\" stroke-dasharray=\"5 4\"/><line x1=\"120\" y1=\"95\" x2=\"160\" y2=\"164.3\" stroke-dasharray=\"5 4\"/><circle cx=\"120\" cy=\"95\" r=\"3\" fill=\"currentColor\"/><text x=\"194\" y=\"60.4\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">a</text></svg>",
+      "caption": "正六邊形＝6 個邊長 a 的正三角形。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "凸 n 邊形內角和",
+      "body": "$(n-2)\\times180^\\circ$"
+    },
+    {
+      "name": "正 n 邊形每個內角",
+      "body": "$\\frac{(n-2)\\times180^\\circ}{n}$"
+    },
+    {
+      "name": "一頂點出發的對角線",
+      "body": "$n-3$ 條，分成 $n-2$ 個三角形"
+    },
+    {
+      "name": "內角與外角",
+      "body": "同一頂點的內角＋外角 $=180^\\circ$"
+    },
+    {
+      "name": "正三角形的高",
+      "body": "$h=\\frac{\\sqrt{3}}{2}a$"
+    },
+    {
+      "name": "正三角形面積",
+      "body": "$\\frac{\\sqrt{3}}{4}a^2$"
+    },
+    {
+      "name": "正六邊形面積",
+      "body": "$6\\times\\frac{\\sqrt{3}}{4}a^2=\\frac{3\\sqrt{3}}{2}a^2$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-12-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "正多邊形內角",
+      "q": "正八邊形的每一個內角是多少度？",
+      "choices": [
+        "$1080^\\circ$",
+        "$45^\\circ$",
+        "$120^\\circ$",
+        "$135^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "內角和 $=(8-2)\\times180^\\circ=1080^\\circ$，8 個內角相等，每個 $=1080^\\circ\\div8=135^\\circ$。$1080^\\circ$ 是忘了除以 8；$120^\\circ$ 是正六邊形。答案是 $135^\\circ$。",
+      "codes": [
+        "S-8-2"
+      ]
+    },
+    {
+      "id": "m8-12-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "多邊形內角和",
+      "q": "凸十邊形的內角和是多少度？",
+      "choices": [
+        "$1800^\\circ$",
+        "$1440^\\circ$",
+        "$1620^\\circ$",
+        "$144^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "$(10-2)\\times180^\\circ=1440^\\circ$。$1800^\\circ$ 是誤用 $10\\times180^\\circ$；$144^\\circ$ 是正十邊形的每個內角。答案是 $1440^\\circ$。",
+      "codes": [
+        "S-8-2"
+      ]
+    },
+    {
+      "id": "m8-12-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "正三角形面積",
+      "q": "邊長 6 公分的正三角形，面積是多少平方公分？",
+      "choices": [
+        "$9\\sqrt{3}$",
+        "$18\\sqrt{3}$",
+        "$3\\sqrt{3}$",
+        "$18$"
+      ],
+      "answer": 0,
+      "explain": "面積 $=\\frac{\\sqrt{3}}{4}\\times6^2=\\frac{\\sqrt{3}}{4}\\times36=9\\sqrt{3}$。$18\\sqrt{3}$ 是忘了乘 $\\frac{1}{2}$；$3\\sqrt{3}$ 是高；18 是把高誤當成 6。答案是 $9\\sqrt{3}$。",
+      "codes": [
+        "S-8-7"
+      ]
+    },
+    {
+      "id": "m8-12-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "正多邊形內角",
+      "q": "某正 $n$ 邊形的每一個內角都是 144°，$n$ 是多少？",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explain": "$\\frac{(n-2)\\times180}{n}=144$，$180n-360=144n$，$36n=360$，$n=10$。檢查：正十邊形內角 $=1440^\\circ\\div10=144^\\circ$。答案是 10。",
+      "codes": [
+        "S-8-2"
+      ]
+    },
+    {
+      "id": "m8-12-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "正三角形面積",
+      "q": "一個正三角形的面積是 $16\\sqrt{3}$ 平方公分，它的邊長是多少公分？",
+      "choices": [
+        "8",
+        "4",
+        "$4\\sqrt{3}$",
+        "16"
+      ],
+      "answer": 0,
+      "explain": "$\\frac{\\sqrt{3}}{4}a^2=16\\sqrt{3}$，$a^2=64$，$a=8$（邊長取正）。4 是把 $a^2=16$ 誤算；16 是忘了開根號。答案是 8 公分。",
+      "codes": [
+        "S-8-7"
+      ]
+    },
+    {
+      "id": "m8-12-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "多邊形對角線",
+      "q": "某凸多邊形的內角和是 1260°。從它的一個頂點出發，可以畫出幾條對角線？",
+      "choices": [
+        "9",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explain": "$(n-2)\\times180=1260$，$n-2=7$，$n=9$。從一個頂點出發的對角線有 $n-3=9-3=6$ 條（不能連自己和相鄰兩點）。7 是分出的三角形個數 $n-2$；9 是邊數。答案是 6 條。",
+      "codes": [
+        "S-8-2"
+      ]
+    },
+    {
+      "id": "m8-12-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "複合圖形面積",
+      "q": "一個正六邊形地磚的邊長是 4 公分，它的面積是多少平方公分？",
+      "choices": [
+        "$12\\sqrt{3}$",
+        "$24\\sqrt{3}$",
+        "$48\\sqrt{3}$",
+        "$96$"
+      ],
+      "answer": 1,
+      "explain": "正六邊形可切成 6 個邊長 4 的正三角形。每個面積 $\\frac{\\sqrt{3}}{4}\\times16=4\\sqrt{3}$，共 $6\\times4\\sqrt{3}=24\\sqrt{3}$。$48\\sqrt{3}$ 是忘了乘 $\\frac{1}{2}$。答案是 $24\\sqrt{3}$。",
+      "codes": [
+        "S-8-7"
+      ]
+    },
+    {
+      "id": "m8-12-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "複合圖形面積",
+      "q": "如圖，正方形 ABCD 的邊長是 6，以 $\\overline{AB}$ 為邊向正方形內部作正三角形 ABE。$\\triangle CDE$ 的面積是多少？",
+      "svg": "<svg viewBox=\"0 0 230 195\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"190,20 40,20 115,40.1\" class=\"soft2\"/><polygon points=\"40,170 190,170 190,20 40,20\"/><polygon points=\"40,170 190,170 115,40.1\" class=\"hl\"/><text x=\"32\" y=\"186\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"198\" y=\"186\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"198\" y=\"16\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"32\" y=\"16\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"115\" y=\"32.1\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"115\" y=\"188\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+      "choices": [
+        "$36-9\\sqrt{3}$",
+        "$9\\sqrt{3}$",
+        "$18-9\\sqrt{3}$",
+        "$18-3\\sqrt{3}$"
+      ],
+      "answer": 2,
+      "explain": "正三角形 ABE 的高 $=\\frac{\\sqrt{3}}{2}\\times6=3\\sqrt{3}$，也就是 E 到 $\\overline{AB}$ 的距離。E 到 $\\overline{CD}$ 的距離 $=6-3\\sqrt{3}$。$\\triangle CDE$ 面積 $=\\frac{1}{2}\\times6\\times(6-3\\sqrt{3})=18-9\\sqrt{3}$。$36-9\\sqrt{3}$ 是正方形扣掉正三角形 ABE，不是所求。答案是 $18-9\\sqrt{3}$。",
+      "codes": [
+        "S-8-7"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 15 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-8-2"
+      },
+      {
+        "label": "114 年第 5 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 S-8-2"
+      },
+      {
+        "label": "113 年第 20 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-8-2"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「內角和」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%85%A7%E8%A7%92%E5%92%8C"
+    },
+    {
+      "label": "均一教育平台：搜尋「正三角形」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

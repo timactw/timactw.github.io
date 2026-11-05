@@ -1,0 +1,20 @@
+{
+ "id": "science",
+ "name": "自然",
+ "order": 2,
+ "icon": "🔬",
+ "color": "#1f8a4c",
+ "status": "coming",
+ "blurb": "八、九年級理化、生物、地科",
+ "groups": [
+  {
+   "grade": 8,
+   "title": "八年級"
+  },
+  {
+   "grade": 9,
+   "title": "九年級"
+  }
+ ],
+ "units": []
+}

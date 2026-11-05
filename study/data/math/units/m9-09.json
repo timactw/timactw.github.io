@@ -1,0 +1,215 @@
+{
+  "id": "m9-09",
+  "subject": "math",
+  "grade": 9,
+  "order": 9,
+  "title": "三角形的內心",
+  "codes": [
+    {
+      "code": "S-9-9",
+      "text": "三角形的內心：內心的意義與內切圓；三角形的內心到三角形的三邊等距；三角形的面積＝周長×內切圓半徑÷2；直角三角形的內切圓半徑＝（兩股和－斜邊）÷2。"
+    }
+  ],
+  "intro": "內心是三個內角平分線的交點，也是內切圓的圓心。會考常考內心到三邊等距、面積＝周長×內切圓半徑÷2，以及直角三角形的內切圓半徑公式。",
+  "sections": [
+    {
+      "title": "內心的意義",
+      "points": [
+        "三角形三個內角的角平分線會交於同一點，這一點叫做**內心**，常記為 $I$。",
+        "不論銳角、直角或鈍角三角形，內心一定在三角形**內部**。",
+        "角平分線上的任一點到角的兩邊距離相等；內心同時在三條角平分線上，所以到三邊等距。",
+        "內心到三邊的距離就是**內切圓**的半徑 $r$，內切圓與三邊各相切於一點。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 255\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"120,30 30,230 330,230\"/><circle cx=\"144.7\" cy=\"155.9\" r=\"74.1\" class=\"hl\"/><line x1=\"120\" y1=\"30\" x2=\"159.2\" y2=\"230\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"230\" x2=\"208.7\" y2=\"114.5\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"230\" x2=\"75.8\" y2=\"128.3\" stroke-width=\"1.2\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"144.7\" y2=\"230\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"195.8\" y2=\"102.2\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"77.1\" y2=\"125.4\" class=\"hl2\" stroke-dasharray=\"5 4\"/><circle cx=\"144.7\" cy=\"155.9\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132.7\" y=\"173.9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">I</text><text x=\"120\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"18\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"342\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text></svg>",
+      "caption": "三條角平分線交於內心 I；I 到三邊的垂直距離（橘色虛線）都等於內切圓半徑 r。"
+    },
+    {
+      "title": "面積＝周長×內切圓半徑÷2",
+      "points": [
+        "連接 $\\overline{IA}$、$\\overline{IB}$、$\\overline{IC}$，把三角形切成三個小三角形，三個小三角形的高都是 $r$。",
+        "$\\triangle ABC$ 面積 $=\\frac{1}{2}ar+\\frac{1}{2}br+\\frac{1}{2}cr=\\frac{1}{2}(a+b+c)r$。",
+        "口訣：**面積＝周長×內切圓半徑÷2**。",
+        "反過來用：內切圓半徑＝2×面積÷周長。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 255\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"144.7,155.9 120,30 30,230\" class=\"soft\" stroke=\"none\"/><polygon points=\"144.7,155.9 30,230 330,230\" class=\"soft2\" stroke=\"none\"/><polygon points=\"120,30 30,230 330,230\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"120\" y2=\"30\" stroke-width=\"1.5\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"30\" y2=\"230\" stroke-width=\"1.5\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"330\" y2=\"230\" stroke-width=\"1.5\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"144.7\" y2=\"230\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"195.8\" y2=\"102.2\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"144.7\" y1=\"155.9\" x2=\"77.1\" y2=\"125.4\" class=\"hl2\" stroke-dasharray=\"5 4\"/><text x=\"154.7\" y=\"192.9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">r</text><circle cx=\"144.7\" cy=\"155.9\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"158.7\" y=\"161.9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">I</text><text x=\"120\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"18\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"342\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text></svg>",
+      "caption": "三個小三角形的底分別是三邊，高都是 r。"
+    },
+    {
+      "title": "直角三角形的內切圓半徑",
+      "points": [
+        "從同一個頂點到內切圓的兩條切線段等長。",
+        "直角三角形兩股為 $a$、$b$，斜邊為 $c$，則 $r=\\frac{a+b-c}{2}$。",
+        "原因：直角頂點、兩個切點和內心圍成邊長 $r$ 的正方形；兩股各扣掉 $r$ 後剩下的切線段，合起來正好是斜邊，即 $(a-r)+(b-r)=c$。",
+        "例：兩股 $3$、$4$，斜邊 $5$，$r=\\frac{3+4-5}{2}=1$；用面積驗算：$6=12\\times r\\div2$，$r=1$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 310 260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"40,40 280,220 40,220\"/><polyline points=\"40,208 52,208 52,220\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"160\" r=\"60\" class=\"hl\"/><line x1=\"100\" y1=\"160\" x2=\"100\" y2=\"220\" class=\"hl2\" stroke-dasharray=\"5 4\"/><circle cx=\"100\" cy=\"220\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"100\" y1=\"160\" x2=\"40\" y2=\"160\" class=\"hl2\" stroke-dasharray=\"5 4\"/><circle cx=\"40\" cy=\"160\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"100\" y1=\"160\" x2=\"136\" y2=\"112\" class=\"hl2\" stroke-dasharray=\"5 4\"/><circle cx=\"136\" cy=\"112\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"100\" cy=\"160\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"86\" y=\"150\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">I</text><text x=\"26\" y=\"40\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"294\" y=\"220\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"26\" y=\"226\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text><text x=\"22\" y=\"130\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">3</text><text x=\"160\" y=\"242\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">4</text><text x=\"178\" y=\"118\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">5</text><text x=\"116\" y=\"194\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">r=1</text></svg>",
+      "caption": "兩股 3、4，斜邊 5 的直角三角形，內切圓半徑 r=(3+4−5)÷2=1。"
+    },
+    {
+      "title": "內心與角度、和外心的區別",
+      "points": [
+        "若 $I$ 為 $\\triangle ABC$ 的內心，則 $\\angle BIC=90^\\circ+\\frac{1}{2}\\angle A$。",
+        "推導：$\\angle IBC+\\angle ICB=\\frac{1}{2}(\\angle B+\\angle C)=\\frac{1}{2}(180^\\circ-\\angle A)$，再用 $180^\\circ$ 減去它。",
+        "外心是三邊中垂線的交點，到三個**頂點**等距；內心是三內角平分線的交點，到三**邊**等距。",
+        "正三角形的內心、外心、重心是同一點。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "內心",
+      "body": "三內角平分線的交點；到三邊等距；是內切圓的圓心，一定在三角形內部。"
+    },
+    {
+      "name": "面積與內切圓半徑",
+      "body": "三角形面積＝周長×$r$÷2，所以 $r$＝2×面積÷周長。"
+    },
+    {
+      "name": "直角三角形內切圓半徑",
+      "body": "$r=\\frac{a+b-c}{2}$（$a$、$b$ 為兩股，$c$ 為斜邊）"
+    },
+    {
+      "name": "內心角",
+      "body": "$\\angle BIC=90^\\circ+\\frac{1}{2}\\angle A$"
+    },
+    {
+      "name": "切線段長",
+      "body": "從三角形同一頂點到內切圓的兩條切線段等長。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-09-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "內心的意義",
+      "q": "學校有一塊不等邊三角形的花圃，園丁想在花圃內放一支灑水器，讓它到花圃**三邊**的距離都相等。灑水器應該放在哪一點？",
+      "choices": [
+        "三邊中垂線的交點（外心）",
+        "三個內角平分線的交點（內心）",
+        "三條中線的交點（重心）",
+        "最長邊的中點"
+      ],
+      "answer": 1,
+      "explain": "到一個角兩邊等距的點在這個角的角平分線上。要到三邊都等距，就要同時在三條角平分線上，也就是三個內角平分線的交點（內心）。外心是到三個頂點等距，重心是三條中線的交點，都不符合。答案是內心。"
+    },
+    {
+      "id": "m9-09-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "內切圓半徑",
+      "q": "一個直角三角形的兩股長分別為 $6$ 公分和 $8$ 公分，它的內切圓半徑是多少公分？",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$4.8$"
+      ],
+      "answer": 0,
+      "explain": "斜邊 $=\\sqrt{6^2+8^2}=10$。直角三角形內切圓半徑 $r=\\frac{6+8-10}{2}=2$。若忘了除以 $2$ 會得 $4$；$4.8$ 是斜邊上的高。答案是 $2$。"
+    },
+    {
+      "id": "m9-09-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "面積與內切圓半徑",
+      "q": "某三角形的周長為 $30$，內切圓半徑為 $4$，這個三角形的面積是多少？",
+      "choices": [
+        "$120$",
+        "$30$",
+        "$60$",
+        "$7.5$"
+      ],
+      "answer": 2,
+      "explain": "三角形面積＝周長×內切圓半徑÷2 $=30\\times4\\div2=60$。忘了除以 $2$ 會得 $120$。答案是 $60$。"
+    },
+    {
+      "id": "m9-09-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "內心與角度",
+      "q": "$I$ 為 $\\triangle ABC$ 的內心，若 $\\angle A=50^\\circ$，則 $\\angle BIC$ 是多少度？",
+      "choices": [
+        "$100^\\circ$",
+        "$130^\\circ$",
+        "$65^\\circ$",
+        "$115^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "$\\angle B+\\angle C=180^\\circ-50^\\circ=130^\\circ$。$\\overline{BI}$、$\\overline{CI}$ 是角平分線，所以 $\\angle IBC+\\angle ICB=\\frac{1}{2}\\times130^\\circ=65^\\circ$，$\\angle BIC=180^\\circ-65^\\circ=115^\\circ$（也就是 $90^\\circ+\\frac{1}{2}\\times50^\\circ$）。$100^\\circ$ 是把外心的 $\\angle BOC=2\\angle A$ 套錯。答案是 $115^\\circ$。"
+    },
+    {
+      "id": "m9-09-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "面積與內切圓半徑",
+      "q": "$\\triangle ABC$ 的三邊長為 $13$、$14$、$15$，面積為 $84$。它的內切圓半徑是多少？",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$8$",
+        "$6$"
+      ],
+      "answer": 1,
+      "explain": "周長 $=13+14+15=42$。由面積＝周長×$r$÷2，得 $84=42\\times r\\div2$，$r=\\frac{2\\times84}{42}=4$。直接用 $84\\div42$ 會得 $2$，是漏了乘以 $2$。答案是 $4$。"
+    },
+    {
+      "id": "m9-09-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "內切圓切線段",
+      "q": "$\\triangle ABC$ 中，$\\overline{AB}=7$、$\\overline{BC}=8$、$\\overline{CA}=9$，內切圓與 $\\overline{BC}$、$\\overline{CA}$、$\\overline{AB}$ 分別相切於 $D$、$E$、$F$。$\\overline{BD}$ 的長是多少？",
+      "choices": [
+        "$4$",
+        "$5$",
+        "$3$",
+        "$3.5$"
+      ],
+      "answer": 2,
+      "explain": "同一頂點出發的兩條切線段等長：設 $\\overline{BD}=\\overline{BF}=x$、$\\overline{CD}=\\overline{CE}=y$、$\\overline{AE}=\\overline{AF}=z$。則 $x+y=8$、$y+z=9$、$z+x=7$，三式相加得 $x+y+z=12$，所以 $x=12-9=3$。$4$ 是誤以為切點在中點。答案是 $3$。"
+    },
+    {
+      "id": "m9-09-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "面積與內切圓半徑",
+      "q": "一個直角三角形的斜邊長為 $13$，內切圓半徑為 $2$。這個直角三角形的面積是多少？",
+      "choices": [
+        "$30$",
+        "$60$",
+        "$15$",
+        "$34$"
+      ],
+      "answer": 0,
+      "explain": "由 $r=\\frac{a+b-c}{2}$，得 $2=\\frac{a+b-13}{2}$，所以兩股和 $a+b=17$，周長 $=17+13=30$。面積＝周長×$r$÷2 $=30\\times2\\div2=30$。（驗算：兩股為 $5$、$12$ 時，$5+12=17$、$5^2+12^2=13^2$，面積 $\\frac{5\\times12}{2}=30$。）忘了除以 $2$ 會得 $60$。答案是 $30$。"
+    },
+    {
+      "id": "m9-09-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "內切圓半徑",
+      "q": "等腰三角形 $ABC$ 中，$\\overline{AB}=\\overline{AC}=10$，$\\overline{BC}=12$。它的內切圓半徑是多少？",
+      "choices": [
+        "$4$",
+        "$6$",
+        "$1.5$",
+        "$3$"
+      ],
+      "answer": 3,
+      "explain": "從 $A$ 作底邊 $\\overline{BC}$ 的高，垂足是 $\\overline{BC}$ 中點，高 $=\\sqrt{10^2-6^2}=8$，面積 $=\\frac{12\\times8}{2}=48$。周長 $=10+10+12=32$。$r=\\frac{2\\times48}{32}=3$。$1.5$ 是漏乘 $2$，$4$ 是誤把高的一半當半徑。答案是 $3$。"
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「內心」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%85%A7%E5%BF%83"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

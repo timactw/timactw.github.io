@@ -1,0 +1,250 @@
+{
+  "id": "m8-17",
+  "subject": "math",
+  "grade": 8,
+  "order": 17,
+  "title": "累積次數與相對次數",
+  "codes": [
+    {
+      "code": "D-8-1",
+      "text": "統計資料處理：累積次數、相對次數、累積相對次數折線圖。"
+    }
+  ],
+  "intro": "把資料分組後，除了次數，還能算累積次數、相對次數、累積相對次數，再畫成累積相對次數折線圖，快速讀出「未滿某個值的占多少」。",
+  "sections": [
+    {
+      "title": "次數分配表",
+      "points": [
+        "把資料依大小分成幾組，每組的範圍寬度叫組距，落在各組的資料個數叫次數。",
+        "常見約定：每組含下限、不含上限，例如「60～70 分」表示 $60\\le x<70$。",
+        "所有組的次數加起來等於資料總數。"
+      ]
+    },
+    {
+      "title": "累積次數",
+      "points": [
+        "累積次數：從最小的組開始，把次數一組一組往下加。",
+        "某組的累積次數＝「未滿該組上限」的資料個數。",
+        "最後一組的累積次數等於總數。",
+        "例：次數 2、6、10、12、6、4 ⇒ 累積次數 2、8、18、30、36、40。"
+      ]
+    },
+    {
+      "title": "相對次數",
+      "points": [
+        "相對次數 $=\\frac{該組次數}{總次數}$，常寫成百分率。",
+        "所有組的相對次數加起來等於 1（100%）。",
+        "比較人數不同的兩群資料時，要看相對次數，不能只看次數。",
+        "例：40 人中 60～70 分有 10 人，相對次數 $=\\frac{10}{40}=25\\%$。"
+      ]
+    },
+    {
+      "title": "累積相對次數",
+      "points": [
+        "累積相對次數 $=\\frac{累積次數}{總次數}$，也等於相對次數一組一組往下加。",
+        "最後一組的累積相對次數是 100%。",
+        "某組的相對次數＝該組累積相對次數－前一組累積相對次數。",
+        "「至少 80 分」的比例 $=100\\%-$「未滿 80 分」的累積相對次數。"
+      ]
+    },
+    {
+      "title": "累積相對次數折線圖",
+      "points": [
+        "橫軸是組界，縱軸是累積相對次數（0%～100%）。",
+        "從第一組下限、0% 的點開始，在每組的**上限**位置描出該組累積相對次數，再連成折線。",
+        "折線只會上升或持平，不會下降，最後到達 100%。",
+        "哪一段線最陡，表示那一組的相對次數最大（人數最多）；持平的一段表示那組沒有資料。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 262\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.3\"><line x1=\"60\" y1=\"167\" x2=\"390\" y2=\"167\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"122\" x2=\"390\" y2=\"122\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"77\" x2=\"390\" y2=\"77\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"32\" x2=\"390\" y2=\"32\" stroke-width=\"0.6\"/></g><line x1=\"60\" y1=\"212\" x2=\"412\" y2=\"212\"/><line x1=\"60\" y1=\"212\" x2=\"60\" y2=\"21.2\"/><text x=\"60\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"115\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"170\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"225\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70</text><text x=\"280\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"335\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"390\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"52\" y=\"216\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0%</text><text x=\"52\" y=\"171\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">25%</text><text x=\"52\" y=\"126\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">50%</text><text x=\"52\" y=\"81\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"52\" y=\"36\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><polyline points=\"60,212 115,203 170,176 225,131 280,77 335,50 390,32\" class=\"hl\"/><circle cx=\"60\" cy=\"212\" r=\"3\" fill=\"currentColor\"/><circle cx=\"115\" cy=\"203\" r=\"3\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"176\" r=\"3\" fill=\"currentColor\"/><circle cx=\"225\" cy=\"131\" r=\"3\" fill=\"currentColor\"/><circle cx=\"280\" cy=\"77\" r=\"3\" fill=\"currentColor\"/><circle cx=\"335\" cy=\"50\" r=\"3\" fill=\"currentColor\"/><circle cx=\"390\" cy=\"32\" r=\"3\" fill=\"currentColor\"/><text x=\"121\" y=\"197\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">5%</text><text x=\"176\" y=\"170\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">20%</text><text x=\"231\" y=\"125\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">45%</text><text x=\"286\" y=\"71\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"341\" y=\"44\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">90%</text><text x=\"396\" y=\"26\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><text x=\"225\" y=\"256\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">成績（分）</text><text x=\"14\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">累積相對次數</text></svg>",
+      "caption": "40 人成績：未滿 60 分 20%、未滿 70 分 45%、未滿 80 分 75%；70～80 分這段最陡，該組有 30%＝12 人。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "累積次數",
+      "body": "從第一組加到該組的次數總和＝未滿該組上限的個數"
+    },
+    {
+      "name": "相對次數",
+      "body": "$\\frac{該組次數}{總次數}$，全部加總＝100%"
+    },
+    {
+      "name": "累積相對次數",
+      "body": "$\\frac{累積次數}{總次數}$，最後一組＝100%"
+    },
+    {
+      "name": "由累積相對次數求某組",
+      "body": "該組相對次數＝本組累積相對次數－前一組累積相對次數"
+    },
+    {
+      "name": "至少某值的比例",
+      "body": "$100\\%-$ 未滿該值的累積相對次數"
+    },
+    {
+      "name": "折線圖描點",
+      "body": "在每組上限描點；起點在第一組下限的 0%"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-17-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "累積次數",
+      "q": "某班 40 位同學的數學成績次數分配如下（每組含下限、不含上限，最後一組含 100 分）：\n40～50 分：2 人\n50～60 分：6 人\n60～70 分：10 人\n70～80 分：12 人\n80～90 分：6 人\n90～100 分：4 人\n60～70 分這一組的相對次數是多少？",
+      "choices": [
+        "25%",
+        "10%",
+        "45%",
+        "20%"
+      ],
+      "answer": 0,
+      "explain": "相對次數 $=\\frac{10}{40}=\\frac{1}{4}=25\\%$。10% 是把次數 10 直接當成百分率；45% 是未滿 70 分的累積相對次數。答案是 25%。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "累積次數",
+      "q": "承上題的次數分配，成績「未滿 70 分」的有多少人？",
+      "choices": [
+        "10",
+        "8",
+        "18",
+        "22"
+      ],
+      "answer": 2,
+      "explain": "未滿 70 分就是 70 分以下各組的累積次數：$2+6+10=18$。10 只是 60～70 分這一組；22 是 70 分以上的人數。答案是 18 人。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "相對次數",
+      "q": "一份次數分配表中，所有組別的相對次數加起來等於多少？",
+      "choices": [
+        "資料總數",
+        "1（即 100%）",
+        "0",
+        "最後一組的次數"
+      ],
+      "answer": 1,
+      "explain": "每組相對次數是該組次數除以總數，全部加起來 $=\\frac{總數}{總數}=1$，也就是 100%。答案是 1（即 100%）。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "累積相對次數折線圖",
+      "q": "某班 40 位同學的數學成績畫成累積相對次數折線圖如下（每組含下限、不含上限，最後一組含 100 分）。成績未滿 80 分的人，占全班的百分之幾？",
+      "svg": "<svg viewBox=\"0 0 420 262\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.3\"><line x1=\"60\" y1=\"167\" x2=\"390\" y2=\"167\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"122\" x2=\"390\" y2=\"122\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"77\" x2=\"390\" y2=\"77\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"32\" x2=\"390\" y2=\"32\" stroke-width=\"0.6\"/></g><line x1=\"60\" y1=\"212\" x2=\"412\" y2=\"212\"/><line x1=\"60\" y1=\"212\" x2=\"60\" y2=\"21.2\"/><text x=\"60\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"115\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"170\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"225\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70</text><text x=\"280\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"335\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"390\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"52\" y=\"216\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0%</text><text x=\"52\" y=\"171\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">25%</text><text x=\"52\" y=\"126\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">50%</text><text x=\"52\" y=\"81\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"52\" y=\"36\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><polyline points=\"60,212 115,203 170,176 225,131 280,77 335,50 390,32\" class=\"hl\"/><circle cx=\"60\" cy=\"212\" r=\"3\" fill=\"currentColor\"/><circle cx=\"115\" cy=\"203\" r=\"3\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"176\" r=\"3\" fill=\"currentColor\"/><circle cx=\"225\" cy=\"131\" r=\"3\" fill=\"currentColor\"/><circle cx=\"280\" cy=\"77\" r=\"3\" fill=\"currentColor\"/><circle cx=\"335\" cy=\"50\" r=\"3\" fill=\"currentColor\"/><circle cx=\"390\" cy=\"32\" r=\"3\" fill=\"currentColor\"/><text x=\"121\" y=\"197\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">5%</text><text x=\"176\" y=\"170\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">20%</text><text x=\"231\" y=\"125\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">45%</text><text x=\"286\" y=\"71\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"341\" y=\"44\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">90%</text><text x=\"396\" y=\"26\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><text x=\"225\" y=\"256\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">成績（分）</text><text x=\"14\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">累積相對次數</text></svg>",
+      "choices": [
+        "30%",
+        "45%",
+        "90%",
+        "75%"
+      ],
+      "answer": 3,
+      "explain": "在橫軸 80 的位置讀折線高度，是 75%，表示未滿 80 分的占 75%。30% 是 70～80 分這一組的相對次數；45% 是未滿 70 分。答案是 75%。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "累積相對次數折線圖",
+      "q": "某班 40 位同學的數學成績畫成累積相對次數折線圖如下（每組含下限、不含上限，最後一組含 100 分）。成績至少 80 分的有幾人？",
+      "svg": "<svg viewBox=\"0 0 420 262\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.3\"><line x1=\"60\" y1=\"167\" x2=\"390\" y2=\"167\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"122\" x2=\"390\" y2=\"122\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"77\" x2=\"390\" y2=\"77\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"32\" x2=\"390\" y2=\"32\" stroke-width=\"0.6\"/></g><line x1=\"60\" y1=\"212\" x2=\"412\" y2=\"212\"/><line x1=\"60\" y1=\"212\" x2=\"60\" y2=\"21.2\"/><text x=\"60\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"115\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"170\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"225\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70</text><text x=\"280\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"335\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"390\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"52\" y=\"216\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0%</text><text x=\"52\" y=\"171\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">25%</text><text x=\"52\" y=\"126\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">50%</text><text x=\"52\" y=\"81\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"52\" y=\"36\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><polyline points=\"60,212 115,203 170,176 225,131 280,77 335,50 390,32\" class=\"hl\"/><circle cx=\"60\" cy=\"212\" r=\"3\" fill=\"currentColor\"/><circle cx=\"115\" cy=\"203\" r=\"3\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"176\" r=\"3\" fill=\"currentColor\"/><circle cx=\"225\" cy=\"131\" r=\"3\" fill=\"currentColor\"/><circle cx=\"280\" cy=\"77\" r=\"3\" fill=\"currentColor\"/><circle cx=\"335\" cy=\"50\" r=\"3\" fill=\"currentColor\"/><circle cx=\"390\" cy=\"32\" r=\"3\" fill=\"currentColor\"/><text x=\"121\" y=\"197\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">5%</text><text x=\"176\" y=\"170\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">20%</text><text x=\"231\" y=\"125\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">45%</text><text x=\"286\" y=\"71\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"341\" y=\"44\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">90%</text><text x=\"396\" y=\"26\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><text x=\"225\" y=\"256\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">成績（分）</text><text x=\"14\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">累積相對次數</text></svg>",
+      "choices": [
+        "30",
+        "6",
+        "25",
+        "10"
+      ],
+      "answer": 3,
+      "explain": "未滿 80 分占 75%，至少 80 分占 $100\\%-75\\%=25\\%$，人數 $=40\\times25\\%=10$。25 是把百分率當成人數；30 是未滿 80 分的人數。答案是 10 人。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "累積相對次數折線圖",
+      "q": "某班 40 位同學的數學成績畫成累積相對次數折線圖如下（每組含下限、不含上限，最後一組含 100 分）。哪一組的人數最多？",
+      "svg": "<svg viewBox=\"0 0 420 262\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.3\"><line x1=\"60\" y1=\"167\" x2=\"390\" y2=\"167\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"122\" x2=\"390\" y2=\"122\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"77\" x2=\"390\" y2=\"77\" stroke-width=\"0.6\"/><line x1=\"60\" y1=\"32\" x2=\"390\" y2=\"32\" stroke-width=\"0.6\"/></g><line x1=\"60\" y1=\"212\" x2=\"412\" y2=\"212\"/><line x1=\"60\" y1=\"212\" x2=\"60\" y2=\"21.2\"/><text x=\"60\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"115\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"170\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"225\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70</text><text x=\"280\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"335\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"390\" y=\"230\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"52\" y=\"216\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0%</text><text x=\"52\" y=\"171\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">25%</text><text x=\"52\" y=\"126\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">50%</text><text x=\"52\" y=\"81\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"52\" y=\"36\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><polyline points=\"60,212 115,203 170,176 225,131 280,77 335,50 390,32\" class=\"hl\"/><circle cx=\"60\" cy=\"212\" r=\"3\" fill=\"currentColor\"/><circle cx=\"115\" cy=\"203\" r=\"3\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"176\" r=\"3\" fill=\"currentColor\"/><circle cx=\"225\" cy=\"131\" r=\"3\" fill=\"currentColor\"/><circle cx=\"280\" cy=\"77\" r=\"3\" fill=\"currentColor\"/><circle cx=\"335\" cy=\"50\" r=\"3\" fill=\"currentColor\"/><circle cx=\"390\" cy=\"32\" r=\"3\" fill=\"currentColor\"/><text x=\"121\" y=\"197\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">5%</text><text x=\"176\" y=\"170\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">20%</text><text x=\"231\" y=\"125\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">45%</text><text x=\"286\" y=\"71\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">75%</text><text x=\"341\" y=\"44\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">90%</text><text x=\"396\" y=\"26\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">100%</text><text x=\"225\" y=\"256\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">成績（分）</text><text x=\"14\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">累積相對次數</text></svg>",
+      "choices": [
+        "60～70 分",
+        "70～80 分",
+        "90～100 分",
+        "80～90 分"
+      ],
+      "answer": 1,
+      "explain": "每組的相對次數＝相鄰兩點的高度差：60～70 分 $45\\%-20\\%=25\\%$，70～80 分 $75\\%-45\\%=30\\%$，80～90 分 $15\\%$，90～100 分 $10\\%$。70～80 分這段最陡，30% 最大，有 12 人。答案是 70～80 分。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "累積相對次數",
+      "q": "某班 50 位同學的跑步成績分成 5 組，由快到慢各組的累積相對次數依序是 8%、30%、64%、90%、100%。第三組有幾人？",
+      "choices": [
+        "17",
+        "32",
+        "34",
+        "64"
+      ],
+      "answer": 0,
+      "explain": "第三組的相對次數 $=64\\%-30\\%=34\\%$，人數 $=50\\times34\\%=17$。32 是 $50\\times64\\%$，把累積人數當成該組人數；34 是把百分率當成人數。答案是 17 人。",
+      "codes": [
+        "D-8-1"
+      ]
+    },
+    {
+      "id": "m8-17-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "累積相對次數",
+      "q": "調查某校 200 位學生每週的運動時數，畫成累積相對次數折線圖。圖上讀到「未滿 4 小時」占 35%，「未滿 6 小時」占 62%。運動時數在 4 小時以上、未滿 6 小時的人數，和至少 6 小時的人數，依序是多少？",
+      "choices": [
+        "54 人、124 人",
+        "70 人、76 人",
+        "54 人、76 人",
+        "27 人、38 人"
+      ],
+      "answer": 2,
+      "explain": "4～6 小時的相對次數 $=62\\%-35\\%=27\\%$，人數 $=200\\times27\\%=54$。至少 6 小時占 $100\\%-62\\%=38\\%$，人數 $=200\\times38\\%=76$。124 是未滿 6 小時的人數；27、38 是百分率不是人數。答案是 54 人、76 人。",
+      "codes": [
+        "D-8-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「累積次數」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%B4%AF%E7%A9%8D%E6%AC%A1%E6%95%B8"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

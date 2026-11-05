@@ -1,0 +1,279 @@
+{
+  "id": "m8-15",
+  "subject": "math",
+  "grade": 8,
+  "order": 15,
+  "title": "平行四邊形與特殊四邊形",
+  "codes": [
+    {
+      "code": "S-8-9",
+      "text": "平行四邊形的基本性質：關於平行四邊形的內角、邊、對角線等的幾何性質。"
+    },
+    {
+      "code": "S-8-10",
+      "text": "正方形、長方形、箏形的基本性質：長方形的對角線等長且互相平分；菱形對角線互相垂直平分；箏形的其中一條對角線垂直平分另一條對角線。"
+    },
+    {
+      "code": "S-8-11",
+      "text": "梯形的基本性質：等腰梯形的兩底角相等；等腰梯形為線對稱圖形；梯形兩腰中點的連線段長等於兩底長和的一半，且平行於上下底。"
+    }
+  ],
+  "intro": "整理平行四邊形、長方形、菱形、正方形、箏形、梯形的邊、角、對角線性質。會考常考「哪個條件能判斷是平行四邊形」與對角線、面積的計算。",
+  "sections": [
+    {
+      "title": "平行四邊形的性質",
+      "points": [
+        "兩組對邊分別平行，而且兩組對邊分別相等。",
+        "兩組對角分別相等，相鄰兩角互補（和為 $180^\\circ$）。",
+        "兩條對角線互相平分（交點是兩條對角線的中點）。",
+        "一條對角線把它分成兩個全等三角形；兩條對角線把它分成面積相等的 4 個三角形。"
+      ],
+      "svg": "<svg viewBox=\"0 0 280 165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"40,140 200,140 250,40 90,40\" class=\"soft\"/><line x1=\"40\" y1=\"140\" x2=\"250\" y2=\"40\" class=\"hl\"/><line x1=\"200\" y1=\"140\" x2=\"90\" y2=\"40\" class=\"hl2\"/><line x1=\"89.9\" y1=\"109.6\" x2=\"95.1\" y2=\"120.4\" stroke-width=\"1.5\"/><line x1=\"194.9\" y1=\"59.6\" x2=\"200.1\" y2=\"70.4\" stroke-width=\"1.5\"/><line x1=\"170.3\" y1=\"121.1\" x2=\"178.4\" y2=\"112.2\" stroke-width=\"1.5\"/><line x1=\"166.6\" y1=\"117.8\" x2=\"174.7\" y2=\"108.9\" stroke-width=\"1.5\"/><line x1=\"115.3\" y1=\"71.1\" x2=\"123.4\" y2=\"62.2\" stroke-width=\"1.5\"/><line x1=\"111.6\" y1=\"67.8\" x2=\"119.7\" y2=\"58.9\" stroke-width=\"1.5\"/><text x=\"32\" y=\"156\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"206\" y=\"156\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"258\" y=\"36\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"82\" y=\"36\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"145\" y=\"112\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+      "caption": "平行四邊形 ABCD 的對角線互相平分：$\\overline{OA}=\\overline{OC}$、$\\overline{OB}=\\overline{OD}$。"
+    },
+    {
+      "title": "判斷是平行四邊形",
+      "points": [
+        "兩組對邊分別平行；或兩組對邊分別相等。",
+        "一組對邊平行且相等。",
+        "兩條對角線互相平分；或兩組對角分別相等。",
+        "注意：「一組對邊平行、另一組對邊相等」不一定（等腰梯形就是反例）。"
+      ]
+    },
+    {
+      "title": "長方形、菱形、正方形",
+      "points": [
+        "長方形：四個角都是直角；對角線**等長**且互相平分。",
+        "菱形：四邊等長；對角線**互相垂直平分**，並平分各內角；面積 $=\\frac{對角線\\times對角線}{2}$。",
+        "正方形：同時是長方形和菱形，對角線等長、互相垂直平分。",
+        "它們都是特殊的平行四邊形，平行四邊形的性質全部適用。"
+      ]
+    },
+    {
+      "title": "箏形",
+      "points": [
+        "箏形：兩組**鄰邊**分別相等，例如 $\\overline{AB}=\\overline{AD}$、$\\overline{CB}=\\overline{CD}$。",
+        "連接兩組等邊交點的對角線 $\\overline{AC}$，垂直平分另一條對角線 $\\overline{BD}$。",
+        "箏形是線對稱圖形，對稱軸是 $\\overline{AC}$；面積 $=\\frac{\\overline{AC}\\times\\overline{BD}}{2}$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 260 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"130,20 70,70 130,180 190,70\" class=\"soft\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"180\" class=\"hl\"/><line x1=\"70\" y1=\"70\" x2=\"190\" y2=\"70\" class=\"hl2\"/><polyline stroke-width=\"1.5\" points=\"139,70 139,61 130,61\"/><line x1=\"103.8\" y1=\"49.6\" x2=\"96.2\" y2=\"40.4\" stroke-width=\"1.5\"/><line x1=\"163.8\" y1=\"40.4\" x2=\"156.2\" y2=\"49.6\" stroke-width=\"1.5\"/><line x1=\"104.1\" y1=\"119.9\" x2=\"93.5\" y2=\"125.7\" stroke-width=\"1.5\"/><line x1=\"106.5\" y1=\"124.3\" x2=\"95.9\" y2=\"130.1\" stroke-width=\"1.5\"/><line x1=\"166.5\" y1=\"125.7\" x2=\"155.9\" y2=\"119.9\" stroke-width=\"1.5\"/><line x1=\"164.1\" y1=\"130.1\" x2=\"153.5\" y2=\"124.3\" stroke-width=\"1.5\"/><text x=\"130\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"60\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"130\" y=\"196\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"200\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"120\" y=\"86\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+      "caption": "箏形 ABCD：$\\overline{AC}$ 垂直平分 $\\overline{BD}$（$\\overline{OB}=\\overline{OD}$）。"
+    },
+    {
+      "title": "梯形",
+      "points": [
+        "梯形：只有一組對邊平行，平行的兩邊叫上底、下底，另外兩邊叫腰。",
+        "等腰梯形：兩腰相等，同一底上的兩個底角相等，是線對稱圖形。",
+        "兩腰中點連線段（中線）平行於上下底，長度 $=\\frac{上底+下底}{2}$。",
+        "梯形面積 $=\\frac{(上底+下底)\\times高}{2}=$ 中線 $\\times$ 高。"
+      ],
+      "svg": "<svg viewBox=\"0 0 280 175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"80,40 180,40 250,150 30,150\" class=\"soft\"/><line x1=\"55\" y1=\"95\" x2=\"215\" y2=\"95\" class=\"hl\" stroke-dasharray=\"5 4\"/><line x1=\"73\" y1=\"70\" x2=\"62\" y2=\"65\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"125\" x2=\"37\" y2=\"120\" stroke-width=\"1.5\"/><line x1=\"201.2\" y1=\"62.2\" x2=\"191.1\" y2=\"68.6\" stroke-width=\"1.5\"/><line x1=\"203.9\" y1=\"66.4\" x2=\"193.8\" y2=\"72.8\" stroke-width=\"1.5\"/><line x1=\"236.2\" y1=\"117.2\" x2=\"226.1\" y2=\"123.6\" stroke-width=\"1.5\"/><line x1=\"238.9\" y1=\"121.4\" x2=\"228.8\" y2=\"127.8\" stroke-width=\"1.5\"/><text x=\"74\" y=\"34\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"186\" y=\"34\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"22\" y=\"166\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"258\" y=\"166\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"45\" y=\"99\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"225\" y=\"99\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">F</text><text x=\"130\" y=\"32\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">上底 a</text><text x=\"140\" y=\"168\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">下底 b</text><text x=\"140\" y=\"88\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">(a+b)/2</text></svg>",
+      "caption": "E、F 是兩腰中點：$\\overline{EF}\\parallel\\overline{AD}\\parallel\\overline{BC}$，$\\overline{EF}=\\frac{a+b}{2}$。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "平行四邊形",
+      "body": "對邊相等、對角相等、鄰角互補、對角線互相平分"
+    },
+    {
+      "name": "長方形對角線",
+      "body": "等長且互相平分"
+    },
+    {
+      "name": "菱形對角線",
+      "body": "互相垂直平分；面積 $=\\frac{d_1\\times d_2}{2}$"
+    },
+    {
+      "name": "箏形對角線",
+      "body": "一條對角線垂直平分另一條"
+    },
+    {
+      "name": "等腰梯形",
+      "body": "兩底角相等、線對稱"
+    },
+    {
+      "name": "梯形中線",
+      "body": "$\\frac{上底+下底}{2}$，且平行上下底"
+    },
+    {
+      "name": "梯形面積",
+      "body": "$\\frac{(上底+下底)\\times高}{2}$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-15-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "平行四邊形性質",
+      "q": "平行四邊形 ABCD 中 ∠A＝65°，∠B 是多少度？",
+      "choices": [
+        "$65^\\circ$",
+        "$25^\\circ$",
+        "$115^\\circ$",
+        "$130^\\circ$"
+      ],
+      "answer": 2,
+      "explain": "平行四邊形相鄰兩角互補：∠B $=180^\\circ-65^\\circ=115^\\circ$。$65^\\circ$ 是對角 ∠C。答案是 $115^\\circ$。",
+      "codes": [
+        "S-8-9"
+      ]
+    },
+    {
+      "id": "m8-15-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "菱形性質",
+      "q": "一個菱形的兩條對角線長分別是 10 公分和 24 公分，它的面積是多少平方公分？",
+      "choices": [
+        "120",
+        "240",
+        "60",
+        "34"
+      ],
+      "answer": 0,
+      "explain": "菱形面積 $=\\frac{10\\times24}{2}=120$。240 是忘了除以 2。答案是 120 平方公分。",
+      "codes": [
+        "S-8-10"
+      ]
+    },
+    {
+      "id": "m8-15-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "梯形中線",
+      "q": "一個梯形的上底是 6 公分、下底是 14 公分，兩腰中點連線段長是多少公分？",
+      "choices": [
+        "20",
+        "10",
+        "8",
+        "4"
+      ],
+      "answer": 1,
+      "explain": "中線長 $=\\frac{6+14}{2}=10$。20 是忘了除以 2；8 是兩底的差。答案是 10 公分。",
+      "codes": [
+        "S-8-11"
+      ]
+    },
+    {
+      "id": "m8-15-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "菱形性質",
+      "q": "一個菱形的兩條對角線長分別是 10 公分和 24 公分，它的周長是多少公分？",
+      "choices": [
+        "68",
+        "34",
+        "26",
+        "52"
+      ],
+      "answer": 3,
+      "explain": "菱形對角線互相垂直平分，形成 4 個兩股為 5、12 的直角三角形，邊長 $=\\sqrt{5^2+12^2}=13$。周長 $=4\\times13=52$。26 是兩邊長；68 是 $2\\times(10+24)$。答案是 52 公分。",
+      "codes": [
+        "S-8-10"
+      ]
+    },
+    {
+      "id": "m8-15-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "長方形對角線",
+      "q": "長方形 ABCD 的兩條對角線交於 O，$\\overline{AC}=10$，∠AOB＝60°。$\\overline{AB}$ 是多少？",
+      "choices": [
+        "5",
+        "10",
+        "$5\\sqrt{3}$",
+        "$\\frac{5}{2}$"
+      ],
+      "answer": 0,
+      "explain": "長方形對角線等長且互相平分，所以 $\\overline{OA}=\\overline{OB}=5$。$\\triangle AOB$ 是等腰三角形，頂角 $60^\\circ$，底角 $=\\frac{180^\\circ-60^\\circ}{2}=60^\\circ$，是正三角形，$\\overline{AB}=5$。$5\\sqrt{3}$ 是 $\\overline{BC}$。答案是 5。",
+      "codes": [
+        "S-8-10"
+      ]
+    },
+    {
+      "id": "m8-15-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "平行四邊形判定",
+      "q": "下列哪一個條件「不能」保證四邊形是平行四邊形？",
+      "choices": [
+        "兩組對邊分別相等",
+        "兩條對角線互相平分",
+        "一組對邊平行且相等",
+        "一組對邊平行，另一組對邊相等"
+      ],
+      "answer": 3,
+      "explain": "前三個都是平行四邊形的判別條件。等腰梯形有一組對邊平行、兩腰相等，卻不是平行四邊形，所以第四個條件不能保證。答案是「一組對邊平行，另一組對邊相等」。",
+      "codes": [
+        "S-8-9",
+        "S-8-11"
+      ]
+    },
+    {
+      "id": "m8-15-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "梯形面積",
+      "q": "等腰梯形 ABCD 中 $\\overline{AD}\\parallel\\overline{BC}$，上底 $\\overline{AD}=4$，下底 $\\overline{BC}=10$，腰長 5。這個梯形的面積是多少？",
+      "choices": [
+        "70",
+        "35",
+        "28",
+        "56"
+      ],
+      "answer": 2,
+      "explain": "從 A、D 向下底作垂線，兩邊各切出 $\\frac{10-4}{2}=3$。高 $=\\sqrt{5^2-3^2}=4$。面積 $=\\frac{(4+10)\\times4}{2}=28$。35 是把腰長 5 當成高（$7\\times5$）；56 是忘了除以 2。答案是 28。",
+      "codes": [
+        "S-8-11"
+      ]
+    },
+    {
+      "id": "m8-15-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "箏形性質",
+      "q": "凸箏形 ABCD 中 $\\overline{AB}=\\overline{AD}=5$，$\\overline{CB}=\\overline{CD}=3\\sqrt{5}$，對角線 $\\overline{BD}=6$。箏形 ABCD 的面積是多少？",
+      "choices": [
+        "60",
+        "30",
+        "$15\\sqrt{5}$",
+        "24"
+      ],
+      "answer": 1,
+      "explain": "$\\overline{AC}$ 垂直平分 $\\overline{BD}$，設交點 O，$\\overline{OB}=3$。$\\overline{AO}=\\sqrt{5^2-3^2}=4$，$\\overline{CO}=\\sqrt{(3\\sqrt{5})^2-3^2}=\\sqrt{36}=6$，$\\overline{AC}=10$。面積 $=\\frac{10\\times6}{2}=30$。60 是忘了除以 2；24 是誤把 $\\overline{AC}$ 當成 8。答案是 30。",
+      "codes": [
+        "S-8-10"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 18 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-8-10"
+      },
+      {
+        "label": "113 年第 18 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-8-9"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「平行四邊形」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B9%B3%E8%A1%8C%E5%9B%9B%E9%82%8A%E5%BD%A2"
+    },
+    {
+      "label": "均一教育平台：搜尋「梯形」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%A2%AF%E5%BD%A2"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

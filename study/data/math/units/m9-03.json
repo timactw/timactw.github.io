@@ -1,0 +1,217 @@
+{
+  "id": "m9-03",
+  "subject": "math",
+  "grade": 9,
+  "order": 3,
+  "title": "平行線截比例線段",
+  "codes": [
+    {
+      "code": "S-9-3",
+      "text": "平行線截比例線段：連接三角形兩邊中點的線段必平行於第三邊（其長度等於第三邊的一半）；平行線截比例線段性質；利用截線段成比例判定兩直線平行；平行線截比例線段性質的應用。"
+    }
+  ],
+  "intro": "三角形裡畫一條平行線，就會切出成比例的線段。會考常考中點連線、比例線段求長，以及「哪一段對哪一段」的陷阱。",
+  "sections": [
+    {
+      "title": "三角形兩邊中點連線",
+      "points": [
+        "$D$、$E$ 分別是 $\\overline{AB}$、$\\overline{AC}$ 的中點，則 $\\overline{DE}\\parallel\\overline{BC}$。",
+        "而且 $\\overline{DE}=\\frac{1}{2}\\overline{BC}$。",
+        "反過來：過一邊中點作另一邊的平行線，必通過第三邊的中點。",
+        "連接三邊中點得到的小三角形，周長是原來的 $\\frac{1}{2}$，面積是原來的 $\\frac{1}{4}$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"150,20 40,180 300,180\"/><line x1=\"95\" y1=\"100\" x2=\"225\" y2=\"100\" class=\"hl\" stroke-width=\"3\"/><line x1=\"40\" y1=\"180\" x2=\"300\" y2=\"180\" class=\"hl2\" stroke-width=\"3\"/><circle cx=\"95\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"225\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"150\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"30\" y=\"186\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"310\" y=\"186\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"83\" y=\"100\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"237\" y=\"100\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">E</text><text x=\"160\" y=\"94\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" class=\"hl\">6</text><text x=\"170\" y=\"198\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\">12</text><text x=\"318\" y=\"60\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">D、E 為中點</text></svg>",
+      "caption": "$\\overline{BC}=12$，中點連線 $\\overline{DE}=6$，且 $\\overline{DE}\\parallel\\overline{BC}$。"
+    },
+    {
+      "title": "三角形內的平行截線",
+      "points": [
+        "$\\overline{DE}\\parallel\\overline{BC}$（$D$ 在 $\\overline{AB}$、$E$ 在 $\\overline{AC}$）時：$\\overline{AD}:\\overline{DB}=\\overline{AE}:\\overline{EC}$。",
+        "也有 $\\overline{AD}:\\overline{AB}=\\overline{AE}:\\overline{AC}=\\overline{DE}:\\overline{BC}$（因為 $\\triangle ADE\\sim\\triangle ABC$）。",
+        "**陷阱**：求 $\\overline{DE}$ 要用 $\\overline{AD}:\\overline{AB}$（小段比整段），不是 $\\overline{AD}:\\overline{DB}$。",
+        "例：圖中 $\\overline{AD}:\\overline{DB}=2:3$，則 $\\overline{DE}:\\overline{BC}=2:5$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"150,20 40,180 300,180\"/><line x1=\"106\" y1=\"84\" x2=\"210\" y2=\"84\" class=\"hl\" stroke-width=\"3\"/><text x=\"150\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"30\" y=\"186\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"310\" y=\"186\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"94\" y=\"88\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"222\" y=\"88\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">E</text><text x=\"120\" y=\"52\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">2</text><text x=\"67\" y=\"132\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">3</text><text x=\"188\" y=\"52\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">2</text><text x=\"263\" y=\"132\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">3</text><text x=\"340\" y=\"80\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">DE ∥ BC</text></svg>",
+      "caption": "$\\overline{AD}:\\overline{DB}=\\overline{AE}:\\overline{EC}=2:3$。"
+    },
+    {
+      "title": "平行線截兩條直線",
+      "points": [
+        "三條平行線 $L_1\\parallel L_2\\parallel L_3$ 被兩條直線所截，截出的對應線段成比例。",
+        "圖中 $\\overline{AB}:\\overline{BC}=\\overline{DE}:\\overline{EF}$。",
+        "兩條截線不必平行，也不必一樣長，比例照樣成立。"
+      ],
+      "svg": "<svg viewBox=\"0 0 430 225\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"40\" x2=\"400\" y2=\"40\"/><text x=\"404\" y=\"45\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">L1</text><line x1=\"20\" y1=\"100\" x2=\"400\" y2=\"100\"/><text x=\"404\" y=\"105\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">L2</text><line x1=\"20\" y1=\"190\" x2=\"400\" y2=\"190\"/><text x=\"404\" y=\"195\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">L3</text><line x1=\"60\" y1=\"15\" x2=\"150\" y2=\"215\" class=\"hl\"/><line x1=\"340\" y1=\"15\" x2=\"240\" y2=\"215\" class=\"hl2\"/><circle cx=\"71.2\" cy=\"40\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"327.5\" cy=\"40\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"57.2\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"341.5\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><circle cx=\"98.2\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"297.5\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"84.2\" y=\"94\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"311.5\" y=\"94\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">E</text><circle cx=\"138.8\" cy=\"190\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"252.5\" cy=\"190\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"124.8\" y=\"184\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"266.5\" y=\"184\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">F</text></svg>",
+      "caption": "$L_1\\parallel L_2\\parallel L_3$，則 $\\overline{AB}:\\overline{BC}=\\overline{DE}:\\overline{EF}$。"
+    },
+    {
+      "title": "用比例判定平行",
+      "points": [
+        "若 $\\frac{\\overline{AD}}{\\overline{DB}}=\\frac{\\overline{AE}}{\\overline{EC}}$（或 $\\frac{\\overline{AD}}{\\overline{AB}}=\\frac{\\overline{AE}}{\\overline{AC}}$），則 $\\overline{DE}\\parallel\\overline{BC}$。",
+        "判斷時兩邊要用「同一種」比：都用小段比剩下段，或都用小段比整段。",
+        "比例不相等 → $\\overline{DE}$ 與 $\\overline{BC}$ 不平行。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "中點連線性質",
+      "body": "$D$、$E$ 為中點 $\\Rightarrow \\overline{DE}\\parallel\\overline{BC}$，$\\overline{DE}=\\frac{1}{2}\\overline{BC}$"
+    },
+    {
+      "name": "三角形比例線段",
+      "body": "$\\overline{DE}\\parallel\\overline{BC} \\iff \\overline{AD}:\\overline{DB}=\\overline{AE}:\\overline{EC}$"
+    },
+    {
+      "name": "平行線段長",
+      "body": "$\\overline{DE}:\\overline{BC}=\\overline{AD}:\\overline{AB}$（小段比整段）"
+    },
+    {
+      "name": "平行線截比例",
+      "body": "$L_1\\parallel L_2\\parallel L_3 \\Rightarrow \\overline{AB}:\\overline{BC}=\\overline{DE}:\\overline{EF}$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-03-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "中點連線定理",
+      "q": "$\\triangle ABC$ 中，$D$、$E$ 分別是 $\\overline{AB}$、$\\overline{AC}$ 的中點。若 $\\overline{BC}=14$，則 $\\overline{DE}$ 是多少？",
+      "choices": [
+        "$14$",
+        "$7$",
+        "$28$",
+        "$3.5$"
+      ],
+      "answer": 1,
+      "explain": "連接三角形兩邊中點的線段平行於第三邊，長度是第三邊的一半：$\\overline{DE}=\\frac{1}{2}\\times 14=7$。答案是 $7$。"
+    },
+    {
+      "id": "m9-03-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "平行線截比例線段",
+      "q": "$\\triangle ABC$ 中，$\\overline{DE}\\parallel\\overline{BC}$，$D$ 在 $\\overline{AB}$ 上、$E$ 在 $\\overline{AC}$ 上。若 $\\overline{AD}=4$、$\\overline{DB}=6$、$\\overline{AE}=6$，則 $\\overline{EC}$ 是多少？",
+      "choices": [
+        "$4$",
+        "$6$",
+        "$9$",
+        "$\\frac{8}{3}$"
+      ],
+      "answer": 2,
+      "explain": "$\\overline{AD}:\\overline{DB}=\\overline{AE}:\\overline{EC}$，$4:6=6:\\overline{EC}$，$\\overline{EC}=\\frac{6\\times 6}{4}=9$。比例對錯位置會得 $4$。答案是 $9$。"
+    },
+    {
+      "id": "m9-03-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "平行線截比例線段",
+      "q": "三條平行線 $L_1\\parallel L_2\\parallel L_3$，直線 $M$ 依序交它們於 $A$、$B$、$C$，直線 $N$ 依序交它們於 $D$、$E$、$F$。若 $\\overline{AB}=3$、$\\overline{BC}=5$、$\\overline{DE}=4.5$，則 $\\overline{EF}$ 是多少？（圖未依比例繪製）",
+      "svg": "<svg viewBox=\"0 0 430 225\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"40\" x2=\"400\" y2=\"40\"/><text x=\"404\" y=\"45\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">L1</text><line x1=\"20\" y1=\"100\" x2=\"400\" y2=\"100\"/><text x=\"404\" y=\"105\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">L2</text><line x1=\"20\" y1=\"190\" x2=\"400\" y2=\"190\"/><text x=\"404\" y=\"195\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">L3</text><line x1=\"60\" y1=\"15\" x2=\"150\" y2=\"215\" class=\"hl\"/><line x1=\"340\" y1=\"15\" x2=\"240\" y2=\"215\" class=\"hl2\"/><circle cx=\"71.2\" cy=\"40\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"327.5\" cy=\"40\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"57.2\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"341.5\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><circle cx=\"98.2\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"297.5\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"84.2\" y=\"94\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"311.5\" y=\"94\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">E</text><circle cx=\"138.8\" cy=\"190\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"252.5\" cy=\"190\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"124.8\" y=\"184\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"266.5\" y=\"184\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">F</text></svg>",
+      "choices": [
+        "$7.5$",
+        "$6.5$",
+        "$10$",
+        "$2.7$"
+      ],
+      "answer": 0,
+      "explain": "平行線截兩直線，對應線段成比例：$\\overline{AB}:\\overline{BC}=\\overline{DE}:\\overline{EF}$，$3:5=4.5:\\overline{EF}$，$\\overline{EF}=\\frac{4.5\\times 5}{3}=7.5$。用「差相同」去想會誤得 $6.5$。答案是 $7.5$。"
+    },
+    {
+      "id": "m9-03-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "平行線截比例線段",
+      "q": "$\\triangle ABC$ 中，$\\overline{DE}\\parallel\\overline{BC}$，$D$ 在 $\\overline{AB}$ 上、$E$ 在 $\\overline{AC}$ 上。若 $\\overline{AD}=3$、$\\overline{DB}=5$、$\\overline{BC}=12$，則 $\\overline{DE}$ 是多少？",
+      "choices": [
+        "$7.2$",
+        "$4$",
+        "$20$",
+        "$4.5$"
+      ],
+      "answer": 3,
+      "explain": "$\\triangle ADE\\sim\\triangle ABC$，$\\overline{DE}:\\overline{BC}=\\overline{AD}:\\overline{AB}=3:(3+5)=3:8$，$\\overline{DE}=12\\times\\frac{3}{8}=4.5$。若誤用 $\\overline{AD}:\\overline{DB}=3:5$ 會得 $7.2$。答案是 $4.5$。"
+    },
+    {
+      "id": "m9-03-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "比例判定平行",
+      "q": "$\\triangle ABC$ 中，$D$ 在 $\\overline{AB}$ 上、$E$ 在 $\\overline{AC}$ 上，$\\overline{AD}=6$、$\\overline{DB}=4$、$\\overline{AE}=9$、$\\overline{EC}=6$。若 $\\overline{BC}=15$，則 $\\overline{DE}$ 是多少？",
+      "choices": [
+        "$9$",
+        "$10$",
+        "$6$",
+        "$22.5$"
+      ],
+      "answer": 0,
+      "explain": "$\\overline{AD}:\\overline{DB}=6:4=3:2$，$\\overline{AE}:\\overline{EC}=9:6=3:2$，比例相等，所以 $\\overline{DE}\\parallel\\overline{BC}$。於是 $\\overline{DE}:\\overline{BC}=\\overline{AD}:\\overline{AB}=6:10$，$\\overline{DE}=15\\times\\frac{6}{10}=9$。答案是 $9$。"
+    },
+    {
+      "id": "m9-03-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "比例判定平行",
+      "q": "$\\triangle ABC$ 中，$\\overline{AB}=10$、$\\overline{AC}=15$，$D$ 在 $\\overline{AB}$ 上、$E$ 在 $\\overline{AC}$ 上。下列哪一組長度可以使 $\\overline{DE}\\parallel\\overline{BC}$？",
+      "choices": [
+        "$\\overline{AD}=4$，$\\overline{AE}=4$",
+        "$\\overline{AD}=6$，$\\overline{AE}=4$",
+        "$\\overline{AD}=5$，$\\overline{AE}=10$",
+        "$\\overline{AD}=4$，$\\overline{AE}=6$"
+      ],
+      "answer": 3,
+      "explain": "$\\overline{DE}\\parallel\\overline{BC}$ 的條件是 $\\frac{\\overline{AD}}{\\overline{AB}}=\\frac{\\overline{AE}}{\\overline{AC}}$。逐一檢查：$\\frac{4}{10}=\\frac{6}{15}=\\frac{2}{5}$ 成立；$\\frac{4}{10}\\neq\\frac{4}{15}$；$\\frac{6}{10}\\neq\\frac{4}{15}$；$\\frac{5}{10}\\neq\\frac{10}{15}$。答案是 $\\overline{AD}=4$，$\\overline{AE}=6$。"
+    },
+    {
+      "id": "m9-03-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "平行線截比例線段",
+      "q": "如圖，$\\triangle ABC$ 中 $D$ 在 $\\overline{AB}$ 上，$\\overline{AD}:\\overline{DB}=1:2$；過 $D$ 作 $\\overline{DE}\\parallel\\overline{BC}$ 交 $\\overline{AC}$ 於 $E$，再過 $E$ 作 $\\overline{EF}\\parallel\\overline{AB}$ 交 $\\overline{BC}$ 於 $F$。若 $\\overline{BC}=18$，則 $\\overline{FC}$ 是多少？",
+      "svg": "<svg viewBox=\"0 0 330 225\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"150,20 30,200 300,200\"/><line x1=\"110\" y1=\"80\" x2=\"200\" y2=\"80\" class=\"hl\"/><line x1=\"200\" y1=\"80\" x2=\"120\" y2=\"200\" class=\"hl2\"/><text x=\"150\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"20\" y=\"206\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"310\" y=\"206\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"98\" y=\"84\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"212\" y=\"84\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">E</text><text x=\"120\" y=\"218\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">F</text></svg>",
+      "choices": [
+        "$6$",
+        "$12$",
+        "$9$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explain": "$\\overline{DE}\\parallel\\overline{BC}$，所以 $\\overline{DE}:\\overline{BC}=\\overline{AD}:\\overline{AB}=1:3$，$\\overline{DE}=6$。四邊形 $DBFE$ 兩組對邊分別平行，是平行四邊形，$\\overline{BF}=\\overline{DE}=6$。$\\overline{FC}=18-6=12$。（只算到 $\\overline{BF}$ 會誤選 $6$。）答案是 $12$。"
+    },
+    {
+      "id": "m9-03-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "中點連線定理",
+      "q": "$\\triangle ABC$ 的周長是 $40$、面積是 $64$。連接三邊中點得到 $\\triangle DEF$，再連接 $\\triangle DEF$ 三邊中點得到 $\\triangle GHI$。$\\triangle GHI$ 的周長與面積分別是多少？",
+      "choices": [
+        "周長 $10$，面積 $4$",
+        "周長 $10$，面積 $16$",
+        "周長 $20$，面積 $16$",
+        "周長 $5$，面積 $4$"
+      ],
+      "answer": 0,
+      "explain": "每連一次中點，三邊都變成原來的 $\\frac{1}{2}$，周長變 $\\frac{1}{2}$、面積變 $(\\frac{1}{2})^2=\\frac{1}{4}$。$\\triangle DEF$：周長 $20$、面積 $16$；$\\triangle GHI$：周長 $10$、面積 $4$。答案是周長 $10$，面積 $4$。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "114 年第 16 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 S-9-3"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「平行線截比例線段」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B9%B3%E8%A1%8C%E7%B7%9A%E6%88%AA%E6%AF%94%E4%BE%8B%E7%B7%9A%E6%AE%B5"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

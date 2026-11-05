@@ -1,0 +1,220 @@
+{
+  "id": "m9-06",
+  "subject": "math",
+  "grade": 9,
+  "order": 6,
+  "title": "點、直線與圓的關係",
+  "codes": [
+    {
+      "code": "S-9-7",
+      "text": "點、直線與圓的關係：點與圓的位置關係（內部、圓上、外部）；直線與圓的位置關係（不相交、相切、交於兩點）；圓心與切點的連線垂直此切線（切線性質）；圓心到弦的垂直線段（弦心距）垂直平分此弦。"
+    }
+  ],
+  "intro": "所有位置關係都用「距離和半徑比大小」來判斷。會考常考切線垂直半徑、弦心距配畢氏定理。",
+  "sections": [
+    {
+      "title": "點與圓的位置關係",
+      "points": [
+        "設圓 $O$ 半徑 $r$，點 $P$ 到圓心的距離 $d=\\overline{OP}$。",
+        "$d<r$：$P$ 在圓內部；$d=r$：$P$ 在圓上；$d>r$：$P$ 在圓外部。",
+        "坐標平面上，圓心在原點時，點 $(x,y)$ 到圓心距離 $=\\sqrt{x^2+y^2}$；比較 $x^2+y^2$ 和 $r^2$ 就好，不用開根號。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"105\" r=\"75\" class=\"soft\"/><circle cx=\"120\" cy=\"105\" r=\"75\"/><circle cx=\"120\" cy=\"105\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"116\" y=\"123\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">O</text><circle cx=\"150\" cy=\"90\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"152\" y=\"82\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">P</text><circle cx=\"188\" cy=\"73.3\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"198\" y=\"69.3\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">Q</text><circle cx=\"250\" cy=\"50\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"258\" y=\"46\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">R</text><text x=\"300\" y=\"120\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">P：d＜r（內部）</text><text x=\"300\" y=\"145\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">Q：d＝r（圓上）</text><text x=\"300\" y=\"170\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">R：d＞r（外部）</text></svg>",
+      "caption": "用點到圓心的距離 $d$ 與半徑 $r$ 比大小。"
+    },
+    {
+      "title": "直線與圓的位置關係",
+      "points": [
+        "設圓心到直線的距離為 $d$（垂直距離）。",
+        "$d>r$：不相交（$0$ 個交點）。",
+        "$d=r$：相切（$1$ 個交點，叫切點），這條直線叫切線。",
+        "$d<r$：交於兩點（$2$ 個交點），這條直線叫割線。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 195\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"230\" cy=\"120\" r=\"60\"/><circle cx=\"230\" cy=\"120\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"240\" y=\"136\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">O</text><line x1=\"70\" y1=\"30\" x2=\"390\" y2=\"30\"/><line x1=\"70\" y1=\"60\" x2=\"390\" y2=\"60\" class=\"hl\"/><line x1=\"70\" y1=\"150\" x2=\"390\" y2=\"150\" class=\"hl2\"/><circle cx=\"230\" cy=\"60\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"178\" cy=\"150\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"282\" cy=\"150\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"64\" y=\"35\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">不相交</text><text x=\"64\" y=\"65\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" class=\"hl\" font-size=\"13\">相切</text><text x=\"64\" y=\"155\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">交於兩點</text><line x1=\"230\" y1=\"120\" x2=\"230\" y2=\"60\" stroke-dasharray=\"5 4\"/><text x=\"236\" y=\"92\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">r</text></svg>",
+      "caption": "三條直線到圓心的距離分別大於、等於、小於半徑。"
+    },
+    {
+      "title": "切線性質",
+      "points": [
+        "圓心與切點的連線（半徑）**垂直**切線。",
+        "所以切線、半徑、圓心到圓外點的連線會形成直角三角形，可用畢氏定理。",
+        "過圓上一點，恰好可以作一條切線；過圓外一點，可以作兩條切線。"
+      ]
+    },
+    {
+      "title": "弦心距",
+      "points": [
+        "圓心到弦的垂直線段叫**弦心距**。",
+        "弦心距**垂直平分**這條弦：$\\overline{AM}=\\overline{MB}$。",
+        "半弦長、弦心距、半徑組成直角三角形：$(\\frac{\\overline{AB}}{2})^2+d^2=r^2$。",
+        "同一圓中，弦越長，弦心距越短；直徑的弦心距是 $0$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 195\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"150\" cy=\"100\" r=\"80\"/><line x1=\"86\" y1=\"148\" x2=\"214\" y2=\"148\" class=\"hl\" stroke-width=\"3\"/><line x1=\"150\" y1=\"100\" x2=\"150\" y2=\"148\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"150\" y1=\"100\" x2=\"86\" y2=\"148\"/><polyline points=\"160,148 160,138 150,138\" stroke-width=\"1.5\"/><circle cx=\"150\" cy=\"100\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"150\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"76\" y=\"154\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"224\" y=\"154\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"150\" y=\"166\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">M</text><text x=\"108\" y=\"118\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">r</text><text x=\"156\" y=\"128\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">d</text><text x=\"250\" y=\"60\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">OM ⊥ AB</text><text x=\"250\" y=\"82\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">AM＝MB</text><text x=\"250\" y=\"104\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">(AB÷2)²＋d²＝r²</text></svg>",
+      "caption": "弦心距 $\\overline{OM}$ 垂直平分弦 $\\overline{AB}$。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "點與圓",
+      "body": "$d<r$ 內部；$d=r$ 圓上；$d>r$ 外部"
+    },
+    {
+      "name": "直線與圓",
+      "body": "$d>r$ 不相交；$d=r$ 相切；$d<r$ 交於兩點"
+    },
+    {
+      "name": "切線性質",
+      "body": "圓心與切點的連線垂直切線"
+    },
+    {
+      "name": "弦心距",
+      "body": "垂直平分弦，$(\\frac{\\text{弦長}}{2})^2+d^2=r^2$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-06-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "點與圓的位置",
+      "q": "圓 $O$ 的半徑是 $5$，點 $P$ 與圓心 $O$ 的距離是 $4.9$。點 $P$ 在哪裡？",
+      "choices": [
+        "圓的內部",
+        "圓上",
+        "圓的外部",
+        "無法判斷"
+      ],
+      "answer": 0,
+      "explain": "$\\overline{OP}=4.9<5=r$，所以 $P$ 在圓的內部。答案是圓的內部。"
+    },
+    {
+      "id": "m9-06-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "直線與圓的位置",
+      "q": "圓的半徑是 $6$，直線 $L$ 與圓心的距離是 $6$。直線 $L$ 與圓有幾個交點？",
+      "choices": [
+        "$0$ 個",
+        "$1$ 個",
+        "$2$ 個",
+        "無限多個"
+      ],
+      "answer": 1,
+      "explain": "圓心到直線的距離等於半徑（$d=r=6$），直線與圓相切，只有 $1$ 個交點（切點）。答案是 $1$ 個。"
+    },
+    {
+      "id": "m9-06-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "弦心距",
+      "q": "圓的半徑是 $10$，一條弦長 $16$。這條弦的弦心距是多少？",
+      "choices": [
+        "$8$",
+        "$2\\sqrt{41}$",
+        "$6$",
+        "$2$"
+      ],
+      "answer": 2,
+      "explain": "弦心距垂直平分弦，半弦長 $=8$。$8^2+d^2=10^2$，$d^2=36$，$d=6$。（$8$ 是半弦長；$2\\sqrt{41}$ 是誤把兩數平方相加。）答案是 $6$。"
+    },
+    {
+      "id": "m9-06-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "點與圓的位置",
+      "q": "坐標平面上，圓心在原點 $(0,0)$、半徑 $5$ 的圓。下列哪一個點在圓的外部？",
+      "choices": [
+        "$(3,4)$",
+        "$(-4,-2)$",
+        "$(0,-5)$",
+        "$(1,-5)$"
+      ],
+      "answer": 3,
+      "explain": "比較 $x^2+y^2$ 與 $r^2=25$：$(3,4)$ 得 $25$，在圓上；$(-4,-2)$ 得 $20$，在內部；$(0,-5)$ 得 $25$，在圓上；$(1,-5)$ 得 $26>25$，在外部。答案是 $(1,-5)$。"
+    },
+    {
+      "id": "m9-06-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "切線性質",
+      "q": "圓 $O$ 的半徑是 $5$，$\\overline{PA}$ 切圓 $O$ 於 $A$，$\\overline{PA}=12$。點 $P$ 到圓上的點，最短距離是多少？",
+      "choices": [
+        "$8$",
+        "$13$",
+        "$7$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explain": "切線垂直半徑，$\\triangle OAP$ 是直角三角形，$\\overline{OP}=\\sqrt{5^2+12^2}=13$。$P$ 到圓上最近的點在 $\\overline{OP}$ 上，距離 $=13-5=8$。（$7=12-5$ 是誤算。）答案是 $8$。"
+    },
+    {
+      "id": "m9-06-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "直線與圓的位置",
+      "q": "坐標平面上，圓的圓心是 $(2,3)$、半徑是 $4$。下列哪一條直線與這個圓相切？",
+      "choices": [
+        "$x=-1$",
+        "$x=5$",
+        "$y=-1$",
+        "$y=6$"
+      ],
+      "answer": 2,
+      "explain": "鉛垂線 $x=a$ 到圓心的距離是 $|a-2|$，水平線 $y=b$ 的距離是 $|b-3|$。$x=-1$：$3$；$x=5$：$3$；$y=6$：$3$，都小於 $4$，交於兩點；$y=-1$：$|-1-3|=4=r$，相切。答案是 $y=-1$。"
+    },
+    {
+      "id": "m9-06-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "弦心距",
+      "q": "圓 $O$ 的半徑是 $10$，$\\overline{AB}$、$\\overline{CD}$ 是兩條互相平行的弦，$\\overline{AB}=16$、$\\overline{CD}=12$，且兩弦在圓心的兩側。兩弦之間的距離是多少？",
+      "choices": [
+        "$2$",
+        "$14$",
+        "$4$",
+        "$28$"
+      ],
+      "answer": 1,
+      "explain": "$\\overline{AB}$ 的弦心距 $=\\sqrt{10^2-8^2}=6$，$\\overline{CD}$ 的弦心距 $=\\sqrt{10^2-6^2}=8$。兩弦在圓心兩側，距離 $=6+8=14$（同側才是 $8-6=2$）。答案是 $14$。"
+    },
+    {
+      "id": "m9-06-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "弦心距",
+      "q": "如圖，一座拱橋的橋拱是圓弧，橋下水面寬（弦長）$24$ 公尺，拱頂離水面（拱高）$8$ 公尺。這個圓弧的半徑是多少公尺？",
+      "svg": "<svg viewBox=\"0 0 360 240\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M 60 170 A 130 130 0 0 1 300 170\" class=\"hl\"/><line x1=\"60\" y1=\"170\" x2=\"300\" y2=\"170\"/><line x1=\"180\" y1=\"90\" x2=\"180\" y2=\"170\" class=\"hl2\" stroke-dasharray=\"5 4\"/><line x1=\"60\" y1=\"186\" x2=\"300\" y2=\"186\" stroke-width=\"1\"/><line x1=\"60\" y1=\"180\" x2=\"60\" y2=\"192\" stroke-width=\"1\"/><line x1=\"300\" y1=\"180\" x2=\"300\" y2=\"192\" stroke-width=\"1\"/><line x1=\"180\" y1=\"220\" x2=\"300\" y2=\"170\" stroke-dasharray=\"5 4\"/><circle cx=\"180\" cy=\"220\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"170\" y=\"228\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"120\" y=\"204\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">24 m</text><text x=\"186\" y=\"135\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">8 m</text><text x=\"252\" y=\"214\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">r</text></svg>",
+      "choices": [
+        "$13$",
+        "$12$",
+        "$10$",
+        "$18$"
+      ],
+      "answer": 0,
+      "explain": "設半徑 $r$。圓心到弦的距離是 $r-8$，半弦長 $12$。由弦心距關係 $12^2+(r-8)^2=r^2$，$144+r^2-16r+64=r^2$，$16r=208$，$r=13$。答案是 $13$ 公尺。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "113 年第 17 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-9-7"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「弦心距」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%BC%A6%E5%BF%83%E8%B7%9D"
+    },
+    {
+      "label": "均一教育平台：搜尋「圓的切線」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9C%93%E7%9A%84%E5%88%87%E7%B7%9A"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

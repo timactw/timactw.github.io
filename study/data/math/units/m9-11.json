@@ -1,0 +1,232 @@
+{
+  "id": "m9-11",
+  "subject": "math",
+  "grade": 9,
+  "order": 11,
+  "title": "證明的意義",
+  "codes": [
+    {
+      "code": "S-9-11",
+      "text": "證明的意義：幾何推理（須說明所依據的幾何性質）；代數推理（須說明所依據的代數性質）。"
+    }
+  ],
+  "intro": "證明是用已知條件和學過的性質，一步一步推出結論，每一步都要說得出依據。會考會考你判斷依據對不對、推理哪一步出錯，以及怎麼用符號說明「任意」數都成立。",
+  "sections": [
+    {
+      "title": "什麼是證明",
+      "points": [
+        "**已知**是題目給的條件，**求證**是要推出的結論，**證明**是從已知一步一步推到求證的過程。",
+        "證明的每一步都要寫出**依據**：定義、性質、公理，或前面已經證明過的結果。",
+        "用量角器量、看圖覺得像、舉幾個例子都成立，都**不算**證明。",
+        "要說明一個敘述是錯的，只要舉出一個**反例**就夠了。"
+      ]
+    },
+    {
+      "title": "幾何推理常用的依據",
+      "points": [
+        "對頂角相等；直線上的兩個鄰角互補（和為 $180^\\circ$）。",
+        "兩平行線被一條截線所截：同位角相等、內錯角相等、同側內角互補。",
+        "三角形內角和為 $180^\\circ$；三角形的外角等於兩個內對角的和。",
+        "全等性質：SSS、SAS、ASA、AAS、RHS；全等三角形的對應邊相等、對應角相等。",
+        "等腰三角形兩底角相等；頂角平分線垂直平分底邊。"
+      ],
+      "svg": "<svg viewBox=\"0 0 340 250\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"170,30 70,220 270,220\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"220\" class=\"hl\"/><line x1=\"126.2\" y1=\"128.3\" x2=\"113.8\" y2=\"121.7\" stroke-width=\"1.5\"/><line x1=\"226.2\" y1=\"121.7\" x2=\"213.8\" y2=\"128.3\" stroke-width=\"1.5\"/><text x=\"160.4\" y=\"68.8\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">1</text><text x=\"179.6\" y=\"68.8\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">2</text><text x=\"170\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"58\" y=\"228\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"282\" y=\"228\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text><text x=\"170\" y=\"236\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">D</text></svg>",
+      "caption": "AB＝AC（同樣記號表示等長），AD 平分 ∠A（∠1＝∠2），AD 為共用邊，依 SAS 得 △ABD ≅ △ACD。"
+    },
+    {
+      "title": "範例：三角形內角和為 180°",
+      "points": [
+        "已知：$\\triangle ABC$。求證：$\\angle A+\\angle B+\\angle C=180^\\circ$。",
+        "過 $A$ 作直線 $L$ 與 $\\overline{BC}$ 平行（依據：過直線外一點可以作一條平行線）。",
+        "圖中左邊的 $x$ 等於 $\\angle B$、右邊的 $y$ 等於 $\\angle C$（依據：兩平行線的內錯角相等）。",
+        "$x+z+y=180^\\circ$（依據：平角為 $180^\\circ$），其中 $z=\\angle A$，代換得 $\\angle A+\\angle B+\\angle C=180^\\circ$（依據：等量代換）。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 235\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"50\" x2=\"340\" y2=\"50\" class=\"hl\"/><polygon points=\"170,50 50,210 310,210\"/><text x=\"143.2\" y=\"63.4\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">x</text><text x=\"197.3\" y=\"62.4\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">y</text><text x=\"171.2\" y=\"82\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">z</text><text x=\"78.6\" y=\"195.7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">x</text><text x=\"280.9\" y=\"196.8\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">y</text><text x=\"170\" y=\"36\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"38\" y=\"218\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"322\" y=\"218\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text><text x=\"342\" y=\"38\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\" dominant-baseline=\"middle\">L</text></svg>",
+      "caption": "$L\\parallel \\overline{BC}$，在 A 點、直線 L 下方的三個角 x、z、y 合成一個平角。"
+    },
+    {
+      "title": "代數推理",
+      "points": [
+        "用文字符號代表**任意**數：任意整數記為 $n$，偶數記為 $2n$，奇數記為 $2n+1$。",
+        "常用依據：等量公理（等式兩邊同加、同減、同乘一個數，或同除以一個不為 $0$ 的數，等式仍成立）、交換律、結合律、分配律、乘法公式。",
+        "例：兩個連續奇數 $2n+1$、$2n+3$ 的和 $=4n+4=4(n+1)$，所以一定是 $4$ 的倍數。",
+        "注意：由 $a^2=b^2$ 只能推得 $a=b$ 或 $a=-b$，不能直接說 $a=b$（反例：$a=2$、$b=-2$）。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "證明的結構",
+      "body": "已知 → 求證 → 證明；每一步都要寫依據。"
+    },
+    {
+      "name": "反例",
+      "body": "推翻一個「所有……都……」的敘述，舉一個反例就夠。"
+    },
+    {
+      "name": "全等判別",
+      "body": "SSS、SAS、ASA、AAS、RHS（SAS 的角必須是兩邊的夾角）"
+    },
+    {
+      "name": "平行線性質",
+      "body": "同位角相等、內錯角相等、同側內角互補。"
+    },
+    {
+      "name": "整數的表示",
+      "body": "任意整數 $n$；偶數 $2n$；奇數 $2n+1$；連續整數 $n$、$n+1$。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-11-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "證明依據",
+      "q": "兩直線相交於 $O$，$\\angle 1$ 與 $\\angle 3$ 是一組對頂角。由 $\\angle 1=40^\\circ$ 推得 $\\angle 3=40^\\circ$，依據是什麼？",
+      "choices": [
+        "對頂角相等",
+        "同位角相等",
+        "內錯角相等",
+        "直線上的兩鄰角互補"
+      ],
+      "answer": 0,
+      "explain": "$\\angle 1$ 與 $\\angle 3$ 是兩直線相交形成的對頂角，依據「對頂角相等」得 $\\angle 3=40^\\circ$。同位角、內錯角要有平行線和截線才談得上；鄰角互補會得到 $140^\\circ$。答案是「對頂角相等」。"
+    },
+    {
+      "id": "m9-11-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "證明的完整性",
+      "q": "要證明「任意兩個連續整數的和一定是奇數」，下列哪一個做法才算是完整的證明？",
+      "choices": [
+        "算出 $3+4=7$ 是奇數，所以成立",
+        "算了 $100$ 組連續整數的和都是奇數，所以成立",
+        "設較小的數為 $n$，另一數為 $n+1$，和為 $2n+1$；$2n$ 是偶數，加 $1$ 後是奇數",
+        "在數線上觀察，看起來都是奇數，所以成立"
+      ],
+      "answer": 2,
+      "explain": "舉例再多都只驗證了那幾組，不能保證「任意」兩個連續整數都成立。用 $n$ 代表任意整數，和 $n+(n+1)=2n+1$，$2n$ 一定是偶數，加 $1$ 就是奇數，這才涵蓋所有情形。答案是用 $n$ 推導的那一個。"
+    },
+    {
+      "id": "m9-11-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "反例",
+      "q": "小文說：「所有的質數都是奇數。」要說明他說錯了，最好的做法是哪一個？",
+      "choices": [
+        "舉出 $3$、$5$、$7$ 都是質數，也都是奇數",
+        "舉出 $2$ 是質數，但 $2$ 不是奇數",
+        "舉出 $9$ 是奇數，但 $9$ 不是質數",
+        "說明質數有無限多個"
+      ],
+      "answer": 1,
+      "explain": "要推翻「所有質數都是奇數」，只要找到一個「是質數但不是奇數」的反例。$2$ 是質數又是偶數，正好是反例。舉 $3$、$5$、$7$ 是在支持他；$9$ 是「奇數不是質數」，和原敘述方向不同，推翻不了。答案是舉出 $2$。"
+    },
+    {
+      "id": "m9-11-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "代數證明",
+      "q": "小安要證明「任意三個連續整數的和是 $3$ 的倍數」。她設三數為 $n-1$、$n$、$n+1$，相加化簡後得到下列哪一個式子，就能說明和是 $3$ 的倍數？",
+      "choices": [
+        "$3n+3$",
+        "$3n-1$",
+        "$n^3$",
+        "$3n$"
+      ],
+      "answer": 3,
+      "explain": "$(n-1)+n+(n+1)=3n+(-1+1)=3n$（依據：交換律、結合律）。$n$ 是整數，所以 $3n$ 是 $3$ 的倍數。$3n+3$ 是把 $-1$ 當成 $+1$ 算錯；$n^3$ 是把加法誤當乘法。答案是 $3n$。"
+    },
+    {
+      "id": "m9-11-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "全等證明",
+      "q": "如圖，$\\triangle ABC$ 中 $\\overline{AB}=\\overline{AC}$，$\\overline{AD}$ 平分 $\\angle BAC$ 交 $\\overline{BC}$ 於 $D$。要證明 $\\triangle ABD\\cong\\triangle ACD$，已知 $\\overline{AB}=\\overline{AC}$、$\\angle 1=\\angle 2$、$\\overline{AD}=\\overline{AD}$，應該用哪一個全等性質？",
+      "svg": "<svg viewBox=\"0 0 340 250\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"170,30 70,220 270,220\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"220\" class=\"hl\"/><line x1=\"126.2\" y1=\"128.3\" x2=\"113.8\" y2=\"121.7\" stroke-width=\"1.5\"/><line x1=\"226.2\" y1=\"121.7\" x2=\"213.8\" y2=\"128.3\" stroke-width=\"1.5\"/><text x=\"160.4\" y=\"68.8\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">1</text><text x=\"179.6\" y=\"68.8\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">2</text><text x=\"170\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"58\" y=\"228\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"282\" y=\"228\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text><text x=\"170\" y=\"236\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">D</text></svg>",
+      "choices": [
+        "SAS",
+        "SSS",
+        "ASA",
+        "RHS"
+      ],
+      "answer": 0,
+      "explain": "兩組對應邊 $\\overline{AB}=\\overline{AC}$、$\\overline{AD}=\\overline{AD}$，以及它們的夾角 $\\angle 1=\\angle 2$，是「兩邊夾一角」，依據 SAS 全等。SSS 需要 $\\overline{BD}=\\overline{CD}$，這是全等之後才知道的；ASA 需要兩組角；RHS 需要先知道有直角。答案是 SAS。"
+    },
+    {
+      "id": "m9-11-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "推理判斷",
+      "q": "下列哪一個推理**不一定**正確？",
+      "choices": [
+        "若 $a=b$，則 $a+3=b+3$",
+        "若 $a=b$，則 $5a=5b$",
+        "若 $a^2=b^2$，則 $a=b$",
+        "若 $a=b$ 且 $b=c$，則 $a=c$"
+      ],
+      "answer": 2,
+      "explain": "等式兩邊同加 $3$、同乘 $5$ 都成立（等量公理），$a=b$、$b=c$ 推得 $a=c$ 是遞移律，也成立。但 $a^2=b^2$ 時，$a$ 可能等於 $-b$，例如 $a=2$、$b=-2$，$a^2=b^2=4$ 而 $a\\neq b$。答案是「若 $a^2=b^2$，則 $a=b$」。"
+    },
+    {
+      "id": "m9-11-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "代數證明",
+      "q": "要證明「兩個奇數的乘積還是奇數」。設兩奇數為 $2m+1$、$2n+1$（$m$、$n$ 為整數），乘積可以整理成下列哪一個式子，最能說明它是奇數？",
+      "choices": [
+        "$2(mn+m+n)+1$",
+        "$2(2mn+m+n)+1$",
+        "$4mn+1$",
+        "$2(2mn+m+n)$"
+      ],
+      "answer": 1,
+      "explain": "$(2m+1)(2n+1)=4mn+2m+2n+1=2(2mn+m+n)+1$（依據：分配律）。$2mn+m+n$ 是整數，$2$ 倍後是偶數，再加 $1$ 是奇數。$2(mn+m+n)+1$ 提公因式時漏了 $4mn$ 的係數；$4mn+1$ 漏了 $2m+2n$；$2(2mn+m+n)$ 漏了 $+1$，那是偶數。答案是 $2(2mn+m+n)+1$。"
+    },
+    {
+      "id": "m9-11-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "證明步驟檢查",
+      "q": "已知 $\\triangle ABC$，延長 $\\overline{BC}$ 到 $D$，求證 $\\angle ACD=\\angle A+\\angle B$。小傑的證明如下：\n①　$\\angle ACB+\\angle ACD=180^\\circ$（依據：直線上的兩鄰角互補）\n②　$\\angle A+\\angle B+\\angle ACB=180^\\circ$（依據：三角形內角和為 $180^\\circ$）\n③　$\\angle ACB+\\angle ACD=\\angle A+\\angle B+\\angle ACB$（依據：等量代換）\n④　$\\angle ACD=\\angle A+\\angle B$（依據：等式兩邊同乘一個數，等式仍成立）\n哪一步的依據寫錯了？",
+      "svg": "<svg viewBox=\"0 0 360 230\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"120,40 40,200 230,200\"/><line x1=\"230\" y1=\"200\" x2=\"330\" y2=\"200\" class=\"hl\" stroke-dasharray=\"5 4\"/><text x=\"120\" y=\"26\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"28\" y=\"208\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"230\" y=\"218\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text><text x=\"342\" y=\"206\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">D</text><text x=\"245.8\" y=\"169.9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">外角</text></svg>",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3,
+      "explain": "①、②、③ 的依據都正確。④ 是把 ③ 的等式兩邊同時**減去** $\\angle ACB$ 得到的，依據應該是「等式兩邊同減一個數，等式仍成立」，寫成「同乘」是錯的。答案是 ④。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 22 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-9-11"
+      },
+      {
+        "label": "114 年第 20 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 S-9-11"
+      },
+      {
+        "label": "113 年非選擇題第 2 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-9-11"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「幾何證明」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B9%BE%E4%BD%95%E8%AD%89%E6%98%8E"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

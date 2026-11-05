@@ -1,0 +1,218 @@
+{
+  "id": "m9-04",
+  "subject": "math",
+  "grade": 9,
+  "order": 4,
+  "title": "特殊直角三角形的邊長比",
+  "codes": [
+    {
+      "code": "S-9-4",
+      "text": "相似直角三角形邊長比值的不變性：直角三角形中某一銳角的角度決定邊長比值，該比值為不變量；30°-60°-90° 邊長比 1:√3:2；45°-45°-90° 邊長比 1:1:√2。"
+    }
+  ],
+  "intro": "銳角一固定，直角三角形的邊長比就固定。背熟 $30^\\circ$-$60^\\circ$-$90^\\circ$ 與 $45^\\circ$-$45^\\circ$-$90^\\circ$ 兩組比例，就能不靠畢氏定理快速求邊。",
+  "sections": [
+    {
+      "title": "為什麼邊長比是固定的",
+      "points": [
+        "兩個直角三角形若有一個銳角相等，加上直角，由 AA 知它們相似。",
+        "相似 → 對應邊成比例，所以「銳角決定三邊的比值」，和三角形大小無關。",
+        "因此只要記住幾個特殊角的邊長比，就能直接算出其他邊。"
+      ]
+    },
+    {
+      "title": "30°-60°-90° 三角形",
+      "points": [
+        "邊長比：短股：長股：斜邊＝$1:\\sqrt{3}:2$。",
+        "短股對 $30^\\circ$，長股對 $60^\\circ$，斜邊對直角。",
+        "斜邊是短股的 $2$ 倍；長股是短股的 $\\sqrt{3}$ 倍。",
+        "來源：正三角形沿高對半切開，就得到兩個 $30^\\circ$-$60^\\circ$-$90^\\circ$ 三角形。",
+        "已知長股求短股：短股＝長股 $\\div\\sqrt{3}$，記得有理化。"
+      ]
+    },
+    {
+      "title": "45°-45°-90° 三角形",
+      "points": [
+        "邊長比：股：股：斜邊＝$1:1:\\sqrt{2}$，是等腰直角三角形。",
+        "斜邊＝股 $\\times\\sqrt{2}$；股＝斜邊 $\\div\\sqrt{2}$。",
+        "來源：正方形沿對角線切開。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"198.6,180 60,100 60,180\" class=\"soft\"/><polyline points=\"70,180 70,170 60,170\" stroke-width=\"1.5\"/><text x=\"48\" y=\"140\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">1</text><text x=\"129.3\" y=\"198\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">√3</text><text x=\"137.3\" y=\"134\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">2</text><text x=\"158.6\" y=\"174\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">30°</text><text x=\"66\" y=\"124\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">60°</text><polygon points=\"270,180 370,180 270,80\" class=\"soft2\"/><polyline points=\"280,180 280,170 270,170\" stroke-width=\"1.5\"/><text x=\"258\" y=\"135\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">1</text><text x=\"320\" y=\"198\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">1</text><text x=\"328\" y=\"122\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">√2</text><text x=\"340\" y=\"174\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">45°</text><text x=\"276\" y=\"110\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">45°</text></svg>",
+      "caption": "左：$30^\\circ$-$60^\\circ$-$90^\\circ$，$1:\\sqrt{3}:2$；右：$45^\\circ$-$45^\\circ$-$90^\\circ$，$1:1:\\sqrt{2}$。"
+    },
+    {
+      "title": "常用結果",
+      "points": [
+        "邊長 $a$ 的正三角形：高 $=\\frac{\\sqrt{3}}{2}a$，面積 $=\\frac{\\sqrt{3}}{4}a^2$。",
+        "邊長 $a$ 的正方形：對角線 $=\\sqrt{2}a$。",
+        "斜放的梯子、坡道、斜線，只要給 $30^\\circ$、$45^\\circ$、$60^\\circ$，就套比例；一般三角形可作高切成兩個特殊直角三角形。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "30°-60°-90°",
+      "body": "短股：長股：斜邊 $=1:\\sqrt{3}:2$"
+    },
+    {
+      "name": "45°-45°-90°",
+      "body": "股：股：斜邊 $=1:1:\\sqrt{2}$"
+    },
+    {
+      "name": "正三角形",
+      "body": "高 $=\\frac{\\sqrt{3}}{2}a$，面積 $=\\frac{\\sqrt{3}}{4}a^2$"
+    },
+    {
+      "name": "正方形對角線",
+      "body": "$\\sqrt{2}a$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-04-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "30°-60°-90° 邊長比",
+      "q": "一個 $30^\\circ$-$60^\\circ$-$90^\\circ$ 直角三角形的斜邊長 $10$，則 $30^\\circ$ 角所對的邊長是多少？",
+      "choices": [
+        "$5\\sqrt{3}$",
+        "$10\\sqrt{3}$",
+        "$5$",
+        "$\\frac{10\\sqrt{3}}{3}$"
+      ],
+      "answer": 2,
+      "explain": "$30^\\circ$ 所對的是短股，短股：斜邊 $=1:2$，所以短股 $=10\\div 2=5$。$5\\sqrt{3}$ 是 $60^\\circ$ 所對的長股。答案是 $5$。"
+    },
+    {
+      "id": "m9-04-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "45°-45°-90° 邊長比",
+      "q": "一個等腰直角三角形的一股長 $6$，斜邊長是多少？",
+      "choices": [
+        "$6\\sqrt{2}$",
+        "$3\\sqrt{2}$",
+        "$12$",
+        "$6\\sqrt{3}$"
+      ],
+      "answer": 0,
+      "explain": "等腰直角三角形是 $45^\\circ$-$45^\\circ$-$90^\\circ$，股：斜邊 $=1:\\sqrt{2}$，斜邊 $=6\\sqrt{2}$。答案是 $6\\sqrt{2}$。"
+    },
+    {
+      "id": "m9-04-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "正三角形的高",
+      "q": "邊長 $8$ 的正三角形，高是多少？",
+      "choices": [
+        "$8\\sqrt{3}$",
+        "$4$",
+        "$4\\sqrt{2}$",
+        "$4\\sqrt{3}$"
+      ],
+      "answer": 3,
+      "explain": "作高把正三角形切成兩個 $30^\\circ$-$60^\\circ$-$90^\\circ$ 三角形，斜邊 $8$、短股 $4$，高是長股 $=4\\sqrt{3}$。答案是 $4\\sqrt{3}$。"
+    },
+    {
+      "id": "m9-04-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "45°-45°-90° 邊長比",
+      "q": "一個正方形的對角線長 $10$，它的面積是多少？",
+      "choices": [
+        "$100$",
+        "$50$",
+        "$25$",
+        "$50\\sqrt{2}$"
+      ],
+      "answer": 1,
+      "explain": "對角線把正方形分成兩個 $45^\\circ$-$45^\\circ$-$90^\\circ$ 三角形，邊長 $=10\\div\\sqrt{2}=5\\sqrt{2}$，面積 $=(5\\sqrt{2})^2=50$。（也可用對角線乘積除以 $2$：$10\\times 10\\div 2=50$。）答案是 $50$。"
+    },
+    {
+      "id": "m9-04-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "30°-60°-90° 邊長比",
+      "q": "如圖，一把長 $6$ 公尺的梯子斜靠在垂直的牆上，梯子與地面的夾角是 $60^\\circ$。梯子頂端離地面多高？",
+      "svg": "<svg viewBox=\"0 0 320 205\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"60\" y1=\"15\" x2=\"60\" y2=\"190\"/><line x1=\"30\" y1=\"190\" x2=\"300\" y2=\"190\"/><line x1=\"60\" y1=\"60.1\" x2=\"135\" y2=\"190\" class=\"hl\" stroke-width=\"3\"/><polyline points=\"70,190 70,180 60,180\" stroke-width=\"1.5\"/><text x=\"112\" y=\"105\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">6 m</text><text x=\"101\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">60°</text><text x=\"48\" y=\"125\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">?</text></svg>",
+      "choices": [
+        "$3$ 公尺",
+        "$3\\sqrt{3}$ 公尺",
+        "$3\\sqrt{2}$ 公尺",
+        "$6\\sqrt{3}$ 公尺"
+      ],
+      "answer": 1,
+      "explain": "梯子、牆、地面形成 $30^\\circ$-$60^\\circ$-$90^\\circ$ 三角形，斜邊是梯子 $6$。梯頂高度對著 $60^\\circ$，是長股：短股 $=3$，長股 $=3\\sqrt{3}$。答案是 $3\\sqrt{3}$ 公尺。"
+    },
+    {
+      "id": "m9-04-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "30°-60°-90° 邊長比",
+      "q": "一個 $30^\\circ$-$60^\\circ$-$90^\\circ$ 直角三角形中，$60^\\circ$ 角所對的邊長是 $9$，斜邊長是多少？",
+      "choices": [
+        "$18$",
+        "$9\\sqrt{3}$",
+        "$6\\sqrt{3}$",
+        "$3\\sqrt{3}$"
+      ],
+      "answer": 2,
+      "explain": "$60^\\circ$ 所對的是長股，長股：斜邊 $=\\sqrt{3}:2$。短股 $=\\frac{9}{\\sqrt{3}}=3\\sqrt{3}$，斜邊 $=2\\times 3\\sqrt{3}=6\\sqrt{3}$。把 $9$ 當成短股會誤得 $18$。答案是 $6\\sqrt{3}$。"
+    },
+    {
+      "id": "m9-04-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "特殊直角三角形應用",
+      "q": "如圖，$\\triangle ABC$ 中 $\\angle B=45^\\circ$、$\\angle C=30^\\circ$，$\\overline{AD}\\perp\\overline{BC}$ 於 $D$，$\\overline{AD}=4$。$\\overline{BC}$ 的長是多少？",
+      "svg": "<svg viewBox=\"0 0 400 195\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"150,50 30,170 357.8,170\"/><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"170\" class=\"hl\" stroke-dasharray=\"5 4\"/><polyline points=\"160,170 160,160 150,160\" stroke-width=\"1.5\"/><text x=\"150\" y=\"42\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"20\" y=\"176\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"367.8\" y=\"176\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"150\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"62\" y=\"164\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">45°</text><text x=\"313.8\" y=\"164\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">30°</text><text x=\"158\" y=\"115\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">4</text></svg>",
+      "choices": [
+        "$4\\sqrt{2}+8$",
+        "$4+\\frac{4\\sqrt{3}}{3}$",
+        "$8\\sqrt{3}$",
+        "$4+4\\sqrt{3}$"
+      ],
+      "answer": 3,
+      "explain": "$\\triangle ABD$ 是 $45^\\circ$-$45^\\circ$-$90^\\circ$，$\\overline{BD}=\\overline{AD}=4$。$\\triangle ADC$ 是 $30^\\circ$-$60^\\circ$-$90^\\circ$，$\\overline{AD}$ 對 $30^\\circ$ 是短股，$\\overline{DC}$ 是長股 $=4\\sqrt{3}$。$\\overline{BC}=4+4\\sqrt{3}$。（$4\\sqrt{2}+8$ 是 $\\overline{AB}+\\overline{AC}$。）答案是 $4+4\\sqrt{3}$。"
+    },
+    {
+      "id": "m9-04-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "特殊直角三角形應用",
+      "q": "菱形 $ABCD$ 的邊長是 $10$，$\\angle A=60^\\circ$。這個菱形的面積是多少？",
+      "choices": [
+        "$50\\sqrt{3}$",
+        "$100\\sqrt{3}$",
+        "$25\\sqrt{3}$",
+        "$50$"
+      ],
+      "answer": 0,
+      "explain": "$\\angle A=60^\\circ$ 且 $\\overline{AB}=\\overline{AD}=10$，所以 $\\triangle ABD$ 是邊長 $10$ 的正三角形，面積 $=\\frac{\\sqrt{3}}{4}\\times 10^2=25\\sqrt{3}$。菱形被對角線 $\\overline{BD}$ 分成兩個全等的正三角形，面積 $=2\\times 25\\sqrt{3}=50\\sqrt{3}$。答案是 $50\\sqrt{3}$。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年非選擇題第 2 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-9-4"
+      },
+      {
+        "label": "114 年第 17 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 S-9-4"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「特殊直角三角形」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%89%B9%E6%AE%8A%E7%9B%B4%E8%A7%92%E4%B8%89%E8%A7%92%E5%BD%A2"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

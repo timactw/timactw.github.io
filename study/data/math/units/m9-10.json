@@ -1,0 +1,220 @@
+{
+  "id": "m9-10",
+  "subject": "math",
+  "grade": 9,
+  "order": 10,
+  "title": "三角形的重心",
+  "codes": [
+    {
+      "code": "S-9-10",
+      "text": "三角形的重心：重心的意義與中線；三角形的三條中線將三角形面積六等份；重心到頂點的距離等於它到對邊中點的兩倍；重心的物理意義。"
+    }
+  ],
+  "intro": "重心是三條中線的交點。會考最愛考重心把中線分成 2：1，以及三條中線把三角形面積分成六等份。",
+  "sections": [
+    {
+      "title": "中線與重心",
+      "points": [
+        "連接頂點與對邊中點的線段叫做**中線**，三角形有三條中線。",
+        "三條中線交於同一點，這一點叫做**重心**，常記為 $G$；重心一定在三角形內部。",
+        "重心的物理意義：厚薄均勻的三角形薄板，用手指頂在重心上可以剛好平衡。"
+      ]
+    },
+    {
+      "title": "重心把中線分成 2：1",
+      "points": [
+        "重心到頂點的距離是它到對邊中點距離的 $2$ 倍：$\\overline{AG}:\\overline{GD}=2:1$。",
+        "所以 $\\overline{AG}=\\frac{2}{3}\\overline{AD}$，$\\overline{GD}=\\frac{1}{3}\\overline{AD}$。",
+        "三條中線都被重心分成 $2:1$，靠頂點的那一段比較長。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"150,30 30,230 330,230\"/><line x1=\"150\" y1=\"30\" x2=\"180\" y2=\"230\" class=\"hl\"/><line x1=\"30\" y1=\"230\" x2=\"240\" y2=\"130\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"230\" x2=\"90\" y2=\"130\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"223\" x2=\"105\" y2=\"237\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"223\" x2=\"255\" y2=\"237\" stroke-width=\"1.5\"/><line x1=\"281.5\" y1=\"186.5\" x2=\"291.9\" y2=\"177.2\" stroke-width=\"1.5\"/><line x1=\"278.1\" y1=\"182.8\" x2=\"288.5\" y2=\"173.5\" stroke-width=\"1.5\"/><line x1=\"191.5\" y1=\"86.5\" x2=\"201.9\" y2=\"77.2\" stroke-width=\"1.5\"/><line x1=\"188.1\" y1=\"82.8\" x2=\"198.5\" y2=\"73.5\" stroke-width=\"1.5\"/><line x1=\"128.6\" y1=\"79.3\" x2=\"116.6\" y2=\"72.1\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"83.6\" x2=\"114\" y2=\"76.4\" stroke-width=\"1.5\"/><line x1=\"123.4\" y1=\"87.9\" x2=\"111.4\" y2=\"80.7\" stroke-width=\"1.5\"/><line x1=\"68.6\" y1=\"179.3\" x2=\"56.6\" y2=\"172.1\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"183.6\" x2=\"54\" y2=\"176.4\" stroke-width=\"1.5\"/><line x1=\"63.4\" y1=\"187.9\" x2=\"51.4\" y2=\"180.7\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"230\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"180\" y=\"246\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">D</text><circle cx=\"240\" cy=\"130\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"254\" y=\"126\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">E</text><circle cx=\"90\" cy=\"130\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"76\" y=\"126\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">F</text><circle cx=\"170\" cy=\"163.3\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182\" y=\"165.3\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">G</text><text x=\"150\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"18\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"342\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text><text x=\"146\" y=\"96.7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">2</text><text x=\"163\" y=\"196.7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">1</text></svg>",
+      "caption": "D、E、F 是三邊中點（同樣記號表示等長），G 把中線 AD 分成 AG：GD=2：1。"
+    },
+    {
+      "title": "三條中線把面積六等份",
+      "points": [
+        "三條中線把三角形分成 $6$ 個小三角形，面積都相等，各占全部的 $\\frac{1}{6}$。",
+        "理由：中線把三角形分成底相等、高相同的兩半，再搭配 $2:1$ 就能推出六塊一樣大。",
+        "常用組合：$\\triangle GBC$、$\\triangle GCA$、$\\triangle GAB$ 各占 $\\frac{1}{3}$；像四邊形 $GDCE$ 這種由兩小塊組成的，也占 $\\frac{1}{3}$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"170,163.3 30,230 180,230\" class=\"soft\" stroke=\"none\"/><polygon points=\"170,163.3 180,230 330,230\" class=\"soft2\" stroke=\"none\"/><polygon points=\"170,163.3 330,230 240,130\" class=\"soft\" stroke=\"none\"/><polygon points=\"170,163.3 240,130 150,30\" class=\"soft2\" stroke=\"none\"/><polygon points=\"170,163.3 150,30 90,130\" class=\"soft\" stroke=\"none\"/><polygon points=\"170,163.3 90,130 30,230\" class=\"soft2\" stroke=\"none\"/><polygon points=\"150,30 30,230 330,230\"/><line x1=\"150\" y1=\"30\" x2=\"180\" y2=\"230\" class=\"hl\"/><line x1=\"30\" y1=\"230\" x2=\"240\" y2=\"130\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"230\" x2=\"90\" y2=\"130\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"223\" x2=\"105\" y2=\"237\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"223\" x2=\"255\" y2=\"237\" stroke-width=\"1.5\"/><line x1=\"281.5\" y1=\"186.5\" x2=\"291.9\" y2=\"177.2\" stroke-width=\"1.5\"/><line x1=\"278.1\" y1=\"182.8\" x2=\"288.5\" y2=\"173.5\" stroke-width=\"1.5\"/><line x1=\"191.5\" y1=\"86.5\" x2=\"201.9\" y2=\"77.2\" stroke-width=\"1.5\"/><line x1=\"188.1\" y1=\"82.8\" x2=\"198.5\" y2=\"73.5\" stroke-width=\"1.5\"/><line x1=\"128.6\" y1=\"79.3\" x2=\"116.6\" y2=\"72.1\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"83.6\" x2=\"114\" y2=\"76.4\" stroke-width=\"1.5\"/><line x1=\"123.4\" y1=\"87.9\" x2=\"111.4\" y2=\"80.7\" stroke-width=\"1.5\"/><line x1=\"68.6\" y1=\"179.3\" x2=\"56.6\" y2=\"172.1\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"183.6\" x2=\"54\" y2=\"176.4\" stroke-width=\"1.5\"/><line x1=\"63.4\" y1=\"187.9\" x2=\"51.4\" y2=\"180.7\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"230\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"180\" y=\"246\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">D</text><circle cx=\"240\" cy=\"130\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"254\" y=\"126\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">E</text><circle cx=\"90\" cy=\"130\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"76\" y=\"126\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">F</text><circle cx=\"170\" cy=\"163.3\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182\" y=\"165.3\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">G</text><text x=\"150\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"18\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"342\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text></svg>",
+      "caption": "六個小三角形面積相等。"
+    },
+    {
+      "title": "特殊三角形的重心",
+      "points": [
+        "直角三角形斜邊上的中線等於斜邊的一半（斜邊中點 $M$ 就是外心）。",
+        "所以直角頂點 $C$ 到重心的距離 $\\overline{CG}=\\frac{2}{3}\\times\\frac{1}{2}\\times$ 斜邊 $=\\frac{1}{3}\\times$ 斜邊。",
+        "等腰三角形底邊上的中線同時是高，也是頂角平分線，重心在這條線上。",
+        "正三角形的重心、外心、內心是同一點。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 255\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"40,40 330,230 40,230\"/><polyline points=\"40,218 52,218 52,230\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"230\" x2=\"185\" y2=\"135\" class=\"hl\" stroke-width=\"3\"/><line x1=\"114.2\" y1=\"80.3\" x2=\"106.6\" y2=\"92\" stroke-width=\"1.5\"/><line x1=\"118.4\" y1=\"83\" x2=\"110.8\" y2=\"94.7\" stroke-width=\"1.5\"/><line x1=\"259.2\" y1=\"175.3\" x2=\"251.6\" y2=\"187\" stroke-width=\"1.5\"/><line x1=\"263.4\" y1=\"178\" x2=\"255.8\" y2=\"189.7\" stroke-width=\"1.5\"/><line x1=\"106.6\" y1=\"178\" x2=\"114.2\" y2=\"189.7\" stroke-width=\"1.5\"/><line x1=\"110.8\" y1=\"175.3\" x2=\"118.4\" y2=\"187\" stroke-width=\"1.5\"/><circle cx=\"185\" cy=\"135\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"136.7\" cy=\"166.7\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"195\" y=\"123\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">M</text><text x=\"138.7\" y=\"184.7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">G</text><text x=\"26\" y=\"40\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"344\" y=\"234\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"26\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text></svg>",
+      "caption": "直角三角形 ABC（∠C=90°）：斜邊中點 M 到三頂點等距（MA＝MB＝MC），G 在中線 CM 上，CG＝CM×2/3。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "重心",
+      "body": "三條中線的交點，一定在三角形內部；均勻三角形薄板的平衡點。"
+    },
+    {
+      "name": "重心分中線",
+      "body": "$\\overline{AG}:\\overline{GD}=2:1$，$\\overline{AG}=\\frac{2}{3}\\overline{AD}$"
+    },
+    {
+      "name": "面積六等份",
+      "body": "三中線分出的 $6$ 個小三角形面積相等，各為 $\\frac{1}{6}$；$\\triangle GBC$ 為 $\\frac{1}{3}$。"
+    },
+    {
+      "name": "直角三角形",
+      "body": "斜邊上的中線＝斜邊÷2；直角頂點到重心＝斜邊÷3。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-10-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "重心分中線 2:1",
+      "q": "$\\overline{AD}$ 是 $\\triangle ABC$ 的一條中線，$G$ 為重心。若 $\\overline{AD}=12$，則 $\\overline{AG}$ 是多少？",
+      "choices": [
+        "$6$",
+        "$4$",
+        "$8$",
+        "$9$"
+      ],
+      "answer": 2,
+      "explain": "重心把中線分成 $\\overline{AG}:\\overline{GD}=2:1$，所以 $\\overline{AG}=\\frac{2}{3}\\times12=8$。$4$ 是 $\\overline{GD}$，$6$ 是誤以為重心在中線的中點。答案是 $8$。"
+    },
+    {
+      "id": "m9-10-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "重心六等分面積",
+      "q": "$\\triangle ABC$ 的面積為 $36$，它的三條中線把三角形分成 $6$ 個小三角形，每一個小三角形的面積是多少？",
+      "choices": [
+        "$6$",
+        "$12$",
+        "$9$",
+        "$18$"
+      ],
+      "answer": 0,
+      "explain": "三條中線把三角形分成面積相等的 $6$ 塊，每塊 $=36\\div6=6$。$12$ 是 $\\frac{1}{3}$，那是 $\\triangle GBC$ 這種由兩塊組成的面積。答案是 $6$。"
+    },
+    {
+      "id": "m9-10-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "重心的意義",
+      "q": "小美用厚薄均勻的木板做了一塊不等邊三角形的板子，想用一根手指從下方頂住，讓板子保持水平平衡。手指應該頂在哪一點？",
+      "choices": [
+        "三邊中垂線的交點（外心）",
+        "三條中線的交點（重心）",
+        "三個內角平分線的交點（內心）",
+        "最長邊的中點"
+      ],
+      "answer": 1,
+      "explain": "厚薄均勻的三角形薄板，平衡點就是重心，也就是三條中線的交點。外心、內心在不等邊三角形中都不是平衡點，最長邊中點在板子邊上更不可能平衡。答案是重心。"
+    },
+    {
+      "id": "m9-10-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "重心分中線 2:1",
+      "q": "$G$ 為 $\\triangle ABC$ 的重心，$D$ 為 $\\overline{BC}$ 的中點。若 $\\overline{GD}=3$，則中線 $\\overline{AD}$ 的長是多少？",
+      "choices": [
+        "$6$",
+        "$12$",
+        "$4.5$",
+        "$9$"
+      ],
+      "answer": 3,
+      "explain": "$\\overline{AG}=2\\overline{GD}=6$，所以 $\\overline{AD}=\\overline{AG}+\\overline{GD}=6+3=9$。$6$ 只算到 $\\overline{AG}$。答案是 $9$。"
+    },
+    {
+      "id": "m9-10-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "直角三角形重心",
+      "q": "直角三角形 $ABC$ 中，$\\angle C=90^\\circ$，斜邊 $\\overline{AB}=15$，$G$ 為重心。$\\overline{CG}$ 的長是多少？",
+      "choices": [
+        "$5$",
+        "$7.5$",
+        "$10$",
+        "$2.5$"
+      ],
+      "answer": 0,
+      "explain": "設 $M$ 為 $\\overline{AB}$ 中點，直角三角形斜邊上的中線等於斜邊一半，$\\overline{CM}=7.5$。$G$ 在 $\\overline{CM}$ 上且 $\\overline{CG}=\\frac{2}{3}\\overline{CM}=\\frac{2}{3}\\times7.5=5$。$7.5$ 是整條中線，$2.5$ 是 $\\overline{GM}$。答案是 $5$。"
+    },
+    {
+      "id": "m9-10-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "重心與面積",
+      "q": "$\\triangle ABC$ 的面積為 $60$，$G$ 為重心。$\\triangle GBC$ 的面積是多少？",
+      "choices": [
+        "$30$",
+        "$10$",
+        "$20$",
+        "$15$"
+      ],
+      "answer": 2,
+      "explain": "三條中線把 $\\triangle ABC$ 分成面積相等的 $6$ 塊，$\\triangle GBC$ 由其中 $2$ 塊組成，面積 $=60\\times\\frac{2}{6}=20$。（也可以想成 $\\triangle GBC$ 與 $\\triangle ABC$ 同底，高是 $\\frac{1}{3}$。）$10$ 只算了一塊。答案是 $20$。"
+    },
+    {
+      "id": "m9-10-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "重心六等分面積",
+      "q": "如圖，$\\triangle ABC$ 的面積為 $54$，$D$、$E$ 分別為 $\\overline{BC}$、$\\overline{CA}$ 的中點，$G$ 為重心。四邊形 $GDCE$（塗色部分）的面積是多少？",
+      "svg": "<svg viewBox=\"0 0 360 260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><polygon points=\"170,163.3 180,230 330,230 240,130\" class=\"soft\" stroke=\"none\"/><polygon points=\"150,30 30,230 330,230\"/><line x1=\"150\" y1=\"30\" x2=\"180\" y2=\"230\" class=\"hl\"/><line x1=\"30\" y1=\"230\" x2=\"240\" y2=\"130\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"230\" x2=\"90\" y2=\"130\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"223\" x2=\"105\" y2=\"237\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"223\" x2=\"255\" y2=\"237\" stroke-width=\"1.5\"/><line x1=\"281.5\" y1=\"186.5\" x2=\"291.9\" y2=\"177.2\" stroke-width=\"1.5\"/><line x1=\"278.1\" y1=\"182.8\" x2=\"288.5\" y2=\"173.5\" stroke-width=\"1.5\"/><line x1=\"191.5\" y1=\"86.5\" x2=\"201.9\" y2=\"77.2\" stroke-width=\"1.5\"/><line x1=\"188.1\" y1=\"82.8\" x2=\"198.5\" y2=\"73.5\" stroke-width=\"1.5\"/><line x1=\"128.6\" y1=\"79.3\" x2=\"116.6\" y2=\"72.1\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"83.6\" x2=\"114\" y2=\"76.4\" stroke-width=\"1.5\"/><line x1=\"123.4\" y1=\"87.9\" x2=\"111.4\" y2=\"80.7\" stroke-width=\"1.5\"/><line x1=\"68.6\" y1=\"179.3\" x2=\"56.6\" y2=\"172.1\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"183.6\" x2=\"54\" y2=\"176.4\" stroke-width=\"1.5\"/><line x1=\"63.4\" y1=\"187.9\" x2=\"51.4\" y2=\"180.7\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"230\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"180\" y=\"246\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">D</text><circle cx=\"240\" cy=\"130\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"254\" y=\"126\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">E</text><circle cx=\"90\" cy=\"130\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"76\" y=\"126\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">F</text><circle cx=\"170\" cy=\"163.3\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182\" y=\"165.3\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\" dominant-baseline=\"middle\">G</text><text x=\"150\" y=\"16\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">A</text><text x=\"18\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">B</text><text x=\"342\" y=\"238\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\">C</text></svg>",
+      "choices": [
+        "$27$",
+        "$9$",
+        "$13.5$",
+        "$18$"
+      ],
+      "answer": 3,
+      "explain": "三條中線把三角形分成 $6$ 塊面積相等的小三角形，每塊 $=54\\div6=9$。四邊形 $GDCE$ 由 $\\triangle GDC$ 和 $\\triangle GCE$ 兩塊組成，面積 $=9\\times2=18$。$27$ 是 $\\triangle ADC$ 的面積（一半）。答案是 $18$。"
+    },
+    {
+      "id": "m9-10-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "重心分中線 2:1",
+      "q": "等腰三角形 $ABC$ 中，$\\overline{AB}=\\overline{AC}=13$，$\\overline{BC}=10$，$G$ 為重心。$\\overline{AG}$ 的長是多少？",
+      "choices": [
+        "$12$",
+        "$8$",
+        "$4$",
+        "$\\frac{26}{3}$"
+      ],
+      "answer": 1,
+      "explain": "取 $\\overline{BC}$ 中點 $D$，等腰三角形底邊上的中線也是高，$\\overline{AD}=\\sqrt{13^2-5^2}=12$。$\\overline{AG}=\\frac{2}{3}\\times12=8$。$\\frac{26}{3}$ 是錯把腰長 $13$ 乘 $\\frac{2}{3}$。答案是 $8$。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "114 年第 22 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 S-9-10"
+      },
+      {
+        "label": "113 年第 22 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-9-10"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「三角形的重心」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E9%87%8D%E5%BF%83"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

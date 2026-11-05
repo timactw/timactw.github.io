@@ -1,0 +1,42 @@
+{
+  "id": "math",
+  "name": "數學",
+  "order": 1,
+  "icon": "📐",
+  "color": "#2f6fdf",
+  "status": "ready",
+  "blurb": "八、九年級全部單元（七年級待補）",
+  "curriculum": {
+    "title": "十二年國民基本教育課程綱要 國民中小學暨普通型高級中等學校—數學領域（教育部，107 年 6 月）",
+    "url": "https://www.naer.edu.tw/upload/1/16/doc/815/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校-數學領域.pdf",
+    "note": "伍、學習重點／二、學習內容，8 年級與 9 年級條目（PDF 頁 38–44）"
+  },
+  "pastPapers": {
+    "label": "心測中心・國中教育會考歷屆試題",
+    "url": "https://cap.rcpet.edu.tw/examination.html"
+  },
+  "groups": [
+    {
+      "grade": 7,
+      "title": "七年級"
+    },
+    {
+      "grade": 8,
+      "title": "八年級"
+    },
+    {
+      "grade": 9,
+      "title": "九年級"
+    }
+  ],
+  "defaultLinks": [
+    {
+      "label": "均一教育平台",
+      "url": "https://www.junyiacademy.org/"
+    },
+    {
+      "label": "教育部因材網",
+      "url": "https://adl.edu.tw/"
+    }
+  ]
+}

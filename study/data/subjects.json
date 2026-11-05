@@ -1,0 +1,54 @@
+{
+ "subjects": [
+  {
+   "id": "math",
+   "name": "數學",
+   "order": 1,
+   "icon": "📐",
+   "color": "#2f6fdf",
+   "status": "ready",
+   "blurb": "八、九年級全部單元（七年級待補）",
+   "unitCount": 33
+  },
+  {
+   "id": "science",
+   "name": "自然",
+   "order": 2,
+   "icon": "🔬",
+   "color": "#1f8a4c",
+   "status": "coming",
+   "blurb": "八、九年級理化、生物、地科",
+   "unitCount": 0
+  },
+  {
+   "id": "social",
+   "name": "社會",
+   "order": 3,
+   "icon": "🌏",
+   "color": "#a0662b",
+   "status": "coming",
+   "blurb": "八、九年級歷史、地理、公民",
+   "unitCount": 0
+  },
+  {
+   "id": "chinese",
+   "name": "國文",
+   "order": 4,
+   "icon": "📖",
+   "color": "#b0436e",
+   "status": "coming",
+   "blurb": "八、九年級範文、語文常識",
+   "unitCount": 0
+  },
+  {
+   "id": "english",
+   "name": "英語",
+   "order": 5,
+   "icon": "🔤",
+   "color": "#6a4fc8",
+   "status": "coming",
+   "blurb": "八、九年級文法、單字、閱讀",
+   "unitCount": 0
+  }
+ ]
+}

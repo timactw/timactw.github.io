@@ -1,0 +1,220 @@
+{
+  "id": "m9-05",
+  "subject": "math",
+  "grade": 9,
+  "order": 5,
+  "title": "圓弧長與扇形面積",
+  "codes": [
+    {
+      "code": "S-9-5",
+      "text": "圓弧長與扇形面積：以 π 表示圓周率；弦、圓弧、弓形的意義；圓弧長公式；扇形面積公式。"
+    }
+  ],
+  "intro": "弧長和扇形面積都是「整個圓的幾分之幾」。會考常考扇形周長要加兩條半徑，以及用「扇形減三角形」算弓形面積。",
+  "sections": [
+    {
+      "title": "名詞：弦、弧、扇形、弓形",
+      "points": [
+        "**弦**：圓上任意兩點連成的線段；通過圓心的弦是直徑，也是最長的弦。",
+        "**圓弧**：圓上兩點之間的一段圓周；比半圓小的叫劣弧，比半圓大的叫優弧。",
+        "**扇形**：兩條半徑和它們所夾的弧圍成的圖形，兩半徑的夾角是圓心角。",
+        "**弓形**：一條弦和它所對的弧圍成的圖形。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 215\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"105\" r=\"75\"/><path d=\"M 100 105 L 35 67.5 A 75 75 0 0 1 165 67.5 Z\" class=\"soft\"/><path d=\"M 35 67.5 A 75 75 0 0 1 165 67.5\" class=\"hl\"/><circle cx=\"100\" cy=\"105\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"100\" y=\"125\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"100\" y=\"66\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">扇形</text><text x=\"100\" y=\"22\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" class=\"hl\">弧</text><text x=\"100\" y=\"95\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">θ</text><text x=\"100\" y=\"205\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">扇形：兩半徑＋弧</text><circle cx=\"310\" cy=\"105\" r=\"75\"/><path d=\"M 245 67.5 A 75 75 0 0 1 375 67.5 Z\" class=\"soft2\"/><line x1=\"245\" y1=\"67.5\" x2=\"375\" y2=\"67.5\" class=\"hl2\" stroke-width=\"3\"/><circle cx=\"310\" cy=\"105\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"310\" y=\"125\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"310\" y=\"52\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">弓形</text><text x=\"310\" y=\"85.5\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\">弦</text><text x=\"310\" y=\"205\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">弓形：弦＋弧</text></svg>",
+      "caption": "左：扇形（兩半徑＋弧）；右：弓形（弦＋弧）。"
+    },
+    {
+      "title": "圓弧長",
+      "points": [
+        "圓周長 $=2\\pi r$；答案通常保留 $\\pi$，不必代 $3.14$。",
+        "圓心角 $\\theta^\\circ$ 所對的弧長 $=2\\pi r\\times\\frac{\\theta}{360}$。",
+        "例：半徑 $9$、圓心角 $40^\\circ$，弧長 $=18\\pi\\times\\frac{40}{360}=2\\pi$。",
+        "扇形周長 $=$ 弧長 $+2r$，常有人忘了加兩條半徑。"
+      ]
+    },
+    {
+      "title": "扇形面積",
+      "points": [
+        "圓面積 $=\\pi r^2$。",
+        "圓心角 $\\theta^\\circ$ 的扇形面積 $=\\pi r^2\\times\\frac{\\theta}{360}$。",
+        "已知弧長 $l$ 時更快：扇形面積 $=\\frac{1}{2}lr$（像三角形「底×高÷2」）。",
+        "弧長與扇形面積的「$\\frac{\\theta}{360}$」是同一個比例，可以互相換算。"
+      ]
+    },
+    {
+      "title": "弓形面積",
+      "points": [
+        "弓形面積 $=$ 扇形面積 $-$ 三角形面積（劣弧那一側）。",
+        "圓心角 $90^\\circ$：三角形是等腰直角三角形，面積 $\\frac{1}{2}r^2$。",
+        "圓心角 $60^\\circ$：三角形是正三角形，面積 $\\frac{\\sqrt{3}}{4}r^2$。",
+        "複雜的陰影圖形，拆成「扇形、三角形、正方形」相加減。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "圓周長",
+      "body": "$2\\pi r$"
+    },
+    {
+      "name": "圓面積",
+      "body": "$\\pi r^2$"
+    },
+    {
+      "name": "弧長",
+      "body": "$2\\pi r\\times\\frac{\\theta}{360}$"
+    },
+    {
+      "name": "扇形面積",
+      "body": "$\\pi r^2\\times\\frac{\\theta}{360}=\\frac{1}{2}\\times$ 弧長 $\\times r$"
+    },
+    {
+      "name": "扇形周長",
+      "body": "弧長 $+2r$"
+    },
+    {
+      "name": "弓形面積",
+      "body": "扇形面積 $-$ 三角形面積"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-05-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "弧長公式",
+      "q": "半徑 $6$、圓心角 $60^\\circ$ 的扇形，弧長是多少？",
+      "choices": [
+        "$6\\pi$",
+        "$2\\pi$",
+        "$\\pi$",
+        "$12\\pi$"
+      ],
+      "answer": 1,
+      "explain": "弧長 $=2\\pi\\times 6\\times\\frac{60}{360}=12\\pi\\times\\frac{1}{6}=2\\pi$。$6\\pi$ 是這個扇形的面積，不是弧長。答案是 $2\\pi$。"
+    },
+    {
+      "id": "m9-05-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "扇形面積",
+      "q": "半徑 $4$、圓心角 $90^\\circ$ 的扇形，面積是多少？",
+      "choices": [
+        "$4\\pi$",
+        "$2\\pi$",
+        "$8\\pi$",
+        "$16\\pi$"
+      ],
+      "answer": 0,
+      "explain": "扇形面積 $=\\pi\\times 4^2\\times\\frac{90}{360}=16\\pi\\times\\frac{1}{4}=4\\pi$。$2\\pi$ 是弧長。答案是 $4\\pi$。"
+    },
+    {
+      "id": "m9-05-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "扇形周長",
+      "q": "半徑 $6$、圓心角 $120^\\circ$ 的扇形，周長是多少？",
+      "choices": [
+        "$4\\pi$",
+        "$4\\pi+6$",
+        "$12\\pi+12$",
+        "$4\\pi+12$"
+      ],
+      "answer": 3,
+      "explain": "弧長 $=2\\pi\\times 6\\times\\frac{120}{360}=4\\pi$。扇形周長還要加兩條半徑：$4\\pi+6+6=4\\pi+12$。答案是 $4\\pi+12$。"
+    },
+    {
+      "id": "m9-05-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "扇形面積",
+      "q": "一個扇形的半徑是 $9$，弧長是 $3\\pi$，它的面積是多少？",
+      "choices": [
+        "$27\\pi$",
+        "$\\frac{9\\pi}{2}$",
+        "$\\frac{27\\pi}{2}$",
+        "$81\\pi$"
+      ],
+      "answer": 2,
+      "explain": "扇形面積 $=\\frac{1}{2}\\times$ 弧長 $\\times r=\\frac{1}{2}\\times 3\\pi\\times 9=\\frac{27\\pi}{2}$。（驗算：$3\\pi\\div 18\\pi=\\frac{1}{6}$，圓心角 $60^\\circ$，$81\\pi\\times\\frac{1}{6}=\\frac{27\\pi}{2}$。）答案是 $\\frac{27\\pi}{2}$。"
+    },
+    {
+      "id": "m9-05-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "扇形面積",
+      "q": "一個扇形的半徑是 $6$，面積是 $15\\pi$，它的圓心角是幾度？",
+      "choices": [
+        "$150^\\circ$",
+        "$75^\\circ$",
+        "$120^\\circ$",
+        "$300^\\circ$"
+      ],
+      "answer": 0,
+      "explain": "$\\pi\\times 6^2\\times\\frac{\\theta}{360}=15\\pi$，$36\\times\\frac{\\theta}{360}=15$，$\\theta=150$。答案是 $150^\\circ$。"
+    },
+    {
+      "id": "m9-05-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "弓形面積",
+      "q": "圓 $O$ 的半徑是 $6$，$\\overline{AB}$ 是一條弦，$\\angle AOB=90^\\circ$。弦 $\\overline{AB}$ 與劣弧 $AB$ 圍成的弓形面積是多少？",
+      "choices": [
+        "$9\\pi-36$",
+        "$9\\pi-18$",
+        "$36\\pi-18$",
+        "$9\\pi$"
+      ],
+      "answer": 1,
+      "explain": "扇形 $OAB$ 面積 $=36\\pi\\times\\frac{90}{360}=9\\pi$。$\\triangle OAB$ 是兩股為 $6$ 的直角三角形，面積 $=\\frac{1}{2}\\times 6\\times 6=18$。弓形 $=9\\pi-18$。忘了除以 $2$ 會得 $9\\pi-36$。答案是 $9\\pi-18$。"
+    },
+    {
+      "id": "m9-05-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "弧長公式",
+      "q": "時鐘的分針長 $10$ 公分。從 $3$ 點整到 $3$ 點 $20$ 分，分針針尖走過的路徑長是多少公分？",
+      "choices": [
+        "$\\frac{10\\pi}{3}$",
+        "$\\frac{40\\pi}{3}$",
+        "$\\frac{100\\pi}{3}$",
+        "$\\frac{20\\pi}{3}$"
+      ],
+      "answer": 3,
+      "explain": "分針 $60$ 分鐘轉 $360^\\circ$，$20$ 分鐘轉 $120^\\circ$。針尖走的是半徑 $10$ 的弧：$2\\pi\\times 10\\times\\frac{120}{360}=\\frac{20\\pi}{3}$。$\\frac{100\\pi}{3}$ 是分針掃過的扇形面積。答案是 $\\frac{20\\pi}{3}$。"
+    },
+    {
+      "id": "m9-05-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "弓形面積",
+      "q": "如圖，正方形 $ABCD$ 邊長 $4$。分別以 $A$、$C$ 為圓心，$4$ 為半徑，在正方形內畫弧 $BD$。兩弧圍成的陰影部分面積是多少？",
+      "svg": "<svg viewBox=\"0 0 240 210\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M 200 20 A 160 160 0 0 1 40 180 A 160 160 0 0 1 200 20 Z\" class=\"soft\"/><polygon points=\"40,20 200,20 200,180 40,180\"/><path d=\"M 200 20 A 160 160 0 0 1 40 180\"/><path d=\"M 40 180 A 160 160 0 0 1 200 20\"/><text x=\"30\" y=\"16\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"210\" y=\"16\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"210\" y=\"194\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"30\" y=\"194\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"120\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">4</text></svg>",
+      "choices": [
+        "$4\\pi-8$",
+        "$16-4\\pi$",
+        "$8\\pi-16$",
+        "$8\\pi-8$"
+      ],
+      "answer": 2,
+      "explain": "以 $A$ 為圓心的扇形 $ABD$ 面積 $=16\\pi\\times\\frac{90}{360}=4\\pi$，它減去 $\\triangle ABD$（面積 $8$）是一個弓形，面積 $4\\pi-8$。陰影由兩個這樣的弓形組成（以 $\\overline{BD}$ 為界，兩邊各一個），面積 $=2(4\\pi-8)=8\\pi-16$。（也可用兩扇形相加減正方形：$4\\pi+4\\pi-16$。）答案是 $8\\pi-16$。"
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「扇形」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%89%87%E5%BD%A2"
+    },
+    {
+      "label": "均一教育平台：搜尋「弧長」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%BC%A7%E9%95%B7"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

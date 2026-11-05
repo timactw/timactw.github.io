@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>人體解剖 3D</title>
+<meta name="description" content="給國中生的互動 3D 人體解剖學習工具：骨骼、主要器官、主要肌肉、測驗與法醫入門。">
+<meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14171c" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="人體解剖3D">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "./vendor/three/build/three.module.min.js",
+  "three/addons/": "./vendor/three/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <div class="brand"><span class="logo" aria-hidden="true"></span><span data-zh="人體解剖 3D" data-en="Anatomy 3D">人體解剖 3D</span></div>
+    <nav id="tabs" role="tablist">
+      <button role="tab" data-tab="explore" class="on" data-zh="探索" data-en="Explore">探索</button>
+      <button role="tab" data-tab="quiz" data-zh="測驗" data-en="Quiz">測驗</button>
+      <button role="tab" data-tab="forensics" data-zh="法醫入門" data-en="Forensics">法醫入門</button>
+      <button role="tab" data-tab="about" data-zh="關於" data-en="About">關於</button>
+    </nav>
+    <div id="lang" class="seg" role="group" aria-label="語言 Language">
+      <button data-lang="zh">中文</button><button data-lang="en">English</button><button data-lang="both" class="on">中英</button>
+    </div>
+  </header>
+
+  <main id="stage">
+    <canvas id="c" aria-label="3D 人體模型"></canvas>
+    <div id="loading" class="toast" hidden><span class="spin"></span><span id="loadingText">載入中…</span></div>
+    <div id="hint" class="hint" data-zh="單指旋轉・兩指縮放與平移・點一下部位看說明" data-en="1 finger: rotate · 2 fingers: zoom & pan · tap a part">單指旋轉・兩指縮放與平移・點一下部位看說明</div>
+    <button id="resetView" class="fab" title="重設視角" aria-label="重設視角 Reset view">⟲</button>
+
+    <!-- info card -->
+    <section id="card" class="card" hidden aria-live="polite">
+      <button class="x" id="cardClose" aria-label="關閉 Close">×</button>
+      <div class="tag" id="cardTag"></div>
+      <h2 id="cardZh"></h2>
+      <div id="cardEn" class="en"></div>
+      <p id="cardDesc"></p>
+      <div class="row"><button id="cardFocus" class="btn" data-zh="放大看這裡" data-en="Zoom to part">放大看這裡</button><button id="cardHide" class="btn ghost" data-zh="暫時隱藏" data-en="Hide part">暫時隱藏</button></div>
+    </section>
+  </main>
+
+  <!-- side / bottom panel -->
+  <aside id="panel">
+    <!-- EXPLORE -->
+    <section class="pane on" data-pane="explore">
+      <h3 data-zh="系統" data-en="Systems">系統</h3>
+      <div class="toggles">
+        <label class="tg"><input type="checkbox" data-sys="skeleton" checked><span class="sw"></span><span class="tl"><b data-zh="骨骼" data-en="Skeleton">骨骼</b><small>Skeleton</small></span></label>
+        <label class="tg"><input type="checkbox" data-sys="organs"><span class="sw"></span><span class="tl"><b data-zh="主要器官" data-en="Major organs">主要器官</b><small>Major organs</small></span></label>
+        <label class="tg"><input type="checkbox" data-sys="muscles"><span class="sw"></span><span class="tl"><b data-zh="主要肌肉" data-en="Major muscles">主要肌肉</b><small>Major muscles</small></span></label>
+      </div>
+      <label class="slider"><span data-zh="皮膚（透明外形）" data-en="Skin outline">皮膚（透明外形）</span><input id="skin" type="range" min="0" max="60" value="0" aria-label="皮膚透明度 Skin opacity"></label>
+      <label class="slider"><span data-zh="肌肉透明度" data-en="Muscle opacity">肌肉透明度</span><input id="muscleOp" type="range" min="15" max="100" value="100" aria-label="肌肉透明度 Muscle opacity"></label>
+      <div class="row"><button id="showAll" class="btn ghost" data-zh="顯示被隱藏的部位" data-en="Show hidden parts">顯示被隱藏的部位</button></div>
+      <h3 data-zh="部位清單" data-en="Part list">部位清單</h3>
+      <input id="search" type="search" placeholder="搜尋，例如：股骨、femur" aria-label="搜尋部位 Search">
+      <div id="list" class="list"></div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="pane" data-pane="quiz">
+      <h3 data-zh="測驗模式" data-en="Quiz mode">測驗模式</h3>
+      <div class="seg wide" id="qmode">
+        <button data-q="pick" class="on" data-zh="看部位選名字" data-en="Name the part">看部位選名字</button>
+        <button data-q="tap" data-zh="看名字點部位" data-en="Find the part">看名字點部位</button>
+      </div>
+      <h3 data-zh="範圍" data-en="Scope">範圍</h3>
+      <div class="seg wide" id="qscope">
+        <button data-s="skeleton" class="on" data-zh="骨骼" data-en="Skeleton">骨骼</button>
+        <button data-s="organs" data-zh="器官" data-en="Organs">器官</button>
+        <button data-s="muscles" data-zh="肌肉" data-en="Muscles">肌肉</button>
+      </div>
+      <div id="qbox" class="qbox">
+        <div id="qprompt" class="qprompt"></div>
+        <div id="qchoices" class="choices"></div>
+        <div id="qfeedback" class="feedback" aria-live="polite"></div>
+        <div class="row"><button id="qnext" class="btn" data-zh="下一題" data-en="Next">下一題</button><button id="qskip" class="btn ghost" data-zh="跳過" data-en="Skip">跳過</button></div>
+      </div>
+      <div class="score">
+        <div><span data-zh="本次" data-en="This session">本次</span> <b id="sNow">0 / 0</b></div>
+        <div><span data-zh="連續答對" data-en="Streak">連續答對</span> <b id="sStreak">0</b></div>
+        <div><span data-zh="累計" data-en="All time">累計</span> <b id="sAll">0 / 0</b></div>
+        <div><span data-zh="最佳連續" data-en="Best streak">最佳連續</span> <b id="sBest">0</b></div>
+      </div>
+      <button id="qreset" class="btn ghost small" data-zh="清除成績紀錄" data-en="Reset scores">清除成績紀錄</button>
+    </section>
+
+    <!-- FORENSICS (short pointer; full article in overlay) -->
+    <section class="pane" data-pane="forensics">
+      <p data-zh="法醫入門文章在左邊（直式時在上方）。按文章裡的「在 3D 裡看」按鈕，模型會切到對應的骨頭。" data-en="The article is shown in the main area. Use the “View in 3D” buttons to jump to the bones.">法醫入門文章在左邊（直式時在上方）。按文章裡的「在 3D 裡看」按鈕，模型會切到對應的骨頭。</p>
+    </section>
+    <section class="pane" data-pane="about"><p data-zh="資料來源與授權寫在左邊（直式時在上方）。" data-en="Credits and licenses are shown in the main area.">資料來源與授權寫在左邊（直式時在上方）。</p></section>
+  </aside>
+
+  <!-- overlays (article pages) -->
+  <article id="forensics" class="sheet" hidden></article>
+  <article id="about" class="sheet" hidden></article>
+</div>
+<noscript>這個網站需要開啟 JavaScript 才能顯示 3D 模型。</noscript>
+<script type="module" src="app.js"></script>
+</body>
+</html>

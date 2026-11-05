@@ -1,0 +1,19 @@
+{
+  "id": "chinese",
+  "name": "國文",
+  "order": 4,
+  "icon": "📖",
+  "color": "#b0436e",
+  "status": "coming",
+  "blurb": "八、九年級範文、語文常識",
+  "groups": [
+    {
+      "grade": 8,
+      "title": "八年級"
+    },
+    {
+      "grade": 9,
+      "title": "九年級"
+    }
+  ]
+}

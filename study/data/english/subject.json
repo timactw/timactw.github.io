@@ -1,0 +1,19 @@
+{
+  "id": "english",
+  "name": "英語",
+  "order": 5,
+  "icon": "🔤",
+  "color": "#6a4fc8",
+  "status": "coming",
+  "blurb": "八、九年級文法、單字、閱讀",
+  "groups": [
+    {
+      "grade": 8,
+      "title": "八年級"
+    },
+    {
+      "grade": 9,
+      "title": "九年級"
+    }
+  ]
+}

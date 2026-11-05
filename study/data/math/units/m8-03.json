@@ -1,0 +1,238 @@
+{
+  "id": "m8-03",
+  "subject": "math",
+  "grade": 8,
+  "order": 3,
+  "title": "等差級數",
+  "codes": [
+    {
+      "code": "N-8-5",
+      "text": "等差級數求和：等差級數求和公式；生活中相關的問題。"
+    }
+  ],
+  "intro": "把等差數列的各項加起來就是等差級數。重點是「首項加末項、乘項數、除以 2」這個求和公式，會考常以座位、存錢、堆疊等情境出題。",
+  "sections": [
+    {
+      "title": "級數是什麼",
+      "points": [
+        "把數列的各項用加號連起來就是級數，前 $n$ 項的和記作 $S_n$。",
+        "等差數列的各項相加就是等差級數，例如 $3+7+11+15$。",
+        "先確認首項、公差、項數，再套公式。"
+      ]
+    },
+    {
+      "title": "倒序相加的想法",
+      "points": [
+        "把 $1+2+3+4+5$ 正著寫一次、倒著寫一次，上下相加每一對都是 $6$。",
+        "一共 $5$ 對，總和 $5\\times 6=30$ 是兩倍的級數和，所以 $1+2+3+4+5=15$。",
+        "這就是「首項加末項、乘項數、除以 2」的由來。"
+      ],
+      "svg": "<svg viewBox=\"0 0 302 160\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\"><rect x=\"20\" y=\"15\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"42\" y=\"15\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"64\" y=\"15\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"86\" y=\"15\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"108\" y=\"15\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"130\" y=\"15\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"20\" y=\"37\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"42\" y=\"37\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"64\" y=\"37\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"86\" y=\"37\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"108\" y=\"37\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"130\" y=\"37\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"20\" y=\"59\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"42\" y=\"59\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"64\" y=\"59\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"86\" y=\"59\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"108\" y=\"59\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"130\" y=\"59\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"20\" y=\"81\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"42\" y=\"81\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"64\" y=\"81\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"86\" y=\"81\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"108\" y=\"81\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"130\" y=\"81\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"20\" y=\"103\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"42\" y=\"103\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"64\" y=\"103\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"86\" y=\"103\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"108\" y=\"103\" width=\"22\" height=\"22\" class=\"soft\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><rect x=\"130\" y=\"103\" width=\"22\" height=\"22\" class=\"soft2\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><text x=\"166\" y=\"35\">藍：1+2+3+4+5</text><text x=\"166\" y=\"57\">橘：5+4+3+2+1</text><text x=\"166\" y=\"85\">合起來 5×6=30</text><text x=\"166\" y=\"107\">一份 30÷2=15</text><text x=\"66.0\" y=\"141\">6 格寬</text></svg>",
+      "caption": "兩個階梯拼成 5×6 的長方形，一個階梯就是 15 格"
+    },
+    {
+      "title": "求和公式",
+      "points": [
+        "已知末項：$S_n=\\frac{n(a_1+a_n)}{2}$。",
+        "已知公差：$S_n=\\frac{n[2a_1+(n-1)d]}{2}$。",
+        "項數先算清楚：$3,7,\\ldots,39$ 共有 $\\frac{39-3}{4}+1=10$ 項。",
+        "常見錯誤：忘了除以 2，或把項數算少 1 項。"
+      ]
+    },
+    {
+      "title": "常見的和",
+      "points": [
+        "$1+2+3+\\cdots+n=\\frac{n(n+1)}{2}$，例如 $1+2+\\cdots+100=5050$。",
+        "連續奇數和：$1+3+5+\\cdots+(2n-1)=n^2$。",
+        "生活題：每排多幾個座位、每週多存多少錢、每層少一罐的堆疊，都是等差級數。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "等差級數和（已知末項）",
+      "body": "$S_n=\\frac{n(a_1+a_n)}{2}$"
+    },
+    {
+      "name": "等差級數和（已知公差）",
+      "body": "$S_n=\\frac{n[2a_1+(n-1)d]}{2}$"
+    },
+    {
+      "name": "連續整數和",
+      "body": "$1+2+\\cdots+n=\\frac{n(n+1)}{2}$"
+    },
+    {
+      "name": "連續奇數和",
+      "body": "$1+3+5+\\cdots+(2n-1)=n^2$"
+    },
+    {
+      "name": "項數",
+      "body": "$n=\\frac{a_n-a_1}{d}+1$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-03-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "等差級數求和",
+      "q": "計算 $1+2+3+\\cdots+50$ 的值。",
+      "choices": [
+        "$2550$",
+        "$1250$",
+        "$1275$",
+        "$1300$"
+      ],
+      "answer": 2,
+      "explain": "$S_{50}=\\frac{50\\times(1+50)}{2}=\\frac{2550}{2}=1275$。$2550$ 是忘了除以 2。答案是 $1275$。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "等差級數求和",
+      "q": "等差級數 $3+7+11+\\cdots+39$ 的和是多少？",
+      "choices": [
+        "$210$",
+        "$420$",
+        "$189$",
+        "$231$"
+      ],
+      "answer": 0,
+      "explain": "公差 $4$，項數 $n=\\frac{39-3}{4}+1=10$。和 $=\\frac{10\\times(3+39)}{2}=210$。$420$ 是忘了除以 2，$189$ 是把項數算成 9。答案是 $210$。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "等差級數求和",
+      "q": "一個等差數列首項是 $5$、公差是 $2$，前 10 項的和是多少？",
+      "choices": [
+        "$150$",
+        "$140$",
+        "$95$",
+        "$280$"
+      ],
+      "answer": 1,
+      "explain": "$S_{10}=\\frac{10\\times[2\\times 5+(10-1)\\times 2]}{2}=\\frac{10\\times 28}{2}=140$。$150$ 是把 $(n-1)d$ 寫成 $nd$，$280$ 是忘了除以 2。答案是 $140$。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "奇數連加",
+      "q": "計算 $1+3+5+\\cdots+99$ 的值。",
+      "choices": [
+        "$2450$",
+        "$5000$",
+        "$2550$",
+        "$2500$"
+      ],
+      "answer": 3,
+      "explain": "這是首項 $1$、公差 $2$ 的等差級數，項數 $n=\\frac{99-1}{2}+1=50$。和 $=\\frac{50\\times(1+99)}{2}=2500$（也可用 $50^2$）。$2450$ 是項數算成 49。答案是 $2500$。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "等差級數應用",
+      "q": "超市把罐頭疊成 8 層，最上層 4 罐，往下每一層都比上一層多 1 罐。這堆罐頭共有幾罐？",
+      "choices": [
+        "$52$",
+        "$60$",
+        "$64$",
+        "$120$"
+      ],
+      "answer": 1,
+      "explain": "由上往下每層是 $4,5,6,\\ldots$，最下層（第 8 層）是 $4+7\\times 1=11$ 罐。總數 $=\\frac{8\\times(4+11)}{2}=60$。$64$ 是把最下層算成 12，$120$ 是忘了除以 2。答案是 $60$ 罐。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "倍數求和",
+      "q": "介於 $1$ 和 $100$ 之間所有 $3$ 的倍數的和是多少？",
+      "choices": [
+        "$1632$",
+        "$1683$",
+        "$1716$",
+        "$3366$"
+      ],
+      "answer": 1,
+      "explain": "$3$ 的倍數是 $3,6,\\ldots,99$，項數 $=\\frac{99-3}{3}+1=33$。和 $=\\frac{33\\times(3+99)}{2}=1683$。$1632$ 是把項數算成 32，$3366$ 是忘了除以 2。答案是 $1683$。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "等差級數應用",
+      "q": "小美第 1 週存 50 元，之後每週都比前一週多存 10 元。存滿 20 週，總共存了多少元？",
+      "choices": [
+        "$3000$",
+        "$2700$",
+        "$5800$",
+        "$2900$"
+      ],
+      "answer": 3,
+      "explain": "每週金額是首項 $50$、公差 $10$ 的等差數列，第 20 週存 $50+19\\times 10=240$ 元。總額 $=\\frac{20\\times(50+240)}{2}=2900$。$3000$ 是把第 20 週算成 $50+20\\times 10=250$，$5800$ 是忘了除以 2。答案是 2900 元。",
+      "codes": [
+        "N-8-5"
+      ]
+    },
+    {
+      "id": "m8-03-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "等差級數求和",
+      "q": "等差級數 $(-15)+(-11)+(-7)+\\cdots$ 前 12 項的和是多少？",
+      "choices": [
+        "$-84$",
+        "$96$",
+        "$84$",
+        "$72$"
+      ],
+      "answer": 2,
+      "explain": "首項 $-15$，公差 $4$，第 12 項 $=-15+11\\times 4=29$。和 $=\\frac{12\\times(-15+29)}{2}=\\frac{12\\times 14}{2}=84$。前面幾項是負的、後面變正的，和是正的 $84$。答案是 $84$。",
+      "codes": [
+        "N-8-5"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "113 年第 5 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 N-8-5"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「等差級數」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%AD%89%E5%B7%AE%E7%B4%9A%E6%95%B8"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

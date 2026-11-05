@@ -1,0 +1,389 @@
+{
+ "id": "math",
+ "name": "數學",
+ "order": 1,
+ "icon": "📐",
+ "color": "#2f6fdf",
+ "status": "ready",
+ "blurb": "八、九年級全部單元（七年級待補）",
+ "curriculum": {
+  "title": "十二年國民基本教育課程綱要 國民中小學暨普通型高級中等學校—數學領域（教育部，107 年 6 月）",
+  "url": "https://www.naer.edu.tw/upload/1/16/doc/815/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校-數學領域.pdf",
+  "note": "伍、學習重點／二、學習內容，8 年級與 9 年級條目（PDF 頁 38–44）"
+ },
+ "pastPapers": {
+  "label": "心測中心・國中教育會考歷屆試題",
+  "url": "https://cap.rcpet.edu.tw/examination.html"
+ },
+ "groups": [
+  {
+   "grade": 7,
+   "title": "七年級"
+  },
+  {
+   "grade": 8,
+   "title": "八年級"
+  },
+  {
+   "grade": 9,
+   "title": "九年級"
+  }
+ ],
+ "defaultLinks": [
+  {
+   "label": "均一教育平台",
+   "url": "https://www.junyiacademy.org/"
+  },
+  {
+   "label": "教育部因材網",
+   "url": "https://adl.edu.tw/"
+  }
+ ],
+ "units": [
+  {
+   "id": "m8-01",
+   "title": "二次方根與近似值",
+   "grade": 8,
+   "order": 1,
+   "codes": [
+    "N-8-1",
+    "N-8-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-02",
+   "title": "數列與等差數列",
+   "grade": 8,
+   "order": 2,
+   "codes": [
+    "N-8-3",
+    "N-8-4"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-03",
+   "title": "等差級數",
+   "grade": 8,
+   "order": 3,
+   "codes": [
+    "N-8-5"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-04",
+   "title": "等比數列",
+   "grade": 8,
+   "order": 4,
+   "codes": [
+    "N-8-6"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-05",
+   "title": "乘法公式",
+   "grade": 8,
+   "order": 5,
+   "codes": [
+    "A-8-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-06",
+   "title": "多項式與其四則運算",
+   "grade": 8,
+   "order": 6,
+   "codes": [
+    "A-8-2",
+    "A-8-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-07",
+   "title": "因式分解",
+   "grade": 8,
+   "order": 7,
+   "codes": [
+    "A-8-4",
+    "A-8-5"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-08",
+   "title": "一元二次方程式",
+   "grade": 8,
+   "order": 8,
+   "codes": [
+    "A-8-6",
+    "A-8-7"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-09",
+   "title": "函數與一次函數的圖形",
+   "grade": 8,
+   "order": 9,
+   "codes": [
+    "F-8-1",
+    "F-8-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-10",
+   "title": "畢氏定理與兩點距離",
+   "grade": 8,
+   "order": 10,
+   "codes": [
+    "S-8-6",
+    "G-8-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-11",
+   "title": "角與平行線",
+   "grade": 8,
+   "order": 11,
+   "codes": [
+    "S-8-1",
+    "S-8-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-12",
+   "title": "多邊形內角和與正三角形面積",
+   "grade": 8,
+   "order": 12,
+   "codes": [
+    "S-8-2",
+    "S-8-7"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-13",
+   "title": "全等圖形與三角形全等",
+   "grade": 8,
+   "order": 13,
+   "codes": [
+    "S-8-4",
+    "S-8-5"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-14",
+   "title": "三角形的基本性質",
+   "grade": 8,
+   "order": 14,
+   "codes": [
+    "S-8-8"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-15",
+   "title": "平行四邊形與特殊四邊形",
+   "grade": 8,
+   "order": 15,
+   "codes": [
+    "S-8-9",
+    "S-8-10",
+    "S-8-11"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-16",
+   "title": "尺規作圖與幾何推理",
+   "grade": 8,
+   "order": 16,
+   "codes": [
+    "S-8-12"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m8-17",
+   "title": "累積次數與相對次數",
+   "grade": 8,
+   "order": 17,
+   "codes": [
+    "D-8-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-01",
+   "title": "連比",
+   "grade": 9,
+   "order": 1,
+   "codes": [
+    "N-9-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-02",
+   "title": "相似形與三角形相似",
+   "grade": 9,
+   "order": 2,
+   "codes": [
+    "S-9-1",
+    "S-9-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-03",
+   "title": "平行線截比例線段",
+   "grade": 9,
+   "order": 3,
+   "codes": [
+    "S-9-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-04",
+   "title": "特殊直角三角形的邊長比",
+   "grade": 9,
+   "order": 4,
+   "codes": [
+    "S-9-4"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-05",
+   "title": "圓弧長與扇形面積",
+   "grade": 9,
+   "order": 5,
+   "codes": [
+    "S-9-5"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-06",
+   "title": "點、直線與圓的關係",
+   "grade": 9,
+   "order": 6,
+   "codes": [
+    "S-9-7"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-07",
+   "title": "圓心角、圓周角與切線段",
+   "grade": 9,
+   "order": 7,
+   "codes": [
+    "S-9-6"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-08",
+   "title": "三角形的外心",
+   "grade": 9,
+   "order": 8,
+   "codes": [
+    "S-9-8"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-09",
+   "title": "三角形的內心",
+   "grade": 9,
+   "order": 9,
+   "codes": [
+    "S-9-9"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-10",
+   "title": "三角形的重心",
+   "grade": 9,
+   "order": 10,
+   "codes": [
+    "S-9-10"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-11",
+   "title": "證明的意義",
+   "grade": 9,
+   "order": 11,
+   "codes": [
+    "S-9-11"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-12",
+   "title": "二次函數",
+   "grade": 9,
+   "order": 12,
+   "codes": [
+    "F-9-1",
+    "F-9-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-13",
+   "title": "全距、四分位距與盒狀圖",
+   "grade": 9,
+   "order": 13,
+   "codes": [
+    "D-9-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-14",
+   "title": "機率",
+   "grade": 9,
+   "order": 14,
+   "codes": [
+    "D-9-2",
+    "D-9-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-15",
+   "title": "空間中的線與平面",
+   "grade": 9,
+   "order": 15,
+   "codes": [
+    "S-9-12"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "m9-16",
+   "title": "表面積與體積",
+   "grade": 9,
+   "order": 16,
+   "codes": [
+    "S-9-13"
+   ],
+   "quizCount": 8
+  }
+ ]
+}

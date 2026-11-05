@@ -1,0 +1,19 @@
+{
+  "id": "social",
+  "name": "社會",
+  "order": 3,
+  "icon": "🌏",
+  "color": "#a0662b",
+  "status": "coming",
+  "blurb": "八、九年級歷史、地理、公民",
+  "groups": [
+    {
+      "grade": 8,
+      "title": "八年級"
+    },
+    {
+      "grade": 9,
+      "title": "九年級"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "m9-13",
+  "subject": "math",
+  "grade": 9,
+  "order": 13,
+  "title": "全距、四分位距與盒狀圖",
+  "codes": [
+    {
+      "code": "D-9-1",
+      "text": "統計數據的分布：全距；四分位距；盒狀圖。"
+    }
+  ],
+  "intro": "全距、四分位距用來看資料有多分散，盒狀圖把最小值、三個四分位數、最大值畫在同一張圖上。會考常考求四分位數、讀盒狀圖、比較兩組資料。",
+  "sections": [
+    {
+      "title": "全距",
+      "points": [
+        "**全距**＝最大值－最小值，表示整組資料分布的範圍。",
+        "全距只看最大、最小兩個數；只要有一個特別大或特別小的資料（極端值），全距就會變得很大。"
+      ]
+    },
+    {
+      "title": "四分位數",
+      "points": [
+        "先把資料由小到大排好。",
+        "**第 2 四分位數** $Q_2$ 就是中位數。",
+        "從中位數把資料切成前半與後半（資料個數為奇數時，中位數本身不放進任何一半）。前半的中位數是**第 1 四分位數** $Q_1$，後半的中位數是**第 3 四分位數** $Q_3$。",
+        "例：$2,3,5,6,7,8,9,10,12,15$ 共 $10$ 個，$Q_2=\\frac{7+8}{2}=7.5$；前半 $2,3,5,6,7$ 的中位數 $Q_1=5$；後半 $8,9,10,12,15$ 的中位數 $Q_3=10$。"
+      ]
+    },
+    {
+      "title": "四分位距",
+      "points": [
+        "**四分位距**＝$Q_3-Q_1$，是中間約一半資料所占的範圍。",
+        "上例的四分位距 $=10-5=5$，全距 $=15-2=13$。",
+        "四分位距不受最大、最小的極端值影響，比全距更能看出大部分資料是集中還是分散。"
+      ]
+    },
+    {
+      "title": "盒狀圖",
+      "points": [
+        "用五個數畫成：最小值、$Q_1$、$Q_2$、$Q_3$、最大值。",
+        "盒子從 $Q_1$ 畫到 $Q_3$，盒子中間的線是 $Q_2$；兩側的線延伸到最小值和最大值。",
+        "左線、盒子左半、盒子右半、右線這四段，各約包含 $25\\%$ 的資料；盒子約包含中間 $50\\%$。",
+        "盒子越長，中間那一半資料越分散；某一段越短，那裡的資料越密集。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"104\" x2=\"360\" y2=\"104\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"104\" x2=\"50\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"50\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">0</text><line x1=\"88.8\" y1=\"104\" x2=\"88.8\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"88.8\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">2</text><line x1=\"127.5\" y1=\"104\" x2=\"127.5\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"127.5\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">4</text><line x1=\"166.2\" y1=\"104\" x2=\"166.2\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"166.2\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">6</text><line x1=\"205\" y1=\"104\" x2=\"205\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"205\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">8</text><line x1=\"243.8\" y1=\"104\" x2=\"243.8\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"243.8\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">10</text><line x1=\"282.5\" y1=\"104\" x2=\"282.5\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"282.5\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">12</text><line x1=\"321.2\" y1=\"104\" x2=\"321.2\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"321.2\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">14</text><line x1=\"360\" y1=\"104\" x2=\"360\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"360\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">16</text><rect x=\"146.9\" y=\"42\" width=\"96.9\" height=\"36\" class=\"soft\"/><line x1=\"88.8\" y1=\"60\" x2=\"146.9\" y2=\"60\"/><line x1=\"243.8\" y1=\"60\" x2=\"340.6\" y2=\"60\"/><line x1=\"88.8\" y1=\"50\" x2=\"88.8\" y2=\"70\"/><line x1=\"340.6\" y1=\"50\" x2=\"340.6\" y2=\"70\"/><line x1=\"195.3\" y1=\"42\" x2=\"195.3\" y2=\"78\" class=\"hl\" stroke-width=\"3\"/><text x=\"88.8\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">2</text><text x=\"146.9\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">5</text><text x=\"195.3\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">7.5</text><text x=\"243.8\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">10</text><text x=\"340.6\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">15</text></svg>",
+      "caption": "上例資料的盒狀圖：最小值 2、Q₁=5、Q₂=7.5、Q₃=10、最大值 15。"
+    },
+    {
+      "title": "用盒狀圖比較兩組資料",
+      "points": [
+        "兩組資料畫在同一條數線上比較：中位數看整體高低，盒子長短看中間資料的分散程度。",
+        "若甲組的 $Q_2$ 比乙組的 $Q_2$ 高，就可以說甲組至少有一半的資料高於乙組的中位數。",
+        "盒狀圖只能看出「大約」「至少」的比例，看不出每一筆資料的確切數值。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "全距",
+      "body": "最大值－最小值"
+    },
+    {
+      "name": "四分位數",
+      "body": "$Q_2$＝中位數；$Q_1$＝前半的中位數；$Q_3$＝後半的中位數（個數為奇數時，中位數不放進前後半）"
+    },
+    {
+      "name": "四分位距",
+      "body": "$Q_3-Q_1$，中間約 $50\\%$ 資料的範圍"
+    },
+    {
+      "name": "盒狀圖五個數",
+      "body": "最小值、$Q_1$、$Q_2$、$Q_3$、最大值；四段各約 $25\\%$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-13-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "全距",
+      "q": "某城市一週七天的最高氣溫（°C）為 $18,22,25,19,27,21,24$。這組資料的全距是多少？",
+      "choices": [
+        "$9$",
+        "$22$",
+        "$7$",
+        "$45$"
+      ],
+      "answer": 0,
+      "explain": "最大值 $27$，最小值 $18$，全距 $=27-18=9$。$22$ 是中位數，$7$ 是資料個數，$45$ 是把最大值與最小值相加。答案是 $9$。"
+    },
+    {
+      "id": "m9-13-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "四分位距",
+      "q": "如圖是某班數學小考成績的盒狀圖。這組成績的四分位距是多少分？",
+      "svg": "<svg viewBox=\"0 0 380 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"104\" x2=\"360\" y2=\"104\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"104\" x2=\"50\" y2=\"108\" stroke-width=\"1\"/><line x1=\"72.1\" y1=\"104\" x2=\"72.1\" y2=\"108\" stroke-width=\"1\"/><line x1=\"94.3\" y1=\"104\" x2=\"94.3\" y2=\"108\" stroke-width=\"1\"/><line x1=\"116.4\" y1=\"104\" x2=\"116.4\" y2=\"108\" stroke-width=\"1\"/><line x1=\"138.6\" y1=\"104\" x2=\"138.6\" y2=\"108\" stroke-width=\"1\"/><line x1=\"160.7\" y1=\"104\" x2=\"160.7\" y2=\"108\" stroke-width=\"1\"/><line x1=\"182.9\" y1=\"104\" x2=\"182.9\" y2=\"108\" stroke-width=\"1\"/><line x1=\"205\" y1=\"104\" x2=\"205\" y2=\"108\" stroke-width=\"1\"/><line x1=\"227.1\" y1=\"104\" x2=\"227.1\" y2=\"108\" stroke-width=\"1\"/><line x1=\"249.3\" y1=\"104\" x2=\"249.3\" y2=\"108\" stroke-width=\"1\"/><line x1=\"271.4\" y1=\"104\" x2=\"271.4\" y2=\"108\" stroke-width=\"1\"/><line x1=\"293.6\" y1=\"104\" x2=\"293.6\" y2=\"108\" stroke-width=\"1\"/><line x1=\"315.7\" y1=\"104\" x2=\"315.7\" y2=\"108\" stroke-width=\"1\"/><line x1=\"337.9\" y1=\"104\" x2=\"337.9\" y2=\"108\" stroke-width=\"1\"/><line x1=\"360\" y1=\"104\" x2=\"360\" y2=\"108\" stroke-width=\"1\"/><line x1=\"50\" y1=\"104\" x2=\"50\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"50\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">30</text><line x1=\"94.3\" y1=\"104\" x2=\"94.3\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"94.3\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">40</text><line x1=\"138.6\" y1=\"104\" x2=\"138.6\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"138.6\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">50</text><line x1=\"182.9\" y1=\"104\" x2=\"182.9\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"182.9\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">60</text><line x1=\"227.1\" y1=\"104\" x2=\"227.1\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"227.1\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">70</text><line x1=\"271.4\" y1=\"104\" x2=\"271.4\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"271.4\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">80</text><line x1=\"315.7\" y1=\"104\" x2=\"315.7\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"315.7\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">90</text><line x1=\"360\" y1=\"104\" x2=\"360\" y2=\"111\" stroke-width=\"1.5\"/><text x=\"360\" y=\"122\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">100</text><rect x=\"160.7\" y=\"42\" width=\"110.7\" height=\"36\" class=\"soft\"/><line x1=\"94.3\" y1=\"60\" x2=\"160.7\" y2=\"60\"/><line x1=\"271.4\" y1=\"60\" x2=\"337.9\" y2=\"60\"/><line x1=\"94.3\" y1=\"50\" x2=\"94.3\" y2=\"70\"/><line x1=\"337.9\" y1=\"50\" x2=\"337.9\" y2=\"70\"/><line x1=\"205\" y1=\"42\" x2=\"205\" y2=\"78\" class=\"hl\" stroke-width=\"3\"/><text x=\"94.3\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">40</text><text x=\"160.7\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">55</text><text x=\"205\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">65</text><text x=\"271.4\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">80</text><text x=\"337.9\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">95</text></svg>",
+      "choices": [
+        "$55$",
+        "$15$",
+        "$25$",
+        "$65$"
+      ],
+      "answer": 2,
+      "explain": "從圖讀出 $Q_1=55$、$Q_3=80$，四分位距 $=80-55=25$。$55$ 是全距 $95-40$，$15$ 是 $Q_3-Q_2$，$65$ 是中位數。答案是 $25$。"
+    },
+    {
+      "id": "m9-13-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "盒狀圖意義",
+      "q": "在一個盒狀圖中，盒子本身（從 $Q_1$ 到 $Q_3$）大約包含了全部資料的多少？",
+      "choices": [
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
+      ],
+      "answer": 1,
+      "explain": "$Q_1$ 以下約 $25\\%$，$Q_3$ 以上約 $25\\%$，所以 $Q_1$ 到 $Q_3$ 之間約 $100\\%-25\\%-25\\%=50\\%$。答案是 $50\\%$。"
+    },
+    {
+      "id": "m9-13-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "四分位距",
+      "q": "有 $10$ 筆資料：$3,5,6,8,9,11,12,14,17,20$。這組資料的四分位距是多少？",
+      "choices": [
+        "$6$",
+        "$17$",
+        "$9$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explain": "共 $10$ 筆，$Q_2=\\frac{9+11}{2}=10$。前半 $3,5,6,8,9$ 的中位數 $Q_1=6$；後半 $11,12,14,17,20$ 的中位數 $Q_3=14$。四分位距 $=14-6=8$。$17$ 是全距 $20-3$，$6$ 只是 $Q_1$ 不是四分位距。答案是 $8$。"
+    },
+    {
+      "id": "m9-13-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "盒狀圖比較",
+      "q": "如圖是甲、乙兩班某次體適能測驗分數的盒狀圖。下列敘述何者正確？",
+      "svg": "<svg viewBox=\"0 0 380 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" font-size=\"14\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"174\" x2=\"360\" y2=\"174\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"174\" x2=\"50\" y2=\"178\" stroke-width=\"1\"/><line x1=\"69.4\" y1=\"174\" x2=\"69.4\" y2=\"178\" stroke-width=\"1\"/><line x1=\"88.8\" y1=\"174\" x2=\"88.8\" y2=\"178\" stroke-width=\"1\"/><line x1=\"108.1\" y1=\"174\" x2=\"108.1\" y2=\"178\" stroke-width=\"1\"/><line x1=\"127.5\" y1=\"174\" x2=\"127.5\" y2=\"178\" stroke-width=\"1\"/><line x1=\"146.9\" y1=\"174\" x2=\"146.9\" y2=\"178\" stroke-width=\"1\"/><line x1=\"166.2\" y1=\"174\" x2=\"166.2\" y2=\"178\" stroke-width=\"1\"/><line x1=\"185.6\" y1=\"174\" x2=\"185.6\" y2=\"178\" stroke-width=\"1\"/><line x1=\"205\" y1=\"174\" x2=\"205\" y2=\"178\" stroke-width=\"1\"/><line x1=\"224.4\" y1=\"174\" x2=\"224.4\" y2=\"178\" stroke-width=\"1\"/><line x1=\"243.8\" y1=\"174\" x2=\"243.8\" y2=\"178\" stroke-width=\"1\"/><line x1=\"263.1\" y1=\"174\" x2=\"263.1\" y2=\"178\" stroke-width=\"1\"/><line x1=\"282.5\" y1=\"174\" x2=\"282.5\" y2=\"178\" stroke-width=\"1\"/><line x1=\"301.9\" y1=\"174\" x2=\"301.9\" y2=\"178\" stroke-width=\"1\"/><line x1=\"321.2\" y1=\"174\" x2=\"321.2\" y2=\"178\" stroke-width=\"1\"/><line x1=\"340.6\" y1=\"174\" x2=\"340.6\" y2=\"178\" stroke-width=\"1\"/><line x1=\"360\" y1=\"174\" x2=\"360\" y2=\"178\" stroke-width=\"1\"/><line x1=\"50\" y1=\"174\" x2=\"50\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"50\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">20</text><line x1=\"88.8\" y1=\"174\" x2=\"88.8\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"88.8\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">30</text><line x1=\"127.5\" y1=\"174\" x2=\"127.5\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"127.5\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">40</text><line x1=\"166.2\" y1=\"174\" x2=\"166.2\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"166.2\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">50</text><line x1=\"205\" y1=\"174\" x2=\"205\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"205\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">60</text><line x1=\"243.8\" y1=\"174\" x2=\"243.8\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"243.8\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">70</text><line x1=\"282.5\" y1=\"174\" x2=\"282.5\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"282.5\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">80</text><line x1=\"321.2\" y1=\"174\" x2=\"321.2\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"321.2\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">90</text><line x1=\"360\" y1=\"174\" x2=\"360\" y2=\"181\" stroke-width=\"1.5\"/><text x=\"360\" y=\"192\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">100</text><rect x=\"166.2\" y=\"42\" width=\"77.5\" height=\"36\" class=\"soft\"/><line x1=\"88.8\" y1=\"60\" x2=\"166.2\" y2=\"60\"/><line x1=\"243.8\" y1=\"60\" x2=\"321.2\" y2=\"60\"/><line x1=\"88.8\" y1=\"50\" x2=\"88.8\" y2=\"70\"/><line x1=\"321.2\" y1=\"50\" x2=\"321.2\" y2=\"70\"/><line x1=\"205\" y1=\"42\" x2=\"205\" y2=\"78\" class=\"hl\" stroke-width=\"3\"/><text x=\"40\" y=\"60\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\" dominant-baseline=\"middle\">甲</text><text x=\"88.8\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">30</text><text x=\"166.2\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">50</text><text x=\"205\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">60</text><text x=\"243.8\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">70</text><text x=\"321.2\" y=\"32\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">90</text><rect x=\"197.2\" y=\"112\" width=\"54.2\" height=\"36\" class=\"soft\"/><line x1=\"146.9\" y1=\"130\" x2=\"197.2\" y2=\"130\"/><line x1=\"251.5\" y1=\"130\" x2=\"301.9\" y2=\"130\"/><line x1=\"146.9\" y1=\"120\" x2=\"146.9\" y2=\"140\"/><line x1=\"301.9\" y1=\"120\" x2=\"301.9\" y2=\"140\"/><line x1=\"224.4\" y1=\"112\" x2=\"224.4\" y2=\"148\" class=\"hl\" stroke-width=\"3\"/><text x=\"40\" y=\"130\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\" dominant-baseline=\"middle\">乙</text><text x=\"146.9\" y=\"102\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">45</text><text x=\"197.2\" y=\"102\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">58</text><text x=\"224.4\" y=\"102\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">65</text><text x=\"251.5\" y=\"102\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">72</text><text x=\"301.9\" y=\"102\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\">85</text></svg>",
+      "choices": [
+        "甲班的中位數比乙班高",
+        "甲班的四分位距比乙班大",
+        "乙班的全距比甲班大",
+        "乙班至少有一半的人分數在 $70$ 分以上"
+      ],
+      "answer": 1,
+      "explain": "甲班：最小 $30$、$Q_1=50$、$Q_2=60$、$Q_3=70$、最大 $90$；乙班：最小 $45$、$Q_1=58$、$Q_2=65$、$Q_3=72$、最大 $85$。甲班中位數 $60$ 比乙班 $65$ 低；甲班全距 $60$ 比乙班 $40$ 大；乙班只有約一半在 $65$ 分以上，在 $70$ 分以上的不到一半（$Q_3=72$ 以上約 $25\\%$）。甲班四分位距 $70-50=20$，乙班 $72-58=14$，甲班較大。答案是「甲班的四分位距比乙班大」。"
+    },
+    {
+      "id": "m9-13-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "極端值的影響",
+      "q": "原有 $8$ 筆資料：$4,5,6,6,7,8,9,10$。若再加入一筆資料 $40$，下列敘述何者正確？",
+      "choices": [
+        "全距增加 $30$",
+        "四分位距增加 $30$",
+        "中位數增加 $30$",
+        "中位數不變"
+      ],
+      "answer": 0,
+      "explain": "原資料：全距 $10-4=6$，$Q_2=\\frac{6+7}{2}=6.5$，$Q_1=\\frac{5+6}{2}=5.5$，$Q_3=\\frac{8+9}{2}=8.5$，四分位距 $3$。加入 $40$ 後共 $9$ 筆：$4,5,6,6,7,8,9,10,40$，全距 $40-4=36$，$Q_2=7$，前半 $4,5,6,6$ 得 $Q_1=5.5$，後半 $8,9,10,40$ 得 $Q_3=9.5$，四分位距 $4$。全距由 $6$ 變 $36$，增加 $30$；四分位距只由 $3$ 變 $4$，中位數只增加 $0.5$。中位數由 $6.5$ 變 $7$，所以「中位數不變」也不對。答案是「全距增加 $30$」。"
+    },
+    {
+      "id": "m9-13-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "四分位距",
+      "q": "$8$ 筆資料由小到大排列為 $3,x,7,8,10,12,15,18$，已知這組資料的四分位距是 $8$。$x$ 是多少？",
+      "choices": [
+        "$5.5$",
+        "$6$",
+        "$4$",
+        "$3$"
+      ],
+      "answer": 2,
+      "explain": "共 $8$ 筆，前半為 $3,x,7,8$，$Q_1=\\frac{x+7}{2}$；後半為 $10,12,15,18$，$Q_3=\\frac{12+15}{2}=13.5$。四分位距 $13.5-\\frac{x+7}{2}=8$，得 $\\frac{x+7}{2}=5.5$，$x+7=11$，$x=4$（符合 $3\\le x\\le7$）。$5.5$ 是 $Q_1$ 的值，不是 $x$。答案是 $4$。"
+    },
+    {
+      "id": "m9-13-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "五數摘要",
+      "q": "某社團 $12$ 位社員一週運動的時間（分鐘）為：$15,22,18,30,25,27,19,33,21,40,24,28$。依序寫出這組資料盒狀圖的最小值、$Q_1$、$Q_2$、$Q_3$、最大值，下列何者正確？",
+      "choices": [
+        "$15,\\ 19,\\ 24.5,\\ 30,\\ 40$",
+        "$15,\\ 20,\\ 24,\\ 29,\\ 40$",
+        "$15,\\ 21,\\ 24.5,\\ 28,\\ 40$",
+        "$15,\\ 20,\\ 24.5,\\ 29,\\ 40$"
+      ],
+      "answer": 3,
+      "explain": "由小到大排列：$15,18,19,21,22,24,25,27,28,30,33,40$。$Q_2=\\frac{24+25}{2}=24.5$。前半 $15,18,19,21,22,24$ 的中位數 $Q_1=\\frac{19+21}{2}=20$；後半 $25,27,28,30,33,40$ 的中位數 $Q_3=\\frac{28+30}{2}=29$。最小值 $15$，最大值 $40$。答案是 $15,20,24.5,29,40$。"
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「盒狀圖」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%9B%92%E7%8B%80%E5%9C%96"
+    },
+    {
+      "label": "均一教育平台：搜尋「四分位距」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9B%9B%E5%88%86%E4%BD%8D%E8%B7%9D"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

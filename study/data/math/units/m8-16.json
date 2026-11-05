@@ -1,0 +1,255 @@
+{
+  "id": "m8-16",
+  "subject": "math",
+  "grade": 8,
+  "order": 16,
+  "title": "尺規作圖與幾何推理",
+  "codes": [
+    {
+      "code": "S-8-12",
+      "text": "尺規作圖與幾何推理：複製已知的線段、圓、角、三角形；能以尺規作出指定的中垂線、角平分線、平行線、垂直線；能寫出幾何推理所依據的幾何性質。"
+    }
+  ],
+  "intro": "只用沒有刻度的直尺和圓規作出中垂線、角平分線、垂直線與平行線，並學會在推理的每一步寫出依據的幾何性質。",
+  "sections": [
+    {
+      "title": "尺規作圖的規則",
+      "points": [
+        "直尺：只能畫直線、射線、連接兩點，不能用來量長度。",
+        "圓規：畫圓或弧，也可以把一段長度「搬」到別的地方。",
+        "作圖痕跡（弧線）要保留，用來說明作法。",
+        "複製線段：用圓規量取已知線段長，在射線上截取等長。"
+      ]
+    },
+    {
+      "title": "複製角與三角形",
+      "points": [
+        "複製角：以兩個頂點為圓心、相同半徑畫弧，再用圓規量取弧與兩邊交點的距離，原理是 SSS 全等。",
+        "複製三角形：用 SSS（量三邊）、SAS 或 ASA 的條件把三角形重新作出來。",
+        "複製角也是作平行線的基礎：作出一組相等的同位角或內錯角。"
+      ]
+    },
+    {
+      "title": "中垂線",
+      "points": [
+        "以 A、B 為圓心，用大於 $\\frac{1}{2}\\overline{AB}$ 的同一半徑畫弧，兩弧交於 P、Q，直線 PQ 就是 $\\overline{AB}$ 的中垂線。",
+        "中垂線垂直於 $\\overline{AB}$，並通過 $\\overline{AB}$ 的中點；作中點也用這個方法。",
+        "**中垂線上任一點到線段兩端點的距離相等**；反過來，到兩端點等距的點都在中垂線上。"
+      ],
+      "svg": "<svg viewBox=\"0 0 260 220\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"60\" y1=\"110\" x2=\"200\" y2=\"110\"/><circle cx=\"60\" cy=\"110\" r=\"3\" fill=\"currentColor\"/><circle cx=\"200\" cy=\"110\" r=\"3\" fill=\"currentColor\"/><path d=\"M140.2,69.2 A90,90 0 0 0 116.7,40.1\"/><path d=\"M116.7,179.9 A90,90 0 0 0 140.2,150.8\"/><path d=\"M143.3,40.1 A90,90 0 0 0 119.8,69.2\"/><path d=\"M119.8,150.8 A90,90 0 0 0 143.3,179.9\"/><line x1=\"130\" y1=\"10\" x2=\"130\" y2=\"210\" class=\"hl\"/><polyline stroke-width=\"1.5\" points=\"139,110 139,101 130,101\"/><text x=\"50\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"210\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"142\" y=\"49.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"142\" y=\"180.6\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text></svg>",
+      "caption": "以 A、B 為圓心、同半徑畫弧交於 P、Q，PQ 是 $\\overline{AB}$ 的中垂線。"
+    },
+    {
+      "title": "角平分線",
+      "points": [
+        "以頂點 O 為圓心畫弧，交兩邊於 P、Q；再以 P、Q 為圓心、同一半徑畫弧交於 R；射線 OR 就是角平分線。",
+        "原理：$\\overline{OP}=\\overline{OQ}$、$\\overline{PR}=\\overline{QR}$、$\\overline{OR}$ 公共，SSS 全等，所以 ∠POR＝∠QOR。",
+        "角平分線上任一點到角的兩邊距離相等。"
+      ],
+      "svg": "<svg viewBox=\"0 0 260 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"30\" y1=\"170\" x2=\"250\" y2=\"170\"/><line x1=\"30\" y1=\"170\" x2=\"158.6\" y2=\"16.8\"/><path d=\"M109.9,174.2 A80,80 0 0 0 78.1,106.1\"/><path d=\"M162.1,123.3 A70,70 0 0 0 138.6,106.1\"/><path d=\"M148.8,127.9 A70,70 0 0 0 150.7,98.8\"/><line x1=\"30\" y1=\"170\" x2=\"233.9\" y2=\"74.9\" class=\"hl\"/><circle cx=\"110\" cy=\"170\" r=\"3\" fill=\"currentColor\"/><circle cx=\"81.4\" cy=\"108.7\" r=\"3\" fill=\"currentColor\"/><circle cx=\"151.3\" cy=\"113.5\" r=\"3\" fill=\"currentColor\"/><text x=\"22\" y=\"184\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"110\" y=\"187\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"71.4\" y=\"106.7\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"155.3\" y=\"104.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">R</text></svg>",
+      "caption": "OP＝OQ、PR＝QR，射線 OR 平分 ∠POQ。"
+    },
+    {
+      "title": "垂直線與平行線",
+      "points": [
+        "過直線上一點作垂線：把平角 $180^\\circ$ 平分（先在該點兩側截等長，再作那段的中垂線）。",
+        "過直線外一點 P 作垂線：以 P 為圓心畫弧交直線於兩點，再作這兩點的中垂線。",
+        "過直線外一點作平行線：複製一個同位角或內錯角，使它們相等。"
+      ]
+    },
+    {
+      "title": "幾何推理要寫依據",
+      "points": [
+        "每一步結論都要附上理由，例如「對頂角相等」「SAS 全等」「全等三角形對應邊相等」「內錯角相等，兩直線平行」。",
+        "常見推理鏈：找全等 → 得到對應角相等 → 由內錯角或同位角相等推出平行。",
+        "已知條件、圖上隱藏條件（公共邊、對頂角）、要證明的結論，三者分清楚再動筆。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "中垂線作圖",
+      "body": "以兩端點為圓心、同半徑（大於一半）畫弧，連兩交點"
+    },
+    {
+      "name": "中垂線性質",
+      "body": "中垂線上的點到線段兩端點等距"
+    },
+    {
+      "name": "角平分線作圖原理",
+      "body": "SSS 全等 ⇒ 兩角相等"
+    },
+    {
+      "name": "角平分線性質",
+      "body": "角平分線上的點到兩邊等距"
+    },
+    {
+      "name": "作平行線",
+      "body": "複製同位角或內錯角"
+    },
+    {
+      "name": "尺規限制",
+      "body": "直尺不量長度，圓規畫弧與移長度"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-16-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "中垂線作圖",
+      "q": "分別以線段 AB 的兩端點 A、B 為圓心，用同一個大於 $\\frac{1}{2}\\overline{AB}$ 的半徑畫弧，兩弧交於 P、Q。直線 PQ 是 $\\overline{AB}$ 的什麼？",
+      "choices": [
+        "角平分線",
+        "中線",
+        "平行線",
+        "中垂線"
+      ],
+      "answer": 3,
+      "explain": "P、Q 到 A、B 的距離都相等，所以都在 $\\overline{AB}$ 的中垂線上，直線 PQ 就是 $\\overline{AB}$ 的中垂線。答案是中垂線。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "尺規作圖規則",
+      "q": "尺規作圖中的直尺可以用來做什麼？",
+      "choices": [
+        "畫直線或連接兩點",
+        "量出 5 公分長的線段",
+        "量出兩點之間的距離",
+        "量出角的度數"
+      ],
+      "answer": 0,
+      "explain": "尺規作圖的直尺沒有刻度，只能畫直線、連接兩點；量長度、量距離、量角度都不允許。答案是畫直線或連接兩點。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "中垂線性質",
+      "q": "點 P 在 $\\overline{AB}$ 的中垂線上，且 $\\overline{PA}=7$。$\\overline{PB}$ 是多少？",
+      "choices": [
+        "14",
+        "3.5",
+        "7",
+        "條件不足"
+      ],
+      "answer": 2,
+      "explain": "中垂線上任一點到線段兩端點等距，所以 $\\overline{PB}=\\overline{PA}=7$。答案是 7。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "角平分線作圖",
+      "q": "作 ∠O 的角平分線時，先以 O 為圓心畫弧交兩邊於 P、Q，再以 P、Q 為圓心、同半徑畫弧交於 R，連 OR。說明 ∠POR＝∠QOR 時，依據哪一個全等性質？",
+      "choices": [
+        "SAS",
+        "SSS",
+        "ASA",
+        "RHS"
+      ],
+      "answer": 1,
+      "explain": "$\\overline{OP}=\\overline{OQ}$（同一個弧）、$\\overline{PR}=\\overline{QR}$（同半徑）、$\\overline{OR}$ 是公共邊，三組邊相等，用 SSS 判定 $\\triangle OPR\\cong\\triangle OQR$，對應角相等。作圖過程沒有用到任何已知角相等，所以不是 SAS 或 ASA。答案是 SSS。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "作平行線",
+      "q": "要過直線 L 外一點 P 作一條與 L 平行的直線，作法的關鍵是在 P 點複製出哪一種角？",
+      "choices": [
+        "對頂角",
+        "同位角（或內錯角）",
+        "互餘的兩個角",
+        "相等的同側內角"
+      ],
+      "answer": 1,
+      "explain": "過 P 畫一條截線，在 P 點複製一個與截線和 L 所成之角相等的同位角（或內錯角），「同位角相等」或「內錯角相等」就保證兩直線平行。同側內角要「互補」才平行，不是相等。答案是同位角（或內錯角）。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "中垂線性質",
+      "q": "坐標平面上，公園入口在 $A(0,4)$、涼亭在 $B(6,2)$，步道是 $x$ 軸。要在步道上設一個飲水機，使它到 A、B 的距離相等，應該怎麼找？",
+      "choices": [
+        "作 $\\overline{AB}$ 的中垂線，取它與 $x$ 軸的交點",
+        "取 $\\overline{AB}$ 的中點",
+        "過 A 作 $x$ 軸的垂線，取垂足",
+        "作 ∠OAB 的角平分線，取它與 $x$ 軸的交點"
+      ],
+      "answer": 0,
+      "explain": "到 A、B 等距的點都在 $\\overline{AB}$ 的中垂線上，又要在步道（$x$ 軸）上，所以取中垂線與 $x$ 軸的交點。實際算：設點 $(x,0)$，$x^2+16=(x-6)^2+4$，$12x=24$，$x=2$，飲水機在 $(2,0)$，到 A、B 的距離都是 $\\sqrt{20}$。$\\overline{AB}$ 中點 $(3,3)$ 不在步道上；垂足 $(0,0)$ 到 A 是 4、到 B 是 $\\sqrt{40}$，不相等。答案是作中垂線取交點。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "全等推理",
+      "q": "如圖，$\\overline{AB}$ 與 $\\overline{CD}$ 交於 O，且 $\\overline{OA}=\\overline{OB}$、$\\overline{OC}=\\overline{OD}$。要說明 $\\overline{AC}\\parallel\\overline{BD}$，推理的兩個依據依序是？\n①先證 $\\triangle AOC\\cong\\triangle BOD$；②再由 ∠CAO＝∠DBO 推出平行。",
+      "choices": [
+        "① SSS；② 同位角相等",
+        "① SAS；② 同側內角互補",
+        "① ASA；② 內錯角相等",
+        "① SAS；② 內錯角相等"
+      ],
+      "answer": 3,
+      "explain": "①：$\\overline{OA}=\\overline{OB}$，∠AOC＝∠BOD（對頂角相等），$\\overline{OC}=\\overline{OD}$，兩邊夾一角，SAS 全等。②：全等得對應角 ∠CAO＝∠DBO；這兩個角在 $\\overline{AC}$、$\\overline{BD}$ 之間、截線 AB 的兩側，是內錯角，內錯角相等所以 $\\overline{AC}\\parallel\\overline{BD}$。答案是 ① SAS；② 內錯角相等。",
+      "codes": [
+        "S-8-12"
+      ]
+    },
+    {
+      "id": "m8-16-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "中垂線性質",
+      "q": "如圖，$\\triangle ABC$ 中 $\\overline{AB}=\\overline{AC}$，∠A＝40°。作 $\\overline{AB}$ 的中垂線交 $\\overline{AC}$ 於 D，連接 $\\overline{BD}$。∠DBC 是多少度？",
+      "svg": "<svg viewBox=\"0 0 250 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"130,20 75.3,170.4 184.7,170.4\" class=\"soft\"/><line x1=\"102.6\" y1=\"95.2\" x2=\"165.7\" y2=\"118.1\" stroke-dasharray=\"5 4\"/><polyline stroke-width=\"1.5\" points=\"105.4,87.7 112.9,90.4 110.2,97.9\"/><line x1=\"75.3\" y1=\"170.4\" x2=\"165.7\" y2=\"118.1\" class=\"hl\"/><text x=\"130\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"65.3\" y=\"178.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"194.7\" y=\"178.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"177.7\" y=\"122.1\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>",
+      "choices": [
+        "$40^\\circ$",
+        "$70^\\circ$",
+        "$30^\\circ$",
+        "$20^\\circ$"
+      ],
+      "answer": 2,
+      "explain": "D 在 $\\overline{AB}$ 的中垂線上，$\\overline{DA}=\\overline{DB}$，所以 ∠ABD＝∠A＝$40^\\circ$。$\\overline{AB}=\\overline{AC}$，底角 ∠ABC $=\\frac{180^\\circ-40^\\circ}{2}=70^\\circ$。∠DBC $=70^\\circ-40^\\circ=30^\\circ$。答案是 $30^\\circ$。",
+      "codes": [
+        "S-8-12"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「尺規作圖」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B0%BA%E8%A6%8F%E4%BD%9C%E5%9C%96"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

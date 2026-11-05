@@ -1,0 +1,246 @@
+{
+  "id": "m8-02",
+  "subject": "math",
+  "grade": 8,
+  "order": 2,
+  "title": "數列與等差數列",
+  "codes": [
+    {
+      "code": "N-8-3",
+      "text": "認識數列：生活中常見的數列及其規律性（包括圖形的規律性）。"
+    },
+    {
+      "code": "N-8-4",
+      "text": "等差數列：等差數列；給定首項、公差計算等差數列的一般項。，反求首項、項數或公差」，例如給定 a5 和 a9 的值求首項和公差。）"
+    }
+  ],
+  "intro": "把一串數按順序排好就是數列；相鄰兩項的差都一樣的叫等差數列。學會找規律、求公差，並用一般項公式算出第 n 項。",
+  "sections": [
+    {
+      "title": "認識數列",
+      "points": [
+        "依照順序排列的一串數叫數列，第 1 個數是首項 $a_1$，第 $n$ 個數記作 $a_n$。",
+        "數列可以來自生活：每月存款、排座位、堆罐頭、排火柴圖形。",
+        "找規律的方法：看相鄰兩項的差、比，或把項數和數值對照列表。"
+      ]
+    },
+    {
+      "title": "等差數列與公差",
+      "points": [
+        "從第 2 項起，每一項減去前一項的差都相同，就是等差數列，這個差叫公差 $d$。",
+        "$d=a_2-a_1=a_3-a_2=\\cdots$；公差可以是正數、負數或 $0$。",
+        "例：$20,17,14,11$ 的公差是 $17-20=-3$，數值越來越小。",
+        "若 $a,b,c$ 成等差，則 $b$ 是等差中項，$b=\\frac{a+c}{2}$。"
+      ]
+    },
+    {
+      "title": "一般項公式",
+      "points": [
+        "從首項走到第 $n$ 項要加 $(n-1)$ 次公差：$a_n=a_1+(n-1)d$。",
+        "例：$3,7,11,\\ldots$ 的第 10 項 $=3+9\\times 4=39$。",
+        "已知首項、公差和某一項的值，可反推它是第幾項：$n=\\frac{a_n-a_1}{d}+1$。",
+        "常見錯誤：把 $(n-1)d$ 寫成 $nd$，會多加一次公差。"
+      ]
+    },
+    {
+      "title": "圖形的規律",
+      "points": [
+        "火柴排三角形：第 1 個用 3 根，之後每多一個三角形只要多 2 根。",
+        "所以根數是首項 $3$、公差 $2$ 的等差數列，第 $n$ 個要 $3+(n-1)\\times 2=2n+1$ 根。",
+        "先數前幾個圖形、列成表，再找相鄰兩項的差。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 120\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\"><line x1=\"15\" y1=\"80\" x2=\"33\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"15\" y1=\"80\" x2=\"51\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"33\" y1=\"48.8\" x2=\"51\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"15\" y=\"105\">第 1 個：3 根</text><line x1=\"140\" y1=\"80\" x2=\"158\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"140\" y1=\"80\" x2=\"176\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"48.8\" x2=\"176\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"48.8\" x2=\"194\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"80\" x2=\"194\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"140\" y=\"105\">第 2 個：5 根</text><line x1=\"265\" y1=\"80\" x2=\"283\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"265\" y1=\"80\" x2=\"301\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"283\" y1=\"48.8\" x2=\"301\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"283\" y1=\"48.8\" x2=\"319\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"301\" y1=\"80\" x2=\"319\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"301\" y1=\"80\" x2=\"337\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"319\" y1=\"48.8\" x2=\"337\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"265\" y=\"105\">第 3 個：7 根</text></svg>",
+      "caption": "火柴三角形：3、5、7 根，公差 2"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "公差",
+      "body": "$d=a_n-a_{n-1}$（後項減前項）"
+    },
+    {
+      "name": "等差數列一般項",
+      "body": "$a_n=a_1+(n-1)d$"
+    },
+    {
+      "name": "求第幾項",
+      "body": "$n=\\frac{a_n-a_1}{d}+1$"
+    },
+    {
+      "name": "等差中項",
+      "body": "$a,b,c$ 成等差 $\\Rightarrow b=\\frac{a+c}{2}$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-02-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "等差數列一般項",
+      "q": "等差數列 $3,7,11,15,\\ldots$ 的第 10 項是多少？",
+      "choices": [
+        "$43$",
+        "$39$",
+        "$40$",
+        "$36$"
+      ],
+      "answer": 1,
+      "explain": "首項 $a_1=3$，公差 $d=7-3=4$。$a_{10}=3+(10-1)\\times 4=3+36=39$。$43$ 是把 $(n-1)$ 誤寫成 $n$。答案是 $39$。",
+      "codes": [
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "等差數列判斷",
+      "q": "下列哪一個數列是等差數列？",
+      "choices": [
+        "$1,2,4,8$",
+        "$1,4,9,16$",
+        "$5,3,2,1$",
+        "$2,5,8,11$"
+      ],
+      "answer": 3,
+      "explain": "看相鄰兩項的差：$1,2,4,8$ 的差是 $1,2,4$；$1,4,9,16$ 的差是 $3,5,7$；$5,3,2,1$ 的差是 $-2,-1,-1$；$2,5,8,11$ 的差都是 $3$。答案是 $2,5,8,11$。",
+      "codes": [
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "公差",
+      "q": "等差數列 $20,17,14,\\ldots$ 的公差是多少？",
+      "choices": [
+        "$-3$",
+        "$3$",
+        "$17$",
+        "$\\frac{17}{20}$"
+      ],
+      "answer": 0,
+      "explain": "公差是後項減前項：$17-20=-3$。寫成 $3$ 是減反了，$\\frac{17}{20}$ 是把差和比搞混。答案是 $-3$。",
+      "codes": [
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "圖形規律與等差",
+      "q": "用火柴棒依圖中規律排成一列三角形：第 1 個圖形 1 個三角形用 3 根，第 2 個圖形 2 個三角形用 5 根，第 3 個圖形 3 個三角形用 7 根。排 20 個三角形需要幾根火柴棒？",
+      "svg": "<svg viewBox=\"0 0 420 120\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\"><line x1=\"15\" y1=\"80\" x2=\"33\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"15\" y1=\"80\" x2=\"51\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"33\" y1=\"48.8\" x2=\"51\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"15\" y=\"105\">第 1 個：3 根</text><line x1=\"140\" y1=\"80\" x2=\"158\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"140\" y1=\"80\" x2=\"176\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"48.8\" x2=\"176\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"48.8\" x2=\"194\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"80\" x2=\"194\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"140\" y=\"105\">第 2 個：5 根</text><line x1=\"265\" y1=\"80\" x2=\"283\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"265\" y1=\"80\" x2=\"301\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"283\" y1=\"48.8\" x2=\"301\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"283\" y1=\"48.8\" x2=\"319\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"301\" y1=\"80\" x2=\"319\" y2=\"48.8\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"301\" y1=\"80\" x2=\"337\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"319\" y1=\"48.8\" x2=\"337\" y2=\"80\" class=\"hl\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"265\" y=\"105\">第 3 個：7 根</text></svg>",
+      "choices": [
+        "$60$",
+        "$43$",
+        "$41$",
+        "$40$"
+      ],
+      "answer": 2,
+      "explain": "根數 $3,5,7,\\ldots$ 是首項 $3$、公差 $2$ 的等差數列。$a_{20}=3+(20-1)\\times 2=41$。$60$ 是每個三角形都各用 3 根（沒算到共用邊），$43$ 是多加了一次公差。答案是 $41$ 根。",
+      "codes": [
+        "N-8-3",
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "等差數列項數",
+      "q": "一個等差數列的首項是 $-7$，公差是 $4$。$53$ 是這個數列的第幾項？",
+      "choices": [
+        "第 15 項",
+        "第 16 項",
+        "第 17 項",
+        "第 14 項"
+      ],
+      "answer": 1,
+      "explain": "$a_n=-7+(n-1)\\times 4=53$，$(n-1)\\times 4=60$，$n-1=15$，$n=16$。只算到 $15$ 就停是忘了加 1。答案是第 16 項。",
+      "codes": [
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "等差中項",
+      "q": "若 $5,x,11,y$ 四個數依序成等差數列，則 $x+y$ 是多少？",
+      "choices": [
+        "$19$",
+        "$25$",
+        "$16$",
+        "$22$"
+      ],
+      "answer": 3,
+      "explain": "$x$ 是 $5$ 和 $11$ 的等差中項：$x=\\frac{5+11}{2}=8$，公差 $d=8-5=3$，$y=11+3=14$。$x+y=8+14=22$。答案是 $22$。",
+      "codes": [
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "等差數列應用",
+      "q": "某演講廳第 1 排有 18 個座位，往後每一排都比前一排多 3 個座位。從第幾排開始，該排座位數超過 100 個？",
+      "choices": [
+        "第 28 排",
+        "第 30 排",
+        "第 29 排",
+        "第 27 排"
+      ],
+      "answer": 2,
+      "explain": "第 $n$ 排座位數 $a_n=18+(n-1)\\times 3$。$a_{28}=18+81=99$，還沒超過 100；$a_{29}=18+84=102>100$。所以從第 29 排開始。答案是第 29 排。",
+      "codes": [
+        "N-8-4"
+      ]
+    },
+    {
+      "id": "m8-02-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "等差數列一般項",
+      "q": "一個等差數列的第 3 項是 $10$、第 4 項是 $13$，則第 20 項是多少？",
+      "choices": [
+        "$61$",
+        "$64$",
+        "$70$",
+        "$58$"
+      ],
+      "answer": 0,
+      "explain": "第 3、4 項相鄰，公差 $d=13-10=3$。首項 $a_1=a_3-2d=10-6=4$。$a_{20}=4+(20-1)\\times 3=4+57=61$。$70$ 是直接用 $10+20\\times 3$ 的錯誤。答案是 $61$。",
+      "codes": [
+        "N-8-4"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年非選擇題第 1 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 N-8-4"
+      },
+      {
+        "label": "114 年第 9 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 N-8-4"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「等差數列」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%AD%89%E5%B7%AE%E6%95%B8%E5%88%97"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

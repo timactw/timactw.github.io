@@ -1,0 +1,231 @@
+{
+  "id": "m9-07",
+  "subject": "math",
+  "grade": 9,
+  "order": 7,
+  "title": "圓心角、圓周角與切線段",
+  "codes": [
+    {
+      "code": "S-9-6",
+      "text": "圓的幾何性質：圓心角、圓周角與所對應弧的度數三者之間的關係；圓內接四邊形對角互補；切線段等長。"
+    }
+  ],
+  "intro": "圓裡的角度題，核心只有一句：圓周角是同弧圓心角的一半。再加上內接四邊形對角互補、切線段等長，就能解大部分題目。",
+  "sections": [
+    {
+      "title": "圓心角與弧的度數",
+      "points": [
+        "**圓心角**：頂點在圓心、兩邊是半徑的角。",
+        "弧的度數規定為它所對的圓心角度數；整圓 $360^\\circ$，半圓 $180^\\circ$。",
+        "同圓中，圓心角相等 ↔ 所對的弧相等 ↔ 所對的弦相等。"
+      ]
+    },
+    {
+      "title": "圓周角",
+      "points": [
+        "**圓周角**：頂點在圓上、兩邊都是弦的角。",
+        "圓周角 $=$ 所對弧度數的一半 $=$ 同弧圓心角的一半。",
+        "同弧（或等弧）所對的圓周角都相等。",
+        "直徑（半圓）所對的圓周角是 $90^\\circ$。",
+        "看清楚角「對著」哪一段弧：頂點在優弧上，對的是劣弧；頂點在劣弧上，對的是優弧。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"130\" cy=\"110\" r=\"80\"/><line x1=\"130\" y1=\"110\" x2=\"60.7\" y2=\"150\" class=\"hl\"/><line x1=\"130\" y1=\"110\" x2=\"199.3\" y2=\"150\" class=\"hl\"/><line x1=\"116.1\" y1=\"31.2\" x2=\"60.7\" y2=\"150\" class=\"hl2\"/><line x1=\"116.1\" y1=\"31.2\" x2=\"199.3\" y2=\"150\" class=\"hl2\"/><circle cx=\"130\" cy=\"110\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"108\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"50.7\" y=\"162\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"209.3\" y=\"162\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"116.1\" y=\"23.2\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"130\" y=\"210\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">弧 AB</text><text x=\"240\" y=\"70\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl\" font-size=\"13\">∠AOB：圓心角</text><text x=\"240\" y=\"95\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">∠ACB：圓周角</text><text x=\"240\" y=\"125\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">∠ACB＝½∠AOB</text></svg>",
+      "caption": "$\\angle AOB$ 與 $\\angle ACB$ 都對著弧 $AB$，$\\angle ACB=\\frac{1}{2}\\angle AOB$。"
+    },
+    {
+      "title": "圓內接四邊形",
+      "points": [
+        "四個頂點都在同一圓上的四邊形叫圓內接四邊形。",
+        "**對角互補**：$\\angle A+\\angle C=180^\\circ$，$\\angle B+\\angle D=180^\\circ$。",
+        "原因：一組對角對著的兩段弧合起來是整圓 $360^\\circ$，兩個圓周角合起來是一半 $180^\\circ$。",
+        "推論：一個外角等於它的內對角。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"120\" cy=\"105\" r=\"80\"/><polygon points=\"44.8,77.6 80,174.3 198.8,118.9 140.7,27.7\" class=\"soft\"/><text x=\"32.8\" y=\"81.6\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"76\" y=\"192.3\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"210.8\" y=\"122.9\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">C</text><text x=\"144.7\" y=\"19.7\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">D</text><text x=\"230\" y=\"90\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">∠A＋∠C＝180°</text><text x=\"230\" y=\"115\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">∠B＋∠D＝180°</text></svg>",
+      "caption": "圓內接四邊形對角互補。"
+    },
+    {
+      "title": "切線段等長",
+      "points": [
+        "從圓外一點 $P$ 作圓的兩條切線，切點為 $A$、$B$，則 $\\overline{PA}=\\overline{PB}$。",
+        "$\\overline{OP}$ 平分 $\\angle APB$，也平分 $\\angle AOB$。",
+        "四邊形 $OAPB$ 有兩個直角，所以 $\\angle APB+\\angle AOB=180^\\circ$。",
+        "應用：三角形的內切圓，從每個頂點出發的兩條切線段相等；圓外切四邊形兩組對邊和相等。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"110\" r=\"60\"/><line x1=\"330\" y1=\"110\" x2=\"115.7\" y2=\"52.1\" class=\"hl\" stroke-width=\"3\"/><line x1=\"330\" y1=\"110\" x2=\"115.7\" y2=\"167.9\" class=\"hl\" stroke-width=\"3\"/><line x1=\"100\" y1=\"110\" x2=\"115.7\" y2=\"52.1\"/><line x1=\"100\" y1=\"110\" x2=\"115.7\" y2=\"167.9\"/><line x1=\"100\" y1=\"110\" x2=\"330\" y2=\"110\" stroke-dasharray=\"5 4\"/><polyline points=\"125.3,54.7 122.7,64.3 113,61.7\" stroke-width=\"1.5\"/><polyline points=\"125.3,165.3 122.7,155.7 113,158.3\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"110\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"88\" y=\"114\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">O</text><text x=\"342\" y=\"114\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">P</text><text x=\"115.7\" y=\"42.1\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">A</text><text x=\"115.7\" y=\"187.9\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">B</text><text x=\"230\" y=\"205\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" class=\"hl\" font-size=\"13\">PA＝PB</text></svg>",
+      "caption": "切線段 $\\overline{PA}=\\overline{PB}$，且半徑垂直切線。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "弧的度數",
+      "body": "＝所對圓心角的度數"
+    },
+    {
+      "name": "圓周角",
+      "body": "＝所對弧度數的 $\\frac{1}{2}$＝同弧圓心角的 $\\frac{1}{2}$"
+    },
+    {
+      "name": "直徑所對圓周角",
+      "body": "$90^\\circ$"
+    },
+    {
+      "name": "圓內接四邊形",
+      "body": "對角互補：$\\angle A+\\angle C=180^\\circ$"
+    },
+    {
+      "name": "切線段",
+      "body": "$\\overline{PA}=\\overline{PB}$，$\\angle APB+\\angle AOB=180^\\circ$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m9-07-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "圓周角與弧",
+      "q": "$A$、$B$、$C$ 在圓上，劣弧 $AB$ 的度數是 $100^\\circ$，$C$ 在優弧 $AB$ 上。$\\angle ACB$ 是幾度？",
+      "choices": [
+        "$100^\\circ$",
+        "$200^\\circ$",
+        "$50^\\circ$",
+        "$130^\\circ$"
+      ],
+      "answer": 2,
+      "explain": "$C$ 在優弧上，$\\angle ACB$ 對著劣弧 $AB$。圓周角是所對弧度數的一半：$100^\\circ\\div 2=50^\\circ$。答案是 $50^\\circ$。"
+    },
+    {
+      "id": "m9-07-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "圓周角與弧",
+      "q": "$\\overline{AB}$ 是圓的直徑，$C$ 是圓上另一點，$\\angle A=35^\\circ$。$\\angle B$ 是幾度？",
+      "choices": [
+        "$55^\\circ$",
+        "$35^\\circ$",
+        "$90^\\circ$",
+        "$145^\\circ$"
+      ],
+      "answer": 0,
+      "explain": "直徑所對的圓周角 $\\angle ACB=90^\\circ$。在 $\\triangle ABC$ 中，$\\angle B=180^\\circ-90^\\circ-35^\\circ=55^\\circ$。答案是 $55^\\circ$。"
+    },
+    {
+      "id": "m9-07-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "圓內接四邊形",
+      "q": "四邊形 $ABCD$ 內接於圓，$\\angle A=75^\\circ$。$\\angle C$ 是幾度？",
+      "choices": [
+        "$75^\\circ$",
+        "$105^\\circ$",
+        "$15^\\circ$",
+        "$285^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "圓內接四邊形對角互補，$\\angle C=180^\\circ-75^\\circ=105^\\circ$。答案是 $105^\\circ$。"
+    },
+    {
+      "id": "m9-07-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "切線段等長",
+      "q": "$\\overline{PA}$、$\\overline{PB}$ 分別切圓 $O$ 於 $A$、$B$，$\\angle APB=50^\\circ$。$C$ 在優弧 $AB$ 上，$\\angle ACB$ 是幾度？",
+      "choices": [
+        "$130^\\circ$",
+        "$50^\\circ$",
+        "$25^\\circ$",
+        "$65^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "$\\overline{OA}\\perp\\overline{PA}$、$\\overline{OB}\\perp\\overline{PB}$，四邊形 $OAPB$ 內角和 $360^\\circ$，$\\angle AOB=360^\\circ-90^\\circ-90^\\circ-50^\\circ=130^\\circ$。$\\angle ACB$ 對劣弧 $AB$，是圓心角的一半：$65^\\circ$。答案是 $65^\\circ$。"
+    },
+    {
+      "id": "m9-07-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "切線段等長",
+      "q": "$\\triangle ABC$ 的內切圓分別切 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CA}$ 於 $D$、$E$、$F$。已知 $\\overline{AD}=3$、$\\overline{BE}=5$、$\\overline{CF}=4$，$\\triangle ABC$ 的周長是多少？",
+      "choices": [
+        "$12$",
+        "$36$",
+        "$24$",
+        "$20$"
+      ],
+      "answer": 2,
+      "explain": "切線段等長：$\\overline{AF}=\\overline{AD}=3$，$\\overline{BD}=\\overline{BE}=5$，$\\overline{CE}=\\overline{CF}=4$。周長 $=2\\times(3+5+4)=24$。只加一次會得 $12$。答案是 $24$。"
+    },
+    {
+      "id": "m9-07-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "切線段等長",
+      "q": "四邊形 $ABCD$ 的四邊都與同一個圓相切（圓在四邊形內）。$\\overline{AB}=7$、$\\overline{BC}=9$、$\\overline{CD}=8$，$\\overline{DA}$ 是多少？",
+      "choices": [
+        "$6$",
+        "$10$",
+        "$8$",
+        "$24$"
+      ],
+      "answer": 0,
+      "explain": "每個頂點出發的兩條切線段等長，把四邊各拆成兩段，可得 $\\overline{AB}+\\overline{CD}=\\overline{BC}+\\overline{DA}$。$7+8=9+\\overline{DA}$，$\\overline{DA}=6$。（$10=9+8-7$ 是把對邊配錯。）答案是 $6$。"
+    },
+    {
+      "id": "m9-07-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "圓周角與弧",
+      "q": "圓 $O$ 中，$\\angle AOB=140^\\circ$（$\\angle AOB$ 對劣弧 $AB$），點 $C$ 在劣弧 $AB$ 上。$\\angle ACB$ 是幾度？",
+      "choices": [
+        "$110^\\circ$",
+        "$70^\\circ$",
+        "$140^\\circ$",
+        "$220^\\circ$"
+      ],
+      "answer": 0,
+      "explain": "劣弧 $AB$ 是 $140^\\circ$，優弧 $AB$ 是 $360^\\circ-140^\\circ=220^\\circ$。$C$ 在劣弧上，$\\angle ACB$ 對著優弧，等於 $220^\\circ\\div 2=110^\\circ$。直接取一半得 $70^\\circ$ 是看錯弧。答案是 $110^\\circ$。"
+    },
+    {
+      "id": "m9-07-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "圓內接四邊形",
+      "q": "四邊形 $ABCD$ 內接於圓 $O$，延長 $\\overline{AB}$ 到 $E$，$\\angle CBE=80^\\circ$。$\\angle AOC$（對著含 $B$ 的弧 $ABC$）是幾度？",
+      "choices": [
+        "$80^\\circ$",
+        "$100^\\circ$",
+        "$200^\\circ$",
+        "$160^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "$\\angle ABC=180^\\circ-80^\\circ=100^\\circ$，對角 $\\angle ADC=180^\\circ-100^\\circ=80^\\circ$。$\\angle ADC$ 對著弧 $ABC$，所以弧 $ABC=160^\\circ$，圓心角 $\\angle AOC=160^\\circ$。（$200^\\circ$ 是另一段弧 $ADC$。）答案是 $160^\\circ$。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 19 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 S-9-6"
+      },
+      {
+        "label": "114 年第 23 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 S-9-6"
+      },
+      {
+        "label": "113 年第 21 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 S-9-6"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「圓周角」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9C%93%E5%91%A8%E8%A7%92"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

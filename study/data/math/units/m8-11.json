@@ -1,0 +1,260 @@
+{
+  "id": "m8-11",
+  "subject": "math",
+  "grade": 8,
+  "order": 11,
+  "title": "角與平行線",
+  "codes": [
+    {
+      "code": "S-8-1",
+      "text": "角：角的種類；兩個角的關係（互餘、互補、對頂角、同位角、內錯角、同側內角）；角平分線的意義。"
+    },
+    {
+      "code": "S-8-3",
+      "text": "平行：平行的意義與符號；平行線截角性質；兩平行線間的距離處處相等。"
+    }
+  ],
+  "intro": "認識角的種類與兩角之間的關係，再學平行線被截線所截時角的性質。會考常把平行線截角和三角形、拐角圖形結合出題。",
+  "sections": [
+    {
+      "title": "角的種類",
+      "points": [
+        "銳角：大於 $0^\\circ$、小於 $90^\\circ$；直角：等於 $90^\\circ$；鈍角：大於 $90^\\circ$、小於 $180^\\circ$。",
+        "平角：$180^\\circ$（兩邊成一直線）；周角：$360^\\circ$（繞一整圈）。",
+        "角平分線：從角的頂點出發，把這個角分成兩個相等角的射線。"
+      ]
+    },
+    {
+      "title": "兩個角的關係",
+      "points": [
+        "互餘：兩角和為 $90^\\circ$；$x$ 的餘角是 $90^\\circ-x$。",
+        "互補：兩角和為 $180^\\circ$；$x$ 的補角是 $180^\\circ-x$。",
+        "對頂角：兩直線相交，頂點相同、兩邊互為反向延長線的兩個角，**對頂角相等**。",
+        "兩直線相交形成的相鄰兩角合起來是平角，所以互補。"
+      ],
+      "svg": "<svg viewBox=\"0 0 240 160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"120\" x2=\"220\" y2=\"40\"/><line x1=\"50\" y1=\"10\" x2=\"190\" y2=\"150\"/><path d=\"M132.7,92.7 A18,18 0 0 0 136.7,73.3\" class=\"hl\"/><path d=\"M107.3,67.3 A18,18 0 0 0 103.3,86.7\" class=\"hl\"/><text x=\"151.3\" y=\"91\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"114\" y=\"113.9\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"88.7\" y=\"78.1\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"126\" y=\"55.2\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text></svg>",
+      "caption": "∠1 與 ∠3、∠2 與 ∠4 是對頂角，各自相等；∠1 與 ∠2 互補。"
+    },
+    {
+      "title": "截線形成的角",
+      "points": [
+        "兩直線被第三條直線（截線）所截，兩個交點各有 4 個角，共 8 個角。",
+        "同位角：在兩直線的同一方、截線的同一側，例如 ∠1 與 ∠5、∠4 與 ∠8。",
+        "內錯角：在兩直線之間、截線的兩側，例如 ∠3 與 ∠5、∠4 與 ∠6。",
+        "同側內角：在兩直線之間、截線的同一側，例如 ∠4 與 ∠5、∠3 與 ∠6。"
+      ],
+      "svg": "<svg viewBox=\"0 0 340 180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"50\" x2=\"300\" y2=\"50\"/><line x1=\"20\" y1=\"130\" x2=\"300\" y2=\"130\"/><line x1=\"210\" y1=\"10\" x2=\"90\" y2=\"170\" class=\"hl\"/><text x=\"310\" y=\"55\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L₁</text><text x=\"310\" y=\"135\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L₂</text><text x=\"84\" y=\"172\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">L</text><text x=\"199.7\" y=\"44.7\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"170.2\" y=\"34.9\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"160.3\" y=\"64.4\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"189.8\" y=\"74.2\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"139.7\" y=\"124.7\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"110.2\" y=\"114.9\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"100.3\" y=\"144.4\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"129.8\" y=\"154.2\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text></svg>",
+      "caption": "L₁∥L₂，L 是截線。圖中的編號在本單元重點與題目中通用。"
+    },
+    {
+      "title": "平行線的截角性質",
+      "points": [
+        "平行的意義：同一平面上兩直線永不相交，記作 $L_1 \\parallel L_2$。",
+        "若 $L_1\\parallel L_2$：同位角相等、內錯角相等、同側內角互補。",
+        "反過來，只要一組同位角相等、或一組內錯角相等、或一組同側內角互補，就能判斷兩直線平行。",
+        "兩平行線間的距離處處相等：所以底邊在其中一條平行線上、頂點在另一條平行線上的三角形，只要底邊等長，面積都相等。"
+      ]
+    },
+    {
+      "title": "常見解題技巧",
+      "points": [
+        "拐角（鋸齒）圖形：過拐點作一條與已知直線平行的輔助線，把角拆成兩個內錯角。",
+        "兩平行線之間的拐點 P：$\\angle APB$ 等於 $L_1$ 上與 $L_2$ 上「開口朝向 P」的那兩個角之和。",
+        "看到角平分線＋平行線，常會出現等腰三角形（兩個角相等）。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "餘角、補角",
+      "body": "$x$ 的餘角 $=90^\\circ-x$，補角 $=180^\\circ-x$"
+    },
+    {
+      "name": "對頂角",
+      "body": "對頂角相等"
+    },
+    {
+      "name": "平行線截角",
+      "body": "同位角相等、內錯角相等、同側內角互補"
+    },
+    {
+      "name": "平行判別",
+      "body": "一組同位角相等或內錯角相等或同側內角互補 ⇒ 兩直線平行"
+    },
+    {
+      "name": "平行線間距離",
+      "body": "兩平行線間的距離處處相等（底邊在一線上、頂點在另一線上，等底的三角形面積相等）"
+    },
+    {
+      "name": "拐角公式",
+      "body": "過拐點作平行線：中間的角＝兩側內錯角之和"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m8-11-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "餘角與補角",
+      "q": "已知 ∠A＝38°，∠A 的餘角、補角依序是多少？",
+      "choices": [
+        "$62^\\circ$、$142^\\circ$",
+        "$52^\\circ$、$152^\\circ$",
+        "$52^\\circ$、$142^\\circ$",
+        "$142^\\circ$、$52^\\circ$"
+      ],
+      "answer": 2,
+      "explain": "餘角 $=90^\\circ-38^\\circ=52^\\circ$，補角 $=180^\\circ-38^\\circ=142^\\circ$。最後一個選項把順序顛倒。答案是 $52^\\circ$、$142^\\circ$。",
+      "codes": [
+        "S-8-1"
+      ]
+    },
+    {
+      "id": "m8-11-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "對頂角與鄰角",
+      "q": "兩條直線相交，其中一個角是 70°。它的對頂角、鄰角依序是多少？",
+      "choices": [
+        "$70^\\circ$、$110^\\circ$",
+        "$110^\\circ$、$70^\\circ$",
+        "$70^\\circ$、$20^\\circ$",
+        "$20^\\circ$、$160^\\circ$"
+      ],
+      "answer": 0,
+      "explain": "對頂角相等，是 $70^\\circ$；鄰角與它合成平角，是 $180^\\circ-70^\\circ=110^\\circ$。$20^\\circ$ 是誤用互餘。答案是 $70^\\circ$、$110^\\circ$。",
+      "codes": [
+        "S-8-1"
+      ]
+    },
+    {
+      "id": "m8-11-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "平行線截角",
+      "q": "如圖，L₁∥L₂，直線 L 與兩線相交。若 ∠1＝65°，則 ∠2 是多少度？",
+      "svg": "<svg viewBox=\"0 0 340 180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"50\" x2=\"300\" y2=\"50\"/><line x1=\"20\" y1=\"130\" x2=\"300\" y2=\"130\"/><line x1=\"90\" y1=\"10\" x2=\"210\" y2=\"170\" class=\"hl\"/><text x=\"310\" y=\"55\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L₁</text><text x=\"310\" y=\"135\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L₂</text><text x=\"216\" y=\"172\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L</text><path d=\"M136,50 A16,16 0 0 1 129.6,62.8\" class=\"hl2\"/><text x=\"147\" y=\"68\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><path d=\"M196,130 A16,16 0 0 0 170.4,117.2\" class=\"hl2\"/><text x=\"193\" y=\"110\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text></svg>",
+      "choices": [
+        "$65^\\circ$",
+        "$115^\\circ$",
+        "$25^\\circ$",
+        "$130^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "∠1 與 ∠2 都在兩平行線之間，且在截線 L 的同一側，是同側內角。平行線的同側內角互補：∠2 $=180^\\circ-65^\\circ=115^\\circ$。誤當成同位角或內錯角會選 $65^\\circ$。答案是 $115^\\circ$。",
+      "codes": [
+        "S-8-3"
+      ]
+    },
+    {
+      "id": "m8-11-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "餘角與補角",
+      "q": "一個角的補角，比它的餘角的 3 倍少 10°。這個角是多少度？",
+      "choices": [
+        "$50^\\circ$",
+        "$35^\\circ$",
+        "$45^\\circ$",
+        "$40^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "設這個角為 $x^\\circ$。補角 $180-x$，餘角 $90-x$。列式 $180-x=3(90-x)-10$，$180-x=260-3x$，$2x=80$，$x=40$。驗算：補角 $140^\\circ$，餘角 $50^\\circ$，$3\\times50-10=140$，正確。$50^\\circ$ 是它的餘角。答案是 $40^\\circ$。",
+      "codes": [
+        "S-8-1"
+      ]
+    },
+    {
+      "id": "m8-11-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "平行線截角",
+      "q": "如圖，L₁∥L₂，A 在 L₁ 上、B 在 L₂ 上，P 在兩平行線之間。已知 L₁ 上 A 點右側與 $\\overline{AP}$ 的夾角是 35°，L₂ 上 B 點右側與 $\\overline{BP}$ 的夾角是 50°，∠APB 是多少度？",
+      "svg": "<svg viewBox=\"0 0 300 185\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"40\" x2=\"280\" y2=\"40\"/><line x1=\"20\" y1=\"160\" x2=\"280\" y2=\"160\"/><line x1=\"70\" y1=\"40\" x2=\"210\" y2=\"100\" class=\"hl\"/><line x1=\"90\" y1=\"160\" x2=\"210\" y2=\"100\" class=\"hl\"/><path d=\"M97.6,51.8 A30,30 0 0 0 100,40\" class=\"hl2\"/><path d=\"M120,160 A30,30 0 0 0 116.8,146.6\" class=\"hl2\"/><text x=\"117\" y=\"53.9\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">35°</text><text x=\"136.7\" y=\"153.2\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50°</text><circle cx=\"70\" cy=\"40\" r=\"3\" fill=\"currentColor\"/><circle cx=\"90\" cy=\"160\" r=\"3\" fill=\"currentColor\"/><circle cx=\"210\" cy=\"100\" r=\"3\" fill=\"currentColor\"/><text x=\"70\" y=\"32\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"90\" y=\"178\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"222\" y=\"105\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"286\" y=\"45\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L₁</text><text x=\"286\" y=\"165\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L₂</text></svg>",
+      "choices": [
+        "$95^\\circ$",
+        "$85^\\circ$",
+        "$15^\\circ$",
+        "$130^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "過 P 作一條直線與 L₁ 平行（也就與 L₂ 平行）。這條輔助線把 ∠APB 分成上下兩塊：上面一塊與 $35^\\circ$ 是內錯角，等於 $35^\\circ$；下面一塊與 $50^\\circ$ 是內錯角，等於 $50^\\circ$。所以 ∠APB $=35^\\circ+50^\\circ=85^\\circ$。$15^\\circ$ 是誤相減；$95^\\circ$ 是誤用 $180^\\circ-85^\\circ$。答案是 $85^\\circ$。",
+      "codes": [
+        "S-8-3"
+      ]
+    },
+    {
+      "id": "m8-11-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "平行線判定",
+      "q": "兩條直線 L、M 被一條截線所截。下列哪一個條件「一定」可以判斷 L∥M？",
+      "choices": [
+        "有一組同側內角相等",
+        "有一組內錯角互補",
+        "有一組同位角相等",
+        "有一組對頂角相等"
+      ],
+      "answer": 2,
+      "explain": "判斷平行的條件是：同位角相等、內錯角相等、或同側內角互補。「同側內角相等」「內錯角互補」只有在剛好都是 $90^\\circ$ 時才成立，不一定；對頂角不論兩線平不平行都相等，無法判斷。答案是「有一組同位角相等」。",
+      "codes": [
+        "S-8-3"
+      ]
+    },
+    {
+      "id": "m8-11-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "平行線間距離",
+      "q": "L₁∥L₂，兩線的距離是 5 公分。A、B 在 L₁ 上，$\\overline{AB}=8$ 公分；P 是 L₂ 上的一個動點。當 P 在 L₂ 上移動時，$\\triangle PAB$ 的面積會怎樣？",
+      "choices": [
+        "永遠是 20 平方公分",
+        "永遠是 40 平方公分",
+        "P 離 A 越遠，面積越大",
+        "要看 P 的位置，無法確定"
+      ],
+      "answer": 0,
+      "explain": "以 $\\overline{AB}$ 為底，高是 P 到 L₁ 的距離。兩平行線間距離處處相等，所以高永遠是 5。面積 $=\\frac{1}{2}\\times8\\times5=20$，不隨 P 改變。40 是忘了乘 $\\frac{1}{2}$。答案是永遠 20 平方公分。",
+      "codes": [
+        "S-8-3"
+      ]
+    },
+    {
+      "id": "m8-11-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "平行線截角",
+      "q": "如圖，直線 AB∥CD，直線 EF 分別交 AB、CD 於 E、F，∠BEF＝70°。EG 平分 ∠AEF，且與 CD 交於 G。∠EGF 是多少度？",
+      "svg": "<svg viewBox=\"0 0 300 165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"40\" x2=\"280\" y2=\"40\"/><line x1=\"20\" y1=\"140\" x2=\"280\" y2=\"140\"/><line x1=\"150\" y1=\"40\" x2=\"186.4\" y2=\"140\"/><line x1=\"150\" y1=\"40\" x2=\"80\" y2=\"140\" class=\"hl2\"/><path d=\"M156.2,56.9 A18,18 0 0 0 168,40\" class=\"hl\"/><text x=\"176.2\" y=\"62.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70°</text><text x=\"14\" y=\"45\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"286\" y=\"45\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"14\" y=\"145\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"286\" y=\"145\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"150\" y=\"32\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"190.4\" y=\"157\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">F</text><text x=\"76\" y=\"157\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">G</text></svg>",
+      "choices": [
+        "$70^\\circ$",
+        "$35^\\circ$",
+        "$110^\\circ$",
+        "$55^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "∠AEF 與 ∠BEF 合成平角，∠AEF $=180^\\circ-70^\\circ=110^\\circ$。EG 平分它，∠AEG $=55^\\circ$。AB∥CD，∠AEG 與 ∠EGF 是內錯角，所以 ∠EGF $=55^\\circ$。$35^\\circ$ 是誤把 $70^\\circ$ 平分。答案是 $55^\\circ$。",
+      "codes": [
+        "S-8-1",
+        "S-8-3"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「平行線」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B9%B3%E8%A1%8C%E7%B7%9A"
+    },
+    {
+      "label": "均一教育平台：搜尋「同位角」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%90%8C%E4%BD%8D%E8%A7%92"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}
