@@ -1,0 +1,260 @@
+{
+  "id": "m7-15",
+  "subject": "math",
+  "grade": 7,
+  "order": 15,
+  "title": "聯立方程式的解法與應用",
+  "codes": [
+    {
+      "code": "A-7-5",
+      "text": "二元一次聯立方程式的解法與應用：代入消去法；加減消去法；應用問題。"
+    }
+  ],
+  "intro": "學會用代入消去法與加減消去法解二元一次聯立方程式，並解價錢、年齡等應用題。會考最常錯在乘倍數時漏乘、減式時忘記變號。",
+  "sections": [
+    {
+      "title": "代入消去法",
+      "points": [
+        "適合：某一式已是 $y=\\cdots$ 或 $x=\\cdots$，或某個未知數的係數是 $1$ 或 $-1$。",
+        "步驟：把一式改寫成 $x=\\cdots$（或 $y=\\cdots$）→ 代入另一式，變成一元一次方程式 → 解出一個未知數 → 代回求另一個 → 兩式驗算。",
+        "例：$\\begin{cases}y=2x\\\\x+y=9\\end{cases}$ 把 $y=2x$ 代入第二式：$x+2x=9$，$x=3$，再得 $y=6$。",
+        "代入時要用括號保護整個式子：$y=x-3$ 代入 $2y$，要寫 $2(x-3)$，不是 $2x-3$。"
+      ]
+    },
+    {
+      "title": "加減消去法",
+      "points": [
+        "適合：兩式中某個未知數的係數相同或相反。",
+        "係數相反：兩式相加；係數相同：兩式相減（右邊也要一起減，注意變號）。",
+        "係數不同：先把整條式子的每一項乘上適當倍數，讓某個未知數的係數絕對值相同。",
+        "例：$\\begin{cases}2x+3y=7\\\\3x-2y=4\\end{cases}$ 第一式乘 $2$：$4x+6y=14$；第二式乘 $3$：$9x-6y=12$；相加得 $13x=26$，$x=2$，代回得 $y=1$。"
+      ]
+    },
+    {
+      "title": "整理與選擇方法",
+      "points": [
+        "有分母先乘最小公倍數去分母；有括號先展開，把兩式都整理成 $ax+by=c$ 的樣子。",
+        "選法：有 $y=\\cdots$ 或係數是 $\\pm1$ 用代入；係數整齊用加減。兩種都可以，哪個快用哪個。",
+        "答案要兩式都代入驗算。",
+        "圖形對照：$\\begin{cases}x+y=5\\\\2x-y=1\\end{cases}$ 的兩直線交於 $(2,3)$，與代數解法算出的 $x=2,y=3$ 一致。"
+      ],
+      "svg": "<svg viewBox=\"0 0 264 300\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" data-ox=\"60\" data-oy=\"240\" data-u=\"36\"><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"60\" y1=\"24\" x2=\"60\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"96\" y1=\"24\" x2=\"96\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"132\" y1=\"24\" x2=\"132\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"168\" y1=\"24\" x2=\"168\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"204\" y1=\"24\" x2=\"204\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"240\" y1=\"24\" x2=\"240\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"276\" x2=\"240\" y2=\"276\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"240\" x2=\"240\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"204\" x2=\"240\" y2=\"204\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"168\" x2=\"240\" y2=\"168\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"132\" x2=\"240\" y2=\"132\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"96\" x2=\"240\" y2=\"96\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"60\" x2=\"240\" y2=\"60\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"240\" y2=\"24\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"18\" y1=\"240\" x2=\"248\" y2=\"240\" stroke-width=\"2\"/><line x1=\"60\" y1=\"282\" x2=\"60\" y2=\"16\" stroke-width=\"2\"/><polyline points=\"243,236 250,240 243,244\" stroke-width=\"1.5\"/><polyline points=\"56,21 60,14 64,21\" stroke-width=\"1.5\"/><text x=\"250\" y=\"232\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">x</text><text x=\"70\" y=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">y</text><text x=\"52\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11\">O</text><text x=\"24\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"96\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"132\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"168\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"204\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"240\" y=\"254\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">5</text><text x=\"54\" y=\"279.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"54\" y=\"207.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"54\" y=\"171.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"54\" y=\"135.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"54\" y=\"99.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"54\" y=\"63.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">5</text><text x=\"54\" y=\"27.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">6</text><line x1=\"24\" y1=\"24\" x2=\"240\" y2=\"240\" class=\"hl\" stroke-width=\"2.5\" data-eq=\"x+y=5\"/><text x=\"63.6\" y=\"52.8\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl\" font-size=\"12\">x+y=5</text><line x1=\"60\" y1=\"276\" x2=\"186.0\" y2=\"24\" class=\"hl2\" stroke-width=\"2.5\" data-eq=\"2x-y=1\"/><text x=\"168.0\" y=\"38.4\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\" font-size=\"12\">2x-y=1</text><circle cx=\"132\" cy=\"132\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/></svg>",
+      "caption": "兩條直線交於 (2, 3)，與代數解相同"
+    },
+    {
+      "title": "應用問題",
+      "points": [
+        "步驟：設兩個未知數 → 列出兩個方程式 → 解聯立 → 檢查答案是否合理（人數、個數要是正整數）→ 寫出答案與單位。",
+        "價錢題：總價 $=$ 單價 $\\times$ 數量。年齡題：倍數關係隨年份改變，用「幾年後」要兩人同加。",
+        "例：$2x+3y=70$、$x+y=30$。第二式乘 $2$：$2x+2y=60$，相減得 $y=10$，$x=20$。",
+        "雞兔同籠：$x+y=20$、$2x+4y=52$。第一式乘 $2$：$2x+2y=40$，相減得 $2y=12$，$y=6$，$x=14$。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "代入消去法",
+      "body": "把一式化成 $x=\\cdots$ 或 $y=\\cdots$，代入另一式。"
+    },
+    {
+      "name": "加減消去法",
+      "body": "係數相反相加、相同相減；不同先乘倍數。每一項都要乘。"
+    },
+    {
+      "name": "整理再解",
+      "body": "有分母去分母、有括號去括號，先化成 $ax+by=c$。"
+    },
+    {
+      "name": "驗算",
+      "body": "解必須同時滿足兩個方程式。"
+    },
+    {
+      "name": "應用題步驟",
+      "body": "設兩未知數 → 列兩式 → 解 → 檢查合理 → 作答。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-15-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "代入消去法",
+      "q": "聯立方程式 $\\begin{cases}y=2x\\\\x+y=9\\end{cases}$ 的解為何？",
+      "choices": [
+        "$(x,y)=(6,3)$",
+        "$(x,y)=(3,3)$",
+        "$(x,y)=(3,6)$",
+        "$(x,y)=(1,8)$"
+      ],
+      "answer": 2,
+      "explain": "把 $y=2x$ 代入 $x+y=9$：$x+2x=9$，$3x=9$，$x=3$，$y=2\\times 3=6$。驗算：$6=2\\times 3$，$3+6=9$。$(6,3)$ 是把 $x$、$y$ 顛倒；$(1,8)$ 只滿足第二式。答案是 $(x,y)=(3,6)$。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "加減消去法",
+      "q": "聯立方程式 $\\begin{cases}x+y=8\\\\x-y=2\\end{cases}$ 的解為何？",
+      "choices": [
+        "$(x,y)=(5,3)$",
+        "$(x,y)=(3,5)$",
+        "$(x,y)=(6,2)$",
+        "$(x,y)=(10,-2)$"
+      ],
+      "answer": 0,
+      "explain": "兩式相加，$y$ 消去：$2x=10$，$x=5$。代入 $x+y=8$ 得 $y=3$。驗算：$5-3=2$。$(3,5)$ 顛倒了順序；$(6,2)$、$(10,-2)$ 只滿足第一式，不滿足 $x-y=2$。答案是 $(x,y)=(5,3)$。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "加減消去法",
+      "q": "聯立方程式 $\\begin{cases}3x+2y=12\\\\5x-2y=4\\end{cases}$ 的解為何？",
+      "choices": [
+        "$(x,y)=(3,2)$",
+        "$(x,y)=(4,0)$",
+        "$(x,y)=(-2,9)$",
+        "$(x,y)=(2,3)$"
+      ],
+      "answer": 3,
+      "explain": "$y$ 的係數 $+2$ 與 $-2$ 相反，兩式相加：$8x=16$，$x=2$。代入第一式：$6+2y=12$，$y=3$。驗算第二式：$10-6=4$。$(4,0)$ 只滿足第一式，$(-2,9)$ 也只滿足第一式。答案是 $(x,y)=(2,3)$。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "乘倍數後消去",
+      "q": "聯立方程式 $\\begin{cases}2x+3y=7\\\\3x-2y=4\\end{cases}$ 的解為何？",
+      "choices": [
+        "$(x,y)=(1,2)$",
+        "$(x,y)=(2,1)$",
+        "$(x,y)=(0,3)$",
+        "$(x,y)=(-2,7)$"
+      ],
+      "answer": 1,
+      "explain": "消去 $y$：第一式乘 $2$ 得 $4x+6y=14$，第二式乘 $3$ 得 $9x-6y=12$。相加：$13x=26$，$x=2$。代入第一式：$4+3y=7$，$y=1$。驗算：$6-2=4$。其餘三組都有一式不成立。答案是 $(x,y)=(2,1)$。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "整理後再解",
+      "q": "聯立方程式 $\\begin{cases}\\dfrac{x}{2}+\\dfrac{y}{3}=3\\\\x-y=1\\end{cases}$ 的解為何？",
+      "choices": [
+        "$(x,y)=(3,4)$",
+        "$(x,y)=(1,0)$",
+        "$(x,y)=(6,5)$",
+        "$(x,y)=(4,3)$"
+      ],
+      "answer": 3,
+      "explain": "第一式兩邊乘 $6$：$3x+2y=18$。第二式得 $x=y+1$，代入：$3(y+1)+2y=18$，$5y+3=18$，$y=3$，$x=4$。驗算：$\\dfrac{4}{2}+\\dfrac{3}{3}=3$。若第一式只乘分母卻漏乘右邊的 $3$，會得 $(1,0)$。答案是 $(x,y)=(4,3)$。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "價錢應用",
+      "q": "買 $3$ 個便當和 $2$ 杯飲料共 $330$ 元；買 $2$ 個便當和 $3$ 杯飲料共 $295$ 元。一個便當多少元？",
+      "choices": [
+        "$80$ 元",
+        "$45$ 元",
+        "$110$ 元",
+        "$65$ 元"
+      ],
+      "answer": 0,
+      "explain": "設便當 $x$ 元、飲料 $y$ 元：$3x+2y=330$、$2x+3y=295$。第一式乘 $3$、第二式乘 $2$：$9x+6y=990$、$4x+6y=590$。相減：$5x=400$，$x=80$，再得 $y=45$。驗算：$240+90=330$、$160+135=295$。$45$ 是飲料的價錢。答案是 $80$ 元。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "年齡應用",
+      "q": "爸爸的年齡是兒子的 $4$ 倍，$5$ 年後爸爸的年齡是兒子的 $3$ 倍。爸爸現在幾歲？",
+      "choices": [
+        "$10$ 歲",
+        "$45$ 歲",
+        "$40$ 歲",
+        "$50$ 歲"
+      ],
+      "answer": 2,
+      "explain": "設爸爸 $x$ 歲、兒子 $y$ 歲：$x=4y$，$x+5=3(y+5)$。代入：$4y+5=3y+15$，$y=10$，$x=40$。驗算：$5$ 年後 $45=3\\times 15$。$10$ 是兒子的年齡，$45$ 是 $5$ 年後爸爸的年齡。答案是 $40$ 歲。",
+      "codes": [
+        "A-7-5"
+      ]
+    },
+    {
+      "id": "m7-15-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "含參數的聯立",
+      "q": "已知聯立方程式 $\\begin{cases}x+y=m\\\\x-y=4\\end{cases}$ 的解滿足 $x=3y$，則 $m$ 的值為何？",
+      "choices": [
+        "$-8$",
+        "$8$",
+        "$4$",
+        "$12$"
+      ],
+      "answer": 1,
+      "explain": "把 $x=3y$ 代入 $x-y=4$：$3y-y=4$，$y=2$，$x=6$。再代入 $x+y=m$：$m=6+2=8$。$-8$ 是把條件看成 $y=3x$ 的結果；$4$、$12$ 是只用到部分資訊。答案是 $8$。",
+      "codes": [
+        "A-7-5"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 1 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 A-7-5"
+      },
+      {
+        "label": "114 年第 4 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 A-7-5"
+      },
+      {
+        "label": "114 年非選擇題第 1 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 A-7-5"
+      },
+      {
+        "label": "113 年第 3 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 A-7-5"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「聯立方程式」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%81%AF%E7%AB%8B%E6%96%B9%E7%A8%8B%E5%BC%8F"
+    },
+    {
+      "label": "均一教育平台：搜尋「加減消去法」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%8A%A0%E6%B8%9B%E6%B6%88%E5%8E%BB%E6%B3%95"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

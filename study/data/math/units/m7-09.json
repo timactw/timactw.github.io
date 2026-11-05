@@ -1,0 +1,253 @@
+{
+  "id": "m7-09",
+  "subject": "math",
+  "grade": 7,
+  "order": 9,
+  "title": "垂直與中垂線",
+  "codes": [
+    {
+      "code": "S-7-3",
+      "text": "垂直：垂直的符號；線段的中垂線；點到直線距離的意義。"
+    }
+  ],
+  "intro": "這單元要認識垂直、中垂線與點到直線的距離。會考常考中垂線上點到兩端點等距的性質、尺規作圖的條件，以及垂線段最短。",
+  "sections": [
+    {
+      "title": "垂直與垂足",
+      "points": [
+        "兩條直線相交成直角，就說它們互相垂直。直線 $L$ 與 $M$ 垂直記作 $L\\perp M$。",
+        "兩直線的交點叫垂足。兩線段或射線只要所在的直線互相垂直，也稱互相垂直。",
+        "通過直線上或直線外的一點，恰有一條直線和已知直線垂直。",
+        "圖中直角的記號是小方框，垂足為 $H$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 340 215\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"30\" y1=\"130\" x2=\"290\" y2=\"130\" class=\"hl\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"200\" class=\"hl2\" stroke-width=\"2.5\"/><polyline stroke-width=\"1.5\" points=\"161,130 161,119 150,119\"/><circle cx=\"150\" cy=\"130\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"300\" y=\"135\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L</text><text x=\"160\" y=\"28\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">M</text><text x=\"166\" y=\"150\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">H（垂足）</text><text x=\"40\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L ⊥ M</text></svg>",
+      "caption": "L ⊥ M，垂足是 H"
+    },
+    {
+      "title": "線段的中垂線",
+      "points": [
+        "$M$ 是線段 $\\overline{AB}$ 的中點，通過 $M$ 且垂直 $\\overline{AB}$ 的直線叫 $\\overline{AB}$ 的中垂線（垂直平分線）。",
+        "中垂線上任一點到線段兩端點等距：$P$ 在中垂線上，則 $\\overline{PA}=\\overline{PB}$。",
+        "反過來，到 $A$、$B$ 等距的點一定在 $\\overline{AB}$ 的中垂線上。",
+        "中垂線同時有「垂直」與「平分」兩個條件，缺一不可。"
+      ],
+      "svg": "<svg viewBox=\"0 0 320 225\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"130\" x2=\"250\" y2=\"130\" class=\"hl\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"25\" x2=\"150\" y2=\"215\" class=\"hl2\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"45\" x2=\"50\" y2=\"130\" stroke-dasharray=\"6 4\"/><line x1=\"150\" y1=\"45\" x2=\"250\" y2=\"130\" stroke-dasharray=\"6 4\"/><line x1=\"100\" y1=\"124\" x2=\"100\" y2=\"136\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"124\" x2=\"200\" y2=\"136\" stroke-width=\"1.5\"/><line x1=\"105.8\" y1=\"90.5\" x2=\"98\" y2=\"81.3\" stroke-width=\"1.5\"/><line x1=\"102\" y1=\"93.7\" x2=\"94.2\" y2=\"84.5\" stroke-width=\"1.5\"/><line x1=\"202\" y1=\"81.3\" x2=\"194.2\" y2=\"90.5\" stroke-width=\"1.5\"/><line x1=\"205.8\" y1=\"84.5\" x2=\"198\" y2=\"93.7\" stroke-width=\"1.5\"/><polyline stroke-width=\"1.5\" points=\"161,130 161,119 150,119\"/><circle cx=\"50\" cy=\"130\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"40\" y=\"148\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><circle cx=\"250\" cy=\"130\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"260\" y=\"148\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><circle cx=\"150\" cy=\"130\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"148\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">M</text><circle cx=\"150\" cy=\"45\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"45\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"170\" y=\"210\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L（AB 的中垂線）</text></svg>",
+      "caption": "P 在中垂線上，所以 PA = PB；AM = MB"
+    },
+    {
+      "title": "點到直線的距離",
+      "points": [
+        "過直線 $L$ 外一點 $P$ 作 $L$ 的垂線，垂足為 $H$，則 $\\overline{PH}$ 的長叫點 $P$ 到直線 $L$ 的距離。",
+        "$P$ 到 $L$ 上任何其他點的連線都比 $\\overline{PH}$ 長：垂線段最短。",
+        "在直角坐標平面上，點 $(a,b)$ 到 $x$ 軸的距離是 $|b|$，到 $y$ 軸的距離是 $|a|$。",
+        "距離不會是負數，所以要取絕對值。"
+      ],
+      "svg": "<svg viewBox=\"0 0 330 170\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"140\" x2=\"290\" y2=\"140\" stroke-width=\"2.5\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"140\" class=\"hl2\" stroke-width=\"3\"/><line x1=\"120\" y1=\"40\" x2=\"230\" y2=\"140\" stroke-dasharray=\"6 4\"/><line x1=\"120\" y1=\"40\" x2=\"40\" y2=\"140\" stroke-dasharray=\"6 4\"/><polyline stroke-width=\"1.5\" points=\"131,140 131,129 120,129\"/><circle cx=\"120\" cy=\"40\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><circle cx=\"120\" cy=\"140\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"120\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">H</text><circle cx=\"230\" cy=\"140\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"230\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><circle cx=\"40\" cy=\"140\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"40\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">R</text><text x=\"300\" y=\"145\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L</text><text x=\"108\" y=\"95\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\">5</text></svg>",
+      "caption": "PH ⊥ L，PH = 5 是最短的連線"
+    },
+    {
+      "title": "用尺規作中垂線",
+      "points": [
+        "分別以 $A$、$B$ 為圓心，用同一個半徑 $r$ 畫弧，兩弧要相交於 $C$、$D$ 兩點。",
+        "兩圓相交於兩點的條件是 $r>\\dfrac{1}{2}\\overline{AB}$；等於一半只會碰到一點，小於一半就不會相交。",
+        "連接 $C$、$D$，直線 $CD$ 就是 $\\overline{AB}$ 的中垂線，與 $\\overline{AB}$ 的交點是中點 $M$。",
+        "因為 $\\overline{CA}=\\overline{CB}$、$\\overline{DA}=\\overline{DB}$，$C$、$D$ 都在中垂線上，兩點決定唯一一條直線。"
+      ],
+      "svg": "<svg viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"60\" y1=\"125\" x2=\"240\" y2=\"125\" class=\"hl\" stroke-width=\"2.5\"/><path d=\"M150,81.4 A100,100 0 0 1 150,168.6\" class=\"hl2\"/><path d=\"M150,168.6 A100,100 0 0 1 150,81.4\" class=\"hl2\"/><line x1=\"150\" y1=\"66.4\" x2=\"150\" y2=\"183.6\" stroke-dasharray=\"6 4\"/><circle cx=\"60\" cy=\"125\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"48\" y=\"130\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><circle cx=\"240\" cy=\"125\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"252\" y=\"130\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><circle cx=\"150\" cy=\"81.4\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"77.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><circle cx=\"150\" cy=\"168.6\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"182.6\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><circle cx=\"150\" cy=\"125\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"150\" y=\"142\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">M</text></svg>",
+      "caption": "以 A、B 為圓心、同半徑畫弧，交點 C、D 連線就是中垂線"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "垂直",
+      "body": "兩直線相交成 $90^\\circ$，記作 $L\\perp M$，交點叫垂足"
+    },
+    {
+      "name": "中垂線",
+      "body": "過線段中點且垂直於線段的直線"
+    },
+    {
+      "name": "中垂線性質",
+      "body": "中垂線上的點到線段兩端點等距：$\\overline{PA}=\\overline{PB}$"
+    },
+    {
+      "name": "點到直線距離",
+      "body": "過該點作垂線的垂線段長，是最短距離"
+    },
+    {
+      "name": "尺規作中垂線",
+      "body": "兩圓同半徑 $r>\\dfrac{1}{2}\\overline{AB}$，交點連線"
+    },
+    {
+      "name": "到軸的距離",
+      "body": "$(a,b)$ 到 $x$ 軸 $|b|$，到 $y$ 軸 $|a|$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-09-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "垂直的符號",
+      "q": "直線 $L$ 與直線 $M$ 互相垂直，應該如何記作？",
+      "choices": [
+        "$L\\parallel M$",
+        "$L=M$",
+        "$L\\angle M$",
+        "$L\\perp M$"
+      ],
+      "answer": 3,
+      "explain": "垂直的符號是 $\\perp$。$\\parallel$ 是平行，$=$ 表示相同，$\\angle$ 是角的符號。答案是 $L\\perp M$。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "中垂線性質",
+      "q": "直線 $L$ 是線段 $\\overline{AB}$ 的中垂線，$P$ 是 $L$ 上一點，且 $\\overline{PA}=9$ 公分，則 $\\overline{PB}$ 是多少公分？",
+      "choices": [
+        "9 公分",
+        "18 公分",
+        "4.5 公分",
+        "0 公分"
+      ],
+      "answer": 0,
+      "explain": "中垂線上的點到線段兩端點等距，所以 $\\overline{PB}=\\overline{PA}=9$ 公分。18 與 4.5 是誤把它當成「平分」後的倍數關係。答案是 9 公分。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "點到直線距離",
+      "q": "如圖，$\\overline{PH}\\perp L$，垂足為 $H$，$\\overline{PH}=5$、$\\overline{PQ}=8$、$\\overline{PR}=7$（單位：公分），$Q$、$R$ 在 $L$ 上。點 $P$ 到直線 $L$ 的距離是多少公分？",
+      "svg": "<svg viewBox=\"0 0 330 170\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"140\" x2=\"290\" y2=\"140\" stroke-width=\"2.5\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"140\" class=\"hl2\" stroke-width=\"3\"/><line x1=\"120\" y1=\"40\" x2=\"230\" y2=\"140\" stroke-dasharray=\"6 4\"/><line x1=\"120\" y1=\"40\" x2=\"40\" y2=\"140\" stroke-dasharray=\"6 4\"/><polyline stroke-width=\"1.5\" points=\"131,140 131,129 120,129\"/><circle cx=\"120\" cy=\"40\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><circle cx=\"120\" cy=\"140\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"120\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">H</text><circle cx=\"230\" cy=\"140\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"230\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><circle cx=\"40\" cy=\"140\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"40\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">R</text><text x=\"300\" y=\"145\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">L</text><text x=\"108\" y=\"95\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\">5</text></svg>",
+      "choices": [
+        "7 公分",
+        "8 公分",
+        "5 公分",
+        "13 公分"
+      ],
+      "answer": 2,
+      "explain": "點到直線的距離是垂線段的長，也是最短的距離，所以是 $\\overline{PH}=5$ 公分。$\\overline{PQ}$、$\\overline{PR}$ 都不是垂線段，比 $5$ 長。答案是 5 公分。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "點到軸的距離",
+      "q": "在直角坐標平面上，點 $P(-3,5)$ 到 $y$ 軸的距離是多少？",
+      "choices": [
+        "$-3$",
+        "$3$",
+        "$5$",
+        "$8$"
+      ],
+      "answer": 1,
+      "explain": "到 $y$ 軸的距離看橫坐標的絕對值：$|-3|=3$。$-3$ 忘了距離不能是負的，$5$ 是到 $x$ 軸的距離。答案是 $3$。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "中垂線上的等距",
+      "q": "$P$ 在線段 $AB$ 的中垂線上，$\\overline{PA}=(3x+1)$ 公分，$\\overline{PB}=(2x+6)$ 公分，則 $\\overline{PA}$ 的長是多少公分？",
+      "choices": [
+        "5 公分",
+        "11 公分",
+        "21 公分",
+        "16 公分"
+      ],
+      "answer": 3,
+      "explain": "中垂線上的點到兩端點等距，$\\overline{PA}=\\overline{PB}$：$3x+1=2x+6$，$x=5$。$\\overline{PA}=3\\times 5+1=16$ 公分。5 是 $x$ 的值，11 是 $2x+1$。答案是 16 公分。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "尺規作中垂線",
+      "q": "$\\overline{AB}=12$ 公分。以 $A$、$B$ 為圓心、同一個半徑 $r$ 畫弧，希望兩弧相交於兩點，用來作 $\\overline{AB}$ 的中垂線。下列哪個 $r$ 可以？",
+      "svg": "<svg viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"60\" y1=\"125\" x2=\"240\" y2=\"125\" class=\"hl\" stroke-width=\"2.5\"/><path d=\"M150,81.4 A100,100 0 0 1 150,168.6\" class=\"hl2\"/><path d=\"M150,168.6 A100,100 0 0 1 150,81.4\" class=\"hl2\"/><line x1=\"150\" y1=\"66.4\" x2=\"150\" y2=\"183.6\" stroke-dasharray=\"6 4\"/><circle cx=\"60\" cy=\"125\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"48\" y=\"130\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><circle cx=\"240\" cy=\"125\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"252\" y=\"130\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><circle cx=\"150\" cy=\"81.4\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"77.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><circle cx=\"150\" cy=\"168.6\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"182.6\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><circle cx=\"150\" cy=\"125\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"150\" y=\"142\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">M</text></svg>",
+      "choices": [
+        "$r=7$ 公分",
+        "$r=3$ 公分",
+        "$r=5$ 公分",
+        "$r=6$ 公分"
+      ],
+      "answer": 0,
+      "explain": "兩圓相交於兩點，需要 $r>\\dfrac{1}{2}\\overline{AB}=6$ 公分。$r=6$ 時兩弧只碰到一點（恰在中點），$3$ 與 $5$ 太小不會相交。只有 $7>6$。答案是 $r=7$ 公分。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "中垂線與周長",
+      "q": "如圖，直線 $L$ 是 $\\overline{AB}$ 的中垂線，$\\overline{AB}=10$ 公分，$P$、$Q$ 在 $L$ 上。若 $\\triangle PAB$ 的周長是 $34$ 公分，且 $\\overline{QA}=9$ 公分，則 $\\triangle QAB$ 的周長是多少公分？",
+      "svg": "<svg viewBox=\"0 0 320 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" class=\"hl\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"15\" x2=\"150\" y2=\"205\" class=\"hl2\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"45\" x2=\"50\" y2=\"110\" stroke-dasharray=\"6 4\"/><line x1=\"150\" y1=\"45\" x2=\"250\" y2=\"110\" stroke-dasharray=\"6 4\"/><line x1=\"150\" y1=\"175\" x2=\"50\" y2=\"110\" stroke-dasharray=\"6 4\"/><line x1=\"150\" y1=\"175\" x2=\"250\" y2=\"110\" stroke-dasharray=\"6 4\"/><polyline stroke-width=\"1.5\" points=\"161,110 161,99 150,99\"/><circle cx=\"50\" cy=\"110\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"40\" y=\"128\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><circle cx=\"250\" cy=\"110\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"260\" y=\"128\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><circle cx=\"150\" cy=\"45\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"45\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><circle cx=\"150\" cy=\"175\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"162\" y=\"179\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"10\" y=\"20\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">AB = 10 公分</text></svg>",
+      "choices": [
+        "19 公分",
+        "18 公分",
+        "28 公分",
+        "34 公分"
+      ],
+      "answer": 2,
+      "explain": "$P$ 在中垂線上，$\\overline{PA}=\\overline{PB}$，周長 $34=2\\overline{PA}+10$，$\\overline{PA}=12$（求 $\\triangle QAB$ 的周長並不需要這個值）。$Q$ 也在中垂線上，$\\overline{QB}=\\overline{QA}=9$，$\\triangle QAB$ 周長 $=9+9+10=28$ 公分。19 是漏掉了 $\\overline{QB}$。答案是 28 公分。",
+      "codes": [
+        "S-7-3"
+      ]
+    },
+    {
+      "id": "m7-09-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "到三點等距",
+      "q": "如圖，$A$、$B$、$C$ 三點不在同一直線上，且 $P$ 同時在 $\\overline{AB}$ 的中垂線與 $\\overline{AC}$ 的中垂線上，下列哪一個一定成立？",
+      "svg": "<svg viewBox=\"0 0 330 195\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"50,170 290,170 190,40\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"195\" x2=\"170\" y2=\"133.8\" class=\"hl2\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"170\" cy=\"170\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"103\" y1=\"86.7\" x2=\"187\" y2=\"177.2\" class=\"hl2\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"120\" cy=\"105\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"38\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"302\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"200\" y=\"34\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><circle cx=\"170\" cy=\"158.8\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182\" y=\"162.8\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text></svg>",
+      "choices": [
+        "$P$ 是 $\\overline{BC}$ 的中點",
+        "$\\overline{PA}=\\overline{PB}=\\overline{PC}$",
+        "$P$ 一定在線段 $\\overline{BC}$ 上",
+        "$\\overline{PA}\\perp\\overline{BC}$"
+      ],
+      "answer": 1,
+      "explain": "$P$ 在 $\\overline{AB}$ 的中垂線上，所以 $\\overline{PA}=\\overline{PB}$；在 $\\overline{AC}$ 的中垂線上，所以 $\\overline{PA}=\\overline{PC}$。因此 $\\overline{PA}=\\overline{PB}=\\overline{PC}$。$P$ 要在 $\\overline{BC}$ 上只在特殊情形（$\\angle A$ 是直角）才成立，一般三角形不會，圖中就不是。答案是 $\\overline{PA}=\\overline{PB}=\\overline{PC}$。",
+      "codes": [
+        "S-7-3"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「中垂線」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%B8%AD%E5%9E%82%E7%B7%9A"
+    },
+    {
+      "label": "均一教育平台：搜尋「垂直」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9E%82%E7%9B%B4"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

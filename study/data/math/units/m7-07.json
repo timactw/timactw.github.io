@@ -1,0 +1,245 @@
+{
+  "id": "m7-07",
+  "subject": "math",
+  "grade": 7,
+  "order": 7,
+  "title": "簡單圖形與幾何符號",
+  "codes": [
+    {
+      "code": "S-7-1",
+      "text": "簡單圖形與幾何符號：點、線、線段、射線、角、三角形與其符號的介紹。"
+    }
+  ],
+  "intro": "這單元要認得點、直線、線段、射線、角與三角形，並會用正確的幾何符號表示。會考常考符號辨認、線段長度加減與數圖形個數。",
+  "sections": [
+    {
+      "title": "點、直線、線段與射線",
+      "points": [
+        "點只表示位置，沒有大小；通常用大寫英文字母命名，如點 $A$。",
+        "直線 $\\overleftrightarrow{AB}$ 向兩端無限延伸，沒有端點；平面上相異兩點可決定唯一一條直線。",
+        "射線 $\\overrightarrow{AB}$ 以 $A$ 為端點，通過 $B$ 向一端無限延伸；$\\overrightarrow{AB}$ 與 $\\overrightarrow{BA}$ 是不同的射線。",
+        "線段 $\\overline{AB}$ 有兩個端點，可以量出長度；長度記作 $\\overline{AB}$，例如 $\\overline{AB}=5$ 公分。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 205\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"40\" y1=\"35\" x2=\"260\" y2=\"35\" class=\"hl\" stroke-width=\"2.5\"/><polyline points=\"47.8,30.5 40,35 47.8,39.5\"/><polyline points=\"252.2,39.5 260,35 252.2,30.5\"/><circle cx=\"110\" cy=\"35\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"190\" cy=\"35\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"110\" y=\"26\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"190\" y=\"26\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"275\" y=\"40\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">直線 AB</text><line x1=\"110\" y1=\"85\" x2=\"260\" y2=\"85\" class=\"hl\" stroke-width=\"2.5\"/><polyline points=\"252.2,89.5 260,85 252.2,80.5\"/><circle cx=\"110\" cy=\"85\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"190\" cy=\"85\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"110\" y=\"76\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"190\" y=\"76\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"275\" y=\"90\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">射線 AB</text><line x1=\"110\" y1=\"135\" x2=\"190\" y2=\"135\" class=\"hl\" stroke-width=\"2.5\"/><circle cx=\"110\" cy=\"135\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"190\" cy=\"135\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"110\" y=\"126\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"190\" y=\"126\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"275\" y=\"140\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">線段 AB</text><line x1=\"40\" y1=\"185\" x2=\"190\" y2=\"185\" class=\"hl2\" stroke-width=\"2.5\"/><polyline points=\"47.8,180.5 40,185 47.8,189.5\"/><circle cx=\"110\" cy=\"185\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"190\" cy=\"185\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"110\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"190\" y=\"176\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"275\" y=\"190\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">射線 BA</text></svg>",
+      "caption": "直線、射線、線段與射線的記法（射線要先寫端點）"
+    },
+    {
+      "title": "角與角的分類",
+      "points": [
+        "有共同端點的兩條射線所形成的圖形叫角，共同端點叫頂點，兩條射線叫角的邊。",
+        "角的記法：$\\angle ABC$，中間的字母 $B$ 一定是頂點；也可以只用頂點寫成 $\\angle B$（只在不會混淆時）。",
+        "依度數分類：銳角 $<90^\\circ$；直角 $=90^\\circ$；鈍角 $>90^\\circ$ 且 $<180^\\circ$；平角 $=180^\\circ$；周角 $=360^\\circ$。",
+        "從同一點引出 $n$ 條射線（排在平角之內，不共線），任取兩條就形成一個角，所以共有 $\\dfrac{n(n-1)}{2}$ 個角。"
+      ],
+      "svg": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"80\" y1=\"150\" x2=\"250\" y2=\"150\" class=\"hl\" stroke-width=\"2.5\"/><line x1=\"80\" y1=\"150\" x2=\"155\" y2=\"20.1\" class=\"hl\" stroke-width=\"2.5\"/><path d=\"M114,150 A34,34 0 0 0 97,120.6\" class=\"hl2\"/><circle cx=\"80\" cy=\"150\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"250\" cy=\"150\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"155\" cy=\"20.1\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"68\" y=\"168\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B（頂點）</text><text x=\"258\" y=\"168\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"165\" y=\"14.1\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"132\" y=\"138\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">60°</text><text x=\"165\" y=\"190\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">∠ABC：邊是射線 BA、BC</text></svg>",
+      "caption": "∠ABC 的頂點是 B，大小是 60°（銳角）"
+    },
+    {
+      "title": "三角形",
+      "points": [
+        "三角形有三個頂點、三條邊、三個內角，記作 $\\triangle ABC$。",
+        "三角形三個內角的和是 $180^\\circ$。",
+        "依角分類：三個角都是銳角是銳角三角形；有一個直角是直角三角形；有一個鈍角是鈍角三角形。",
+        "依邊分類：三邊都等長是正三角形；至少兩邊等長是等腰三角形；三邊都不等長是不等邊三角形。"
+      ],
+      "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"150,30 40,160 280,160\" class=\"soft\"/><circle cx=\"150\" cy=\"30\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"40\" cy=\"160\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"280\" cy=\"160\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"150\" y=\"20\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"30\" y=\"166\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"292\" y=\"166\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"150\" y=\"150\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">△ABC</text><text x=\"150\" y=\"188\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">三邊 AB、BC、CA；三內角 ∠A、∠B、∠C</text></svg>",
+      "caption": "△ABC 的邊與內角"
+    },
+    {
+      "title": "線上的點與線段計數",
+      "points": [
+        "線上有 $n$ 個相異點，以其中兩點為端點的線段共有 $\\dfrac{n(n-1)}{2}$ 條。",
+        "例：直線上有 $4$ 點，線段有 $\\dfrac{4\\times 3}{2}=6$ 條。",
+        "中點：把線段分成等長兩段的點，$M$ 是 $\\overline{AB}$ 的中點時，$\\overline{AM}=\\overline{MB}=\\dfrac{1}{2}\\overline{AB}$。",
+        "線段長度要先把每一段標在同一條直線上，再用加減求出所要的長度。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "直線、射線、線段",
+      "body": "$\\overleftrightarrow{AB}$ 兩端無限；$\\overrightarrow{AB}$ 以 $A$ 為端點；$\\overline{AB}$ 有兩端點"
+    },
+    {
+      "name": "兩點決定直線",
+      "body": "相異兩點決定唯一一條直線"
+    },
+    {
+      "name": "角的記法",
+      "body": "$\\angle ABC$ 的中間字母 $B$ 是頂點"
+    },
+    {
+      "name": "角的分類",
+      "body": "銳角 $<90^\\circ$，直角 $=90^\\circ$，鈍角 $90^\\circ<\\theta<180^\\circ$，平角 $=180^\\circ$"
+    },
+    {
+      "name": "三角形內角和",
+      "body": "$\\angle A+\\angle B+\\angle C=180^\\circ$"
+    },
+    {
+      "name": "點與線段計數",
+      "body": "$n$ 點之間的線段數 $=\\dfrac{n(n-1)}{2}$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-07-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "射線的記法",
+      "q": "下列哪一個記號代表「以 $A$ 為端點，通過 $B$ 並向 $B$ 的方向無限延伸」的圖形？",
+      "choices": [
+        "$\\overline{AB}$",
+        "$\\overrightarrow{AB}$",
+        "$\\overleftrightarrow{AB}$",
+        "$\\overrightarrow{BA}$"
+      ],
+      "answer": 1,
+      "explain": "射線要先寫端點，再寫經過的點。$\\overline{AB}$ 是線段，$\\overleftrightarrow{AB}$ 是直線，$\\overrightarrow{BA}$ 的端點是 $B$。答案是 $\\overrightarrow{AB}$。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "兩點決定直線",
+      "q": "平面上有相異兩點 $A$、$B$，通過這兩點的直線有幾條？",
+      "choices": [
+        "無限多條",
+        "0 條",
+        "1 條",
+        "2 條"
+      ],
+      "answer": 2,
+      "explain": "兩個相異點決定唯一一條直線，所以只有 $1$ 條。通過「一個點」的直線才有無限多條。答案是 1 條。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "角的記法",
+      "q": "在 $\\angle PQR$ 中，頂點是哪一個點？",
+      "choices": [
+        "點 $Q$",
+        "點 $P$",
+        "點 $R$",
+        "點 $P$ 和點 $R$"
+      ],
+      "answer": 0,
+      "explain": "角的記法中，中間的字母是頂點，所以頂點是 $Q$；$P$、$R$ 分別在兩條邊上。答案是點 $Q$。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "線段長度計算",
+      "q": "直線上依序有 $A$、$B$、$C$、$D$ 四點，$\\overline{AB}=3$、$\\overline{BC}=5$、$\\overline{CD}=4$（單位：公分），$M$ 是 $\\overline{AD}$ 的中點，則 $\\overline{MC}$ 的長是多少？",
+      "svg": "<svg viewBox=\"0 0 290 105\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"60\" x2=\"280\" y2=\"60\" class=\"hl\" stroke-width=\"2.5\"/><circle cx=\"30\" cy=\"60\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><text x=\"30\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><circle cx=\"90\" cy=\"60\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><text x=\"90\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><circle cx=\"190\" cy=\"60\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><text x=\"190\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><circle cx=\"270\" cy=\"60\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><text x=\"270\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><circle cx=\"150\" cy=\"60\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><text x=\"150\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">M</text><text x=\"60\" y=\"80\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"140\" y=\"80\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"230\" y=\"80\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text></svg>",
+      "choices": [
+        "3 公分",
+        "4 公分",
+        "6 公分",
+        "2 公分"
+      ],
+      "answer": 3,
+      "explain": "$\\overline{AD}=3+5+4=12$，所以 $\\overline{AM}=6$。$\\overline{AC}=3+5=8$，$\\overline{MC}=8-6=2$ 公分。6 公分是 $\\overline{AM}$，3 公分是 $\\overline{BM}$。答案是 2 公分。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "線段計數",
+      "q": "一直線上有 $5$ 個相異的點，以其中任意兩點為端點的線段共有幾條？",
+      "choices": [
+        "4 條",
+        "10 條",
+        "9 條",
+        "20 條"
+      ],
+      "answer": 1,
+      "explain": "任取兩點成一條線段：$\\dfrac{5\\times 4}{2}=10$ 條。$4$ 條只算了相鄰兩點；$20$ 是把 $A$ 到 $B$ 與 $B$ 到 $A$ 算成兩條。答案是 10 條。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "角的計數",
+      "q": "如圖，從點 $O$ 引出四條射線 $\\overrightarrow{OA}$、$\\overrightarrow{OB}$、$\\overrightarrow{OC}$、$\\overrightarrow{OD}$，四條射線都在同一條直線的同一側。以 $O$ 為頂點、由兩條不同射線形成的角共有幾個？",
+      "svg": "<svg viewBox=\"0 0 280 175\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"130\" y1=\"150\" x2=\"252.2\" y2=\"105.5\" class=\"hl\" stroke-width=\"2\"/><polyline points=\"247,111.7 252.2,105.5 244.3,104.1\"/><text x=\"265.3\" y=\"105.7\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><line x1=\"130\" y1=\"150\" x2=\"204.6\" y2=\"43.5\" class=\"hl\" stroke-width=\"2\"/><polyline points=\"203.9,51.5 204.6,43.5 197.3,46.9\"/><text x=\"212.6\" y=\"37\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><line x1=\"130\" y1=\"150\" x2=\"118.7\" y2=\"20.5\" class=\"hl\" stroke-width=\"2\"/><polyline points=\"123.3,27 118.7,20.5 115.3,27.7\"/><text x=\"117.4\" y=\"11.5\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><line x1=\"130\" y1=\"150\" x2=\"30.4\" y2=\"66.4\" class=\"hl\" stroke-width=\"2\"/><polyline points=\"38.3,67.8 30.4,66.4 33.2,74\"/><text x=\"19.7\" y=\"62.4\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><circle cx=\"130\" cy=\"150\" r=\"3.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"126\" y=\"168\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+      "choices": [
+        "3 個",
+        "4 個",
+        "6 個",
+        "8 個"
+      ],
+      "answer": 2,
+      "explain": "四條射線中任取兩條就形成一個角：$\\dfrac{4\\times 3}{2}=6$ 個，即 $\\angle AOB$、$\\angle AOC$、$\\angle AOD$、$\\angle BOC$、$\\angle BOD$、$\\angle COD$。$3$ 個只算了相鄰射線的角（$AOB$、$BOC$、$COD$）。答案是 6 個。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "三角形內角和",
+      "q": "三角形 $ABC$ 的三個內角度數比為 $2:3:5$，下列何者正確？",
+      "choices": [
+        "是直角三角形，最大角 $90^\\circ$",
+        "是銳角三角形，最大角 $80^\\circ$",
+        "是鈍角三角形，最大角 $100^\\circ$",
+        "是直角三角形，最大角 $50^\\circ$"
+      ],
+      "answer": 0,
+      "explain": "內角和 $180^\\circ$，總份數 $2+3+5=10$，每份 $18^\\circ$。三角分別是 $36^\\circ$、$54^\\circ$、$90^\\circ$，有一個直角，是直角三角形，最大角 $90^\\circ$。$100^\\circ$ 是把總份數誤算成 $9$。答案是直角三角形，最大角 $90^\\circ$。",
+      "codes": [
+        "S-7-1"
+      ]
+    },
+    {
+      "id": "m7-07-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "鐘面夾角",
+      "q": "時鐘在 $7$ 點 $20$ 分時，時針與分針所夾的角（取不超過 $180^\\circ$ 的那個）是幾度？",
+      "choices": [
+        "$30^\\circ$",
+        "$80^\\circ$",
+        "$110^\\circ$",
+        "$100^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "分針每分鐘轉 $6^\\circ$，$20$ 分時在 $120^\\circ$ 的位置。時針每小時轉 $30^\\circ$、每分鐘轉 $0.5^\\circ$，$7$ 點 $20$ 分時在 $7\\times 30+20\\times 0.5=220^\\circ$ 的位置。夾角為 $220-120=100^\\circ$。答案是 $100^\\circ$。",
+      "codes": [
+        "S-7-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「線段與射線」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%B7%9A%E6%AE%B5%E8%88%87%E5%B0%84%E7%B7%9A"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "m7-01",
+  "subject": "math",
+  "grade": 7,
+  "order": 1,
+  "title": "質數與質因數分解",
+  "codes": [
+    {
+      "code": "N-7-1",
+      "text": "100 以內的質數：質數和合數的定義；質數的篩法。"
+    },
+    {
+      "code": "N-7-2",
+      "text": "質因數分解的標準分解式：質因數分解的標準分解式，並能用於求因數及倍數的問題。"
+    }
+  ],
+  "intro": "這個單元要分清楚質數與合數，學會把整數拆成質數的連乘積，再用分解式判斷因數與倍數。會考常考質數判斷、標準分解式，以及用分解式數因數的個數。",
+  "sections": [
+    {
+      "title": "質數與合數",
+      "points": [
+        "質數：大於 $1$ 的整數，且正因數只有 $1$ 和它自己，例如 $2、3、5、7$。",
+        "合數：大於 $1$ 的整數，且正因數多於兩個，例如 $4、9、15$。",
+        "$1$ 只有一個正因數，所以既不是質數，也不是合數。",
+        "$2$ 是唯一的偶質數；大於 $2$ 的偶數都有因數 $2$，一定是合數。",
+        "奇數不一定是質數，例如 $9=3\\times 3$、$15=3\\times 5$。"
+      ]
+    },
+    {
+      "title": "質數的篩法",
+      "points": [
+        "做法：寫出 $2$ 到 $100$ 的整數，留下 $2$，劃掉 $2$ 的其他倍數；再留下下一個沒被劃掉的 $3$，劃掉 $3$ 的其他倍數；依序做下去。",
+        "100 以內只要篩到 $7$ 就夠了：因為 $11^2=121>100$，100 以內的合數一定有不超過 $7$ 的質因數。",
+        "沒被劃掉的數就是質數，100 以內共有 $25$ 個質數。",
+        "判斷 100 以內的數是不是質數，可以用 $2、3、5、7$ 去試除，都除不盡就是質數。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"10\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"60\" y=\"34\" text-anchor=\"middle\" font-size=\"16\">1</text><rect x=\"90\" y=\"10\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"120\" y=\"34\" text-anchor=\"middle\" font-size=\"16\">2</text><rect x=\"150\" y=\"10\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"180\" y=\"34\" text-anchor=\"middle\" font-size=\"16\">3</text><rect x=\"210\" y=\"10\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"240\" y=\"34\" text-anchor=\"middle\" font-size=\"16\">4</text><rect x=\"270\" y=\"10\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"300\" y=\"34\" text-anchor=\"middle\" font-size=\"16\">5</text><rect x=\"330\" y=\"10\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"360\" y=\"34\" text-anchor=\"middle\" font-size=\"16\">6</text><rect x=\"30\" y=\"46\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"60\" y=\"70\" text-anchor=\"middle\" font-size=\"16\">7</text><rect x=\"90\" y=\"46\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"120\" y=\"70\" text-anchor=\"middle\" font-size=\"16\">8</text><rect x=\"150\" y=\"46\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"180\" y=\"70\" text-anchor=\"middle\" font-size=\"16\">9</text><rect x=\"210\" y=\"46\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"240\" y=\"70\" text-anchor=\"middle\" font-size=\"16\">10</text><rect x=\"270\" y=\"46\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"300\" y=\"70\" text-anchor=\"middle\" font-size=\"16\">11</text><rect x=\"330\" y=\"46\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"360\" y=\"70\" text-anchor=\"middle\" font-size=\"16\">12</text><rect x=\"30\" y=\"82\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"60\" y=\"106\" text-anchor=\"middle\" font-size=\"16\">13</text><rect x=\"90\" y=\"82\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"120\" y=\"106\" text-anchor=\"middle\" font-size=\"16\">14</text><rect x=\"150\" y=\"82\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-size=\"16\">15</text><rect x=\"210\" y=\"82\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"240\" y=\"106\" text-anchor=\"middle\" font-size=\"16\">16</text><rect x=\"270\" y=\"82\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"300\" y=\"106\" text-anchor=\"middle\" font-size=\"16\">17</text><rect x=\"330\" y=\"82\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"360\" y=\"106\" text-anchor=\"middle\" font-size=\"16\">18</text><rect x=\"30\" y=\"118\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"60\" y=\"142\" text-anchor=\"middle\" font-size=\"16\">19</text><rect x=\"90\" y=\"118\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"120\" y=\"142\" text-anchor=\"middle\" font-size=\"16\">20</text><rect x=\"150\" y=\"118\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"180\" y=\"142\" text-anchor=\"middle\" font-size=\"16\">21</text><rect x=\"210\" y=\"118\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"240\" y=\"142\" text-anchor=\"middle\" font-size=\"16\">22</text><rect x=\"270\" y=\"118\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"300\" y=\"142\" text-anchor=\"middle\" font-size=\"16\">23</text><rect x=\"330\" y=\"118\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"360\" y=\"142\" text-anchor=\"middle\" font-size=\"16\">24</text><rect x=\"30\" y=\"154\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"60\" y=\"178\" text-anchor=\"middle\" font-size=\"16\">25</text><rect x=\"90\" y=\"154\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"120\" y=\"178\" text-anchor=\"middle\" font-size=\"16\">26</text><rect x=\"150\" y=\"154\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"180\" y=\"178\" text-anchor=\"middle\" font-size=\"16\">27</text><rect x=\"210\" y=\"154\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"240\" y=\"178\" text-anchor=\"middle\" font-size=\"16\">28</text><rect x=\"270\" y=\"154\" width=\"60\" height=\"36\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"300\" y=\"178\" text-anchor=\"middle\" font-size=\"16\">29</text><rect x=\"330\" y=\"154\" width=\"60\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"360\" y=\"178\" text-anchor=\"middle\" font-size=\"16\">30</text></svg>",
+      "caption": "1 到 30 的整數，有色底的是質數：2、3、5、7、11、13、17、19、23、29"
+    },
+    {
+      "title": "質因數分解與標準分解式",
+      "points": [
+        "質因數：同時是質數的因數，例如 $12$ 的質因數是 $2$ 和 $3$。",
+        "質因數分解：把合數寫成質數的連乘積；不計順序，結果只有一種。",
+        "標準分解式：相同的質因數合併成指數，並由小到大排列，例如 $360=2^3\\times 3^2\\times 5$。",
+        "短除法：用質數一路往下除，直到商為 $1$。例如 $90\\div2=45$、$45\\div3=15$、$15\\div3=5$、$5\\div5=1$，所以 $90=2\\times 3^2\\times 5$。"
+      ]
+    },
+    {
+      "title": "用分解式找因數與倍數",
+      "points": [
+        "若 $n=p^a\\times q^b$（$p、q$ 為相異質數），則 $n$ 的正因數個數是 $(a+1)(b+1)$；質因數更多時，每個指數都加 $1$ 再相乘。",
+        "例：$72=2^3\\times 3^2$ 的正因數有 $(3+1)(2+1)=12$ 個。",
+        "因數的分解式中，每個質因數的指數都不能超過原數的指數：$2^2\\times 3$ 是 $72$ 的因數，$2^4$ 不是。",
+        "倍數的分解式中，原數的每個質因數指數都不會減少：$2^3\\times 3^2\\times 5$ 是 $72$ 的倍數。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "質數",
+      "body": "大於 $1$ 且正因數只有 $1$ 和自己的整數"
+    },
+    {
+      "name": "合數",
+      "body": "大於 $1$ 且正因數多於兩個的整數"
+    },
+    {
+      "name": "1 與 2 的身分",
+      "body": "$1$ 非質數也非合數；$2$ 是唯一的偶質數"
+    },
+    {
+      "name": "100 以內質數",
+      "body": "共 $25$ 個，篩到 $7$ 的倍數即可"
+    },
+    {
+      "name": "標準分解式",
+      "body": "相同質因數用指數表示，由小到大排列，如 $360=2^3\\times 3^2\\times 5$"
+    },
+    {
+      "name": "因數個數",
+      "body": "$n=p^a\\times q^b$ 的正因數有 $(a+1)(b+1)$ 個"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-01-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "質數判斷",
+      "q": "下列哪一個數是質數？",
+      "choices": [
+        "$51$",
+        "$57$",
+        "$59$",
+        "$91$"
+      ],
+      "answer": 2,
+      "explain": "質數要檢查除了 $1$ 和自己之外有沒有其他因數。$51=3\\times 17$、$57=3\\times 19$、$91=7\\times 13$ 都是合數；$59$ 用 $2、3、5、7$ 試除都除不盡，所以是質數。答案是 $59$。",
+      "codes": [
+        "N-7-1"
+      ]
+    },
+    {
+      "id": "m7-01-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "質因數分解",
+      "q": "將 $84$ 做質因數分解，其標準分解式為何？",
+      "choices": [
+        "$2^2\\times 3\\times 7$",
+        "$4\\times 3\\times 7$",
+        "$2\\times 6\\times 7$",
+        "$2^2\\times 21$"
+      ],
+      "answer": 0,
+      "explain": "$84\\div2=42$，$42\\div2=21$，$21\\div3=7$，$7\\div7=1$，所以 $84=2^2\\times 3\\times 7$。其他選項雖然乘起來也是 $84$，但含有合數 $4、6、21$，不是質因數分解。答案是 $2^2\\times 3\\times 7$。",
+      "codes": [
+        "N-7-2"
+      ]
+    },
+    {
+      "id": "m7-01-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "質數與合數",
+      "q": "關於質數與合數，下列敘述何者正確？",
+      "choices": [
+        "1 是最小的質數",
+        "所有的奇數都是質數",
+        "合數一定是偶數",
+        "2 是質數，而且是唯一的偶質數"
+      ],
+      "answer": 3,
+      "explain": "$1$ 只有一個正因數，既不是質數也不是合數；$9、15$ 是奇數卻是合數，所以奇數不一定是質數，合數也不一定是偶數；$2$ 的正因數只有 $1$ 和 $2$，而大於 $2$ 的偶數都有因數 $2$，必是合數。答案是「2 是質數，而且是唯一的偶質數」。",
+      "codes": [
+        "N-7-1"
+      ]
+    },
+    {
+      "id": "m7-01-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "因數個數",
+      "q": "已知 $360=2^3\\times 3^2\\times 5$，則 $360$ 的正因數共有幾個？",
+      "choices": [
+        "$6$",
+        "$24$",
+        "$12$",
+        "$10$"
+      ],
+      "answer": 1,
+      "explain": "正因數個數等於各質因數指數加 $1$ 後相乘：$(3+1)(2+1)(1+1)=4\\times 3\\times 2=24$。選 $6$ 是把指數直接相乘，選 $12$ 是漏掉質因數 $5$。答案是 $24$。",
+      "codes": [
+        "N-7-2"
+      ]
+    },
+    {
+      "id": "m7-01-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "因數與倍數",
+      "q": "正整數 $n=2^2\\times 3\\times 7$，下列哪一個數是 $n$ 的因數？",
+      "choices": [
+        "$8$",
+        "$9$",
+        "$42$",
+        "$168$"
+      ],
+      "answer": 2,
+      "explain": "$n=84$。因數必須能整除 $84$：$84\\div42=2$，整除；$8=2^3$ 需要三個 $2$，但 $84$ 只有兩個；$9=3^2$ 需要兩個 $3$，但 $84$ 只有一個；$168=2\\times 84$ 是 $84$ 的倍數，不是因數。答案是 $42$。",
+      "codes": [
+        "N-7-2"
+      ]
+    },
+    {
+      "id": "m7-01-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "完全平方數",
+      "q": "若 $k$ 是正整數，且 $180\\times k$ 是某個正整數的平方（例如 $36=6^2$），則 $k$ 最小是多少？",
+      "choices": [
+        "$5$",
+        "$2$",
+        "$3$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explain": "$180=2^2\\times 3^2\\times 5$。一個平方數的標準分解式裡，每個質因數的指數都是偶數，而 $5$ 的指數是 $1$，所以至少要再乘一個 $5$：$180\\times 5=900=2^2\\times3^2\\times5^2=30^2$。答案是 $5$。",
+      "codes": [
+        "N-7-2"
+      ]
+    },
+    {
+      "id": "m7-01-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "質數的性質",
+      "q": "兩個質數的和是 $31$，則這兩個質數的乘積是多少？",
+      "choices": [
+        "$62$",
+        "$58$",
+        "$29$",
+        "$87$"
+      ],
+      "answer": 1,
+      "explain": "和 $31$ 是奇數，所以兩質數是一奇一偶；偶質數只有 $2$，另一個是 $31-2=29$，而 $29$ 是質數。乘積 $2\\times 29=58$。選 $62$ 是把 $31$ 當成其中一個質數，選 $87$ 是用了 $3$ 和 $29$，但 $3+29=32$，不是 $31$。答案是 $58$。",
+      "codes": [
+        "N-7-1"
+      ]
+    },
+    {
+      "id": "m7-01-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "因數個數",
+      "q": "社團有 $36$ 位學生要排成長方形隊伍，每列人數相同，且至少 $2$ 列、每列至少 $2$ 人。若「3 列、每列 12 人」與「12 列、每列 3 人」視為不同排法，共有幾種排法？",
+      "choices": [
+        "$9$",
+        "$8$",
+        "$4$",
+        "$7$"
+      ],
+      "answer": 3,
+      "explain": "$36=2^2\\times 3^2$，正因數有 $(2+1)(2+1)=9$ 個：$1、2、3、4、6、9、12、18、36$。列數可取其中任一個，但列數不能是 $1$（至少 $2$ 列），也不能是 $36$（每列只有 $1$ 人），剩下 $9-2=7$ 種。選 $9$ 是沒有排除，選 $4$ 則是把 $3\\times 12$ 與 $12\\times 3$ 當成同一種。答案是 $7$。",
+      "codes": [
+        "N-7-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 20 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 N-7-2"
+      },
+      {
+        "label": "114 年第 18 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 N-7-2"
+      },
+      {
+        "label": "113 年第 15 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 N-7-2"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「質數」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%B3%AA%E6%95%B8"
+    },
+    {
+      "label": "均一教育平台：搜尋「質因數分解」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%B3%AA%E5%9B%A0%E6%95%B8%E5%88%86%E8%A7%A3"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

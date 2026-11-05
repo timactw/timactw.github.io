@@ -1,0 +1,246 @@
+{
+  "id": "m7-08",
+  "subject": "math",
+  "grade": 7,
+  "order": 8,
+  "title": "三視圖",
+  "codes": [
+    {
+      "code": "S-7-2",
+      "text": "三視圖：立體圖形的前視圖、上視圖、左（右）視圖。"
+    }
+  ],
+  "intro": "三視圖是把立體圖形從前、上、左三個方向看到的輪廓畫成平面圖。會考常考由堆疊方塊畫（或選）視圖，以及由視圖推方塊數。",
+  "sections": [
+    {
+      "title": "三種視圖怎麼看",
+      "points": [
+        "前視圖：站在正前方看，看到的是左右與高度。",
+        "上視圖：從正上方往下看，看到的是左右與前後（畫面上方是物體的後面）。",
+        "左視圖：站在物體左邊看過去，畫面的左邊是物體的後方、右邊是前方，看到的是前後與高度。",
+        "每個方向都只畫看得到的輪廓；被擋在後面的方塊雖然看不到，但仍然是立體的一部分。"
+      ],
+      "svg": "<svg viewBox=\"0 0 130.3 126\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"65.2,74 46.1,85 46.1,63 65.2,52\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,74 46.1,85 46.1,63 27.1,52\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,41 65.2,52 46.1,63 27.1,52\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"122.3,85 103.3,96 103.3,74 122.3,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"84.2,85 103.3,96 103.3,74 84.2,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"103.3,52 122.3,63 103.3,74 84.2,63\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"65.2,52 46.1,63 46.1,41 65.2,30\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,52 46.1,63 46.1,41 27.1,30\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,19 65.2,30 46.1,41 27.1,30\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,85 65.2,96 65.2,74 84.2,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,85 65.2,96 65.2,74 46.1,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,52 84.2,63 65.2,74 46.1,63\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"46.1,85 27.1,96 27.1,74 46.1,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"8,85 27.1,96 27.1,74 8,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,52 46.1,63 27.1,74 8,63\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"122.3,63 103.3,74 103.3,52 122.3,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"84.2,63 103.3,74 103.3,52 84.2,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"103.3,30 122.3,41 103.3,52 84.2,41\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"65.2,96 46.1,107 46.1,85 65.2,74\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,96 46.1,107 46.1,85 27.1,74\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,63 65.2,74 46.1,85 27.1,74\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"122.3,41 103.3,52 103.3,30 122.3,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"84.2,41 103.3,52 103.3,30 84.2,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"103.3,8 122.3,19 103.3,30 84.2,19\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,107 65.2,118 65.2,96 84.2,85\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,107 65.2,118 65.2,96 46.1,85\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,74 84.2,85 65.2,96 46.1,85\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,85 65.2,96 65.2,74 84.2,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,85 65.2,96 65.2,74 46.1,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,52 84.2,63 65.2,74 46.1,63\" class=\"soft2\" stroke-width=\"1.5\"/></svg>",
+      "caption": "右前上方斜看的立體：由 10 個方塊堆成"
+    },
+    {
+      "title": "由立體畫出三視圖",
+      "points": [
+        "前視圖：每一直行取最高的那一疊（把前後排壓平，只留最高的）。",
+        "左視圖：每一橫排取最高的那一疊，順序由後排排到前排。",
+        "上視圖：有方塊的位置就畫一格，格裡可以寫該處疊了幾個方塊。",
+        "圖中立體的前視圖由左至右高度是 $2,1,3$，左視圖由左至右是 $3,2,2$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 310 125\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"58\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"58\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"58\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"46\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前視圖</text><rect x=\"166\" y=\"24\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"118\" y=\"48\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"142\" y=\"48\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"118\" y=\"72\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"142\" y=\"72\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"166\" y=\"72\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"154\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">上視圖</text><text x=\"154\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">後</text><rect x=\"226\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"226\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"226\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"250\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"250\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"274\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"274\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"262\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">左視圖</text></svg>",
+      "caption": "同一立體的前視圖、上視圖與左視圖"
+    },
+    {
+      "title": "上視圖標數字法",
+      "points": [
+        "在上視圖的每一格寫下該處疊的方塊數，就能一次看出所有視圖，也能算出總個數。",
+        "總個數 $=$ 各格數字相加。圖中：$1+3+1+1+2+2=10$ 個。",
+        "前視圖高度 $=$ 各直行數字的最大值；左視圖高度 $=$ 各橫排數字的最大值。",
+        "三個視圖要互相對得起來：前視圖與左視圖的最高高度必須相同。"
+      ],
+      "svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"28\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"49\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"40\" y=\"60\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"81\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><rect x=\"72\" y=\"60\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"81\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"40\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"72\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><rect x=\"104\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"120\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"88\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">後（上）</text><text x=\"88\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前（下）</text><text x=\"32\" y=\"78\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">左</text><text x=\"144\" y=\"78\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">右</text></svg>",
+      "caption": "上視圖的數字是該處疊的方塊數"
+    },
+    {
+      "title": "最多與最少方塊數",
+      "points": [
+        "只給兩個視圖時，立體不一定唯一，要想「最多」與「最少」。",
+        "最多：每一格盡量疊高，高度取所在直行與所在橫排兩個最大值中的較小者。",
+        "最少：先讓每個有方塊的位置至少有 $1$ 個，再補足各直行、各橫排需要的最高值，補的地方盡量一次滿足兩個條件。",
+        "限制在 $3\\times 3\\times 3$ 的範圍內，不可以中空，方塊疊在下面一層有方塊的位置上。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "前視圖",
+      "body": "正前方看；每一直行取最高"
+    },
+    {
+      "name": "上視圖",
+      "body": "正上方看；有方塊就畫一格（上方是後）"
+    },
+    {
+      "name": "左視圖",
+      "body": "左邊看；每一橫排取最高，左邊是後方"
+    },
+    {
+      "name": "方塊總數",
+      "body": "上視圖各格數字相加"
+    },
+    {
+      "name": "視圖對應",
+      "body": "前視圖與上視圖寬度相同；前視圖與左視圖高度相同；上視圖與左視圖前後深度相同"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-08-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "視圖名稱",
+      "q": "從物體的正上方往下看所得到的圖形，稱為什麼視圖？",
+      "choices": [
+        "前視圖",
+        "左視圖",
+        "上視圖",
+        "下視圖"
+      ],
+      "answer": 2,
+      "explain": "正前方看是前視圖，左邊看是左視圖，正上方往下看是上視圖。答案是上視圖。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "前視圖",
+      "q": "如圖，$6$ 個方塊排成三疊並排，由左至右分別疊 $1$、$2$、$3$ 個。從正前方看，前視圖由左至右的高度（方塊數）為何？",
+      "svg": "<svg viewBox=\"0 0 92.2 104\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"46.1,63 27.1,74 27.1,52 46.1,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"8,63 27.1,74 27.1,52 8,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,30 46.1,41 27.1,52 8,41\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"65.2,74 46.1,85 46.1,63 65.2,52\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,74 46.1,85 46.1,63 27.1,52\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,41 65.2,52 46.1,63 27.1,52\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"65.2,52 46.1,63 46.1,41 65.2,30\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,52 46.1,63 46.1,41 27.1,30\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,19 65.2,30 46.1,41 27.1,30\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,85 65.2,96 65.2,74 84.2,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,85 65.2,96 65.2,74 46.1,63\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,52 84.2,63 65.2,74 46.1,63\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,63 65.2,74 65.2,52 84.2,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,63 65.2,74 65.2,52 46.1,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,30 84.2,41 65.2,52 46.1,41\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,41 65.2,52 65.2,30 84.2,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,41 65.2,52 65.2,30 46.1,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,8 84.2,19 65.2,30 46.1,19\" class=\"soft2\" stroke-width=\"1.5\"/></svg>",
+      "choices": [
+        "$1,2,3$",
+        "$3,2,1$",
+        "$2,2,2$",
+        "$1,1,1$"
+      ],
+      "answer": 0,
+      "explain": "前視圖每一直行取最高的一疊。三疊由左至右是 $1$、$2$、$3$ 個，所以前視圖由左至右高度為 $1,2,3$。$3,2,1$ 是左右顛倒。答案是 $1,2,3$。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "上視圖形狀",
+      "q": "如圖，$5$ 個方塊排成十字形，每個位置都只有 $1$ 層。它的上視圖是什麼形狀？",
+      "svg": "<svg viewBox=\"0 0 92.2 82\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"84.2,41 65.2,52 65.2,30 84.2,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,41 65.2,52 65.2,30 46.1,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,8 84.2,19 65.2,30 46.1,19\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"46.1,41 27.1,52 27.1,30 46.1,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"8,41 27.1,52 27.1,30 8,19\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,8 46.1,19 27.1,30 8,19\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"65.2,52 46.1,63 46.1,41 65.2,30\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,52 46.1,63 46.1,41 27.1,30\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,19 65.2,30 46.1,41 27.1,30\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"84.2,63 65.2,74 65.2,52 84.2,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"46.1,63 65.2,74 65.2,52 46.1,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"65.2,30 84.2,41 65.2,52 46.1,41\" class=\"soft2\" stroke-width=\"1.5\"/><polygon points=\"46.1,63 27.1,74 27.1,52 46.1,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"8,63 27.1,74 27.1,52 8,41\" class=\"soft\" stroke-width=\"1.5\"/><polygon points=\"27.1,30 46.1,41 27.1,52 8,41\" class=\"soft2\" stroke-width=\"1.5\"/></svg>",
+      "choices": [
+        "$L$ 形，共 $5$ 格",
+        "十字形，共 $5$ 格",
+        "$T$ 字形，共 $4$ 格",
+        "一橫排，共 $3$ 格"
+      ],
+      "answer": 1,
+      "explain": "上視圖有方塊的位置就畫一格，5 個位置排成十字，所以上視圖是十字形，共 $5$ 格。答案是十字形，共 $5$ 格。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "左視圖",
+      "q": "如圖是某立體的上視圖，格內數字是該處疊的方塊數，上方是物體的後面。從左邊看，左視圖由左至右（左邊是後方）的高度為何？",
+      "svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"28\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"49\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"40\" y=\"60\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"81\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><rect x=\"72\" y=\"60\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"81\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"40\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"72\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><rect x=\"104\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"120\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"88\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">後（上）</text><text x=\"88\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前（下）</text><text x=\"32\" y=\"78\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">左</text><text x=\"144\" y=\"78\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">右</text></svg>",
+      "choices": [
+        "$3,2,2$",
+        "$2,3,1$",
+        "$1,2,2$",
+        "$1,3,2$"
+      ],
+      "answer": 3,
+      "explain": "左視圖每一橫排取最高，順序由後排到前排。後排最大 $1$；中排 $3,1$ 取 $3$；前排 $1,2,2$ 取 $2$。所以是 $1,3,2$。$3,2,2$ 是前視圖，$2,3,1$ 是從右邊看的右視圖。答案是 $1,3,2$。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "方塊總數",
+      "q": "如圖是某立體的上視圖，格內數字是該處疊的方塊數。這個立體共用了幾個方塊？",
+      "svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"72\" y=\"28\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"49\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><rect x=\"104\" y=\"28\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"120\" y=\"49\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"72\" y=\"60\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"81\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><rect x=\"40\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"56\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><rect x=\"72\" y=\"92\" width=\"32\" height=\"32\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"88\" y=\"113\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"88\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">後（上）</text><text x=\"88\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前（下）</text><text x=\"32\" y=\"78\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">左</text><text x=\"144\" y=\"78\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">右</text></svg>",
+      "choices": [
+        "8 個",
+        "5 個",
+        "6 個",
+        "9 個"
+      ],
+      "answer": 0,
+      "explain": "各格數字相加：$2+1+1+3+1=8$ 個。5 個是上視圖的格數，6 個是前視圖的格數（$3+2+1$），都沒有把每一格的層數算進去。答案是 8 個。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "視圖對應",
+      "q": "某立體的前視圖由左至右高度為 $2,3,1$，左視圖由左至右（左邊是後方）高度為 $2,1,3$。下列哪一個可能是它的上視圖各格方塊數？",
+      "svg": "<svg viewBox=\"0 0 270 125\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"58\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"46\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前視圖</text><rect x=\"140\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"140\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"176\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">左視圖（左邊是後方）</text></svg>",
+      "choices": [
+        "後排 $2,0,0$；中排 $0,2,0$；前排 $0,3,1$",
+        "後排 $2,0,0$；中排 $0,1,0$；前排 $0,3,2$",
+        "後排 $2,0,0$；中排 $0,1,0$；前排 $0,3,1$",
+        "後排 $0,2,0$；中排 $0,1,0$；前排 $0,3,1$"
+      ],
+      "answer": 2,
+      "explain": "要同時滿足：各直行最大值（左到右）為 $2,3,1$，各橫排最大值（後到前）為 $2,1,3$。正解的各直行最大值是 $2,3,1$，各橫排最大值是 $2,1,3$，完全吻合。第一個選項中排出現 $2$，橫排最大值變成 $2,2,3$；第二個選項右直行出現 $2$，直行最大值變成 $2,3,2$；第四個選項最左直行沒有 $2$，直行最大值變成 $0,3,1$。答案是後排 $2,0,0$；中排 $0,1,0$；前排 $0,3,1$。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "最多方塊數",
+      "q": "某立體的前視圖由左至右高度為 $2,3,1$，左視圖由左至右（左邊是後方）高度為 $2,1,3$，立體限制在 $3\\times 3\\times 3$ 的範圍內且不中空。這個立體最多可由幾個方塊堆成？",
+      "svg": "<svg viewBox=\"0 0 270 125\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"34\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"58\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"46\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前視圖</text><rect x=\"140\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"140\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"176\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">左視圖（左邊是後方）</text></svg>",
+      "choices": [
+        "6 個",
+        "14 個",
+        "12 個",
+        "15 個"
+      ],
+      "answer": 1,
+      "explain": "每一格最多可疊「所在直行最大值」與「所在橫排最大值」中較小的那個。橫排最大（後到前）$2,1,3$，直行最大 $2,3,1$：後排 $2,2,1$；中排 $1,1,1$；前排 $2,3,1$，合計 $5+3+6=14$ 個。6 個是最少的情形。答案是 14 個。",
+      "codes": [
+        "S-7-2"
+      ]
+    },
+    {
+      "id": "m7-08-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "最少方塊數",
+      "q": "如圖，某立體的上視圖中，後排只有最左一格，中排有左、中兩格，前排有左、中、右三格；前視圖由左至右高度為 $3,2,2$。這個立體最少需要幾個方塊？",
+      "svg": "<svg viewBox=\"0 0 260 125\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"30\" y=\"24\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"48\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"54\" y=\"48\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"72\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"54\" y=\"72\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><rect x=\"78\" y=\"72\" width=\"24\" height=\"24\" class=\"soft2\" stroke-width=\"1.5\"/><text x=\"66\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">上視圖（上方是後）</text><rect x=\"160\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"160\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"160\" y=\"24\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"208\" y=\"72\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><rect x=\"208\" y=\"48\" width=\"24\" height=\"24\" class=\"soft\" stroke-width=\"1.5\"/><text x=\"196\" y=\"116\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">前視圖</text></svg>",
+      "choices": [
+        "6 個",
+        "7 個",
+        "15 個",
+        "10 個"
+      ],
+      "answer": 3,
+      "explain": "上視圖共 $6$ 格，每格至少 $1$ 個。最左直行有 $3$ 格且最高要 $3$，其中一格疊 $3$，另兩格各 $1$，共 $5$；中直行有 $2$ 格且最高要 $2$，一格疊 $2$、一格 $1$，共 $3$；右直行只有 $1$ 格，要疊到 $2$。合計 $5+3+2=10$ 個。6 個只算了格數，7 個是把前視圖高度相加，15 個是最多的情形。答案是 10 個。",
+      "codes": [
+        "S-7-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「三視圖」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%B8%89%E8%A6%96%E5%9C%96"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

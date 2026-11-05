@@ -1,0 +1,259 @@
+{
+  "id": "m7-03",
+  "subject": "math",
+  "grade": 7,
+  "order": 3,
+  "title": "數線與絕對值",
+  "codes": [
+    {
+      "code": "N-7-5",
+      "text": "數線：擴充至含負數的數線；比較數的大小；絕對值的意義；以 |a−b| 表示數線上兩點 a, b 的距離。"
+    }
+  ],
+  "intro": "數線把所有的數排成一條線，絕對值則用來記錄「離原點多遠」與「兩點相距多遠」。會考常考大小比較、絕對值化簡與數線上的距離。",
+  "sections": [
+    {
+      "title": "數線與大小比較",
+      "points": [
+        "數線有三個要素：原點、正方向（向右）、單位長；負數在原點的左邊。",
+        "數線上越右邊的數越大，所以 $-1>-3$。",
+        "正數大於 $0$，$0$ 大於負數；兩個負數比大小時，絕對值大的反而比較小。",
+        "分數與小數比大小，先化成同一種形式，例如 $-\\frac{1}{2}=-0.5$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 100\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\" text-anchor=\"middle\"><line x1=\"10\" y1=\"62\" x2=\"410\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"410,62 402,58 402,66\" fill=\"currentColor\"/><polygon points=\"10,62 18,58 18,66\" fill=\"currentColor\"/><line x1=\"24.0\" y1=\"57\" x2=\"24.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"24.0\" y=\"84\">-5</text><line x1=\"61.2\" y1=\"57\" x2=\"61.2\" y2=\"67\" stroke=\"currentColor\"/><text x=\"61.2\" y=\"84\">-4</text><line x1=\"98.4\" y1=\"57\" x2=\"98.4\" y2=\"67\" stroke=\"currentColor\"/><text x=\"98.4\" y=\"84\">-3</text><line x1=\"135.6\" y1=\"57\" x2=\"135.6\" y2=\"67\" stroke=\"currentColor\"/><text x=\"135.6\" y=\"84\">-2</text><line x1=\"172.8\" y1=\"57\" x2=\"172.8\" y2=\"67\" stroke=\"currentColor\"/><text x=\"172.8\" y=\"84\">-1</text><line x1=\"210.0\" y1=\"57\" x2=\"210.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"210.0\" y=\"84\">0</text><line x1=\"247.2\" y1=\"57\" x2=\"247.2\" y2=\"67\" stroke=\"currentColor\"/><text x=\"247.2\" y=\"84\">1</text><line x1=\"284.4\" y1=\"57\" x2=\"284.4\" y2=\"67\" stroke=\"currentColor\"/><text x=\"284.4\" y=\"84\">2</text><line x1=\"321.6\" y1=\"57\" x2=\"321.6\" y2=\"67\" stroke=\"currentColor\"/><text x=\"321.6\" y=\"84\">3</text><line x1=\"358.8\" y1=\"57\" x2=\"358.8\" y2=\"67\" stroke=\"currentColor\"/><text x=\"358.8\" y=\"84\">4</text><line x1=\"396.0\" y1=\"57\" x2=\"396.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"396.0\" y=\"84\">5</text><circle cx=\"98.4\" cy=\"62\" r=\"5.5\" class=\"soft\" stroke=\"currentColor\"/><text x=\"98.4\" y=\"48\" font-size=\"15\" font-weight=\"bold\">-3</text><circle cx=\"172.8\" cy=\"62\" r=\"5.5\" class=\"soft\" stroke=\"currentColor\"/><text x=\"172.8\" y=\"48\" font-size=\"15\" font-weight=\"bold\">-1</text><circle cx=\"284.4\" cy=\"62\" r=\"5.5\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"284.4\" y=\"48\" font-size=\"15\" font-weight=\"bold\">2</text><circle cx=\"358.8\" cy=\"62\" r=\"5.5\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"358.8\" y=\"48\" font-size=\"15\" font-weight=\"bold\">4</text></svg>",
+      "caption": "越往右越大：$-3<-1<2<4$"
+    },
+    {
+      "title": "絕對值的意義",
+      "points": [
+        "$|a|$ 表示 $a$ 到原點的距離，所以 $|a|\\ge0$，不會是負數。",
+        "$|5|=5$、$|-5|=5$、$|0|=0$。",
+        "相反數的絕對值相等；若兩個數的絕對值相等且不是 $0$，則兩數互為相反數。",
+        "負號在絕對值外面時，先算絕對值再變號：$-|-3|=-3$。"
+      ]
+    },
+    {
+      "title": "數線上兩點的距離",
+      "points": [
+        "數線上 $A$ 表示 $a$、$B$ 表示 $b$，則 $AB=|a-b|$，與 $|b-a|$ 相等。",
+        "例：$A$ 表示 $-2$、$B$ 表示 $3$，則 $AB=|-2-3|=5$。",
+        "兩點在原點同側時，距離是大數與小數的絕對值相減；在原點兩側時，距離是兩個絕對值相加，例如 $|-2|+|3|=5$。",
+        "中點到兩端的距離相等：$-7$ 與 $5$ 相距 $12$，中點離兩端各 $6$，所以中點表示 $-1$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 100\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\" text-anchor=\"middle\"><line x1=\"10\" y1=\"62\" x2=\"410\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"410,62 402,58 402,66\" fill=\"currentColor\"/><polygon points=\"10,62 18,58 18,66\" fill=\"currentColor\"/><line x1=\"135.6\" y1=\"62\" x2=\"321.6\" y2=\"62\" class=\"hl\" fill=\"none\" stroke-width=\"5\"/><line x1=\"24.0\" y1=\"57\" x2=\"24.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"24.0\" y=\"84\">-5</text><line x1=\"61.2\" y1=\"57\" x2=\"61.2\" y2=\"67\" stroke=\"currentColor\"/><text x=\"61.2\" y=\"84\">-4</text><line x1=\"98.4\" y1=\"57\" x2=\"98.4\" y2=\"67\" stroke=\"currentColor\"/><text x=\"98.4\" y=\"84\">-3</text><line x1=\"135.6\" y1=\"57\" x2=\"135.6\" y2=\"67\" stroke=\"currentColor\"/><text x=\"135.6\" y=\"84\">-2</text><line x1=\"172.8\" y1=\"57\" x2=\"172.8\" y2=\"67\" stroke=\"currentColor\"/><text x=\"172.8\" y=\"84\">-1</text><line x1=\"210.0\" y1=\"57\" x2=\"210.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"210.0\" y=\"84\">0</text><line x1=\"247.2\" y1=\"57\" x2=\"247.2\" y2=\"67\" stroke=\"currentColor\"/><text x=\"247.2\" y=\"84\">1</text><line x1=\"284.4\" y1=\"57\" x2=\"284.4\" y2=\"67\" stroke=\"currentColor\"/><text x=\"284.4\" y=\"84\">2</text><line x1=\"321.6\" y1=\"57\" x2=\"321.6\" y2=\"67\" stroke=\"currentColor\"/><text x=\"321.6\" y=\"84\">3</text><line x1=\"358.8\" y1=\"57\" x2=\"358.8\" y2=\"67\" stroke=\"currentColor\"/><text x=\"358.8\" y=\"84\">4</text><line x1=\"396.0\" y1=\"57\" x2=\"396.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"396.0\" y=\"84\">5</text><circle cx=\"135.6\" cy=\"62\" r=\"5.5\" class=\"soft\" stroke=\"currentColor\"/><text x=\"135.6\" y=\"48\" font-size=\"15\" font-weight=\"bold\">A</text><circle cx=\"321.6\" cy=\"62\" r=\"5.5\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"321.6\" y=\"48\" font-size=\"15\" font-weight=\"bold\">B</text></svg>",
+      "caption": "$AB=|-2-3|=5$"
+    },
+    {
+      "title": "生活中的距離問題",
+      "points": [
+        "把路線、溫度、水位想成一條數線，並規定向東（上）為正。",
+        "「總共走的路程」是每一段距離相加，不是起點到終點的距離。",
+        "例：溫度從 $-3$°C 升到 $8$°C，溫差是 $|8-(-3)|=11$（°C）。",
+        "題目只給距離時，要先確認在哪一側，才能決定是加還是減。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "絕對值",
+      "body": "$|a|$ 是 $a$ 到原點的距離，$|a|\\ge0$"
+    },
+    {
+      "name": "相反數的絕對值",
+      "body": "$|a|=|-a|$"
+    },
+    {
+      "name": "兩點距離",
+      "body": "$AB=|a-b|=|b-a|$"
+    },
+    {
+      "name": "負數比大小",
+      "body": "兩負數中，絕對值大的反而小"
+    },
+    {
+      "name": "數線大小",
+      "body": "越右邊越大"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-03-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "數的大小比較",
+      "q": "下列四個數中，最小的是哪一個？",
+      "choices": [
+        "$-\\frac{5}{2}$",
+        "$-3.1$",
+        "$-2$",
+        "$-0.8$"
+      ],
+      "answer": 1,
+      "explain": "四個數都是負數，負數的絕對值越大，數越小。它們的絕對值分別是 $2.5$、$3.1$、$2$、$0.8$，其中 $3.1$ 最大，所以 $-3.1$ 最小。答案是 $-3.1$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "絕對值",
+      "q": "計算 $|-3|+|5|$ 的值。",
+      "choices": [
+        "$8$",
+        "$2$",
+        "$-8$",
+        "$-2$"
+      ],
+      "answer": 0,
+      "explain": "$|-3|=3$，$|5|=5$，所以 $|-3|+|5|=3+5=8$。選 $2$ 是把 $|-3|$ 當成 $-3$ 再與 $5$ 相加。答案是 $8$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "兩點距離",
+      "q": "數線上 $A$ 點表示 $-4$，$B$ 點表示 $3$（如圖），則 $AB$ 的長度是多少？",
+      "svg": "<svg viewBox=\"0 0 420 100\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\" text-anchor=\"middle\"><line x1=\"10\" y1=\"62\" x2=\"410\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"410,62 402,58 402,66\" fill=\"currentColor\"/><polygon points=\"10,62 18,58 18,66\" fill=\"currentColor\"/><line x1=\"24.0\" y1=\"57\" x2=\"24.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"24.0\" y=\"84\">-6</text><line x1=\"55.0\" y1=\"57\" x2=\"55.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"55.0\" y=\"84\">-5</text><line x1=\"86.0\" y1=\"57\" x2=\"86.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"86.0\" y=\"84\">-4</text><line x1=\"117.0\" y1=\"57\" x2=\"117.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"117.0\" y=\"84\">-3</text><line x1=\"148.0\" y1=\"57\" x2=\"148.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"148.0\" y=\"84\">-2</text><line x1=\"179.0\" y1=\"57\" x2=\"179.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"179.0\" y=\"84\">-1</text><line x1=\"210.0\" y1=\"57\" x2=\"210.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"210.0\" y=\"84\">0</text><line x1=\"241.0\" y1=\"57\" x2=\"241.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"241.0\" y=\"84\">1</text><line x1=\"272.0\" y1=\"57\" x2=\"272.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"272.0\" y=\"84\">2</text><line x1=\"303.0\" y1=\"57\" x2=\"303.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"303.0\" y=\"84\">3</text><line x1=\"334.0\" y1=\"57\" x2=\"334.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"334.0\" y=\"84\">4</text><line x1=\"365.0\" y1=\"57\" x2=\"365.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"365.0\" y=\"84\">5</text><line x1=\"396.0\" y1=\"57\" x2=\"396.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"396.0\" y=\"84\">6</text><circle cx=\"86.0\" cy=\"62\" r=\"5.5\" class=\"soft\" stroke=\"currentColor\"/><text x=\"86.0\" y=\"48\" font-size=\"15\" font-weight=\"bold\">A</text><circle cx=\"303.0\" cy=\"62\" r=\"5.5\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"303.0\" y=\"48\" font-size=\"15\" font-weight=\"bold\">B</text></svg>",
+      "choices": [
+        "$1$",
+        "$-7$",
+        "$7$",
+        "$12$"
+      ],
+      "answer": 2,
+      "explain": "$AB=|3-(-4)|=|7|=7$，也就是 $A$ 到原點 $4$ 格加上原點到 $B$ 的 $3$ 格。選 $1$ 是用 $4-3$ 計算；距離不可能是負數，所以 $-7$ 不對；$12$ 是把 $4$ 和 $3$ 相乘。答案是 $7$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "兩點距離",
+      "q": "數線上 $P$ 點表示 $-2.5$，$Q$ 點在 $P$ 的右側，且 $PQ=6$，則 $Q$ 點表示的數為何？",
+      "choices": [
+        "$-8.5$",
+        "$8.5$",
+        "$-3.5$",
+        "$3.5$"
+      ],
+      "answer": 3,
+      "explain": "$Q$ 在右側，表示比 $-2.5$ 大，所以 $Q$ 表示 $-2.5+6=3.5$。選 $-8.5$ 是往左走了 $6$ 格，選 $8.5$ 是忽略了 $-2.5$ 的負號。答案是 $3.5$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "絕對值比大小",
+      "q": "將 $-|-6|$、$-5$、$0$、$|-2|$ 由小到大排列，下列何者正確？",
+      "choices": [
+        "$-5<-|-6|<0<|-2|$",
+        "$-|-6|<-5<0<|-2|$",
+        "$-|-6|<-5<|-2|<0$",
+        "$|-2|<0<-5<-|-6|$"
+      ],
+      "answer": 1,
+      "explain": "先化簡：$-|-6|=-6$，$|-2|=2$。四個數是 $-6、-5、0、2$，由小到大為 $-|-6|<-5<0<|-2|$。把 $-|-6|$ 當成 $6$ 或忽略負號，都會排錯。答案是 $-|-6|<-5<0<|-2|$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "數線上的整數",
+      "q": "數線上介於 $-3.5$ 與 $2.2$ 之間的整數共有幾個？",
+      "choices": [
+        "$6$",
+        "$5$",
+        "$7$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explain": "這些整數是 $-3、-2、-1、0、1、2$，共 $6$ 個。選 $5$ 是用兩端的差 $5.7$ 去取整數；選 $7$ 是把 $-4$ 或 $3$ 也算進去。答案是 $6$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "中點與距離",
+      "q": "數線上 $A$ 點表示 $-7$，$B$ 點表示 $5$，$C$ 點是線段 $AB$ 的中點，$D$ 點在 $C$ 的右側且 $CD=4$（如圖）。則 $AD$ 的長度是多少？",
+      "svg": "<svg viewBox=\"0 0 420 100\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"13\" text-anchor=\"middle\"><line x1=\"10\" y1=\"62\" x2=\"410\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"410,62 402,58 402,66\" fill=\"currentColor\"/><polygon points=\"10,62 18,58 18,66\" fill=\"currentColor\"/><line x1=\"24.0\" y1=\"57\" x2=\"24.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"24.0\" y=\"84\">-8</text><line x1=\"50.6\" y1=\"57\" x2=\"50.6\" y2=\"67\" stroke=\"currentColor\"/><text x=\"50.6\" y=\"84\">-7</text><line x1=\"77.1\" y1=\"57\" x2=\"77.1\" y2=\"67\" stroke=\"currentColor\"/><text x=\"77.1\" y=\"84\">-6</text><line x1=\"103.7\" y1=\"57\" x2=\"103.7\" y2=\"67\" stroke=\"currentColor\"/><text x=\"103.7\" y=\"84\">-5</text><line x1=\"130.3\" y1=\"57\" x2=\"130.3\" y2=\"67\" stroke=\"currentColor\"/><text x=\"130.3\" y=\"84\">-4</text><line x1=\"156.9\" y1=\"57\" x2=\"156.9\" y2=\"67\" stroke=\"currentColor\"/><text x=\"156.9\" y=\"84\">-3</text><line x1=\"183.4\" y1=\"57\" x2=\"183.4\" y2=\"67\" stroke=\"currentColor\"/><text x=\"183.4\" y=\"84\">-2</text><line x1=\"210.0\" y1=\"57\" x2=\"210.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"210.0\" y=\"84\">-1</text><line x1=\"236.6\" y1=\"57\" x2=\"236.6\" y2=\"67\" stroke=\"currentColor\"/><text x=\"236.6\" y=\"84\">0</text><line x1=\"263.1\" y1=\"57\" x2=\"263.1\" y2=\"67\" stroke=\"currentColor\"/><text x=\"263.1\" y=\"84\">1</text><line x1=\"289.7\" y1=\"57\" x2=\"289.7\" y2=\"67\" stroke=\"currentColor\"/><text x=\"289.7\" y=\"84\">2</text><line x1=\"316.3\" y1=\"57\" x2=\"316.3\" y2=\"67\" stroke=\"currentColor\"/><text x=\"316.3\" y=\"84\">3</text><line x1=\"342.9\" y1=\"57\" x2=\"342.9\" y2=\"67\" stroke=\"currentColor\"/><text x=\"342.9\" y=\"84\">4</text><line x1=\"369.4\" y1=\"57\" x2=\"369.4\" y2=\"67\" stroke=\"currentColor\"/><text x=\"369.4\" y=\"84\">5</text><line x1=\"396.0\" y1=\"57\" x2=\"396.0\" y2=\"67\" stroke=\"currentColor\"/><text x=\"396.0\" y=\"84\">6</text><circle cx=\"50.6\" cy=\"62\" r=\"5.5\" class=\"soft\" stroke=\"currentColor\"/><text x=\"50.6\" y=\"48\" font-size=\"15\" font-weight=\"bold\">A</text><circle cx=\"210.0\" cy=\"62\" r=\"5.5\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"210.0\" y=\"48\" font-size=\"15\" font-weight=\"bold\">C</text><circle cx=\"316.3\" cy=\"62\" r=\"5.5\" class=\"soft2\" stroke=\"currentColor\"/><text x=\"316.3\" y=\"48\" font-size=\"15\" font-weight=\"bold\">D</text><circle cx=\"369.4\" cy=\"62\" r=\"5.5\" class=\"soft\" stroke=\"currentColor\"/><text x=\"369.4\" y=\"48\" font-size=\"15\" font-weight=\"bold\">B</text></svg>",
+      "choices": [
+        "$4$",
+        "$8$",
+        "$10$",
+        "$12$"
+      ],
+      "answer": 2,
+      "explain": "$AB=|5-(-7)|=12$，中點 $C$ 到 $A$ 的距離是 $6$，所以 $C$ 表示 $-7+6=-1$。$D$ 在 $C$ 右側 $4$ 格，表示 $3$，因此 $AD=|3-(-7)|=10$。選 $12$ 是 $AB$ 的長，選 $4$ 是 $CD$ 的長。答案是 $10$。",
+      "codes": [
+        "N-7-5"
+      ]
+    },
+    {
+      "id": "m7-03-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "路程與距離",
+      "q": "一條東西向的路上，以書局為原點 $0$，向東為正，單位為公尺。便利商店在 $+350$，學校在 $-200$。小美從學校走到便利商店，再走到書局，一共走了幾公尺？",
+      "choices": [
+        "$150$",
+        "$550$",
+        "$750$",
+        "$900$"
+      ],
+      "answer": 3,
+      "explain": "學校到便利商店：$|350-(-200)|=550$；便利商店到書局：$|0-350|=350$。總路程是各段相加：$550+350=900$（公尺）。選 $550$ 只算了第一段，選 $150$ 是用 $350-200$ 計算，選 $750$ 是把第二段誤算成 $200$。答案是 $900$。",
+      "codes": [
+        "N-7-5"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 11 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 N-7-5"
+      },
+      {
+        "label": "114 年第 15 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 N-7-5"
+      },
+      {
+        "label": "113 年第 19 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 N-7-5"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「絕對值」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%B5%95%E5%B0%8D%E5%80%BC"
+    },
+    {
+      "label": "均一教育平台：搜尋「數線」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%95%B8%E7%B7%9A"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

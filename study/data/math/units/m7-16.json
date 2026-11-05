@@ -1,0 +1,260 @@
+{
+  "id": "m7-16",
+  "subject": "math",
+  "grade": 7,
+  "order": 16,
+  "title": "二元一次方程式的圖形",
+  "codes": [
+    {
+      "code": "A-7-6",
+      "text": "二元一次聯立方程式的幾何意義：ax+by=c 的圖形；y=c 的圖形（水平線）；x=c 的圖形（鉛垂線）；二元一次聯立方程式的解只處理相交且只有一個交點的情況。"
+    }
+  ],
+  "intro": "二元一次方程式 $ax+by=c$ 的每一組解都是坐標平面上的一個點，所有的點連起來是一條直線；兩條直線的交點，就是聯立方程式的解。會考常問點在不在線上、水平線與鉛垂線、交點，以及圍出的三角形面積。",
+  "sections": [
+    {
+      "title": "方程式的解就是平面上的點",
+      "points": [
+        "二元一次方程式 $ax+by=c$（$a$、$b$ 不同時為 $0$）的一組解 $(x,y)$，可以看成坐標平面上的一個點。",
+        "圖形上每一點的坐標都滿足方程式；滿足方程式的點也一定在圖形上。",
+        "判斷點在不在線上：把 $x$、$y$ 代入，等號成立才在線上。",
+        "例：$2x+y=4$ 的解有 $(0,4)$、$(1,2)$、$(2,0)$、$(3,-2)$ 等，這些點排成一條直線。"
+      ],
+      "svg": "<svg viewBox=\"0 0 258 288\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.2\"><line x1=\"24\" y1=\"264\" x2=\"24\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"54\" y1=\"264\" x2=\"54\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"84\" y1=\"264\" x2=\"84\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"114\" y1=\"264\" x2=\"114\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"144\" y1=\"264\" x2=\"144\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"174\" y1=\"264\" x2=\"174\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"204\" y1=\"264\" x2=\"204\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"234\" y1=\"264\" x2=\"234\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"264\" x2=\"234\" y2=\"264\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"234\" x2=\"234\" y2=\"234\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"204\" x2=\"234\" y2=\"204\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"174\" x2=\"234\" y2=\"174\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"144\" x2=\"234\" y2=\"144\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"114\" x2=\"234\" y2=\"114\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"84\" x2=\"234\" y2=\"84\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"54\" x2=\"234\" y2=\"54\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"24\" x2=\"234\" y2=\"24\" stroke-width=\"0.6\"/></g><line x1=\"18\" y1=\"174\" x2=\"242\" y2=\"174\"/><line x1=\"84\" y1=\"270\" x2=\"84\" y2=\"16\"/><polyline points=\"237,170 242,174 237,178\"/><polyline points=\"80,21 84,16 88,21\"/><text x=\"24\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"54\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"114\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"144\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"174\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"204\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"234\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"79\" y=\"268\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−3</text><text x=\"79\" y=\"238\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"79\" y=\"208\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"79\" y=\"148\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"79\" y=\"118\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"79\" y=\"88\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"79\" y=\"58\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"79\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"78\" y=\"187\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"240\" y=\"189\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"92\" y=\"22\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">y</text><line x1=\"69\" y1=\"24\" x2=\"189\" y2=\"264\" stroke-width=\"2.5\" class=\"hl\"/><circle cx=\"84\" cy=\"54\" r=\"4\" fill=\"currentColor\"/><circle cx=\"114\" cy=\"114\" r=\"4\" fill=\"currentColor\"/><circle cx=\"144\" cy=\"174\" r=\"4\" fill=\"currentColor\"/><circle cx=\"174\" cy=\"234\" r=\"4\" fill=\"currentColor\"/><text x=\"91.5\" y=\"61.5\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">(0,4)</text><text x=\"120\" y=\"108\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">(1,2)</text><text x=\"148.5\" y=\"162\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">(2,0)</text><text x=\"178.5\" y=\"226.5\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">(3,−2)</text><text x=\"111\" y=\"39\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl\">2x+y=4</text></svg>",
+      "caption": "$2x+y=4$ 的圖形是直線，$(0,4)$、$(1,2)$、$(2,0)$、$(3,-2)$ 都在線上。"
+    },
+    {
+      "title": "怎麼畫 ax+by=c 的直線",
+      "points": [
+        "兩點決定一條直線，所以只要找兩組解就能畫出圖形。",
+        "好找的點：令 $x=0$ 求 $y$，得到與 $y$ 軸的交點；令 $y=0$ 求 $x$，得到與 $x$ 軸的交點。",
+        "例：$2x+3y=12$，令 $x=0$ 得 $y=4$，令 $y=0$ 得 $x=6$，連接 $(0,4)$ 與 $(6,0)$ 即可。",
+        "多找第三個點代入檢查，可以避免算錯。"
+      ]
+    },
+    {
+      "title": "水平線與鉛垂線",
+      "points": [
+        "$y=c$ 的圖形是水平線：線上每一點的 $y$ 坐標都是 $c$，$x$ 坐標可以是任意數。",
+        "$x=c$ 的圖形是鉛垂線：線上每一點的 $x$ 坐標都是 $c$，$y$ 坐標可以是任意數。",
+        "$x$ 軸就是 $y=0$，$y$ 軸就是 $x=0$。",
+        "水平線與鉛垂線一定相交於一點，例如 $y=2$ 與 $x=-3$ 交於 $(-3,2)$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 288 228\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.2\"><line x1=\"24\" y1=\"204\" x2=\"24\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"54\" y1=\"204\" x2=\"54\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"84\" y1=\"204\" x2=\"84\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"114\" y1=\"204\" x2=\"114\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"144\" y1=\"204\" x2=\"144\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"174\" y1=\"204\" x2=\"174\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"204\" y1=\"204\" x2=\"204\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"234\" y1=\"204\" x2=\"234\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"264\" y1=\"204\" x2=\"264\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"204\" x2=\"264\" y2=\"204\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"174\" x2=\"264\" y2=\"174\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"144\" x2=\"264\" y2=\"144\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"114\" x2=\"264\" y2=\"114\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"84\" x2=\"264\" y2=\"84\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"54\" x2=\"264\" y2=\"54\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"24\" x2=\"264\" y2=\"24\" stroke-width=\"0.6\"/></g><line x1=\"18\" y1=\"144\" x2=\"272\" y2=\"144\"/><line x1=\"144\" y1=\"210\" x2=\"144\" y2=\"16\"/><polyline points=\"267,140 272,144 267,148\"/><polyline points=\"140,21 144,16 148,21\"/><text x=\"24\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−4</text><text x=\"54\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−3</text><text x=\"84\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"114\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"174\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"204\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"234\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"264\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"139\" y=\"208\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"139\" y=\"178\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"139\" y=\"118\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"139\" y=\"88\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"139\" y=\"58\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"139\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"138\" y=\"157\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"270\" y=\"159\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"152\" y=\"22\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">y</text><line x1=\"24\" y1=\"84\" x2=\"264\" y2=\"84\" stroke-width=\"2.5\" class=\"hl\"/><line x1=\"54\" y1=\"204\" x2=\"54\" y2=\"24\" stroke-width=\"2.5\" class=\"hl2\"/><circle cx=\"54\" cy=\"84\" r=\"4\" fill=\"currentColor\"/><text x=\"231\" y=\"72\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" class=\"hl\">y=2</text><text x=\"58.5\" y=\"36\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\">x=−3</text><text x=\"58.5\" y=\"102\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">(−3,2)</text></svg>",
+      "caption": "$y=2$ 是水平線，$x=-3$ 是鉛垂線，兩線交於 $(-3,2)$。"
+    },
+    {
+      "title": "聯立方程式與交點",
+      "points": [
+        "聯立方程式的解要同時滿足兩個方程式，所以就是兩條直線的交點。",
+        "本單元只討論兩直線恰好相交於一點的情形，這時聯立方程式有唯一一組解。",
+        "例：$x+y=5$ 與 $x-y=1$ 兩式相加得 $2x=6$，$x=3$，代回得 $y=2$，交點是 $(3,2)$。",
+        "把交點坐標代回兩個方程式檢查，兩式都要成立。"
+      ],
+      "svg": "<svg viewBox=\"0 0 258 288\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.2\"><line x1=\"24\" y1=\"264\" x2=\"24\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"54\" y1=\"264\" x2=\"54\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"84\" y1=\"264\" x2=\"84\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"114\" y1=\"264\" x2=\"114\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"144\" y1=\"264\" x2=\"144\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"174\" y1=\"264\" x2=\"174\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"204\" y1=\"264\" x2=\"204\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"234\" y1=\"264\" x2=\"234\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"264\" x2=\"234\" y2=\"264\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"234\" x2=\"234\" y2=\"234\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"204\" x2=\"234\" y2=\"204\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"174\" x2=\"234\" y2=\"174\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"144\" x2=\"234\" y2=\"144\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"114\" x2=\"234\" y2=\"114\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"84\" x2=\"234\" y2=\"84\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"54\" x2=\"234\" y2=\"54\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"24\" x2=\"234\" y2=\"24\" stroke-width=\"0.6\"/></g><line x1=\"18\" y1=\"204\" x2=\"242\" y2=\"204\"/><line x1=\"54\" y1=\"270\" x2=\"54\" y2=\"16\"/><polyline points=\"237,200 242,204 237,208\"/><polyline points=\"50,21 54,16 58,21\"/><text x=\"24\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"84\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"114\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"144\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"174\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"204\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"234\" y=\"218\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"49\" y=\"268\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"49\" y=\"238\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"49\" y=\"178\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"49\" y=\"148\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"49\" y=\"118\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"49\" y=\"88\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"49\" y=\"58\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"49\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"48\" y=\"217\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"240\" y=\"219\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"62\" y=\"22\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">y</text><line x1=\"24\" y1=\"24\" x2=\"234\" y2=\"234\" stroke-width=\"2.5\" class=\"hl\"/><line x1=\"24\" y1=\"264\" x2=\"234\" y2=\"54\" stroke-width=\"2.5\" class=\"hl2\"/><circle cx=\"144\" cy=\"144\" r=\"4\" fill=\"currentColor\"/><text x=\"144\" y=\"171\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">(3,2)</text><text x=\"63\" y=\"39\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl\">x+y=5</text><text x=\"171\" y=\"45\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\">x−y=1</text></svg>",
+      "caption": "$x+y=5$ 與 $x-y=1$ 兩直線的交點 $(3,2)$ 就是聯立方程式的解。"
+    },
+    {
+      "title": "圍出的三角形面積",
+      "points": [
+        "與兩坐標軸圍成的三角形：先求直線與 $x$ 軸、$y$ 軸的交點，兩個交點到原點的長度就是兩股。",
+        "例：$2x+3y=12$ 與兩軸的交點是 $(6,0)$、$(0,4)$，面積 $=\\frac{1}{2}\\times 6\\times 4=12$。",
+        "三條直線圍成的三角形：兩兩求交點得到三個頂點，再用底乘高除以 $2$ 求面積。",
+        "水平線與鉛垂線圍出的邊長，可以直接用坐標相減得到。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "直線方程式",
+      "body": "$ax+by=c$ 的圖形是一條直線，線上每個點都是一組解"
+    },
+    {
+      "name": "水平線",
+      "body": "$y=c$ 的圖形是通過 $(0,c)$ 的水平線"
+    },
+    {
+      "name": "鉛垂線",
+      "body": "$x=c$ 的圖形是通過 $(c,0)$ 的鉛垂線"
+    },
+    {
+      "name": "點在線上",
+      "body": "把坐標代入方程式，等號成立就在線上"
+    },
+    {
+      "name": "畫直線的方法",
+      "body": "令 $x=0$、$y=0$ 各求一點，兩點連線"
+    },
+    {
+      "name": "聯立方程式的解",
+      "body": "兩直線的交點坐標，同時滿足兩個方程式"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-16-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "點在直線上",
+      "q": "下列哪一個點在 $3x-y=5$ 的圖形上？",
+      "choices": [
+        "$(1,2)$",
+        "$(2,1)$",
+        "$(2,-1)$",
+        "$(0,5)$"
+      ],
+      "answer": 1,
+      "explain": "把各點代入 $3x-y$：$(2,1)$ 得 $6-1=5$，成立；$(1,2)$ 得 $1$；$(2,-1)$ 得 $7$；$(0,5)$ 得 $-5$，都不等於 $5$。答案是 $(2,1)$。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "水平線與鉛垂線",
+      "q": "關於方程式 $y=-3$ 的圖形，下列敘述何者正確？",
+      "choices": [
+        "是通過 $(-3,0)$ 的鉛垂線",
+        "是通過 $(0,3)$ 的水平線",
+        "是通過 $(3,0)$ 的鉛垂線",
+        "是通過 $(0,-3)$ 的水平線"
+      ],
+      "answer": 3,
+      "explain": "$y=c$ 的圖形是水平線，每一點的 $y$ 坐標都是 $-3$，所以通過 $(0,-3)$。鉛垂線是 $x=c$ 的形式。答案是通過 $(0,-3)$ 的水平線。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "水平線與鉛垂線",
+      "q": "直線 $x=4$ 與直線 $y=-1$ 相交於哪一點？",
+      "choices": [
+        "$(4,-1)$",
+        "$(-1,4)$",
+        "$(4,1)$",
+        "$(-4,-1)$"
+      ],
+      "answer": 0,
+      "explain": "交點的 $x$ 坐標來自 $x=4$，$y$ 坐標來自 $y=-1$，所以交點是 $(4,-1)$。答案是 $(4,-1)$。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "與坐標軸圍成面積",
+      "q": "直線 $2x+3y=12$ 與 $x$ 軸、$y$ 軸圍成一個三角形，面積是多少？",
+      "choices": [
+        "$24$",
+        "$10$",
+        "$12$",
+        "$6$"
+      ],
+      "answer": 2,
+      "explain": "令 $y=0$ 得 $x=6$；令 $x=0$ 得 $y=4$。兩股長 $6$ 與 $4$，面積 $=\\frac{1}{2}\\times6\\times4=12$。$24$ 是忘了乘 $\\frac{1}{2}$。答案是 $12$。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "點在直線上",
+      "q": "直線 $ax+2y=10$ 通過點 $(2,1)$，則 $a$ 的值是多少？",
+      "choices": [
+        "$5$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "answer": 1,
+      "explain": "代入 $x=2$、$y=1$：$2a+2=10$，$2a=8$，$a=4$。若漏掉 $2y$ 會得到 $5$；把 $x$、$y$ 代反會得到 $6$。答案是 $4$。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "聯立方程式的交點",
+      "q": "坐標平面上有兩條直線 $L:2x+y=8$ 與 $M:x-y=1$（如圖），它們的交點坐標是什麼？",
+      "svg": "<svg viewBox=\"0 0 224 290\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.2\"><line x1=\"24\" y1=\"266\" x2=\"24\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"266\" x2=\"46\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"68\" y1=\"266\" x2=\"68\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"90\" y1=\"266\" x2=\"90\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"112\" y1=\"266\" x2=\"112\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"134\" y1=\"266\" x2=\"134\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"156\" y1=\"266\" x2=\"156\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"178\" y1=\"266\" x2=\"178\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"200\" y1=\"266\" x2=\"200\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"266\" x2=\"200\" y2=\"266\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"244\" x2=\"200\" y2=\"244\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"222\" x2=\"200\" y2=\"222\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"200\" x2=\"200\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"178\" x2=\"200\" y2=\"178\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"156\" x2=\"200\" y2=\"156\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"134\" x2=\"200\" y2=\"134\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"112\" x2=\"200\" y2=\"112\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"90\" x2=\"200\" y2=\"90\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"68\" x2=\"200\" y2=\"68\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"46\" x2=\"200\" y2=\"46\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"24\" x2=\"200\" y2=\"24\" stroke-width=\"0.6\"/></g><line x1=\"18\" y1=\"200\" x2=\"208\" y2=\"200\"/><line x1=\"68\" y1=\"272\" x2=\"68\" y2=\"16\"/><polyline points=\"203,196 208,200 203,204\"/><polyline points=\"64,21 68,16 72,21\"/><text x=\"24\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"46\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"90\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"112\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"134\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"156\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"178\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"200\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"63\" y=\"270\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−3</text><text x=\"63\" y=\"248\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−2</text><text x=\"63\" y=\"226\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"63\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"63\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"63\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"63\" y=\"116\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"63\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"63\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"63\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"63\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"62\" y=\"213\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"206\" y=\"215\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"76\" y=\"22\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">y</text><line x1=\"68\" y1=\"24\" x2=\"189\" y2=\"266\" stroke-width=\"2.5\" class=\"hl\"/><line x1=\"24\" y1=\"266\" x2=\"200\" y2=\"90\" stroke-width=\"2.5\" class=\"hl2\"/><text x=\"85.6\" y=\"35\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl\">L</text><text x=\"175.8\" y=\"105.4\" font-size=\"14\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\">M</text></svg>",
+      "choices": [
+        "$(3,2)$",
+        "$(2,3)$",
+        "$(3,-2)$",
+        "$(1,6)$"
+      ],
+      "answer": 0,
+      "explain": "兩式相加：$3x=9$，$x=3$；代入 $x-y=1$ 得 $y=2$。檢查 $2\\times3+2=8$，成立。$(1,6)$ 只在 $L$ 上。答案是 $(3,2)$。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "與坐標軸圍成面積",
+      "q": "坐標平面上三條直線 $x=1$、$y=1$、$x+y=7$ 圍成一個三角形（如圖），面積是多少？",
+      "svg": "<svg viewBox=\"0 0 282 282\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.2\"><line x1=\"24\" y1=\"258\" x2=\"24\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"258\" x2=\"50\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"76\" y1=\"258\" x2=\"76\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"102\" y1=\"258\" x2=\"102\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"128\" y1=\"258\" x2=\"128\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"154\" y1=\"258\" x2=\"154\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"180\" y1=\"258\" x2=\"180\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"206\" y1=\"258\" x2=\"206\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"232\" y1=\"258\" x2=\"232\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"258\" y1=\"258\" x2=\"258\" y2=\"24\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"258\" x2=\"258\" y2=\"258\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"232\" x2=\"258\" y2=\"232\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"206\" x2=\"258\" y2=\"206\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"180\" x2=\"258\" y2=\"180\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"154\" x2=\"258\" y2=\"154\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"128\" x2=\"258\" y2=\"128\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"102\" x2=\"258\" y2=\"102\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"76\" x2=\"258\" y2=\"76\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"50\" x2=\"258\" y2=\"50\" stroke-width=\"0.6\"/><line x1=\"24\" y1=\"24\" x2=\"258\" y2=\"24\" stroke-width=\"0.6\"/></g><line x1=\"18\" y1=\"232\" x2=\"266\" y2=\"232\"/><line x1=\"50\" y1=\"264\" x2=\"50\" y2=\"16\"/><polyline points=\"261,228 266,232 261,236\"/><polyline points=\"46,21 50,16 54,21\"/><text x=\"24\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"76\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"102\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"128\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"154\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"180\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"206\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"232\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"258\" y=\"246\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"45\" y=\"262\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">−1</text><text x=\"45\" y=\"210\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"45\" y=\"184\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"45\" y=\"158\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"45\" y=\"132\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"45\" y=\"106\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"45\" y=\"80\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"45\" y=\"54\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"45\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"44\" y=\"245\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"264\" y=\"247\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"58\" y=\"22\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">y</text><polygon points=\"76,206 206,206 76,76\" class=\"soft\" stroke=\"none\"/><line x1=\"76\" y1=\"258\" x2=\"76\" y2=\"24\" stroke-width=\"2.5\" class=\"hl\"/><line x1=\"24\" y1=\"206\" x2=\"258\" y2=\"206\" stroke-width=\"2.5\" class=\"hl2\"/><line x1=\"24\" y1=\"24\" x2=\"258\" y2=\"258\" stroke-width=\"2.5\" class=\"hl\"/><text x=\"79.9\" y=\"37\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl\">x=1</text><text x=\"232\" y=\"193\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" class=\"hl2\">y=1</text><text x=\"185.2\" y=\"148.8\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" class=\"hl\">x+y=7</text></svg>",
+      "choices": [
+        "$25$",
+        "$18$",
+        "$\\frac{35}{2}$",
+        "$\\frac{25}{2}$"
+      ],
+      "answer": 3,
+      "explain": "頂點是 $(1,1)$、$(1,6)$、$(6,1)$。兩股長都是 $6-1=5$，面積 $=\\frac{1}{2}\\times5\\times5=\\frac{25}{2}$。$18$ 是誤把股長當成 $6$。答案是 $\\frac{25}{2}$。",
+      "codes": [
+        "A-7-6"
+      ]
+    },
+    {
+      "id": "m7-16-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "整數解的個數",
+      "q": "福利社蛋捲每個 $5$ 元、餅乾每包 $3$ 元。小欣剛好花 $30$ 元，買了 $x$ 個蛋捲和 $y$ 包餅乾（$x$、$y$ 為不小於 $0$ 的整數，可以為 $0$），滿足 $5x+3y=30$。共有幾種買法？",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$3$",
+        "$6$"
+      ],
+      "answer": 2,
+      "explain": "$3y=30-5x$，所以 $30-5x$ 必須是 $3$ 的倍數，$x$ 必須是 $3$ 的倍數。$x=0,3,6$ 對應 $y=10,5,0$，共 $3$ 種。答案是 $3$。",
+      "codes": [
+        "A-7-6"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 13 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 A-7-6"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「二元一次方程式的圖形」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%BA%8C%E5%85%83%E4%B8%80%E6%AC%A1%E6%96%B9%E7%A8%8B%E5%BC%8F%E7%9A%84%E5%9C%96%E5%BD%A2"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

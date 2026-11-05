@@ -1,0 +1,247 @@
+{
+  "id": "m7-11",
+  "subject": "math",
+  "grade": 7,
+  "order": 11,
+  "title": "平面直角坐標系",
+  "codes": [
+    {
+      "code": "G-7-1",
+      "text": "平面直角坐標系：以平面直角坐標系、方位距離標定位置；平面直角坐標系及其相關術語（縱軸、橫軸、象限）。"
+    }
+  ],
+  "intro": "這個單元學的是怎麼用一組數對 $(x,y)$ 在平面上定位。會考常考讀點、判斷象限、同橫或同縱的距離，以及用含文字的坐標列出象限條件。",
+  "sections": [
+    {
+      "title": "坐標平面與象限",
+      "points": [
+        "兩條互相垂直的數線，交點叫**原點** $O$。水平的是**橫軸**（$x$ 軸），鉛垂的是**縱軸**（$y$ 軸）。",
+        "兩軸把平面分成四個區域，依逆時針方向叫第一、第二、第三、第四**象限**。",
+        "各象限坐標的正負：第一象限 $(+,+)$、第二象限 $(-,+)$、第三象限 $(-,-)$、第四象限 $(+,-)$。",
+        "軸上的點不屬於任何象限：橫軸上的點縱坐標是 $0$，縱軸上的點橫坐標是 $0$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 288 288\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" data-ox=\"144\" data-oy=\"144\" data-u=\"30\"><rect x=\"144\" y=\"24\" width=\"120\" height=\"120\" class=\"soft\" stroke=\"none\"/><rect x=\"24\" y=\"144\" width=\"120\" height=\"120\" class=\"soft2\" stroke=\"none\"/><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"54\" y1=\"24\" x2=\"54\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"84\" y1=\"24\" x2=\"84\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"114\" y1=\"24\" x2=\"114\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"144\" y1=\"24\" x2=\"144\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"174\" y1=\"24\" x2=\"174\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"204\" y1=\"24\" x2=\"204\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"234\" y1=\"24\" x2=\"234\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"264\" y1=\"24\" x2=\"264\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"264\" x2=\"264\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"234\" x2=\"264\" y2=\"234\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"204\" x2=\"264\" y2=\"204\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"174\" x2=\"264\" y2=\"174\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"144\" x2=\"264\" y2=\"144\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"114\" x2=\"264\" y2=\"114\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"84\" x2=\"264\" y2=\"84\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"54\" x2=\"264\" y2=\"54\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"264\" y2=\"24\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"18\" y1=\"144\" x2=\"272\" y2=\"144\" stroke-width=\"2\"/><line x1=\"144\" y1=\"270\" x2=\"144\" y2=\"16\" stroke-width=\"2\"/><polyline points=\"267,140 274,144 267,148\" stroke-width=\"1.5\"/><polyline points=\"140,21 144,14 148,21\" stroke-width=\"1.5\"/><text x=\"274\" y=\"136\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">x</text><text x=\"154\" y=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">y</text><text x=\"136\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11\">O</text><text x=\"24\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"54\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"84\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"114\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"174\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"204\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"234\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"264\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"138\" y=\"267.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"138\" y=\"237.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"138\" y=\"207.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"138\" y=\"177.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"138\" y=\"117.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"138\" y=\"87.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"138\" y=\"57.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"138\" y=\"27.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"204.0\" y=\"84.0\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">第一象限</text><text x=\"84.0\" y=\"84.0\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">第二象限</text><text x=\"84.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">第三象限</text><text x=\"204.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">第四象限</text></svg>",
+      "caption": "四個象限（逆時針：右上、左上、左下、右下）"
+    },
+    {
+      "title": "用坐標標定位置",
+      "points": [
+        "平面上每個點都對應一組有順序的數對 $(x,y)$：**先橫後縱**，$x$ 叫橫坐標，$y$ 叫縱坐標。",
+        "讀點的方法：從點往橫軸作垂線，讀到橫坐標；往縱軸作水平線，讀到縱坐標。",
+        "$(3,2)$ 與 $(2,3)$ 是不同的點，順序不能換。",
+        "原點的坐標是 $(0,0)$；橫軸上的點寫成 $(a,0)$，縱軸上的點寫成 $(0,b)$。"
+      ],
+      "svg": "<svg viewBox=\"0 0 318 264\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" data-ox=\"159\" data-oy=\"132\" data-u=\"27\"><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"51\" y1=\"24\" x2=\"51\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"78\" y1=\"24\" x2=\"78\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"105\" y1=\"24\" x2=\"105\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"132\" y1=\"24\" x2=\"132\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"159\" y1=\"24\" x2=\"159\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"186\" y1=\"24\" x2=\"186\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"213\" y1=\"24\" x2=\"213\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"240\" y1=\"24\" x2=\"240\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"267\" y1=\"24\" x2=\"267\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"294\" y1=\"24\" x2=\"294\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"240\" x2=\"294\" y2=\"240\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"213\" x2=\"294\" y2=\"213\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"186\" x2=\"294\" y2=\"186\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"159\" x2=\"294\" y2=\"159\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"132\" x2=\"294\" y2=\"132\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"105\" x2=\"294\" y2=\"105\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"78\" x2=\"294\" y2=\"78\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"51\" x2=\"294\" y2=\"51\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"294\" y2=\"24\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"18\" y1=\"132\" x2=\"302\" y2=\"132\" stroke-width=\"2\"/><line x1=\"159\" y1=\"246\" x2=\"159\" y2=\"16\" stroke-width=\"2\"/><polyline points=\"297,128 304,132 297,136\" stroke-width=\"1.5\"/><polyline points=\"155,21 159,14 163,21\" stroke-width=\"1.5\"/><text x=\"304\" y=\"124\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">x</text><text x=\"169\" y=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">y</text><text x=\"151\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11\">O</text><text x=\"24\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−5</text><text x=\"51\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"78\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"105\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"132\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"186\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"213\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"240\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"267\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"294\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">5</text><text x=\"153\" y=\"243.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"153\" y=\"216.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"153\" y=\"189.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"153\" y=\"162.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"153\" y=\"108.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"153\" y=\"81.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"153\" y=\"54.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"153\" y=\"27.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><circle cx=\"240\" cy=\"78\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"247\" y=\"71\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">A(3, 2)</text><circle cx=\"105\" cy=\"51\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"43\" y=\"43\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">B(−2, 3)</text><circle cx=\"51\" cy=\"159\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"57\" y=\"175\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">C(−4, −1)</text><circle cx=\"213\" cy=\"213\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"220\" y=\"206\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">D(2, −3)</text></svg>",
+      "caption": "A 在第一象限，B 在第二象限，C 在第三象限，D 在第四象限"
+    },
+    {
+      "title": "兩點的距離（同橫或同縱）",
+      "points": [
+        "兩點縱坐標相同，連線與橫軸平行，距離＝橫坐標相減後取正：$A(-3,4)$、$B(5,4)$ 的距離是 $|5-(-3)|=8$。",
+        "兩點橫坐標相同，連線與縱軸平行，距離＝縱坐標相減後取正。",
+        "減去負數要小心：$5-(-3)=5+3=8$，不是 $5-3$。",
+        "長方形的邊平行坐標軸時，頂點坐標常有「兩兩相同」的規律，可由三個頂點找出第四個。"
+      ]
+    },
+    {
+      "title": "方位與距離",
+      "points": [
+        "以某地為原點，向東為 $x$ 正向、向北為 $y$ 正向，每格代表固定長度，就能用坐標描述地點。",
+        "向西、向南走，坐標就變小（變負）。例：從原點向西 $2$、向北 $3$，到達 $(-2,3)$，在第二象限。",
+        "沿著坐標軸方向走的路徑長，可以用兩點的坐標差分段算出再相加。",
+        "已知點所在象限，可反推坐標的正負；含文字的坐標，如 $(a-3,2-a)$，要列不等式。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "坐標的順序",
+      "body": "點 $P(x,y)$：先橫坐標 $x$，後縱坐標 $y$。"
+    },
+    {
+      "name": "象限符號",
+      "body": "I：$(+,+)$；II：$(-,+)$；III：$(-,-)$；IV：$(+,-)$。"
+    },
+    {
+      "name": "軸上的點",
+      "body": "橫軸上：$(a,0)$；縱軸上：$(0,b)$；原點 $(0,0)$；軸上的點不在任何象限。"
+    },
+    {
+      "name": "同橫或同縱的距離",
+      "body": "兩點縱坐標相同：距離 $=|x_1-x_2|$；橫坐標相同：距離 $=|y_1-y_2|$。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-11-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "點的坐標",
+      "q": "圖中點 $P$ 的坐標是什麼？",
+      "svg": "<svg viewBox=\"0 0 288 288\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" data-ox=\"144\" data-oy=\"144\" data-u=\"30\"><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"54\" y1=\"24\" x2=\"54\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"84\" y1=\"24\" x2=\"84\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"114\" y1=\"24\" x2=\"114\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"144\" y1=\"24\" x2=\"144\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"174\" y1=\"24\" x2=\"174\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"204\" y1=\"24\" x2=\"204\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"234\" y1=\"24\" x2=\"234\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"264\" y1=\"24\" x2=\"264\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"264\" x2=\"264\" y2=\"264\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"234\" x2=\"264\" y2=\"234\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"204\" x2=\"264\" y2=\"204\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"174\" x2=\"264\" y2=\"174\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"144\" x2=\"264\" y2=\"144\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"114\" x2=\"264\" y2=\"114\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"84\" x2=\"264\" y2=\"84\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"54\" x2=\"264\" y2=\"54\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"264\" y2=\"24\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"18\" y1=\"144\" x2=\"272\" y2=\"144\" stroke-width=\"2\"/><line x1=\"144\" y1=\"270\" x2=\"144\" y2=\"16\" stroke-width=\"2\"/><polyline points=\"267,140 274,144 267,148\" stroke-width=\"1.5\"/><polyline points=\"140,21 144,14 148,21\" stroke-width=\"1.5\"/><text x=\"274\" y=\"136\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">x</text><text x=\"154\" y=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">y</text><text x=\"136\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11\">O</text><text x=\"24\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"54\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"84\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"114\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"174\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"204\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"234\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"264\" y=\"158\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"138\" y=\"267.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"138\" y=\"237.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"138\" y=\"207.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"138\" y=\"177.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"138\" y=\"117.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"138\" y=\"87.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"138\" y=\"57.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"138\" y=\"27.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><line x1=\"234\" y1=\"204\" x2=\"234\" y2=\"144\" stroke-dasharray=\"4 3\" stroke-width=\"1.2\" class=\"hl2\"/><line x1=\"234\" y1=\"204\" x2=\"144\" y2=\"204\" stroke-dasharray=\"4 3\" stroke-width=\"1.2\" class=\"hl2\"/><circle cx=\"234\" cy=\"204\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"241\" y=\"197\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">P</text></svg>",
+      "choices": [
+        "$(-2,3)$",
+        "$(-3,2)$",
+        "$(3,-2)$",
+        "$(2,-3)$"
+      ],
+      "answer": 2,
+      "explain": "從 $P$ 向橫軸作垂線，落在 $3$，所以橫坐標是 $3$；向縱軸作水平線，落在 $-2$，所以縱坐標是 $-2$。坐標先橫後縱，寫成 $(3,-2)$。$(-2,3)$ 是把順序顛倒，其餘是符號弄錯。答案是 $(3,-2)$。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "象限判斷",
+      "q": "坐標平面上的點 $(-4,5)$ 位於第幾象限？",
+      "choices": [
+        "第一象限",
+        "第二象限",
+        "第三象限",
+        "第四象限"
+      ],
+      "answer": 1,
+      "explain": "橫坐標 $-4$ 是負的，點在縱軸左側；縱坐標 $5$ 是正的，點在橫軸上方。左上方是第二象限。答案是第二象限。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "軸上的點",
+      "q": "坐標平面上的點 $(0,-3)$ 位於何處？",
+      "choices": [
+        "在第三象限",
+        "在第四象限",
+        "在橫軸上",
+        "在縱軸上"
+      ],
+      "answer": 3,
+      "explain": "橫坐標是 $0$，表示點沒有向左右偏離，落在縱軸上（原點正下方 3 格）。軸上的點不屬於任何象限，所以第三、第四象限都不對；橫軸上的點縱坐標才是 $0$。答案是在縱軸上。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "兩點距離",
+      "q": "坐標平面上有 $A(-3,4)$、$B(5,4)$ 兩點，則 $A$、$B$ 兩點的距離為何？",
+      "choices": [
+        "$8$",
+        "$2$",
+        "$3$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explain": "兩點縱坐標都是 $4$，連線與橫軸平行，距離 $=|5-(-3)|=5+3=8$。$2$ 是把 $-3$ 與 $5$ 相加，$5$、$3$ 只看到其中一個點的橫坐標。答案是 $8$。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "軸上的點",
+      "q": "已知點 $P(2a-4,\\ 6-a)$ 在縱軸上，則 $P$ 的坐標為何？",
+      "choices": [
+        "$(8,0)$",
+        "$(0,4)$",
+        "$(0,2)$",
+        "$(4,0)$"
+      ],
+      "answer": 1,
+      "explain": "在縱軸上，橫坐標為 $0$：$2a-4=0$，$a=2$。縱坐標 $6-a=6-2=4$，所以 $P(0,4)$。若令縱坐標為 $0$，得 $a=6$、$P(8,0)$，那是在橫軸上；$(0,2)$ 是把 $a$ 當成縱坐標。答案是 $(0,4)$。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "方位距離",
+      "q": "下圖以公園為原點，向東為 $x$ 正向、向北為 $y$ 正向，每格代表 $1$ 公里。小華從圖書館出發，先沿直線走到郵局，再沿直線走到便利商店，共走了幾公里？",
+      "svg": "<svg viewBox=\"0 0 304 240\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" data-ox=\"120\" data-oy=\"152\" data-u=\"32\"><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"56\" y1=\"24\" x2=\"56\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"88\" y1=\"24\" x2=\"88\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"120\" y1=\"24\" x2=\"120\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"152\" y1=\"24\" x2=\"152\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"184\" y1=\"24\" x2=\"184\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"216\" y1=\"24\" x2=\"216\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"248\" y1=\"24\" x2=\"248\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"280\" y1=\"24\" x2=\"280\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"216\" x2=\"280\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"184\" x2=\"280\" y2=\"184\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"152\" x2=\"280\" y2=\"152\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"120\" x2=\"280\" y2=\"120\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"88\" x2=\"280\" y2=\"88\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"56\" x2=\"280\" y2=\"56\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"280\" y2=\"24\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"18\" y1=\"152\" x2=\"288\" y2=\"152\" stroke-width=\"2\"/><line x1=\"120\" y1=\"222\" x2=\"120\" y2=\"16\" stroke-width=\"2\"/><polyline points=\"283,148 290,152 283,156\" stroke-width=\"1.5\"/><polyline points=\"116,21 120,14 124,21\" stroke-width=\"1.5\"/><text x=\"290\" y=\"144\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">x</text><text x=\"130\" y=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">y</text><text x=\"112\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11\">O</text><text x=\"24\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"56\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"88\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"152\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"184\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"216\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"248\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"280\" y=\"166\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">5</text><text x=\"114\" y=\"219.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"114\" y=\"187.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"114\" y=\"123.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"114\" y=\"91.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"114\" y=\"59.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"114\" y=\"27.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><circle cx=\"120\" cy=\"152\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"128\" y=\"143\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">公園</text><circle cx=\"56\" cy=\"56\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"36\" y=\"47\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">圖書館</text><circle cx=\"248\" cy=\"56\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"234\" y=\"47\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">郵局</text><circle cx=\"248\" cy=\"184\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"214\" y=\"202\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">便利商店</text></svg>",
+      "choices": [
+        "$6$ 公里",
+        "$8$ 公里",
+        "$10$ 公里",
+        "$12$ 公里"
+      ],
+      "answer": 2,
+      "explain": "由圖讀出圖書館 $(-2,3)$、郵局 $(4,3)$、便利商店 $(4,-1)$。圖書館到郵局縱坐標相同，距離 $|4-(-2)|=6$；郵局到便利商店橫坐標相同，距離 $|3-(-1)|=4$。共 $6+4=10$ 公里。只算第一段得 $6$；第二段若算成 $3-1=2$，會得 $6+2=8$。答案是 $10$ 公里。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "坐標與圖形",
+      "q": "下圖中 $A$、$B$、$C$ 為長方形 $ABCD$ 的三個頂點，其中 $AB$、$BC$ 分別平行坐標軸。則第四個頂點 $D$ 的坐標與長方形 $ABCD$ 的面積為何？",
+      "svg": "<svg viewBox=\"0 0 304 240\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" data-ox=\"120\" data-oy=\"88\" data-u=\"32\"><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"56\" y1=\"24\" x2=\"56\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"88\" y1=\"24\" x2=\"88\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"120\" y1=\"24\" x2=\"120\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"152\" y1=\"24\" x2=\"152\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"184\" y1=\"24\" x2=\"184\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"216\" y1=\"24\" x2=\"216\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"248\" y1=\"24\" x2=\"248\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"280\" y1=\"24\" x2=\"280\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"216\" x2=\"280\" y2=\"216\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"184\" x2=\"280\" y2=\"184\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"152\" x2=\"280\" y2=\"152\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"120\" x2=\"280\" y2=\"120\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"88\" x2=\"280\" y2=\"88\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"56\" x2=\"280\" y2=\"56\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"280\" y2=\"24\" stroke-opacity=\"0.18\" stroke-width=\"1\"/><line x1=\"18\" y1=\"88\" x2=\"288\" y2=\"88\" stroke-width=\"2\"/><line x1=\"120\" y1=\"222\" x2=\"120\" y2=\"16\" stroke-width=\"2\"/><polyline points=\"283,84 290,88 283,92\" stroke-width=\"1.5\"/><polyline points=\"116,21 120,14 124,21\" stroke-width=\"1.5\"/><text x=\"290\" y=\"80\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">x</text><text x=\"130\" y=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">y</text><text x=\"112\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11\">O</text><text x=\"24\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"56\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"88\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"152\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"184\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><text x=\"216\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">3</text><text x=\"248\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">4</text><text x=\"280\" y=\"102\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">5</text><text x=\"114\" y=\"219.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−4</text><text x=\"114\" y=\"187.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−3</text><text x=\"114\" y=\"155.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−2</text><text x=\"114\" y=\"123.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">−1</text><text x=\"114\" y=\"59.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">1</text><text x=\"114\" y=\"27.5\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" font-size=\"10\">2</text><line x1=\"56\" y1=\"56\" x2=\"248\" y2=\"56\" class=\"hl\" stroke-width=\"2.5\"/><line x1=\"248\" y1=\"56\" x2=\"248\" y2=\"184\" class=\"hl\" stroke-width=\"2.5\"/><circle cx=\"56\" cy=\"56\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"52\" y=\"47\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">A</text><circle cx=\"248\" cy=\"56\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"252\" y=\"47\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">B</text><circle cx=\"248\" cy=\"184\" r=\"4.5\" class=\"hl2\" fill=\"currentColor\"/><text x=\"252\" y=\"200\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">C</text></svg>",
+      "choices": [
+        "$D(-2,-3)$，面積 $20$",
+        "$D(-3,-2)$，面積 $24$",
+        "$D(2,-3)$，面積 $24$",
+        "$D(-2,-3)$，面積 $24$"
+      ],
+      "answer": 3,
+      "explain": "由圖讀出 $A(-2,1)$、$B(4,1)$、$C(4,-3)$。$D$ 與 $A$ 橫坐標相同（$-2$），與 $C$ 縱坐標相同（$-3$），所以 $D(-2,-3)$。$AB=|4-(-2)|=6$，$BC=|1-(-3)|=4$，面積 $=6\\times 4=24$。面積 $20$ 是算成周長 $2(6+4)$；$(-3,-2)$ 顛倒了順序。答案是 $D(-2,-3)$，面積 $24$。",
+      "codes": [
+        "G-7-1"
+      ]
+    },
+    {
+      "id": "m7-11-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "象限判斷",
+      "q": "已知點 $P(a-3,\\ 2-a)$ 在第二象限，則 $a$ 的範圍為何？",
+      "choices": [
+        "$a<3$",
+        "$a<2$",
+        "$2<a<3$",
+        "$a>3$"
+      ],
+      "answer": 1,
+      "explain": "第二象限需要橫坐標為負、縱坐標為正：$a-3<0$ 得 $a<3$；$2-a>0$ 得 $a<2$。兩個條件要同時成立，所以 $a<2$。只取 $a<3$ 時，例如 $a=2.5$，$P(-0.5,-0.5)$ 在第三象限。答案是 $a<2$。",
+      "codes": [
+        "G-7-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "114 年第 6 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 G-7-1"
+      },
+      {
+        "label": "113 年第 4 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 G-7-1"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「直角坐標平面」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A8%99%E5%B9%B3%E9%9D%A2"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

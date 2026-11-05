@@ -1,0 +1,292 @@
+{
+  "id": "m7-18",
+  "subject": "math",
+  "grade": 7,
+  "order": 18,
+  "title": "統計圖表",
+  "codes": [
+    {
+      "code": "D-7-1",
+      "text": "統計圖表：蒐集生活中常見的數據資料，整理並繪製成含有原始資料或百分率的統計圖表：直方圖、長條圖、圓形圖、折線圖、列聯表。"
+    }
+  ],
+  "intro": "統計圖表把一堆資料變成看得懂的圖：長條圖比類別、折線圖看變化、圓形圖看比例、直方圖看分組分布、列聯表看兩種分類的關係。會考重點是讀圖、算百分率與圓心角，以及判斷圖表是否讀對。",
+  "sections": [
+    {
+      "title": "長條圖",
+      "points": [
+        "長條圖用長條的高度表示各個「類別」的次數，方便比較哪一類多、哪一類少。",
+        "長條之間通常留有空隙，因為每個長條代表一個獨立的類別。",
+        "把所有長條的高度加起來，就是資料總數。",
+        "例：全班 $30$ 人最喜歡的水果，芒果 $10$ 人最多，蘋果 $8$ 人次之。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"170.7\" x2=\"364\" y2=\"170.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"141.3\" x2=\"364\" y2=\"141.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"112\" x2=\"364\" y2=\"112\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"82.7\" x2=\"364\" y2=\"82.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"53.3\" x2=\"364\" y2=\"53.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"24\" x2=\"364\" y2=\"24\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"40\" y=\"174.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"40\" y=\"145.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"40\" y=\"116\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"40\" y=\"86.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"40\" y=\"57.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"40\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">12</text><line x1=\"46\" y1=\"18\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"368\" y2=\"200\"/><rect x=\"57.4\" y=\"82.7\" width=\"40.7\" height=\"117.3\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"77.8\" y=\"77.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"77.8\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">蘋果</text><rect x=\"121\" y=\"112\" width=\"40.7\" height=\"88\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"141.4\" y=\"107\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"141.4\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">香蕉</text><rect x=\"184.6\" y=\"53.3\" width=\"40.7\" height=\"146.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"205\" y=\"48.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"205\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">芒果</text><rect x=\"248.2\" y=\"141.3\" width=\"40.7\" height=\"58.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"268.6\" y=\"136.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"268.6\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">葡萄</text><rect x=\"311.8\" y=\"170.7\" width=\"40.7\" height=\"29.3\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"332.2\" y=\"165.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"332.2\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">其他</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">人數</text></svg>",
+      "caption": "最喜歡的水果：蘋果 8、香蕉 6、芒果 10、葡萄 4、其他 2，共 $30$ 人。"
+    },
+    {
+      "title": "折線圖",
+      "points": [
+        "折線圖把每個時間點的數值描出來，再依時間順序連成線，適合看資料「隨時間的變化」。",
+        "線往上表示增加，往下表示減少，線段愈陡表示變化愈大。",
+        "讀圖時要注意縱軸從哪個數開始，起點不是 $0$ 時，看起來的升降會被放大。",
+        "例：一週最高氣溫從週三 $25$°C 升到週四 $28$°C，增加了 $3$°C。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"360\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"165.6\" x2=\"360\" y2=\"165.6\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"131.2\" x2=\"360\" y2=\"131.2\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"96.8\" x2=\"360\" y2=\"96.8\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"62.4\" x2=\"360\" y2=\"62.4\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"28\" x2=\"360\" y2=\"28\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">22</text><text x=\"40\" y=\"169.6\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">24</text><text x=\"40\" y=\"135.2\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">26</text><text x=\"40\" y=\"100.8\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">28</text><text x=\"40\" y=\"66.4\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"40\" y=\"32\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">32</text><line x1=\"46\" y1=\"22\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\"/><polyline points=\"68.4,165.6 113.3,131.2 158.1,148.4 203,96.8 247.9,62.4 292.7,79.6 337.6,114\" class=\"hl\" stroke-width=\"2.5\"/><circle cx=\"68.4\" cy=\"165.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"68.4\" y=\"157.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">24</text><text x=\"68.4\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週一</text><circle cx=\"113.3\" cy=\"131.2\" r=\"3.5\" fill=\"currentColor\"/><text x=\"113.3\" y=\"123.2\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">26</text><text x=\"113.3\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週二</text><circle cx=\"158.1\" cy=\"148.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"158.1\" y=\"140.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">25</text><text x=\"158.1\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週三</text><circle cx=\"203\" cy=\"96.8\" r=\"3.5\" fill=\"currentColor\"/><text x=\"203\" y=\"88.8\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">28</text><text x=\"203\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週四</text><circle cx=\"247.9\" cy=\"62.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"247.9\" y=\"54.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"247.9\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週五</text><circle cx=\"292.7\" cy=\"79.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"292.7\" y=\"71.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">29</text><text x=\"292.7\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週六</text><circle cx=\"337.6\" cy=\"114\" r=\"3.5\" fill=\"currentColor\"/><text x=\"337.6\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">27</text><text x=\"337.6\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">週日</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">°C</text></svg>",
+      "caption": "一週每日最高氣溫（°C）：週三到週四上升 3°C，週五最高。"
+    },
+    {
+      "title": "圓形圖",
+      "points": [
+        "圓形圖用扇形的大小表示各部分占整體的比例，各部分百分率加起來是 $100\\%$。",
+        "圓心角 $=360^\\circ\\times$ 百分率，例如 $25\\%$ 對應 $90^\\circ$。",
+        "若知道總量，各部分數量 $=$ 總量 $\\times$ 百分率。",
+        "圓形圖只顯示比例，沒有總量時看不出實際數量。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M190,105 L190,25 A80,80 0 0 1 190,185 Z\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"296\" y=\"109\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">餐費 50%</text><path d=\"M190,105 L190,185 A80,80 0 0 1 110,105 Z\" class=\"soft2\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"115\" y=\"184\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">交通 25%</text><path d=\"M190,105 L110,105 A80,80 0 0 1 143,40.3 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"95.6\" y=\"60.9\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">娛樂 15%</text><path d=\"M190,105 L143,40.3 A80,80 0 0 1 190,25 Z\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"157.2\" y=\"8.2\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">其他 10%</text></svg>",
+      "caption": "零用錢 $1200$ 元：餐費 $50\\%$（$180^\\circ$）、交通 $25\\%$（$90^\\circ$）、娛樂 $15\\%$（$54^\\circ$）、其他 $10\\%$（$36^\\circ$）。"
+    },
+    {
+      "title": "直方圖",
+      "points": [
+        "直方圖用來表示「數值資料分組」後的次數；每組範圍的寬度叫組距，同一張圖的組距要相同。",
+        "長方形緊貼在一起，高度表示該組次數；各組次數加起來是總數。",
+        "每組通常含下限、不含上限，例如「$60\\sim80$」表示 $60\\le x<80$。",
+        "組中點 $=\\frac{下限+上限}{2}$，例如 $60\\sim80$ 的組中點是 $70$。",
+        "相對次數 $=\\frac{該組次數}{總次數}$，乘 $100$ 就是百分率。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"170.7\" x2=\"364\" y2=\"170.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"141.3\" x2=\"364\" y2=\"141.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"112\" x2=\"364\" y2=\"112\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"82.7\" x2=\"364\" y2=\"82.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"53.3\" x2=\"364\" y2=\"53.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"24\" x2=\"364\" y2=\"24\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"40\" y=\"174.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"40\" y=\"145.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"40\" y=\"116\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"40\" y=\"86.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"40\" y=\"57.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"40\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">12</text><line x1=\"46\" y1=\"18\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"368\" y2=\"200\"/><rect x=\"46\" y=\"156\" width=\"53\" height=\"44\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"72.5\" y=\"151\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><rect x=\"99\" y=\"112\" width=\"53\" height=\"88\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"125.5\" y=\"107\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><rect x=\"152\" y=\"24\" width=\"53\" height=\"176\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"178.5\" y=\"19\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><rect x=\"205\" y=\"68\" width=\"53\" height=\"132\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"231.5\" y=\"63\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9</text><rect x=\"258\" y=\"141.3\" width=\"53\" height=\"58.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"284.5\" y=\"136.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><rect x=\"311\" y=\"170.7\" width=\"53\" height=\"29.3\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"337.5\" y=\"165.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"46\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"99\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"152\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"205\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"258\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"311\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">120</text><text x=\"364\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">140</text><text x=\"205\" y=\"236\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">跳繩次數（次）</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">人數</text></svg>",
+      "caption": "$36$ 位同學跳繩次數，組距 $20$。$60\\sim80$ 次的人最多，有 $12$ 人。"
+    },
+    {
+      "title": "列聯表",
+      "points": [
+        "列聯表把同一批資料依「兩種分類」同時整理，例如性別與是否戴眼鏡。",
+        "表中每格是同時符合兩種類別的人數；最右欄、最下列是合計。",
+        "每一列的格子相加等於該列合計，每一欄相加等於該欄合計，右下角是全部總數。",
+        "要比較兩群不同大小的人時，改用百分率（占該群的比例），才公平。"
+      ],
+      "svg": "<svg viewBox=\"0 0 334 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"70\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"37\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\"></text><rect x=\"72\" y=\"2\" width=\"90\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"117\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">戴眼鏡</text><rect x=\"162\" y=\"2\" width=\"100\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"212\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">不戴眼鏡</text><rect x=\"262\" y=\"2\" width=\"70\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"297\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">合計</text><rect x=\"2\" y=\"36\" width=\"70\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"37\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">男生</text><rect x=\"72\" y=\"36\" width=\"90\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"117\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9</text><rect x=\"162\" y=\"36\" width=\"100\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"212\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">11</text><rect x=\"262\" y=\"36\" width=\"70\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"297\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">20</text><rect x=\"2\" y=\"70\" width=\"70\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"37\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">女生</text><rect x=\"72\" y=\"70\" width=\"90\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"117\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><rect x=\"162\" y=\"70\" width=\"100\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"212\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text><rect x=\"262\" y=\"70\" width=\"70\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"297\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">20</text><rect x=\"2\" y=\"104\" width=\"70\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"37\" y=\"126\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">合計</text><rect x=\"72\" y=\"104\" width=\"90\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"117\" y=\"126\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">21</text><rect x=\"162\" y=\"104\" width=\"100\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"212\" y=\"126\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">19</text><rect x=\"262\" y=\"104\" width=\"70\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"297\" y=\"126\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text></svg>",
+      "caption": "全班 $40$ 人：戴眼鏡的男生 $9$ 人、女生 $12$ 人，戴眼鏡共 $21$ 人。"
+    },
+    {
+      "title": "怎麼選圖與判讀陷阱",
+      "points": [
+        "比較各類別的多少：長條圖。看隨時間的變化：折線圖。",
+        "看各部分占整體的比例：圓形圖。看數值資料分組的分布：直方圖。",
+        "兩種分類交叉的人數：列聯表。",
+        "判讀時看清楚單位、組界（含不含上限）、是次數還是百分率，這三處最容易出錯。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "圓心角",
+      "body": "圓心角 $=360^\\circ\\times$ 該部分百分率"
+    },
+    {
+      "name": "相對次數",
+      "body": "$\\frac{該組次數}{總次數}$，各組加總為 $1$（$100\\%$）"
+    },
+    {
+      "name": "組中點",
+      "body": "$\\frac{下限+上限}{2}$"
+    },
+    {
+      "name": "組界約定",
+      "body": "每組含下限、不含上限"
+    },
+    {
+      "name": "各種圖的用途",
+      "body": "長條圖比類別、折線圖看變化、圓形圖看比例、直方圖看分組分布"
+    },
+    {
+      "name": "列聯表",
+      "body": "列合計相加＝欄合計相加＝總數"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "m7-18-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "圓心角",
+      "q": "某班同學票選最愛的運動，其中籃球占全班的 $35\\%$。畫成圓形圖時，籃球扇形的圓心角是幾度？",
+      "choices": [
+        "$35^\\circ$",
+        "$126^\\circ$",
+        "$63^\\circ$",
+        "$210^\\circ$"
+      ],
+      "answer": 1,
+      "explain": "圓心角 $=360^\\circ\\times35\\%=126^\\circ$。答案是 $126^\\circ$。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "長條圖判讀",
+      "q": "下圖是某班同學最喜歡的飲料人數長條圖，每位同學只選一種。全班共有幾人？",
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"164.8\" x2=\"364\" y2=\"164.8\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"129.6\" x2=\"364\" y2=\"129.6\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"94.4\" x2=\"364\" y2=\"94.4\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"59.2\" x2=\"364\" y2=\"59.2\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"24\" x2=\"364\" y2=\"24\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"40\" y=\"168.8\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"40\" y=\"133.6\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"40\" y=\"98.4\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"40\" y=\"63.2\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"40\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><line x1=\"46\" y1=\"18\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"368\" y2=\"200\"/><rect x=\"57.4\" y=\"76.8\" width=\"40.7\" height=\"123.2\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"77.8\" y=\"71.8\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"77.8\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">紅茶</text><rect x=\"121\" y=\"112\" width=\"40.7\" height=\"88\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"141.4\" y=\"107\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"141.4\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">綠茶</text><rect x=\"184.6\" y=\"41.6\" width=\"40.7\" height=\"158.4\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"205\" y=\"36.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9</text><text x=\"205\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">奶茶</text><rect x=\"248.2\" y=\"147.2\" width=\"40.7\" height=\"52.8\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"268.6\" y=\"142.2\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"268.6\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">豆漿</text><rect x=\"311.8\" y=\"94.4\" width=\"40.7\" height=\"105.6\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"332.2\" y=\"89.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"332.2\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">果汁</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">人數</text></svg>",
+      "choices": [
+        "$9$",
+        "$24$",
+        "$30$",
+        "$5$"
+      ],
+      "answer": 2,
+      "explain": "把各長條高度相加：$7+5+9+3+6=30$。$9$ 只是最高的長條，$24$ 是漏加了一種。答案是 $30$。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "列聯表",
+      "q": "學校調查「是否贊成午休延長」，結果如下表。贊成的同學占全部受訪同學的百分之幾？",
+      "svg": "<svg viewBox=\"0 0 244 106\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"80\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"42\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\"></text><rect x=\"82\" y=\"2\" width=\"80\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"122\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">贊成</text><rect x=\"162\" y=\"2\" width=\"80\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"202\" y=\"24\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">反對</text><rect x=\"2\" y=\"36\" width=\"80\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"42\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">七年級</text><rect x=\"82\" y=\"36\" width=\"80\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"122\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">18</text><rect x=\"162\" y=\"36\" width=\"80\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"202\" y=\"58\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><rect x=\"2\" y=\"70\" width=\"80\" height=\"34\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"42\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">八年級</text><rect x=\"82\" y=\"70\" width=\"80\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"122\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">15</text><rect x=\"162\" y=\"70\" width=\"80\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"202\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">15</text></svg>",
+      "choices": [
+        "$60\\%$",
+        "$33\\%$",
+        "$45\\%$",
+        "$55\\%$"
+      ],
+      "answer": 3,
+      "explain": "贊成共 $18+15=33$ 人，全部 $18+12+15+15=60$ 人，$\\frac{33}{60}=55\\%$。$60\\%$ 只算了七年級；$45\\%$ 是反對的比例。答案是 $55\\%$。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "直方圖判讀",
+      "q": "下圖是 $40$ 位同學數學成績的直方圖，每組含下限、不含上限。成績在 $70$ 分以上（含 $70$ 分）的有幾人？",
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"170.7\" x2=\"364\" y2=\"170.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"141.3\" x2=\"364\" y2=\"141.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"112\" x2=\"364\" y2=\"112\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"82.7\" x2=\"364\" y2=\"82.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"53.3\" x2=\"364\" y2=\"53.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"24\" x2=\"364\" y2=\"24\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"40\" y=\"174.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"40\" y=\"145.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"40\" y=\"116\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"40\" y=\"86.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"40\" y=\"57.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"40\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">12</text><line x1=\"46\" y1=\"18\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"368\" y2=\"200\"/><rect x=\"46\" y=\"156\" width=\"53\" height=\"44\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"72.5\" y=\"151\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><rect x=\"99\" y=\"112\" width=\"53\" height=\"88\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"125.5\" y=\"107\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><rect x=\"152\" y=\"53.3\" width=\"53\" height=\"146.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"178.5\" y=\"48.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">10</text><rect x=\"205\" y=\"24\" width=\"53\" height=\"176\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"231.5\" y=\"19\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><rect x=\"258\" y=\"97.3\" width=\"53\" height=\"102.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"284.5\" y=\"92.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7</text><rect x=\"311\" y=\"170.7\" width=\"53\" height=\"29.3\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"337.5\" y=\"165.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"46\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"99\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"152\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"205\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70</text><text x=\"258\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"311\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"364\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"205\" y=\"236\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">成績（分）</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">人數</text></svg>",
+      "choices": [
+        "$21$",
+        "$19$",
+        "$9$",
+        "$31$"
+      ],
+      "answer": 0,
+      "explain": "$70\\sim80$、$80\\sim90$、$90\\sim100$ 三組：$12+7+2=21$。$19$ 是漏掉最後一組，$9$ 是漏掉 $70\\sim80$ 這組。答案是 $21$。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "圓形圖",
+      "q": "下圖是小傑本月 $2400$ 元零用錢的支出圓形圖，各扇形圓心角如圖所示。他花在娛樂的金額是多少元？",
+      "svg": "<svg viewBox=\"0 0 380 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M190,105 L190,25 A80,80 0 0 1 230,174.3 Z\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"292.4\" y=\"81.6\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">食物 150°</text><path d=\"M190,105 L230,174.3 A80,80 0 0 1 120.7,145 Z\" class=\"soft2\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"162.6\" y=\"211.4\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">交通 90°</text><path d=\"M190,105 L120.7,145 A80,80 0 0 1 133.4,48.4 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"84.9\" y=\"95.2\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">娛樂 75°</text><path d=\"M190,105 L133.4,48.4 A80,80 0 0 1 190,25 Z\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"149.4\" y=\"11.1\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">其他 45°</text></svg>",
+      "choices": [
+        "$600$",
+        "$1800$",
+        "$500$",
+        "$250$"
+      ],
+      "answer": 2,
+      "explain": "娛樂占 $\\frac{75}{360}$：$2400\\times\\frac{75}{360}=500$（元）。$600$ 是交通的金額；$1800$ 是把 $75^\\circ$ 誤當成 $75\\%$。答案是 $500$。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "折線圖判讀",
+      "q": "下圖是某商店 $1$ 至 $6$ 月的營業額（萬元）。相鄰兩個月之間，營業額增加最多的是哪一段？",
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"360\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"175.4\" x2=\"360\" y2=\"175.4\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"150.9\" x2=\"360\" y2=\"150.9\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"126.3\" x2=\"360\" y2=\"126.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"101.7\" x2=\"360\" y2=\"101.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"77.1\" x2=\"360\" y2=\"77.1\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"52.6\" x2=\"360\" y2=\"52.6\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"28\" x2=\"360\" y2=\"28\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"40\" y=\"179.4\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"40\" y=\"154.9\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">14</text><text x=\"40\" y=\"130.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">16</text><text x=\"40\" y=\"105.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">18</text><text x=\"40\" y=\"81.1\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"40\" y=\"56.6\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">22</text><text x=\"40\" y=\"32\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">24</text><line x1=\"46\" y1=\"22\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\"/><polyline points=\"72.2,175.4 124.5,138.6 176.8,150.9 229.2,114 281.5,52.6 333.8,77.1\" class=\"hl\" stroke-width=\"2.5\"/><circle cx=\"72.2\" cy=\"175.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"72.2\" y=\"167.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"72.2\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1月</text><circle cx=\"124.5\" cy=\"138.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"124.5\" y=\"130.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">15</text><text x=\"124.5\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2月</text><circle cx=\"176.8\" cy=\"150.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"176.8\" y=\"142.9\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">14</text><text x=\"176.8\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3月</text><circle cx=\"229.2\" cy=\"114\" r=\"3.5\" fill=\"currentColor\"/><text x=\"229.2\" y=\"106\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">17</text><text x=\"229.2\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4月</text><circle cx=\"281.5\" cy=\"52.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"281.5\" y=\"44.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">22</text><text x=\"281.5\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5月</text><circle cx=\"333.8\" cy=\"77.1\" r=\"3.5\" fill=\"currentColor\"/><text x=\"333.8\" y=\"69.1\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"333.8\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6月</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">萬元</text></svg>",
+      "choices": [
+        "1 月到 2 月",
+        "4 月到 5 月",
+        "3 月到 4 月",
+        "5 月到 6 月"
+      ],
+      "answer": 1,
+      "explain": "逐段相減：$1\\to2$ 月 $+3$，$2\\to3$ 月 $-1$，$3\\to4$ 月 $+3$，$4\\to5$ 月 $+5$，$5\\to6$ 月 $-2$。增加最多的是 4 月到 5 月。答案是 4 月到 5 月。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "直方圖判讀",
+      "q": "同上題的直方圖（$40$ 位同學，每組含下限、不含上限），下列敘述哪一項正確？",
+      "svg": "<svg viewBox=\"0 0 380 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g stroke-opacity=\"0.25\"><line x1=\"46\" y1=\"200\" x2=\"364\" y2=\"200\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"170.7\" x2=\"364\" y2=\"170.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"141.3\" x2=\"364\" y2=\"141.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"112\" x2=\"364\" y2=\"112\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"82.7\" x2=\"364\" y2=\"82.7\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"53.3\" x2=\"364\" y2=\"53.3\" stroke-width=\"0.6\"/><line x1=\"46\" y1=\"24\" x2=\"364\" y2=\"24\" stroke-width=\"0.6\"/></g><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"40\" y=\"174.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"40\" y=\"145.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"40\" y=\"116\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"40\" y=\"86.7\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"40\" y=\"57.3\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"40\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">12</text><line x1=\"46\" y1=\"18\" x2=\"46\" y2=\"200\"/><line x1=\"46\" y1=\"200\" x2=\"368\" y2=\"200\"/><rect x=\"46\" y=\"156\" width=\"53\" height=\"44\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"72.5\" y=\"151\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><rect x=\"99\" y=\"112\" width=\"53\" height=\"88\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"125.5\" y=\"107\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><rect x=\"152\" y=\"53.3\" width=\"53\" height=\"146.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"178.5\" y=\"48.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">10</text><rect x=\"205\" y=\"24\" width=\"53\" height=\"176\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"231.5\" y=\"19\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><rect x=\"258\" y=\"97.3\" width=\"53\" height=\"102.7\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"284.5\" y=\"92.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7</text><rect x=\"311\" y=\"170.7\" width=\"53\" height=\"29.3\" class=\"soft\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"337.5\" y=\"165.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"46\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"99\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"152\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"205\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70</text><text x=\"258\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"311\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"364\" y=\"216\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"205\" y=\"236\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">成績（分）</text><text x=\"40\" y=\"12\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">人數</text></svg>",
+      "choices": [
+        "成績恰為 $80$ 分的同學屬於 $70\\sim80$ 這一組",
+        "成績在 $60$ 分以上的同學占全班 $80\\%$",
+        "成績未滿 $60$ 分的同學占全班 $25\\%$",
+        "人數最多的一組是 $70\\sim80$ 分，組中點為 $75$ 分"
+      ],
+      "answer": 3,
+      "explain": "人數最多的是 $70\\sim80$ 組（$12$ 人），組中點 $\\frac{70+80}{2}=75$，正確。$80$ 分屬於 $80\\sim90$ 組；$60$ 分以上有 $31$ 人，占 $77.5\\%$；未滿 $60$ 分有 $9$ 人，占 $22.5\\%$。答案是最後一個敘述，即人數最多的一組是 $70\\sim80$ 分，組中點為 $75$ 分。",
+      "codes": [
+        "D-7-1"
+      ]
+    },
+    {
+      "id": "m7-18-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "百分率合併",
+      "q": "甲班 $40$ 人，騎腳踏車上學的占 $25\\%$；乙班 $60$ 人，其中騎腳踏車上學的有 $30$ 人。兩班合起來，騎腳踏車上學的占兩班總人數的百分之幾？",
+      "choices": [
+        "$40\\%$",
+        "$37.5\\%$",
+        "$75\\%$",
+        "$35\\%$"
+      ],
+      "answer": 0,
+      "explain": "甲班騎車 $40\\times25\\%=10$ 人，乙班 $30$ 人，合計 $40$ 人，總人數 $100$ 人，比例 $40\\%$。$37.5\\%$ 是把 $25\\%$ 與 $50\\%$ 直接平均，忽略兩班人數不同。答案是 $40\\%$。",
+      "codes": [
+        "D-7-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年第 6 題",
+        "url": "https://drive.google.com/file/d/1G-grfVw1NldMD3TRG-7Lco-yOuaoTKoK/view",
+        "note": "心測中心試題分析標示學習內容 D-7-1"
+      },
+      {
+        "label": "114 年第 7 題",
+        "url": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view",
+        "note": "心測中心試題分析標示學習內容 D-7-1"
+      },
+      {
+        "label": "113 年第 9 題",
+        "url": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view",
+        "note": "心測中心試題分析標示學習內容 D-7-1"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「統計圖表」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%B5%B1%E8%A8%88%E5%9C%96%E8%A1%A8"
+    },
+    {
+      "label": "均一教育平台：搜尋「直方圖」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%9B%B4%E6%96%B9%E5%9C%96"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}
