@@ -1,0 +1,317 @@
+{
+  "id": "s9-09",
+  "subject": "science",
+  "grade": 9,
+  "order": 9,
+  "title": "天氣系統與氣候",
+  "codes": [
+    {
+      "code": "Ib-Ⅳ-1",
+      "text": "氣團是性質均勻的大型空氣團塊，性質各有不同。"
+    },
+    {
+      "code": "Ib-Ⅳ-2",
+      "text": "氣壓差會造成空氣的流動而產生風。"
+    },
+    {
+      "code": "Ib-Ⅳ-3",
+      "text": "由於地球自轉的關係會造成高、低氣壓空氣的旋轉。"
+    },
+    {
+      "code": "Ib-Ⅳ-4",
+      "text": "鋒面是性質不同的氣團之交界面，會產生各種天氣變化。"
+    },
+    {
+      "code": "Ib-Ⅳ-5",
+      "text": "臺灣的災變天氣包括颱風、梅雨、寒潮、乾旱等現象。"
+    },
+    {
+      "code": "Ib-Ⅳ-6",
+      "text": "臺灣秋冬季受東北季風影響，夏季受西南季風影響，造成各地氣溫、風向和降水的季節性差異。"
+    },
+    {
+      "code": "Md-Ⅳ-2",
+      "text": "颱風主要發生在七至九月，並容易造成生命財產的損失。"
+    },
+    {
+      "code": "Md-Ⅳ-3",
+      "text": "颱風會帶來狂風、豪雨及暴潮等災害。"
+    }
+  ],
+  "intro": "天氣由氣壓差、氣團與鋒面決定，台灣還有颱風、梅雨與季風。會考常考高低氣壓風向、冷鋒與暖鋒的差別、颱風結構與災害，以及季風造成的降雨差異。",
+  "sections": [
+    {
+      "title": "氣壓與風",
+      "points": [
+        "氣壓是空氣柱的重量造成的壓力；高度越高，空氣越稀薄，氣壓越小。",
+        "空氣由**高壓流向低壓**形成風；兩地氣壓差越大，風越強（天氣圖上等壓線越密，風越強）。",
+        "受地球自轉影響，北半球的風會向右偏：**高壓**順時針向外吹出，中心有下沉氣流，天氣晴朗；**低壓**逆時針向內吹入，中心有上升氣流，易成雲致雨。南半球旋轉方向相反。",
+        "迷思：風不是直接吹向低壓中心，而是邊轉邊吹進去。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 215\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"105\" cy=\"100\" r=\"50\" class=\"hl\"/><polyline points=\"97,44 105,50 97,56\" class=\"hl\"/><line x1=\"105\" y1=\"82\" x2=\"105\" y2=\"60\" class=\"hl2\"/><polyline points=\"100,66 105,60 110,66\" class=\"hl2\"/><line x1=\"105\" y1=\"118\" x2=\"105\" y2=\"140\" class=\"hl2\"/><polyline points=\"100,134 105,140 110,134\" class=\"hl2\"/><line x1=\"88\" y1=\"100\" x2=\"68\" y2=\"100\" class=\"hl2\"/><polyline points=\"74,95 68,100 74,105\" class=\"hl2\"/><line x1=\"122\" y1=\"100\" x2=\"142\" y2=\"100\" class=\"hl2\"/><polyline points=\"136,95 142,100 136,105\" class=\"hl2\"/><text x=\"105\" y=\"105\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">H</text><circle cx=\"315\" cy=\"100\" r=\"50\" class=\"hl\"/><polyline points=\"323,44 315,50 323,56\" class=\"hl\"/><line x1=\"315\" y1=\"62\" x2=\"315\" y2=\"82\" class=\"hl2\"/><polyline points=\"310,76 315,82 320,76\" class=\"hl2\"/><line x1=\"315\" y1=\"138\" x2=\"315\" y2=\"118\" class=\"hl2\"/><polyline points=\"310,124 315,118 320,124\" class=\"hl2\"/><line x1=\"277\" y1=\"100\" x2=\"297\" y2=\"100\" class=\"hl2\"/><polyline points=\"291,95 297,100 291,105\" class=\"hl2\"/><line x1=\"353\" y1=\"100\" x2=\"333\" y2=\"100\" class=\"hl2\"/><polyline points=\"339,95 333,100 339,105\" class=\"hl2\"/><text x=\"315\" y=\"105\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">L</text><text x=\"105\" y=\"180\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">高壓：順時針、向外</text><text x=\"105\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">下沉氣流，天氣晴朗</text><text x=\"315\" y=\"180\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">低壓：逆時針、向內</text><text x=\"315\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">上升氣流，多雲有雨</text></svg>",
+      "caption": "北半球的高壓與低壓：高壓順時針向外，低壓逆時針向內。"
+    },
+    {
+      "title": "氣團與鋒面",
+      "points": [
+        "氣團是溫度、濕度大致均勻的大範圍空氣；性質不同的氣團相遇的交界面叫**鋒面**。",
+        "**冷鋒**：冷氣團推向暖氣團，暖空氣被迫抬升，降雨範圍小、時間短但雨勢強；過境後氣溫下降、氣壓上升、風向轉為偏北。",
+        "**暖鋒**：暖氣團爬上冷氣團，降雨範圍廣、時間長，雨勢較緩和；過境後氣溫上升。",
+        "**滯留鋒**：冷暖氣團勢力相當，鋒面長時間停留，帶來連續降雨，如台灣的梅雨。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 205\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"20,70 225,70 260,170 20,170\" class=\"soft\" stroke=\"none\"/><polyline points=\"225,70 260,170\"/><line x1=\"10\" y1=\"170\" x2=\"410\" y2=\"170\"/><ellipse cx=\"270\" cy=\"55\" rx=\"32\" ry=\"14\" class=\"soft2\"/><line x1=\"255\" y1=\"80\" x2=\"250\" y2=\"95\" class=\"hl\"/><line x1=\"268\" y1=\"80\" x2=\"263\" y2=\"95\" class=\"hl\"/><line x1=\"281\" y1=\"80\" x2=\"276\" y2=\"95\" class=\"hl\"/><line x1=\"310\" y1=\"155\" x2=\"300\" y2=\"115\" class=\"hl2\" stroke-width=\"3\"/><polyline points=\"293,122 300,115 307,123\" class=\"hl2\"/><text x=\"110\" y=\"125\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">冷氣團</text><text x=\"350\" y=\"135\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">暖氣團</text><text x=\"312\" y=\"108\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">暖空氣上升</text><line x1=\"20\" y1=\"30\" x2=\"70\" y2=\"30\" class=\"hl\" stroke-width=\"3\"/><polyline points=\"62,24 70,30 62,36\" class=\"hl\"/><text x=\"78\" y=\"35\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">冷鋒前進方向</text><text x=\"210\" y=\"195\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">冷鋒：冷氣團推進，暖空氣被迫抬升，降雨短而強</text></svg>",
+      "caption": "冷鋒剖面：冷氣團像楔子推進，暖空氣被迫抬升成雲致雨。"
+    },
+    {
+      "title": "颱風",
+      "points": [
+        "颱風是在溫暖熱帶海面上形成的強烈熱帶氣旋，近中心最大風速每秒 17.2 公尺以上才稱為颱風；北半球颱風逆時針旋轉，需要溫暖海水提供水氣與能量。",
+        "台灣的颱風季主要在 7 至 9 月；颱風登陸陸地後，失去水氣並受地形摩擦，強度通常減弱。",
+        "颱風結構：中心的**颱風眼**風弱、雲少；外圍的**眼牆**風雨最強。",
+        "災害有三種：狂風、豪雨（造成淹水與土石流）、暴潮（低氣壓使海面升高，加上強風與大潮，使海水倒灌）。",
+        "其他災變天氣：梅雨（5、6 月的滯留鋒）、寒潮（冬季冷空氣南下，驟降低溫）、乾旱（降雨長期偏少）。"
+      ]
+    },
+    {
+      "title": "季風與台灣氣候",
+      "points": [
+        "季風的成因是海洋與陸地的比熱不同：陸地升溫、降溫都比海洋快，使冬夏的氣壓分布相反，風向隨季節改變。",
+        "**夏季**：大陸受熱成低壓、海洋為高壓，風由海吹向陸，台灣吹西南季風，高溫多雨。",
+        "**冬季**：大陸冷卻成高壓、海洋為低壓，台灣吹東北季風，迎風的北部與東北部多雨，背風的西南部較乾燥。",
+        "台灣北部與東北部冬季多雨，南部則夏雨冬乾，這是因為冬季東北季風帶來海上水氣，被山脈攔截。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"210\" y=\"20\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">夏季：西南季風（海洋吹向陸地）</text><rect x=\"20\" y=\"30\" width=\"130\" height=\"50\" class=\"soft\"/><rect x=\"270\" y=\"30\" width=\"130\" height=\"50\" class=\"soft2\"/><text x=\"85\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">大陸（低壓）</text><text x=\"335\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">海洋（高壓）</text><line x1=\"260\" y1=\"55\" x2=\"160\" y2=\"55\" class=\"hl\" stroke-width=\"3\"/><polyline points=\"168,49 160,55 168,61\" class=\"hl\"/><text x=\"210\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">冬季：東北季風（陸地吹向海洋）</text><rect x=\"20\" y=\"122\" width=\"130\" height=\"50\" class=\"soft\"/><rect x=\"270\" y=\"122\" width=\"130\" height=\"50\" class=\"soft2\"/><text x=\"85\" y=\"152\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">大陸（高壓）</text><text x=\"335\" y=\"152\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">海洋（低壓）</text><line x1=\"160\" y1=\"147\" x2=\"260\" y2=\"147\" class=\"hl2\" stroke-width=\"3\"/><polyline points=\"252,141 260,147 252,153\" class=\"hl2\"/><text x=\"210\" y=\"192\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">風由高壓吹向低壓</text></svg>",
+      "caption": "季風：夏季海吹向陸，冬季陸吹向海。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "風的成因",
+      "body": "空氣由高壓流向低壓；氣壓差越大風越強"
+    },
+    {
+      "name": "北半球高壓",
+      "body": "順時針向外吹，下沉氣流，天氣晴朗"
+    },
+    {
+      "name": "北半球低壓",
+      "body": "逆時針向內吹，上升氣流，多雲有雨"
+    },
+    {
+      "name": "冷鋒",
+      "body": "雨勢強、範圍小，過境後氣溫下降、氣壓上升"
+    },
+    {
+      "name": "暖鋒與滯留鋒",
+      "body": "暖鋒雨廣而緩；滯留鋒長時間停留，如梅雨"
+    },
+    {
+      "name": "颱風",
+      "body": "熱帶海面形成，7 至 9 月最多，逆時針旋轉；眼牆風雨最強"
+    },
+    {
+      "name": "台灣季風",
+      "body": "夏季西南季風，冬季東北季風；迎風面多雨"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "s9-09-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "高低氣壓風向",
+      "q": "在北半球，低氣壓附近的風向（從上方俯視）為何？",
+      "choices": [
+        "逆時針方向，向低壓中心吹入",
+        "順時針方向，向低壓中心吹入",
+        "逆時針方向，由低壓中心向外吹出",
+        "順時針方向，由低壓中心向外吹出"
+      ],
+      "answer": 0,
+      "explain": "北半球的風受地球自轉影響向右偏，在低壓處形成逆時針旋轉，同時從外圍向中心吹入。其他選項：順時針向內吹入是南半球低壓的風向；向外吹出是高壓的特徵，其中順時針向外是北半球高壓，逆時針向外則不屬於北半球的高壓或低壓。答案是 逆時針方向，向低壓中心吹入。",
+      "codes": [
+        "Ib-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "s9-09-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "冷鋒天氣",
+      "q": "冷鋒過境後，當地的天氣變化最可能為何？",
+      "choices": [
+        "氣溫上升，氣壓下降，風向轉為偏南風",
+        "降雨時間長而範圍廣，氣溫緩慢上升",
+        "氣溫下降，氣壓上升，風向轉為偏北風",
+        "氣溫與風向都沒有改變，天氣持續晴朗"
+      ],
+      "answer": 2,
+      "explain": "冷鋒是冷氣團推進，後方是較冷、較乾的空氣，所以氣溫下降、氣壓上升、風向轉偏北。其他選項：氣溫上升且偏南風是暖氣團的特徵；降雨時間長、範圍廣、氣溫緩慢上升是暖鋒的特徵；冷鋒通過時一定有氣團交替，天氣不會毫無變化。答案是 氣溫下降，氣壓上升，風向轉為偏北風。",
+      "codes": [
+        "Ib-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "s9-09-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "颱風生成",
+      "q": "颱風最常出現的月份與生成環境，下列何者正確？",
+      "choices": [
+        "12 至 2 月，寒冷的高緯度海面",
+        "7 至 9 月，溫暖的熱帶海面",
+        "7 至 9 月，大陸內陸的乾燥地區",
+        "12 至 2 月，溫暖的熱帶海面"
+      ],
+      "answer": 1,
+      "explain": "颱風靠溫暖海水提供水氣與能量，生成在熱帶海面，台灣的颱風季主要是 7 至 9 月。其他選項：寒冷海面與內陸乾燥地區缺少水氣來源，無法形成颱風；12 至 2 月是冬季，海水溫度較低，颱風並不是這段時間最常出現。答案是 7 至 9 月，溫暖的熱帶海面。",
+      "codes": [
+        "Md-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "s9-09-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "氣壓差與風力",
+      "q": "同一條東西向直線上，由西向東依序有甲、乙、丙、丁四個測站，相鄰兩站相距都是 100 公里。氣壓分別為：甲 1000 百帕、乙 1004 百帕、丙 1016 百帕、丁 1018 百帕。哪兩站之間的風力最強？",
+      "choices": [
+        "丙、丁之間",
+        "甲、乙之間",
+        "三段的風力相同",
+        "乙、丙之間"
+      ],
+      "answer": 3,
+      "explain": "距離相同時，氣壓差越大，風力越強。甲乙差 $1004-1000=4$、乙丙差 $1016-1004=12$、丙丁差 $1018-1016=2$（百帕），乙丙之間最大。其他選項：丙丁只有 2、甲乙只有 4，都比 12 小；三段氣壓差不同，風力也不同。答案是 乙、丙之間。",
+      "codes": [
+        "Ib-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "s9-09-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "東北季風與降雨",
+      "q": "冬季台灣的北部與東北部（如基隆）降雨偏多，西南部（如高雄）卻很少下雨。下列何者最能解釋此現象？",
+      "choices": [
+        "夏季西南季風使基隆位於迎風面",
+        "冬季東北季風從海上帶來水氣，基隆位於迎風面而多雨，高雄位於背風側而少雨",
+        "冬季颱風大多從基隆登陸，使基隆雨量增加",
+        "冬季冷鋒都停留在高雄上空，使高雄天氣晴朗"
+      ],
+      "answer": 1,
+      "explain": "冬季台灣吹東北季風，帶來海上水氣；基隆在迎風面，空氣被迫抬升易降雨，高雄在山脈背風側，空氣乾燥下沉。其他選項：題目問的是冬季，夏季西南季風不適用；冬季不是颱風季，颱風不會集中在冬季登陸基隆；冷鋒不會固定停在高雄，也不能解釋雨量差異。答案是 冬季東北季風從海上帶來水氣，基隆位於迎風面而多雨，高雄位於背風側而少雨。",
+      "codes": [
+        "Ib-Ⅳ-6"
+      ]
+    },
+    {
+      "id": "s9-09-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "颱風眼",
+      "q": "某測站記錄到颱風通過時的天氣：風雨逐漸增強，之後突然風雨減弱、天空轉晴，約一小時後又出現強風豪雨，且風向和先前相反。這最可能表示該測站發生了什麼？",
+      "choices": [
+        "颱風眼通過測站上空或附近",
+        "冷鋒在短時間內兩度通過測站",
+        "颱風已經消失，轉變成高壓",
+        "梅雨鋒面停留在測站上空"
+      ],
+      "answer": 0,
+      "explain": "颱風眼中心風弱、雲少，因此風雨暫時減弱；眼牆通過後，另一側的強風豪雨又出現，風向因颱風逆時針旋轉而相反。其他選項：冷鋒過境後天氣是持續轉為偏北風，不會再次出現同樣的強風雨；颱風減弱後只會變成熱帶性低氣壓或消散，不會變成高壓；梅雨鋒面是長時間穩定降雨，不會中間突然放晴。答案是 颱風眼通過測站上空或附近。",
+      "codes": [
+        "Md-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "s9-09-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "低壓風向判斷",
+      "q": "北半球某個颱風，其環流近似為逆時針繞中心的圓形（不考慮向內吹入的部分）。若颱風中心位於某城市的正北方，則此時該城市吹何種風？",
+      "choices": [
+        "北風",
+        "南風",
+        "東風",
+        "西風"
+      ],
+      "answer": 3,
+      "explain": "逆時針繞中心流動時，順序為東、北、西、南再回到東。城市位於中心正南方，這個位置的氣流向東流動，因此風是由西吹向東，也就是西風。其他選項：逆時針環流在中心西側吹北風、東側吹南風、北側吹東風，只有在城市位於中心正南方時才是西風；北風、南風、東風分別是城市位於中心西側、東側、北側時的風向。答案是 西風。",
+      "codes": [
+        "Ib-Ⅳ-3",
+        "Md-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "s9-09-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "颱風移動時間",
+      "q": "某颱風中心在上午 6 時位於台灣東方海面，距離台灣東岸 450 公里，以每小時 15 公里的速率朝正西方等速前進。若速率與方向不變，中心最快約何時到達東岸？",
+      "choices": [
+        "當天 21 時",
+        "當天 16 時",
+        "隔天 12 時",
+        "隔天 6 時"
+      ],
+      "answer": 2,
+      "explain": "時間 $=\\frac{450}{15}=30$ 小時，上午 6 時再過 30 小時，是隔天中午 12 時。其他選項：當天 21 時是用 15 小時算（把速率當成 30 公里每小時）；當天 16 時是用 10 小時算；隔天 6 時是 24 小時，都不是 $450\\div15$。答案是 隔天 12 時。",
+      "codes": [
+        "Md-Ⅳ-3"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年自然科第 34 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：滯留鋒 低氣壓 暴雨（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 5 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：鋒面剖面 冷暖空氣判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 13 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：東北季風 迎風背風面降雨（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 23 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：等壓線疏密 風速大小（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 3 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：氣溫預報圖判讀冷空氣南下（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 15 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：等壓線判讀 氣壓與風向（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 28 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：天氣系統 颱風氣團分類（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「鋒面與氣團」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%8B%92%E9%9D%A2%E8%88%87%E6%B0%A3%E5%9C%98"
+    },
+    {
+      "label": "均一教育平台：搜尋「颱風」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%A2%B1%E9%A2%A8"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

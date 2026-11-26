@@ -1,0 +1,267 @@
+{
+  "id": "s9-06",
+  "subject": "science",
+  "grade": 9,
+  "order": 6,
+  "title": "電流、電路與用電",
+  "codes": [
+    {
+      "code": "Kc-Ⅳ-7",
+      "text": "電池連接導體形成通路時，多數導體通過的電流與其兩端電壓差成正比，其比值即為電阻。"
+    },
+    {
+      "code": "Kc-Ⅳ-8",
+      "text": "電流通過帶有電阻物體時，能量會以發熱的形式逸散。"
+    },
+    {
+      "code": "Mc-Ⅳ-5",
+      "text": "電力供應與輸送方式的概要。"
+    },
+    {
+      "code": "Mc-Ⅳ-6",
+      "text": "用電安全常識，避免觸電和電線走火。"
+    },
+    {
+      "code": "Mc-Ⅳ-7",
+      "text": "電器標示和電費計算。"
+    }
+  ],
+  "intro": "這個單元學歐姆定律、串聯與並聯、電功率與電費、輸電與用電安全。會考常考串並聯電流電壓的計算、電器標示與電費，以及實驗數據判讀電阻。",
+  "sections": [
+    {
+      "title": "電流、電壓與電阻",
+      "points": [
+        "電流：每秒通過導線截面的電量，單位 $\\mathrm{A}$；電壓：推動電荷的「電位差」，單位 $\\mathrm{V}$；電阻：阻礙電流的程度，單位 $\\Omega$。",
+        "歐姆定律：$V=IR$。多數導體在溫度固定時，電流與兩端電壓成正比，比值就是電阻。",
+        "電阻大小與導線材料、長度、截面積有關：愈長愈大、愈粗愈小。",
+        "電流表要串聯在電路中，電壓表要並聯在待測元件兩端。",
+        "迷思：電阻是導體本身的性質，不會因為你加大電壓就改變（定值電阻器在溫度固定時）。"
+      ],
+      "svg": "<svg viewBox=\"0 0 320 185\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"150\"/><line x1=\"50\" y1=\"150\" x2=\"260\" y2=\"150\"/><line x1=\"50\" y1=\"150\" x2=\"230\" y2=\"52\" class=\"hl\" stroke-width=\"3\"/><line x1=\"50\" y1=\"150\" x2=\"230\" y2=\"112\" class=\"hl2\" stroke-width=\"3\"/><text x=\"50\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">電壓 V</text><text x=\"255\" y=\"172\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">電流 I</text><text x=\"238\" y=\"56\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl\" font-size=\"13\">電阻大</text><text x=\"238\" y=\"116\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">電阻小</text><text x=\"40\" y=\"166\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">0</text></svg>",
+      "caption": "電壓—電流圖中，直線的斜率就是電阻 $R$。"
+    },
+    {
+      "title": "串聯與並聯",
+      "points": [
+        "串聯：電流處處相同，總電壓＝各電阻電壓之和，總電阻 $R=R_1+R_2$。",
+        "並聯：各支路電壓相同，總電流＝各支路電流之和，$\\frac{1}{R}=\\frac{1}{R_1}+\\frac{1}{R_2}$，總電阻比最小的電阻還小。",
+        "串聯時一個元件斷路，全部都不通；並聯時各支路互不影響。",
+        "家中電器都是並聯：每個都得到相同電壓，可以各自開關。",
+        "並聯的電器愈多，總電流愈大。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 185\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"40\" x2=\"50\" y2=\"40\"/><rect x=\"50\" y=\"30\" width=\"40\" height=\"20\" class=\"soft\"/><line x1=\"90\" y1=\"40\" x2=\"120\" y2=\"40\"/><rect x=\"120\" y=\"30\" width=\"40\" height=\"20\" class=\"soft\"/><line x1=\"160\" y1=\"40\" x2=\"190\" y2=\"40\"/><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"140\"/><line x1=\"190\" y1=\"140\" x2=\"20\" y2=\"140\"/><line x1=\"20\" y1=\"140\" x2=\"20\" y2=\"100\"/><line x1=\"10\" y1=\"100\" x2=\"30\" y2=\"100\" stroke-width=\"2\"/><line x1=\"15\" y1=\"90\" x2=\"25\" y2=\"90\" stroke-width=\"5\"/><line x1=\"20\" y1=\"90\" x2=\"20\" y2=\"40\"/><text x=\"70\" y=\"24\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">R1</text><text x=\"140\" y=\"24\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">R2</text><text x=\"105\" y=\"172\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">串聯：電流相同</text><line x1=\"250\" y1=\"40\" x2=\"370\" y2=\"40\"/><line x1=\"250\" y1=\"140\" x2=\"370\" y2=\"140\"/><line x1=\"250\" y1=\"140\" x2=\"250\" y2=\"100\"/><line x1=\"240\" y1=\"100\" x2=\"260\" y2=\"100\" stroke-width=\"2\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke-width=\"5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"40\"/><line x1=\"310\" y1=\"40\" x2=\"310\" y2=\"70\"/><rect x=\"300\" y=\"70\" width=\"20\" height=\"40\" class=\"soft\"/><line x1=\"310\" y1=\"110\" x2=\"310\" y2=\"140\"/><line x1=\"370\" y1=\"40\" x2=\"370\" y2=\"70\"/><rect x=\"360\" y=\"70\" width=\"20\" height=\"40\" class=\"soft\"/><line x1=\"370\" y1=\"110\" x2=\"370\" y2=\"140\"/><text x=\"294\" y=\"95\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">R1</text><text x=\"356\" y=\"95\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">R2</text><text x=\"315\" y=\"172\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">並聯：電壓相同</text></svg>",
+      "caption": "左：電阻串聯，電流只有一條路。右：電阻並聯，電流分成兩條路。"
+    },
+    {
+      "title": "電功率、電能與電費",
+      "points": [
+        "電功率 $P=VI$，搭配歐姆定律可得 $P=I^2R=\\frac{V^2}{R}$，單位 $\\mathrm{W}$。",
+        "電能 $=Pt$。電費用「度」計算：$1\\ 度=1\\ \\mathrm{kWh}$（$1\\ \\mathrm{kW}$ 的電器用 1 小時）。",
+        "電費 $=$ 度數 $\\times$ 每度電價；度數 $=$ 功率（$\\mathrm{kW}$）$\\times$ 時間（$\\mathrm{h}$）。",
+        "電器標示如「$110\\ \\mathrm{V}$、$1100\\ \\mathrm{W}$」，表示在 $110\\ \\mathrm{V}$ 下使用的功率是 $1100\\ \\mathrm{W}$，電流 $=\\frac{1100}{110}=10\\ \\mathrm{A}$。",
+        "電流熱效應：電流通過電阻會發熱，電熱 $H=I^2Rt$；電熱水壺、電暖器就是利用這個原理。"
+      ]
+    },
+    {
+      "title": "電力輸送與用電安全",
+      "points": [
+        "輸電時用高電壓：功率相同時，電壓愈高電流愈小，線路發熱損耗（$I^2R$）愈少。",
+        "電線走火主因：過載（同一插座接太多電器，總電流太大）與短路（電阻接近零，電流暴增）。",
+        "保險絲、斷路器串聯在總電路中，電流過大時熔斷或跳電，保護電路。",
+        "有接地線的三孔插座，可以在漏電時把電導入大地；潮濕的手不碰插頭與開關。",
+        "迷思：電壓高不一定致命，真正危險的是通過人體的電流大小，但高電壓容易產生大電流。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "歐姆定律",
+      "body": "$V=IR$"
+    },
+    {
+      "name": "串聯",
+      "body": "電流相同；$R=R_1+R_2$"
+    },
+    {
+      "name": "並聯",
+      "body": "電壓相同；$\\frac{1}{R}=\\frac{1}{R_1}+\\frac{1}{R_2}$"
+    },
+    {
+      "name": "電功率",
+      "body": "$P=VI=I^2R=\\frac{V^2}{R}$"
+    },
+    {
+      "name": "電能與電費",
+      "body": "電能 $=Pt$；度數 $=\\mathrm{kW}\\times\\mathrm{h}$；電費＝度數×電價"
+    },
+    {
+      "name": "電熱",
+      "body": "$H=I^2Rt$"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "s9-06-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "歐姆定律計算",
+      "q": "一個 $6\\ \\mathrm{\\Omega}$ 的電阻器接在 $12\\ \\mathrm{V}$ 的電池兩端，通過它的電流為何？",
+      "choices": [
+        "$72\\ \\mathrm{A}$",
+        "$6\\ \\mathrm{A}$",
+        "$2\\ \\mathrm{A}$",
+        "$0.5\\ \\mathrm{A}$"
+      ],
+      "answer": 2,
+      "explain": "$I=\\frac{V}{R}=\\frac{12}{6}=2\\ \\mathrm{A}$。其他選項：72 是把電壓和電阻相乘；6 是電壓減電阻；0.5 是把電阻除以電壓，上下顛倒。答案是 $2\\ \\mathrm{A}$。"
+    },
+    {
+      "id": "s9-06-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "串聯與並聯特性",
+      "q": "家中的電燈、電視、冰箱等電器，在牆上插座之間採用哪一種連接方式？原因為何？",
+      "choices": [
+        "並聯，每個電器兩端的電壓相同，而且可以各自獨立開關",
+        "串聯，這樣流過每個電器的電流會比較大",
+        "串聯，這樣可以節省電線",
+        "並聯，這樣流過每個電器的電流一定相同"
+      ],
+      "answer": 0,
+      "explain": "並聯時各支路電壓相同，一個電器關掉或壞掉，不影響其他電器，所以家用電器是並聯。其他選項：串聯時電流處處相同、只要一個斷路全家停電，不適合家用；串聯不是為了加大電流或省電線；並聯各支路電流視各電器電阻而不同，不一定相同。答案是並聯，每個電器兩端的電壓相同，而且可以各自獨立開關。"
+    },
+    {
+      "id": "s9-06-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "電功率與電流",
+      "q": "某電熱水壺的銘牌標示為「$110\\ \\mathrm{V}$、$1100\\ \\mathrm{W}$」，在額定電壓下正常使用時，通過它的電流為何？",
+      "choices": [
+        "$0.1\\ \\mathrm{A}$",
+        "$10\\ \\mathrm{A}$",
+        "$990\\ \\mathrm{A}$",
+        "$1210\\ \\mathrm{A}$"
+      ],
+      "answer": 1,
+      "explain": "$P=VI$，$I=\\frac{P}{V}=\\frac{1100}{110}=10\\ \\mathrm{A}$。其他選項：0.1 是把電壓除以功率，上下顛倒；990 是功率減電壓；1210 是功率加電壓。這些不同單位的量不能相加減。答案是 $10\\ \\mathrm{A}$。"
+    },
+    {
+      "id": "s9-06-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "串聯電壓分配",
+      "q": "電阻 $4\\ \\mathrm{\\Omega}$ 與 $8\\ \\mathrm{\\Omega}$ 串聯後接在 $24\\ \\mathrm{V}$ 的電池兩端，則 $4\\ \\mathrm{\\Omega}$ 電阻兩端的電壓為何？",
+      "choices": [
+        "$16\\ \\mathrm{V}$",
+        "$24\\ \\mathrm{V}$",
+        "$12\\ \\mathrm{V}$",
+        "$8\\ \\mathrm{V}$"
+      ],
+      "answer": 3,
+      "explain": "串聯總電阻 $=4+8=12\\ \\Omega$，電流 $I=\\frac{24}{12}=2\\ \\mathrm{A}$，$V_1=IR_1=2\\times 4=8\\ \\mathrm{V}$（另一個電阻是 $16\\ \\mathrm{V}$，和為 $24\\ \\mathrm{V}$）。其他選項：16 是 $8\\ \\Omega$ 電阻的電壓；24 是把電池電壓全給它，忽略了另一個電阻也分到電壓；12 是以為電壓平均分配，但電阻不同，分到的電壓與電阻成正比。答案是 $8\\ \\mathrm{V}$。"
+    },
+    {
+      "id": "s9-06-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "並聯電流計算",
+      "q": "電阻 $4\\ \\mathrm{\\Omega}$ 與 $12\\ \\mathrm{\\Omega}$ 並聯後接在 $12\\ \\mathrm{V}$ 的電池兩端，則通過電池的總電流為何？",
+      "choices": [
+        "$0.75\\ \\mathrm{A}$",
+        "$1\\ \\mathrm{A}$",
+        "$4\\ \\mathrm{A}$",
+        "$3\\ \\mathrm{A}$"
+      ],
+      "answer": 2,
+      "explain": "並聯各支路電壓都是 $12\\ \\mathrm{V}$：$I_1=\\frac{12}{4}=3\\ \\mathrm{A}$，$I_2=\\frac{12}{12}=1\\ \\mathrm{A}$，總電流 $=3+1=4\\ \\mathrm{A}$。其他選項：0.75 是把並聯誤當串聯（$12\\div 16$）；1 與 3 分別只是其中一條支路的電流，總電流要把各支路加起來。答案是 $4\\ \\mathrm{A}$。"
+    },
+    {
+      "id": "s9-06-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "電費計算",
+      "q": "額定功率 $1000\\ \\mathrm{W}$ 的電暖器，每天使用 3 小時，連續使用 30 天。若每度電 3 元，則這段期間的電費為何？",
+      "choices": [
+        "270 元",
+        "90 元",
+        "9 元",
+        "270000 元"
+      ],
+      "answer": 0,
+      "explain": "$1000\\ \\mathrm{W}=1\\ \\mathrm{kW}$，用電 $1\\times 3\\times 30=90$ 度，電費 $90\\times 3=270$ 元。其他選項：90 是度數，忘了乘電價；9 是只算一天的電費（$1\\times 3\\times 3$）；270000 是沒有把 W 換成 kW。答案是 270 元。"
+    },
+    {
+      "id": "s9-06-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "歐姆定律與電阻判讀",
+      "q": "實驗者測量甲、乙兩個元件在不同電壓下的電流，記錄如下：\n甲：1 V、0.1 A；2 V、0.2 A；3 V、0.3 A\n乙：1 V、0.1 A；2 V、0.15 A；3 V、0.18 A\n下列敘述何者正確？",
+      "choices": [
+        "兩者的電阻都固定為 10 Ω，都遵守歐姆定律",
+        "甲的電阻固定為 10 Ω；乙的電阻隨電壓增大而變大",
+        "甲的電阻固定為 10 Ω；乙的電阻隨電壓增大而變小",
+        "甲的電阻隨電壓增大而增大，乙的電阻固定"
+      ],
+      "answer": 1,
+      "explain": "$R=\\frac{V}{I}$：甲 $=10,\\ 10,\\ 10\\ \\Omega$，固定；乙 $=10,\\ 13.3,\\ 16.7\\ \\Omega$，隨電壓增大而變大，不是定值。電壓加倍時，乙的電流增加不到一倍。其他選項：乙不是 10 Ω 定值，只有 1 V 時剛好是 10 Ω；乙的電阻是變大而不是變小；甲的比值每一組都相同，所以電阻固定。答案是甲的電阻固定為 10 Ω；乙的電阻隨電壓增大而變大。"
+    },
+    {
+      "id": "s9-06-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "串並聯混合與電功率",
+      "q": "電路中，$2\\ \\mathrm{\\Omega}$ 的電阻 R 與一組並聯電阻（$6\\ \\mathrm{\\Omega}$ 與 $3\\ \\mathrm{\\Omega}$ 並聯）串聯，接在 $12\\ \\mathrm{V}$ 的電池兩端。電阻 R 消耗的電功率為何？",
+      "choices": [
+        "$72\\ \\mathrm{W}$",
+        "$36\\ \\mathrm{W}$",
+        "$6\\ \\mathrm{W}$",
+        "$18\\ \\mathrm{W}$"
+      ],
+      "answer": 3,
+      "explain": "並聯等效電阻 $\\frac{6\\times 3}{6+3}=2\\ \\Omega$，總電阻 $=2+2=4\\ \\Omega$，總電流 $I=\\frac{12}{4}=3\\ \\mathrm{A}$，流過 R 的電流就是 $3\\ \\mathrm{A}$，$P=I^2R=3^2\\times 2=18\\ \\mathrm{W}$。其他選項：72 是誤以為 R 兩端有全部 $12\\ \\mathrm{V}$（$\\frac{12^2}{2}$）；36 是整個電路的總功率（$12\\times 3$）；6 是並聯組裡 $6\\ \\Omega$ 電阻的功率（$6\\ \\mathrm{V}\\times 1\\ \\mathrm{A}$）。答案是 $18\\ \\mathrm{W}$。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年自然科第 7 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：並聯電路 電流關係（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年自然科第 28 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：延長線超載 電流 用電安全（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 42 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：電功率 度 電費計算（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 6 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：電線裸露短路 用電安全（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 48 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：冷氣時 28℃門檻 用電（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「電流與歐姆定律」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%9B%BB%E6%B5%81%E8%88%87%E6%AD%90%E5%A7%86%E5%AE%9A%E5%BE%8B"
+    },
+    {
+      "label": "均一教育平台：搜尋「電功率」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%9B%BB%E5%8A%9F%E7%8E%87"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

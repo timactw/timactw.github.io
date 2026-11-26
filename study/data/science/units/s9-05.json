@@ -1,0 +1,275 @@
+{
+  "id": "s9-05",
+  "subject": "science",
+  "grade": 9,
+  "order": 5,
+  "title": "功、功率與能量守恆",
+  "codes": [
+    {
+      "code": "Ba-Ⅳ-1",
+      "text": "能量有不同形式，例如：動能、熱能、光能、電能、化學能等，而且彼此之間可以轉換。孤立系統的總能量會維持定值。"
+    },
+    {
+      "code": "Ba-Ⅳ-5",
+      "text": "力可以作功，作功可以改變物體的能量。"
+    },
+    {
+      "code": "Ba-Ⅳ-6",
+      "text": "每單位時間對物體所做的功稱為功率。"
+    },
+    {
+      "code": "Ba-Ⅳ-7",
+      "text": "物體的動能與位能之和稱為力學能，動能與位能可以互換。"
+    },
+    {
+      "code": "Eb-Ⅳ-7",
+      "text": "簡單機械，例如：槓桿、滑輪、輪軸、齒輪、斜面，通常具有省時、省力，或者是改變作用力方向等功能。"
+    }
+  ],
+  "intro": "這個單元學功與功率、動能與位能、力學能守恆、簡單機械與能量轉換。會考常考能量轉換的判讀、自由落下或斜面的能量計算，以及槓桿、斜面省力不省功。",
+  "sections": [
+    {
+      "title": "功與功率",
+      "points": [
+        "力對物體做功：$W=Fs$，力與位移同方向；單位 $\\mathrm{J}$（焦耳），$1\\ \\mathrm{J}=1\\ \\mathrm{N\\cdot m}$。",
+        "力的方向與移動方向垂直，不做功（例如提著書包水平走）；拿著東西不動，位移為零，也不做功。",
+        "功率 $P=\\frac{W}{t}$：每秒做的功，單位 $\\mathrm{W}$（瓦特），$1\\ \\mathrm{W}=1\\ \\mathrm{J/s}$；$1\\ \\mathrm{kW}=1000\\ \\mathrm{W}$。",
+        "迷思：功率大不代表做的功多，還要看時間；做功相同時，花的時間愈短，功率愈大。"
+      ]
+    },
+    {
+      "title": "動能與位能",
+      "points": [
+        "動能 $E_k=\\frac{1}{2}mv^2$：與質量成正比、與速率的平方成正比，速率變 2 倍，動能變 4 倍。",
+        "重力位能 $E_p=mgh$：與質量、高度成正比；高度是相對於所選的零位能面，取 $g\\approx 10\\ \\mathrm{m/s^2}$。",
+        "對物體做功會改變它的能量：合力對物體所做的功，等於動能的改變量。",
+        "舉高物體時，克服重力所做的功，會變成物體的重力位能。"
+      ]
+    },
+    {
+      "title": "力學能守恆",
+      "points": [
+        "力學能＝動能＋位能。只受重力（忽略摩擦與空氣阻力）時，力學能守恆，動能與位能互相轉換。",
+        "自由落下時，位能減少多少，動能就增加多少：$mgh=\\frac{1}{2}mv^2$，所以 $v=\\sqrt{2gh}$（與質量無關）。",
+        "高處位能大、低處動能大；最高點位能最大，最低點動能最大。",
+        "有摩擦力時，力學能會減少，減少的部分變成熱能（總能量仍守恆）。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 180\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"40,40 300,140 40,140\" class=\"soft\"/><circle cx=\"66\" cy=\"43\" r=\"8\" class=\"soft2\"/><circle cx=\"246\" cy=\"113\" r=\"8\" class=\"soft2\"/><text x=\"95\" y=\"32\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">高處：位能大、動能小</text><text x=\"335\" y=\"78\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">低處：位能小、動能大</text><text x=\"180\" y=\"167\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">忽略摩擦：力學能（動能＋位能）不變</text></svg>",
+      "caption": "物體由高處滑下，位能減少、動能增加。"
+    },
+    {
+      "title": "簡單機械",
+      "points": [
+        "槓桿平衡：施力 × 施力臂 ＝ 抗力 × 抗力臂，$F_1L_1=F_2L_2$。",
+        "力臂是支點到力的作用線的距離，不是支點到物體的任意長度。",
+        "動滑輪省力、不改變方向；定滑輪不省力，但可改變施力方向；斜面愈長愈省力。",
+        "省力的機械一定費距離：理想情形下，輸入的功＝輸出的功，簡單機械「不省功」。"
+      ],
+      "svg": "<svg viewBox=\"0 0 380 190\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"30\" y1=\"110\" x2=\"340\" y2=\"110\" class=\"hl\" stroke-width=\"4\"/><polygon points=\"105,110 90,140 120,140\" class=\"soft\"/><line x1=\"30\" y1=\"62\" x2=\"30\" y2=\"104\" class=\"hl2\"/><polyline points=\"26.1,95.9 30,104 33.9,95.9\" class=\"hl2\"/><line x1=\"330\" y1=\"62\" x2=\"330\" y2=\"104\" class=\"hl2\"/><polyline points=\"326.1,95.9 330,104 333.9,95.9\" class=\"hl2\"/><text x=\"10\" y=\"52\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">重物 60 N</text><text x=\"330\" y=\"52\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">施力 F</text><text x=\"105\" y=\"158\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">支點</text><text x=\"67\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">力臂 0.5 m</text><text x=\"222\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">力臂 1.5 m</text></svg>",
+      "caption": "$60\\times 0.5=F\\times 1.5$，所以 $F=20\\ \\mathrm{N}$。"
+    },
+    {
+      "title": "能量轉換與守恆",
+      "points": [
+        "能量形式有動能、位能、熱能、光能、電能、化學能等，可以互相轉換。",
+        "孤立系統的總能量守恆：能量不會憑空產生或消失，只會從一種形式轉成另一種。",
+        "例：電燈把電能轉成光能與熱能；電池放電是化學能轉成電能；水力發電是位能轉成動能再轉成電能。",
+        "轉換效率＝有用的輸出能量÷輸入能量。因為一定有部分變成熱能散失，效率不可能超過 $100\\%$。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "功",
+      "body": "$W=Fs$，單位 $\\mathrm{J}$"
+    },
+    {
+      "name": "功率",
+      "body": "$P=\\frac{W}{t}$，單位 $\\mathrm{W}=\\mathrm{J/s}$"
+    },
+    {
+      "name": "動能",
+      "body": "$E_k=\\frac{1}{2}mv^2$"
+    },
+    {
+      "name": "重力位能",
+      "body": "$E_p=mgh$"
+    },
+    {
+      "name": "力學能守恆",
+      "body": "只受重力時，動能＋位能不變"
+    },
+    {
+      "name": "槓桿平衡",
+      "body": "$F_1L_1=F_2L_2$"
+    },
+    {
+      "name": "簡單機械",
+      "body": "可省力或改變方向，但不省功"
+    },
+    {
+      "name": "轉換效率",
+      "body": "輸出能量÷輸入能量，小於 100%"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "s9-05-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "功的計算",
+      "q": "小明用 $20\\ \\mathrm{N}$ 的水平推力，沿著力的方向把箱子在地面上推動 $5\\ \\mathrm{m}$，他對箱子做的功為何？",
+      "choices": [
+        "$4\\ \\mathrm{J}$",
+        "$100\\ \\mathrm{J}$",
+        "$25\\ \\mathrm{J}$",
+        "$15\\ \\mathrm{J}$"
+      ],
+      "answer": 1,
+      "explain": "$W=Fs=20\\times 5=100\\ \\mathrm{J}$。其他選項：4 是把力除以距離；25 是力加距離；15 是力減距離。功是力與位移的乘積，不能相加減。答案是 $100\\ \\mathrm{J}$。"
+    },
+    {
+      "id": "s9-05-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "功率的計算",
+      "q": "重 $60\\ \\mathrm{N}$ 的物體，被人在 5 秒內等速向上舉高 $2\\ \\mathrm{m}$，此人對物體做功的功率為何？",
+      "choices": [
+        "$120\\ \\mathrm{W}$",
+        "$12\\ \\mathrm{W}$",
+        "$300\\ \\mathrm{W}$",
+        "$24\\ \\mathrm{W}$"
+      ],
+      "answer": 3,
+      "explain": "等速上升，合力為零，人施力等於重量 $60\\ \\mathrm{N}$。功 $W=60\\times 2=120\\ \\mathrm{J}$，功率 $P=\\frac{W}{t}=\\frac{120}{5}=24\\ \\mathrm{W}$。其他選項：120 是只算出功、忘了除以時間；12 是只用力除以時間；300 是力乘時間。答案是 $24\\ \\mathrm{W}$。"
+    },
+    {
+      "id": "s9-05-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "動能大小比較",
+      "q": "下列四個物體，哪一個的動能最大？\n甲：質量 2 kg，速率 3 m/s\n乙：質量 1 kg，速率 5 m/s\n丙：質量 4 kg，速率 2 m/s\n丁：質量 8 kg，速率 1 m/s",
+      "choices": [
+        "乙",
+        "甲",
+        "丙",
+        "丁"
+      ],
+      "answer": 0,
+      "explain": "動能 $E_k=\\frac{1}{2}mv^2$：甲 $=\\frac{1}{2}\\times 2\\times 9=9\\ \\mathrm{J}$；乙 $=\\frac{1}{2}\\times 1\\times 25=12.5\\ \\mathrm{J}$；丙 $=\\frac{1}{2}\\times 4\\times 4=8\\ \\mathrm{J}$；丁 $=\\frac{1}{2}\\times 8\\times 1=4\\ \\mathrm{J}$。動能和速率的平方成正比，所以速率大的乙勝過質量較大的丙與丁。其他三者的動能都比乙小。答案是乙。"
+    },
+    {
+      "id": "s9-05-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "力學能守恆計算",
+      "q": "質量 $2\\ \\mathrm{kg}$ 的物體從離地 $20\\ \\mathrm{m}$ 高處由靜止自由落下，忽略空氣阻力，取 $g=10\\ \\mathrm{m/s^2}$。當物體落到離地 $15\\ \\mathrm{m}$ 處時，速率為何？",
+      "choices": [
+        "$5\\ \\mathrm{m/s}$",
+        "$20\\ \\mathrm{m/s}$",
+        "$10\\ \\mathrm{m/s}$",
+        "$100\\ \\mathrm{m/s}$"
+      ],
+      "answer": 2,
+      "explain": "下落了 $20-15=5\\ \\mathrm{m}$，減少的位能 $mg\\Delta h=2\\times 10\\times 5=100\\ \\mathrm{J}$ 全變成動能：$\\frac{1}{2}\\times 2\\times v^2=100$，$v^2=100$，$v=10\\ \\mathrm{m/s}$。其他選項：5 是把下落的距離當成速率；20 是落到地面（下落 20 m）時的速率；100 是 $v^2$，忘了開根號。答案是 $10\\ \\mathrm{m/s}$。"
+    },
+    {
+      "id": "s9-05-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "槓桿原理",
+      "q": "均勻細桿（重量忽略不計）當作槓桿，支點左側 $0.5\\ \\mathrm{m}$ 處掛一個重 $60\\ \\mathrm{N}$ 的物體。現在要在支點右側 $1.5\\ \\mathrm{m}$ 處向下施力，使槓桿保持水平平衡，所需的力為何？",
+      "choices": [
+        "$60\\ \\mathrm{N}$",
+        "$20\\ \\mathrm{N}$",
+        "$180\\ \\mathrm{N}$",
+        "$30\\ \\mathrm{N}$"
+      ],
+      "answer": 1,
+      "explain": "槓桿平衡：$F_1L_1=F_2L_2$，$60\\times 0.5=F\\times 1.5$，$F=\\frac{30}{1.5}=20\\ \\mathrm{N}$。施力臂是抗力臂的 3 倍，所以力是抗力的 $\\frac{1}{3}$。其他選項：60 表示完全不省力；180 是把比例弄反（力臂大反而力更大）；30 是只算出 $60\\times 0.5$，忘了再除以力臂 1.5。答案是 $20\\ \\mathrm{N}$。"
+    },
+    {
+      "id": "s9-05-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "斜面省力",
+      "q": "利用長 $5\\ \\mathrm{m}$ 的光滑斜面，把重 $100\\ \\mathrm{N}$ 的箱子沿斜面推到高 $2\\ \\mathrm{m}$ 的平台上，忽略摩擦力，所需沿斜面的推力至少為何？",
+      "choices": [
+        "$200\\ \\mathrm{N}$",
+        "$100\\ \\mathrm{N}$",
+        "$250\\ \\mathrm{N}$",
+        "$40\\ \\mathrm{N}$"
+      ],
+      "answer": 3,
+      "explain": "理想斜面不省功：推力做的功 $=$ 克服重力增加的位能，$F\\times 5=100\\times 2$，$F=40\\ \\mathrm{N}$。其他選項：100 是不省力（直接把箱子舉高 2 m 的力）；200 是把功 $200\\ \\mathrm{J}$ 的數值當成力；250 是比例弄反，$100\\times 5\\div 2$。答案是 $40\\ \\mathrm{N}$。"
+    },
+    {
+      "id": "s9-05-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "能量轉換效率",
+      "q": "某抽水機每秒把 $2\\ \\mathrm{kg}$ 的水抽高 $5\\ \\mathrm{m}$（取 $g=10\\ \\mathrm{m/s^2}$），其能量轉換效率為 50%。這台抽水機運轉時，需要的輸入電功率為何？",
+      "choices": [
+        "$200\\ \\mathrm{W}$",
+        "$100\\ \\mathrm{W}$",
+        "$50\\ \\mathrm{W}$",
+        "$10\\ \\mathrm{W}$"
+      ],
+      "answer": 0,
+      "explain": "每秒把水舉高所做的有用功：$mgh=2\\times 10\\times 5=100\\ \\mathrm{J}$，有用功率 $100\\ \\mathrm{W}$。效率 $=\\frac{\\text{輸出}}{\\text{輸入}}$，所以輸入功率 $=\\frac{100}{0.5}=200\\ \\mathrm{W}$。其他選項：100 是忘了考慮效率，把輸出當輸入；50 是把輸出乘以效率，方向反了；10 是算位能時漏乘 $g$（$2\\times 5$）。答案是 $200\\ \\mathrm{W}$。"
+    },
+    {
+      "id": "s9-05-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "有摩擦的能量轉換",
+      "q": "一物體沿粗糙斜面由 P 點下滑到 Q 點，下面是物體在兩點的能量（位能以同一水平面為零點）。\nP 點：動能 10 J，重力位能 50 J\nQ 點：動能 30 J，重力位能 20 J\n下列敘述何者正確？",
+      "choices": [
+        "力學能守恆，所以這段下滑過程沒有受到摩擦力",
+        "重力位能減少的 30 J 全部轉成動能",
+        "力學能減少了 10 J，這 10 J 轉成熱能等其他形式，總能量仍守恆",
+        "有 10 J 的能量憑空消失了"
+      ],
+      "answer": 2,
+      "explain": "P 點力學能 $=10+50=60\\ \\mathrm{J}$，Q 點力學能 $=30+20=50\\ \\mathrm{J}$，少了 10 J，是摩擦力做功把部分力學能變成熱能。位能減少 30 J，動能只增加 20 J，所以不是全部轉成動能；力學能不守恆正說明有摩擦；能量不會消失，只是轉成別種形式。答案是力學能減少了 10 J，這 10 J 轉成熱能等其他形式，總能量仍守恆。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年自然科第 22 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：槓桿原理 實驗論點檢驗（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 47 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：動滑輪 拉力做功 gw·cm（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 48 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：動滑輪質量 簡單機械 拉力（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 38 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：功與動能 外力與位移（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「功與能量」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%8A%9F%E8%88%87%E8%83%BD%E9%87%8F"
+    },
+    {
+      "label": "均一教育平台：搜尋「力學能守恆」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%8A%9B%E5%AD%B8%E8%83%BD%E5%AE%88%E6%81%86"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "s9-02",
+  "subject": "science",
+  "grade": 9,
+  "order": 2,
+  "title": "酸鹼鹽與中和",
+  "codes": [
+    {
+      "code": "Jd-Ⅳ-1",
+      "text": "金屬與非金屬氧化物在水溶液中的酸鹼性，及酸性溶液對金屬與大理石的反應。"
+    },
+    {
+      "code": "Jd-Ⅳ-2",
+      "text": "酸鹼強度與 pH 值的關係。"
+    },
+    {
+      "code": "Jd-Ⅳ-3",
+      "text": "實驗認識廣用指示劑及 pH 計。"
+    },
+    {
+      "code": "Jd-Ⅳ-4",
+      "text": "水溶液中氫離子與氫氧根離子的關係。"
+    },
+    {
+      "code": "Jd-Ⅳ-5",
+      "text": "酸、鹼、鹽類在日常生活中的應用與危險性。"
+    },
+    {
+      "code": "Jd-Ⅳ-6",
+      "text": "實驗認識酸與鹼中和生成鹽和水，並可放出熱量而使溫度變化。"
+    },
+    {
+      "code": "Jb-Ⅳ-3",
+      "text": "不同的離子在水溶液中可能會發生沉澱、酸鹼中和及氧化還原等反應。"
+    }
+  ],
+  "intro": "這個單元學酸與鹼的性質、指示劑與 pH、中和反應，以及鹽類與沉澱。會考常考指示劑顏色、pH 與稀釋、中和實驗的數據判讀，和離子在溶液中的變化。",
+  "sections": [
+    {
+      "title": "酸與鹼的性質",
+      "points": [
+        "酸性水溶液含有**氫離子**（$\\mathrm{H^+}$），有酸味（實驗室絕對不可品嘗）、能使藍色石蕊試紙變紅，能導電。",
+        "酸與活性大的金屬（鎂、鋅、鐵）反應產生氫氣；酸與大理石（碳酸鈣）反應產生二氧化碳，通入澄清石灰水會使它變混濁。",
+        "鹼性水溶液含有**氫氧根離子**（$\\mathrm{OH^-}$），摸起來滑膩、使紅色石蕊試紙變藍、酚酞變紅，也能導電。",
+        "非金屬氧化物（如 $\\mathrm{CO_2}$、$\\mathrm{SO_2}$）溶於水多呈酸性；金屬氧化物（如 $\\mathrm{CaO}$、$\\mathrm{MgO}$）溶於水多呈鹼性。",
+        "迷思：碳酸飲料呈酸性是因為二氧化碳溶於水，不是因為它含有金屬。"
+      ]
+    },
+    {
+      "title": "指示劑與 pH",
+      "points": [
+        "酚酞：鹼性呈紅色，酸性與中性都無色。石蕊：酸性紅、鹼性藍。BTB：酸性黃、中性綠、鹼性藍。",
+        "廣用指示劑與 pH 計可測出較精確的 pH；酚酞只能判斷「是不是鹼性」。",
+        "pH $<7$ 為酸性，$=7$ 為中性，$>7$ 為鹼性。pH 越小酸性越強，pH 越大鹼性越強。",
+        "pH 差 1，氫離子濃度差 **10 倍**；pH 差 2，濃度差 100 倍。",
+        "酸性溶液加水稀釋，pH 會升高、越來越接近 7，但不會變成鹼性；鹼性溶液稀釋則 pH 降低、接近 7。",
+        "水溶液中氫離子與氫氧根離子同時存在：酸性溶液氫離子較多，鹼性溶液氫氧根離子較多，中性則兩者一樣多。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"15\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"28\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">0</text><rect x=\"41\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"54\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">1</text><rect x=\"67\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"80\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">2</text><rect x=\"93\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"106\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">3</text><rect x=\"119\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"132\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">4</text><rect x=\"145\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"158\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">5</text><rect x=\"171\" y=\"50\" width=\"26\" height=\"40\" class=\"soft\"/><text x=\"184\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">6</text><rect x=\"197\" y=\"50\" width=\"26\" height=\"40\"/><text x=\"210\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">7</text><rect x=\"223\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"236\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">8</text><rect x=\"249\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"262\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">9</text><rect x=\"275\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"288\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">10</text><rect x=\"301\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"314\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">11</text><rect x=\"327\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"340\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">12</text><rect x=\"353\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"366\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">13</text><rect x=\"379\" y=\"50\" width=\"26\" height=\"40\" class=\"soft2\"/><text x=\"392\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">14</text><text x=\"106\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">酸性</text><text x=\"210\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">中性</text><text x=\"314\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">鹼性</text><text x=\"15\" y=\"148\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\">← 酸性越強</text><text x=\"405\" y=\"148\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\">鹼性越強 →</text><text x=\"54\" y=\"185\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">胃液</text><text x=\"210\" y=\"185\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">純水</text><text x=\"288\" y=\"185\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\">肥皂水</text></svg>",
+      "caption": "pH 刻度：0 到 7 為酸性，7 為中性，7 到 14 為鹼性。"
+    },
+    {
+      "title": "酸鹼中和",
+      "points": [
+        "酸與鹼反應生成**鹽與水**，並**放出熱量**，使溫度上升。例：$\\mathrm{HCl + NaOH \\rightarrow NaCl + H_2O}$。",
+        "中和的本質是氫離子與氫氧根離子結合成水：$\\mathrm{H^+ + OH^- \\rightarrow H_2O}$。",
+        "酸鹼恰好完全反應時溫度最高；再加過量的酸或鹼，混合液因被稀釋而溫度回降。",
+        "濃度相同的強酸與強鹼，體積相等時恰好完全中和，溶液呈中性（pH 為 7）。",
+        "加酚酞的氫氧化鈉溶液（紅色）逐滴加鹽酸，紅色剛好褪去時就是接近中和點。"
+      ]
+    },
+    {
+      "title": "鹽類與沉澱",
+      "points": [
+        "鹽由金屬離子（或銨根離子）與酸根離子組成，例如食鹽 $\\mathrm{NaCl}$、小蘇打 $\\mathrm{NaHCO_3}$。鹽溶於水能導電。",
+        "兩種水溶液混合，離子重新配對，若生成難溶於水的物質就會出現**沉澱**。",
+        "例：$\\mathrm{AgNO_3 + NaCl \\rightarrow AgCl\\downarrow + NaNO_3}$，$\\mathrm{AgCl}$ 是白色沉澱；二氧化碳通入石灰水生成白色 $\\mathrm{CaCO_3}$ 沉澱。",
+        "硝酸鹽與鈉鹽幾乎都易溶於水，所以反應中的鈉離子與硝酸根離子留在溶液裡。",
+        "沉澱反應用來檢驗離子、淨化廢水（讓有害離子變成沉澱後濾除）。"
+      ]
+    },
+    {
+      "title": "生活中的酸、鹼、鹽與安全",
+      "points": [
+        "常見的酸：醋酸（食醋）、檸檬酸、鹽酸（清潔磁磚）、硫酸（電池、工業）。常見的鹼：氫氧化鈉（通樂、製皂）、氨水、氫氧化鈣（石灰水）。",
+        "胃藥多為弱鹼性，用來中和過多的胃酸；被蚊蟲叮咬（酸性）可塗弱鹼性藥品止癢。",
+        "強酸、強鹼具腐蝕性，沾到皮膚先用大量清水沖洗。稀釋濃硫酸時要把**酸慢慢倒入水中**，不可把水倒入酸。",
+        "不同清潔劑（如含氯漂白水與酸性清潔劑）不可混用，會產生有毒氣體。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "酸與鹼的離子",
+      "body": "酸含 $\\mathrm{H^+}$，鹼含 $\\mathrm{OH^-}$。"
+    },
+    {
+      "name": "指示劑顏色",
+      "body": "石蕊：酸紅鹼藍；酚酞：鹼紅；BTB：酸黃、中綠、鹼藍。"
+    },
+    {
+      "name": "pH 範圍",
+      "body": "pH $<7$ 酸性，$=7$ 中性，$>7$ 鹼性；差 1 即濃度差 10 倍。"
+    },
+    {
+      "name": "酸的特性反應",
+      "body": "酸 ＋ 活性金屬 → 氫氣；酸 ＋ 大理石 → 二氧化碳。"
+    },
+    {
+      "name": "中和反應",
+      "body": "酸 ＋ 鹼 → 鹽 ＋ 水 ＋ 熱量；$\\mathrm{H^+ + OH^- \\rightarrow H_2O}$。"
+    },
+    {
+      "name": "稀釋口訣",
+      "body": "稀釋濃硫酸：酸倒入水中，不可把水倒入酸。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "s9-02-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "酚酞指示劑",
+      "q": "在一杯無色透明的水溶液中滴入幾滴酚酞，溶液立刻變成紅色。這杯溶液最可能是下列何者？",
+      "choices": [
+        "酸性溶液",
+        "中性溶液",
+        "鹼性溶液",
+        "酸性或中性溶液"
+      ],
+      "answer": 2,
+      "explain": "酚酞遇鹼性溶液呈紅色，在酸性與中性溶液中都是無色。溶液變紅，表示含有較多氫氧根離子，是鹼性溶液。「酸性」「中性」「酸性或中性」的溶液滴入酚酞都不會變紅。答案是鹼性溶液。"
+    },
+    {
+      "id": "s9-02-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "pH 與酸性強弱",
+      "q": "下列四種水溶液的 pH 分別為：胃液 1.5、黑咖啡 5、純水 7、肥皂水 10。其中酸性最強的是哪一個？",
+      "choices": [
+        "胃液",
+        "黑咖啡",
+        "純水",
+        "肥皂水"
+      ],
+      "answer": 0,
+      "explain": "pH 越小酸性越強。四者中胃液 pH 最小（1.5），酸性最強。黑咖啡 pH 5 雖也是酸性但較弱；純水 pH 7 為中性；肥皂水 pH 10 為鹼性。答案是胃液。"
+    },
+    {
+      "id": "s9-02-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "酸與大理石反應",
+      "q": "把大理石放入稀鹽酸中，產生許多氣泡。將這種氣體通入澄清石灰水，石灰水變混濁。這種氣體是什麼？",
+      "choices": [
+        "氫氣",
+        "氧氣",
+        "氯氣",
+        "二氧化碳"
+      ],
+      "answer": 3,
+      "explain": "酸與大理石（碳酸鈣）反應會產生二氧化碳，二氧化碳使澄清石灰水生成白色碳酸鈣沉澱而變混濁。氫氣是酸與活性金屬反應的產物，不會使石灰水混濁；氧氣、氯氣也不會使石灰水變混濁。答案是二氧化碳。"
+    },
+    {
+      "id": "s9-02-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "稀釋與 pH",
+      "q": "某鹽酸溶液的 pH 為 3。已知 pH 每差 1，氫離子濃度差 10 倍。若加水把它稀釋為原來體積的 100 倍，稀釋後溶液的 pH 最接近下列何者？",
+      "choices": [
+        "pH 1",
+        "pH 5",
+        "pH 7",
+        "pH 9"
+      ],
+      "answer": 1,
+      "explain": "稀釋 100 倍，氫離子濃度變為 $\\frac{1}{100}$，也就是少了兩個 10 倍，所以 pH 增加 2，由 3 變成 5。「pH 1」代表氫離子變多，與稀釋相反；「pH 7」要稀釋成 $\\frac{1}{10000}$ 才可能，而且酸稀釋後不會剛好是 7；「pH 9」表示變成鹼性，酸加水不可能變成鹼。答案是 pH 5。"
+    },
+    {
+      "id": "s9-02-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "中和反應與溫度",
+      "q": "取 20 mL 的稀鹽酸放入燒杯，另備與鹽酸濃度相同的氫氧化鈉溶液，逐次加入並測量混合液的溫度，記錄如下：\n加入氫氧化鈉溶液（mL）：0　10　20　30　40\n混合液溫度（°C）：25.0　28.0　31.0　29.5　28.5\n下列推論何者正確？",
+      "choices": [
+        "加入 20 mL 時恰好完全中和，溶液呈中性",
+        "加入 10 mL 時鹼過量，溶液呈鹼性",
+        "加入 30 mL 時酸過量，溶液呈酸性",
+        "加入氫氧化鈉溶液後溫度上升，表示中和反應吸熱"
+      ],
+      "answer": 0,
+      "explain": "中和反應放熱，恰好完全反應時溫度最高，也就是加入 20 mL 時；兩者濃度相同、體積相同（20 mL 對 20 mL），所以恰好完全中和，呈中性。加入 10 mL 時氫氧化鈉不足，仍是酸過量而呈酸性；加入 30 mL 時氫氧化鈉過量，呈鹼性；溫度上升表示放熱，不是吸熱。答案是加入 20 mL 時恰好完全中和，溶液呈中性。"
+    },
+    {
+      "id": "s9-02-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "沉澱後的離子",
+      "q": "把硝酸銀溶液與氯化鈉溶液混合，恰好完全反應，生成白色的氯化銀沉澱：$\\mathrm{AgNO_3 + NaCl \\rightarrow AgCl\\downarrow + NaNO_3}$。已知氯化銀難溶於水、硝酸鈉易溶於水。把沉澱過濾掉後，濾液中主要含有下列哪些離子？",
+      "choices": [
+        "$\\mathrm{Ag^+}$ 與 $\\mathrm{Cl^-}$",
+        "$\\mathrm{Ag^+}$ 與 $\\mathrm{NO_3^-}$",
+        "$\\mathrm{Na^+}$ 與 $\\mathrm{NO_3^-}$",
+        "$\\mathrm{Na^+}$ 與 $\\mathrm{Cl^-}$"
+      ],
+      "answer": 2,
+      "explain": "銀離子與氯離子結合成氯化銀沉澱，恰好完全反應，所以兩者都被濾掉，溶液中剩下不參與沉澱、易溶於水的鈉離子與硝酸根離子。含 $\\mathrm{Ag^+}$ 的兩個選項錯，因為銀離子已進入沉澱；含 $\\mathrm{Cl^-}$ 的選項也錯，因為氯離子同樣被沉澱帶走。答案是 $\\mathrm{Na^+}$ 與 $\\mathrm{NO_3^-}$。"
+    },
+    {
+      "id": "s9-02-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "中和與導電度",
+      "q": "在稀氫氧化鋇溶液中，逐滴加入稀硫酸，並用燈泡檢查導電情形。燈泡先逐漸變暗，恰好完全反應時最暗（幾乎不亮），再繼續加硫酸又變亮。已知硫酸鋇難溶於水。恰好完全反應時燈泡最暗的原因為何？",
+      "choices": [
+        "中和反應吸熱，使溶液溫度下降而不導電",
+        "氫離子與氫氧根離子結合成水，鋇離子與硫酸根離子結合成沉澱，溶液中可自由移動的離子極少",
+        "硫酸鋇是強電解質，大量溶解後使離子被中和掉",
+        "氫氧化鋇被硫酸完全轉變成氣體逸出"
+      ],
+      "answer": 1,
+      "explain": "導電靠水溶液中自由移動的離子。恰好完全反應時，氫離子與氫氧根離子結合成幾乎不解離的水，鋇離子與硫酸根離子結合成難溶的硫酸鋇沉澱，離子濃度降到最低，所以燈泡最暗；之後多加的硫酸提供氫離子與硫酸根離子，燈泡又變亮。中和反應是放熱，不是吸熱；硫酸鋇難溶，不是大量溶解；反應生成的是水與沉澱，沒有氣體逸出。答案是氫離子與氫氧根離子結合成水，鋇離子與硫酸根離子結合成沉澱，溶液中可自由移動的離子極少。"
+    },
+    {
+      "id": "s9-02-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "未知溶液鑑別",
+      "q": "桌上有四瓶無色透明溶液，分別是稀鹽酸、稀氫氧化鈉溶液、食鹽水、澄清石灰水（氫氧化鈣溶液），標籤脫落，標為甲、乙、丙、丁。實驗結果：\n甲：使藍色石蕊試紙變紅。\n乙：滴入酚酞呈紅色；通入二氧化碳後仍澄清。\n丙：石蕊試紙與酚酞都不變色。\n丁：滴入酚酞呈紅色；通入二氧化碳後變混濁。\n甲、乙、丙、丁依序為何？",
+      "choices": [
+        "稀鹽酸、澄清石灰水、食鹽水、稀氫氧化鈉溶液",
+        "食鹽水、稀氫氧化鈉溶液、稀鹽酸、澄清石灰水",
+        "稀氫氧化鈉溶液、稀鹽酸、食鹽水、澄清石灰水",
+        "稀鹽酸、稀氫氧化鈉溶液、食鹽水、澄清石灰水"
+      ],
+      "answer": 3,
+      "explain": "甲使藍色石蕊變紅，是酸性，只有稀鹽酸；丙不使指示劑變色，是中性，即食鹽水；乙與丁使酚酞變紅，都是鹼性，但通入二氧化碳後生成碳酸鈣沉澱而變混濁的是石灰水（丁），不混濁的是氫氧化鈉溶液（乙）。其他選項不是把酸性的甲當成中性或鹼性，就是把乙、丁顛倒，都與觀察結果矛盾。答案是稀鹽酸、稀氫氧化鈉溶液、食鹽水、澄清石灰水。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年自然科第 40 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：氫氧化鈉鹽酸中和 鈉離子濃度（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 19 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：CO2 與鈣離子生成碳酸鹽沉澱（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 44 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：酸性強弱對變色影響 pH（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 17 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：酸蝕實驗 pH 與酸性強弱（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「酸鹼鹽」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%85%B8%E9%B9%BC%E9%B9%BD"
+    },
+    {
+      "label": "均一教育平台：搜尋「酸鹼中和」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%85%B8%E9%B9%BC%E4%B8%AD%E5%92%8C"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

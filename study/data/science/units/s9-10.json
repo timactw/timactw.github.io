@@ -1,0 +1,345 @@
+{
+  "id": "s9-10",
+  "subject": "science",
+  "grade": 9,
+  "order": 10,
+  "title": "天文：地球、月球與太陽系",
+  "codes": [
+    {
+      "code": "Ed-Ⅳ-1",
+      "text": "星系是組成宇宙的基本單位。"
+    },
+    {
+      "code": "Ed-Ⅳ-2",
+      "text": "我們所在的星系，稱為銀河系，主要是由恆星所組成；太陽是銀河系的成員之一。"
+    },
+    {
+      "code": "Fb-Ⅳ-1",
+      "text": "太陽系由太陽和行星組成，行星均繞太陽公轉。"
+    },
+    {
+      "code": "Fb-Ⅳ-2",
+      "text": "類地行星的環境差異極大。"
+    },
+    {
+      "code": "Fb-Ⅳ-3",
+      "text": "月球繞地球公轉；日、月、地在同一直線上會發生日月食。"
+    },
+    {
+      "code": "Fb-Ⅳ-4",
+      "text": "月相變化具有規律性。"
+    },
+    {
+      "code": "Id-Ⅳ-1",
+      "text": "夏季白天較長，冬季黑夜較長。"
+    },
+    {
+      "code": "Id-Ⅳ-2",
+      "text": "陽光照射角度之變化，會造成地表單位面積土地吸收太陽能量的不同。"
+    },
+    {
+      "code": "Id-Ⅳ-3",
+      "text": "地球的四季主要是因為地球自轉軸傾斜於地球公轉軌道面而造成。"
+    }
+  ],
+  "intro": "這單元在學地球怎麼轉、月亮為什麼會盈虧、太陽系和銀河系的成員。會考常考四季與正午太陽高度、月相與升落時間、日月食的位置，以及行星特徵的比較。",
+  "sections": [
+    {
+      "title": "地球的運動與四季",
+      "points": [
+        "**自轉**：地球繞地軸自西向東轉，約 24 小時一圈，造成晝夜交替，也讓日、月、星星東升西落。",
+        "**公轉**：地球繞太陽轉一圈約一年，軌道接近圓形。",
+        "地軸相對公轉軌道面傾斜約 $23.5^\\circ$，而且公轉時地軸的指向幾乎不變，這才是四季的主要原因。",
+        "常見迷思：夏天熱不是因為地球離太陽比較近。北半球的冬天，地球反而接近太陽（近日點）。",
+        "太陽直射點在南、北回歸線（南北緯 $23.5^\\circ$）之間來回移動：夏至直射北緯 $23.5^\\circ$，冬至直射南緯 $23.5^\\circ$，春分、秋分直射赤道。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 226\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"210\" cy=\"100\" rx=\"150\" ry=\"60\" stroke-dasharray=\"5 5\"/><circle cx=\"210\" cy=\"100\" r=\"17\" class=\"soft2\"/><text x=\"210\" y=\"104\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">太陽</text><circle cx=\"60\" cy=\"100\" r=\"9\" class=\"soft\"/><line x1=\"53\" y1=\"116\" x2=\"67\" y2=\"84\" class=\"hl\"/><text x=\"60\" y=\"154\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北半球夏至</text><circle cx=\"360\" cy=\"100\" r=\"9\" class=\"soft\"/><line x1=\"353\" y1=\"116\" x2=\"367\" y2=\"84\" class=\"hl\"/><text x=\"360\" y=\"154\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北半球冬至</text><circle cx=\"210\" cy=\"40\" r=\"9\" class=\"soft\"/><line x1=\"203\" y1=\"56\" x2=\"217\" y2=\"24\" class=\"hl\"/><text x=\"232\" y=\"20\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">春分</text><circle cx=\"210\" cy=\"160\" r=\"9\" class=\"soft\"/><line x1=\"203\" y1=\"176\" x2=\"217\" y2=\"144\" class=\"hl\"/><text x=\"232\" y=\"184\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">秋分</text><text x=\"210\" y=\"216\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地軸傾斜 23.5°，公轉時指向固定（粗線為地軸）</text></svg>",
+      "caption": "地軸方向不變：左邊北半球朝向太陽，是夏至；右邊北半球背向太陽，是冬至。"
+    },
+    {
+      "title": "日照角度與晝夜長短",
+      "points": [
+        "太陽光越接近垂直照射，同一束光分散的面積越小，單位面積得到的熱量越多，所以太陽仰角越大越熱。",
+        "正午太陽仰角 $=90^\\circ-$（所在緯度與直射點緯度的差）。例：直射北緯 $23.5^\\circ$ 時，北緯 $33.5^\\circ$ 的正午仰角 $=90^\\circ-10^\\circ=80^\\circ$。",
+        "夏季白天長、太陽仰角又大，兩個原因一起使天氣變熱；冬季剛好相反。",
+        "夏至時北半球晝長夜短，北極圈內出現極晝、南極圈內出現極夜；冬至時相反。春分、秋分全球晝夜幾乎等長。",
+        "赤道附近全年晝夜都接近 12 小時，四季變化不明顯。"
+      ]
+    },
+    {
+      "title": "月相的變化",
+      "points": [
+        "月球本身不發光，永遠有一半被太陽照亮；月相是我們從地球看到亮面多寡的不同。",
+        "月相變化一輪約 29.5 天，剛好是農曆一個月。",
+        "順序：新月（朔，初一）→上弦月（初七、八）→滿月（望，十五、十六）→下弦月（廿二、廿三）→新月。",
+        "新月時月球在日、地之間，亮面背對地球，所以看不到；滿月時地球在日、月之間，亮面全朝向地球。",
+        "月亮每天升起的時間約晚 50 分鐘。滿月在日落時升起、半夜到南方最高處、日出時落下；上弦月中午升起、日落時在南方、半夜落下；下弦月半夜升起、日出時在南方、中午落下。",
+        "月球自轉與公轉週期相同，所以永遠是同一面朝向地球。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 232\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"78\" x2=\"84\" y2=\"78\" class=\"hl2\"/><polyline points=\"76,73 84,78 76,83\" class=\"hl2\"/><line x1=\"14\" y1=\"108\" x2=\"84\" y2=\"108\" class=\"hl2\"/><polyline points=\"76,103 84,108 76,113\" class=\"hl2\"/><line x1=\"14\" y1=\"138\" x2=\"84\" y2=\"138\" class=\"hl2\"/><polyline points=\"76,133 84,138 76,143\" class=\"hl2\"/><text x=\"50\" y=\"64\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">太陽光</text><circle cx=\"240\" cy=\"108\" r=\"70\" stroke-dasharray=\"5 5\"/><circle cx=\"240\" cy=\"108\" r=\"14\" class=\"soft\"/><text x=\"240\" y=\"136\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">地球</text><circle cx=\"170\" cy=\"108\" r=\"9\"/><path d=\"M 170 99 A 9 9 0 0 0 170 117 Z\" class=\"soft2\" stroke=\"none\"/><text x=\"158\" y=\"112\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">新月</text><circle cx=\"310\" cy=\"108\" r=\"9\"/><path d=\"M 310 99 A 9 9 0 0 0 310 117 Z\" class=\"soft2\" stroke=\"none\"/><text x=\"322\" y=\"112\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">滿月</text><circle cx=\"240\" cy=\"38\" r=\"9\"/><path d=\"M 240 29 A 9 9 0 0 0 240 47 Z\" class=\"soft2\" stroke=\"none\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">下弦月</text><circle cx=\"240\" cy=\"178\" r=\"9\"/><path d=\"M 240 169 A 9 9 0 0 0 240 187 Z\" class=\"soft2\" stroke=\"none\"/><text x=\"262\" y=\"196\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">上弦月</text><text x=\"240\" y=\"226\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">月球亮的一半永遠朝向太陽</text></svg>",
+      "caption": "從北極上方往下看：月球逆時針繞地球公轉，依序是新月、上弦月、滿月、下弦月。"
+    },
+    {
+      "title": "日食與月食",
+      "points": [
+        "**日食**：月球在日、地之間（新月，農曆初一前後），月影落在地球上；只有被月影掃過的狹窄地帶看得到。",
+        "**月食**：地球在日、月之間（滿月，農曆十五、十六前後），月球進入地球的影子；整個夜半球的人都看得到。",
+        "不是每個月都有日食、月食：月球軌道面與地球公轉軌道面夾角約 $5^\\circ$，多數新月、滿月時，日、地、月並沒有排成一直線。",
+        "月全食時月球不會完全消失，常呈暗紅色，因為部分紅光經地球大氣折射後照到月球。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"10\" y=\"16\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">日食（新月）：月球在日、地之間</text><line x1=\"45\" y1=\"50\" x2=\"345\" y2=\"50\" stroke-dasharray=\"4 4\"/><circle cx=\"45\" cy=\"50\" r=\"22\" class=\"soft2\"/><circle cx=\"240\" cy=\"50\" r=\"7\" class=\"soft\"/><circle cx=\"345\" cy=\"50\" r=\"13\" class=\"soft\"/><text x=\"45\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">太陽</text><text x=\"240\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">月球</text><text x=\"345\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地球</text><text x=\"10\" y=\"120\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">月食（滿月）：地球在日、月之間</text><line x1=\"45\" y1=\"155\" x2=\"345\" y2=\"155\" stroke-dasharray=\"4 4\"/><circle cx=\"45\" cy=\"155\" r=\"22\" class=\"soft2\"/><circle cx=\"240\" cy=\"155\" r=\"13\" class=\"soft\"/><circle cx=\"345\" cy=\"155\" r=\"7\" class=\"soft\"/><text x=\"45\" y=\"192\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">太陽</text><text x=\"240\" y=\"192\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地球</text><text x=\"345\" y=\"192\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">月球</text></svg>",
+      "caption": "日食發生在新月，月食發生在滿月。"
+    },
+    {
+      "title": "太陽系與銀河系",
+      "points": [
+        "太陽系由太陽（恆星）和八大行星、衛星、小行星等組成。行星由近到遠：水星、金星、地球、火星、木星、土星、天王星、海王星（水金地火木土天海）。",
+        "**類地行星**（水、金、地、火）：體積小、密度大、表面是岩石。**類木行星**（木、土、天、海）：體積大、密度小，主要由氣體或冰組成，衛星多。",
+        "金星：大氣主要是二氧化碳，溫室效應強，表面溫度比水星還高（約 $460^\\circ\\mathrm{C}$）；是天空中最亮的行星，日出前叫啟明星、日落後叫長庚星。",
+        "水星：幾乎沒有大氣，晝夜溫差大。火星：大氣稀薄，地表含氧化鐵而呈紅色。",
+        "水星、金星的軌道比地球小，只會在日出前或日落後出現在太陽附近，不會整晚都看得到。",
+        "銀河系是由數千億顆恆星組成的盤狀星系，太陽只是其中一顆，位在離中心很遠的旋臂上。星系是組成宇宙的基本單位。",
+        "光年是距離單位（光走一年的距離），不是時間。太陽光到地球約 500 秒（約 8 分 20 秒）。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "四季成因",
+      "body": "地軸傾斜 $23.5^\\circ$，公轉時指向不變；與離太陽遠近無關"
+    },
+    {
+      "name": "直射點",
+      "body": "夏至北緯 $23.5^\\circ$、冬至南緯 $23.5^\\circ$、春分秋分赤道"
+    },
+    {
+      "name": "正午仰角",
+      "body": "$90^\\circ-$（所在緯度與直射點緯度的差）"
+    },
+    {
+      "name": "月相順序",
+      "body": "新月→上弦→滿月→下弦；一輪約 29.5 天"
+    },
+    {
+      "name": "日食與月食",
+      "body": "日食在新月（日、月、地）；月食在滿月（日、地、月）"
+    },
+    {
+      "name": "行星順序",
+      "body": "水金地火木土天海；類地：水金地火；類木：木土天海"
+    },
+    {
+      "name": "光傳播",
+      "body": "太陽光到地球約 $500$ 秒（光速約 $3\\times10^{5}\\ \\mathrm{km/s}$）"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "s9-10-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "月相成因",
+      "q": "月相（新月、上弦月、滿月等）不斷盈虧變化，最主要的原因是什麼？",
+      "choices": [
+        "地球的影子輪流遮住月球的不同部分",
+        "月球繞地球公轉，從地球看到月球被太陽照亮的部分不斷改變",
+        "月球本身發出的光時強時弱",
+        "月球自轉使亮面與暗面輪流朝向太陽"
+      ],
+      "answer": 1,
+      "explain": "月球不發光，永遠有一半被太陽照亮；月球繞地球公轉時，我們看到亮面的比例跟著改變，才有月相。地球影子遮住月球是月食，不是每個月都有；月球本身不發光；自轉不會改變被太陽照亮的半球。答案是月球繞地球公轉，從地球看到月球被太陽照亮的部分不斷改變。",
+      "codes": [
+        "Fb-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "s9-10-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "銀河系與太陽系",
+      "q": "關於太陽、太陽系與銀河系，下列敘述何者正確？",
+      "choices": [
+        "太陽是銀河系中的一顆恆星，太陽系位在銀河系內",
+        "銀河系是太陽系的一部分，太陽系比銀河系大",
+        "銀河系裡只有太陽一顆恆星，其他的星星都是行星",
+        "宇宙中只有銀河系這一個星系"
+      ],
+      "answer": 0,
+      "explain": "銀河系由數千億顆恆星組成，太陽是其中一顆，太陽系（太陽和繞它公轉的行星等）只是銀河系很小的一部分。銀河系比太陽系大得多，所以第一個錯誤選項顛倒了；銀河系有數千億顆恆星，不是只有太陽；宇宙中有許多星系，銀河系只是其一。答案是太陽是銀河系中的一顆恆星，太陽系位在銀河系內。",
+      "codes": [
+        "Ed-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "s9-10-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "類地行星",
+      "q": "下列哪一組行星全部屬於類地行星？",
+      "choices": [
+        "水星、地球、木星、土星",
+        "金星、火星、天王星、海王星",
+        "地球、火星、木星、海王星",
+        "水星、金星、地球、火星"
+      ],
+      "answer": 3,
+      "explain": "類地行星是體積小、密度大、表面為岩石的行星，共四顆：水星、金星、地球、火星。木星、土星、天王星、海王星都是類木行星，體積大、密度小。所以含有木星、土星、天王星或海王星的組合都不對。答案是水星、金星、地球、火星。",
+      "codes": [
+        "Fb-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "s9-10-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "月相與升落",
+      "q": "某天傍晚日落後不久（約下午六點），小芸看到一輪圓滿的月亮從東方地平線升起。當天半夜十二點左右，這輪月亮最可能在哪裡？",
+      "choices": [
+        "已經落到西方地平線以下，看不到了",
+        "還在東方地平線附近，剛要升起",
+        "在南方天空，位置最高",
+        "靠近西方地平線，正要落下"
+      ],
+      "answer": 2,
+      "explain": "日落時從東方升起的圓月是滿月（農曆十五、十六前後）。滿月日落時升起、日出時落下，整夜在天空走半圈，所以半夜十二點剛好走到一半，位在南方天空最高處。落下的時間約是清晨，不是半夜；半夜時早就升起了，不會還在東方地平線附近；靠近西方地平線要到快天亮時。答案是在南方天空，位置最高。",
+      "codes": [
+        "Fb-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "s9-10-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "極晝與極夜",
+      "q": "某天太陽直射在北緯 $23.5^\\circ$。關於這一天，下列敘述何者正確？",
+      "choices": [
+        "全球各地的晝夜都一樣長",
+        "南半球各地的白晝都比黑夜長",
+        "南極圈內整天看不到太陽，出現極夜",
+        "赤道上的白晝長度約 18 小時"
+      ],
+      "answer": 2,
+      "explain": "直射北緯 $23.5^\\circ$ 是北半球的夏至：北半球晝長夜短，北極圈內有極晝，南極圈內整天不見太陽（極夜），南半球是冬季、白晝比黑夜短。晝夜等長是春分、秋分的現象；南半球此時白晝較短；赤道全年白晝都約 12 小時。答案是南極圈內整天看不到太陽，出現極夜。",
+      "codes": [
+        "Id-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "s9-10-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "日月食條件",
+      "q": "新月與滿月每個月各出現一次，但日食、月食並不是每個月都會發生。最主要的原因是什麼？",
+      "choices": [
+        "月球軌道面與地球公轉軌道面約有 $5^\\circ$ 的夾角，多數新月、滿月時日、地、月沒有排成一直線",
+        "月球公轉一圈約要一年，所以一年才有一次新月與滿月",
+        "日食與月食只會在夏至和冬至發生",
+        "地球自轉太快，月球的影子來不及落在地球上"
+      ],
+      "answer": 0,
+      "explain": "日食要日、月、地排成一直線的新月，月食要日、地、月排成一直線的滿月；但月球軌道面和地球公轉軌道面約夾 $5^\\circ$，多數時候月球會從日地連線的上方或下方通過，所以不會每月都發生。月球繞地球約 29.5 天（月相一輪）而不是一年；日月食與夏至、冬至無關；地球自轉並不會讓月影「來不及」落下。答案是月球軌道面與地球公轉軌道面約有 $5^\\circ$ 的夾角，多數新月、滿月時日、地、月沒有排成一直線。",
+      "codes": [
+        "Fb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "s9-10-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "光傳播時間",
+      "q": "太陽到地球的平均距離約 $1.5\\times10^{8}$ 公里，光的速率約每秒 $3\\times10^{5}$ 公里。太陽光從太陽傳到地球，約需多久？",
+      "choices": [
+        "約 1 分鐘",
+        "約 8 分鐘",
+        "約 80 分鐘",
+        "約 8 小時"
+      ],
+      "answer": 1,
+      "explain": "時間 $=$ 距離 $\\div$ 速率 $=1.5\\times10^{8}\\div(3\\times10^{5})=500$ 秒，約 8 分 20 秒，也就是約 8 分鐘。1 分鐘只有 60 秒，太短；80 分鐘是 4800 秒，比算出的大約 10 倍；8 小時更大，是把數量級算錯。答案是約 8 分鐘。",
+      "codes": [
+        "Fb-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "s9-10-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "正午太陽仰角",
+      "q": "冬至這天，太陽直射南緯 $23.5^\\circ$。北緯 $33.5^\\circ$ 的某地，在正午時太陽的仰角約為多少？",
+      "choices": [
+        "$10^\\circ$",
+        "$57^\\circ$",
+        "$80^\\circ$",
+        "$33^\\circ$"
+      ],
+      "answer": 3,
+      "explain": "正午仰角 $=90^\\circ-$（所在緯度與直射點緯度的差）。北緯 $33.5^\\circ$ 與南緯 $23.5^\\circ$ 分處赤道兩側，緯度差要相加：$33.5^\\circ+23.5^\\circ=57^\\circ$，所以仰角 $=90^\\circ-57^\\circ=33^\\circ$。$57^\\circ$ 是把緯度差直接當成仰角；$10^\\circ$ 是誤用 $33.5^\\circ-23.5^\\circ$ 相減；$80^\\circ$ 是夏至（直射北緯）時才有的值。答案是 $33^\\circ$。",
+      "codes": [
+        "Id-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年自然科第 14 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：月相連續觀察 前半月變化（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年自然科第 17 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：恆星與行星 判別方式（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年自然科第 38 題",
+        "url": "https://drive.google.com/file/d/1ZJNPG9Wz3zuI8UkPGUY50URejxxZYmQ8/view",
+        "note": "考點：不同緯度 白天時數變化（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 37 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：行星與太陽相對位置排列（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 49 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：上弦下弦月 月相與位置（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年自然科第 50 題",
+        "url": "https://drive.google.com/file/d/18_lHom7zYhyOoMvxHt4hKJS_CynFOoZ1/view",
+        "note": "考點：月相週期 半個月 地球自轉公轉（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 8 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：小王子場景 日夜與自轉方向（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 24 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：赤道觀測日偏食 月球遮蔽太陽（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年自然科第 31 題",
+        "url": "https://drive.google.com/file/d/1lO1_3Iq62BmTHR8m29or7I8VtS8qZdDR/view",
+        "note": "考點：正午日照範圍 四季太陽直射點（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「月相與日月食」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%9C%88%E7%9B%B8%E8%88%87%E6%97%A5%E6%9C%88%E9%A3%9F"
+    },
+    {
+      "label": "均一教育平台：搜尋「四季成因」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9B%9B%E5%AD%A3%E6%88%90%E5%9B%A0"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}
