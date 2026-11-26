@@ -4,9 +4,13 @@
  "order": 4,
  "icon": "📖",
  "color": "#b0436e",
- "status": "coming",
- "blurb": "八、九年級範文、語文常識",
+ "status": "ready",
+ "blurb": "九年級字詞、修辭、文言文、詩詞曲、閱讀與文化常識（七、八年級即將推出）",
  "groups": [
+  {
+   "grade": 7,
+   "title": "七年級"
+  },
   {
    "grade": 8,
    "title": "八年級"
@@ -16,5 +20,180 @@
    "title": "九年級"
   }
  ],
- "units": []
+ "curriculum": {
+  "title": "十二年國教課綱 語文領域—國語文（第四學習階段：國中）",
+  "url": "https://www.naer.edu.tw/upload/1/16/doc/806/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校(語文領域─國語文).pdf",
+  "note": "學習內容編碼如 Ab-Ⅳ-1（字詞）、Ad-Ⅳ-3（韻文）、Bd-Ⅳ-1（議論）；課綱不分年級，單元依能力與文類切分，三大版本選文不同。"
+ },
+ "pastPapers": {
+  "label": "心測中心歷屆試題（國文科）",
+  "url": "https://cap.rcpet.edu.tw/examination.html"
+ },
+ "defaultLinks": [
+  {
+   "label": "均一教育平台",
+   "url": "https://www.junyiacademy.org/"
+  },
+  {
+   "label": "教育部國語辭典簡編本",
+   "url": "https://dict.concised.moe.edu.tw/"
+  },
+  {
+   "label": "教育部成語典",
+   "url": "https://dict.idioms.moe.edu.tw/"
+  }
+ ],
+ "units": [
+  {
+   "id": "c9-01",
+   "title": "字音、字形與造字法則",
+   "grade": 9,
+   "order": 1,
+   "codes": [
+    "Ab-Ⅳ-1",
+    "Ab-Ⅳ-2",
+    "Ab-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-02",
+   "title": "成語、語詞與熟語運用",
+   "grade": 9,
+   "order": 2,
+   "codes": [
+    "Ab-Ⅳ-4",
+    "Ab-Ⅳ-5"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-03",
+   "title": "標點符號與句型病句",
+   "grade": 9,
+   "order": 3,
+   "codes": [
+    "Ac-Ⅳ-1",
+    "Ac-Ⅳ-2",
+    "Ac-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-04",
+   "title": "修辭技巧辨析",
+   "grade": 9,
+   "order": 4,
+   "codes": [
+    "Ba-Ⅳ-2",
+    "Bb-Ⅳ-5",
+    "Bd-Ⅳ-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-05",
+   "title": "文言文詞義、虛字與古今義變",
+   "grade": 9,
+   "order": 5,
+   "codes": [
+    "Ab-Ⅳ-6",
+    "Ab-Ⅳ-7",
+    "Ad-Ⅳ-4"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-06",
+   "title": "先秦諸子：孟子、荀子與論語",
+   "grade": 9,
+   "order": 6,
+   "codes": [
+    "Ad-Ⅳ-4",
+    "Bd-Ⅳ-1",
+    "Cc-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-07",
+   "title": "古文選讀：記、說、序與表",
+   "grade": 9,
+   "order": 7,
+   "codes": [
+    "Ad-Ⅳ-1",
+    "Ad-Ⅳ-4",
+    "Cb-Ⅳ-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-08",
+   "title": "古典詩：樂府、古體與近體詩",
+   "grade": 9,
+   "order": 8,
+   "codes": [
+    "Ad-Ⅳ-3",
+    "Bb-Ⅳ-2",
+    "Bb-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-09",
+   "title": "詞與曲",
+   "grade": 9,
+   "order": 9,
+   "codes": [
+    "Ad-Ⅳ-3",
+    "Bb-Ⅳ-3",
+    "Cc-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-10",
+   "title": "記敘抒情文本與現代文學",
+   "grade": 9,
+   "order": 10,
+   "codes": [
+    "Ad-Ⅳ-2",
+    "Ba-Ⅳ-1",
+    "Ba-Ⅳ-2",
+    "Bb-Ⅳ-1",
+    "Bb-Ⅳ-4",
+    "Bb-Ⅳ-5"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-11",
+   "title": "說明、議論文本與圖表閱讀",
+   "grade": 9,
+   "order": 11,
+   "codes": [
+    "Bc-Ⅳ-1",
+    "Bc-Ⅳ-2",
+    "Bc-Ⅳ-3",
+    "Bd-Ⅳ-1",
+    "Bd-Ⅳ-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-12",
+   "title": "應用文本與國學文化常識",
+   "grade": 9,
+   "order": 12,
+   "codes": [
+    "Be-Ⅳ-1",
+    "Be-Ⅳ-2",
+    "Be-Ⅳ-3",
+    "Ca-Ⅳ-1",
+    "Cb-Ⅳ-1",
+    "Cc-Ⅳ-1"
+   ],
+   "quizCount": 8
+  }
+ ]
 }

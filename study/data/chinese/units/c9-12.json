@@ -1,0 +1,344 @@
+{
+  "id": "c9-12",
+  "subject": "chinese",
+  "grade": 9,
+  "order": 12,
+  "title": "應用文本與國學文化常識",
+  "codes": [
+    {
+      "code": "Be-Ⅳ-1",
+      "text": "在生活應用方面，以自傳、簡報、新聞稿等格式與寫作方法為主。"
+    },
+    {
+      "code": "Be-Ⅳ-2",
+      "text": "在人際溝通方面，以書信、便條、對聯等之慣用語彙與"
+    },
+    {
+      "code": "Be-Ⅳ-3",
+      "text": "在學習應用方面，以簡報、讀書報告、演講稿、劇本等格式與寫作方法為主。"
+    },
+    {
+      "code": "Ca-Ⅳ-1",
+      "text": "各類文本中的飲食、服飾、建築形式、交通工具、名勝古蹟及休閒娛樂等文化內涵。"
+    },
+    {
+      "code": "Cb-Ⅳ-1",
+      "text": "各類文本中的親屬關係、道德倫理、儀式風俗、典章制度等文化內涵。"
+    },
+    {
+      "code": "Cc-Ⅳ-1",
+      "text": "各類文本中的藝術、信仰、思想等文化內涵。"
+    }
+  ],
+  "intro": "這個單元學書信、便條、啟事、對聯、新聞稿、演講稿等應用文的格式與用語，並認識稱謂、年齡別稱、作者朝代、節日習俗等國學文化常識。會考常考提稱語與問候語、稱謂配對、年齡別稱與文化常識的辨認。",
+  "sections": [
+    {
+      "title": "書信：稱謂、提稱語與結尾敬辭",
+      "points": [
+        "書信結構：稱呼加提稱語、啟事敬辭、正文、結尾應酬語、問候語、自稱與署名、日期。",
+        "提稱語依對象不同：對父母用「膝下」，對老師用「函丈」，對一般平輩用「大鑒」，長輩對晚輩用「青覽」。",
+        "啟事敬辭：對尊長用「敬稟者」；「敬啟者」可用於平輩或長輩。",
+        "問候語（請安語）：對師長用「敬請　誨安」，對尊長用「敬請　福安」。",
+        "署名時，晚輩要自稱，如「學生　○○　敬上」；信封收件人要寫姓名加稱謂加啟封詞，寄件人處寫「緘」。",
+        "迷思：提稱語是「請對方閱讀」的敬辭，不是稱呼本身；父母用「膝下」不是在寫「膝蓋的下面」。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 202\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"6\" width=\"190\" height=\"190\"/><text x=\"16\" y=\"26\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">老師　函丈：</text><line x1=\"200\" y1=\"21\" x2=\"214\" y2=\"21\"/><text x=\"218\" y=\"26\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">稱呼＋提稱語（依對象）</text><text x=\"16\" y=\"52\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">敬稟者：</text><line x1=\"200\" y1=\"47\" x2=\"214\" y2=\"47\"/><text x=\"218\" y=\"52\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">啟事敬辭（開頭）</text><text x=\"16\" y=\"78\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">（正文，另起一行）</text><line x1=\"200\" y1=\"73\" x2=\"214\" y2=\"73\"/><text x=\"218\" y=\"78\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">正文：說明事由</text><text x=\"16\" y=\"104\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">專此　敬請</text><line x1=\"200\" y1=\"99\" x2=\"214\" y2=\"99\"/><text x=\"218\" y=\"104\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">結尾應酬語</text><text x=\"16\" y=\"130\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">誨安</text><line x1=\"200\" y1=\"125\" x2=\"214\" y2=\"125\"/><text x=\"218\" y=\"130\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">問候語（對師長）</text><text x=\"16\" y=\"156\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">學生　小明　敬上</text><line x1=\"200\" y1=\"151\" x2=\"214\" y2=\"151\"/><text x=\"218\" y=\"156\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">自稱、署名、敬辭</text><text x=\"16\" y=\"182\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">中華民國○年○月○日</text><line x1=\"200\" y1=\"177\" x2=\"214\" y2=\"177\"/><text x=\"218\" y=\"182\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">日期</text></svg>",
+      "caption": "寫給老師的信：從上到下的格式。"
+    },
+    {
+      "title": "便條、啟事、公告與對聯",
+      "points": [
+        "便條：簡短直接，包含稱呼、事由、署名與日期，不必用書信那一整套提稱語、問候語。",
+        "啟事：向大眾說明或請求協助的文字，如尋物、招領、徵求；要有標題、事由、時間地點、聯絡方式、啟事人與日期。",
+        "公告：機關或團體向大眾公布事項，語氣正式，內容簡明。",
+        "對聯：上下聯字數相等、詞性相對、結構相同、平仄相對；一般常見是上聯末字為仄聲（三、四聲），下聯末字為平聲，稱「仄起平收」。",
+        "春聯貼法：面對大門，上聯貼右邊，下聯貼左邊。"
+      ]
+    },
+    {
+      "title": "新聞稿、演講稿與其他應用文",
+      "points": [
+        "新聞稿：標題、導言、主體、結尾；採「倒金字塔」結構，把最重要的消息放在最前面。",
+        "導言交代主要的人、事、時、地、原因與經過，讓讀者讀第一段就知道重點。",
+        "新聞稿語氣客觀，不加個人評論；引述他人談話要標明來源。",
+        "演講稿：稱呼（如「各位老師、同學，大家好」）、開場、主體、結語；多用口語、短句，方便聽眾聽懂。",
+        "自傳依序寫家庭背景、求學經歷、興趣專長與志向；簡報一頁一重點，用關鍵字呈現；讀書報告包含書名作者、內容摘要與心得。"
+      ]
+    },
+    {
+      "title": "稱謂與年齡別稱",
+      "points": [
+        "對人稱自己的親人：父親稱「家父」或「家嚴」，母親稱「家母」或「家慈」。",
+        "敬稱他人的親人：父親稱「令尊」，母親稱「令堂」，兒子稱「令郎」，女兒稱「令愛」。",
+        "年齡別稱：弱冠（男子二十歲）、而立（三十）、不惑（四十）、知命（五十）、耳順（六十）、古稀（七十）、耄耋（八、九十歲）、期頤（百歲）；女子十五歲稱及笄。",
+        "迷思：「年屆而立」是剛滿三十歲這個階段，計算年紀要看題目問的是哪一年；「不惑」不是指不再有疑問，而是四十歲的代稱。",
+        "「家」字頭用於自己的親人，「令」字頭用於他人的親人，用反了就會鬧笑話。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 160\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"70\" x2=\"400\" y2=\"70\"/><line x1=\"24\" y1=\"64\" x2=\"24\" y2=\"76\"/><text x=\"24\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">15</text><text x=\"24\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">及</text><text x=\"24\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">笄</text><text x=\"24\" y=\"144\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">女</text><line x1=\"67\" y1=\"64\" x2=\"67\" y2=\"76\"/><text x=\"67\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">20</text><text x=\"67\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">弱</text><text x=\"67\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">冠</text><text x=\"67\" y=\"144\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">男</text><line x1=\"110\" y1=\"64\" x2=\"110\" y2=\"76\"/><text x=\"110\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">30</text><text x=\"110\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">而</text><text x=\"110\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">立</text><line x1=\"153\" y1=\"64\" x2=\"153\" y2=\"76\"/><text x=\"153\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">40</text><text x=\"153\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">不</text><text x=\"153\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">惑</text><line x1=\"196\" y1=\"64\" x2=\"196\" y2=\"76\"/><text x=\"196\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">50</text><text x=\"196\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">知</text><text x=\"196\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">命</text><line x1=\"239\" y1=\"64\" x2=\"239\" y2=\"76\"/><text x=\"239\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">60</text><text x=\"239\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">耳</text><text x=\"239\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">順</text><line x1=\"282\" y1=\"64\" x2=\"282\" y2=\"76\"/><text x=\"282\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">70</text><text x=\"282\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">古</text><text x=\"282\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">稀</text><line x1=\"325\" y1=\"64\" x2=\"325\" y2=\"76\"/><text x=\"325\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">80</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">耄</text><text x=\"325\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">耋</text><line x1=\"368\" y1=\"64\" x2=\"368\" y2=\"76\"/><text x=\"368\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">100</text><text x=\"368\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">期</text><text x=\"368\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">頤</text><text x=\"210\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">年齡別稱（歲數）</text></svg>",
+      "caption": "年齡別稱對照（歲）。"
+    },
+    {
+      "title": "文學常識與傳統文化",
+      "points": [
+        "四書：論語、孟子、大學、中庸；五經：詩、書、易、禮、春秋。",
+        "文房四寶：筆、墨、紙、硯。",
+        "文體與時代：唐詩、宋詞、元曲、明清小說是常見的對照。作者朝代：李白、杜甫是唐代，蘇軾、李清照是宋代，關漢卿是元代，曹雪芹是清代。",
+        "節日習俗：端午（農曆五月五日）吃粽子、划龍舟；中秋（農曆八月十五日）賞月、吃月餅；重陽（農曆九月九日）登高、飲菊花酒、佩茱萸；元宵（農曆正月十五日）賞燈、猜燈謎。",
+        "題目若同時問作者、朝代與作品，三項都要核對，只對一項不算對。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "提稱語",
+      "body": "父母「膝下」、老師「函丈」、平輩「大鑒」、晚輩「青覽」。"
+    },
+    {
+      "name": "問候語",
+      "body": "對師長「敬請　誨安」，對尊長「敬請　福安」。"
+    },
+    {
+      "name": "家與令",
+      "body": "「家」稱自己的親人，「令」尊稱他人的親人。"
+    },
+    {
+      "name": "年齡別稱",
+      "body": "弱冠二十、而立三十、不惑四十、知命五十、耳順六十、古稀七十。"
+    },
+    {
+      "name": "新聞稿",
+      "body": "倒金字塔：最重要的消息放最前面。"
+    },
+    {
+      "name": "春聯貼法",
+      "body": "面對大門，上聯在右，下聯在左。"
+    },
+    {
+      "name": "四書五經",
+      "body": "四書：論語、孟子、大學、中庸；五經：詩、書、易、禮、春秋。"
+    },
+    {
+      "name": "節日習俗",
+      "body": "端午粽子龍舟、中秋賞月、重陽登高。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c9-12-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "書信提稱語",
+      "q": "小華要寫信給母親，信中的提稱語最適合用下列何者？",
+      "choices": [
+        "膝下",
+        "函丈",
+        "大鑒",
+        "青覽"
+      ],
+      "answer": 0,
+      "explain": "提稱語是書信中請對方閱讀的敬辭，對父母用「膝下」。「函丈」是對老師的敬稱，「大鑒」用於一般平輩，「青覽」用於長輩對晚輩，這三個都不適合小華寫給母親。答案是 膝下。",
+      "codes": [
+        "Be-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-12-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "節日習俗",
+      "q": "下列節日與習俗的配對，何者正確？",
+      "choices": [
+        "中秋節：登高、飲菊花酒",
+        "元宵節：掃墓、踏青",
+        "端午節：划龍舟、吃粽子",
+        "重陽節：賞月、吃月餅"
+      ],
+      "answer": 2,
+      "explain": "端午節在農曆五月初五，習俗有划龍舟、吃粽子，配對正確。登高與飲菊花酒是重陽節的習俗，不是中秋節；中秋節的習俗才是賞月與吃月餅；元宵節的習俗是賞燈、猜燈謎，掃墓踏青是清明節的習俗；重陽節要登高、佩茱萸，賞月吃月餅是中秋節的習俗。答案是 端午節：划龍舟、吃粽子。",
+      "codes": [
+        "Cb-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-12-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "春聯貼法",
+      "q": "貼春聯時，上聯與下聯的位置，下列何者正確？",
+      "choices": [
+        "面對大門，上聯貼左邊，下聯貼右邊",
+        "兩聯可隨意貼，沒有上下之分",
+        "上聯貼在門的上方，下聯貼在門的下方",
+        "面對大門，上聯貼右邊，下聯貼左邊"
+      ],
+      "answer": 3,
+      "explain": "春聯的貼法是面對大門時，上聯在右、下聯在左，這是約定俗成的格式。說上聯貼左邊正好相反；說兩聯可以隨意貼，忽略了對聯有上下聯之分；說上聯貼門的上方、下聯貼下方，把「上下聯」誤當成「上下位置」，春聯是貼在大門的左右兩側，所以也不對。答案是 面對大門，上聯貼右邊，下聯貼左邊。",
+      "codes": [
+        "Be-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-12-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "年齡別稱",
+      "q": "陳老師去年剛好「而立」，今年她幾歲？",
+      "choices": [
+        "29 歲",
+        "31 歲",
+        "30 歲",
+        "41 歲"
+      ],
+      "answer": 1,
+      "explain": "「而立」是三十歲的代稱，語出《論語．為政》「三十而立」。陳老師去年三十歲，今年就是 31 歲。選 30 歲是把「去年」當成「今年」；選 29 歲是把年份算反了，變成前一年；選 41 歲是把「而立」誤當成四十歲的「不惑」，再加一歲。答案是 31 歲。",
+      "codes": [
+        "Cb-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-12-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "稱謂用法",
+      "q": "小美對老同學說：「（甲）今天身體不舒服，沒辦法來參加聚會。請代我向（乙）問好。」其中甲為小美的母親，乙為老同學的父親。甲、乙依序填入下列何者最恰當？",
+      "choices": [
+        "家母、令尊",
+        "令堂、家父",
+        "家嚴、令堂",
+        "令尊、家母"
+      ],
+      "answer": 0,
+      "explain": "甲是小美自己的母親，要用「家」字頭的謙稱，所以是「家母」；乙是老同學的父親，要用「令」字頭的敬稱，所以是「令尊」。「令堂」是敬稱他人的母親，「家父」是稱自己的父親，所以「令堂、家父」弄反了對象；「家嚴」是稱自己的父親，「令堂」是敬稱他人的母親，都不符合；「令尊、家母」把甲、乙的位置顛倒。答案是 家母、令尊。",
+      "codes": [
+        "Cb-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-12-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "新聞稿導言",
+      "q": "要為校內活動寫新聞稿，下列哪一句最適合放在第一段當導言？",
+      "choices": [
+        "談到海洋，我們每個人的心裡，都有一片屬於自己的藍色夢想。",
+        "本校昨日舉辦淨灘活動，共有 120 名師生到海邊撿拾垃圾，清出約 300 公斤廢棄物。",
+        "活動結束後，校長在台上感謝所有人，並表示明年還會再舉辦。",
+        "淨灘活動有許多優點，我認為非常值得推廣到全國各級學校。"
+      ],
+      "answer": 1,
+      "explain": "新聞稿採倒金字塔結構，導言要把最重要的人、事、時、地與結果先交代。「昨日舉辦淨灘活動，120 名師生，清出約 300 公斤」包含時間、事件、人數與成果，最適合當導言。「談到海洋，我們每個人心裡都有一片屬於自己的藍」是抒情式開頭，沒有交代消息；「活動結束後校長感謝大家」屬於後續的結尾內容；「優點很多，值得推廣」是個人評論，新聞稿應保持客觀。答案是 本校昨日舉辦淨灘活動，共有 120 名師生到海邊撿拾垃圾，清出約 300 公斤廢棄物。",
+      "codes": [
+        "Be-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-12-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "作者朝代與作品",
+      "q": "下列作者、朝代與作品的配對，何者完全正確？",
+      "choices": [
+        "李白──唐代──〈赤壁賦〉",
+        "關漢卿──明代──《竇娥冤》",
+        "蘇軾──宋代──〈念奴嬌．赤壁懷古〉",
+        "陶淵明──唐代──〈桃花源記〉"
+      ],
+      "answer": 2,
+      "explain": "蘇軾是宋代文學家，〈念奴嬌．赤壁懷古〉是他的詞作，三項都對。〈赤壁賦〉的作者是蘇軾，不是李白；關漢卿是元代戲曲作家，《竇娥冤》是元雜劇，不是明代；陶淵明是晉代人，不是唐代，〈桃花源記〉是他的作品。答案是 蘇軾──宋代──〈念奴嬌．赤壁懷古〉。",
+      "codes": [
+        "Cc-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-12-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "書信格式",
+      "q": "小明要寫信給國文老師，下列哪一組「提稱語、結尾問候語、署名」最恰當？",
+      "choices": [
+        "膝下／敬請　誨安／學生　小明　敬上",
+        "函丈／敬請　誨安／老師　王大明　謹上",
+        "青覽／敬請　誨安／學生　小明　敬上",
+        "函丈／敬請　誨安／學生　小明　敬上"
+      ],
+      "answer": 3,
+      "explain": "寫給老師，提稱語用「函丈」，問候語用「誨安」，署名要以學生的身分自稱，所以「函丈、敬請誨安、學生小明敬上」最恰當。「膝下」是對父母的提稱語；署名寫成「老師　王大明」，把寫信人與收信人弄反了；「青覽」是長輩對晚輩用的提稱語，學生寫給老師不能用。答案是 函丈／敬請　誨安／學生　小明　敬上。",
+      "codes": [
+        "Be-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年國文科第 10 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：字體演變：隸書（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 16 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：稱謂使用（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 5 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：說文字體與文字演變（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 7 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：對聯張貼與平仄（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 15 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：聊齋志異與文學史（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 40 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：書信用語與稱謂（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 1 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：廣告貼文用意判讀（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 3 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：謙詞敬詞運用（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 5 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：廣告文案內容判讀（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 10 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：篆書字體特徵（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 11 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：獎牌題辭搭配（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「書信格式」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%9B%B8%E4%BF%A1%E6%A0%BC%E5%BC%8F"
+    },
+    {
+      "label": "均一教育平台：搜尋「國學常識」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9C%8B%E5%AD%B8%E5%B8%B8%E8%AD%98"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

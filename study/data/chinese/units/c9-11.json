@@ -1,0 +1,504 @@
+{
+  "id": "c9-11",
+  "subject": "chinese",
+  "grade": 9,
+  "order": 11,
+  "title": "說明、議論文本與圖表閱讀",
+  "codes": [
+    {
+      "code": "Bc-Ⅳ-1",
+      "text": "具邏輯、客觀、理性的說明，如科學知識、產品、環境、制度等說明。"
+    },
+    {
+      "code": "Bc-Ⅳ-2",
+      "text": "描述、列舉、因果、問題解決、比較、分類、定義等寫作手法。"
+    },
+    {
+      "code": "Bc-Ⅳ-3",
+      "text": "數據、圖表、圖片、工具列等輔助說明。"
+    },
+    {
+      "code": "Bd-Ⅳ-1",
+      "text": "以事實、理論為論據，達到說服、建構、批判等目的。"
+    },
+    {
+      "code": "Bd-Ⅳ-2",
+      "text": "論證方式如比較、比喻等。"
+    }
+  ],
+  "intro": "這個單元學說明文與議論文的寫作方法：說明文如何把道理講清楚（下定義、舉例、分類、比較、因果、數據），議論文如何說服人（論點、論據、論證方式），並練習判讀表格與統計圖。會考常考手法辨認、論證分析與圖表推論。",
+  "sections": [
+    {
+      "title": "說明文：把道理講清楚",
+      "points": [
+        "說明文的目的是讓讀者「理解」，語氣客觀、條理清楚，少用個人情緒。",
+        "下定義：解釋詞語的意義，常見「所謂…是指…」。舉例說明：用具體例子讓抽象道理好懂，常有「例如」。",
+        "分類說明：依標準分成幾類再逐項說明，如「可分為三種」。比較說明：把兩件事物對照，指出相同與相異。",
+        "因果說明：交代原因與結果，或事情形成的過程，如「由於…因此…」。",
+        "數據說明：引用數字或統計增加可信度，要注意數據的出處與比較的基準。"
+      ]
+    },
+    {
+      "title": "說明文的結構與輔助",
+      "points": [
+        "常見順序：時間（先後）、空間（由近到遠）、邏輯（由淺入深、由因到果）。",
+        "總分總：開頭提出主題，中間分項說明，結尾歸納。",
+        "圖表、圖片、小標題、註解屬於輔助說明，能把複雜資訊整理得清楚易讀。",
+        "「可分為」「相較之下」「由於」等語詞，是判斷說明手法的線索。",
+        "迷思：同一段文字可以同時用好幾種手法；題目問「主要」手法時，看整段的組織方式。"
+      ]
+    },
+    {
+      "title": "議論文：論點、論據、論證",
+      "points": [
+        "論點：作者主張的核心觀點，通常是一句判斷句，常出現在開頭或結尾。",
+        "論據：支持論點的材料，可以是事實、數據、事例、名言或道理。",
+        "論證：把論據與論點連起來的推理方式，說明「為什麼這個論據能支持論點」。",
+        "單純的口號或意見不是論據；事實也必須和論點有關，才算論據。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 164\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"110\" y=\"8\" width=\"200\" height=\"30\" class=\"soft\"/><text x=\"210\" y=\"28\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">論點（作者的主張）</text><line x1=\"210\" y1=\"38\" x2=\"210\" y2=\"60\" class=\"hl2\" stroke-width=\"3\"/><path d=\"M210 60l-5 -8m5 8l5 -8\" class=\"hl2\" stroke-width=\"3\"/><text x=\"300\" y=\"54\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" class=\"hl2\" font-size=\"13\">論證：怎麼推理</text><rect x=\"20\" y=\"66\" width=\"110\" height=\"30\" class=\"soft2\"/><text x=\"75\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">論據：事實</text><rect x=\"155\" y=\"66\" width=\"110\" height=\"30\" class=\"soft2\"/><text x=\"210\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">論據：事例</text><rect x=\"290\" y=\"66\" width=\"110\" height=\"30\" class=\"soft2\"/><text x=\"345\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">論據：數據、名言</text><text x=\"210\" y=\"132\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">論據支持論點，論證說明「為什麼能支持」</text><text x=\"210\" y=\"152\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">論點＝主張　論據＝證據　論證＝推理</text></svg>",
+      "caption": "議論文的結構：論據支撐論點，論證是中間的推理。"
+    },
+    {
+      "title": "論證方式與常見瑕疵",
+      "points": [
+        "舉例論證：用具體的人、事、物當證據。引用論證：引用名言或權威說法，要確認內容真的支持論點。",
+        "比喻論證：用相似的事物說明道理，常有「像」「如同」。對比論證：把正反兩面或兩種做法放在一起，凸顯差異。",
+        "因果論證：說明某原因會導致某結果。",
+        "常見瑕疵：以偏概全（用少數例子推論全體）、把相關當因果、引用的權威與主題無關。",
+        "質疑一個論證時，可以找：樣本太少、忽略比較基準、有另一個更合理的原因。"
+      ]
+    },
+    {
+      "title": "圖表與資料判讀",
+      "points": [
+        "先看標題、單位、坐標軸與年份，再讀數字。",
+        "長條圖比大小，折線圖看趨勢，圓餅圖看比例，表格要逐列逐欄對照。",
+        "數量與比例不同：總數大，不代表平均高；要平均要用「總量除以人數」。",
+        "「增加了多少」用相減；「增加百分之幾」要除以原來的值。",
+        "圖表只能顯示現象，不能直接證明原因；選項出現「因為」「所以」「未來一定」時要特別小心。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 92\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"12\" y=\"14\" width=\"112\" height=\"34\" class=\"soft\"/><text x=\"68\" y=\"36\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">①標題與單位</text><line x1=\"124\" y1=\"31\" x2=\"146\" y2=\"31\"/><path d=\"M146 31l-5 -4m5 4l-5 4\"/><rect x=\"148\" y=\"14\" width=\"112\" height=\"34\" class=\"soft\"/><text x=\"204\" y=\"36\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">②數值與趨勢</text><line x1=\"260\" y1=\"31\" x2=\"282\" y2=\"31\"/><path d=\"M282 31l-5 -4m5 4l-5 4\"/><rect x=\"284\" y=\"14\" width=\"112\" height=\"34\" class=\"soft\"/><text x=\"340\" y=\"36\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">③核對選項</text><text x=\"210\" y=\"78\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">選項若出現圖表沒有的原因或未來，就是過度推論</text></svg>",
+      "caption": "判讀圖表的三個步驟。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "下定義",
+      "body": "解釋詞語意義，常用「所謂…是指…」。"
+    },
+    {
+      "name": "說明手法",
+      "body": "舉例、分類、比較、因果、數據，都是讓道理清楚的方法。"
+    },
+    {
+      "name": "論點",
+      "body": "作者的核心主張。"
+    },
+    {
+      "name": "論據",
+      "body": "支持論點的事實、數據、事例、名言。"
+    },
+    {
+      "name": "論證",
+      "body": "連結論據與論點的推理方式。"
+    },
+    {
+      "name": "論證方式",
+      "body": "舉例、引用、比喻、對比、因果。"
+    },
+    {
+      "name": "比例與數量",
+      "body": "總數多不代表平均高，要看除以人數後的值。"
+    },
+    {
+      "name": "圖表推論",
+      "body": "只能說圖上看得到的，不能亂推原因或未來。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c9-11-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "下定義",
+      "q": "閱讀句子：「所謂『再生能源』，是指在自然界中能不斷補充、不會耗盡的能源。」這句話主要運用哪一種說明手法？",
+      "choices": [
+        "舉例說明",
+        "作比較",
+        "下定義",
+        "列數據"
+      ],
+      "answer": 2,
+      "explain": "句子以「所謂…是指…」解釋「再生能源」這個詞的意義，是下定義。句中沒有列出具體的例子，所以不是舉例說明；沒有拿兩種事物對照，所以不是作比較；也沒有出現任何數字，所以不是列數據。答案是 下定義。",
+      "codes": [
+        "Bc-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-11-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "比喻論證",
+      "q": "「想成功，就像爬山，要一步一步踏實往上，不可能一步登天。」這句話運用哪一種論證方式？",
+      "choices": [
+        "比喻論證",
+        "舉例論證",
+        "引用論證",
+        "因果論證"
+      ],
+      "answer": 0,
+      "explain": "句子以「就像爬山」說明成功的道理，用相似的事物來比喻，是比喻論證。句中沒有提到某個具體的人或事件，所以不是舉例論證；沒有引用名言或典籍，所以不是引用論證；句子主要不是在推論「某原因導致某結果」，所以不是因果論證。答案是 比喻論證。",
+      "codes": [
+        "Bd-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-11-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "論點與論據",
+      "q": "閱讀教學用短文（資料為虛構）：\n「甲、手機不該帶進教室。乙、老師調查發現，帶手機的班級平均每節課分心次數是沒帶手機班級的兩倍。丙、因此學校應規定上課時統一保管手機。」\n甲、乙、丙三句中，哪一句是「論據」？",
+      "choices": [
+        "甲",
+        "丙",
+        "甲和丙",
+        "乙"
+      ],
+      "answer": 3,
+      "explain": "論據是用來支持主張的證據。乙句提供調查結果，用數據支持「手機不該帶進教室」，所以乙是論據。甲句是作者主張的核心觀點，是論點，不是論據；丙句是根據前面的論述提出的建議與結論，是主張，不是論據；「甲和丙」同樣把主張當成論據，所以也不對。答案是 乙。",
+      "codes": [
+        "Bd-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-11-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "表格判讀",
+      "q": "下表為某校九年級四個班的每週閱讀時間（教學虛構資料）：\n班級｜人數｜每週總閱讀時數\n甲班｜20人｜60小時\n乙班｜30人｜75小時\n丙班｜25人｜100小時\n丁班｜40人｜120小時\n若要比較「平均每人」每週閱讀時間，哪一班最高？",
+      "choices": [
+        "甲班",
+        "丙班",
+        "乙班",
+        "丁班"
+      ],
+      "answer": 1,
+      "explain": "平均每人時間＝總時數除以人數。甲班 60÷20＝3，乙班 75÷30＝2.5，丙班 100÷25＝4，丁班 120÷40＝3，丙班最高。丁班的總時數 120 小時雖然最多，但人數也最多，平均只有 3 小時，所以不是丁班；甲班平均 3 小時，乙班平均 2.5 小時，都低於丙班。答案是 丙班。",
+      "codes": [
+        "Bc-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "c9-11-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "因果說明",
+      "q": "閱讀句子：「夏季午後常下雷陣雨，是因為地面受熱後，空氣膨脹上升，水氣遇冷凝結成雲，雲層愈積愈厚，便降下大雨。」這段文字的主要說明方式為何？",
+      "choices": [
+        "分類說明，把降雨分成三種類型",
+        "比較說明，對照夏季與冬季降雨的差異",
+        "因果說明，依序交代降雨形成的原因與過程",
+        "舉例說明，列出各地降雨的實例"
+      ],
+      "answer": 2,
+      "explain": "文句用「是因為」開頭，依序寫出「地面受熱、空氣上升、水氣凝結、雲層變厚、降下大雨」的原因與過程，所以是因果說明。文中沒有把降雨分成幾種類型，所以不是分類；沒有提到冬季或兩者對照，所以不是比較；也沒有列出各地的實例，所以不是舉例。答案是 因果說明，依序交代降雨形成的原因與過程。",
+      "codes": [
+        "Bc-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-11-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "對比論證",
+      "q": "「勤勞的人，晨起即工作，日落方休，一年所得足以豐衣足食；懶惰的人，日上三竿才起，三天打魚、兩天曬網，到頭來連溫飽都成問題。」這段文字主要運用哪一種論證方式？",
+      "choices": [
+        "比喻論證",
+        "引用論證",
+        "舉例論證",
+        "對比論證"
+      ],
+      "answer": 3,
+      "explain": "文句把「勤勞的人」與「懶惰的人」兩種相反的做法與結果並列，凸顯差別，是對比（正反）論證。文中沒有用「像」「如同」把一件事比成另一件事，所以不是比喻；沒有引用名言或典籍，所以不是引用；也沒有舉出某個具體人物或事件，只是泛指兩類人，所以不是舉例。答案是 對比論證。",
+      "codes": [
+        "Bd-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-11-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "統計圖判讀",
+      "q": "下圖為某校圖書館每月借閱量長條圖（教學虛構資料）。根據圖中資料，下列推論何者正確？",
+      "svg": "<svg viewBox=\"0 0 400 206\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"160\"/><line x1=\"40\" y1=\"160\" x2=\"380\" y2=\"160\"/><rect x=\"58\" y=\"100.0\" width=\"34\" height=\"60.0\" class=\"soft\"/><text x=\"75\" y=\"94.0\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">80</text><text x=\"75\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">1月</text><rect x=\"112\" y=\"130.0\" width=\"34\" height=\"30.0\" class=\"soft\"/><text x=\"129\" y=\"124.0\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">40</text><text x=\"129\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">2月</text><rect x=\"166\" y=\"70.0\" width=\"34\" height=\"90.0\" class=\"soft\"/><text x=\"183\" y=\"64.0\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">120</text><text x=\"183\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">3月</text><rect x=\"220\" y=\"55.0\" width=\"34\" height=\"105.0\" class=\"soft\"/><text x=\"237\" y=\"49.0\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">140</text><text x=\"237\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">4月</text><rect x=\"274\" y=\"40.0\" width=\"34\" height=\"120.0\" class=\"soft\"/><text x=\"291\" y=\"34.0\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">160</text><text x=\"291\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">5月</text><rect x=\"328\" y=\"85.0\" width=\"34\" height=\"75.0\" class=\"soft\"/><text x=\"345\" y=\"79.0\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">100</text><text x=\"345\" y=\"178\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">6月</text><text x=\"40\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">本</text><text x=\"210\" y=\"198\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">某校圖書館每月借閱量（單位：本，教學虛構資料）</text></svg>",
+      "choices": [
+        "五月的借閱量是二月的四倍",
+        "一月到六月的借閱量逐月增加",
+        "四月比三月多借了 40 本",
+        "二月借閱量最少，可見寒假使學生不愛閱讀"
+      ],
+      "answer": 0,
+      "explain": "從圖中讀出五月 160 本、二月 40 本，160÷40＝4，所以五月是二月的四倍。六月 100 本低於五月 160 本，也低於四月，二月還比一月少，借閱量並非逐月增加；四月 140 本、三月 120 本，相差 20 本，不是 40 本；圖只呈現二月借閱量最少，並沒有任何資料證明原因是寒假或學生不愛閱讀，這是過度推論。答案是 五月的借閱量是二月的四倍。",
+      "codes": [
+        "Bc-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "c9-11-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "質疑論證",
+      "q": "某文章寫道：「某校調查發現，成績前十名的學生中，有九人每天補習，因此補習是提高成績的關鍵。」（資料為教學虛構）下列哪一項新資訊最能質疑這個推論？",
+      "choices": [
+        "補習班的老師比學校老師更有教學經驗",
+        "成績前十名的學生都很用功",
+        "該校有超過九成的學生都每天補習",
+        "補習班的收費逐年上漲"
+      ],
+      "answer": 2,
+      "explain": "要質疑「補習是成績好的關鍵」，可以指出「補習」並不是前十名獨有的條件。若全校九成以上的學生都補習，前十名有九人補習只是反映大部分人都補習，並不能顯示補習與高成績有特別的關聯，所以最能質疑推論。老師比較有經驗的說法反而讓補習顯得有幫助，不能質疑；學生用功只提供另一個可能原因，沒有指出調查的缺陷，也不直接質疑；收費上漲與成績是否因補習而提高無關。答案是 該校有超過九成的學生都每天補習。",
+      "codes": [
+        "Bd-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年國文科第 2 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文論點歸納（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 3 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：史學觀點資料比較（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 8 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：資料內容推論（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 12 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言說明與圖樣對應（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 14 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：數字意義與資料判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 15 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文因果推論（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 17 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文內容推論（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 26 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文推論（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 27 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：循環經濟概念應用（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 28 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：雙文本推論（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 29 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：雙文本共同特點整合（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 33 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文內容判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 34 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文推論（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 35 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：規則說明資料判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 36 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：規則與計分表運算（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 37 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：說明文因果歸納（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 38 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：研究結論推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 1 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：詐騙話術判讀（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 2 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：文言資料說明與情節推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 6 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：圖表資料推論（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 9 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：說明文分類與應用（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 10 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：文言說明文內容推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 21 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：賽程表圖表判讀（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 27 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：地圖與文字說明對照（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 28 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：說明文因果歸納（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 29 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：劇本寫作要素理解（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 34 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：縮水漲價例證辨別（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 35 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：說明文因果推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 36 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：歷史說明文內容判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 37 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：作者觀點判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 9 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：說明文因果歸納（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 15 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：溝通要素與情境應用（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 23 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：公告文字資訊判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 27 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：說明文中的影響推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 28 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：說明文內容判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 29 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：資料型文本內容判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 30 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：資料型文本推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 31 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：展覽資料文本推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 32 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：展覽資料與圖表核對（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 33 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：概念關係圖表選擇（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 34 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：類比關係的理解（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 35 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：說明文內容判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 38 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：雙文本文句理解（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 39 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：雙文本比較整合（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「說明文」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%AA%AA%E6%98%8E%E6%96%87"
+    },
+    {
+      "label": "均一教育平台：搜尋「議論文」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%AD%B0%E8%AB%96%E6%96%87"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

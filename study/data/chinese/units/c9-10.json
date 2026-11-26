@@ -1,0 +1,387 @@
+{
+  "id": "c9-10",
+  "subject": "chinese",
+  "grade": 9,
+  "order": 10,
+  "title": "記敘抒情文本與現代文學",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-2",
+      "text": "新詩、現代散文、現代小說、劇本。"
+    },
+    {
+      "code": "Ba-Ⅳ-1",
+      "text": "順敘、倒敘、插敘與補敘法。"
+    },
+    {
+      "code": "Ba-Ⅳ-2",
+      "text": "各種描寫的作用及呈現的效果。"
+    },
+    {
+      "code": "Bb-Ⅳ-1",
+      "text": "自我及人際交流的感受。"
+    },
+    {
+      "code": "Bb-Ⅳ-4",
+      "text": "直接抒情。"
+    },
+    {
+      "code": "Bb-Ⅳ-5",
+      "text": "藉由敘述事件與描寫景物間接抒情。"
+    }
+  ],
+  "intro": "這個單元學記敘文怎麼安排時間順序（順敘、倒敘、插敘、補敘）、用描寫讓畫面與人物更生動，以及作者如何直接或間接表達情感，也練習讀新詩的意象。會考常以自寫短文或新詩出現在閱讀題，要求判斷敘寫手法、情感與作用。",
+  "sections": [
+    {
+      "title": "敘寫順序：順敘、倒敘、插敘、補敘",
+      "points": [
+        "順敘：依事情發生的先後順序寫，最容易閱讀，常用「起初」「後來」「最後」等時間語詞。",
+        "倒敘：先寫事件的結局或後段，再回頭交代前因；作用是製造懸念、凸顯結果、先聲奪人。",
+        "插敘：敘述主線進行到一半，暫時中斷，插入另一段較完整的往事或他事，再接回主線；常以「想起」「回過神來」銜接。",
+        "補敘：寫完某件事後，用簡短幾句補充先前未交代的原因或背景，不改變主線；常以「原來」引出。",
+        "判斷關鍵：先找「主線」在哪裡。主線被中斷又接回，是插敘；一開頭就把較晚發生的事擺在前面，是倒敘；只是一兩句補充說明，是補敘。",
+        "迷思：文中出現回憶，不一定是倒敘；要看回憶是整篇的安排，還是主線中途的插入。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 206\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"8\" y=\"33\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">順敘</text><rect x=\"72\" y=\"14\" width=\"54\" height=\"26\"/><text x=\"99\" y=\"33\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">開端</text><line x1=\"126\" y1=\"27\" x2=\"140\" y2=\"27\"/><path d=\"M140 27l-5 -4m5 4l-5 4\"/><rect x=\"140\" y=\"14\" width=\"54\" height=\"26\"/><text x=\"167\" y=\"33\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">經過</text><line x1=\"194\" y1=\"27\" x2=\"208\" y2=\"27\"/><path d=\"M208 27l-5 -4m5 4l-5 4\"/><rect x=\"208\" y=\"14\" width=\"54\" height=\"26\"/><text x=\"235\" y=\"33\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">結局</text><text x=\"8\" y=\"77\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">倒敘</text><rect x=\"72\" y=\"58\" width=\"54\" height=\"26\" class=\"soft2\"/><text x=\"99\" y=\"77\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">結局</text><line x1=\"126\" y1=\"71\" x2=\"140\" y2=\"71\"/><path d=\"M140 71l-5 -4m5 4l-5 4\"/><rect x=\"140\" y=\"58\" width=\"54\" height=\"26\"/><text x=\"167\" y=\"77\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">開端</text><line x1=\"194\" y1=\"71\" x2=\"208\" y2=\"71\"/><path d=\"M208 71l-5 -4m5 4l-5 4\"/><rect x=\"208\" y=\"58\" width=\"54\" height=\"26\"/><text x=\"235\" y=\"77\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">經過</text><text x=\"8\" y=\"121\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">插敘</text><rect x=\"72\" y=\"102\" width=\"54\" height=\"26\"/><text x=\"99\" y=\"121\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">開端</text><line x1=\"126\" y1=\"115\" x2=\"140\" y2=\"115\"/><path d=\"M140 115l-5 -4m5 4l-5 4\"/><rect x=\"140\" y=\"102\" width=\"54\" height=\"26\"/><text x=\"167\" y=\"121\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">經過</text><line x1=\"194\" y1=\"115\" x2=\"208\" y2=\"115\"/><path d=\"M208 115l-5 -4m5 4l-5 4\"/><rect x=\"208\" y=\"102\" width=\"54\" height=\"26\" class=\"soft2\"/><text x=\"235\" y=\"121\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">回憶</text><line x1=\"262\" y1=\"115\" x2=\"276\" y2=\"115\"/><path d=\"M276 115l-5 -4m5 4l-5 4\"/><rect x=\"276\" y=\"102\" width=\"54\" height=\"26\"/><text x=\"303\" y=\"121\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">經過</text><line x1=\"330\" y1=\"115\" x2=\"344\" y2=\"115\"/><path d=\"M344 115l-5 -4m5 4l-5 4\"/><rect x=\"344\" y=\"102\" width=\"54\" height=\"26\"/><text x=\"371\" y=\"121\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">結局</text><text x=\"8\" y=\"165\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">補敘</text><rect x=\"72\" y=\"146\" width=\"54\" height=\"26\"/><text x=\"99\" y=\"165\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">開端</text><line x1=\"126\" y1=\"159\" x2=\"140\" y2=\"159\"/><path d=\"M140 159l-5 -4m5 4l-5 4\"/><rect x=\"140\" y=\"146\" width=\"54\" height=\"26\"/><text x=\"167\" y=\"165\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">經過</text><line x1=\"194\" y1=\"159\" x2=\"208\" y2=\"159\"/><path d=\"M208 159l-5 -4m5 4l-5 4\"/><rect x=\"208\" y=\"146\" width=\"54\" height=\"26\"/><text x=\"235\" y=\"165\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">結局</text><line x1=\"262\" y1=\"159\" x2=\"276\" y2=\"159\"/><path d=\"M276 159l-5 -4m5 4l-5 4\"/><rect x=\"276\" y=\"146\" width=\"54\" height=\"26\" class=\"soft2\"/><text x=\"303\" y=\"165\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">補充</text><text x=\"8\" y=\"198\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">橘色底＝與主線順序不同的部分</text></svg>",
+      "caption": "四種敘寫順序示意：箭頭表示文章閱讀的順序。"
+    },
+    {
+      "title": "描寫：讓畫面與人物活起來",
+      "points": [
+        "人物描寫：可寫外貌、動作、神態、語言、心理；細節能讓人物立體，例如「搓著衣角」表現緊張。",
+        "景物描寫：可運用視覺、聽覺、嗅覺、味覺、觸覺等感官，寫出色彩、聲音、氣味、溫度。",
+        "環境描寫的作用：交代時空背景、營造氣氛、烘托人物的心情。",
+        "白描用簡單文字勾勒輪廓，細描鋪陳細節，兩者作用不同，不分高下。",
+        "判斷方法：問三件事——寫了什麼？用了哪種感官或角度？作者為什麼要這樣寫？"
+      ]
+    },
+    {
+      "title": "抒情方式：直接與間接",
+      "points": [
+        "直接抒情：把感受直接說出來，如「我好難過」「多麼令人驕傲」，情感明白。",
+        "間接抒情：不直接說出情感，藉敘述事件、描寫景物、動作或物品，讓讀者自己感受。",
+        "借景抒情：景物染上作者的心情，如以黃昏、冷雨寫孤寂；以明亮歡樂的景象寫悲傷，稱為反襯，對比更強烈。",
+        "藉事抒情：透過一件事的經過與細節帶出情感。託物抒情：藉物品寄託情感，如以舊傘寫思念。",
+        "迷思：一篇文章常常直接與間接並用；要看「那一句」是不是明說了感受。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 190\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"160\" y=\"8\" width=\"100\" height=\"28\" class=\"soft\"/><text x=\"210\" y=\"28\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">抒情方式</text><line x1=\"190\" y1=\"36\" x2=\"75\" y2=\"68\"/><line x1=\"230\" y1=\"36\" x2=\"300\" y2=\"68\"/><rect x=\"20\" y=\"68\" width=\"110\" height=\"28\" class=\"soft2\"/><text x=\"75\" y=\"88\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">直接抒情</text><text x=\"75\" y=\"118\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">明說感受</text><text x=\"75\" y=\"138\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">「我好難過」</text><rect x=\"230\" y=\"68\" width=\"140\" height=\"28\" class=\"soft\"/><text x=\"300\" y=\"88\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">間接抒情</text><line x1=\"270\" y1=\"96\" x2=\"227\" y2=\"126\"/><line x1=\"300\" y1=\"96\" x2=\"289\" y2=\"126\"/><line x1=\"330\" y1=\"96\" x2=\"351\" y2=\"126\"/><rect x=\"200\" y=\"126\" width=\"54\" height=\"26\"/><text x=\"227\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">藉事</text><rect x=\"262\" y=\"126\" width=\"54\" height=\"26\"/><text x=\"289\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">借景</text><rect x=\"324\" y=\"126\" width=\"54\" height=\"26\"/><text x=\"351\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">託物</text><text x=\"290\" y=\"176\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">不明說，讓讀者自己感受</text></svg>",
+      "caption": "抒情方式分類：直接抒情明說，間接抒情藉事、景、物。"
+    },
+    {
+      "title": "新詩閱讀：意象與情感",
+      "points": [
+        "新詩特色：分行、分段、不拘格律，常用跳躍的句子與留白，讓讀者自行聯想。",
+        "意象：用具體事物（燈、雨、路、鳥）傳達抽象的情感或想法，要從上下文判斷它代表什麼。",
+        "讀詩步驟：看標題，看重複與轉折，找出意象，推測情感，最後回到詩句驗證。",
+        "迷思：同一個意象在不同的詩裡意涵可能不同，不能背固定答案；例如「雨」可能是憂愁，也可能是洗淨。"
+      ]
+    },
+    {
+      "title": "閱讀題作答策略",
+      "points": [
+        "先看題目問的是「手法」「作用」「情感」還是「內容」，再回文本找證據。",
+        "「作用」題要答出「手法加效果」，例如「倒敘，製造懸念」。",
+        "選項若出現文中沒有的細節，或用「完全」「一定」「全文」等絕對說法，要特別小心。",
+        "每個選項都要能在文本裡找到證據，找不到的先刪。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "順敘",
+      "body": "依事件發生的先後順序敘述。"
+    },
+    {
+      "name": "倒敘",
+      "body": "先寫結局或後段，再回頭交代前因。"
+    },
+    {
+      "name": "插敘",
+      "body": "中斷主線，插入一段往事或他事後再接回。"
+    },
+    {
+      "name": "補敘",
+      "body": "用簡短幾句補充說明前文未交代的原因或背景。"
+    },
+    {
+      "name": "直接抒情",
+      "body": "明白說出內心的感受。"
+    },
+    {
+      "name": "間接抒情",
+      "body": "藉事件、景物、物品讓讀者自己感受情感。"
+    },
+    {
+      "name": "意象",
+      "body": "用具體事物傳達抽象的情感或想法。"
+    },
+    {
+      "name": "反襯",
+      "body": "以明亮歡樂的景象襯托悲傷的心情。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c9-10-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "倒敘法",
+      "q": "閱讀短文，判斷主要的敘寫手法：\n「我拎著行李回到老家，外婆的房間已經空了，窗台上只剩一盆沒澆水的茉莉。要從三個月前說起——那年夏天，外婆還坐在院子裡剝豆莢，一邊剝，一邊唸著我愛吃的菜。」",
+      "choices": [
+        "順敘",
+        "倒敘",
+        "插敘",
+        "補敘"
+      ],
+      "answer": 1,
+      "explain": "文章一開頭就寫「回到老家，外婆的房間已經空了」這個較晚發生的結果，接著說「要從三個月前說起」，回頭交代前因，這是倒敘。順敘會從三個月前開始、依先後寫到結尾，所以不是順敘；插敘是主線進行到一半才插入往事並接回主線，此文是整段回溯，所以不是插敘；補敘只是簡短補充說明，不是整段回頭敘述，所以不是補敘。答案是 倒敘。",
+      "codes": [
+        "Ba-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-10-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "直接與間接抒情",
+      "q": "下列哪一句屬於「間接抒情」？",
+      "choices": [
+        "我好想念遠方的家人，心裡難過極了。",
+        "真是太高興了，我簡直樂不可支！",
+        "同學們圍著成績單歡呼時，我低著頭把考卷對折又對折，塞進書包最底層。",
+        "得知落榜的消息，我感到無比失望。"
+      ],
+      "answer": 2,
+      "explain": "間接抒情是不明說感受，藉事件或動作讓讀者自己體會。「把考卷對折又對折，塞進書包最底層」只寫動作，沒有說出心情，卻讓人感受到失落或不想被看見，屬於間接抒情。「難過極了」直接說出難過，是直接抒情；「樂不可支」直接說出高興，是直接抒情；「感到無比失望」直接說出失望，是直接抒情。答案是 同學們圍著成績單歡呼時，我低著頭把考卷對折又對折，塞進書包最底層。",
+      "codes": [
+        "Bb-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "c9-10-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "人物描寫",
+      "q": "「奶奶瞇著眼，把線頭湊到燈下，抿著嘴試了好幾次，才終於穿過針孔。」這句最主要運用了哪一種描寫？",
+      "choices": [
+        "動作與神態描寫，呈現奶奶的專注與吃力",
+        "景物描寫，渲染屋外的環境氣氛",
+        "聽覺描寫，表現屋內的安靜",
+        "嗅覺描寫，表現燈下的氣味"
+      ],
+      "answer": 0,
+      "explain": "句中「瞇著眼」「湊到燈下」「抿著嘴」「試了好幾次」都是奶奶的動作與神情，寫出她專注又吃力的樣子，所以是動作與神態描寫。句中沒有寫屋外的景物，所以不是景物描寫；也沒有任何聲音或安靜的描述，不是聽覺描寫；更沒有提到氣味，不是嗅覺描寫。答案是 動作與神態描寫，呈現奶奶的專注與吃力。",
+      "codes": [
+        "Ba-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-10-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "插敘法",
+      "q": "閱讀短文：\n「輪到我上台了。我握著麥克風，手心全是汗。這時忽然想起小學三年級那次朗讀比賽，我站在台上，腦中一片空白，連第一句都說不出來，台下的笑聲至今還記得。想到這裡，我回過神來，深吸一口氣，開口說出第一句話。」\n文中從「忽然想起」到「至今還記得」的敘寫手法，下列何者最適當？",
+      "choices": [
+        "倒敘，全文先寫小學的失敗，再回到現在",
+        "順敘，依事件發生的先後依序寫出",
+        "補敘，只用一句話補充說明未交代的原因",
+        "插敘，中斷現在的上台場面，插入小學的往事後再接回"
+      ],
+      "answer": 3,
+      "explain": "主線是「現在輪到我上台」。中間因為緊張而想起小學的朗讀比賽，用了好幾句完整寫出那件往事，接著以「想到這裡，我回過神來」回到主線，主線被中斷又接回，所以是插敘。全文並不是先寫小學的失敗再回到現在，所以不是倒敘；往事比現在早發生卻插在中間，並非依先後排列，所以不是順敘；往事寫了好幾句、有完整場景，不是一句話的補充，所以不是補敘。答案是 插敘，中斷現在的上台場面，插入小學的往事後再接回。",
+      "codes": [
+        "Ba-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "c9-10-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "新詩意象",
+      "q": "閱讀短詩：\n「雨停了，\n傘還握在手裡。\n巷口那盞燈亮著，\n我走近，\n它卻熄了。」\n詩末「我走近，它卻熄了」中的「燈」，最可能象徵什麼？",
+      "choices": [
+        "雨過天晴後豁然開朗的喜悅",
+        "懷著期待前去，結果卻落空的失落",
+        "夜晚歸家時受到親切迎接的溫暖",
+        "對城市夜景逐漸繁華的讚嘆"
+      ],
+      "answer": 1,
+      "explain": "「雨停了，傘還握在手裡」表示人仍保持著等待、準備的心情；看見巷口的燈亮著，便走近，期待有所依靠，沒想到「它卻熄了」，期待在靠近的瞬間落空，所以燈象徵的是抱著期待卻落空的失落。喜悅與前面「還握著傘」的遲疑不合，燈熄滅也不是豁然開朗，所以不選；「受到親切迎接」與燈熄滅相反，所以不選；全詩沒有寫夜景繁華，也沒有讚嘆，所以不選。答案是 懷著期待前去，結果卻落空的失落。",
+      "codes": [
+        "Ad-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "c9-10-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "間接抒情與借景",
+      "q": "閱讀短文：\n「放學後，我獨自走過空蕩蕩的操場，夕陽把影子拉得好長，遠處傳來球隊練習的吆喝聲，卻一點也不屬於我。」\n關於這段文字的表現，下列說明何者最適當？",
+      "choices": [
+        "間接抒情，藉空蕩的操場、長長的影子與他人的熱鬧烘托孤單",
+        "直接抒情，明白寫出內心的孤單",
+        "間接抒情，藉熱鬧的球隊聲表現興奮期待",
+        "直接抒情，明說對球隊的憤怒不滿"
+      ],
+      "answer": 0,
+      "explain": "這段話沒有「孤單」「難過」之類直接說出感受的詞，而是寫空蕩蕩的操場、被拉長的影子，再以遠處熱鬧的吆喝聲對照「不屬於我」，讓讀者自己感受到孤單，所以是間接抒情，並借景物與對比來烘托。說它是直接抒情、明寫孤單，與文中沒有明說感受不合；說它表現興奮期待，與「獨自」「空蕩蕩」「不屬於我」的氣氛相反；說它明說憤怒不滿，文中沒有任何憤怒的字句。答案是 間接抒情，藉空蕩的操場、長長的影子與他人的熱鬧烘托孤單。",
+      "codes": [
+        "Bb-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "c9-10-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "反襯與抒情",
+      "q": "閱讀短文：\n「畢業典禮那天，天氣好得出奇，陽光灑在紅色的跑道上，同學們笑著拍照、互相簽名。我也跟著笑，直到一轉身，看見空了的座位，眼眶才忽然熱了。」\n關於這段文字，下列說明何者最恰當？",
+      "choices": [
+        "全文都是直接抒情，直接說出悲傷",
+        "天氣好表示作者對畢業毫無感觸",
+        "先寫晴朗歡鬧的景象，再寫轉身落淚，以明亮的氣氛反襯離別的不捨",
+        "採倒敘法，先寫離別再回頭寫畢業典禮"
+      ],
+      "answer": 2,
+      "explain": "文中先寫「天氣好得出奇」「笑著拍照」的歡樂場面，直到「看見空了的座位，眼眶才忽然熱了」才透露離別的感傷，以明亮熱鬧的景象反襯心中的不捨，所以最恰當。文中沒有直接說「悲傷」，而是藉動作與景象呈現，所以不是全文直接抒情；作者「眼眶熱了」，可見有感觸，所以不是毫無感觸；文章依典禮當天先後敘述，並沒有先寫離別再回頭，所以不是倒敘。答案是 先寫晴朗歡鬧的景象，再寫轉身落淚，以明亮的氣氛反襯離別的不捨。",
+      "codes": [
+        "Bb-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "c9-10-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "補敘與作用",
+      "q": "閱讀短文：\n「領獎時，阿宏的手一直在發抖。（原來三天前他才從樓梯上摔下來，右手腕裹著石膏，卻堅持上台。）全場掌聲響起，他笑了。」\n括號內的敘寫手法與作用，下列說明何者最恰當？",
+      "choices": [
+        "插敘，暫停頒獎場面，改寫三天前的完整事件",
+        "倒敘，先寫結果，再回頭敘述整個過程",
+        "順敘，依事件發生的先後依序寫出",
+        "補敘，簡短交代手發抖的原因，使後文更容易理解"
+      ],
+      "answer": 3,
+      "explain": "括號內只用一句話交代「手一直在發抖」的原因，用「原來」引出，寫完後敘述立刻回到頒獎現場，屬於補敘，作用是讓讀者明白前文的疑問。插敘需要暫停主線、插入較完整的另一段情節，此處只有一句話，所以不是插敘；倒敘是整篇先寫結果再回頭敘述，此文並未如此，所以不是倒敘；括號內寫的是三天前的事，插在現在的場面中間，並非依先後排列，所以不是順敘。答案是 補敘，簡短交代手發抖的原因，使後文更容易理解。",
+      "codes": [
+        "Ba-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年國文科第 11 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：寫真式描寫辨別（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 24 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：新詩意象與修辭分析（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 25 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：新詩共同點比較（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 30 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：散文句中情感辨析（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 31 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：散文人物身分判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 32 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：散文寫作手法分析（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 4 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：新詩閱讀與解讀（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 11 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：遊記散文句意解讀（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 25 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：散文內容理解（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 26 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：散文寫作手法分析（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 30 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：劇本寫作分析（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 31 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：視覺化寫作要素呼應（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 32 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：散文中的社會價值觀（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 33 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：文句涵義判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 7 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：人生觀點與文意推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 13 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：遺忘觀點的理解（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 25 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：散文中人物行為與心境（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 26 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：散文句意與心境（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 36 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：小說中象徵與寓意（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 37 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：小說中人物心理與動機（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「記敘文」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%A8%98%E6%95%98%E6%96%87"
+    },
+    {
+      "label": "均一教育平台：搜尋「抒情文」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%8A%92%E6%83%85%E6%96%87"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

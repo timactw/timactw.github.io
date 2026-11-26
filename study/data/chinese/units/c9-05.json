@@ -1,0 +1,343 @@
+{
+  "id": "c9-05",
+  "subject": "chinese",
+  "grade": 9,
+  "order": 5,
+  "title": "文言文詞義、虛字與古今義變",
+  "codes": [
+    {
+      "code": "Ab-Ⅳ-6",
+      "text": "常用文言文的詞義及語詞結構。"
+    },
+    {
+      "code": "Ab-Ⅳ-7",
+      "text": "常用文言文的字詞、虛字、古今義變。"
+    },
+    {
+      "code": "Ad-Ⅳ-4",
+      "text": "非韻文：如古文、古典小說、語錄體、寓言等。"
+    }
+  ],
+  "intro": "這個單元整理文言文的詞義、虛字與古今義變。會考不考課文背誦，而是給一句古文，要你判斷字詞的意思，所以重點是方法：先判詞性，再代入語境。",
+  "sections": [
+    {
+      "title": "會考怎麼考文言詞義",
+      "points": [
+        "題型：「下列文句中，哪一組『字』的意義相同／不同」、「文中『○』的意思最接近」、「古今意義有別的詞」。選文多半是教科書常見的先秦、魏晉到唐宋文章。",
+        "解法：先判斷詞性（名詞、動詞、助詞），再把候選意思代入原句，看句子是否通順；最後看前後文是否相容。",
+        "常見迷思：一個字在不同句子裡常常不是同一個意思，不要看到同一個字就當成同義。"
+      ]
+    },
+    {
+      "title": "常考虛字：之、於、而、乃",
+      "points": [
+        "「之」有四大用法：①助詞，相當於「的」（古之學者）；②代名詞，指人事物（皆通習之）；③動詞，往、去（吾欲之南海）；④助詞，用在主語與謂語之間，無實義，取消句子獨立性（師道之不傳也久矣）。",
+        "「於」的意思依句子而定：從（取之於藍）、比（青於藍；師不必賢於弟子）、向（學於余）、被（不拘於時）、在。要看前面動詞和後面接的是什麼。",
+        "「而」常表承接（學而時習之）、並列（君子博學而日參省乎己）、轉折（人不知而不慍）、修飾（連接狀語與動詞）。判斷轉折的關鍵是前後意思有沒有對立。",
+        "「乃」常見意思：竟然（乃不知有漢）、於是、才、你的。要看前後文的因果與語氣。",
+        "「其」多為他（他們）的、那個、難道（表反問）、將要；「以」常為用、憑藉、因為、而；「者」常為「……的人／事物」。本批題目以之、於、而、乃為主。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 238\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"210\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"115\" y=\"37\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">古之學者必有師</text><line x1=\"220\" y1=\"32\" x2=\"240\" y2=\"32\"/><polyline points=\"232,27 240,32 232,37\"/><rect x=\"240\" y=\"10\" width=\"170\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"325\" y=\"37\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">之＝的（助詞）</text><rect x=\"10\" y=\"64\" width=\"210\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"115\" y=\"91\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">青，取之於藍而青於藍</text><line x1=\"220\" y1=\"86\" x2=\"240\" y2=\"86\"/><polyline points=\"232,81 240,86 232,91\"/><rect x=\"240\" y=\"64\" width=\"170\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"325\" y=\"91\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">之＝它（代名詞）</text><rect x=\"10\" y=\"118\" width=\"210\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"115\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">吾欲之南海，何如？</text><line x1=\"220\" y1=\"140\" x2=\"240\" y2=\"140\"/><polyline points=\"232,135 240,140 232,145\"/><rect x=\"240\" y=\"118\" width=\"170\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"325\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">之＝往（動詞）</text><rect x=\"10\" y=\"172\" width=\"210\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"115\" y=\"199\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">師道之不傳也久矣</text><line x1=\"220\" y1=\"194\" x2=\"240\" y2=\"194\"/><polyline points=\"232,189 240,194 232,199\"/><rect x=\"240\" y=\"172\" width=\"170\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"325\" y=\"199\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">之＝無義（取消獨立性）</text></svg>",
+      "caption": "「之」的四種用法：看它前面和後面接什麼詞。"
+    },
+    {
+      "title": "古今義變",
+      "points": [
+        "古今義變是同一個詞，古代和現代的意思不同；最易誤讀的是把現代意思套進古文。",
+        "「妻子」：古義常指妻子和兒女（率妻子邑人來此絕境），今義只指丈夫的配偶。教育部辭典「妻子」有兩個詞目，讀音不同：ㄑㄧ ㄗˇ與ㄑㄧ ˙ㄗ。",
+        "「無論」：古義是更不必說，句意為「他們竟不知道有漢朝，更不用說魏晉」；今義是不管、不論，表示條件。",
+        "「交通」：古義是交錯相通（阡陌交通），今義是運輸往來。",
+        "「所以」：古義可指用來……的憑藉或方法（師者，所以傳道受業解惑也），今義多表示結果的連詞。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"90\" height=\"34\" rx=\"6\" class=\"soft2\"/><text x=\"55\" y=\"32\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">詞</text><rect x=\"110\" y=\"10\" width=\"150\" height=\"34\" rx=\"6\" class=\"soft2\"/><text x=\"185\" y=\"32\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">古義（文言文）</text><rect x=\"270\" y=\"10\" width=\"140\" height=\"34\" rx=\"6\" class=\"soft2\"/><text x=\"340\" y=\"32\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">今義</text><rect x=\"10\" y=\"50\" width=\"90\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"55\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">妻子</text><rect x=\"110\" y=\"50\" width=\"150\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"185\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">妻子和兒女</text><rect x=\"270\" y=\"50\" width=\"140\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"340\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丈夫的配偶</text><rect x=\"10\" y=\"90\" width=\"90\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"55\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">無論</text><rect x=\"110\" y=\"90\" width=\"150\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"185\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">更不必說</text><rect x=\"270\" y=\"90\" width=\"140\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"340\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">不管、不論</text><rect x=\"10\" y=\"130\" width=\"90\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"55\" y=\"152\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">交通</text><rect x=\"110\" y=\"130\" width=\"150\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"185\" y=\"152\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">交錯相通</text><rect x=\"270\" y=\"130\" width=\"140\" height=\"34\" rx=\"6\" class=\"soft\"/><text x=\"340\" y=\"152\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">運輸往來</text><rect x=\"10\" y=\"170\" width=\"90\" height=\"26\" rx=\"6\" class=\"soft\"/><text x=\"55\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">所以</text><rect x=\"110\" y=\"170\" width=\"150\" height=\"26\" rx=\"6\" class=\"soft\"/><text x=\"185\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">用來…的憑藉</text><rect x=\"270\" y=\"170\" width=\"140\" height=\"26\" rx=\"6\" class=\"soft\"/><text x=\"340\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">因此（表結果）</text></svg>",
+      "caption": "古今義變對照：看到熟悉的詞，先問自己「古人真的是這個意思嗎」。"
+    },
+    {
+      "title": "通假字",
+      "points": [
+        "通假是借用音同或音近的字代替本字。例：「學而時習之，不亦說乎」的「說」通「悅」，意思是喜悅。",
+        "又如「誨女知之乎」的「女」通「汝」，是你的意思。「眾星共之」的「共」，課本多註為通「拱」，意思是環繞、朝向。",
+        "判斷方法：照字面讀不通，但把音同音近的字代進去就通順，再看註解或辭典確認。通假字不是錯字，是古人用字習慣。"
+      ]
+    },
+    {
+      "title": "實戰：從語境推斷詞義",
+      "points": [
+        "同一個字出現在兩句，若詞性相同、功能相同，才可能同義；先分詞性再比意思。",
+        "遇到陌生句子，先從上下文猜整句大意，再回頭決定那個字的意思，不要一個字一個字硬翻。",
+        "選項若出現『古義』『今義』，先找原句裡的線索：有沒有「更」「竟」「用來」等修飾，再決定是不是古義。",
+        "分數關鍵：不要憑印象選答案，把每個選項的意思都代回原句檢查一遍。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "之的四用法",
+      "body": "的、代名詞、往、無義（取消獨立性）"
+    },
+    {
+      "name": "於的常見義",
+      "body": "從、比、向、被、在"
+    },
+    {
+      "name": "而的常見義",
+      "body": "承接、並列、轉折、修飾"
+    },
+    {
+      "name": "乃",
+      "body": "竟然、於是、才、你的"
+    },
+    {
+      "name": "說通悅",
+      "body": "學而時習之，不亦說乎：說＝喜悅"
+    },
+    {
+      "name": "古今義變：妻子",
+      "body": "古：妻子和兒女；今：丈夫的配偶"
+    },
+    {
+      "name": "古今義變：無論",
+      "body": "古：更不必說；今：不管、不論"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c9-05-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "古今義變",
+      "q": "「率妻子邑人來此絕境，不復出焉」（陶淵明〈桃花源記〉）中的「妻子」，意思是？",
+      "choices": [
+        "丈夫的配偶",
+        "兒子的妻子",
+        "妻子和兒女",
+        "妻子的兄弟姊妹"
+      ],
+      "answer": 2,
+      "explain": "「率妻子邑人」是帶領「妻子、邑人」一起來，古文裡「妻子」常指妻與子（妻子和兒女），這是古今義變。其他選項：「丈夫的配偶」是今義，不是這裡的意思；「兒子的妻子」是媳婦，另有詞語；「妻子的兄弟姊妹」是姻親，與句意無關。答案是「妻子和兒女」。"
+    },
+    {
+      "id": "c9-05-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "通假字",
+      "q": "「學而時習之，不亦說乎？」（《論語·學而》）中的「說」，意思是？",
+      "choices": [
+        "解釋、說明",
+        "喜悅（通「悅」）",
+        "勸說他人",
+        "言論、主張"
+      ],
+      "answer": 1,
+      "explain": "「不亦說乎」的「說」通「悅」，意思是喜悅，「學了之後按時溫習，不也是很愉快嗎」才通順。其他選項：「解釋、說明」與「勸說他人」都是動詞，套進句子後變成「不也解釋嗎」，文意不通；「言論、主張」是名詞，也不合句意。答案是「喜悅（通「悅」）」。"
+    },
+    {
+      "id": "c9-05-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "之字用法",
+      "q": "「古之學者必有師」（韓愈〈師說〉）中的「之」，作用是？",
+      "choices": [
+        "助詞，相當於「的」",
+        "代名詞，指代某人某事",
+        "動詞，表示「往、去」",
+        "助詞，無實義，用來取消句子獨立性"
+      ],
+      "answer": 0,
+      "explain": "「古之學者」把「古」和「學者」連起來，意思是「古代的學者」，「之」相當於「的」。其他選項：代名詞要有被代替的對象，這裡沒有；「往、去」是動詞，句中「學者」不是目的地；取消獨立性是用在主語與謂語之間，這裡是名詞前加修飾語，不符。答案是「助詞，相當於「的」」。"
+    },
+    {
+      "id": "c9-05-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "之字同義",
+      "q": "「青，取之於藍而青於藍」（《荀子·勸學》）中「取之於藍」的「之」是代名詞。下列哪一句的「之」意義與它相同？",
+      "choices": [
+        "古之學者必有師",
+        "吾欲之南海，何如？",
+        "師道之不傳也久矣",
+        "六藝經傳，皆通習之"
+      ],
+      "answer": 3,
+      "explain": "「取之於藍」的「之」代指從藍草取得的靛青，是代名詞；「皆通習之」的「之」代指「六藝經傳」，也是代名詞，意義相同。其他選項：「古之學者」的「之」是「的」；「吾欲之南海」的「之」是動詞「往」；「師道之不傳也久矣」的「之」位於主語與謂語之間，無實義。答案是「六藝經傳，皆通習之」。"
+    },
+    {
+      "id": "c9-05-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "於字用法",
+      "q": "「青，取之於藍而青於藍」中，前後兩個「於」，依序意思是？",
+      "choices": [
+        "比；從",
+        "從；比",
+        "在；向",
+        "被；對"
+      ],
+      "answer": 1,
+      "explain": "「取之於藍」是從藍草取得，所以前一個「於」表「從」；「青於藍」是比藍更青，後一個「於」表比較，是「比」。其他選項：把順序顛倒會變成「取得之比藍」與「青從藍」，句意不通；「在、向」與「被、對」套進句子都不通順。答案是「從；比」。"
+    },
+    {
+      "id": "c9-05-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "古今義變",
+      "q": "「問今是何世，乃不知有漢，無論魏晉。」（〈桃花源記〉）這句中的「無論」，與今日「無論如何」的「無論」比較，下列何者正確？",
+      "choices": [
+        "與今義不同，古義是「更不必說」",
+        "與今義相同，都是「不管、不論」",
+        "與今義不同，古義是「沒有議論」",
+        "與今義不同，古義是「不可以談論」"
+      ],
+      "answer": 0,
+      "explain": "句子說桃花源人「竟然不知道有漢朝」，後面接「無論魏晉」，意思是「更不用說魏晉」，這是古義；今義「不管、不論」表示條件，不合句意。其他選項：「相同」的說法錯在把今義套回古文；「沒有議論」與「不可以談論」都是望文生義，且與「乃不知有漢」的因果不合。答案是「與今義不同，古義是「更不必說」」。"
+    },
+    {
+      "id": "c9-05-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "而字用法",
+      "q": "下列各句的「而」字，哪一個表示「轉折」（卻、但是）？",
+      "choices": [
+        "學而時習之",
+        "溫故而知新",
+        "人不知而不慍",
+        "君子博學而日參省乎己"
+      ],
+      "answer": 2,
+      "explain": "「人不知而不慍」是「別人不了解我，我卻不生氣」，前後意思相對，「而」是轉折。其他選項：「學而時習之」是學了之後按時溫習，表承接；「溫故而知新」是溫習舊的就能知道新的，表承接；「博學而日參省」是廣泛學習並且每天反省自己，是並列或承接，沒有轉折。答案是「人不知而不慍」。"
+    },
+    {
+      "id": "c9-05-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "文意推論",
+      "q": "韓愈〈師說〉說：「是故無貴無賤，無長無少，道之所存，師之所存也。」下列對這句話的理解，何者正確？",
+      "choices": [
+        "只要地位比自己高貴的人，就可以拜為老師",
+        "年紀比自己大的人，一定可以當老師",
+        "老師一定要比學生更有學問，否則沒資格教人",
+        "不論身分高低、年紀大小，只要懂得道理的人就可以當老師"
+      ],
+      "answer": 3,
+      "explain": "「無貴無賤，無長無少」是不分地位高低與年紀大小，「道之所存，師之所存」是道理在哪裡，老師就在哪裡，所以衡量的標準是有沒有道理與專長。其他選項：「地位高貴」「年紀較大」都是文中說不必分的條件；〈師說〉也說「弟子不必不如師，師不必賢於弟子」，所以老師不一定處處勝過學生。答案是「不論身分高低、年紀大小，只要懂得道理的人就可以當老師」。"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年國文科第 1 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：一字多義：即（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 13 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言人物評價比較（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 18 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言人物特質判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 20 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言故事人物判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 21 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言笑話語意理解（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 22 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言故事內容分析（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 39 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言詞性辨析（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 40 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言人物行為判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年國文科第 41 題",
+        "url": "https://drive.google.com/file/d/1FQtq4_a4GTsTKURdzPhDkKmONKRXtTJ9/view",
+        "note": "考點：文言字義辨析（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 20 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：文言人物語意判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 22 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：文言故事人物判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 24 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：文言觀點推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 38 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：史記人物關係圖（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年國文科第 39 題",
+        "url": "https://drive.google.com/file/d/102j8F3hoCvGgMCVP6x6oHN9cCd0R6_Ii/view",
+        "note": "考點：史記人物立場判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 17 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：文言文斷句判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 18 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：文言故事內容判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 19 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：文言語句涵義與諺語對應（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 40 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：文言字義辨析（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 41 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：文言內容與人物判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年國文科第 42 題",
+        "url": "https://drive.google.com/file/d/1Xr5AwMNQipYZblCEbZadyBvLVcT_8XSv/view",
+        "note": "考點：文言人物動機判讀（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「文言文虛字」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%96%87%E8%A8%80%E6%96%87%E8%99%9B%E5%AD%97"
+    },
+    {
+      "label": "均一教育平台：搜尋「古今異義」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%8F%A4%E4%BB%8A%E7%95%B0%E7%BE%A9"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

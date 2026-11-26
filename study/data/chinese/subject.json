@@ -4,9 +4,13 @@
   "order": 4,
   "icon": "📖",
   "color": "#b0436e",
-  "status": "coming",
-  "blurb": "八、九年級範文、語文常識",
+  "status": "ready",
+  "blurb": "九年級字詞、修辭、文言文、詩詞曲、閱讀與文化常識（七、八年級即將推出）",
   "groups": [
+    {
+      "grade": 7,
+      "title": "七年級"
+    },
     {
       "grade": 8,
       "title": "八年級"
@@ -14,6 +18,29 @@
     {
       "grade": 9,
       "title": "九年級"
+    }
+  ],
+  "curriculum": {
+    "title": "十二年國教課綱 語文領域—國語文（第四學習階段：國中）",
+    "url": "https://www.naer.edu.tw/upload/1/16/doc/806/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校(語文領域─國語文).pdf",
+    "note": "學習內容編碼如 Ab-Ⅳ-1（字詞）、Ad-Ⅳ-3（韻文）、Bd-Ⅳ-1（議論）；課綱不分年級，單元依能力與文類切分，三大版本選文不同。"
+  },
+  "pastPapers": {
+    "label": "心測中心歷屆試題（國文科）",
+    "url": "https://cap.rcpet.edu.tw/examination.html"
+  },
+  "defaultLinks": [
+    {
+      "label": "均一教育平台",
+      "url": "https://www.junyiacademy.org/"
+    },
+    {
+      "label": "教育部國語辭典簡編本",
+      "url": "https://dict.concised.moe.edu.tw/"
+    },
+    {
+      "label": "教育部成語典",
+      "url": "https://dict.idioms.moe.edu.tw/"
     }
   ]
 }

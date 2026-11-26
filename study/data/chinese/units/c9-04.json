@@ -1,0 +1,249 @@
+{
+  "id": "c9-04",
+  "subject": "chinese",
+  "grade": 9,
+  "order": 4,
+  "title": "修辭技巧辨析",
+  "codes": [
+    {
+      "code": "Ba-Ⅳ-2",
+      "text": "各種描寫的作用及呈現的效果。"
+    },
+    {
+      "code": "Bb-Ⅳ-5",
+      "text": "藉由敘述事件與描寫景物間接抒情。"
+    },
+    {
+      "code": "Bd-Ⅳ-2",
+      "text": "論證方式如比較、比喻等。"
+    }
+  ],
+  "intro": "這個單元整理會考最常考的十幾種修辭，重點是辨識與易混淆的辨析，例如譬喻與轉化、映襯與對偶、排比與層遞，題目多半給一段短文要你逐句判斷。",
+  "sections": [
+    {
+      "title": "譬喻與轉化：最常被考的一組",
+      "points": [
+        "譬喻有三個部分：本體（被比的事物）、喻詞（像、如、好像、彷彿、是等）、喻體（用來比的事物）。例：「他的笑容像冬日的陽光」，本體是笑容，喻詞是「像」，喻體是冬日的陽光。",
+        "譬喻依有沒有喻詞分明喻（有喻詞）、暗喻（用「是、成了」等）、借喻（只剩喻體，本體與喻詞都不出現）。",
+        "轉化是把甲事物當成乙事物來寫，有三類：擬人（把物當人，例：小河歡唱著奔向大海）、擬物（把人當物，或把甲物當乙物）、形象化（把抽象的事物寫得具體，例：把時間寫成可以「流走」的東西）。",
+        "常見迷思：句中出現「像」不一定是譬喻（例：「你像不像他？」只是比較相似），沒有「像」也可能是暗喻或借喻；判斷時看有沒有「兩種不同的事物」被拿來互比。",
+        "譬喻重在「像」，轉化重在「當成」：譬喻保留兩種事物各自的身分，轉化則直接把物寫成人（或人寫成物）。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 262\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"250\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"135\" y=\"37\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">有「像、如」連接兩種不同事物？</text><line x1=\"260\" y1=\"32\" x2=\"290\" y2=\"32\"/><polyline points=\"282,27 290,32 282,37\"/><text x=\"275\" y=\"24\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">是</text><rect x=\"290\" y=\"10\" width=\"120\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"350\" y=\"37\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">譬喻</text><line x1=\"135\" y1=\"54\" x2=\"135\" y2=\"78\"/><polyline points=\"130,70 135,78 140,70\"/><text x=\"150\" y=\"70\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">否</text><rect x=\"10\" y=\"78\" width=\"250\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">把物當人，或把人當物來寫？</text><line x1=\"260\" y1=\"100\" x2=\"290\" y2=\"100\"/><polyline points=\"282,95 290,100 282,105\"/><text x=\"275\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">是</text><rect x=\"290\" y=\"78\" width=\"120\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"350\" y=\"105\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">轉化</text><line x1=\"135\" y1=\"122\" x2=\"135\" y2=\"146\"/><polyline points=\"130,138 135,146 140,138\"/><text x=\"150\" y=\"138\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">否</text><rect x=\"10\" y=\"146\" width=\"250\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"135\" y=\"173\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">故意說得遠超過事實？</text><line x1=\"260\" y1=\"168\" x2=\"290\" y2=\"168\"/><polyline points=\"282,163 290,168 282,173\"/><text x=\"275\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">是</text><rect x=\"290\" y=\"146\" width=\"120\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"350\" y=\"173\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">誇飾</text><line x1=\"135\" y1=\"190\" x2=\"135\" y2=\"214\"/><polyline points=\"130,206 135,214 140,206\"/><text x=\"150\" y=\"206\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">否</text><rect x=\"10\" y=\"214\" width=\"250\" height=\"44\" rx=\"6\" class=\"soft\"/><text x=\"135\" y=\"241\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">把相反的事物放在一起對照？</text><line x1=\"260\" y1=\"236\" x2=\"290\" y2=\"236\"/><polyline points=\"282,231 290,236 282,241\"/><text x=\"275\" y=\"228\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">是</text><rect x=\"290\" y=\"214\" width=\"120\" height=\"44\" rx=\"6\" class=\"soft2\"/><text x=\"350\" y=\"241\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">映襯</text></svg>",
+      "caption": "修辭判斷小流程：由上往下，找到第一個「是」就停下。（實際文句可能同時用到兩種以上修辭。）"
+    },
+    {
+      "title": "摹寫、誇飾與映襯",
+      "points": [
+        "摹寫是把感官經驗寫出來，依感官分視覺、聽覺、嗅覺、味覺、觸覺。例：「窗外傳來滴答滴答的雨聲」是聽覺摹寫。",
+        "誇飾是故意把事物說得比事實誇大或縮小，而且說話者與讀者都知道不是真的。例：「他餓得可以吞下一頭牛」。常見迷思：誇飾是「說大話」，但目的是強調感受，不是欺騙。",
+        "映襯是把兩種不同或相反的事物並列對照，讓特點更鮮明，分對襯（兩種事物對照）與反襯（用相反的事物襯托）。例：「這條老街白天人潮擁擠，夜裡卻幾乎沒有人影」。",
+        "映襯和對偶容易混淆：映襯看「內容」是否相反或對照；對偶看「形式」是否字數相等、詞性相對、兩句對稱。一組句子可以同時是映襯與對偶，但不能只看有沒有對照就說它是對偶。"
+      ]
+    },
+    {
+      "title": "排比、層遞、對偶與類疊",
+      "points": [
+        "排比：三句或三句以上，結構相似、語氣一致、意思相關。例：「春天的風帶來花香，春天的雨帶來生機，春天的陽光帶來希望。」",
+        "層遞：三項以上的事物，依大小、輕重、先後、深淺等順序逐層遞進。例：「一個人的力量很小，一群人的力量很大，全國人民的力量則無窮無盡。」",
+        "對偶：恰好兩句，字數相等、詞性相對、結構對稱。排比至少三句，對偶只有兩句，這是最快的區分方式。",
+        "排比與層遞的差別：排比重在句式整齊、氣勢；層遞重在內容有『程度或順序的遞進』。把順序調換後意思會變怪，多半是層遞。",
+        "類疊是同一個字詞或句子連續或隔離重複出現，目的是加強語氣，與排比不同：類疊重在『重複』，排比重在『結構相似』。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 176\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"120\" height=\"156\" rx=\"6\" class=\"soft\"/><text x=\"70\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">排比</text><text x=\"70\" y=\"64\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">三句以上</text><text x=\"70\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">結構相似</text><text x=\"70\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">語氣一致</text><text x=\"70\" y=\"148\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">重在氣勢</text><rect x=\"150\" y=\"10\" width=\"120\" height=\"156\" rx=\"6\" class=\"soft2\"/><text x=\"210\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">層遞</text><text x=\"210\" y=\"64\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">三項以上</text><text x=\"210\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">依程度遞進</text><text x=\"210\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">大小輕重先後</text><text x=\"210\" y=\"148\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">重在層次</text><rect x=\"290\" y=\"10\" width=\"120\" height=\"156\" rx=\"6\" class=\"soft\"/><text x=\"350\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">對偶</text><text x=\"350\" y=\"64\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">恰好兩句</text><text x=\"350\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">字數相等</text><text x=\"350\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">詞性相對</text><text x=\"350\" y=\"148\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">重在工整</text></svg>",
+      "caption": "三個「整齊句式」修辭的比較：先數句子數，再看有沒有遞進。"
+    },
+    {
+      "title": "設問、引用與倒反",
+      "points": [
+        "設問是明明知道答案卻提出問題，分提問（問後自答）、懸問（問後不答，答案未明）、激問（反問，答案在問題反面）。例：「難道你忍心看他獨自受苦嗎？」是激問。",
+        "引用是引用古人名言、成語、典故或他人說法，分明引（指出出處，如「孔子說：『己所不欲，勿施於人。』」）與暗引（融入文句，不說出處）。",
+        "倒反是說出和本意相反的話，常用於諷刺或親暱。例：看見滿桌狼藉，說「你們吃得可真『斯文』啊！」。判斷關鍵：字面上稱讚，實際意思卻是批評（或相反）。",
+        "常見混淆：激問的字面是問句，倒反的字面是肯定句（或讚美）；激問是『問』，倒反是『說反話』。"
+      ]
+    },
+    {
+      "title": "解題步驟與易混辨析",
+      "points": [
+        "步驟一：先看句子有沒有『明顯標記』（像、如、難道、說……、數字誇張），再決定候選修辭。",
+        "步驟二：確認『結構』。三句以上、整齊 → 排比；兩句整齊對稱 → 對偶；依程度遞進 → 層遞。",
+        "步驟三：確認『內容』。把物當人 → 轉化；兩種事物互比 → 譬喻；故意誇大 → 誇飾；相反對照 → 映襯；說反話 → 倒反。",
+        "會考常把兩三種修辭放在同一段文字，要『逐句』判斷，不要因為前一句是譬喻就整段當譬喻。",
+        "選項敘述常包含『理由』，例如『因為把物當人寫，所以是轉化』，要連理由一起檢查。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "譬喻",
+      "body": "本體＋喻詞＋喻體；有喻詞為明喻，無喻詞為暗喻或借喻"
+    },
+    {
+      "name": "轉化",
+      "body": "把甲當乙：擬人、擬物、形象化"
+    },
+    {
+      "name": "摹寫",
+      "body": "感官經驗：視、聽、嗅、味、觸"
+    },
+    {
+      "name": "誇飾",
+      "body": "故意言過其實以強調感受"
+    },
+    {
+      "name": "映襯",
+      "body": "相反或不同事物對照，分對襯與反襯"
+    },
+    {
+      "name": "排比與層遞",
+      "body": "排比：三句以上結構相似；層遞：依程度遞進"
+    },
+    {
+      "name": "設問",
+      "body": "提問、懸問、激問"
+    },
+    {
+      "name": "引用與倒反",
+      "body": "引用古語名言；倒反是說反話"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c9-04-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "譬喻辨識",
+      "q": "「他的笑容像冬日的陽光，讓人覺得溫暖。」這句話使用了哪一種修辭？",
+      "choices": [
+        "轉化",
+        "譬喻",
+        "映襯",
+        "排比"
+      ],
+      "answer": 1,
+      "explain": "句中把「笑容」比成「冬日的陽光」，兩者是不同的事物，並用喻詞「像」連接，是明喻，屬於譬喻。其他選項：轉化是把物當人或人當物，這裡沒有；映襯是相反事物對照，這裡沒有相反事物；排比要三句以上結構相似，這裡只有一句。答案是「譬喻」。"
+    },
+    {
+      "id": "c9-04-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "誇飾辨識",
+      "q": "「他餓得可以吞下一頭牛。」這句話使用了哪一種修辭？",
+      "choices": [
+        "誇飾",
+        "摹寫",
+        "設問",
+        "引用"
+      ],
+      "answer": 0,
+      "explain": "人不可能真的吞下一頭牛，說話者是故意誇大來強調「非常餓」，所以是誇飾。其他選項：摹寫是描寫視聽嗅味觸等感官經驗，這句沒有；設問是提出問題，這句不是問句；引用是引用他人的話或典故，這句也沒有。答案是「誇飾」。"
+    },
+    {
+      "id": "c9-04-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "排比辨識",
+      "q": "「春天的風帶來花香，春天的雨帶來生機，春天的陽光帶來希望。」這段文字主要使用了哪一種修辭？",
+      "choices": [
+        "映襯",
+        "倒反",
+        "引用",
+        "排比"
+      ],
+      "answer": 3,
+      "explain": "三個句子都是「春天的○○帶來○○」，結構相似、語氣一致，且超過三句，是排比。其他選項：映襯需要相反或不同事物對照，這裡是同類事物並列；倒反是說反話，這裡是字面意思；引用要有他人的話或典故，這裡都是作者自己的句子。答案是「排比」。"
+    },
+    {
+      "id": "c9-04-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "轉化辨識",
+      "q": "下列哪一句使用了「轉化」修辭？",
+      "choices": [
+        "他的聲音像鈴鐺一樣清脆",
+        "月亮像一個大銀盤掛在天上",
+        "小河歡唱著奔向大海",
+        "這麼簡單的題目，難道你不會嗎？"
+      ],
+      "answer": 2,
+      "explain": "小河不會「歡唱」，這是把河當成人來寫，屬於轉化（擬人）。其他選項：「聲音像鈴鐺」和「月亮像銀盤」都有喻詞「像」，屬於譬喻；「難道你不會嗎」是明知故問的激問，屬於設問。答案是「小河歡唱著奔向大海」。"
+    },
+    {
+      "id": "c9-04-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "映襯辨識",
+      "q": "下列哪一句運用了「映襯」修辭？",
+      "choices": [
+        "他說話的聲音像蚊子一樣小",
+        "這條老街白天人潮擁擠，夜裡卻幾乎沒有人影",
+        "蘇軾一生仕途起伏，如同風中飄搖的小船",
+        "這間教室安靜得連一根針掉在地上都聽得見"
+      ],
+      "answer": 1,
+      "explain": "「人潮擁擠」與「幾乎沒有人影」是相反的情況並列對照，讓老街的白天與夜晚形成強烈對比，屬於映襯。其他選項：「像蚊子一樣小」與「如同小船」都用喻詞，屬於譬喻；「安靜得連針掉在地上都聽得見」是故意誇大安靜的程度，屬於誇飾。答案是「這條老街白天人潮擁擠，夜裡卻幾乎沒有人影」。"
+    },
+    {
+      "id": "c9-04-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "層遞辨識",
+      "q": "下列哪一句運用了「層遞」修辭？",
+      "choices": [
+        "一個人的力量很小，一群人的力量很大，全國人民的力量則無窮無盡",
+        "他每天早上喝牛奶，中午吃便當，晚上吃麵條",
+        "老師像春風，吹拂著每個孩子",
+        "這件事難道你不知道嗎？"
+      ],
+      "answer": 0,
+      "explain": "從「很小」到「很大」再到「無窮無盡」，依程度逐層加深，是層遞。其他選項：「早上喝牛奶，中午吃便當，晚上吃麵條」只是依時間列舉，沒有程度或輕重的遞進；「老師像春風」有喻詞「像」，是譬喻；「難道你不知道嗎」是激問，屬於設問。答案是「一個人的力量很小，一群人的力量很大，全國人民的力量則無窮無盡」。"
+    },
+    {
+      "id": "c9-04-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "多重修辭判斷",
+      "q": "「冬夜的風像刀子一樣割著臉頰（甲）；路燈在寒風中打著哆嗦（乙）；冷得可以把整座城市凍成冰雕（丙）。」下列對甲乙丙修辭的判斷，何者正確？",
+      "choices": [
+        "甲：轉化；乙：譬喻；丙：誇飾",
+        "甲：譬喻；乙：誇飾；丙：轉化",
+        "甲：譬喻；乙：轉化；丙：誇飾",
+        "甲：誇飾；乙：轉化；丙：譬喻"
+      ],
+      "answer": 2,
+      "explain": "甲把風比成刀子，並用「像」連接，是譬喻；乙把路燈當成會發抖的人，是轉化（擬人）；丙說冷到能把整座城市凍成冰雕，是故意誇大寒冷的程度，是誇飾。其他選項：把甲當轉化是忽略了喻詞「像」；把乙當譬喻是看不到喻詞，且路燈不會真的發抖；把丙當轉化則忽略了這句重點在「誇大程度」。答案是「甲：譬喻；乙：轉化；丙：誇飾」。"
+    },
+    {
+      "id": "c9-04-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "倒反辨識",
+      "q": "「弟弟把牛奶打翻在新沙發上，姊姊嘆口氣說：『你真是我的好幫手啊！』」姊姊這句話的修辭，與下列哪一句相同？",
+      "choices": [
+        "難道你要我放棄夢想嗎？",
+        "他快樂得像一隻小鳥",
+        "他的聲音大到可以震破屋頂",
+        "看到客人把滿桌飯菜弄得一片狼藉，主人苦笑說：「你們吃得可真『斯文』啊！」"
+      ],
+      "answer": 3,
+      "explain": "姊姊字面上稱讚弟弟是「好幫手」，實際上是不滿他闖禍，說的是和本意相反的話，屬於倒反；選項中主人字面稱讚「斯文」，實際是諷刺客人吃得凌亂，同為倒反。其他選項：「難道你要我放棄夢想嗎」是激問；「快樂得像一隻小鳥」有喻詞，是譬喻；「聲音大到可以震破屋頂」是誇飾。答案是「看到客人把滿桌飯菜弄得一片狼藉，主人苦笑說：「你們吃得可真『斯文』啊！」」。"
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「修辭」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%BF%AE%E8%BE%AD"
+    },
+    {
+      "label": "均一教育平台：搜尋「譬喻轉化」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%AD%AC%E5%96%BB%E8%BD%89%E5%8C%96"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

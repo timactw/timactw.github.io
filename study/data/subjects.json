@@ -36,9 +36,9 @@
    "order": 4,
    "icon": "📖",
    "color": "#b0436e",
-   "status": "coming",
-   "blurb": "八、九年級範文、語文常識",
-   "unitCount": 0
+   "status": "ready",
+   "blurb": "九年級字詞、修辭、文言文、詩詞曲、閱讀與文化常識（七、八年級即將推出）",
+   "unitCount": 12
   },
   {
    "id": "english",
