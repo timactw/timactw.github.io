@@ -1,0 +1,321 @@
+{
+  "id": "e9-08",
+  "subject": "english",
+  "grade": 9,
+  "order": 8,
+  "title": "克漏字：篇章連貫與文意",
+  "codes": [
+    {
+      "code": "Ae-Ⅳ-5",
+      "text": "不同體裁、不同主題之簡易文章"
+    },
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型"
+    },
+    {
+      "code": "D-Ⅳ-3",
+      "text": "訊息因果關係的釐清"
+    }
+  ],
+  "intro": "克漏字考的是在短文裡選出最合適的字，會考共 4 題，考點是文法、連接詞、代名詞與字彙。這個單元教你先讀全段、判斷考點、代入選項唸一次，再用刪去法選答案。",
+  "sections": [
+    {
+      "title": "克漏字的解題流程",
+      "points": [
+        "先**整段快速讀一遍**，抓主題與前後關係，再看空格。不要一看到空格就急著選。",
+        "判斷空格要考什麼：**文法**（時態、詞性、主詞動詞一致）、**連接詞**（因果、轉折、並列）、**代名詞**（指誰）、**字彙**（語意與搭配）。",
+        "把四個選項代入，**唸一次整句**，不通順的先刪。例：Amy was sick, **so** she stayed home.（艾咪生病了，所以待在家。）",
+        "選完後再讀一次完整句子，確認時態與前後句一致。"
+      ]
+    },
+    {
+      "title": "連接詞與轉折詞",
+      "points": [
+        "因果：**because**（因為，引導子句）、**so**（所以）、**as a result**（因此）。She was tired, **so** she went to bed early.（她累了，所以早早就寢。）",
+        "轉折：**but**、**however**（然而，後面常加逗點）、**although**（雖然）。Pizza is delicious. **However**, it is not very healthy.（披薩很好吃，然而不太健康。）",
+        "並列與補充：**and**、**also**、**besides**（此外）；舉例：**for example**；順序：**first、then、finally**。",
+        "易錯：although 與 but 不能同時用在同一個句子；because 與 so 也不能同時用。✗ Because it rained, so I stayed home.",
+        "辨別：先判斷前後兩句是「同方向」「相反」還是「原因／結果」。"
+      ]
+    },
+    {
+      "title": "代名詞指涉",
+      "points": [
+        "主格 I／you／he／she／it／we／they 當主詞；受格 me／him／her／it／us／them 放在動詞或介系詞之後。",
+        "看空格的位置：在動詞前選主格，在動詞或介系詞後選受格。Linda liked the scarf, so she wore **it** every day.（琳達喜歡那條圍巾，所以天天戴。）",
+        "代名詞要和前面指的人事物**數與性別一致**：two boys → they／them；a girl → she／her。",
+        "My sister and I → **we**（包含說話者）；my sister and Tom → **they**。"
+      ]
+    },
+    {
+      "title": "時態、詞性與平行結構",
+      "points": [
+        "看時間線索：yesterday、last week、ago → 過去式；every day、usually → 現在式；now → 進行式。",
+        "詞性：形容詞修飾名詞（a **careful** driver），副詞修飾動詞（drives **carefully**）。",
+        "平行結構：用 and 或逗號並列時，詞性要相同。She likes **swimming**, **running**, and **reading**.（她喜歡游泳、跑步和閱讀。）",
+        "助動詞或 to 之後接原形：Reading can help you learn new words and **improve** your writing."
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "因果連接詞",
+      "body": "because＋原因；so＋結果；as a result 因此"
+    },
+    {
+      "name": "轉折連接詞",
+      "body": "but、however、although（不與 but 並用）"
+    },
+    {
+      "name": "補充與舉例",
+      "body": "besides 此外、also 也、for example 例如"
+    },
+    {
+      "name": "代名詞",
+      "body": "主詞用主格，動詞或介系詞後用受格；數與性別要一致"
+    },
+    {
+      "name": "時間線索",
+      "body": "yesterday/ago → 過去式；every day → 現在式；now → 進行式"
+    },
+    {
+      "name": "平行結構",
+      "body": "並列的項目詞性、形態要一致"
+    },
+    {
+      "name": "解題步驟",
+      "body": "先讀全段，判斷考點，代入唸一次，刪去不通順的"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-08-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "因果連接詞",
+      "q": "I forgot my umbrella this morning. _____ I got wet on my way to school.",
+      "choices": [
+        "But",
+        "Or",
+        "So",
+        "Although"
+      ],
+      "answer": 2,
+      "explain": "忘了帶傘是原因，淋濕是結果，所以用表示結果的 So。(But) 表示轉折，前後句沒有對比；(Or) 表示選擇；(Although) 是從屬連接詞，語意與句構在這裡都不通。答案是 So。",
+      "codes": [
+        "D-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "e9-08-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "因果連接詞",
+      "q": "Amy didn't go to the party _____ she had a bad cold.",
+      "choices": [
+        "because",
+        "but",
+        "so",
+        "if"
+      ],
+      "answer": 0,
+      "explain": "「沒去派對」是結果，「重感冒」是原因，because 後面接原因。(but) 表示轉折，語意不合；(so) 後面要接結果，但「重感冒」是原因不是結果；(if) 是「如果」，不合句意。答案是 because。",
+      "codes": [
+        "D-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "e9-08-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "代名詞",
+      "q": "My sister and I love dogs. _____ have two dogs at home, Lucky and Lucy.",
+      "choices": [
+        "They",
+        "We",
+        "She",
+        "Us"
+      ],
+      "answer": 1,
+      "explain": "主詞包含說話者 I，要用 We。(They) 指第三者，不包含說話者；(She) 只指姊妹一個人，而且後面是複數的 have；(Us) 是受格，不能當主詞。答案是 We。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-08-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "副詞修飾動詞",
+      "q": "Ms. Lee is a great teacher. She always listens to us _____ and gives us useful advice.",
+      "choices": [
+        "careful",
+        "care",
+        "carelessly",
+        "carefully"
+      ],
+      "answer": 3,
+      "explain": "空格修飾動詞 listens，要用副詞，且「仔細地聽」與「是個好老師」呼應，用 carefully。(careful) 是形容詞；(care) 是名詞或動詞；(carelessly) 是副詞，但意思是「粗心地」，與好老師不合。答案是 carefully。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-08-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "連接詞：原因",
+      "q": "I wanted to buy the blue jacket. _____ it was too expensive, I bought a cheaper one.",
+      "choices": [
+        "Since",
+        "Although",
+        "Unless",
+        "Until"
+      ],
+      "answer": 0,
+      "explain": "「太貴」是原因，「買便宜的」是結果，Since 表示「既然、由於」。(Although) 表示轉折，邏輯不合；(Unless) 是「除非」；(Until) 是「直到」，都不通。答案是 Since。",
+      "codes": [
+        "D-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "e9-08-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "代名詞",
+      "q": "Linda gave her sister a scarf for her birthday. Her sister liked _____ very much and wore it every day.",
+      "choices": [
+        "them",
+        "her",
+        "it",
+        "itself"
+      ],
+      "answer": 2,
+      "explain": "liked 的受詞指前面的 a scarf，單數事物用 it。(them) 是複數；(her) 指女生；(itself) 是反身代名詞，不能當一般受詞。答案是 it。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-08-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "轉折詞",
+      "q": "Many people think that eating fast food is convenient. _____, it is not good for our health if we eat it too often.",
+      "choices": [
+        "Therefore",
+        "However",
+        "Besides",
+        "For example"
+      ],
+      "answer": 1,
+      "explain": "前句說便利（好處），後句說對健康不好（缺點），語意轉折，用 However。(Therefore) 表示因此，不是結果關係；(Besides) 表示補充同方向的資訊，這裡是相反方向；(For example) 要舉例，後句不是例子。答案是 However。",
+      "codes": [
+        "D-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "e9-08-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "平行結構",
+      "q": "Reading is a good habit. It can help you learn new words, _____ your writing, and relax your mind.",
+      "choices": [
+        "improving",
+        "to improve",
+        "improves",
+        "improve"
+      ],
+      "answer": 3,
+      "explain": "help you learn new words, ___ your writing, and relax your mind 是三個並列的原形動詞（learn、improve、relax），所以填 improve。(improving) 不符合平行結構；(to improve) 多了 to，與其他動詞形式不一致；(improves) 是三單形式，助動詞 can 與 help 後面不接三單。答案是 improve。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 40 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：寓言挖空：篇章連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 41 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：寓言挖空：篇章連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 42 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：寓言挖空：篇章連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 43 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：寓言挖空：篇章連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 38 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：短文挖空：時態（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 39 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：短文挖空：句意連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 40 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：短文挖空：句意連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 41 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：短文挖空：字彙（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 42 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：短文挖空：句意連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 43 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：短文挖空：時態（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 40 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：短文挖空：句意連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 41 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：短文挖空：資料判讀（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 42 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：短文挖空：句意連貫（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 43 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：短文挖空：轉折詞（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「克漏字」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%85%8B%E6%BC%8F%E5%AD%97"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

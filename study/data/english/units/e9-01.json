@@ -1,0 +1,228 @@
+{
+  "id": "e9-01",
+  "subject": "english",
+  "grade": 9,
+  "order": 1,
+  "title": "現在完成式",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型（附錄六「國民中學英語文基礎文法句構參考表」：現在完成式：直述句、否定句、疑問句及答句；have/has been to；since 與 for；already/yet/ever/never/just）"
+    }
+  ],
+  "intro": "現在完成式（have/has + 過去分詞）用來談「過去開始、和現在有關」的事：經驗、剛完成、持續到現在。會考常考過去分詞變化、since 與 for、have been to 與 have gone to，以及和過去簡單式的分辨。",
+  "sections": [
+    {
+      "title": "基本形：have / has + 過去分詞",
+      "points": [
+        "肯定句：主詞 + have/has + p.p.。I、you、we、they 用 **have**，he、she、it 與單數名詞用 **has**。例：She **has finished** her homework.（她已經寫完功課了。）",
+        "否定句：have/has + **not** + p.p.（haven't / hasn't）。例：I **haven't seen** that movie.（我還沒看過那部電影。）",
+        "疑問句：把 Have/Has 放句首。例：**Have** you **eaten** lunch?（你吃過午餐了嗎？）簡答：Yes, I have. / No, I haven't.",
+        "過去分詞：規則動詞加 -ed（play → played）；不規則動詞要背（go → gone, eat → eaten, see → seen）。常錯：He has **went**（錯）→ He has **gone**。"
+      ]
+    },
+    {
+      "title": "三種用法與常搭配的副詞",
+      "points": [
+        "完成：already（已經，肯定句）、yet（還沒／已經，否定與疑問句句尾）、just（剛剛）。例：I have **just** cleaned my room.（我剛打掃完房間。）",
+        "經驗：ever（曾經，疑問句）、never（從未）、before、twice、three times。例：Have you **ever** been to Tainan?（你去過台南嗎？）",
+        "持續：for + 一段時間、since + 起點。例：He has lived here **for** five years. / He has lived here **since** 2020.（他住在這裡五年了／自 2020 年起。）",
+        "since 後面可接時間點或過去式子句：I have known her **since** I was ten.（我從十歲就認識她。）"
+      ]
+    },
+    {
+      "title": "have been to 與 have gone to",
+      "points": [
+        "**have been to** + 地點：去過、已經回來。例：I have been to Japan twice.（我去過日本兩次。）",
+        "**have gone to** + 地點：去了、人還沒回來。例：Dad has gone to the bank. He'll be back soon.（爸爸去銀行了，他很快回來。）",
+        "have been in：在某地待了一段時間。例：She has been in Taipei for a week.（她在台北一個星期了。）",
+        "主詞是第一人稱時，通常不用 have gone to，因為說話的人就在這裡。"
+      ]
+    },
+    {
+      "title": "現在完成式與過去簡單式",
+      "points": [
+        "有**明確過去時間**（yesterday, last week, in 2019, two days ago）用過去簡單式，不能用完成式。例：I **visited** my aunt **last week**.（上週我去看了阿姨。）",
+        "完成式強調和現在的關係或結果：I have lost my key.（我鑰匙不見了，現在還沒找到。）",
+        "for / since 的完成式要搭配**延續性動詞**（live, know, have, be）；buy, die, join 這類短暫動詞不能和 for 連用，要改用 have had / have been 等。例：I **have had** this bike for two years.（我擁有這台腳踏車兩年了。）",
+        "How long ...? 問一段時間，用完成式回答：How long have you studied English?（你學英文多久了？）"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "現在完成式公式",
+      "body": "have/has + 過去分詞；he/she/it 用 has"
+    },
+    {
+      "name": "不規則過去分詞",
+      "body": "go–went–gone；eat–ate–eaten；see–saw–seen；write–wrote–written；do–did–done"
+    },
+    {
+      "name": "for 與 since",
+      "body": "for + 一段時間；since + 時間點或過去式子句"
+    },
+    {
+      "name": "ever / never",
+      "body": "ever 用於疑問句；never 本身就是否定，不再加 not"
+    },
+    {
+      "name": "already / yet",
+      "body": "already 用於肯定句；yet 用於否定與疑問句句尾"
+    },
+    {
+      "name": "been 與 gone",
+      "body": "have been to 去過（已回）；have gone to 去了（未回）"
+    },
+    {
+      "name": "不能搭配的時間",
+      "body": "yesterday, last week, ago 等明確過去時間只能用過去簡單式"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-01-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "完成式基本形",
+      "q": "I _____ lived in Taipei since 2018.",
+      "choices": [
+        "have",
+        "has",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "explain": "主詞是 I，現在完成式用 have + 過去分詞，since 2018 表示從過去持續到現在。has 只能搭配第三人稱單數；did 和 was 不能接 lived 組成完成式。答案是 have"
+    },
+    {
+      "id": "e9-01-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "過去分詞",
+      "q": "Tom hasn't _____ his homework yet.",
+      "choices": [
+        "finish",
+        "finishing",
+        "finished",
+        "finishes"
+      ],
+      "answer": 2,
+      "explain": "hasn't 後面要接過去分詞，finish 的過去分詞是 finished。finish 是原形，finishing 是現在分詞，finishes 是第三人稱單數現在式，都不能放在 hasn't 之後。答案是 finished"
+    },
+    {
+      "id": "e9-01-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "for 與 since",
+      "q": "We have known each other _____ ten years.",
+      "choices": [
+        "since",
+        "for",
+        "ago",
+        "in"
+      ],
+      "answer": 1,
+      "explain": "ten years 是「一段時間」，要用 for。since 後面要接時間點（如 2015）；ago 要放在時間後面且搭配過去式；in ten years 是「十年後」，意思不同。答案是 for"
+    },
+    {
+      "id": "e9-01-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "been 與 gone",
+      "q": "A: Where is your father?\nB: He _____ to the supermarket. He'll be back in ten minutes.",
+      "choices": [
+        "has been",
+        "have gone",
+        "is gone",
+        "has gone"
+      ],
+      "answer": 3,
+      "explain": "B 說他十分鐘後就回來，表示現在人還在超市，所以用 has gone to。has been to 表示去過且已回來，與 He'll be back 矛盾；have gone 的主詞 He 要配 has；is gone to 文法不正確。答案是 has gone"
+    },
+    {
+      "id": "e9-01-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "完成式疑問句",
+      "q": "A: _____ you ever eaten sushi?\nB: Yes, I have. I ate some in Osaka last year.",
+      "choices": [
+        "Have",
+        "Did",
+        "Do",
+        "Are"
+      ],
+      "answer": 0,
+      "explain": "B 回答 Yes, I have，所以問句是現在完成式的疑問句，Have you ever eaten ...?。其他選項後面都不能接 eaten 組成正確問句：Did / Do 後面要接原形，Are you eaten 變成被動而且語意不通。答案是 Have"
+    },
+    {
+      "id": "e9-01-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "過去式與完成式",
+      "q": "Linda _____ to the dentist yesterday, so her tooth doesn't hurt now.",
+      "choices": [
+        "has gone",
+        "has been",
+        "went",
+        "goes"
+      ],
+      "answer": 2,
+      "explain": "句中有 yesterday（明確的過去時間），要用過去簡單式 went。has gone、has been 是現在完成式，不能和 yesterday 連用；goes 是現在式，時間不合。答案是 went"
+    },
+    {
+      "id": "e9-01-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "延續性動詞",
+      "q": "Amy bought the bike two years ago. She has _____ it for two years.",
+      "choices": [
+        "bought",
+        "had",
+        "buy",
+        "buying"
+      ],
+      "answer": 1,
+      "explain": "bought 的動作一瞬間就結束，不能和 for two years 連用；要改用延續性動詞 have 的過去分詞 had，表示「擁有了兩年」。buy 是原形、buying 是現在分詞，都不能放在 has 後面。答案是 had"
+    },
+    {
+      "id": "e9-01-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "since 引導子句",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "I have known Tom since I am ten.",
+        "I know Tom since I was ten.",
+        "I have known Tom for I was ten.",
+        "I have known Tom since I was ten."
+      ],
+      "answer": 3,
+      "explain": "since 後面接過去式子句表示起點：since I was ten，主要子句用現在完成式。since I am ten 的子句不能用現在式；I know Tom since ... 的主要子句要用完成式；for 後面接一段時間，不能接子句。答案是 I have known Tom since I was ten."
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 18 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：現在完成式 has been（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 15 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：現在完成式（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「現在完成式」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%8F%BE%E5%9C%A8%E5%AE%8C%E6%88%90%E5%BC%8F"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

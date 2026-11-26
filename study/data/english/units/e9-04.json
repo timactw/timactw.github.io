@@ -1,0 +1,215 @@
+{
+  "id": "e9-04",
+  "subject": "english",
+  "grade": 9,
+  "order": 4,
+  "title": "名詞子句與間接問句",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型（附錄六「國民中學英語文基礎文法句構參考表」：由 that 引導的名詞子句；wh- 名詞子句（間接問句））"
+    }
+  ],
+  "intro": "名詞子句在句中當受詞、補語或主詞。這單元要會用 that 子句、間接問句（wh- 與 whether/if），並記住間接問句**不倒裝**。會考常考語序、動詞時態與 that / whether 的選擇。",
+  "sections": [
+    {
+      "title": "that 引導的名詞子句",
+      "points": [
+        "that 子句常接在 think, know, say, hope, believe 之後當受詞，口語常可省略 that。例：I think **that** she is right.（我認為她是對的。）",
+        "that 也可接在 be 動詞之後當補語：The problem is **that** we don't have enough money.（問題是我們錢不夠。）",
+        "that 子句本身是完整的句子，that 只負責連接，沒有意義，不能換成 what。",
+        "He said **that** he was too busy.（他說他太忙了。）主要子句是過去式，that 子句的時態也常用過去式。"
+      ]
+    },
+    {
+      "title": "wh- 名詞子句（間接問句）",
+      "points": [
+        "把問句放進另一個句子，變成「疑問詞 + **主詞 + 動詞**」，**不倒裝**，也不加 do/does/did。",
+        "直接問句：Where is the bank? → 間接：Do you know where **the bank is**?（你知道銀行在哪嗎？）",
+        "直接問句：When does the movie start? → Do you know when **the movie starts**?（你知道電影什麼時候開演嗎？）動詞要還原成第三人稱單數形。",
+        "過去式：What time did he leave? → I don't know what time **he left**.（我不知道他幾點離開。）"
+      ]
+    },
+    {
+      "title": "疑問詞當主詞、whether / if",
+      "points": [
+        "疑問詞本身就是主詞時，語序不變，後面直接接動詞。例：Do you know **who broke** the window?（你知道是誰打破窗戶的嗎？）",
+        "沒有疑問詞的 Yes/No 問句，用 **whether** 或 **if**（是否）連接：I wonder **whether** it will rain tomorrow.（我想知道明天會不會下雨。）",
+        "whether 後面可接 or not；if 後面通常不直接接 or not：I don't know whether **or not** he will come.",
+        "主詞位置的子句用 whether，不用 if：**Whether** he will come is not clear.（他來不來還不清楚。）"
+      ]
+    },
+    {
+      "title": "常見句型與易錯點",
+      "points": [
+        "禮貌問路：Could you tell me **how much this bag costs**?（可以告訴我這個包包多少錢嗎？）",
+        "I wonder / I don't know / Do you know / Can you tell me 後面都接間接問句。",
+        "句尾標點看主句：Do you know where he lives? 用問號，因為主句是問句；I don't know where he lives. 用句號。",
+        "常錯：Do you know where **does** he live?（錯）→ Do you know where he lives?（對）。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "that 子句",
+      "body": "think / know / say + (that) + 完整句子"
+    },
+    {
+      "name": "間接問句語序",
+      "body": "疑問詞 + 主詞 + 動詞，不倒裝，不加 do/does/did"
+    },
+    {
+      "name": "疑問詞當主詞",
+      "body": "Do you know who broke it?（直接接動詞）"
+    },
+    {
+      "name": "whether / if",
+      "body": "沒有疑問詞時用 whether 或 if，表「是否」"
+    },
+    {
+      "name": "句尾標點",
+      "body": "由主要子句決定：主句是問句用問號，是直述句用句號"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-04-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "that 名詞子句",
+      "q": "I think _____ she is right.",
+      "choices": [
+        "that",
+        "what",
+        "which",
+        "how"
+      ],
+      "answer": 0,
+      "explain": "think 後面接完整的句子 she is right，要用連接詞 that（可省略）。what、which、how 都有意義，且後面的句子已完整，不需要再補這些詞。答案是 that"
+    },
+    {
+      "id": "e9-04-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "間接問句語序",
+      "q": "Do you know where _____?",
+      "choices": [
+        "is the bank",
+        "the bank is",
+        "does the bank",
+        "the bank does"
+      ],
+      "answer": 1,
+      "explain": "間接問句不倒裝，語序是疑問詞 + 主詞 + 動詞：where the bank is。is the bank 是倒裝；does the bank 缺動詞；the bank does 的動詞不合。答案是 the bank is"
+    },
+    {
+      "id": "e9-04-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "間接問句不加助動詞",
+      "q": "I don't know _____ he lives.",
+      "choices": [
+        "where does",
+        "does where",
+        "where",
+        "where do"
+      ],
+      "answer": 2,
+      "explain": "he lives 是主詞 + 動詞，空格只要放疑問詞 where，間接問句不加 do/does。where does 與 where do 都多了助動詞；does where 的語序也錯。答案是 where"
+    },
+    {
+      "id": "e9-04-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "間接問句動詞形態",
+      "q": "Could you tell me _____?",
+      "choices": [
+        "how much does this bag cost",
+        "how much cost this bag",
+        "how much this bag cost",
+        "how much this bag costs"
+      ],
+      "answer": 3,
+      "explain": "間接問句的語序是疑問詞 + 主詞 + 動詞，且 this bag 是單數，動詞要加 s：costs。how much does this bag cost 是直接問句的倒裝；how much cost this bag 的主詞與動詞順序顛倒；how much this bag cost 少了第三人稱單數的 s。答案是 how much this bag costs"
+    },
+    {
+      "id": "e9-04-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "whether 引導子句",
+      "q": "I wonder _____ it will rain tomorrow.",
+      "choices": [
+        "that",
+        "whether",
+        "what",
+        "where"
+      ],
+      "answer": 1,
+      "explain": "it will rain tomorrow 是完整的句子，且我想知道的是「會不會下雨」，要用 whether（是否）。that 表示「我想知道一件事實」，語意不通；what、where 後面的子句缺少成分才會用，這裡已完整。答案是 whether"
+    },
+    {
+      "id": "e9-04-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "間接問句動詞形態",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "Do you know when the movie starts?",
+        "Do you know when does the movie start?",
+        "Do you know when the movie start?",
+        "Do you know when starts the movie?"
+      ],
+      "answer": 0,
+      "explain": "間接問句不倒裝，主詞 the movie 是單數，動詞要加 s：starts。when does the movie start 是倒裝；when the movie start 少了 s；when starts the movie 語序錯誤。答案是 Do you know when the movie starts?"
+    },
+    {
+      "id": "e9-04-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "that 補語子句",
+      "q": "The problem is _____ we don't have enough money.",
+      "choices": [
+        "what",
+        "which",
+        "how",
+        "that"
+      ],
+      "answer": 3,
+      "explain": "we don't have enough money 是完整的句子，放在 is 後面當補語，要用 that 連接。what、which、how 後面的句子都應該缺少成分，或有自己的意義，與這句不合。答案是 that"
+    },
+    {
+      "id": "e9-04-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "疑問詞當主詞",
+      "q": "Do you know who _____ the window yesterday?",
+      "choices": [
+        "breaks",
+        "break",
+        "broke",
+        "was broke"
+      ],
+      "answer": 2,
+      "explain": "who 是主詞，後面直接接動詞，而且有 yesterday，要用過去式 broke。breaks 是現在式；break 是原形；was broke 是錯誤的被動寫法。答案是 broke"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 10 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：whether 引導的名詞子句（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「名詞子句」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%90%8D%E8%A9%9E%E5%AD%90%E5%8F%A5"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

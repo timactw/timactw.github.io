@@ -46,9 +46,9 @@
    "order": 5,
    "icon": "🔤",
    "color": "#6a4fc8",
-   "status": "coming",
-   "blurb": "八、九年級文法、單字、閱讀",
-   "unitCount": 0
+   "status": "ready",
+   "blurb": "九年級文法、字彙、閱讀（聽力待下批；七、八年級即將推出）",
+   "unitCount": 10
   }
  ]
 }

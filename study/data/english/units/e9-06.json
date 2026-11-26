@@ -1,0 +1,268 @@
+{
+  "id": "e9-06",
+  "subject": "english",
+  "grade": 9,
+  "order": 6,
+  "title": "附加問句、感嘆句與特殊句型",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型（附錄六「國民中學英語文基礎文法句構參考表」：附加問句；感嘆句；It is+形容詞+to V；It takes…to…；too…to；used to；give/buy+人+物）"
+    }
+  ],
+  "intro": "這個單元整理附加問句的助動詞與肯否規則、What／How 感嘆句、It takes、too…to、used to，以及 give／buy 這類授與動詞的兩種句型。會考語法題常用短對話或「Which sentence is correct?」考這些固定句型，記住公式與特殊例外最有效。",
+  "sections": [
+    {
+      "title": "附加問句：前肯後否、前否後肯",
+      "points": [
+        "附加問句接在句尾，用來確認或徵求同意。規則：**前面肯定、後面否定；前面否定、後面肯定**，且主詞用代名詞。",
+        "助動詞或 be 動詞照前句：She **is** kind, **isn't** she?（她人很好，不是嗎？）／ Tom **can** swim, **can't** he?（湯姆會游泳，對吧？）",
+        "一般動詞用 do/does/did 配合時態：They like it, **don't** they? ／ You didn't go, **did** you?（你沒去，對吧？）",
+        "特殊情況：Let's … , **shall we**?；祈使句 … , **will you**?；I am … , **aren't I**?；There is … , **isn't there**?",
+        "含 nobody、never、hardly 等否定意思的句子，視為否定句，附加問句用肯定：Nobody called, **did they**?（沒有人打電話來，對吧？）"
+      ]
+    },
+    {
+      "title": "感嘆句：What 與 How",
+      "points": [
+        "**What a/an＋形容詞＋單數可數名詞！** What a beautiful day!（多美好的一天！）",
+        "不可數名詞或複數名詞不加 a/an：What **nice weather**! ／ What **lovely flowers**!",
+        "**How＋形容詞或副詞！** How beautiful! ／ How fast he runs!（他跑得真快！）",
+        "完整句型：How＋形容詞＋主詞＋動詞。How tall the boy is!（這男孩好高！）",
+        "辨別：後面有名詞用 What，只有形容詞或副詞用 How。✗ How a beautiful day! ✓ What a beautiful day!"
+      ]
+    },
+    {
+      "title": "It 句型：It is…to V、It takes…to…",
+      "points": [
+        "**It is＋形容詞＋（for 人）＋to V**：It is important **for us to sleep** well.（睡得好對我們很重要。）",
+        "**It takes＋人＋時間＋to V**：It took me an hour **to finish** the report.（我花了一小時完成報告。）",
+        "人是花時間的主詞時，改用 spend：I **spent** an hour **finishing** the report.（spend 後接 V-ing）",
+        "**too＋形容詞＋to V**「太…而不能…」：He is **too tired to walk**.（他累到走不動。）",
+        "改寫：too…to＝so…that…not：He is so tired **that** he can't walk. 　enough 要放在形容詞後面：old **enough** to drive（夠大可以開車）。"
+      ]
+    },
+    {
+      "title": "used to 與 be used to",
+      "points": [
+        "**used to＋原形動詞**：過去常常做、現在已經不做。I **used to live** in Tainan.（我以前住在台南。）",
+        "**be used to＋V-ing**：習慣於。She **is used to getting up** early.（她習慣早起。）這裡的 to 是介系詞。",
+        "used to 的否定與疑問常用 didn't use to／Did you use to…?",
+        "易錯：✗ I used to living here. ✓ I used to **live** here / I am used to **living** here."
+      ]
+    },
+    {
+      "title": "授與動詞：give／buy／send＋人＋物",
+      "points": [
+        "句型一：**動詞＋人＋物**。Dad gave **me a watch**.（爸爸給我一支手錶。）",
+        "句型二：**動詞＋物＋介系詞＋人**。Dad gave **a watch to me**.",
+        "介系詞用 **to**：give、send、show、teach、tell、lend、pass；用 **for**：buy、make、cook、get。Mom bought a bag **for** me.（媽媽買了一個包包給我。）",
+        "受詞是代名詞時，通常用第二種句型：Give **it to me**.（把它給我。）✗ Give me it.",
+        "易錯：✗ Dad bought to me a bag. ✓ Dad bought me a bag. / Dad bought a bag **for** me."
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "附加問句",
+      "body": "前肯後否、前否後肯；助動詞照前句，主詞用代名詞"
+    },
+    {
+      "name": "特殊附加問句",
+      "body": "Let's…, shall we? ／ I am…, aren't I? ／ There is…, isn't there?"
+    },
+    {
+      "name": "What 感嘆句",
+      "body": "What a/an＋形容詞＋可數單數名詞！複數與不可數不加 a/an"
+    },
+    {
+      "name": "How 感嘆句",
+      "body": "How＋形容詞/副詞（＋主詞＋動詞）！"
+    },
+    {
+      "name": "It takes",
+      "body": "It takes＋人＋時間＋to V；It is＋adj＋（for 人）＋to V"
+    },
+    {
+      "name": "too…to",
+      "body": "too＋adj＋to V＝so＋adj＋that＋主詞＋can't"
+    },
+    {
+      "name": "used to",
+      "body": "used to＋V（以前常常）；be used to＋V-ing（習慣於）"
+    },
+    {
+      "name": "to 與 for",
+      "body": "give/send/show/teach/tell 用 to；buy/make/cook/get 用 for"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-06-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "附加問句",
+      "q": "Your brother can play the piano, _____?",
+      "choices": [
+        "doesn't he",
+        "can he",
+        "can't he",
+        "isn't he"
+      ],
+      "answer": 2,
+      "explain": "前句是肯定句，附加問句要用否定；助動詞是 can，主詞 your brother 換成 he，所以是 can't he。(doesn't he) 助動詞要照前句的 can；(can he) 前後都是肯定，不對；(isn't he) 前句沒有 be 動詞。答案是 can't he。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "What 感嘆句",
+      "q": "_____ a beautiful day it is!",
+      "choices": [
+        "What",
+        "How",
+        "Which",
+        "Who"
+      ],
+      "answer": 0,
+      "explain": "後面有「a beautiful day」這個名詞片語，感嘆句用 What＋a＋形容詞＋名詞。(How) 後面只能直接接形容詞或副詞，不會接 a day；(Which) 與 (Who) 是疑問詞，不能引導感嘆句。答案是 What。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "It takes＋時間",
+      "q": "It _____ Linda thirty minutes to walk to school every day.",
+      "choices": [
+        "spends",
+        "takes",
+        "uses",
+        "makes"
+      ],
+      "answer": 1,
+      "explain": "「花（時間）」且主詞是 it 時，句型是 It takes＋人＋時間＋to V。(spends) 的主詞要是人，不能用 it；(uses) 與 (makes) 的意思都不能表示花費時間。答案是 takes。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "too…to",
+      "q": "Tom was _____ tired to finish his homework, so he went to bed.",
+      "choices": [
+        "so",
+        "very",
+        "enough",
+        "too"
+      ],
+      "answer": 3,
+      "explain": "「太累而無法完成功課」是 too＋形容詞＋to V 的句型。(so tired to finish) 與 (very tired to finish) 都不能直接接 to V；so 要搭配 that 子句；(enough tired) 的 enough 必須放在形容詞後面，而且語意是「夠累」也不合。答案是 too。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "used to",
+      "q": "Grandpa _____ in a small village, but now he lives in the city.",
+      "choices": [
+        "used to live",
+        "uses to live",
+        "use to live",
+        "was used to live"
+      ],
+      "answer": 0,
+      "explain": "「以前住在…，現在住在城市」表示過去的習慣或狀態，用 used to＋原形動詞。(uses to live) 與 (use to live) 的 use 拼法與時態不對，肯定句要寫 used to；(was used to live) 是被動的 be used to V（被用來…），意思完全不合。答案是 used to live。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "授與動詞 to／for",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "Mom bought a new bag to me.",
+        "Tom gave to me a book.",
+        "Please show your ticket to the guard.",
+        "Amy sent for me a letter."
+      ],
+      "answer": 2,
+      "explain": "show＋物＋to＋人 是正確句型，所以 Please show your ticket to the guard. 正確。(bought a new bag to me) buy 要搭配 for，應為 bought a new bag for me；(gave to me a book) 介系詞片語要放在物品後面，應為 gave me a book 或 gave a book to me；(sent for me a letter) send 要用 to，而且 send for 是「派人去請」，意思也不對。答案是 Please show your ticket to the guard.",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "附加問句",
+      "q": "Jack: You didn't finish the report, _____?\\nAmy: No, I didn't. I need one more day.",
+      "choices": [
+        "didn't you",
+        "did you",
+        "do you",
+        "would you"
+      ],
+      "answer": 1,
+      "explain": "前句是過去式否定句（didn't finish），附加問句用肯定，助動詞用 did，主詞是 you，所以是 did you。(didn't you) 前後都否定，不對；(do you) 時態是現在式，與前句不一致；(would you) 助動詞不一致。答案是 did you。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-06-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "附加問句特殊句型",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "Let's go to the park, will we?",
+        "I am your best friend, amn't I?",
+        "There is a cat on the roof, isn't it?",
+        "Nobody knows the answer, do they?"
+      ],
+      "answer": 3,
+      "explain": "nobody 含有否定意思，所以附加問句用肯定的 do they，Nobody knows the answer, do they? 正確。(Let's go ..., will we?) 應為 shall we；(I am ..., amn't I?) 應為 aren't I；(There is ..., isn't it?) there is 的附加問句要用 isn't there。答案是 Nobody knows the answer, do they?",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 8 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：附加問句（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「附加問句」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%99%84%E5%8A%A0%E5%95%8F%E5%8F%A5"
+    },
+    {
+      "label": "均一教育平台：搜尋「感嘆句」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%84%9F%E5%98%86%E5%8F%A5"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

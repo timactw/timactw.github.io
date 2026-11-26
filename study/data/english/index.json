@@ -4,9 +4,22 @@
  "order": 5,
  "icon": "🔤",
  "color": "#6a4fc8",
- "status": "coming",
- "blurb": "八、九年級文法、單字、閱讀",
+ "status": "ready",
+ "blurb": "九年級文法、字彙、閱讀（聽力待下批；七、八年級即將推出）",
+ "curriculum": {
+  "title": "十二年國教課綱 語文領域—英語文（第四學習階段）",
+  "url": "https://www.naer.edu.tw/upload/1/16/doc/812/(發布版)國民中小學暨普通型高級中等學校-語文領域-英語文課程綱要.pdf",
+  "note": "文法句型範圍見附錄六「國民中學英語文基礎文法句構參考表」；單元的年級分配依常見教學順序，課綱本身不分年級。"
+ },
+ "pastPapers": {
+  "label": "心測中心歷屆試題（英語科閱讀、聽力）",
+  "url": "https://cap.rcpet.edu.tw/examination.html"
+ },
  "groups": [
+  {
+   "grade": 7,
+   "title": "七年級"
+  },
   {
    "grade": 8,
    "title": "八年級"
@@ -16,5 +29,118 @@
    "title": "九年級"
   }
  ],
- "units": []
+ "defaultLinks": [
+  {
+   "label": "均一教育平台",
+   "url": "https://www.junyiacademy.org/"
+  }
+ ],
+ "units": [
+  {
+   "id": "e9-01",
+   "title": "現在完成式",
+   "grade": 9,
+   "order": 1,
+   "codes": [
+    "Ad-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-02",
+   "title": "被動語態",
+   "grade": 9,
+   "order": 2,
+   "codes": [
+    "Ad-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-03",
+   "title": "關係子句",
+   "grade": 9,
+   "order": 3,
+   "codes": [
+    "Ad-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-04",
+   "title": "名詞子句與間接問句",
+   "grade": 9,
+   "order": 4,
+   "codes": [
+    "Ad-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-05",
+   "title": "分詞、感官動詞與使役動詞",
+   "grade": 9,
+   "order": 5,
+   "codes": [
+    "Ad-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-06",
+   "title": "附加問句、感嘆句與特殊句型",
+   "grade": 9,
+   "order": 6,
+   "codes": [
+    "Ad-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-07",
+   "title": "九年級字彙：易混淆字與搭配",
+   "grade": 9,
+   "order": 7,
+   "codes": [
+    "Ac-Ⅳ-4"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-08",
+   "title": "克漏字：篇章連貫與文意",
+   "grade": 9,
+   "order": 8,
+   "codes": [
+    "Ae-Ⅳ-5",
+    "Ad-Ⅳ-1",
+    "D-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-09",
+   "title": "閱讀理解：圖表、海報與不連續文本",
+   "grade": 9,
+   "order": 9,
+   "codes": [
+    "Ae-Ⅳ-2",
+    "Ae-Ⅳ-1",
+    "D-Ⅳ-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "e9-10",
+   "title": "閱讀理解：說明文與議題文章",
+   "grade": 9,
+   "order": 10,
+   "codes": [
+    "Ae-Ⅳ-5",
+    "Ae-Ⅳ-7",
+    "D-Ⅳ-4"
+   ],
+   "quizCount": 8
+  }
+ ]
 }

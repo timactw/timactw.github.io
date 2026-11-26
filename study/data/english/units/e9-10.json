@@ -1,0 +1,415 @@
+{
+  "id": "e9-10",
+  "subject": "english",
+  "grade": 9,
+  "order": 10,
+  "title": "閱讀理解：說明文與議題文章",
+  "codes": [
+    {
+      "code": "Ae-Ⅳ-5",
+      "text": "不同體裁、不同主題之簡易文章"
+    },
+    {
+      "code": "Ae-Ⅳ-7",
+      "text": "敘述者的觀點、態度及寫作目的"
+    },
+    {
+      "code": "D-Ⅳ-4",
+      "text": "藉文字線索，對客觀事實及主觀意見的分辨"
+    }
+  ],
+  "intro": "這個單元練習閱讀說明文與議題文章，包括抓主旨、找細節與因果、推論、猜字義、分辨事實與意見，以及判斷作者的目的與態度。會考的閱讀題常用 100 字左右的短文，只要先找主旨句、再回文章找證據，就能穩定拿分。",
+  "sections": [
+    {
+      "title": "先抓主旨：每段第一句與最後一句",
+      "points": [
+        "說明文通常第一句或最後一句點出**主旨**（main idea）。先找這兩句，再看中間的細節是在支持哪個想法。",
+        "主旨題常見問法：What is the passage mainly about?／What is the best title for the passage?（這篇文章主要在談什麼？／最適合的標題是？）",
+        "陷阱：只對應一小段的選項是**細節**，不是主旨；太寬泛或文中沒提到的也不選。",
+        "例：Teenagers need enough sleep. 後面的原因、影響、建議，都是在支持這一句。"
+      ]
+    },
+    {
+      "title": "細節與因果",
+      "points": [
+        "細節題先看題目的關鍵字，再回文章找對應的句子，答案常是原文的**換句話說**。",
+        "因果標示字：**because**（因為）、**so**（所以）、**that is why**（這就是為什麼）、**as a result**（結果）、**cause**（造成）。例：Many cafes use paper straws **because** plastic straws can hurt sea animals.",
+        "題目問 Why … ?，答案通常在 because 或 so 前後；問 What happened?，看事件順序。",
+        "NOT true 題：逐一把選項回文章核對，把文章有提到的刪掉，剩下的就是答案。"
+      ]
+    },
+    {
+      "title": "推論、猜字義與段落功能",
+      "points": [
+        "**推論**（infer）：答案不會直接寫在文章裡，但可以從線索合理推出。選項中說得太絕對（always、never、all）的通常有問題。",
+        "**猜字義**：看該字前後的線索句，例如 for example、that is、or、but 之後的說明。例：The box is very **fragile**, so don't drop it.（這個箱子很易碎，所以不要摔。）",
+        "**段落功能**：第一段常是引言（引出話題），中間段是舉例或說明，最後一段是結論或呼籲。",
+        "推論和猜字義的共同原則：有文章的證據才選，不要用自己的想法補。"
+      ]
+    },
+    {
+      "title": "事實與意見、作者目的與態度",
+      "points": [
+        "**事實**（fact）可以查證，有數字、日期、地點：The bike lane is five kilometers long.",
+        "**意見**（opinion）是個人看法，常有 I think、I believe、best、worst、should、beautiful 等字：I think it is the best thing the town has done.",
+        "**作者目的**：inform（告知）、persuade（說服）、entertain（娛樂）、warn（警告）。文章出現 should、We can… 常是在呼籲。",
+        "**作者態度**：看形容詞與轉折。I understand why …, however, I do not think … 表示作者部分理解但不贊成。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "主旨題",
+      "body": "找第一句、最後一句；不選過窄或過寬的選項"
+    },
+    {
+      "name": "因果標示字",
+      "body": "because, so, that is why, as a result"
+    },
+    {
+      "name": "推論題",
+      "body": "要有文章證據，避開 always/never/all 的絕對說法"
+    },
+    {
+      "name": "猜字義",
+      "body": "看前後線索句與 for example、but、so 後的說明"
+    },
+    {
+      "name": "事實與意見",
+      "body": "事實可查證；意見有 I think、best、should 等主觀字"
+    },
+    {
+      "name": "作者目的",
+      "body": "inform 告知、persuade 說服、warn 警告、entertain 娛樂"
+    },
+    {
+      "name": "作者態度",
+      "body": "看轉折（however, but）後的真正立場"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-10-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "文章主旨",
+      "q": "Many teenagers stay up late to use their phones or play games. However, they need about eight to ten hours of sleep every night. Without enough sleep, it is hard for them to pay attention in class, and they may get angry easily. Doctors suggest that teenagers turn off their phones one hour before bed.\n\nWhat is the passage mainly about?",
+      "choices": [
+        "Why teenagers need enough sleep",
+        "How to choose a good phone",
+        "Games that teenagers like",
+        "Doctors who work late at night"
+      ],
+      "answer": 0,
+      "explain": "文章第二句說青少年需要八到十小時睡眠，後面說明睡不夠的影響和醫生的建議，主題是青少年為什麼要睡飽。(How to choose a good phone) 與 (Games that teenagers like) 文中沒有討論；(Doctors who work late at night) 只是文中提到醫生，但不是談醫生的工作。答案是 Why teenagers need enough sleep。",
+      "codes": [
+        "Ae-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "e9-10-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "細節",
+      "q": "Many teenagers stay up late to use their phones or play games. However, they need about eight to ten hours of sleep every night. Without enough sleep, it is hard for them to pay attention in class, and they may get angry easily. Doctors suggest that teenagers turn off their phones one hour before bed.\n\nWhat do doctors suggest?",
+      "choices": [
+        "Sleep for only six hours",
+        "Play games before going to bed",
+        "Turn off phones one hour before bed",
+        "Go to school later"
+      ],
+      "answer": 2,
+      "explain": "最後一句說 Doctors suggest that teenagers turn off their phones one hour before bed。(Sleep for only six hours) 文中說要八到十小時；(Play games before going to bed) 玩遊戲正是熬夜的原因；(Go to school later) 文中沒有提到。答案是 Turn off phones one hour before bed。",
+      "codes": [
+        "Ae-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "e9-10-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "因果",
+      "q": "Millions of people use plastic straws every day. After they are used, most of them are thrown away and end up in the sea. Sea animals may mistake them for food and get hurt. That is why more and more cafes now offer paper straws instead.\n\nWhy do more and more cafes offer paper straws?",
+      "choices": [
+        "Paper straws are cheaper.",
+        "Plastic straws may hurt sea animals.",
+        "Customers love to eat straws.",
+        "Cafes want to sell more drinks."
+      ],
+      "answer": 1,
+      "explain": "文中 That is why 前面說明原因：塑膠吸管最後進入海裡，海洋動物可能誤食而受傷。(Paper straws are cheaper) 文中沒提到價錢；(Customers love to eat straws) 文中沒有這種說法；(Cafes want to sell more drinks) 文中沒有提到銷量。答案是 Plastic straws may hurt sea animals.",
+      "codes": [
+        "Ae-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "e9-10-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "事實與意見",
+      "q": "Last month, our town opened a new bike lane along the river. It is five kilometers long. I think it is the best thing the town has done this year. Now many people ride to work, and the roads are less crowded.\n\nWhich sentence is an opinion?",
+      "choices": [
+        "It is five kilometers long.",
+        "Our town opened a new bike lane last month.",
+        "Now many people ride to work.",
+        "I think it is the best thing the town has done this year."
+      ],
+      "answer": 3,
+      "explain": "I think 和 the best 是主觀看法，無法客觀查證，屬於意見。(It is five kilometers long) 是可量的長度；(Our town opened a new bike lane last month) 是可查證的事件；(Now many people ride to work) 是描述現況的事實。答案是 I think it is the best thing the town has done this year.",
+      "codes": [
+        "D-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-10-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "猜字義",
+      "q": "The museum is full of ancient things. For example, there are old coins from more than two thousand years ago. The guide told us that these things are very fragile, so visitors must not touch them. A single touch could break them.\n\nWhat does \"fragile\" mean in the passage?",
+      "choices": [
+        "easy to break",
+        "very old",
+        "very heavy",
+        "very expensive"
+      ],
+      "answer": 0,
+      "explain": "文中說因為 fragile，所以不可以碰，因為一碰就可能弄壞，由此可知意思是容易破損的。very old 說的是 ancient（古老）的意思，不是 fragile，也解釋不了為何不能碰；very heavy 與 very expensive 文中都沒有線索。答案是 easy to break。",
+      "codes": [
+        "Ae-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "e9-10-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "作者目的",
+      "q": "Every year, people in our city throw away tons of clothes. Many of them are still in good condition. Instead of throwing them away, we can give them to people who need them or sell them at a flea market（跳蚤市場）. A little effort from each of us can make a big difference.\n\nWhy did the writer write this passage?",
+      "choices": [
+        "To sell used clothes",
+        "To show how to make clothes",
+        "To encourage people to reuse clothes",
+        "To complain about the city"
+      ],
+      "answer": 2,
+      "explain": "文章說明丟掉衣服的問題，並建議把衣服送人或到跳蚤市場賣，最後呼籲每個人出一點力，目的是鼓勵大家再利用衣服。(To sell used clothes) 作者並沒有在賣衣服；(To show how to make clothes) 文中沒有教怎麼做衣服；(To complain about the city) 作者沒有抱怨城市。答案是 To encourage people to reuse clothes。",
+      "codes": [
+        "Ae-Ⅳ-7"
+      ]
+    },
+    {
+      "id": "e9-10-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "推論",
+      "q": "When Ben first moved to the city, he felt lonely. He didn't know anyone, and his classmates already had their own groups of friends. One day, he saw a sign in the hallway: \"Come and join the Photo Club!\" Ben has loved taking pictures since he was a child, so he went to the first meeting with his camera. After a month, he had a lot of new friends, and he no longer ate lunch alone.\n\nWhat can we infer about Ben?",
+      "choices": [
+        "He moved to the city to take pictures.",
+        "Joining the club helped him feel less lonely.",
+        "His classmates asked him to join the club.",
+        "He did not like taking pictures at first."
+      ],
+      "answer": 1,
+      "explain": "Ben 一開始很孤單，加入攝影社一個月後交了很多朋友，不再一個人吃午餐，可推論加入社團讓他不那麼孤單。(He moved to the city to take pictures) 文中沒說搬家原因；(His classmates asked him to join the club) 他是看到走廊的告示；(He did not like taking pictures at first) 文中說他從小就喜歡拍照。答案是 Joining the club helped him feel less lonely.",
+      "codes": [
+        "Ae-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "e9-10-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "作者態度",
+      "q": "Some schools do not allow students to bring phones to class. I understand why: phones can be a big distraction（分心）. However, I do not think a total ban（禁止） is the best answer. Phones can also be useful tools for looking up words or taking notes. Instead of a ban, schools should teach students when and how to use their phones.\n\nWhat is the writer's opinion about banning phones?",
+      "choices": [
+        "Phones should be allowed all the time.",
+        "Phones are only a distraction.",
+        "Students should never use phones to learn.",
+        "A total ban is not the best solution."
+      ],
+      "answer": 3,
+      "explain": "作者先說明理解禁止的理由，接著用 However 轉折，說不認為全面禁止是最好的做法，並建議教學生何時與如何使用手機。(Phones should be allowed all the time) 作者仍主張要教導使用時機，不是隨時都可以；(Phones are only a distraction) 作者說手機也是有用的工具；(Students should never use phones to learn) 與作者所說的查單字、做筆記相反。答案是 A total ban is not the best solution.",
+      "codes": [
+        "Ae-Ⅳ-7"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 23 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：由上下文猜字義（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 28 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：文中同義說法（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 29 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：作者寫作目的（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 30 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：人物關係細節（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 31 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：特色細節（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 34 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：因果推論（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 35 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：猜字義（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 36 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：作者手法（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 37 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：形容用字（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 38 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：作者態度（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 39 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：兩篇文章共同點（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 23 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：慣用語推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 26 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：報導：主旨細節（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 27 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：報導：段落大意（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 28 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：詞彙語意推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 29 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：漫畫：主旨（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 31 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：片語語意（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 32 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：研究說明文：目的（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 33 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：研究說明文：細節（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 34 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：情境應用推論（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 35 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：說明文主旨（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 36 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：推論態度（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 37 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：作者用字目的（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 30 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：人物報導：寫作目的（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 31 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：人物報導：推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 32 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：人物報導：主旨（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 33 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：報導：原因（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 34 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：報導：細節（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 35 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：詞彙語意推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 36 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：詞彙語意推論（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 37 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：讀者投書：細節（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 38 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：作者引用目的（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 39 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：作者態度（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「英文閱讀理解」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%8B%B1%E6%96%87%E9%96%B1%E8%AE%80%E7%90%86%E8%A7%A3"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

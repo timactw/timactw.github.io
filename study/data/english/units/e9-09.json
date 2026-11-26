@@ -1,0 +1,314 @@
+{
+  "id": "e9-09",
+  "subject": "english",
+  "grade": 9,
+  "order": 9,
+  "title": "閱讀理解：圖表、海報與不連續文本",
+  "codes": [
+    {
+      "code": "Ae-Ⅳ-2",
+      "text": "常見的圖表"
+    },
+    {
+      "code": "Ae-Ⅳ-1",
+      "text": "簡易的英文標示"
+    },
+    {
+      "code": "D-Ⅳ-2",
+      "text": "二至三項訊息的比較、歸類、排序"
+    }
+  ],
+  "intro": "這個單元練習看懂時刻表、菜單、海報、食譜與價目表，學會找資訊、比較、計算與排序。會考的篇章理解題常有這類圖表文本，重點是先看題目、抓關鍵字，再回文本對照限制條件與例外。",
+  "sections": [
+    {
+      "title": "不連續文本長什麼樣子",
+      "points": [
+        "會考常見的圖表與告示：**時刻表**（schedule）、**菜單**（menu）、**海報**（poster）、**活動簡介**、**食譜**（recipe）、**價目表**，另外還有通知、廣告、簡訊。",
+        "這類文章沒有連貫的長段落，重點在**標題、時間、地點、價格、規定**。先看標題知道這是什麼，再看題目問什麼。",
+        "題型多是找資訊：What time does the bus leave?（公車幾點開？）／ Where will the event be held?（活動在哪裡舉行？）"
+      ]
+    },
+    {
+      "title": "解題策略：先看題目，再回文本找答案",
+      "points": [
+        "**先讀問題**，用關鍵字（時間、價錢、人數、地點）回文本找對應的列。",
+        "看清楚**限制條件**：before 10:00（十點以前）、after school（放學後）、under 12（十二歲以下）、free（免費）。例：Children under 12 are free.（十二歲以下兒童免費。）",
+        "**單位與幣別**：dollars、minutes、hours、per person（每人）、each（每個）。算價錢時先確認是每人還是整組。",
+        "注意**例外與優惠**：set meal（套餐）、discount（折扣）、sale（特價）、off（減去）。Sign up before June 20 and get 300 dollars off.（六月二十日前報名，折三百元。）"
+      ]
+    },
+    {
+      "title": "比較、計算與排序",
+      "points": [
+        "**比較**：把每個選項算出來，再比 cheaper（較便宜）、earlier（較早）、longer（較久）。",
+        "**計算**：先列式再算，最後再檢查有沒有漏掉折扣或人數。",
+        "**排序**：食譜或說明書常用 first、then、next、after that、finally。Wash the fruit **first**.（先把水果洗乾淨。）",
+        "**時刻表**：留意出發與抵達的時間差：leaves at 9:30 and takes 20 minutes → arrives at 9:50.（九點半出發，花二十分鐘，九點五十分抵達。）"
+      ]
+    },
+    {
+      "title": "常見陷阱與常用字",
+      "points": [
+        "陷阱一：選項看起來和文本很像，但**數字或時間錯一點點**。要逐字對照。",
+        "陷阱二：題目問 NOT true／Which is true，要看清楚是找對的還是找錯的。",
+        "陷阱三：把「開始時間」與「結束時間」搞混，或把「每人」當成「總共」。",
+        "常用字：admission／ticket（門票）、free（免費）、closed（休息）、due（到期）、fine（罰款）、per（每）、sign up（報名）、bring（攜帶）。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "先讀題再找答案",
+      "body": "用時間、價錢等關鍵字回文本定位"
+    },
+    {
+      "name": "限制條件",
+      "body": "before 以前、after 以後、under 以下、free 免費"
+    },
+    {
+      "name": "算價錢",
+      "body": "先確認每人或整組，再扣折扣"
+    },
+    {
+      "name": "時刻表",
+      "body": "抵達時間＝出發時間＋行駛時間"
+    },
+    {
+      "name": "排序字",
+      "body": "first, then, next, after that, finally"
+    },
+    {
+      "name": "常用字",
+      "body": "due 到期、fine 罰款、per 每、sign up 報名、admission 門票"
+    },
+    {
+      "name": "NOT true",
+      "body": "看清楚題目問的是對的還是錯的"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-09-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "時刻表找資訊",
+      "q": "Bus Schedule: Sunshine Park to City Library\nLeaves Sunshine Park: 8:00 / 9:30 / 11:00 / 1:30\nThe ride takes 20 minutes.\n\nAmy wants to arrive at the library before 10:00 a.m. What is the latest bus she can take?",
+      "choices": [
+        "The 8:00 bus",
+        "The 9:30 bus",
+        "The 11:00 bus",
+        "The 1:30 bus"
+      ],
+      "answer": 1,
+      "explain": "9:30 出發加 20 分鐘是 9:50 抵達，仍在 10:00 以前，而且是符合條件中最晚的一班。(The 8:00 bus) 也能準時到，但不是最晚的；(The 11:00 bus) 要 11:20 才到；(The 1:30 bus) 更晚。答案是 The 9:30 bus。",
+      "codes": [
+        "Ae-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "e9-09-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "菜單計算",
+      "q": "Lucy's Cafe\nSandwich 60 dollars / Hamburger 80 dollars\nTea 30 dollars / Juice 40 dollars / Coffee 50 dollars\nSet meal: Choose one food and one drink, and save 10 dollars.\n\nTom orders a hamburger and a juice as a set meal. How much does he pay?",
+      "choices": [
+        "120 dollars",
+        "130 dollars",
+        "100 dollars",
+        "110 dollars"
+      ],
+      "answer": 3,
+      "explain": "漢堡 80 元加果汁 40 元是 120 元，套餐省 10 元，所以付 110 元。(120 dollars) 忘了扣套餐優惠；(130 dollars) 是漢堡加咖啡（80＋50）的價錢，也沒扣優惠；(100 dollars) 是用茶的價錢算成 80＋30－10。答案是 110 dollars。",
+      "codes": [
+        "Ae-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-09-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "海報找資訊",
+      "q": "Pet Day\nMeet cute dogs, cats, and rabbits!\nDate: Saturday, May 14\nTime: 10 a.m. to 4 p.m.\nPlace: Green Park\nFree for children under 12. Adults: 50 dollars.\n\nWhich is true about Pet Day?",
+      "choices": [
+        "It starts at 10 a.m.",
+        "Children under 12 must pay 50 dollars.",
+        "It is held at a school.",
+        "Only dogs can come."
+      ],
+      "answer": 0,
+      "explain": "海報寫 Time: 10 a.m. to 4 p.m.，所以十點開始是對的。(Children under 12 must pay 50 dollars) 十二歲以下免費，50 元是成人票；(It is held at a school) 地點是 Green Park；(Only dogs can come) 海報寫有狗、貓和兔子。答案是 It starts at 10 a.m.",
+      "codes": [
+        "Ae-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-09-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "食譜排序",
+      "q": "How to Make a Fruit Salad\nA. Put the fruit in a bowl and add some yogurt.\nB. Wash the fruit.\nC. Cut the fruit into small pieces.\nD. Enjoy your salad with your friends.\n\nWhat is the correct order of the steps?",
+      "choices": [
+        "C, B, A, D",
+        "B, A, C, D",
+        "B, C, A, D",
+        "A, B, C, D"
+      ],
+      "answer": 2,
+      "explain": "做沙拉要先洗水果（B），再切成小塊（C），然後放進碗裡加優格（A），最後享用（D）。(C, B, A, D) 沒洗就先切，順序不合理；(B, A, C, D) 水果還沒切就放進碗裡加優格；(A, B, C, D) 一開始就加優格，順序顛倒。答案是 B, C, A, D。",
+      "codes": [
+        "D-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "e9-09-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "價目表比較計算",
+      "q": "Zoo Ticket Prices\nAdult: 200 dollars each\nChild (under 12): 120 dollars each\nFamily package (2 adults and 2 children): 520 dollars\n\nThe Lins are two adults and two children. How much can they save by buying the family package?",
+      "choices": [
+        "80 dollars",
+        "120 dollars",
+        "100 dollars",
+        "160 dollars"
+      ],
+      "answer": 1,
+      "explain": "單買票價是 2×200＋2×120＝640 元，家庭套票是 520 元，640－520＝120 元。(80 dollars)、(100 dollars)、(160 dollars) 都是計算錯誤的結果，例如只算大人票或漏算一位小孩。答案是 120 dollars。",
+      "codes": [
+        "D-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "e9-09-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "優惠計算",
+      "q": "Summer Camp\nWeek 1 (July 1-5): Art\nWeek 2 (July 8-12): Music\nWeek 3 (July 15-19): Sports\nEach week: 3,000 dollars\nSign up before June 20 and get 300 dollars off for each week.\n\nLinda wants to join the Music week and the Sports week. She signs up on June 15. How much does she pay?",
+      "choices": [
+        "5,700 dollars",
+        "6,000 dollars",
+        "5,100 dollars",
+        "5,400 dollars"
+      ],
+      "answer": 3,
+      "explain": "六月十五日在六月二十日之前，有優惠，每週折 300 元，兩週各付 2,700 元，共 5,400 元。(5,700 dollars) 是只折了一次 300 元；(6,000 dollars) 完全沒折扣；(5,100 dollars) 多扣了一次 300 元。答案是 5,400 dollars。",
+      "codes": [
+        "Ae-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "e9-09-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "通知與推論",
+      "q": "Notice from the School Library\nThe library will be closed on Friday, March 8, for floor repairs. Books that are due on March 8 can be returned on Monday, March 11, without a fine.\n\nAmy's book is due on March 8. What can she do?",
+      "choices": [
+        "Return it on March 11 without paying a fine.",
+        "Bring it to the librarian on March 8.",
+        "Return it on March 11 and pay a fine.",
+        "Keep it until March 15."
+      ],
+      "answer": 0,
+      "explain": "通知說三月八日到期的書，三月十一日還不用罰款。(Bring it to the librarian on March 8) 三月八日圖書館休館；(Return it on March 11 and pay a fine) 通知寫 without a fine；(Keep it until March 15) 通知沒有提供延到三月十五日。答案是 Return it on March 11 without paying a fine.",
+      "codes": [
+        "Ae-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-09-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "排程與條件判斷",
+      "q": "School Club Fair\nChess Club: Monday, 4:00 p.m.\nDance Club: Tuesday and Thursday, 4:00 p.m.\nCooking Club: Wednesday, 3:00 p.m.\nRule: Each student can join two clubs.\n\nTom has basketball practice on Tuesday and Thursday. He wants to join two clubs. Which clubs can he join?",
+      "choices": [
+        "Chess Club and Dance Club",
+        "Dance Club and Cooking Club",
+        "Chess Club and Cooking Club",
+        "Chess Club, Dance Club, and Cooking Club"
+      ],
+      "answer": 2,
+      "explain": "Tom 星期二、四要練球，不能參加星期二、四上課的 Dance Club，剩下星期一的 Chess Club 與星期三的 Cooking Club，剛好兩個。(Chess Club and Dance Club) 與 (Dance Club and Cooking Club) 都含舞蹈社，時間衝突；(Chess Club, Dance Club, and Cooking Club) 有三個社團，超過兩個的規定。答案是 Chess Club and Cooking Club。",
+      "codes": [
+        "D-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 20 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：食譜：找細節（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 21 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：食譜：步驟判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 24 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：簡介手冊：找資訊（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 25 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：簡介手冊：規則判斷（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 26 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：簡介手冊：情境應用（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 32 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：流程圖＋標題文意（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 33 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：流程圖：細節（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 24 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：票卡簡介：找資訊（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 25 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：票卡簡介：情境計算比較（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 24 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：時刻表：情境推算（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 25 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：時刻表：細節（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 26 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：地圖與簡介：建議（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 27 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：地圖：資訊判讀（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「英文閱讀理解」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%8B%B1%E6%96%87%E9%96%B1%E8%AE%80%E7%90%86%E8%A7%A3"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

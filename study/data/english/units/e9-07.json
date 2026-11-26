@@ -1,0 +1,312 @@
+{
+  "id": "e9-07",
+  "subject": "english",
+  "grade": 9,
+  "order": 7,
+  "title": "九年級字彙：易混淆字與搭配",
+  "codes": [
+    {
+      "code": "Ac-Ⅳ-4",
+      "text": "國中階段所學字詞（能聽、讀、說、寫最基本的 1,200 字詞）"
+    }
+  ],
+  "intro": "這個單元整理九年級常見的易混淆字（如 affect／effect、borrow／lend）、動詞片語與固定搭配。會考字彙題多半是句子挖空，要依照語意、詞性和搭配選出最合適的字，所以比起死背中文，更要記例句。",
+  "sections": [
+    {
+      "title": "易混動詞：借與借出、說的四兄弟",
+      "points": [
+        "**borrow** 是「借入」（向別人借）：Can I **borrow** your pen?（我可以跟你借筆嗎？）",
+        "**lend** 是「借出」：Could you **lend** me your pen?（你可以借我筆嗎？）。記法：borrow from 人／lend to 人。",
+        "**say** 強調說的內容；**tell** 後面接人：She **told** me a secret.（她告訴我一個秘密。）；**speak** 說某種語言：He **speaks** English well.；**talk** 是交談：We **talked** about the trip.（我們聊了旅行的事。）",
+        "穿戴：**wear** 是「穿著」的狀態，**put on** 是「穿上」的動作。She is **wearing** a red dress.／Please **put on** your coat.",
+        "看與聽：look at 是「看」，see 是「看見」，watch 是「觀賞」；hear 是「聽見」，listen to 是「專心聽」。"
+      ]
+    },
+    {
+      "title": "易混字：拼法或意思相近",
+      "points": [
+        "**affect**（動詞：影響）與 **effect**（名詞：效果、影響）：Too much sugar can **affect** your health.／It has a bad **effect** on your health.",
+        "**advice**（名詞：建議，不可數）與 **advise**（動詞：建議）：She gave me some good **advice**.／The doctor **advised** him to rest.",
+        "**lose**（失去、輸）與 **loose**（寬鬆的）：Don't **lose** your keys.／These pants are too **loose**.",
+        "**weather**（天氣）與 **whether**（是否）：I don't know **whether** it will rain.（我不知道會不會下雨。）",
+        "**quiet**（安靜的）與 **quite**（相當）：The library is **quiet**.／It is **quite** cold today.（今天相當冷。）"
+      ]
+    },
+    {
+      "title": "動詞片語",
+      "points": [
+        "**look for**（尋找）、**look after**（照顧）、**look up**（查閱）、**look forward to＋V-ing**（期待）：I'm looking forward to **seeing** you.（我期待見到你。）",
+        "**give up**（放棄）、**put off**（延後）、**put on**（穿上）、**turn on／off**（打開／關掉）、**pick up**（撿起、接人）。",
+        "**run out of**（用完）：We ran out of milk.（我們的牛奶用完了。）；**take care of**（照顧）；**get along with**（與…相處）。",
+        "易錯：片語中的介系詞或副詞不能亂換。✗ give in trying ✓ give **up** trying（別放棄嘗試）。"
+      ]
+    },
+    {
+      "title": "名詞與動詞的固定搭配",
+      "points": [
+        "**make** a mistake（犯錯）、make friends（交朋友）、make a decision（做決定）；**do** homework（寫功課）、do the dishes（洗碗）。",
+        "**take** a photo（拍照）、take a bus（搭公車）、take a break（休息一下）；**have** a good time（玩得開心）。",
+        "**pay attention to**（注意）：Please pay **attention** to the sign.（請注意告示牌。）；**catch** a cold（感冒）。",
+        "形容詞搭配：**heavy** rain（大雨）、**strong** coffee（濃咖啡）。搭配是固定的，不能說 big rain 或 hard coffee。"
+      ]
+    },
+    {
+      "title": "依語境選字的技巧",
+      "points": [
+        "先看空格前後：前面是 a／the 或形容詞，多半填名詞；前面有 to 或助動詞，多半填原形動詞。",
+        "遇到拼法相近的選項，先判斷詞性與句意，再回頭看拼字。",
+        "遇到動詞片語，檢查整個片語的搭配與受詞是否合理。",
+        "刪去法：把四個選項代入句中，唸一次，語意不通或搭配不自然的先刪掉。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "borrow／lend",
+      "body": "borrow 借入、lend 借出；borrow from／lend to"
+    },
+    {
+      "name": "say／tell／speak／talk",
+      "body": "say 內容；tell＋人；speak 語言；talk 交談"
+    },
+    {
+      "name": "affect／effect",
+      "body": "affect 動詞影響；effect 名詞效果（have an effect on）"
+    },
+    {
+      "name": "advice／advise",
+      "body": "advice 名詞不可數；advise 動詞"
+    },
+    {
+      "name": "lose／loose",
+      "body": "lose 失去；loose 寬鬆"
+    },
+    {
+      "name": "look 系列",
+      "body": "look for 尋找、look after 照顧、look up 查閱、look forward to＋V-ing"
+    },
+    {
+      "name": "put 系列",
+      "body": "put on 穿上、put off 延後、put away 收好"
+    },
+    {
+      "name": "固定搭配",
+      "body": "make a mistake、do homework、take a photo、pay attention to"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-07-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "borrow 與 lend",
+      "q": "Can I _____ your pen? I forgot to bring mine.",
+      "choices": [
+        "borrow",
+        "lend",
+        "give",
+        "return"
+      ],
+      "answer": 0,
+      "explain": "「我忘了帶筆，可以跟你借嗎？」是向別人借入，用 borrow。(lend) 是借出，說成 Can I lend 變成「我可以借出你的筆」；(give) 與 (return) 意思不合，return 是歸還，這句還沒借到筆。答案是 borrow。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "說的動詞辨析",
+      "q": "Amy _____ me that she would visit her aunt this weekend.",
+      "choices": [
+        "said",
+        "told",
+        "spoke",
+        "talked"
+      ],
+      "answer": 1,
+      "explain": "後面有「me」這個接受訊息的人，用 tell＋人＋that 子句。(said) 後面不直接接人，要說 said to me；(spoke) 與 (talked) 都不接 that 子句與直接受詞。答案是 told。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "wear 與 put on",
+      "q": "Linda is _____ a red dress, and she looks beautiful.",
+      "choices": [
+        "putting",
+        "dressing",
+        "wearing",
+        "taking"
+      ],
+      "answer": 2,
+      "explain": "「她穿著一件紅色洋裝」表示穿著的狀態，用 wear 的進行式 is wearing。(putting) 少了 on，片語不完整；(dressing) 後面接人，不能直接接衣服；(taking) 搭配不合。答案是 wearing。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "advice 與 advise",
+      "q": "The doctor gave Tom some good _____ about how to stay healthy.",
+      "choices": [
+        "advise",
+        "advices",
+        "advisor",
+        "advice"
+      ],
+      "answer": 3,
+      "explain": "前面有形容詞 good 與 some，要填名詞「建議」，advice 是不可數名詞。(advise) 是動詞；(advices) 不可數名詞不加 s；(advisor) 是「顧問」，而且 some good advisor 文法與語意都不合。答案是 advice。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "動詞片語 give up",
+      "q": "Don't _____ trying. You will do better next time.",
+      "choices": [
+        "give in",
+        "give up",
+        "give out",
+        "give away"
+      ],
+      "answer": 1,
+      "explain": "「別放棄嘗試」是 give up＋V-ing。(give in) 是投降、讓步，後面不接 trying；(give out) 是分發；(give away) 是送人，語意都不合。答案是 give up。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "說的動詞辨析",
+      "q": "The teacher asked us to _____ English in class, not Chinese.",
+      "choices": [
+        "speak",
+        "say",
+        "tell",
+        "talk"
+      ],
+      "answer": 0,
+      "explain": "「說某種語言」用 speak。(say) 後面接說出口的話，如 say hello；(tell) 後面接人或故事；(talk) 是交談，用在 talk in English，不會直接接語言名稱。答案是 speak。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "動詞片語 put off",
+      "q": "Jack was so busy that he had to _____ the meeting until next week.",
+      "choices": [
+        "put on",
+        "put up",
+        "put off",
+        "put away"
+      ],
+      "answer": 2,
+      "explain": "「忙到只好把會議延到下週」是 put off（延後）。(put on) 是穿上或舉辦（演出）；(put up) 是張貼或搭起；(put away) 是收好，都不能表示延後會議。答案是 put off。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "e9-07-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "affect 與 effect",
+      "q": "Watching too much TV has a bad _____ on children's eyes.",
+      "choices": [
+        "affect",
+        "effective",
+        "affection",
+        "effect"
+      ],
+      "answer": 3,
+      "explain": "has a bad ___ on 的空格前有 a 與形容詞 bad，要填名詞，have an effect on 是「對…有影響」。(affect) 是動詞；(effective) 是形容詞「有效的」；(affection) 是名詞「感情」，意思不合。答案是 effect。",
+      "codes": [
+        "Ac-Ⅳ-4"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 5 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：動詞字彙 keep（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 13 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：名詞字彙 bottom（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 14 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：字彙 chances 的搭配（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年閱讀試題本第 15 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：動詞字彙 bow（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 6 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：名詞字彙 faces（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 7 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：名詞字彙 fool（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 9 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：動詞字彙 grow（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年閱讀試題本第 16 題",
+        "url": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view",
+        "note": "考點：動詞字彙 save（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 9 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：形容詞字彙 lucky（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 16 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：名詞字彙 robot（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 17 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：動詞字彙 miss（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「國中英文單字」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%9C%8B%E4%B8%AD%E8%8B%B1%E6%96%87%E5%96%AE%E5%AD%97"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

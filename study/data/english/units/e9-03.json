@@ -1,0 +1,225 @@
+{
+  "id": "e9-03",
+  "subject": "english",
+  "grade": 9,
+  "order": 3,
+  "title": "關係子句",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型（附錄六「國民中學英語文基礎文法句構參考表」：關係子句：關係代名詞 who/which/that/whose）"
+    }
+  ],
+  "intro": "關係子句用來補充說明前面的名詞（先行詞）。這單元要會選 who、which、that、whose，知道什麼時候可以省略關代，並注意子句裡動詞的單複數。會考常以填空與改寫句子出題。",
+  "sections": [
+    {
+      "title": "who / which / that 的選用",
+      "points": [
+        "關代的選用看**先行詞**：人用 **who**，事物或動物用 **which**，兩者都可用 **that**。",
+        "例：The girl **who** is standing there is my sister.（站在那裡的女孩是我妹妹。）",
+        "例：I have a dog **which** likes to swim.（我有一隻喜歡游泳的狗。）",
+        "例：This is the book **that** I bought yesterday.（這是我昨天買的書。）",
+        "先行詞含 the only、the first、all、everything 等限定詞時，通常用 **that**。例：He is the only student **that** can solve it.（他是唯一能解開這題的學生。）"
+      ]
+    },
+    {
+      "title": "關代當主詞與當受詞",
+      "points": [
+        "關代當**主詞**：後面直接接動詞。例：The boy **who** lives next door is Jack.（住在隔壁的男孩是 Jack。）",
+        "關代當**受詞**：後面是「主詞 + 動詞」。例：The movie **which** I saw last night was great.（我昨晚看的電影很棒。）",
+        "受詞關代可以**省略**：The movie I saw last night was great.，但**主詞關代不能省略**。",
+        "常錯：不要把關代後面又重複代名詞。The movie which I saw **it**（錯）→ The movie which I saw（對）。"
+      ]
+    },
+    {
+      "title": "whose 與動詞一致",
+      "points": [
+        "**whose** 表示「……的」，後面接名詞：I have a friend **whose** father is a doctor.（我有個朋友，他的爸爸是醫生。）",
+        "whose 不能換成 who 或 which：不能寫 a friend who father is a doctor。",
+        "關代子句裡的動詞要和**先行詞**一致：The boys who **are** playing basketball are my classmates.（正在打籃球的男孩是我同學。）",
+        "The girl who **sings** well is Amy.（唱得好的女孩是 Amy。）先行詞單數，動詞加 s。"
+      ]
+    },
+    {
+      "title": "限制與補充說明、改寫句子",
+      "points": [
+        "關代前有逗號是補充說明，這時**不能用 that**。例：My uncle, **who** lives in Kaohsiung, is a pilot.（我叔叔住在高雄，是飛行員。）",
+        "合併兩句：I know a boy. He plays the violin. → I know a boy **who** plays the violin.（我認識一個會拉小提琴的男孩。）",
+        "改寫時，被取代的代名詞（he, it, they）要刪掉。",
+        "his / her / their 這類所有格被取代時，用 whose：The man's car is red. → The man **whose** car is red ..."
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "人用 who",
+      "body": "The girl who sings is Amy."
+    },
+    {
+      "name": "物用 which",
+      "body": "The book which is on the desk is mine."
+    },
+    {
+      "name": "that",
+      "body": "人或物都可用；the only、all、everything 後常用 that"
+    },
+    {
+      "name": "whose",
+      "body": "whose + 名詞，表「……的」"
+    },
+    {
+      "name": "可省略的關代",
+      "body": "只有當受詞的關代可省略，當主詞的不行"
+    },
+    {
+      "name": "不重複代名詞",
+      "body": "The movie I saw（不寫 I saw it）"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-03-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "關代 who",
+      "q": "The girl _____ is standing there is my sister.",
+      "choices": [
+        "which",
+        "what",
+        "who",
+        "where"
+      ],
+      "answer": 2,
+      "explain": "先行詞 The girl 是人，後面缺主詞，用關代 who。which 用於事物；what 不能接在先行詞後面；where 是關係副詞，指地點。答案是 who"
+    },
+    {
+      "id": "e9-03-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "關代 which",
+      "q": "The cake _____ is on the table is mine.",
+      "choices": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "explain": "先行詞 the cake 是物，關代當主詞，用 which。who 用於人；whose 後面要接名詞；where 表示地點。答案是 which"
+    },
+    {
+      "id": "e9-03-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "關代 that",
+      "q": "This is the book _____ I bought yesterday.",
+      "choices": [
+        "who",
+        "that",
+        "whose",
+        "where"
+      ],
+      "answer": 1,
+      "explain": "先行詞 the book 是事物，關代當 bought 的受詞，可用 that。who 指人；whose 後面要接名詞；where 指地點，後面不能接「I bought」。答案是 that"
+    },
+    {
+      "id": "e9-03-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "關代 whose",
+      "q": "I have a friend _____ father is a doctor.",
+      "choices": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "answer": 3,
+      "explain": "空格後面是名詞 father，表示「朋友的爸爸」，要用所有格關代 whose。who、whom 後面不能直接接名詞表示所有；which 指事物。答案是 whose"
+    },
+    {
+      "id": "e9-03-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "省略受格關代",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "The movie I saw it last night was great.",
+        "The movie I saw last night was great.",
+        "The movie saw I last night was great.",
+        "The movie which I saw it last night was great."
+      ],
+      "answer": 1,
+      "explain": "The movie I saw last night 省略了當受詞的 which / that，是正確的。另一句多了 it，會使 saw 有兩個受詞；saw I 的語序錯誤；which 之後再加 it，也是受詞重複。答案是 The movie I saw last night was great."
+    },
+    {
+      "id": "e9-03-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "先行詞 the only",
+      "q": "He is the only student _____ can solve the problem.",
+      "choices": [
+        "which",
+        "whose",
+        "that",
+        "whom"
+      ],
+      "answer": 2,
+      "explain": "先行詞前有 the only，關代通常用 that，這裡當 can solve 的主詞。which 用於事物；whose 後面要接名詞；whom 是受格，不能當主詞。答案是 that"
+    },
+    {
+      "id": "e9-03-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "補充說明",
+      "q": "My uncle, _____ lives in Kaohsiung, is a pilot.",
+      "choices": [
+        "who",
+        "that",
+        "which",
+        "whose"
+      ],
+      "answer": 0,
+      "explain": "My uncle 是人，前面有逗號，是補充說明，用 who。逗號之後不能用 that；which 不能指人；whose 後面要接名詞。答案是 who"
+    },
+    {
+      "id": "e9-03-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "關代後動詞一致",
+      "q": "The boys who _____ playing basketball over there are my classmates.",
+      "choices": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": 3,
+      "explain": "先行詞 The boys 是複數，關代子句的 be 動詞用 are（現在進行式 are playing）。is 用於單數；am 只配 I；be 不能直接當動詞。答案是 are"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年閱讀試題本第 11 題",
+        "url": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view",
+        "note": "考點：關係代名詞 who（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年閱讀試題本第 12 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：關係代名詞 who（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「關係代名詞」",
+      "url": "https://www.junyiacademy.org/search?q=%E9%97%9C%E4%BF%82%E4%BB%A3%E5%90%8D%E8%A9%9E"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

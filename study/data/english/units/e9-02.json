@@ -1,0 +1,220 @@
+{
+  "id": "e9-02",
+  "subject": "english",
+  "grade": 9,
+  "order": 2,
+  "title": "被動語態",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型（附錄六「國民中學英語文基礎文法句構參考表」：被動句：be+過去分詞；含 by 片語、時式變化與疑問）"
+    }
+  ],
+  "intro": "被動語態（be + 過去分詞）用在「重點是接受動作的人事物」時。會考常考 be 動詞配合主詞與時態、過去分詞的拼法、含助動詞的被動，以及不及物動詞不能用被動。",
+  "sections": [
+    {
+      "title": "被動語態的形成",
+      "points": [
+        "公式：主詞 + **be 動詞 + 過去分詞** +（by + 動作者）。例：The window **was broken** by Tom.（窗戶被 Tom 打破了。）",
+        "主動改被動：受詞變主詞，動詞改成 be + p.p.，原主詞放在 by 後面。例：Mom made the cake. → The cake **was made** by Mom.（蛋糕是媽媽做的。）",
+        "be 動詞要配合**主詞的單複數與時態**：The cake is made.（單數）/ The cakes **are** made.（複數）/ The cakes **were** made yesterday.（過去）",
+        "過去分詞不能亂寫：break → broken、write → written、steal → stolen，不是 breaked 或 wrote。"
+      ]
+    },
+    {
+      "title": "各種時態的被動",
+      "points": [
+        "現在簡單被動：am/is/are + p.p.。例：English **is spoken** in many countries.（許多國家使用英語。）",
+        "過去簡單被動：was/were + p.p.。例：This bridge **was built** in 1990.（這座橋建於 1990 年。）",
+        "未來被動：will be + p.p.。例：A new school **will be built** here next year.（這裡明年會蓋一所新學校。）",
+        "助動詞被動：can / must / should + **be** + p.p.。例：The homework **must be finished** today.（功課今天必須寫完。）",
+        "否定與疑問：否定在 be 後加 not；疑問把 be 提前。例：**Was** the window broken by Tom?（窗戶是被 Tom 打破的嗎？）When **was** this temple **built**?（這座廟是什麼時候蓋的？）"
+      ]
+    },
+    {
+      "title": "什麼時候用被動、by 要不要寫",
+      "points": [
+        "動作者不重要、不明或大家都知道時，常用被動並**省略 by**。例：My bike **was stolen** last night.（我的腳踏車昨晚被偷了。）",
+        "想強調動作者時才寫 by 片語。例：The song was written **by a famous singer**.（這首歌是一位名歌手寫的。）",
+        "by 後面如果是人稱代名詞，要用受格：by **him**、by **us**，不是 by he。",
+        "動作者是 someone、people 這類不確定的對象時，通常直接省略。"
+      ]
+    },
+    {
+      "title": "不能用被動的情況與常見錯誤",
+      "points": [
+        "**不及物動詞**（happen, die, arrive, rise, appear）沒有受詞，不能改被動。例：The accident **happened** last night.（意外昨晚發生了。）不能寫 was happened。",
+        "have、cost、fit 等表狀態的動詞，通常不用被動。",
+        "被動句只能有一個 be 動詞：不是 is be made，也不是 was been made。",
+        "時態看 be 動詞，不是看過去分詞：The cake was made（過去）與 The cake is made（現在）的過去分詞都是 made。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "被動語態公式",
+      "body": "be + 過去分詞（+ by 動作者）"
+    },
+    {
+      "name": "be 的選用",
+      "body": "依主詞單複數與時態：is / are / was / were / will be"
+    },
+    {
+      "name": "助動詞被動",
+      "body": "can / must / should + be + p.p."
+    },
+    {
+      "name": "不規則 p.p.",
+      "body": "break–broken；write–written；steal–stolen；build–built；make–made；eat–eaten"
+    },
+    {
+      "name": "不及物動詞",
+      "body": "happen, die, arrive, appear 不能用被動"
+    },
+    {
+      "name": "by 的省略",
+      "body": "動作者不明或不重要時，by 片語省略"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-02-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "被動語態基本",
+      "q": "English _____ in many countries.",
+      "choices": [
+        "speaks",
+        "is spoken",
+        "spoke",
+        "is speaking"
+      ],
+      "answer": 1,
+      "explain": "English 是被說的語言，要用被動 is spoken（現在簡單式被動）。speaks 和 spoke 是主動，English 不會「說話」；is speaking 是現在進行式主動，意思不通。答案是 is spoken"
+    },
+    {
+      "id": "e9-02-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "過去分詞",
+      "q": "The window was _____ by Tom yesterday.",
+      "choices": [
+        "break",
+        "broke",
+        "broken",
+        "breaking"
+      ],
+      "answer": 2,
+      "explain": "was 之後接過去分詞，break 的過去分詞是 broken。break 是原形，broke 是過去式，breaking 是現在分詞，放在 was 後面都不能表示被動。答案是 broken"
+    },
+    {
+      "id": "e9-02-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "被動式主謂一致",
+      "q": "These cakes _____ by my mother last night.",
+      "choices": [
+        "made",
+        "are made",
+        "was made",
+        "were made"
+      ],
+      "answer": 3,
+      "explain": "These cakes 是複數主詞，last night 是過去，所以用 were made。made 前面少了 be 動詞；are made 是現在式，與 last night 衝突；was 不能搭配複數主詞。答案是 were made"
+    },
+    {
+      "id": "e9-02-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "未來被動",
+      "q": "A new bridge _____ here next year.",
+      "choices": [
+        "will be built",
+        "will build",
+        "is built",
+        "was built"
+      ],
+      "answer": 0,
+      "explain": "橋是被建造的，next year 表示未來，所以用 will be built。will build 是主動，橋不會自己蓋；is built 是現在式；was built 是過去式，都與 next year 不合。答案是 will be built"
+    },
+    {
+      "id": "e9-02-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "助動詞被動",
+      "q": "The homework must _____ before Friday.",
+      "choices": [
+        "finish",
+        "finished",
+        "be finish",
+        "be finished"
+      ],
+      "answer": 3,
+      "explain": "must 後面要接原形動詞，被動時是 must + be + 過去分詞。作業是被完成的，所以用 be finished。finish 是主動；finished 少了 be；be finish 的 finish 沒有用過去分詞。答案是 be finished"
+    },
+    {
+      "id": "e9-02-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "被動語態疑問句",
+      "q": "Which question is correct?",
+      "choices": [
+        "When did this temple built?",
+        "When was this temple built?",
+        "When was this temple build?",
+        "When this temple was built?"
+      ],
+      "answer": 1,
+      "explain": "被動疑問句是 疑問詞 + be + 主詞 + 過去分詞：When was this temple built?。did 後面要接原形，不能接 built；build 要用過去分詞 built；疑問句 be 動詞要提前，不能放在主詞後面。答案是 When was this temple built?"
+    },
+    {
+      "id": "e9-02-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "不及物動詞",
+      "q": "The accident _____ near the school last night.",
+      "choices": [
+        "was happened",
+        "is happened",
+        "happened",
+        "was happen"
+      ],
+      "answer": 2,
+      "explain": "happen 是不及物動詞，沒有受詞，不能用被動，直接用過去式 happened。was happened、is happened 都是錯誤的被動；was happen 的 happen 不能接在 was 後面，時態也不對。答案是 happened"
+    },
+    {
+      "id": "e9-02-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "被動語態與 by",
+      "q": "Many trees _____ down by the strong wind during the typhoon last night.",
+      "choices": [
+        "were blown",
+        "blew",
+        "are blown",
+        "was blown"
+      ],
+      "answer": 0,
+      "explain": "句中有 by the strong wind，表示被風吹倒，主詞 Many trees 是複數、時間是 last night，所以用 were blown。blew 是主動，後面不會接 by 動作者；are blown 時態不合；was 不能搭配複數主詞。答案是 were blown"
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "113 年閱讀試題本第 19 題",
+        "url": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view",
+        "note": "考點：被動語態（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「被動語態」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%A2%AB%E5%8B%95%E8%AA%9E%E6%85%8B"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

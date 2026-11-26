@@ -1,0 +1,249 @@
+{
+  "id": "e9-05",
+  "subject": "english",
+  "grade": 9,
+  "order": 5,
+  "title": "分詞、感官動詞與使役動詞",
+  "codes": [
+    {
+      "code": "Ad-Ⅳ-1",
+      "text": "國中階段所學的文法句型（附錄六「國民中學英語文基礎文法句構參考表」：現在分詞與過去分詞當形容詞；感官動詞＋原形動詞；使役動詞＋原形動詞；連綴動詞 become/get/look）"
+    }
+  ],
+  "intro": "這個單元整理現在分詞與過去分詞當形容詞、感官動詞與使役動詞的句型，以及連綴動詞後面接形容詞的用法。會考的語法題常用句子挖空考 interesting／interested 的選擇、動詞後面要不要加 to，答對的關鍵是看清楚主詞是人還是事物，以及動詞的類型。",
+  "sections": [
+    {
+      "title": "V-ing 與 V-ed 形容詞：令人…／感到…",
+      "points": [
+        "**V-ing** 表示「令人…的」，通常形容事物或情況；**V-ed** 表示「感到…的」，通常形容人的感受。",
+        "The movie is **interesting**.（這部電影很有趣。）／ I am **interested** in the movie.（我對這部電影有興趣。）",
+        "常考成對字：interesting/interested、exciting/excited、boring/bored、surprising/surprised、tiring/tired、confusing/confused。",
+        "分詞放在名詞前也可以當形容詞：a **sleeping** baby（正在睡覺的嬰兒，現在分詞表主動、進行）；a **broken** window（破掉的窗戶，過去分詞表被動、完成）。",
+        "易錯：不能說 I am boring 來表示「我很無聊」，那會變成「我是個無聊的人」。要說 I am **bored**."
+      ]
+    },
+    {
+      "title": "感官動詞＋受詞＋原形動詞或 V-ing",
+      "points": [
+        "感官動詞：see、watch、hear、listen to、feel、notice。句型：感官動詞＋受詞＋**原形動詞**，或＋受詞＋**V-ing**。",
+        "接原形動詞：看見或聽見動作的**全部過程**。I saw him **cross** the street.（我看見他過完了馬路。）",
+        "接 V-ing：動作**正在進行**。I saw him **crossing** the street.（我看見他正在過馬路。）",
+        "易錯：感官動詞後面**不加 to**。✗ I heard her to sing. ✓ I heard her **sing**.（我聽見她唱歌。）",
+        "被動時才補回 to：She was heard **to sing**.（有人聽見她唱歌。）"
+      ]
+    },
+    {
+      "title": "使役動詞：let、make、have、get",
+      "points": [
+        "**let／make／have＋受詞＋原形動詞**：Mom **let** me **watch** TV.（媽媽讓我看電視。）／ The coach **made** us **run**.（教練要我們跑步。）",
+        "let 是「允許」，make 是「強迫」，have 是「請某人做」：I **had** the clerk **wrap** the gift.（我請店員包裝禮物。）",
+        "**get＋受詞＋to V**，要加 to：She **got** her brother **to wash** the dishes.（她叫弟弟洗碗。）",
+        "help 後面的原形動詞可加可不加 to：He helped me (**to**) carry the box.（他幫我搬箱子。）",
+        "易錯：✗ made me to clean ✓ made me **clean**；✗ let him to go ✓ let him **go**。"
+      ]
+    },
+    {
+      "title": "連綴動詞：後面接形容詞，不接副詞",
+      "points": [
+        "連綴動詞：be、become、get、look、feel、sound、smell、taste、seem。後面接**形容詞**，說明主詞的狀態。",
+        "She looks **happy**.（她看起來很快樂。）✗ She looks happily.",
+        "The soup smells **good**.（這碗湯聞起來很香。）／ It is getting **dark**.（天色漸漸變暗了。）",
+        "become 和 get 表示「變得…」：He became **angry**.（他變得生氣了。）／ The weather got **cold**.（天氣變冷了。）",
+        "辨別：動詞是「連綴」還是「一般動作」。He looked at the sky **carefully**.（他仔細看著天空。）這裡 look at 是動作，用副詞。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "V-ing／V-ed 形容詞",
+      "body": "人感到用 V-ed，事物令人用 V-ing：bored/boring"
+    },
+    {
+      "name": "感官動詞",
+      "body": "see/hear/watch/feel＋受詞＋V（全程）或 V-ing（進行中），不加 to"
+    },
+    {
+      "name": "let／make／have",
+      "body": "＋受詞＋原形動詞；let 允許、make 強迫、have 請託"
+    },
+    {
+      "name": "get＋人＋to V",
+      "body": "get 要加 to：get him to help"
+    },
+    {
+      "name": "help",
+      "body": "help＋人＋(to) V，to 可省略"
+    },
+    {
+      "name": "連綴動詞",
+      "body": "become/get/look/feel/sound/smell/taste＋形容詞"
+    },
+    {
+      "name": "被動補 to",
+      "body": "He was seen to leave.（被動時感官動詞後要補 to）"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e9-05-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "V-ing 與 V-ed 形容詞",
+      "q": "The story is very _____. I couldn't stop reading it.",
+      "choices": [
+        "interested",
+        "interesting",
+        "interest",
+        "interests"
+      ],
+      "answer": 1,
+      "explain": "主詞 The story 是事物，要用「令人感興趣的」，所以用 V-ing 形容詞。(interested) 是「感到有興趣的」，用來形容人，不能形容故事；(interest) 與 (interests) 是名詞，very 後面要接形容詞。答案是 interesting。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "使役動詞 let",
+      "q": "Mr. Brown didn't let us _____ our phones in class.",
+      "choices": [
+        "to use",
+        "using",
+        "uses",
+        "use"
+      ],
+      "answer": 3,
+      "explain": "let 是使役動詞，句型是 let＋受詞＋原形動詞，所以 us 後面接原形。(to use) 多了 to；(using) 是 V-ing；(uses) 是三單形式，不是原形。答案是 use。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "連綴動詞接形容詞",
+      "q": "The soup smells _____. I'm hungry now.",
+      "choices": [
+        "good",
+        "happily",
+        "quickly",
+        "carefully"
+      ],
+      "answer": 0,
+      "explain": "smell 在這裡是連綴動詞，後面要接形容詞說明湯的狀態，所以用 good。(happily)、(quickly)、(carefully) 都是副詞，不能放在連綴動詞後面，語意也不通。答案是 good。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "感官動詞＋V-ing",
+      "q": "Mr. Lee heard the boys _____ loudly outside, so he went out to ask them to be quiet.",
+      "choices": [
+        "to shout",
+        "shouted",
+        "shouting",
+        "shouts"
+      ],
+      "answer": 2,
+      "explain": "hear 是感官動詞，句型是 hear＋受詞＋原形動詞或 V-ing。選項中只有 (shouting) 符合，而且「正在大聲吵鬧」所以他才出去制止，用進行中的 V-ing 很自然。(to shout) 感官動詞後不加 to；(shouted) 是過去式；(shouts) 是三單形式，都不是正確形態。答案是 shouting。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "get＋人＋to V",
+      "q": "My brother got me _____ his homework for him, but I said no.",
+      "choices": [
+        "do",
+        "to do",
+        "done",
+        "does"
+      ],
+      "answer": 1,
+      "explain": "get 當使役動詞時，句型是 get＋人＋to V，要加 to。(do) 是原形，那是 let／make／have 的句型；(done) 是過去分詞，這裡有受詞 his homework，me 不是「被做完」的東西；(does) 是三單形，也不對。答案是 to do。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "使役動詞 make",
+      "q": "Mom: Why are you so tired?\nTom: My coach made us _____ ten laps around the field.",
+      "choices": [
+        "run",
+        "to run",
+        "running",
+        "ran"
+      ],
+      "answer": 0,
+      "explain": "made 是使役動詞，句型是 make＋受詞＋原形動詞，所以 us 後面接 run。(to run) 多了 to；(running) 是 V-ing；(ran) 是過去式，使役動詞後的動詞不能再變化。答案是 run。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "V-ing 與 V-ed 形容詞",
+      "q": "Amy: How was the baseball game?\nJack: It was so _____ that all the fans stood up and shouted. I was really _____ .",
+      "choices": [
+        "excited ... exciting",
+        "exciting ... exciting",
+        "excited ... excited",
+        "exciting ... excited"
+      ],
+      "answer": 3,
+      "explain": "第一格形容比賽（事物），要用「令人興奮的」exciting；第二格形容 Jack 自己的感受，要用「感到興奮的」excited。(excited ... exciting) 剛好相反；(exciting ... exciting) 第二格說 I was exciting 變成「我是個令人興奮的人」；(excited ... excited) 第一格說比賽「感到興奮」，不合邏輯。答案是 exciting ... excited。",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "e9-05-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "使役動詞與感官動詞",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "The singer made the fans crying.",
+        "We saw the bird to fly away.",
+        "Mrs. Chen got her son to wash the dishes.",
+        "He let me to borrow his bike."
+      ],
+      "answer": 2,
+      "explain": "get＋人＋to V 要加 to，所以 Mrs. Chen got her son to wash the dishes. 是對的。其他錯誤：made the fans crying 應為 made the fans cry（使役動詞後接原形）；saw the bird to fly 應為 saw the bird fly；let me to borrow 應為 let me borrow。答案是 Mrs. Chen got her son to wash the dishes.",
+      "codes": [
+        "Ad-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": []
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「分詞」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%88%86%E8%A9%9E"
+    },
+    {
+      "label": "均一教育平台：搜尋「感官動詞」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%84%9F%E5%AE%98%E5%8B%95%E8%A9%9E"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}
