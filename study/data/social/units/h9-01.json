@@ -1,0 +1,315 @@
+{
+  "id": "h9-01",
+  "subject": "social",
+  "grade": 9,
+  "order": 1,
+  "title": "古代文明與普世宗教",
+  "codes": [
+    {
+      "code": "歷 Na-Ⅳ-1",
+      "text": "非洲與西亞的早期文化。"
+    },
+    {
+      "code": "歷 Na-Ⅳ-2",
+      "text": "希臘、羅馬的政治及文化。"
+    },
+    {
+      "code": "歷 Nb-Ⅳ-1",
+      "text": "佛教的起源與發展。"
+    },
+    {
+      "code": "歷 Nb-Ⅳ-2",
+      "text": "基督教的起源與發展。"
+    },
+    {
+      "code": "歷 Nb-Ⅳ-3",
+      "text": "伊斯蘭教的起源與發展。"
+    }
+  ],
+  "intro": "這個單元學古代埃及與兩河流域、希臘與羅馬的政治與文化，以及佛教、基督教、伊斯蘭教的起源。會考常考文明特色配對、時序先後與三大宗教的判讀。",
+  "sections": [
+    {
+      "title": "非洲與西亞的早期文化",
+      "points": [
+        "埃及文明：位於非洲東北部的尼羅河流域。尼羅河定期氾濫，留下肥沃泥土，農業發達；古希臘史家形容「埃及是尼羅河的贈禮」。",
+        "埃及的統治者稱「法老」，被視為神的化身；留下金字塔、木乃伊，並發明象形文字。",
+        "兩河流域（美索不達米亞）：位於幼發拉底河與底格里斯河之間，發明楔形文字，並有六十進位、七天為一星期等計時成就。",
+        "巴比倫國王漢摩拉比頒布《漢摩拉比法典》，是早期的成文法之一，條文依身分不同而有不同處罰。",
+        "腓尼基人善於航海與貿易，所創的字母後來影響希臘與羅馬文字；希伯來人信奉猶太教，是早期的一神信仰，也是基督教與伊斯蘭教的重要背景。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"55\" width=\"200\" height=\"45\" rx=\"6\" class=\"soft2\"/><text x=\"120\" y=\"82\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地中海</text><line x1=\"110\" y1=\"215\" x2=\"110\" y2=\"100\" class=\"hl\" stroke-width=\"3\"/><text x=\"122\" y=\"170\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">尼羅河</text><line x1=\"255\" y1=\"205\" x2=\"272\" y2=\"115\" class=\"hl2\" stroke-width=\"3\"/><line x1=\"312\" y1=\"205\" x2=\"300\" y2=\"115\" class=\"hl2\" stroke-width=\"3\"/><text x=\"244\" y=\"160\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">幼發拉底河</text><text x=\"322\" y=\"150\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">底格里斯河</text><text x=\"100\" y=\"238\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">埃及（尼羅河流域）</text><text x=\"290\" y=\"238\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">兩河流域（美索不達米亞）</text></svg>",
+      "caption": "示意圖：埃及位於尼羅河流域，兩河流域在幼發拉底河與底格里斯河之間（位置為示意，不依比例）。"
+    },
+    {
+      "title": "希臘的政治與文化",
+      "points": [
+        "希臘多山、靠海，沒有形成統一的大帝國，而是許多獨立的城邦；雅典與斯巴達最有名。",
+        "雅典：發展出直接民主，公民大會決定重要事務；但只有成年男性公民能參與，婦女、奴隸與外邦人沒有公民權。",
+        "斯巴達：重視軍事訓練與紀律，與雅典的民主、文化風格不同。",
+        "文化成就：蘇格拉底、柏拉圖、亞里斯多德等哲學家重視理性思考；希臘人也留下神話、戲劇、建築與奧林匹克運動會。",
+        "前四世紀馬其頓的亞歷山大東征，建立橫跨歐亞非的大帝國，促成希臘文化與東方文化交流，稱為「希臘化文化」。"
+      ]
+    },
+    {
+      "title": "羅馬的政治與文化",
+      "points": [
+        "羅馬原是共和國，由元老院與執政官等共同治理；後來疆域擴張、內亂頻繁，前27年奧古斯都建立帝制。",
+        "羅馬法是後世歐洲法律的重要基礎，主張法律對公民有一定的保障；羅馬人也修築道路、水道與競技場，方便統治與生活。",
+        "羅馬將希臘文化吸收、傳播到地中海各地；拉丁文成為歐洲長期的學術與教會語言。",
+        "三世紀後帝國日趨衰弱；395年分為東西兩部，476年西羅馬帝國被日耳曼人滅亡，東羅馬帝國（拜占庭）則延續到1453年。",
+        "迷思：雅典的民主不等於現代人人都能投票的民主；羅馬的共和也不等於全民直接決定政事。"
+      ],
+      "svg": "<svg viewBox=\"0 0 440 180\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"15\" y1=\"90\" x2=\"425\" y2=\"90\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"90\" r=\"5\" class=\"hl\"/><text x=\"60\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">前5世紀</text><text x=\"60\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">雅典民主</text><text x=\"60\" y=\"133\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">盛期</text><circle cx=\"140\" cy=\"90\" r=\"5\" class=\"hl2\"/><text x=\"140\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">前334年</text><text x=\"140\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">亞歷山大</text><text x=\"140\" y=\"133\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">東征開始</text><circle cx=\"220\" cy=\"90\" r=\"5\" class=\"hl\"/><text x=\"220\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">前27年</text><text x=\"220\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">奧古斯都</text><text x=\"220\" y=\"133\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">建立帝制</text><circle cx=\"300\" cy=\"90\" r=\"5\" class=\"hl2\"/><text x=\"300\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">313年</text><text x=\"300\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">米蘭敕令</text><text x=\"300\" y=\"133\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">承認基督教</text><circle cx=\"380\" cy=\"90\" r=\"5\" class=\"hl\"/><text x=\"380\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">476年</text><text x=\"380\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">西羅馬帝國</text><text x=\"380\" y=\"133\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">滅亡</text><text x=\"220\" y=\"168\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">（示意圖，間隔不依比例）</text></svg>",
+      "caption": "希臘羅馬重要事件時間軸（前5世紀起）：先有雅典民主，再有亞歷山大東征，之後才是羅馬帝制與西羅馬滅亡。"
+    },
+    {
+      "title": "佛教的起源與發展",
+      "points": [
+        "創始者喬達摩・悉達多（釋迦牟尼）約在前6至前5世紀生於北印度，原為王子，出家修行後悟道。",
+        "教義重點：人生有苦（苦、集、滅、道四聖諦）、因果與輪迴，透過修行可以解脫、達到涅槃。",
+        "佛教主張眾生平等，反對婆羅門教的種姓制度，因此受到許多下層人民歡迎。",
+        "前三世紀孔雀王朝阿育王信奉佛教，派人到各地傳播，使佛教向外擴展；後來傳到東亞（含中國）與東南亞。",
+        "迷思：佛教在印度後來逐漸衰微，影響最大的地區反而在亞洲其他地方。"
+      ]
+    },
+    {
+      "title": "基督教的起源與發展",
+      "points": [
+        "基督教起源於一世紀的巴勒斯坦，以耶穌為救世主，經典為《聖經》；教義承襲猶太教的一神信仰。",
+        "耶穌被羅馬官員處死後，門徒（如保羅）向外傳教，信徒逐漸遍及羅馬帝國各地。",
+        "羅馬帝國早期因信徒拒拜皇帝等原因，多次迫害基督徒；313年君士坦丁大帝頒布米蘭敕令，承認基督教合法；392年狄奧多西皇帝定為國教。",
+        "基督教成為國教後，教會組織日益擴大，成為中古歐洲社會的重要力量。"
+      ]
+    },
+    {
+      "title": "伊斯蘭教的起源與發展",
+      "points": [
+        "七世紀初穆罕默德在阿拉伯半島的麥加傳教，信仰唯一真神阿拉，經典為《古蘭經》，信徒稱穆斯林。",
+        "622年穆罕默德遷往麥地那（聖遷），建立信徒社群；後世以這一年為伊斯蘭曆元年。",
+        "信徒的基本義務稱五功：唸（信仰告白）、禮（禮拜）、齋（齋戒）、課（捐獻）、朝（朝覲麥加）。",
+        "穆罕默德過世後，由哈里發領導信徒；阿拉伯人迅速擴張，建立橫跨亞、非、歐的帝國，伊斯蘭教隨之傳播。",
+        "教義禁止崇拜偶像，因此清真寺多以幾何圖案與書法裝飾。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "埃及文明",
+      "body": "尼羅河流域；法老、金字塔、木乃伊、象形文字"
+    },
+    {
+      "name": "兩河流域",
+      "body": "楔形文字、《漢摩拉比法典》（成文法，依身分不同處罰）"
+    },
+    {
+      "name": "雅典民主",
+      "body": "直接民主、公民大會；婦女、奴隸、外邦人無公民權"
+    },
+    {
+      "name": "羅馬年代",
+      "body": "前27年帝制、313年米蘭敕令、392年國教、476年西羅馬滅亡"
+    },
+    {
+      "name": "三大宗教創始",
+      "body": "佛教：釋迦牟尼；基督教：耶穌；伊斯蘭教：穆罕默德"
+    },
+    {
+      "name": "伊斯蘭五功",
+      "body": "唸、禮、齋、課、朝；622年聖遷為伊斯蘭曆元年"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-01-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "埃及與尼羅河",
+      "q": "古希臘史家形容「埃及是尼羅河的贈禮」，最主要是指尼羅河對埃及的哪一項影響？",
+      "choices": [
+        "河水結冰後可作為冬季的交通要道",
+        "定期氾濫留下肥沃泥土，使農業發達",
+        "河口附近盛產黃金，使埃及成為最富有的城邦",
+        "河水湍急，可以推動大型水車發電"
+      ],
+      "answer": 1,
+      "explain": "尼羅河每年固定氾濫，帶來肥沃的泥土，使流域農業發達，這是埃及文明的基礎。其他選項：埃及位於熱帶沙漠地區，尼羅河不會結冰；埃及不是以城邦型態發展，也不是靠河口黃金致富；古代並沒有以河水發電的技術。答案是定期氾濫留下肥沃泥土，使農業發達。",
+      "codes": [
+        "歷 Na-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-01-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "雅典民主",
+      "q": "古代雅典發展出直接民主，由公民大會決定重要事務。當時擁有公民權、可以參加公民大會的人是哪些？",
+      "choices": [
+        "所有居住在雅典的人，包括奴隸與外邦人",
+        "成年男性與女性公民",
+        "只有貴族與祭司",
+        "成年的男性公民"
+      ],
+      "answer": 3,
+      "explain": "雅典民主有明確限制：只有成年男性公民能參與公民大會，婦女、奴隸與外邦人都沒有公民權。其他選項：說所有居民或男女公民皆可，忽略了這些限制；雅典民主也不是只限貴族與祭司，一般成年男性公民都能參與。答案是成年的男性公民。",
+      "codes": [
+        "歷 Na-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-01-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "佛教起源",
+      "q": "佛教是由誰創立的？",
+      "choices": [
+        "喬達摩・悉達多（釋迦牟尼）",
+        "穆罕默德",
+        "耶穌",
+        "亞歷山大"
+      ],
+      "answer": 0,
+      "explain": "佛教的創始者是北印度王子喬達摩・悉達多，出家悟道後被尊稱為釋迦牟尼。其他選項：穆罕默德創立伊斯蘭教；耶穌是基督教所尊奉的救世主；亞歷山大是馬其頓國王，與創立宗教無關。答案是喬達摩・悉達多（釋迦牟尼）。",
+      "codes": [
+        "歷 Nb-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-01-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "漢摩拉比法典",
+      "q": "下列是改寫自兩河流域古代法典的規定：「若有人弄瞎自由民的眼睛，就要弄瞎他的眼睛；若弄瞎的是奴隸的眼睛，則賠償一定數量的銀兩。」從這段規定可以推論下列何者最合理？",
+      "choices": [
+        "當時法律對所有人一視同仁，刑罰完全相同",
+        "這是由希臘城邦的公民大會投票制定的法律",
+        "當時已有成文法律，且處罰會因受害者的身分不同而有差異",
+        "當時處罰完全不考慮傷害的情形，只由神職人員自由裁量"
+      ],
+      "answer": 2,
+      "explain": "規定寫得明確具體，代表已有成文法；傷害自由民與傷害奴隸的處罰不同，表示處罰依身分而異。其他選項：說一視同仁與條文相反；希臘公民大會與兩河流域古代法典無關；條文有明確處罰標準，不是由神職人員任意決定。答案是當時已有成文法律，且處罰會因受害者的身分不同而有差異。",
+      "codes": [
+        "歷 Na-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-01-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "羅馬與希臘年代排序",
+      "q": "甲：米蘭敕令承認基督教合法；乙：亞歷山大東征；丙：西羅馬帝國滅亡；丁：奧古斯都建立羅馬帝制。這四件事依發生時間由早到晚排列，應為下列何者？",
+      "choices": [
+        "乙甲丁丙",
+        "乙丁甲丙",
+        "丁乙甲丙",
+        "乙丁丙甲"
+      ],
+      "answer": 1,
+      "explain": "亞歷山大東征始於前334年（乙），奧古斯都建立帝制是前27年（丁），米蘭敕令是313年（甲），西羅馬帝國滅亡是476年（丙），順序為乙丁甲丙。其他選項：乙甲丁丙把米蘭敕令放在帝制之前，但帝制建立早了三百多年；丁乙甲丙把奧古斯都放在亞歷山大之前，但亞歷山大屬前四世紀；乙丁丙甲把西羅馬滅亡放在米蘭敕令之前，但滅亡是476年，晚於313年。答案是乙丁甲丙。",
+      "codes": [
+        "歷 Na-Ⅳ-2",
+        "歷 Nb-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-01-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "三大宗教判讀",
+      "q": "甲：以622年信徒領袖由麥加遷往麥地那為紀元元年；乙：313年君士坦丁大帝頒布敕令承認其合法；丙：前三世紀阿育王信奉並派人各地傳播，主張眾生平等。甲、乙、丙依序最可能是下列哪一組宗教？",
+      "choices": [
+        "基督教、佛教、伊斯蘭教",
+        "佛教、伊斯蘭教、基督教",
+        "伊斯蘭教、佛教、基督教",
+        "伊斯蘭教、基督教、佛教"
+      ],
+      "answer": 3,
+      "explain": "622年聖遷是伊斯蘭曆元年（甲＝伊斯蘭教）；君士坦丁頒布米蘭敕令承認的是基督教（乙＝基督教）；阿育王與佛教傳播有關（丙＝佛教）。其他選項：把甲說成基督教或佛教，都不符聖遷與伊斯蘭曆的關係；把乙說成佛教或伊斯蘭教，不符米蘭敕令史實；把丙說成基督教或伊斯蘭教，不符阿育王的史實。答案是伊斯蘭教、基督教、佛教。",
+      "codes": [
+        "歷 Nb-Ⅳ-1",
+        "歷 Nb-Ⅳ-2",
+        "歷 Nb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-01-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "古文明地理位置",
+      "q": "下圖為古代地中海與西亞地區的簡略示意圖，甲～丁各代表一處。創立《漢摩拉比法典》的文明所在地，以及伊斯蘭教興起的地區，依序最可能是圖中哪兩處？（甲：非洲東北部尼羅河一帶；乙：幼發拉底河與底格里斯河之間；丙：地中海北岸的半島；丁：阿拉伯半島）",
+      "svg": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"70\" width=\"120\" height=\"50\" rx=\"6\" class=\"soft2\"/><text x=\"80\" y=\"100\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地中海</text><rect x=\"30\" y=\"10\" width=\"80\" height=\"40\" rx=\"6\" class=\"soft\"/><text x=\"70\" y=\"35\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丙</text><rect x=\"30\" y=\"150\" width=\"90\" height=\"50\" rx=\"6\" class=\"soft\"/><text x=\"75\" y=\"180\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">甲</text><rect x=\"250\" y=\"30\" width=\"90\" height=\"70\" rx=\"6\" class=\"soft\"/><text x=\"295\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">乙</text><rect x=\"180\" y=\"130\" width=\"100\" height=\"70\" rx=\"6\" class=\"soft\"/><text x=\"230\" y=\"170\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丁</text><text x=\"180\" y=\"215\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">（位置為示意）</text></svg>",
+      "choices": [
+        "乙、丁",
+        "甲、丁",
+        "乙、丙",
+        "丙、丁"
+      ],
+      "answer": 0,
+      "explain": "《漢摩拉比法典》出現在兩河流域（乙）；伊斯蘭教在阿拉伯半島的麥加興起（丁）。其他選項：甲是埃及文明所在地，不是兩河流域；丙是希臘半島一帶，與伊斯蘭教興起無關。答案是乙、丁。",
+      "codes": [
+        "歷 Na-Ⅳ-1",
+        "歷 Nb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-01-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "基督教與羅馬帝國",
+      "q": "下列關於基督教與羅馬帝國關係的敘述，何者正確？",
+      "choices": [
+        "羅馬帝國自建立之初就將基督教定為國教，鼓勵所有人民信仰",
+        "米蘭敕令規定帝國內只准信仰基督教，其他宗教一律禁止",
+        "羅馬帝國早期曾多次迫害基督徒，四世紀時承認其合法，並在四世紀末成為國教",
+        "基督教成為國教之後，西羅馬帝國才建立"
+      ],
+      "answer": 2,
+      "explain": "羅馬早期因信徒拒絕崇拜皇帝等原因多次迫害基督徒，313年米蘭敕令承認合法，392年定為國教。其他選項：基督教不是帝國初期的國教；米蘭敕令是承認信仰自由與合法地位，不是禁止其他宗教；西羅馬帝國在476年滅亡，不是在國教後才建立。答案是羅馬帝國早期曾多次迫害基督徒，四世紀時承認其合法，並在四世紀末成為國教。",
+      "codes": [
+        "歷 Nb-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 6 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：古希臘斯巴達（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 34 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：古代文明文物（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 49 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：祆教與波斯（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 7 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：古地圖與古文明文字（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 22 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：宗教信徒分布與發源地（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「古文明」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%8F%A4%E6%96%87%E6%98%8E"
+    },
+    {
+      "label": "均一教育平台：搜尋「三大宗教」",
+      "url": "https://www.junyiacademy.org/search?q=%E4%B8%89%E5%A4%A7%E5%AE%97%E6%95%99"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "h9-04",
+  "subject": "social",
+  "grade": 9,
+  "order": 4,
+  "title": "帝國主義與第一次世界大戰",
+  "codes": [
+    {
+      "code": "歷 Qb-Ⅳ-1",
+      "text": "歐洲帝國的擴張。"
+    },
+    {
+      "code": "歷 Qb-Ⅳ-2",
+      "text": "亞、非、美三洲的發展及回應。"
+    },
+    {
+      "code": "歷 Qb-Ⅳ-3",
+      "text": "第一次世界大戰。"
+    }
+  ],
+  "intro": "這個單元學歐洲列強為何向外擴張、亞非美各地如何回應，以及第一次世界大戰的起因、經過與戰後安排。會考常考時序與因果判讀、同盟關係，以及史料或情境題。",
+  "sections": [
+    {
+      "title": "工業革命與帝國主義",
+      "points": [
+        "工業革命：十八世紀後半從英國開始，機器與工廠取代手工，產量暴增，之後傳到歐洲大陸、美國與日本。",
+        "工業化需要大量原料（棉花、橡膠、礦產）、銷售商品的市場，以及讓資本投資的地方，列強因此向海外擴張。",
+        "帝國主義：強國以武力、經濟與外交手段取得其他地區，或控制其政治與經濟，十九世紀後半特別明顯。",
+        "非洲瓜分：1884 至 1885 年柏林會議訂出列強瓜分非洲的規則，之後短短數十年，非洲大部分地區成為歐洲殖民地。",
+        "擴張的理由還有國家威望，以及社會達爾文主義（把「適者生存」套用在民族上）和「教化落後民族」的說法；這些多是列強替自己找的理由。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"8\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft\"/><text x=\"200.0\" y=\"31\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">工業革命：機器大量生產</text><line x1=\"200.0\" y1=\"44\" x2=\"200.0\" y2=\"74\"/><polyline points=\"195.0,66 200.0,74 205.0,66\"/><rect x=\"70\" y=\"74\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft\"/><text x=\"200.0\" y=\"97\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">需要原料、市場與投資地</text><line x1=\"200.0\" y1=\"110\" x2=\"200.0\" y2=\"140\"/><polyline points=\"195.0,132 200.0,140 205.0,132\"/><rect x=\"70\" y=\"140\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft2\"/><text x=\"200.0\" y=\"163\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">列強搶占殖民地（柏林會議）</text><line x1=\"200.0\" y1=\"176\" x2=\"200.0\" y2=\"206\"/><polyline points=\"195.0,198 200.0,206 205.0,198\"/><rect x=\"70\" y=\"206\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft2\"/><text x=\"200.0\" y=\"229\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">列強利益衝突、軍備競賽</text></svg>",
+      "caption": "工業革命與帝國主義擴張的因果關係。"
+    },
+    {
+      "title": "亞洲、非洲與美洲的回應",
+      "points": [
+        "中國：鴉片戰爭（1840–1842）戰敗後簽訂南京條約，割讓香港島、開放通商口岸；1894 至 1895 年甲午戰爭戰敗，簽訂馬關條約，臺灣割讓給日本。",
+        "日本：1853 年美國培里艦隊來航，日本被迫開國；1868 年明治維新，學習西方制度、發展工業與軍事，成為亞洲的新興強權。",
+        "印度：1857 年爆發反英大起義，被鎮壓後，英國政府於 1858 年起直接統治印度。",
+        "非洲：多數地區被瓜分；衣索比亞在 1896 年的阿杜瓦戰役擊敗義大利，保住獨立。",
+        "美洲：十九世紀初起，拉丁美洲多國脫離西班牙、葡萄牙而獨立；美國 1823 年發表門羅宣言，反對歐洲勢力再介入美洲，1898 年美西戰爭後取得菲律賓、關島與波多黎各。",
+        "迷思：被擴張的地區並非都只能被動承受，有的改革自強，有的武力抵抗，結果各不相同。"
+      ]
+    },
+    {
+      "title": "一戰前的歐洲：同盟與危機",
+      "points": [
+        "1871 年德國統一後迅速強大，與英國、法國在海軍、殖民地與經濟上競爭，各國擴充軍備。",
+        "歐洲分成兩大軍事集團：三國同盟（德國、奧匈帝國、義大利）與三國協約（英國、法國、俄國）。",
+        "巴爾幹半島民族複雜，各民族爭取獨立或擴張，大國又各有盤算，被稱為「歐洲火藥庫」。",
+        "導火線：1914 年 6 月 28 日，奧匈帝國皇位繼承人斐迪南大公夫婦在塞拉耶佛遇刺，奧匈帝國向塞爾維亞宣戰，同盟關係使各國接連捲入。",
+        "迷思：刺殺事件只是導火線，不是根本原因；根本原因是軍備競賽、同盟體系、殖民地競爭與民族主義。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 150\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"22\" width=\"150\" height=\"96\" rx=\"6\" class=\"soft\"/><rect x=\"240\" y=\"22\" width=\"150\" height=\"96\" rx=\"6\" class=\"soft2\"/><text x=\"85\" y=\"46\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">三國同盟</text><text x=\"315\" y=\"46\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">三國協約</text><text x=\"85\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">德國</text><text x=\"85\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">奧匈帝國</text><text x=\"85\" y=\"110\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">義大利</text><text x=\"315\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">英國</text><text x=\"315\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">法國</text><text x=\"315\" y=\"110\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">俄國</text><line x1=\"168\" y1=\"70\" x2=\"232\" y2=\"70\"/><polyline points=\"224,65 232,70 224,75\"/><line x1=\"232\" y1=\"70\" x2=\"168\" y2=\"70\"/><polyline points=\"176,65 168,70 176,75\"/><text x=\"200\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">對峙</text><text x=\"200\" y=\"142\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">1914 年大戰爆發前的兩大集團</text></svg>",
+      "caption": "一戰爆發前歐洲的兩大軍事集團。"
+    },
+    {
+      "title": "戰爭經過與特色",
+      "points": [
+        "西線在法國與比利時境內形成壕溝戰，雙方長期僵持，傷亡慘重。",
+        "新式武器登場：機關槍、毒氣、坦克、潛水艇與飛機。",
+        "總體戰：各國動員全國人力與物資，工廠生產軍火，婦女投入勞動，政府控制糧食與輿論。",
+        "日本在 1914 年加入協約國一方，義大利在 1915 年改站在協約國一方。",
+        "1917 年：德國擴大潛艇攻擊商船，美國對德國宣戰；同年俄國爆發革命，新政府於 1918 年與德國議和而退出戰爭。",
+        "1918 年 11 月 11 日，德國與協約國簽署停戰協議，戰爭結束。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 140\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"70\" x2=\"405\" y2=\"70\"/><circle cx=\"60\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"60\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1914</text><text x=\"60\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">塞拉耶佛事件</text><text x=\"60\" y=\"114\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">大戰爆發</text><circle cx=\"160\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"160\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1917</text><text x=\"160\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">美國參戰</text><text x=\"160\" y=\"114\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">俄國革命</text><circle cx=\"260\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"260\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1918</text><text x=\"260\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">德國停戰</text><text x=\"260\" y=\"114\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">11 月</text><circle cx=\"360\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"360\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1919</text><text x=\"360\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">凡爾賽條約</text><text x=\"360\" y=\"114\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">巴黎和會</text></svg>",
+      "caption": "一戰重要年代時間軸。"
+    },
+    {
+      "title": "戰後安排與影響",
+      "points": [
+        "1919 年巴黎和會，簽訂凡爾賽條約：德國割讓部分領土與殖民地、限制軍備、支付賠款，並被要求承擔戰爭責任。",
+        "美國總統威爾遜提出十四點原則，主張民族自決、公開外交與成立國際組織；1920 年國際聯盟成立，但美國沒有加入。",
+        "德意志、奧匈、俄羅斯、鄂圖曼四大帝國瓦解，東歐出現波蘭、捷克斯洛伐克等新國家。",
+        "戰爭使歐洲元氣大傷，美國與日本的國際地位提升。",
+        "對德國的嚴苛安排引起不滿，成為後來局勢不穩的因素之一（下一單元接著學）。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "帝國主義動機",
+      "body": "取得原料、市場與投資地，再加上國家威望"
+    },
+    {
+      "name": "柏林會議",
+      "body": "1884–1885，列強訂定瓜分非洲的規則"
+    },
+    {
+      "name": "兩大集團",
+      "body": "三國同盟（德、奧匈、義）對三國協約（英、法、俄）"
+    },
+    {
+      "name": "導火線",
+      "body": "1914 年塞拉耶佛事件，奧匈對塞爾維亞宣戰"
+    },
+    {
+      "name": "1917 年",
+      "body": "美國對德國宣戰；俄國爆發革命"
+    },
+    {
+      "name": "戰爭結束",
+      "body": "1918 年 11 月 11 日停戰；1919 年凡爾賽條約"
+    },
+    {
+      "name": "十四點原則",
+      "body": "威爾遜提出，主張民族自決與國際組織；1920 年國際聯盟成立"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-04-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "帝國主義的動機",
+      "q": "十九世紀後半，歐洲列強積極向外取得殖民地。下列何者是工業革命後，列強尋求殖民地的主要經濟原因？",
+      "choices": [
+        "殖民地已經實施民主制度，列強想學習其經驗",
+        "列強國內原料過多，必須把原料賣到殖民地",
+        "工業生產需要大量原料，也需要銷售商品的市場與投資場所",
+        "殖民地的工廠技術比列強先進，列強想引進技術"
+      ],
+      "answer": 2,
+      "explain": "工業革命後，工廠需要棉花、橡膠、礦產等原料，生產出的商品也需要市場，資本家又需要投資場所，所以列強向外擴張。其他選項：殖民地多半沒有民主制度，也不是列強學習的對象；列強是原料不足而非過多；殖民地的工業通常比列強落後。答案是工業生產需要大量原料，也需要銷售商品的市場與投資場所。",
+      "codes": [
+        "歷 Qb-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-04-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "巴爾幹與導火線",
+      "q": "1914 年 6 月，奧匈帝國皇位繼承人斐迪南大公夫婦在塞拉耶佛遇刺，成為第一次世界大戰的導火線。塞拉耶佛位於歐洲民族複雜、被稱為「歐洲火藥庫」的哪一個地區？",
+      "choices": [
+        "巴爾幹半島",
+        "伊比利半島",
+        "斯堪地那維亞半島",
+        "亞平寧半島"
+      ],
+      "answer": 0,
+      "explain": "塞拉耶佛在巴爾幹半島（今波士尼亞與赫塞哥維納），當地民族眾多，列強勢力交錯，所以被稱為「歐洲火藥庫」。其他選項：伊比利半島是西班牙與葡萄牙；斯堪地那維亞半島是挪威與瑞典；亞平寧半島是義大利。答案是巴爾幹半島。",
+      "codes": [
+        "歷 Qb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-04-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "兩大軍事集團",
+      "q": "下圖是 1914 年大戰爆發前歐洲兩大軍事集團的示意圖，甲、乙各列出三個主要國家。下列敘述何者正確？",
+      "svg": "<svg viewBox=\"0 0 400 150\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"22\" width=\"150\" height=\"96\" rx=\"6\" class=\"soft\"/><rect x=\"240\" y=\"22\" width=\"150\" height=\"96\" rx=\"6\" class=\"soft2\"/><text x=\"85\" y=\"46\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">甲</text><text x=\"315\" y=\"46\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">乙</text><text x=\"85\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">德國</text><text x=\"85\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">奧匈帝國</text><text x=\"85\" y=\"110\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">義大利</text><text x=\"315\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">英國</text><text x=\"315\" y=\"90\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">法國</text><text x=\"315\" y=\"110\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">俄國</text><line x1=\"168\" y1=\"70\" x2=\"232\" y2=\"70\"/><polyline points=\"224,65 232,70 224,75\"/><line x1=\"232\" y1=\"70\" x2=\"168\" y2=\"70\"/><polyline points=\"176,65 168,70 176,75\"/><text x=\"200\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">對峙</text><text x=\"200\" y=\"142\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">1914 年大戰爆發前的兩大集團</text></svg>",
+      "choices": [
+        "甲是三國協約，乙是三國同盟",
+        "甲是三國同盟，乙是國際聯盟",
+        "甲是華沙公約組織，乙是北大西洋公約組織",
+        "甲是三國同盟，乙是三國協約"
+      ],
+      "answer": 3,
+      "explain": "德國、奧匈帝國、義大利組成三國同盟；英國、法國、俄國組成三國協約，所以甲是三國同盟、乙是三國協約。其他選項：第一項把兩者顛倒；國際聯盟是 1920 年才成立的組織，不是軍事集團；華沙公約組織與北大西洋公約組織是冷戰時期的軍事集團。答案是甲是三國同盟，乙是三國協約。",
+      "codes": [
+        "歷 Qb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-04-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "亞非美的回應",
+      "q": "十九世紀歐洲勢力擴張時，亞洲、非洲與美洲各地有不同的回應。下列敘述何者正確？",
+      "choices": [
+        "清朝在鴉片戰爭中擊敗英國，因此各國都不敢再侵略中國",
+        "日本在 1868 年推動明治維新，學習西方制度與技術，後來成為亞洲的新興強權",
+        "衣索比亞在十九世紀末被義大利完全殖民，直到第一次世界大戰後才獨立",
+        "拉丁美洲各地在十九世紀仍全部受西班牙統治，沒有任何國家獨立"
+      ],
+      "answer": 1,
+      "explain": "1868 年明治維新後，日本推動西化，發展工業與軍事，並在甲午戰爭中擊敗清朝。其他選項：清朝在鴉片戰爭中戰敗，簽訂南京條約；衣索比亞在 1896 年擊敗義大利，保住獨立；拉丁美洲在十九世紀初起多國已脫離西班牙、葡萄牙而獨立。答案是日本在 1868 年推動明治維新，學習西方制度與技術，後來成為亞洲的新興強權。",
+      "codes": [
+        "歷 Qb-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-04-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "同盟體系連鎖",
+      "q": "1914 年 7 月至 8 月，局勢依序發展：奧匈帝國向塞爾維亞宣戰，俄國動員軍隊支持塞爾維亞，德國向俄國、法國宣戰，德國進攻比利時後英國也參戰。這一連串反應最能說明大戰爆發前的哪一項背景？",
+      "choices": [
+        "國際聯盟調解失敗，使區域衝突擴大",
+        "各國都主張民族自決，同意殖民地獨立",
+        "歐洲列強分成兩大軍事同盟，使局部衝突迅速擴大為大戰",
+        "各國實施裁軍，軍事力量薄弱而無力阻止戰爭"
+      ],
+      "answer": 2,
+      "explain": "奧匈與塞爾維亞本來只是局部衝突，但俄國、德國、法國、英國分別依同盟或協約關係加入，戰火迅速擴大，說明兩大軍事同盟是關鍵背景。其他選項：國際聯盟 1920 年才成立，1914 年尚不存在；民族自決是戰後威爾遜的主張；當時各國正在擴充軍備，不是裁軍。答案是歐洲列強分成兩大軍事同盟，使局部衝突迅速擴大為大戰。",
+      "codes": [
+        "歷 Qb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-04-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "一戰重要年代",
+      "q": "下圖是第一次世界大戰前後的時間軸，橘色標記是 1917 年。下列哪一組事件發生在這一年？",
+      "svg": "<svg viewBox=\"0 0 420 140\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"70\" x2=\"405\" y2=\"70\"/><circle cx=\"60\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"60\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1914</text><circle cx=\"160\" cy=\"70\" r=\"5\" class=\"soft2\"/><circle cx=\"160\" cy=\"70\" r=\"10\" class=\"hl2\"/><text x=\"160\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1917</text><text x=\"160\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">（橘色標記）</text><circle cx=\"260\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"260\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1918</text><circle cx=\"360\" cy=\"70\" r=\"5\" class=\"soft\"/><text x=\"360\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1919</text></svg>",
+      "choices": [
+        "美國對德國宣戰，俄國爆發革命",
+        "塞拉耶佛事件發生，奧匈帝國對塞爾維亞宣戰",
+        "德國與協約國簽署停戰協議，戰爭結束",
+        "巴黎和會召開，簽訂凡爾賽條約"
+      ],
+      "answer": 0,
+      "explain": "1917 年德國擴大潛艇攻擊商船，美國因此對德國宣戰；同年俄國爆發革命。其他選項：塞拉耶佛事件與奧匈宣戰在 1914 年；停戰在 1918 年；巴黎和會與凡爾賽條約在 1919 年。答案是美國對德國宣戰，俄國爆發革命。",
+      "codes": [
+        "歷 Qb-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-04-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "柏林會議與邊界",
+      "q": "1884 至 1885 年，歐洲列強在柏林開會討論瓜分非洲的規則，後來常依談判結果或經緯線劃定殖民地邊界，較少考慮當地族群分布。這種作法對非洲獨立後的影響，最可能是下列何者？",
+      "choices": [
+        "各國邊界與族群分布完全一致，因此幾乎沒有族群衝突",
+        "同一族群可能被分隔在不同國家，不同族群也可能被劃進同一國家，增加族群紛爭的風險",
+        "各國因邊界一致，在獨立前就統一成單一國家",
+        "各國都因此使用同一種母語，溝通更容易"
+      ],
+      "answer": 1,
+      "explain": "列強劃界時只顧自己的利益，沒有照族群、語言與傳統領域劃分，獨立後常見同一族群分屬不同國家，或敵對族群同在一國，增加衝突風險。其他選項：邊界並未與族群一致；非洲後來分成許多國家，不是單一國家；非洲語言種類繁多，並沒有因此統一。答案是同一族群可能被分隔在不同國家，不同族群也可能被劃進同一國家，增加族群紛爭的風險。",
+      "codes": [
+        "歷 Qb-Ⅳ-1",
+        "歷 Qb-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-04-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "總體戰",
+      "q": "一戰期間，某交戰國政府實施糧食配給，要求工廠改造生產槍砲，許多婦女進入軍工廠工作，並以海報和報紙宣傳戰爭、審查不利的消息。這些作法最能說明一戰具有哪一項特徵？",
+      "choices": [
+        "戰爭只由職業軍人負責，一般民眾不受影響",
+        "各國以外交談判取代軍事行動，戰爭很快結束",
+        "戰爭完全和殖民地無關，只在歐洲本土進行",
+        "國家動員全國的人力、物資與輿論，屬於總體戰"
+      ],
+      "answer": 3,
+      "explain": "配給糧食、工廠轉產軍火、婦女投入勞動與宣傳審查，都是國家動員全社會支援戰爭，這是總體戰的特徵。其他選項：民眾被大量動員，並非不受影響；一戰打了四年多，不是靠外交很快結束；殖民地也提供人力與物資，並非無關。答案是國家動員全國的人力、物資與輿論，屬於總體戰。",
+      "codes": [
+        "歷 Qb-Ⅳ-3"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 22 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：美國殖民菲律賓與社會達爾文主義（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 41 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：一戰紀念日與英國殖民地（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「帝國主義」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%B8%9D%E5%9C%8B%E4%B8%BB%E7%BE%A9"
+    },
+    {
+      "label": "均一教育平台：搜尋「第一次世界大戰」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%B0"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

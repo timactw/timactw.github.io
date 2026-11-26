@@ -1,0 +1,343 @@
+{
+  "id": "h9-10",
+  "subject": "social",
+  "grade": 9,
+  "order": 10,
+  "title": "民主政府與憲法",
+  "codes": [
+    {
+      "code": "公 Bd-Ⅳ-1",
+      "text": "國家與政府的區別。"
+    },
+    {
+      "code": "公 Be-Ⅳ-1",
+      "text": "民主國家的政府體制為什麼須符合權力分立的原則？"
+    },
+    {
+      "code": "公 Be-Ⅳ-2",
+      "text": "為什麼政府的職權與行使要規範在憲法中？"
+    },
+    {
+      "code": "公 Be-Ⅳ-3",
+      "text": "我國中央政府如何組成？我國的地方政府如何組成？"
+    },
+    {
+      "code": "公 Bf-Ⅳ-1",
+      "text": "法治與人治的差異。"
+    },
+    {
+      "code": "公 Bf-Ⅳ-2",
+      "text": "憲法、法律、命令三者為什麼有位階的關係？"
+    },
+    {
+      "code": "公 Bg-Ⅳ-1",
+      "text": "為什麼憲法被稱為「人民權利的保障書」？"
+    }
+  ],
+  "intro": "這個單元學國家與政府的差別、權力分立、五權與地方自治、法治、法規位階與憲法保障人權。會考常用情境題判斷機關職權、辨別法治與人治，以及憲法、法律、命令的位階關係。",
+  "sections": [
+    {
+      "title": "國家與政府不一樣",
+      "points": [
+        "國家的四個要素：人民、領土、主權、政府，缺一不可。",
+        "政府是國家中負責行使統治權的機構，例如行政、立法、司法機關。",
+        "政府可以更替（選舉後政黨輪替、內閣改組），但國家的人民、領土、主權仍在，國家不會因此消失。",
+        "迷思：把「政府」和「國家」當成同一件事。換了政府不等於換了國家。"
+      ]
+    },
+    {
+      "title": "權力分立與五權",
+      "points": [
+        "民主國家把統治權力分給不同機關，彼此制衡，目的是防止權力集中而被濫用，保障人民權利。",
+        "三權分立：立法權（制定法律、審議預算）、行政權（執行法律與政策）、司法權（審理案件、解釋憲法）。",
+        "我國中央政府採五權分立：行政院、立法院、司法院、考試院、監察院。",
+        "考試院掌理考選、銓敘等公務人員人事制度；監察院行使彈劾、糾舉、糾正與審計等權。",
+        "「分工」是各院做各自的事，「制衡」是彼此監督，例如立法院審議行政院提出的預算案，法院可審查行政處分是否合法。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"150\" y=\"8\" width=\"100\" height=\"30\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"200\" y=\"28\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">人民（主權者）</text><line x1=\"200\" y1=\"38\" x2=\"42\" y2=\"78\" stroke-dasharray=\"4 4\" stroke-width=\"2\"/><rect x=\"6\" y=\"78\" width=\"72\" height=\"36\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"42\" y=\"101\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">行政院</text><text x=\"42\" y=\"136\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">執行政策</text><line x1=\"200\" y1=\"38\" x2=\"120\" y2=\"78\" stroke-dasharray=\"4 4\" stroke-width=\"2\"/><rect x=\"84\" y=\"78\" width=\"72\" height=\"36\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"120\" y=\"101\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">立法院</text><text x=\"120\" y=\"136\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">制定法律</text><line x1=\"200\" y1=\"38\" x2=\"198\" y2=\"78\" stroke-dasharray=\"4 4\" stroke-width=\"2\"/><rect x=\"162\" y=\"78\" width=\"72\" height=\"36\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"198\" y=\"101\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">司法院</text><text x=\"198\" y=\"136\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">審判案件</text><line x1=\"200\" y1=\"38\" x2=\"276\" y2=\"78\" stroke-dasharray=\"4 4\" stroke-width=\"2\"/><rect x=\"240\" y=\"78\" width=\"72\" height=\"36\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"276\" y=\"101\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">考試院</text><text x=\"276\" y=\"136\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">考選銓敘</text><line x1=\"200\" y1=\"38\" x2=\"354\" y2=\"78\" stroke-dasharray=\"4 4\" stroke-width=\"2\"/><rect x=\"318\" y=\"78\" width=\"72\" height=\"36\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"354\" y=\"101\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">監察院</text><text x=\"354\" y=\"136\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">彈劾糾舉</text><text x=\"200\" y=\"172\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">行政、立法、司法三權分立；再加考試、監察＝五權</text><text x=\"200\" y=\"192\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">各院職權不同，彼此分工又互相制衡</text></svg>",
+      "caption": "我國中央政府的五個院與主要職權。"
+    },
+    {
+      "title": "中央與地方政府的組成",
+      "points": [
+        "總統是國家元首，由人民直接選舉，任期四年，連選得連任一次。",
+        "行政院是最高行政機關，行政院長由總統任命；立法院由人民選出的立法委員組成。",
+        "司法院大法官、考試委員、監察委員等，由總統提名並經立法院同意後任命。",
+        "地方自治：直轄市、縣（市）設有地方行政機關（市長、縣市長）與地方立法機關（議會），首長與議員都由人民選舉，任期四年。",
+        "地方議會審議地方預算、制定地方的自治條例；地方政府並不是只能聽中央的命令辦事。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 172\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"170\" height=\"150\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"95\" y=\"32\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">中央政府</text><text x=\"95\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">總統：人民直選</text><text x=\"95\" y=\"82\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">任期四年，得連任一次</text><text x=\"95\" y=\"110\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">立法委員：人民選出</text><text x=\"95\" y=\"132\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">行政院長：總統任命</text><rect x=\"220\" y=\"10\" width=\"170\" height=\"150\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"305\" y=\"32\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">地方政府</text><text x=\"305\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">縣（市）長、市長</text><text x=\"305\" y=\"80\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">＝地方行政首長</text><text x=\"305\" y=\"108\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">縣（市）議會、市議會</text><text x=\"305\" y=\"128\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">＝地方立法機關</text><text x=\"305\" y=\"150\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">人民選舉，任期四年</text><line x1=\"180\" y1=\"85\" x2=\"218\" y2=\"85\" stroke-width=\"2\"/><polygon points=\"218,85 210.8,88.5 210.8,81.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"218\" y1=\"85\" x2=\"180\" y2=\"85\" stroke-width=\"2\"/><polygon points=\"180,85 187.2,81.5 187.2,88.5\" fill=\"currentColor\" stroke=\"none\"/></svg>",
+      "caption": "中央與地方的主要首長與民意代表，大多由人民選出。"
+    },
+    {
+      "title": "法治與人治",
+      "points": [
+        "法治：依法律來治理國家，法律事先公布、內容明確、人人平等適用，政府本身也要受法律拘束。",
+        "人治：依統治者個人的意志或喜好決定事情，沒有一套固定規則可循。",
+        "法治的好處：人民可以預測行為後果，權利受到保障；官員不能想罰誰就罰誰。",
+        "迷思：「有很多法律」不等於法治。重點是法律能否約束權力者，並公平適用。"
+      ]
+    },
+    {
+      "title": "憲法、法律、命令的位階",
+      "points": [
+        "憲法是國家的根本大法，規定政府如何組織、權力如何分配，以及人民的基本權利。",
+        "法律由立法院通過、總統公布；命令由行政機關依法律授權或職權訂定。",
+        "位階由高到低：憲法、法律、命令。下位規範不得牴觸上位規範，牴觸者無效。",
+        "是否牴觸憲法，由司法院大法官（憲法法庭）審理判斷。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 192\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"110,10 77,60 143,60\" class=\"soft2\"/><text x=\"110\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">憲法</text><polygon points=\"77,60 143,60 177,110 43,110\" class=\"soft\"/><text x=\"110\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">法律</text><polygon points=\"43,110 177,110 210,160 10,160\"/><text x=\"110\" y=\"140\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">命令</text><text x=\"225\" y=\"40\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">最高規範，位階最大</text><text x=\"225\" y=\"90\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">立法院通過、總統公布</text><text x=\"225\" y=\"140\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">行政機關依法律訂定</text><text x=\"200\" y=\"184\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">下位法不得牴觸上位法，牴觸者無效</text></svg>",
+      "caption": "法規位階：憲法最高，法律次之，命令在後。"
+    },
+    {
+      "title": "憲法為什麼是人民權利的保障書",
+      "points": [
+        "憲法把人民的基本權利（如平等權、自由權、受益權等）明白寫下來，政府不能隨意侵犯。",
+        "憲法同時限制政府權力，這是保障人權的核心：權力受規範，人民才有保障。",
+        "人民的權利並非完全沒有限制；依憲法，限制須以法律為之，且為防止妨礙他人自由、避免緊急危難、維持社會秩序或增進公共利益所必要。",
+        "修改憲法的程序比修改一般法律嚴格，使憲法穩定，不會因一時多數意見輕易改變。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "國家四要素",
+      "body": "人民、領土、主權、政府。"
+    },
+    {
+      "name": "五權",
+      "body": "行政、立法、司法、考試、監察五院。"
+    },
+    {
+      "name": "三權分工",
+      "body": "立法＝制定法律；行政＝執行；司法＝審判。"
+    },
+    {
+      "name": "法規位階",
+      "body": "憲法＞法律＞命令，牴觸上位者無效。"
+    },
+    {
+      "name": "法治",
+      "body": "依法統治、法律公開平等、政府也受約束。"
+    },
+    {
+      "name": "地方自治",
+      "body": "地方首長與議員由人民選舉，任期四年。"
+    },
+    {
+      "name": "憲法限制權利",
+      "body": "須以法律為之，且為公共利益等必要。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-10-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "國家與政府",
+      "q": "某國舉行選舉後，由新的執政團隊組成政府，取代舊政府。關於這件事，下列敘述何者正確？",
+      "choices": [
+        "國家隨政府更替而消滅，必須重新建國",
+        "政府更替了，但國家仍然存在",
+        "政府與國家是同一個概念，無法區分",
+        "國家的領土會因政府更替而全部重新劃定"
+      ],
+      "answer": 1,
+      "explain": "國家由人民、領土、主權、政府四要素構成，政府只是其中行使統治權的組織，可以經選舉更替。\n其他選項：「國家隨政府更替而消滅，必須重新建國」國家的人民、領土、主權都還在，不會因換政府消滅；「政府與國家是同一個概念，無法區分」政府只是國家四要素之一，是行使統治權的機構；「國家的領土會因政府更替而全部重新劃定」領土不會因換政府自動改變。\n答案是「政府更替了，但國家仍然存在」。",
+      "codes": [
+        "公 Bd-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-10-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "三權分工",
+      "q": "甲：制定法律；乙：執行法律與政策；丙：依法審理案件。下列關於甲、乙、丙所屬機關的配對，何者正確？",
+      "choices": [
+        "甲－行政院；乙－立法院；丙－法院",
+        "甲－立法院；乙－法院；丙－行政院",
+        "甲－法院；乙－行政院；丙－立法院",
+        "甲－立法院；乙－行政院；丙－法院"
+      ],
+      "answer": 3,
+      "explain": "依權力分立，立法院制定法律、行政院執行法律與政策、法院行使審判權。\n其他選項：「甲－行政院；乙－立法院；丙－法院」制定法律是立法院的職權，執行政策才是行政院；「甲－立法院；乙－法院；丙－行政院」審理案件是法院的工作，行政院負責執行政策；「甲－法院；乙－行政院；丙－立法院」法院審判案件，不負責制定法律，立法院也不審理案件。\n答案是「甲－立法院；乙－行政院；丙－法院」。",
+      "codes": [
+        "公 Be-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-10-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "法規位階",
+      "q": "圖為我國法規位階的示意圖，甲、乙、丙依序應填入何者？",
+      "svg": "<svg viewBox=\"0 0 320 172\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"110,10 77,60 143,60\" class=\"soft2\"/><text x=\"110\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">甲</text><polygon points=\"77,60 143,60 177,110 43,110\" class=\"soft\"/><text x=\"110\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">乙</text><polygon points=\"43,110 177,110 210,160 10,160\"/><text x=\"110\" y=\"140\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">丙</text><text x=\"225\" y=\"40\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">位階最高</text><text x=\"225\" y=\"140\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">位階最低</text></svg>",
+      "choices": [
+        "憲法、法律、命令",
+        "法律、憲法、命令",
+        "命令、法律、憲法",
+        "憲法、命令、法律"
+      ],
+      "answer": 0,
+      "explain": "我國法規位階由高到低是憲法、法律、命令，圖中最上層位階最高，所以甲是憲法、乙是法律、丙是命令。\n其他選項：「法律、憲法、命令」憲法是根本大法，位階最高，不能放在乙；「命令、法律、憲法」順序顛倒，命令位階最低；「憲法、命令、法律」法律的位階高於命令。\n答案是「憲法、法律、命令」。",
+      "codes": [
+        "公 Bf-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-10-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "五院職權",
+      "q": "公務員小李被民眾檢舉長期違法失職。依我國中央政府的制度，應由哪一個機關調查後提出彈劾案？",
+      "choices": [
+        "考試院",
+        "立法院",
+        "監察院",
+        "行政院"
+      ],
+      "answer": 2,
+      "explain": "監察院行使彈劾、糾舉、糾正與審計等職權，負責監督公務員是否違法失職。\n其他選項：「考試院」考試院掌理考選與銓敘等人事制度，不負責彈劾；「立法院」立法院的主要職權是制定法律、審議預算等，不是彈劾一般公務員；「行政院」行政院是最高行政機關，負責執行政策，不是糾彈公務員的機關。\n答案是「監察院」。",
+      "codes": [
+        "公 Be-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-10-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "法治與人治",
+      "q": "下列哪一項最符合「法治」的精神？",
+      "choices": [
+        "官員為了效率，可依自己的好惡決定誰能申請許可",
+        "法律事先公布，政府機關也必須依法行事",
+        "法律只用來約束人民，不用約束官員",
+        "領導人說的話優先於法律，必要時可直接取代法律"
+      ],
+      "answer": 1,
+      "explain": "法治的重點是法律公開、明確、平等適用，連政府也必須受法律約束。\n其他選項：「官員為了效率，可依自己的好惡決定誰能申請許可」依個人好惡辦事是人治，不是法治；「法律只用來約束人民，不用約束官員」法治要求政府與官員也受法律拘束；「領導人說的話優先於法律，必要時可直接取代法律」法律位階高於個人意志，這種做法是人治。\n答案是「法律事先公布，政府機關也必須依法行事」。",
+      "codes": [
+        "公 Bf-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-10-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "地方自治",
+      "q": "關於我國地方自治，下列敘述何者正確？",
+      "choices": [
+        "縣長由行政院長指派，不必經過選舉",
+        "縣議會屬於行政機關，負責執行縣政",
+        "地方政府只能執行中央命令，不能制定任何自治法規",
+        "地方行政首長與地方議會的議員，都由人民選舉產生"
+      ],
+      "answer": 3,
+      "explain": "地方自治由人民選出地方首長與議員：首長主掌地方行政，議會則是地方立法機關。\n其他選項：「縣長由行政院長指派，不必經過選舉」縣長由縣民選舉產生；「縣議會屬於行政機關，負責執行縣政」縣議會是地方立法機關，審議預算與自治條例；「地方政府只能執行中央命令，不能制定任何自治法規」地方政府依法可制定自治條例等自治法規。\n答案是「地方行政首長與地方議會的議員，都由人民選舉產生」。",
+      "codes": [
+        "公 Be-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-10-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "權力制衡",
+      "q": "甲：法院判決某行政機關的處分違法，撤銷該處分；乙：立法院審議行政院提出的預算案，刪減部分項目；丙：行政院各部會依通過的預算辦理業務；丁：警察依法取締違規停車。以上哪些屬於權力分立中的「制衡」？",
+      "choices": [
+        "甲、乙",
+        "乙、丙",
+        "丙、丁",
+        "甲、丁"
+      ],
+      "answer": 0,
+      "explain": "制衡是不同權力部門彼此監督：甲是司法權審查行政權，乙是立法權監督行政權；丙、丁只是行政機關執行職務。\n其他選項：「乙、丙」丙是行政機關執行已通過的預算，屬於分工執行，不是監督其他權力；「丙、丁」丙、丁都是行政機關執行法律與政策，沒有制衡其他權力；「甲、丁」丁是警察依法執行，不是制衡。\n答案是「甲、乙」。",
+      "codes": [
+        "公 Be-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-10-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "憲法與人權",
+      "q": "某法律規定，大型集會須事先申請，並可在為了維護公共安全與交通秩序所必要的範圍內，限制集會地點。下列何者最能說明這項規定與憲法人權保障的關係？",
+      "choices": [
+        "憲法保障的基本權利絕對不能限制，因此這項規定一定違憲",
+        "只要行政機關認為有需要，不必有法律依據也能任意限制人權",
+        "基本權利可以由法律加以限制，但限制須有必要，例如維護公共秩序、增進公共利益",
+        "人民的權利是政府給予的，政府可隨時收回"
+      ],
+      "answer": 2,
+      "explain": "依憲法的精神，限制人民權利須以法律規定，且為防止妨礙他人自由、維持社會秩序或增進公共利益所必要，題目的規定符合這些條件。\n其他選項：「憲法保障的基本權利絕對不能限制，因此這項規定一定違憲」憲法允許為公共利益等必要情形，以法律限制權利；「只要行政機關認為有需要，不必有法律依據也能任意限制人權」限制人權必須以法律為之，不能任由機關自行決定；「人民的權利是政府給予的，政府可隨時收回」基本權利由憲法保障，不是政府的恩賜。\n答案是「基本權利可以由法律加以限制，但限制須有必要，例如維護公共秩序、增進公共利益」。",
+      "codes": [
+        "公 Bg-Ⅳ-1",
+        "公 Bf-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 23 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：永久居留者與國民權利義務（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 35 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：權力分立與覆議（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 37 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：監察權與公職評鑑（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 12 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：禁止強迫勞動商品進口與人權（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 34 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：立法院職權與監察權（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 35 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：公聽會與權力制衡（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 12 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：釋字748號與憲法最高性（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 47 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：修法須經立法機關通過（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 54 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：限制表現自由與人權類型（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「權力分立」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%AC%8A%E5%8A%9B%E5%88%86%E7%AB%8B"
+    },
+    {
+      "label": "均一教育平台：搜尋「憲法」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%86%B2%E6%B3%95"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

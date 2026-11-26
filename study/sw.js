@@ -1,5 +1,5 @@
 /* 會考衝刺站 service worker：預先快取全站，離線可用。VERSION 由 tools/build.py 自動更新。 */
-const VERSION = 'f02e6600a82b';
+const VERSION = 'dc32d892ba9c';
 const CACHE = 'huikao-' + VERSION;
 
 self.addEventListener('install', (event) => {

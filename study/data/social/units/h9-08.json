@@ -1,0 +1,317 @@
+{
+  "id": "h9-08",
+  "subject": "social",
+  "grade": 9,
+  "order": 8,
+  "title": "美洲",
+  "codes": [
+    {
+      "code": "地 Bi-Ⅳ-1",
+      "text": "自然環境背景。"
+    },
+    {
+      "code": "地 Bi-Ⅳ-2",
+      "text": "移民與產業活動的發展。"
+    },
+    {
+      "code": "地 Bi-Ⅳ-3",
+      "text": "經濟發展的區域差異。"
+    }
+  ],
+  "intro": "這個單元學美洲的地形與氣候、移民文化、產業，以及北美洲與拉丁美洲的經濟差異。會考常考垂直氣候、區位判斷、出口結構表格與殖民歷史對語言的影響。",
+  "sections": [
+    {
+      "title": "位置與地形",
+      "points": [
+        "美洲位於西半球，分成北美洲與南美洲，兩者以巴拿馬地峽相連；西臨太平洋，東臨大西洋。",
+        "西部有南北縱貫的高大山系：北美洲的落磯山脈、南美洲的安地斯山脈，屬新褶皺山脈，地形陡峻，多火山與地震。",
+        "東部多古老低緩的山地與高原，如阿帕拉契山脈、巴西高原。",
+        "中部多平原：北美洲有中央大平原，南美洲有亞馬遜平原與拉布拉他平原。",
+        "河川：密西西比河流經北美洲中部；亞馬遜河流域廣大，流量為世界最大。",
+        "巴拿馬運河（1914 年通航）連接大西洋與太平洋，大幅縮短兩洋之間的航程。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 195\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"140\" width=\"45\" height=\"30\" rx=\"4\" class=\"soft2\"/><rect x=\"345\" y=\"140\" width=\"50\" height=\"30\" rx=\"4\" class=\"soft2\"/><polygon points=\"55,170 55,138 80,100 105,62 125,50 150,92 172,126 275,130 300,106 318,92 338,112 345,138 345,170\" class=\"soft\"/><text x=\"32\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">太平洋</text><text x=\"370\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">大西洋</text><text x=\"125\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">落磯山脈</text><text x=\"225\" y=\"118\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">中央大平原</text><text x=\"318\" y=\"82\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">阿帕拉契山脈</text><text x=\"200\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">西→東的地形剖面（北美洲，示意）</text></svg>",
+      "caption": "北美洲地形剖面：西高、中低、東緩。"
+    },
+    {
+      "title": "氣候：多樣與垂直變化",
+      "points": [
+        "北美洲緯度跨度大，氣候多樣：北部是亞寒帶針葉林與極地苔原，西岸南部（如加州）屬地中海型氣候，內陸大平原降水較少。",
+        "南美洲赤道穿過北部，亞馬遜平原屬熱帶雨林氣候，終年高溫多雨。",
+        "安地斯山地有垂直氣候：同一座山上，隨海拔升高氣溫下降，每升高約 100 公尺，氣溫約降 0.6℃，作物與聚落也隨之分層。",
+        "智利北部有阿他加馬沙漠，是極乾燥的地區，受沿岸寒流與地形影響。",
+        "阿根廷的潘帕斯草原一帶屬溫帶，地勢平坦、土壤肥沃。"
+      ],
+      "svg": "<svg viewBox=\"0 0 470 205\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"60,180 200,25 340,180\" class=\"soft\"/><line x1=\"167\" y1=\"60\" x2=\"233\" y2=\"60\" /><line x1=\"145\" y1=\"95\" x2=\"255\" y2=\"95\" /><line x1=\"122\" y1=\"130\" x2=\"278\" y2=\"130\" /><line x1=\"104\" y1=\"160\" x2=\"296\" y2=\"160\" /><text x=\"350\" y=\"48\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">冰雪（極寒）</text><text x=\"350\" y=\"83\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">高山草原（寒）</text><text x=\"350\" y=\"118\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">涼爽（溫帶作物）</text><text x=\"350\" y=\"148\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">溫暖（亞熱帶）</text><text x=\"350\" y=\"174\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">炎熱（熱帶雨林）</text><text x=\"200\" y=\"198\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">海拔愈高，氣溫愈低</text></svg>",
+      "caption": "安地斯山地的垂直氣候：高度改變氣溫，也改變作物與土地利用。"
+    },
+    {
+      "title": "移民與文化",
+      "points": [
+        "美洲原住民有印第安人與因紐特人等；中南美洲曾有馬雅、阿茲特克與印加等文明。",
+        "15 世紀末起，歐洲人大量前來：北美洲以英國移民為主，英語通行；中南美洲以西班牙、葡萄牙殖民為主，多數國家說西班牙語，巴西說葡萄牙語。",
+        "殖民時期許多非洲黑人被帶到美洲當奴工，今日加勒比海地區與巴西等地仍有大量非裔人口。",
+        "近代以後亞洲與拉丁美洲移民增加，美國成為多元文化社會。",
+        "拉丁美洲因歐洲人、原住民與非洲人混居，混血與文化融合明顯。",
+        "迷思：美洲各國並非都說英語，拉丁美洲以西班牙語與葡萄牙語為主。"
+      ]
+    },
+    {
+      "title": "產業活動",
+      "points": [
+        "美國：農業機械化、大規模經營，中西部盛產玉米、小麥與大豆，是世界重要的農產品出口國；五大湖周邊曾以鋼鐵與汽車工業為主，近年高科技與服務業興起，如加州的矽谷。",
+        "加拿大：林業、礦產與能源資源豐富，並生產小麥。",
+        "巴西：咖啡、大豆、蔗糖與鐵礦聞名；亞馬遜平原的開發，使熱帶雨林面積減少，引發環境爭議。",
+        "阿根廷：潘帕斯草原適合牧牛與種植小麥。",
+        "智利：銅礦是重要的出口產品。"
+      ]
+    },
+    {
+      "title": "區域經濟差異",
+      "points": [
+        "美國與加拿大是已開發國家，所得高，服務業與高科技發達，都市化程度高。",
+        "拉丁美洲多數國家是發展中國家，部分國家出口以礦產與農產等初級產品為主，經濟易受國際價格波動影響。",
+        "拉丁美洲都市化快速，大量人口湧入大城市，常出現貧民區，貧富差距大。",
+        "美國、加拿大與墨西哥簽訂區域貿易協定，促進區域內的貿易往來。",
+        "判讀訣竅：看出口結構——初級產品占比高，通常工業化程度較低，經濟較不穩定。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 100\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"15\" width=\"120\" height=\"55\" rx=\"4\" class=\"soft\"/><text x=\"70\" y=\"38\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">依賴初級產品</text><text x=\"70\" y=\"58\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">（礦產、農產）</text><rect x=\"150\" y=\"15\" width=\"120\" height=\"55\" rx=\"4\"/><text x=\"210\" y=\"38\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">受國際價格</text><text x=\"210\" y=\"58\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">波動影響大</text><rect x=\"290\" y=\"15\" width=\"120\" height=\"55\" rx=\"4\" class=\"soft2\"/><text x=\"350\" y=\"38\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">經濟不穩定</text><text x=\"350\" y=\"58\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">貧富差距大</text><line x1=\"130\" y1=\"42\" x2=\"150\" y2=\"42\" /><line x1=\"150\" y1=\"42\" x2=\"142.8\" y2=\"45.5\" /><line x1=\"150\" y1=\"42\" x2=\"142.8\" y2=\"38.5\" /><line x1=\"270\" y1=\"42\" x2=\"290\" y2=\"42\" /><line x1=\"290\" y1=\"42\" x2=\"282.8\" y2=\"45.5\" /><line x1=\"290\" y1=\"42\" x2=\"282.8\" y2=\"38.5\" /><text x=\"210\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">拉丁美洲部分國家常見的發展困境</text></svg>",
+      "caption": "初級產品出口依賴度高，經濟受國際市場影響大。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "美洲西部山系",
+      "body": "落磯山脈（北美）、安地斯山脈（南美），新褶皺山脈"
+    },
+    {
+      "name": "垂直氣候",
+      "body": "每升高約 100 公尺，氣溫約降 0.6℃"
+    },
+    {
+      "name": "巴拿馬運河",
+      "body": "連接大西洋與太平洋，1914 年通航"
+    },
+    {
+      "name": "亞馬遜平原",
+      "body": "熱帶雨林氣候，亞馬遜河流量世界最大"
+    },
+    {
+      "name": "拉丁美洲語言",
+      "body": "多數說西班牙語，巴西說葡萄牙語"
+    },
+    {
+      "name": "潘帕斯草原",
+      "body": "阿根廷，牧牛與小麥"
+    },
+    {
+      "name": "智利與巴西出口",
+      "body": "智利銅礦；巴西咖啡、大豆、鐵礦"
+    },
+    {
+      "name": "北美與拉美差異",
+      "body": "北美已開發；拉美多為發展中，貧富差距大"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-08-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "巴拿馬運河",
+      "q": "巴拿馬運河開通後，縮短了下列哪兩個大洋之間的航程？",
+      "choices": [
+        "大西洋與印度洋",
+        "地中海與紅海",
+        "大西洋與太平洋",
+        "太平洋與北冰洋"
+      ],
+      "answer": 2,
+      "explain": "巴拿馬運河穿過巴拿馬地峽，連接大西洋與太平洋。地中海與紅海是由蘇伊士運河連接；大西洋與印度洋之間沒有這條運河；北冰洋也不在其航路上。答案是 大西洋與太平洋。",
+      "codes": [
+        "地 Bi-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-08-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "拉丁美洲語言",
+      "q": "拉丁美洲多數國家（巴西除外）的主要語言是下列何者？",
+      "choices": [
+        "西班牙語",
+        "英語",
+        "法語",
+        "荷蘭語"
+      ],
+      "answer": 0,
+      "explain": "拉丁美洲多數地區曾受西班牙殖民，因此西班牙語通行；巴西曾受葡萄牙殖民，說葡萄牙語。英語是北美洲美國與加拿大（多數地區）的主要語言，法語與荷蘭語只在少數地區通行。答案是 西班牙語。",
+      "codes": [
+        "地 Bi-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-08-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "亞馬遜氣候",
+      "q": "亞馬遜平原位於赤道附近，其氣候特色為何？",
+      "choices": [
+        "夏乾冬雨，氣候溫和",
+        "冬寒夏涼，年溫差大",
+        "終年乾燥少雨",
+        "終年高溫多雨"
+      ],
+      "answer": 3,
+      "explain": "亞馬遜平原在赤道附近，接受充足的陽光與水氣，屬熱帶雨林氣候，終年高溫多雨。夏乾冬雨是地中海型氣候；冬寒夏涼、年溫差大是大陸性或亞寒帶氣候；終年乾燥少雨是沙漠氣候。答案是 終年高溫多雨。",
+      "codes": [
+        "地 Bi-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-08-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "垂直氣候計算",
+      "q": "安地斯山區某城鎮海拔 2500 公尺。同緯度的海平面地區，年均溫約 26℃。若海拔每升高 100 公尺，氣溫約下降 0.6℃，則該城鎮的年均溫約為多少？",
+      "choices": [
+        "5℃",
+        "11℃",
+        "15℃",
+        "20℃"
+      ],
+      "answer": 1,
+      "explain": "海拔 2500 公尺共有 25 個 100 公尺，氣溫下降 25 × 0.6 = 15℃，所以城鎮年均溫約 26 − 15 = 11℃。5℃是多算了（約下降 21℃）；15℃是把下降的度數當成答案；20℃是只扣了 6℃，都不對。答案是 11℃。",
+      "codes": [
+        "地 Bi-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-08-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "區位判斷",
+      "q": "下圖為美洲簡易示意圖（上北下南，虛線為赤道）。某地位於南半球的溫帶地區，地勢平坦、土壤肥沃，發展大規模牧牛與小麥種植，是重要的牛肉與穀物出口地。這個地區最可能是圖中的哪一處？",
+      "svg": "<svg viewBox=\"0 0 260 250\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"40,15 150,15 165,45 140,75 125,95 105,95 70,85 55,60\" class=\"soft\"/><polygon points=\"125,95 135,108 128,110\" class=\"soft\"/><polygon points=\"130,110 180,112 205,135 195,165 168,215 152,240 142,200 128,150 120,125\" class=\"soft2\"/><line x1=\"8\" y1=\"125\" x2=\"252\" y2=\"125\" stroke-dasharray=\"6 4\"/><text x=\"10\" y=\"118\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">赤道</text><circle cx=\"110\" cy=\"45\" r=\"5\"/><text x=\"122\" y=\"50\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">甲</text><circle cx=\"62\" cy=\"68\" r=\"5\"/><text x=\"46\" y=\"84\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">乙</text><circle cx=\"160\" cy=\"145\" r=\"5\"/><text x=\"172\" y=\"150\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丙</text><circle cx=\"160\" cy=\"195\" r=\"5\"/><text x=\"172\" y=\"200\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丁</text><text x=\"235\" y=\"18\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"12\">北↑</text></svg>",
+      "choices": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "answer": 3,
+      "explain": "題目條件有三項：南半球、溫帶、平坦草原。甲與乙在虛線（赤道）以北，屬北半球，先排除；丙在赤道附近，是亞馬遜平原一帶，屬熱帶雨林氣候，不是溫帶草原；丁在南美洲南部，對應阿根廷的潘帕斯草原，適合牧牛與種小麥。答案是 丁。",
+      "codes": [
+        "地 Bi-Ⅳ-1",
+        "地 Bi-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-08-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "雨林開發影響",
+      "q": "近年亞馬遜平原有大面積熱帶雨林被砍伐，改闢為牧場與大豆田。下列何者是這種人為活動最可能帶來的影響？",
+      "choices": [
+        "全球吸收二氧化碳的能力因此增加",
+        "棲地減少、生物多樣性下降，且吸收二氧化碳的森林減少",
+        "原有土壤立刻變得更肥沃，可以永久耕作",
+        "亞馬遜河的流量因此增加為原來的兩倍"
+      ],
+      "answer": 1,
+      "explain": "熱帶雨林提供許多生物棲地，也能吸收二氧化碳；砍伐後棲地減少、生物多樣性下降，森林吸收二氧化碳的能力也降低。雨林的養分多存在植被中而不是土壤，砍伐後土壤並不會變肥沃；森林減少不會使吸收二氧化碳的能力增加；「流量增為兩倍」沒有根據。答案是 棲地減少、生物多樣性下降，且吸收二氧化碳的森林減少。",
+      "codes": [
+        "地 Bi-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-08-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "初級產品依賴",
+      "q": "下表為甲、乙兩國出口額的組成（依據表中資料）。\n甲國：礦產與農產品占 80％，工業製品占 20％\n乙國：礦產與農產品占 25％，工業製品占 75％\n若國際礦產與農產品價格大幅下跌，根據表中資料，下列推論何者最合理？",
+      "choices": [
+        "甲國受到的衝擊比乙國小，因為礦產與農產品占比高代表經濟最穩定",
+        "兩國受到的衝擊相同，因為出口結構不影響價格變動的衝擊",
+        "乙國受到的衝擊比甲國大，因為工業製品占比高",
+        "甲國出口收入受影響較大，因為出口主要依賴礦產與農產品"
+      ],
+      "answer": 3,
+      "explain": "甲國出口有 80％是礦產與農產品（初級產品），價格下跌會直接大幅減少出口收入；乙國初級產品只占 25％，受影響較小。因此「甲國受影響較大」才合理。「甲國受衝擊比乙國小」與「兩國相同」都與占比不符；「乙國受衝擊比甲國大」把關係顛倒了。答案是 甲國出口收入受影響較大，因為出口主要依賴礦產與農產品。",
+      "codes": [
+        "地 Bi-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-08-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "殖民歷史與語言",
+      "q": "巴西是南美洲面積最大的國家，官方語言是葡萄牙語，周邊多數國家卻以西班牙語為主。最主要的歷史原因是下列何者？",
+      "choices": [
+        "巴西地形與外界隔絕，從未與歐洲人接觸",
+        "巴西主要受葡萄牙殖民，周邊多數國家主要受西班牙殖民",
+        "巴西以原住民為主，原住民語言就是葡萄牙語",
+        "巴西曾受英國統治，英語後來演變成葡萄牙語"
+      ],
+      "answer": 1,
+      "explain": "語言分布與殖民歷史有關：巴西主要由葡萄牙統治，所以通行葡萄牙語；南美洲其他多數國家主要受西班牙統治，所以通行西班牙語。巴西沿海很早就與歐洲接觸；原住民語言不等於葡萄牙語；英語不會演變成葡萄牙語，也不是巴西的殖民母國語言。答案是 巴西主要受葡萄牙殖民，周邊多數國家主要受西班牙殖民。",
+      "codes": [
+        "地 Bi-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 15 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：印加古文明遺跡（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 18 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：跨國通勤與物價匯率（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 43 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：墨西哥古文明博物館館藏（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 44 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：美洲古文明主食玉米（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 45 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：拉丁美洲西班牙語（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 49 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：美國人口與眾議院席次（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 50 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：美國席次一席州人口少的原因（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「美洲」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%BE%8E%E6%B4%B2"
+    },
+    {
+      "label": "均一教育平台：搜尋「南美洲熱帶雨林」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%8D%97%E7%BE%8E%E6%B4%B2%E7%86%B1%E5%B8%B6%E9%9B%A8%E6%9E%97"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

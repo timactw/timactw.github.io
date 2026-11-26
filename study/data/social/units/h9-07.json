@@ -1,0 +1,298 @@
+{
+  "id": "h9-07",
+  "subject": "social",
+  "grade": 9,
+  "order": 7,
+  "title": "歐洲與俄羅斯",
+  "codes": [
+    {
+      "code": "地 Bh-Ⅳ-1",
+      "text": "自然環境背景。"
+    },
+    {
+      "code": "地 Bh-Ⅳ-2",
+      "text": "產業活動的發展與文化特色。"
+    },
+    {
+      "code": "地 Bh-Ⅳ-3",
+      "text": "現代經濟的發展與區域結盟。"
+    }
+  ],
+  "intro": "這個單元學歐洲與俄羅斯的地形、氣候、產業文化，以及歐洲聯盟。會考常用氣候資料表、簡易地圖判讀地區，並考暖流、單一市場等因果與概念。",
+  "sections": [
+    {
+      "title": "位置與地形",
+      "points": [
+        "歐洲位在歐亞大陸西部，北臨北冰洋、西臨大西洋、南隔地中海與非洲相望；烏拉山脈常作為歐洲與亞洲的分界。",
+        "地形由北向南大致是：北歐古老的斯堪地那維亞山地、中北歐廣大的平原、南歐年輕高峻的阿爾卑斯山脈等新褶皺山脈。",
+        "北歐沿海曾受冰河侵蝕，形成深入內陸、曲折的峽灣，挪威最典型。",
+        "萊茵河、多瑙河等河川流經多國，加上平原地勢平坦，內陸水運發達。",
+        "俄羅斯橫跨歐、亞兩洲，面積為世界第一；烏拉山脈以西是歐洲部分，以東是西伯利亞。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 195\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"55,170 55,138 80,100 105,62 125,50 150,92 172,126 230,138 250,98 272,58 292,96 312,134 328,142 328,170\" class=\"soft\"/><rect x=\"328\" y=\"142\" width=\"62\" height=\"28\" rx=\"4\" class=\"soft2\"/><text x=\"62\" y=\"66\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北歐山地</text><text x=\"200\" y=\"116\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">中北歐平原</text><text x=\"272\" y=\"46\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">阿爾卑斯山</text><text x=\"359\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地中海</text><text x=\"30\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北</text><text x=\"200\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">由北向南的地形剖面（示意）</text></svg>",
+      "caption": "歐洲由北到南：山地、平原、高大山脈、地中海。"
+    },
+    {
+      "title": "氣候：看海、看緯度、看暖流",
+      "points": [
+        "西歐與北歐西岸：西岸海洋性氣候。北大西洋暖流與盛行西風帶來溫暖濕潤的空氣，全年有雨，冬暖夏涼；因此歐洲西北部比同緯度的其他地區溫暖。",
+        "南歐地中海沿岸：地中海型氣候，夏季受副熱帶高壓控制而乾熱少雨，冬季溫和多雨。",
+        "東歐與俄羅斯內陸：離海遠，屬大陸性氣候，冬季寒冷、夏季溫暖，年溫差大。",
+        "俄羅斯北部：亞寒帶針葉林（泰加林）與極地苔原，地下常有永凍土。",
+        "迷思：歐洲緯度偏高，不等於全年都很冷；西歐沿海因暖流而相當溫和。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 205\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"20\" y=\"18\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北大西洋暖流與盛行西風</text><rect x=\"20\" y=\"30\" width=\"120\" height=\"90\" rx=\"4\" class=\"soft\"/><text x=\"80\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">西岸海洋性</text><text x=\"80\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">冬暖夏涼</text><rect x=\"150\" y=\"30\" width=\"230\" height=\"90\" rx=\"4\" class=\"hl\"/><text x=\"265\" y=\"70\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">大陸性與亞寒帶</text><text x=\"265\" y=\"92\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">冬寒夏涼，年溫差大</text><rect x=\"20\" y=\"130\" width=\"210\" height=\"55\" rx=\"4\" class=\"soft2\"/><text x=\"125\" y=\"154\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地中海型氣候</text><text x=\"125\" y=\"174\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">夏乾熱，冬溫和多雨</text><text x=\"305\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">（上北下南，示意）</text></svg>",
+      "caption": "氣候分區（示意）：愈往西愈受海洋影響，愈往東愈偏大陸性。"
+    },
+    {
+      "title": "產業與文化",
+      "points": [
+        "西歐、北歐：工業革命起源於英國，之後擴散到歐洲各地；工業、金融與服務業發達，國民所得高。",
+        "荷蘭等低地國家地勢低平，築堤圍海造陸，發展乳牛業與花卉園藝。",
+        "南歐沿海：夏乾冬雨，適合種植橄欖、葡萄、柑橘等耐旱作物；古蹟與海岸風光帶動觀光業。",
+        "北歐：社會福利制度完善，並重視水力、風力等再生能源的利用。",
+        "語言可分為日耳曼語系（英語、德語）、拉丁語系（法語、西班牙語、義大利語）、斯拉夫語系（俄語、波蘭語）。",
+        "宗教以基督宗教為主：北歐與西北歐多新教，南歐與西歐南部多天主教，東歐與俄羅斯多東正教。"
+      ]
+    },
+    {
+      "title": "俄羅斯：廣大國土與能源",
+      "points": [
+        "國土跨越亞寒帶與寒帶，人口與工業多集中在西部的歐洲部分；東部西伯利亞冬季嚴寒、地下有永凍土，人口稀少。",
+        "蘊藏石油、天然氣、煤與多種礦產，能源出口是重要的經濟來源，常以管線輸往歐洲。",
+        "西伯利亞鐵路橫貫東西，連接莫斯科與遠東地區，是重要的陸上交通幹線。",
+        "北部港口冬季海面結冰，影響海運；因此較不結冰的港口對貿易特別重要。",
+        "1991 年蘇聯解體後，俄羅斯成為其主要的繼承國。"
+      ]
+    },
+    {
+      "title": "區域結盟：歐洲聯盟",
+      "points": [
+        "歐洲聯盟（歐盟）是歐洲國家組成的區域經濟與政治合作組織，1993 年正式成立，前身是戰後的歐洲共同體。",
+        "核心是單一市場：會員國之間的貨物、人員、服務與資本原則上可以自由流通，貨物免關稅，人民可跨國居住與工作。",
+        "多數會員國使用共同貨幣歐元，但並非所有會員國都使用歐元。",
+        "歐盟不是一個國家：各會員國仍有自己的政府與主權；2020 年英國已退出歐盟，顯示會員國可以離開。",
+        "影響：擴大貿易、提升整體競爭力；但也有各國經濟差距、移民與主權分配等爭議。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 170\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"150\" y=\"60\" width=\"100\" height=\"40\" rx=\"4\" class=\"soft\"/><text x=\"200\" y=\"85\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">單一市場</text><rect x=\"30\" y=\"15\" width=\"80\" height=\"30\" rx=\"4\"/><text x=\"70\" y=\"35\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">貨物</text><rect x=\"290\" y=\"15\" width=\"80\" height=\"30\" rx=\"4\"/><text x=\"330\" y=\"35\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">人員</text><rect x=\"30\" y=\"115\" width=\"80\" height=\"30\" rx=\"4\"/><text x=\"70\" y=\"135\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">服務</text><rect x=\"290\" y=\"115\" width=\"80\" height=\"30\" rx=\"4\"/><text x=\"330\" y=\"135\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">資本</text><line x1=\"110\" y1=\"30\" x2=\"150\" y2=\"70\" /><line x1=\"290\" y1=\"30\" x2=\"250\" y2=\"70\" /><line x1=\"110\" y1=\"130\" x2=\"150\" y2=\"90\" /><line x1=\"290\" y1=\"130\" x2=\"250\" y2=\"90\" /><text x=\"200\" y=\"160\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">會員國之間四項自由流通</text></svg>",
+      "caption": "歐盟單一市場：貨物、人員、服務、資本自由流通。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "歐亞分界",
+      "body": "烏拉山脈常作為歐洲與亞洲的分界"
+    },
+    {
+      "name": "西岸海洋性氣候",
+      "body": "北大西洋暖流＋盛行西風，冬暖夏涼、全年有雨"
+    },
+    {
+      "name": "地中海型氣候",
+      "body": "夏乾熱、冬溫和多雨，宜橄欖、葡萄、柑橘"
+    },
+    {
+      "name": "大陸性氣候",
+      "body": "離海遠，冬寒夏暖，年溫差大"
+    },
+    {
+      "name": "歐盟單一市場",
+      "body": "貨物、人員、服務、資本自由流通"
+    },
+    {
+      "name": "三大語系",
+      "body": "日耳曼、拉丁、斯拉夫"
+    },
+    {
+      "name": "俄羅斯",
+      "body": "面積世界第一，能源出口，西伯利亞鐵路橫貫東西"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-07-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "歐亞分界",
+      "q": "下列何者常被視為歐洲與亞洲的分界山脈？",
+      "choices": [
+        "阿爾卑斯山脈",
+        "烏拉山脈",
+        "落磯山脈",
+        "斯堪地那維亞山脈"
+      ],
+      "answer": 1,
+      "explain": "烏拉山脈南北縱走，位於俄羅斯境內，常作為歐、亞兩洲的分界。阿爾卑斯山脈在南歐、斯堪地那維亞山脈在北歐，都在歐洲內部；落磯山脈在北美洲。答案是 烏拉山脈。",
+      "codes": [
+        "地 Bh-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-07-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "地中海型氣候",
+      "q": "義大利、希臘等地中海沿岸地區，氣候特色最可能是下列何者？",
+      "choices": [
+        "全年高溫多雨，午後常有雷陣雨",
+        "冬季嚴寒漫長，夏季短暫涼爽",
+        "夏季炎熱乾燥，冬季溫和多雨",
+        "全年溫和濕潤，各月降水量相近"
+      ],
+      "answer": 2,
+      "explain": "地中海沿岸夏季受副熱帶高壓影響，乾熱少雨；冬季高壓南移，帶來溫和降雨，所以是夏乾冬雨。全年高溫多雨是熱帶雨林；冬季嚴寒漫長是亞寒帶；全年溫和濕潤、降水平均是西岸海洋性氣候。答案是 夏季炎熱乾燥，冬季溫和多雨。",
+      "codes": [
+        "地 Bh-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-07-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "歐盟單一市場",
+      "q": "歐洲聯盟建立單一市場，主要是讓會員國之間下列何者可以自由流通？",
+      "choices": [
+        "貨物、人員、服務與資本",
+        "軍隊、武器與情報",
+        "各國的官方語言與貨幣",
+        "各國的稅收與國防預算"
+      ],
+      "answer": 0,
+      "explain": "單一市場的內容是貨物、人員、服務與資本四項自由流通，讓會員國間的貿易與工作更方便。軍隊與武器、稅收與國防預算仍由各國政府自己決定；各國保有自己的官方語言，也不是所有會員國都用歐元。答案是 貨物、人員、服務與資本。",
+      "codes": [
+        "地 Bh-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-07-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "氣候資料判讀",
+      "q": "下表為歐洲三個地點的氣候資料（北半球）。\n地點：1月均溫／7月均溫／1月降水量／7月降水量\n甲：5℃／25℃／85 毫米／8 毫米\n乙：零下 12℃／19℃／25 毫米／75 毫米\n丙：4℃／16℃／70 毫米／65 毫米\n根據表中資料，下列判斷何者最合理？",
+      "choices": [
+        "甲地冬季溫和、夏季乾燥，最可能屬於西岸海洋性氣候",
+        "乙地冬季酷寒、年溫差大，最可能位於受暖流影響的西歐沿海",
+        "丙地全年降水平均、氣溫溫和，最可能位於地中海沿岸",
+        "甲地夏乾冬雨、冬季溫和，最可能屬於地中海型氣候"
+      ],
+      "answer": 3,
+      "explain": "判讀步驟：甲地 7 月只有 8 毫米、1 月卻有 85 毫米，是夏乾冬雨；冬季 5℃、夏季 25℃，符合地中海型氣候。乙地 1 月零下 12℃、7 月 19℃，年溫差大且夏雨多於冬雨，是離海遠的大陸性（或亞寒帶）氣候，不是暖流沿海。丙地冬夏降水相近、氣溫溫和，是西岸海洋性氣候，不是地中海沿岸。甲地不是西岸海洋性，因為它夏季明顯乾燥。答案是 甲地夏乾冬雨、冬季溫和，最可能屬於地中海型氣候。",
+      "codes": [
+        "地 Bh-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-07-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "荷蘭與西歐沿海",
+      "q": "下圖為歐洲與俄羅斯的簡易示意圖。某地地勢低平，部分土地由築堤圍海而來，受北大西洋暖流與盛行西風影響，乳牛業與花卉園藝發達。這個地區最可能是圖中的哪一處？",
+      "svg": "<svg viewBox=\"0 0 400 190\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"60\" y=\"22\" width=\"320\" height=\"122\" rx=\"4\" class=\"soft\"/><rect x=\"100\" y=\"150\" width=\"200\" height=\"32\" rx=\"4\" class=\"soft2\"/><text x=\"220\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北冰洋</text><text x=\"30\" y=\"85\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">大西洋</text><text x=\"200\" y=\"171\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">地中海</text><circle cx=\"110\" cy=\"50\" r=\"12\"/><text x=\"110\" y=\"55\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">甲</text><circle cx=\"100\" cy=\"105\" r=\"12\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">乙</text><circle cx=\"200\" cy=\"124\" r=\"12\"/><text x=\"200\" y=\"129\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丙</text><circle cx=\"320\" cy=\"70\" r=\"12\"/><text x=\"320\" y=\"75\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丁</text><text x=\"365\" y=\"165\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">上北下南</text></svg>",
+      "choices": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "answer": 1,
+      "explain": "乙位在西部臨大西洋的沿海，對應荷蘭等低地國家：地勢低平、築堤圍海造陸，並受暖流與西風影響而氣候溫和濕潤，適合乳牛與花卉。甲在西北方，是多山地與峽灣的北歐；丙在南方臨地中海，是夏乾冬雨的地中海型農業區；丁在東方，離海遠、冬寒，屬大陸性氣候。答案是 乙。",
+      "codes": [
+        "地 Bh-Ⅳ-1",
+        "地 Bh-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-07-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "人口分布與環境",
+      "q": "俄羅斯國土面積廣大，但多數人口與工業集中在西部的歐洲部分。下列何者最能說明其自然環境上的原因？",
+      "choices": [
+        "西部氣候較溫和、平原廣闊；東部的西伯利亞冬季嚴寒、多永凍土，不利居住與農業",
+        "西部緊鄰太平洋，海運便利；東部深入內陸，完全沒有河流",
+        "西部蘊藏全國所有的礦產，東部沒有任何自然資源",
+        "西部全年溫暖潮濕，東部全年乾燥炎熱"
+      ],
+      "answer": 0,
+      "explain": "人口分布與氣候、地形、交通有關：西部歐洲部分較靠近大西洋，氣候相對溫和、平原廣闊、農業與交通條件較好；東部西伯利亞冬季漫長嚴寒，多針葉林與永凍土，開發困難。西部不臨太平洋，東部也有大河；東部同樣蘊藏豐富能源礦產；東部並非全年炎熱，而是寒冷。答案是 西部氣候較溫和、平原廣闊；東部的西伯利亞冬季嚴寒、多永凍土，不利居住與農業。",
+      "codes": [
+        "地 Bh-Ⅳ-1",
+        "地 Bh-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-07-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "歐盟特色辨正",
+      "q": "關於歐洲聯盟，下列敘述何者正確？",
+      "choices": [
+        "會員國已放棄全部主權，所有法律都由歐盟統一制定",
+        "所有會員國都已使用歐元作為貨幣",
+        "會員國之間貨物原則上免關稅，人民可自由往來並工作",
+        "只有位於西歐的國家才能成為會員國"
+      ],
+      "answer": 2,
+      "explain": "歐盟單一市場使貨物免關稅、人員可跨國居住與工作，所以第三項正確。歐盟不是單一國家，會員國仍有自己的政府與主權；並非所有會員國都用歐元；歐盟也包含許多中、東歐與南歐國家，不限於西歐。答案是 會員國之間貨物原則上免關稅，人民可自由往來並工作。",
+      "codes": [
+        "地 Bh-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-07-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "暖流與氣候",
+      "q": "挪威西北部沿海緯度偏高，冬季港口卻多半不結冰；緯度相近的加拿大拉布拉多沿岸，冬季海面常結冰。造成這種差異，最主要的原因是下列何者？",
+      "choices": [
+        "挪威位於低緯度，太陽直射的時間比較長",
+        "挪威沿海受寒流影響，海水鹽度極高而不易結冰",
+        "挪威全年受副熱帶高壓控制，降水少而氣溫高",
+        "挪威沿海受北大西洋暖流與盛行西風影響，海水與空氣較溫暖"
+      ],
+      "answer": 3,
+      "explain": "兩地緯度相近，差異來自洋流：北大西洋暖流把低緯度的暖水帶到歐洲西北岸，加上盛行西風把暖濕空氣吹向陸地，使挪威沿海冬季不易結冰；拉布拉多沿岸則受寒流影響。挪威並非低緯度；挪威沿海是暖流而非寒流；挪威也不在副熱帶高壓控制下，冬季多降水。答案是 挪威沿海受北大西洋暖流與盛行西風影響，海水與空氣較溫暖。",
+      "codes": [
+        "地 Bh-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 17 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：歐盟能源與去俄化（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 28 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：北歐風力能源與西風帶（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 40 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：加里寧格勒與俄羅斯位置（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 2 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：維謝格拉德集團與歐盟經貿（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「歐洲」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%AD%90%E6%B4%B2"
+    },
+    {
+      "label": "均一教育平台：搜尋「歐盟」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%AD%90%E7%9B%9F"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

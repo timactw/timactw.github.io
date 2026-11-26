@@ -1,0 +1,394 @@
+{
+  "id": "h9-12",
+  "subject": "social",
+  "grade": 9,
+  "order": 12,
+  "title": "資源、交易與貨幣",
+  "codes": [
+    {
+      "code": "公 Bl-Ⅳ-1",
+      "text": "個人與家庭為什麼需要做選擇？如何選擇？"
+    },
+    {
+      "code": "公 Bl-Ⅳ-2",
+      "text": "如何計算某項選擇的機會成本？"
+    },
+    {
+      "code": "公 Bl-Ⅳ-3",
+      "text": "如何使用機會成本的概念來解釋選擇行為？"
+    },
+    {
+      "code": "公 Bl-Ⅳ-4",
+      "text": "價格如何影響資源分配？"
+    },
+    {
+      "code": "公 Bl-Ⅳ-5",
+      "text": "不同分配資源的方法，各有哪些優缺點？"
+    },
+    {
+      "code": "公 Bn-Ⅳ-1",
+      "text": "個人與家庭如何解決食衣住行的需求？"
+    },
+    {
+      "code": "公 Bn-Ⅳ-2",
+      "text": "人為什麼從自給自足轉向交易？"
+    },
+    {
+      "code": "公 Bn-Ⅳ-3",
+      "text": "自願的交易為什麼對雙方都有利？"
+    },
+    {
+      "code": "公 Bn-Ⅳ-4",
+      "text": "臺灣開放外國商品進口的利弊。"
+    },
+    {
+      "code": "公 Bp-Ⅳ-1",
+      "text": "貨幣為什麼會出現？"
+    },
+    {
+      "code": "公 Bp-Ⅳ-2",
+      "text": "使用儲值卡和使用貨幣的差異。"
+    },
+    {
+      "code": "公 Bp-Ⅳ-3",
+      "text": "使用信用卡與儲值卡的差異。"
+    }
+  ],
+  "intro": "這個單元學稀少性與選擇、機會成本、價格與供需、資源分配方式、自願交易，以及貨幣與支付工具。會考常考機會成本計算、供需表判讀與生活情境的選擇。",
+  "sections": [
+    {
+      "title": "稀少性與選擇",
+      "points": [
+        "資源（時間、金錢、土地、勞力）有限，但人的慾望很多，這種現象叫稀少性。",
+        "因為稀少，每個人與家庭都得做選擇：選了這個，就沒辦法同時擁有另一個。",
+        "做選擇時可比較好處與代價，選擇「淨好處最大」的方案。",
+        "迷思：有錢人也要選擇，因為時間也是有限資源。"
+      ]
+    },
+    {
+      "title": "機會成本的概念與計算",
+      "points": [
+        "機會成本：做出一項選擇時，所放棄的其他選擇中，價值最高的那一個。",
+        "計算方式：列出所有放棄的選項，找出價值最高的一項，那就是機會成本。",
+        "迷思一：機會成本不是所有放棄選項加總，只取最高的一項。",
+        "迷思二：機會成本不一定是花掉的錢，也可以是放棄的時間、收入或享受。",
+        "用機會成本可以解釋選擇行為：當選擇的好處高於機會成本，這項選擇才划算。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 198\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"200\" y=\"18\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">週六下午三選一（價值，單位：元）</text><text x=\"14\" y=\"54\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">打工</text><rect x=\"60\" y=\"34\" width=\"240.0\" height=\"28\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"308.0\" y=\"54\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">400</text><text x=\"14\" y=\"94\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">讀書</text><rect x=\"60\" y=\"74\" width=\"180.0\" height=\"28\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"248.0\" y=\"94\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">300</text><text x=\"14\" y=\"134\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">打球</text><rect x=\"60\" y=\"114\" width=\"120.0\" height=\"28\" rx=\"6\" stroke-width=\"2\"/><text x=\"188.0\" y=\"134\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">200</text><text x=\"200\" y=\"168\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">選打工，放棄中價值最高的是讀書</text><text x=\"200\" y=\"188\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">機會成本＝300 元（不是 300＋200）</text></svg>",
+      "caption": "機會成本是被放棄選項中最高價值的那一個。"
+    },
+    {
+      "title": "價格如何影響資源分配",
+      "points": [
+        "一般情況下，價格愈高，消費者願意買的數量愈少（需求量減少）；生產者願意賣的數量愈多（供給量增加）。",
+        "供給線與需求線的交點是均衡點，對應的價格是均衡價格，此時需求量等於供給量。",
+        "價格高於均衡價格時供給量大於需求量，出現過剩，賣家會降價；價格低於均衡價格時需求量大於供給量，出現短缺，價格會被推高。",
+        "價格像訊號：價格上升引導資源流向更被需要的商品與服務。",
+        "迷思：「需求量減少」是價格變動造成的沿線移動，不要和需求的整條線移動混為一談。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"180\" stroke-width=\"2\"/><line x1=\"50\" y1=\"180\" x2=\"330\" y2=\"180\" stroke-width=\"2\"/><text x=\"50\" y=\"14\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">價格</text><text x=\"330\" y=\"198\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">數量</text><line x1=\"70\" y1=\"40\" x2=\"300\" y2=\"160\" class=\"hl\" stroke-width=\"3\"/><line x1=\"70\" y1=\"160\" x2=\"300\" y2=\"40\" class=\"hl2\" stroke-width=\"3\"/><text x=\"306\" y=\"168\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\" class=\"hl\">需求 D</text><text x=\"306\" y=\"40\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\" class=\"hl2\">供給 S</text><circle cx=\"185\" cy=\"100\" r=\"5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"185\" y1=\"100\" x2=\"185\" y2=\"180\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"50\" y1=\"100\" x2=\"185\" y2=\"100\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"42\" y=\"104\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">P*</text><text x=\"185\" y=\"198\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">Q*</text><text x=\"185\" y=\"66\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">均衡點</text><text x=\"180\" y=\"222\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">價格高於 P*：供給量大於需求量（過剩）</text><text x=\"180\" y=\"242\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">價格低於 P*：需求量大於供給量（短缺）</text></svg>",
+      "caption": "需求與供給的交點就是均衡價格與均衡數量。"
+    },
+    {
+      "title": "各種分配資源的方法",
+      "points": [
+        "價格機制（價高者得）：能把資源給願意且有能力付出較高代價的人；缺點是所得較低的人可能買不起。",
+        "先來後到（排隊）：規則簡單；缺點是浪費時間，動作快的人較有利，不一定給最需要的人。",
+        "抽籤：每個人機會均等；缺點是結果靠運氣，不一定分給最需要的人。",
+        "配給（由政府或機構訂標準分配）：可照顧基本需求；缺點是缺乏彈性，標準難訂，可能有黑市。",
+        "沒有一種方法在所有情況都最好，要依資源種類、目標（效率或公平）來選擇。"
+      ]
+    },
+    {
+      "title": "交易與貿易",
+      "points": [
+        "自給自足：自己生產所需，但每個人能力與資源有限，效率低。",
+        "分工與交易：每個人專注擅長的生產，再用交易取得其他東西，整體生產量增加、生活水準提升。",
+        "自願的交易對雙方都有利：因為雙方都認為自己得到的東西，比交出去的更有價值。",
+        "開放外國商品進口：好處是消費者選擇多、價格可能降低；壞處是國內同類產業可能受到衝擊，影響就業。"
+      ]
+    },
+    {
+      "title": "貨幣與支付工具",
+      "points": [
+        "物物交換的困難：需要剛好找到彼此都需要對方東西的人，又難以比較價值，交易成本高。",
+        "貨幣的功能：交易媒介（大家都接受）、價值衡量（標示價格）、價值儲存（可留待以後使用）。",
+        "儲值卡（如悠遊卡）：要先存入金額，餘額用完要再加值，花多少是已存入的錢。",
+        "信用卡：先消費、後付款，等於向銀行短期借款；逾期未全額繳清要付利息，使用不當可能背債。",
+        "儲值卡與信用卡的最大差異：儲值卡是「先付錢再花」，信用卡是「先花錢再還」。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 168\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"10\" y=\"18\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">物物交換的困難</text><rect x=\"10\" y=\"28\" width=\"120\" height=\"34\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"70\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">甲：有雞，想要布</text><rect x=\"140\" y=\"28\" width=\"120\" height=\"34\" rx=\"6\" stroke-width=\"2\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">乙：有布，想要米</text><rect x=\"270\" y=\"28\" width=\"120\" height=\"34\" rx=\"6\" stroke-width=\"2\"/><text x=\"330\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">丙：有米，想要雞</text><text x=\"200\" y=\"84\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">三人需求兜不起來，很難直接交換</text><text x=\"10\" y=\"114\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">貨幣的三種功能</text><rect x=\"10\" y=\"124\" width=\"120\" height=\"32\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"70\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">交易媒介</text><rect x=\"140\" y=\"124\" width=\"120\" height=\"32\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"200\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">價值衡量</text><rect x=\"270\" y=\"124\" width=\"120\" height=\"32\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"330\" y=\"145\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">價值儲存</text></svg>",
+      "caption": "貨幣解決了物物交換的不便。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "稀少性",
+      "body": "資源有限、慾望無窮，所以必須選擇。"
+    },
+    {
+      "name": "機會成本",
+      "body": "放棄的選項中價值最高的一項（不是加總）。"
+    },
+    {
+      "name": "均衡價格",
+      "body": "需求量等於供給量時的價格。"
+    },
+    {
+      "name": "價格變動",
+      "body": "價格高於均衡：過剩；低於均衡：短缺。"
+    },
+    {
+      "name": "分配方式",
+      "body": "價格、先來後到、抽籤、配給，各有優缺點。"
+    },
+    {
+      "name": "自願交易",
+      "body": "雙方都覺得拿到的比交出的更有價值。"
+    },
+    {
+      "name": "貨幣功能",
+      "body": "交易媒介、價值衡量、價值儲存。"
+    },
+    {
+      "name": "儲值卡與信用卡",
+      "body": "儲值卡先付後花；信用卡先花後付。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-12-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "機會成本定義",
+      "q": "下列關於「機會成本」的敘述，何者正確？",
+      "choices": [
+        "做選擇時，所放棄的其他選項中價值最高的一項",
+        "做選擇時，所放棄的所有選項的價值加總",
+        "做選擇時，實際花掉的金額",
+        "做選擇後所獲得的全部好處"
+      ],
+      "answer": 0,
+      "explain": "機會成本是放棄的最佳選擇的價值，因此是被放棄選項中價值最高的一項。\n其他選項：「做選擇時，所放棄的所有選項的價值加總」機會成本只取放棄項目中最高的，不加總；「做選擇時，實際花掉的金額」機會成本不一定是花掉的錢，可以是時間、收入或享受；「做選擇後所獲得的全部好處」機會成本是放棄的價值，不是得到的好處。\n答案是「做選擇時，所放棄的其他選項中價值最高的一項」。",
+      "codes": [
+        "公 Bl-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-12-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "機會成本計算",
+      "q": "週日下午，小明可以三選一：補習（價值 450 元）、打工（可賺 500 元）、看電影（價值 250 元）。如果他選擇打工，機會成本是多少？",
+      "choices": [
+        "250 元",
+        "500 元",
+        "450 元",
+        "700 元"
+      ],
+      "answer": 2,
+      "explain": "選打工後放棄的是補習（450 元）與看電影（250 元），機會成本取最高的 450 元。\n其他選項：「250 元」這只是放棄項目中價值較低的一個，不是最高；「500 元」500 元是選擇打工的收入，不是放棄的價值；「700 元」把放棄的兩項加總了，機會成本只取最高一項。\n答案是「450 元」。",
+      "codes": [
+        "公 Bl-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-12-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "儲值卡與信用卡",
+      "q": "下列關於儲值卡與信用卡的敘述，何者正確？",
+      "choices": [
+        "儲值卡與信用卡都是先消費、之後再付款",
+        "儲值卡是先消費後付款，信用卡是先存入金額再消費",
+        "信用卡消費不需要付錢，不會有債務",
+        "儲值卡要先存入金額再消費，信用卡則是先消費、之後再付款"
+      ],
+      "answer": 3,
+      "explain": "儲值卡是預先存入金額、花多少扣多少；信用卡是先由銀行墊付，之後依帳單還款。\n其他選項：「儲值卡與信用卡都是先消費、之後再付款」儲值卡要先存入金額才能花；「儲值卡是先消費後付款，信用卡是先存入金額再消費」兩者的說法顛倒了；「信用卡消費不需要付錢，不會有債務」信用卡消費之後仍須付款，逾期還有利息。\n答案是「儲值卡要先存入金額再消費，信用卡則是先消費、之後再付款」。",
+      "codes": [
+        "公 Bp-Ⅳ-2",
+        "公 Bp-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-12-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "均衡價格",
+      "q": "下表是某市集某種商品在不同價格下的需求量與供給量：\n價格（元）：10、20、30、40、50\n需求量（個）：90、70、50、30、10\n供給量（個）：10、30、50、70、90\n依表中資料，這項商品的均衡價格是多少？",
+      "choices": [
+        "20 元",
+        "30 元",
+        "40 元",
+        "50 元"
+      ],
+      "answer": 1,
+      "explain": "均衡價格是需求量等於供給量時的價格。價格 30 元時，需求量與供給量都是 50 個，所以均衡價格是 30 元。\n其他選項：「20 元」價格 20 元時需求量 70 大於供給量 30，是短缺；「40 元」價格 40 元時供給量 70 大於需求量 30，是過剩；「50 元」價格 50 元時供給量 90 遠大於需求量 10，是過剩。\n答案是「30 元」。",
+      "codes": [
+        "公 Bl-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "h9-12-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "資源分配方式",
+      "q": "熱門球鞋限量發售，店家採用抽籤的方式決定誰能購買。與「價高者得」相比，抽籤最主要的優點是什麼？",
+      "choices": [
+        "每個人買到的機會均等，不會因所得較低就完全被排除",
+        "一定能把鞋子分給最需要的人",
+        "保證店家賺到最高利潤",
+        "讓消費者排隊等候的時間變得更長"
+      ],
+      "answer": 0,
+      "explain": "價高者得讓所得低的人較難買到；抽籤讓每個人有均等機會，這是它在公平面的優點，缺點則是結果靠運氣。\n其他選項：「一定能把鞋子分給最需要的人」抽籤靠運氣，不能保證給最需要的人；「保證店家賺到最高利潤」抽籤並不保證店家利潤最大；「讓消費者排隊等候的時間變得更長」排隊等候是先來後到的特色，不是抽籤的優點。\n答案是「每個人買到的機會均等，不會因所得較低就完全被排除」。",
+      "codes": [
+        "公 Bl-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "h9-12-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "貨幣的出現",
+      "q": "甲有雞想換布，布商卻想換米，米商想要的是雞。三人都找不到可以直接交換的人，只好四處打聽。這個情況最能說明貨幣出現的哪一項原因？",
+      "choices": [
+        "政府需要向人民徵稅，所以發行貨幣",
+        "貨幣能讓人不必再工作就獲得財富",
+        "物物交換需要雙方剛好互相需要，交易困難而成本高",
+        "物品沒有價值，所以必須用貨幣代替"
+      ],
+      "answer": 2,
+      "explain": "物物交換必須剛好遇到彼此需要對方東西的人，才能成交；有了大家都接受的貨幣，就能先賣出再買入，降低交易困難。\n其他選項：「政府需要向人民徵稅，所以發行貨幣」情境說明的是交易困難，與徵稅無關；「貨幣能讓人不必再工作就獲得財富」貨幣本身不能憑空創造財富；「物品沒有價值，所以必須用貨幣代替」物品當然有價值，問題在於交換不易。\n答案是「物物交換需要雙方剛好互相需要，交易困難而成本高」。",
+      "codes": [
+        "公 Bp-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-12-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "價格與供需",
+      "q": "市集主辦單位把下表中商品的價格固定為每個 10 元：\n價格（元）：5、10、15、20、25\n需求量（個）：80、60、40、20、0\n供給量（個）：0、20、40、60、80\n依表中資料，在這個價格下，市場會出現什麼情形？",
+      "choices": [
+        "過剩 40 個，賣家需要降價",
+        "短缺 20 個，沒有影響",
+        "供給量等於需求量，市場平衡",
+        "短缺 40 個，可能出現搶購或黑市"
+      ],
+      "answer": 3,
+      "explain": "10 元時需求量 60、供給量 20，需求量大於供給量，短缺 60 減 20 等於 40 個；價格若被固定在低於均衡價格，會出現搶購甚至黑市。\n其他選項：「過剩 40 個，賣家需要降價」價格 10 元時需求量 60 大於供給量 20，是短缺不是過剩；「短缺 20 個，沒有影響」短缺量是 60 減 20 等於 40，不是 20；「供給量等於需求量，市場平衡」此表的均衡價格是 15 元，10 元時並不平衡。\n答案是「短缺 40 個，可能出現搶購或黑市」。",
+      "codes": [
+        "公 Bl-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "h9-12-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "機會成本計算",
+      "q": "週六小玲有一整天可自由運用，有三個選擇：① 打工 8 小時，時薪 140 元；② 幫親戚顧店 5 小時，每小時 250 元，其餘時間休息；③ 參加免費講座，她認為價值相當於 1000 元。若小玲選擇參加講座，機會成本是多少？",
+      "choices": [
+        "1000 元",
+        "1250 元",
+        "1120 元",
+        "2370 元"
+      ],
+      "answer": 1,
+      "explain": "先算放棄項目的價值：打工是 8 乘 140 等於 1120 元，顧店是 5 乘 250 等於 1250 元。機會成本取最高的 1250 元。\n其他選項：「1000 元」1000 元是講座對她的價值，不是放棄項目的價值；「1120 元」這只算了打工，沒有找出放棄項目中最高的顧店；「2370 元」把放棄的兩項加總了，機會成本只取最高的一項。\n答案是「1250 元」。",
+      "codes": [
+        "公 Bl-Ⅳ-2",
+        "公 Bl-Ⅳ-3"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 11 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：價格與供需變動（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 12 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：經濟全球化與疫情擴散（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 25 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：關稅與進口市場競爭（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 38 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：消費者資訊與偏好（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 41 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：匯率變動與進口成本（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 13 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：市場競爭程度與廠商進駐（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 37 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：社會企業與公平貿易（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 39 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：匯率變動與移工機會成本（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 47 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：誘因與選號偏好（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 11 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：交易媒介比較貨幣與儲值卡信用卡（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 14 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：開放進口對產品選擇與消費者影響（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 24 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：高速公路回數票與支付方式（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 39 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：全球化對漁民生計影響（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 46 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：電動自行車使用的機會成本（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「機會成本」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%A9%9F%E6%9C%83%E6%88%90%E6%9C%AC"
+    },
+    {
+      "label": "均一教育平台：搜尋「價格與市場」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%83%B9%E6%A0%BC%E8%88%87%E5%B8%82%E5%A0%B4"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

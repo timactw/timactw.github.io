@@ -4,9 +4,13 @@
  "order": 3,
  "icon": "🌏",
  "color": "#a0662b",
- "status": "coming",
- "blurb": "八、九年級歷史、地理、公民",
+ "status": "ready",
+ "blurb": "九年級世界史、世界區域地理、公民（七、八年級即將推出）",
  "groups": [
+  {
+   "grade": 7,
+   "title": "七年級"
+  },
   {
    "grade": 8,
    "title": "八年級"
@@ -16,5 +20,195 @@
    "title": "九年級"
   }
  ],
- "units": []
+ "curriculum": {
+  "title": "十二年國教課綱 社會領域（第四學習階段：歷史、地理、公民與社會）",
+  "url": "https://www.naer.edu.tw/upload/1/16/doc/819/十二年國民基本教育課程綱要國民中小學暨普通型高級中等校-社會領域.pdf",
+  "note": "學習內容編碼如 歷 Qa-Ⅳ-1、地 Bf-Ⅳ-1、公 Be-Ⅳ-1；課綱不分年級，單元的年級分配依常見教學順序，各版本略有出入。"
+ },
+ "pastPapers": {
+  "label": "心測中心歷屆試題（社會科）",
+  "url": "https://cap.rcpet.edu.tw/examination.html"
+ },
+ "defaultLinks": [
+  {
+   "label": "均一教育平台",
+   "url": "https://www.junyiacademy.org/"
+  }
+ ],
+ "units": [
+  {
+   "id": "h9-01",
+   "title": "古代文明與普世宗教",
+   "grade": 9,
+   "order": 1,
+   "codes": [
+    "歷 Na-Ⅳ-1",
+    "歷 Na-Ⅳ-2",
+    "歷 Nb-Ⅳ-1",
+    "歷 Nb-Ⅳ-2",
+    "歷 Nb-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-02",
+   "title": "近代歐洲的興起與海外擴張",
+   "grade": 9,
+   "order": 2,
+   "codes": [
+    "歷 Oa-Ⅳ-1",
+    "歷 Oa-Ⅳ-2",
+    "歷 Oa-Ⅳ-3",
+    "歷 Ob-Ⅳ-1",
+    "歷 Ob-Ⅳ-2",
+    "歷 Ob-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-03",
+   "title": "民主革命、工業革命與民族主義",
+   "grade": 9,
+   "order": 3,
+   "codes": [
+    "歷 Qa-Ⅳ-1",
+    "歷 Qa-Ⅳ-2",
+    "歷 Qa-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-04",
+   "title": "帝國主義與第一次世界大戰",
+   "grade": 9,
+   "order": 4,
+   "codes": [
+    "歷 Qb-Ⅳ-1",
+    "歷 Qb-Ⅳ-2",
+    "歷 Qb-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-05",
+   "title": "戰間期、第二次世界大戰與戰後世界",
+   "grade": 9,
+   "order": 5,
+   "codes": [
+    "歷 Qc-Ⅳ-1",
+    "歷 Qc-Ⅳ-2",
+    "歷 Qc-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-06",
+   "title": "西亞、北非與漠南非洲",
+   "grade": 9,
+   "order": 6,
+   "codes": [
+    "地 Bf-Ⅳ-1",
+    "地 Bf-Ⅳ-2",
+    "地 Bf-Ⅳ-3",
+    "地 Bg-Ⅳ-1",
+    "地 Bg-Ⅳ-2",
+    "地 Bg-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-07",
+   "title": "歐洲與俄羅斯",
+   "grade": 9,
+   "order": 7,
+   "codes": [
+    "地 Bh-Ⅳ-1",
+    "地 Bh-Ⅳ-2",
+    "地 Bh-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-08",
+   "title": "美洲",
+   "grade": 9,
+   "order": 8,
+   "codes": [
+    "地 Bi-Ⅳ-1",
+    "地 Bi-Ⅳ-2",
+    "地 Bi-Ⅳ-3"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-09",
+   "title": "糧食、食品安全與氣候變遷",
+   "grade": 9,
+   "order": 9,
+   "codes": [
+    "地 Cb-Ⅳ-1",
+    "地 Cb-Ⅳ-2",
+    "地 Cb-Ⅳ-3",
+    "地 Bc-Ⅳ-2"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-10",
+   "title": "民主政府與憲法",
+   "grade": 9,
+   "order": 10,
+   "codes": [
+    "公 Bd-Ⅳ-1",
+    "公 Be-Ⅳ-1",
+    "公 Be-Ⅳ-2",
+    "公 Be-Ⅳ-3",
+    "公 Bf-Ⅳ-1",
+    "公 Bf-Ⅳ-2",
+    "公 Bg-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-11",
+   "title": "法律、犯罪與民事責任",
+   "grade": 9,
+   "order": 11,
+   "codes": [
+    "公 Bh-Ⅳ-1",
+    "公 Bh-Ⅳ-2",
+    "公 Bi-Ⅳ-1",
+    "公 Bi-Ⅳ-2",
+    "公 Bi-Ⅳ-3",
+    "公 Bj-Ⅳ-1",
+    "公 Bj-Ⅳ-2",
+    "公 Bj-Ⅳ-3",
+    "公 Bj-Ⅳ-4",
+    "公 Bj-Ⅳ-5",
+    "公 Bk-Ⅳ-1"
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "h9-12",
+   "title": "資源、交易與貨幣",
+   "grade": 9,
+   "order": 12,
+   "codes": [
+    "公 Bl-Ⅳ-1",
+    "公 Bl-Ⅳ-2",
+    "公 Bl-Ⅳ-3",
+    "公 Bl-Ⅳ-4",
+    "公 Bl-Ⅳ-5",
+    "公 Bn-Ⅳ-1",
+    "公 Bn-Ⅳ-2",
+    "公 Bn-Ⅳ-3",
+    "公 Bn-Ⅳ-4",
+    "公 Bp-Ⅳ-1",
+    "公 Bp-Ⅳ-2",
+    "公 Bp-Ⅳ-3"
+   ],
+   "quizCount": 8
+  }
+ ]
 }

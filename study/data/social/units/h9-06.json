@@ -1,0 +1,324 @@
+{
+  "id": "h9-06",
+  "subject": "social",
+  "grade": 9,
+  "order": 6,
+  "title": "西亞、北非與漠南非洲",
+  "codes": [
+    {
+      "code": "地 Bf-Ⅳ-1",
+      "text": "自然環境與資源。"
+    },
+    {
+      "code": "地 Bf-Ⅳ-2",
+      "text": "伊斯蘭文化的發展與特色。"
+    },
+    {
+      "code": "地 Bf-Ⅳ-3",
+      "text": "國際衝突的焦點。"
+    },
+    {
+      "code": "地 Bg-Ⅳ-1",
+      "text": "自然環境與資源。"
+    },
+    {
+      "code": "地 Bg-Ⅳ-2",
+      "text": "漠南非洲的文化特色與影響。"
+    },
+    {
+      "code": "地 Bg-Ⅳ-3",
+      "text": "現代經濟的發展與挑戰。"
+    }
+  ],
+  "intro": "這個單元學西亞北非的乾燥環境、石油與水資源、伊斯蘭文化與國際衝突，以及漠南非洲的環境、文化與經濟發展。會考常考氣候資料判讀、資源分布、文化概念辨別，以及圖表題。",
+  "sections": [
+    {
+      "title": "西亞與北非：乾燥的自然環境",
+      "points": [
+        "位置：西亞在亞洲西南部，北非在撒哈拉沙漠北部與地中海南岸；兩區相連，常合稱為西亞北非。",
+        "氣候：大部分地區受副熱帶高壓與信風帶影響，下沉氣流不易成雨，所以以沙漠與乾燥氣候為主，例如撒哈拉沙漠與阿拉伯半島。",
+        "地中海沿岸屬地中海型氣候（夏乾冬雨）；土耳其與伊朗多高原山地，氣候較涼。",
+        "水源：農業與人口集中在尼羅河谷與三角洲、兩河流域（底格里斯河與幼發拉底河）和各地綠洲，這些河流是從別處流來的外來河，也孕育出古文明。",
+        "迷思：西亞北非不是處處是沙漠，河谷、高原與地中海沿岸都有農業與大城市。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 236\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"200\" y=\"20\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">年降水量（相對高低）</text><line x1=\"20\" y1=\"160\" x2=\"392\" y2=\"160\"/><rect x=\"42\" y=\"105\" width=\"50\" height=\"55\" rx=\"6\" class=\"soft\"/><text x=\"67\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">地中海沿岸</text><text x=\"67\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">夏乾冬雨</text><rect x=\"137\" y=\"154\" width=\"50\" height=\"6\" rx=\"6\" class=\"soft\"/><text x=\"162\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">撒哈拉沙漠</text><text x=\"162\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">終年極乾</text><rect x=\"232\" y=\"132\" width=\"50\" height=\"28\" rx=\"6\" class=\"soft\"/><text x=\"257\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">薩赫爾</text><text x=\"257\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">半乾燥草原</text><rect x=\"327\" y=\"60\" width=\"50\" height=\"100\" rx=\"6\" class=\"soft2\"/><text x=\"352\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">熱帶雨林</text><text x=\"352\" y=\"200\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">終年多雨</text><line x1=\"44\" y1=\"220\" x2=\"356\" y2=\"220\"/><polyline points=\"348,215 356,220 348,225\"/><text x=\"20\" y=\"225\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北</text><text x=\"380\" y=\"225\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">南</text></svg>",
+      "caption": "北非到漠南非洲由北向南的降水變化示意（柱子愈高，降水愈多）。"
+    },
+    {
+      "title": "石油資源與經濟",
+      "points": [
+        "波斯灣沿岸蘊藏豐富的石油與天然氣，沙烏地阿拉伯、伊朗、伊拉克、科威特與阿拉伯聯合大公國都是重要產油國。",
+        "石油輸出國家組織（OPEC）1960 年成立，產油國藉此協調產量與價格。",
+        "產油國因石油出口而富裕，但經濟常依賴單一資源；石油價格大幅變動時，國家收入也隨之起伏。",
+        "乾燥地區水資源缺乏，部分國家利用地下水、海水淡化與灌溉維持農業與民生用水。",
+        "石油是世界重要的能源，西亞局勢因而與國際經濟息息相關。"
+      ]
+    },
+    {
+      "title": "伊斯蘭文化的特色",
+      "points": [
+        "伊斯蘭教七世紀初由穆罕默德在阿拉伯半島的麥加傳出，信徒稱為穆斯林，信奉唯一的真主（阿拉），經典是《古蘭經》。",
+        "五功：唸功（信仰告白）、禮功（每日五次禮拜，朝向麥加）、齋功（齋戒月日間禁食）、課功（天課，濟助貧者）、朝功（有能力者一生至少朝覲麥加一次）。",
+        "生活：重視清真飲食，禁食豬肉與飲酒；清真寺常有圓頂與宣禮塔；禁止崇拜偶像，因此藝術多用幾何圖案與阿拉伯文書法。",
+        "主要教派是遜尼派與什葉派；伊朗以什葉派為主。",
+        "迷思：阿拉伯人不等於穆斯林。伊朗人（說波斯語）與土耳其人多數信伊斯蘭教，卻不是阿拉伯人；阿拉伯人也有信仰基督教或其他宗教的。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 140\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"210\" y=\"20\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">伊斯蘭教五功</text><rect x=\"8\" y=\"34\" width=\"74\" height=\"92\" rx=\"6\" class=\"soft\"/><text x=\"45\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">唸功</text><text x=\"45\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">信仰告白</text><text x=\"45\" y=\"106\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">唯一真主</text><rect x=\"90\" y=\"34\" width=\"74\" height=\"92\" rx=\"6\" class=\"soft2\"/><text x=\"127\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">禮功</text><text x=\"127\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">每日禮拜</text><text x=\"127\" y=\"106\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">五次</text><rect x=\"172\" y=\"34\" width=\"74\" height=\"92\" rx=\"6\" class=\"soft\"/><text x=\"209\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">齋功</text><text x=\"209\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">齋戒月</text><text x=\"209\" y=\"106\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">日間禁食</text><rect x=\"254\" y=\"34\" width=\"74\" height=\"92\" rx=\"6\" class=\"soft2\"/><text x=\"291\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">課功</text><text x=\"291\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">天課</text><text x=\"291\" y=\"106\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">濟助貧者</text><rect x=\"336\" y=\"34\" width=\"74\" height=\"92\" rx=\"6\" class=\"soft\"/><text x=\"373\" y=\"60\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">朝功</text><text x=\"373\" y=\"86\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">朝覲</text><text x=\"373\" y=\"106\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">前往麥加</text></svg>",
+      "caption": "伊斯蘭教的五功。"
+    },
+    {
+      "title": "國際衝突的焦點",
+      "points": [
+        "巴勒斯坦地區：耶路撒冷是猶太教、基督教與伊斯蘭教共同的聖地；1948 年以色列建國後，阿拉伯國家與以色列發生多次戰爭，領土、聖城、難民與安全等問題至今仍待解決。",
+        "石油與勢力：波斯灣的石油關係各國利益，1990 年伊拉克入侵科威特，引發 1991 年波斯灣戰爭。",
+        "水資源：乾燥地區的河流常跨越多國，上下游國家對水壩與用水分配容易產生爭議。",
+        "內戰與難民：2011 年起敘利亞內戰，造成大量難民前往鄰國與歐洲。",
+        "解題提醒：衝突原因常結合宗教、民族、領土與資源，不要只用單一原因解釋。"
+      ]
+    },
+    {
+      "title": "漠南非洲的自然環境與文化",
+      "points": [
+        "位置：「漠南」是指撒哈拉沙漠以南；赤道通過剛果盆地，所以中部是熱帶雨林，往南北依序是熱帶草原，再往外是乾燥地區。",
+        "東非有高原與大裂谷，高原上的草原是大型野生動物的家園，也發展出觀光業。",
+        "撒哈拉南緣的薩赫爾是半乾燥草原帶，降水不穩定，過度放牧與乾旱容易造成土地荒漠化。",
+        "文化：族群與語言眾多，語言多達上千種；傳統信仰、基督教與伊斯蘭教並存，北部與東岸伊斯蘭教較多，南部與沿海基督教較多。",
+        "歷史：十六到十九世紀的大西洋奴隸貿易使大量人口被運往美洲；十九世紀末殖民地邊界又被列強人為劃定，影響後來的族群與國家關係。"
+      ]
+    },
+    {
+      "title": "漠南非洲的現代經濟",
+      "points": [
+        "礦產：南非的黃金與鑽石、剛果民主共和國的銅與鈷、奈及利亞的石油，都是重要出口。",
+        "經濟作物：迦納與象牙海岸的可可、衣索比亞與肯亞的咖啡、肯亞的茶，多源自殖民時期的種植園。",
+        "單一經濟：許多國家出口集中在少數初級產品，價格受國際市場影響大，收入不穩定。",
+        "挑戰：工業基礎弱、基礎建設不足、貧窮、疾病（如瘧疾、愛滋病）與政治不穩，限制了發展。",
+        "發展方向：發展觀光、提升農產品加工，以及手機與行動支付等新科技，讓產業更多元。",
+        "公平貿易：讓農民得到合理價格的貿易方式，目的是改善生產者的生活。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"8\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft\"/><text x=\"200.0\" y=\"31\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">出口集中在少數初級產品</text><line x1=\"200.0\" y1=\"44\" x2=\"200.0\" y2=\"74\"/><polyline points=\"195.0,66 200.0,74 205.0,66\"/><rect x=\"70\" y=\"74\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft\"/><text x=\"200.0\" y=\"97\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">國際價格下跌</text><line x1=\"200.0\" y1=\"110\" x2=\"200.0\" y2=\"140\"/><polyline points=\"195.0,132 200.0,140 205.0,132\"/><rect x=\"70\" y=\"140\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft2\"/><text x=\"200.0\" y=\"163\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">國家收入與外匯減少</text><line x1=\"200.0\" y1=\"176\" x2=\"200.0\" y2=\"206\"/><polyline points=\"195.0,198 200.0,206 205.0,198\"/><rect x=\"70\" y=\"206\" width=\"260\" height=\"36\" rx=\"6\" class=\"soft2\"/><text x=\"200.0\" y=\"229\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">難以投資教育與基礎建設</text></svg>",
+      "caption": "單一經濟的風險。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "乾燥主因",
+      "body": "副熱帶高壓與信風帶，下沉氣流使雨量少"
+    },
+    {
+      "name": "外來河",
+      "body": "尼羅河、底格里斯河、幼發拉底河；河谷與三角洲是農業與古文明中心"
+    },
+    {
+      "name": "石油",
+      "body": "集中在波斯灣沿岸；OPEC 1960 年成立"
+    },
+    {
+      "name": "五功",
+      "body": "唸、禮、齋、課、朝"
+    },
+    {
+      "name": "穆斯林",
+      "body": "信伊斯蘭教的人；不一定是阿拉伯人"
+    },
+    {
+      "name": "耶路撒冷",
+      "body": "猶太教、基督教、伊斯蘭教共同聖地"
+    },
+    {
+      "name": "漠南非洲",
+      "body": "撒哈拉沙漠以南；薩赫爾位於沙漠南緣，易荒漠化"
+    },
+    {
+      "name": "單一經濟",
+      "body": "出口集中少數初級產品，易受國際價格影響"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-06-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "西亞北非乾燥原因",
+      "q": "西亞與北非的大部分地區屬於乾燥氣候，最主要的原因是什麼？",
+      "choices": [
+        "位於赤道附近，終年受赤道低壓影響，對流雨豐沛",
+        "緯度很高，終年被冰雪覆蓋，空氣中水氣很少",
+        "位於副熱帶高壓帶與信風帶，下沉氣流使空氣不易形成降雨",
+        "地勢低平，海洋水氣能深入內陸，所以降水量大"
+      ],
+      "answer": 2,
+      "explain": "副熱帶高壓與信風帶的下沉氣流使空氣不易上升成雲致雨，所以西亞北非以沙漠與乾燥氣候為主。其他選項：赤道低壓的對流雨豐沛，是熱帶雨林的成因，不是乾燥的原因；該區緯度不高，並非終年冰雪；若海洋水氣能深入內陸，降水就會增加，與乾燥矛盾。答案是位於副熱帶高壓帶與信風帶，下沉氣流使空氣不易形成降雨。",
+      "codes": [
+        "地 Bf-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-06-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "伊斯蘭教基本特色",
+      "q": "關於伊斯蘭教的敘述，下列何者正確？",
+      "choices": [
+        "信徒稱為穆斯林，信奉唯一的真主阿拉，經典是《古蘭經》",
+        "創始人是耶穌，經典是《聖經》",
+        "信徒以祭拜多位神明為主，並鼓勵製作神像",
+        "信徒每年都必須前往麥加朝覲，否則就不算穆斯林"
+      ],
+      "answer": 0,
+      "explain": "穆斯林信奉唯一的真主，經典是《古蘭經》。其他選項：耶穌與《聖經》屬於基督教；伊斯蘭教是一神信仰，並禁止崇拜偶像；朝覲是五功之一，但只要求有能力者一生至少一次，不是每年。答案是信徒稱為穆斯林，信奉唯一的真主阿拉，經典是《古蘭經》。",
+      "codes": [
+        "地 Bf-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-06-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "漠南非洲範圍",
+      "q": "「漠南非洲」的「漠」是指下列哪一個沙漠？",
+      "choices": [
+        "阿拉伯沙漠",
+        "納米布沙漠",
+        "卡拉哈里沙漠",
+        "撒哈拉沙漠"
+      ],
+      "answer": 3,
+      "explain": "漠南非洲指撒哈拉沙漠以南的非洲地區。其他選項：阿拉伯沙漠在亞洲的阿拉伯半島；納米布沙漠與卡拉哈里沙漠都在非洲南部，本身就位於漠南非洲之內。答案是撒哈拉沙漠。",
+      "codes": [
+        "地 Bg-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-06-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "氣候資料判讀",
+      "q": "甲、乙、丙三地分別位於撒哈拉沙漠、地中海南岸、剛果盆地其中之一，各月降水量（毫米）如下：\n月份：1　2　3　4　5　6　7　8　9　10　11　12\n甲：2　3　2　1　0　0　0　0　1　2　3　3\n乙：88　70　62　40　20　4　1　2　20　60　90　98\n丙：150　140　180　190　170　140　120　130　160　190　200　160\n依資料判斷，三地的位置搭配，何者最合理？",
+      "choices": [
+        "甲：剛果盆地；乙：撒哈拉沙漠；丙：地中海南岸",
+        "甲：撒哈拉沙漠；乙：地中海南岸；丙：剛果盆地",
+        "甲：地中海南岸；乙：剛果盆地；丙：撒哈拉沙漠",
+        "甲：撒哈拉沙漠；乙：剛果盆地；丙：地中海南岸"
+      ],
+      "answer": 1,
+      "explain": "甲全年雨量加起來只有 17 毫米，是沙漠；乙夏季（6 至 8 月）幾乎無雨、冬季（12 至 2 月）多雨，是地中海型氣候；丙每月都超過 100 毫米，年雨量約 1930 毫米，是熱帶雨林。所以甲是撒哈拉沙漠，乙是地中海南岸，丙是剛果盆地。其他選項：把甲或乙、丙的位置互換，都和資料不符，例如全年多雨的丙不可能是沙漠。答案是甲：撒哈拉沙漠；乙：地中海南岸；丙：剛果盆地。",
+      "codes": [
+        "地 Bf-Ⅳ-1",
+        "地 Bg-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-06-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "水資源爭端",
+      "q": "某條河流流經乾燥地區的兩個國家。上游國家計畫興建大型水壩，下游國家以河水灌溉農田與供應民生用水，擔心水量減少而提出抗議。這個例子最能說明西亞北非的哪一種現象？",
+      "choices": [
+        "乾燥地區的水資源珍貴，跨國河流的使用容易引發國際爭端",
+        "當地的國際衝突完全由宗教教義不同造成，和資源無關",
+        "沙漠地區降雨充足，因此河水不會成為問題",
+        "石油資源豐富，所以各國都不缺水"
+      ],
+      "answer": 0,
+      "explain": "在乾燥地區，水是珍貴資源，跨國河流的上下游國家容易因水壩與用水分配產生爭端。其他選項：衝突常結合宗教、領土與資源，不能說與資源無關；沙漠地區降雨稀少，不是充足；有石油並不代表有水，產油國常需要海水淡化。答案是乾燥地區的水資源珍貴，跨國河流的使用容易引發國際爭端。",
+      "codes": [
+        "地 Bf-Ⅳ-3",
+        "地 Bf-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-06-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "阿拉伯人與穆斯林",
+      "q": "下列關於西亞與北非居民的敘述，何者正確？",
+      "choices": [
+        "西亞所有國家的居民都是阿拉伯人",
+        "阿拉伯人全都信仰伊斯蘭教，沒有信仰其他宗教的人",
+        "全世界的穆斯林都說阿拉伯語，也都住在西亞",
+        "穆斯林是信仰伊斯蘭教的人，不一定是阿拉伯人，例如伊朗人與土耳其人多數也信伊斯蘭教"
+      ],
+      "answer": 3,
+      "explain": "「穆斯林」指信仰伊斯蘭教的人，是宗教身分；「阿拉伯人」是族群與語言的分類，兩者不同。伊朗人與土耳其人多數是穆斯林，但不是阿拉伯人。其他選項：西亞還有伊朗人、土耳其人等其他族群；阿拉伯人中也有基督徒；各地穆斯林使用不同語言，也分布在亞洲與非洲許多地區。答案是穆斯林是信仰伊斯蘭教的人，不一定是阿拉伯人，例如伊朗人與土耳其人多數也信伊斯蘭教。",
+      "codes": [
+        "地 Bf-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-06-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "單一經濟的風險",
+      "q": "下表是漠南非洲甲國某年的出口品比重。\n出口品：可可豆 62%；黃金 20%；其他 18%\n依表中資料，這個國家的經濟最可能面臨什麼問題？",
+      "choices": [
+        "出口以工業製品為主，容易受到原料漲價影響",
+        "出口集中在少數初級產品，收入容易隨國際價格起伏而不穩定",
+        "出口品種類非常多樣，一種產品價格下跌也不會有影響",
+        "出口品中沒有任何來自農業與礦業的產品"
+      ],
+      "answer": 1,
+      "explain": "可可豆（農產品）加黃金（礦產）占出口的 82%，屬於高度集中的初級產品，國際價格一下跌，國家收入就會大幅減少。其他選項：表中可可豆與黃金都不是工業製品；出口集中而非多樣；可可豆是農產品、黃金是礦產，與選項敘述相反。答案是出口集中在少數初級產品，收入容易隨國際價格起伏而不穩定。",
+      "codes": [
+        "地 Bg-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-06-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "薩赫爾荒漠化",
+      "q": "下圖由北向南依序排列四個地帶的年降水量相對高低（柱子愈高，降水愈多）。位於撒哈拉沙漠南緣、因過度放牧與乾旱而容易出現荒漠化的半乾燥草原帶，最可能是圖中的哪一處？",
+      "svg": "<svg viewBox=\"0 0 400 236\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"200\" y=\"20\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">年降水量（相對高低）</text><line x1=\"20\" y1=\"160\" x2=\"392\" y2=\"160\"/><rect x=\"42\" y=\"105\" width=\"50\" height=\"55\" rx=\"6\" class=\"soft\"/><text x=\"67\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">甲</text><rect x=\"137\" y=\"154\" width=\"50\" height=\"6\" rx=\"6\" class=\"soft\"/><text x=\"162\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">乙</text><rect x=\"232\" y=\"132\" width=\"50\" height=\"28\" rx=\"6\" class=\"soft\"/><text x=\"257\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">丙</text><rect x=\"327\" y=\"60\" width=\"50\" height=\"100\" rx=\"6\" class=\"soft2\"/><text x=\"352\" y=\"182\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">丁</text><line x1=\"44\" y1=\"220\" x2=\"356\" y2=\"220\"/><polyline points=\"348,215 356,220 348,225\"/><text x=\"20\" y=\"225\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北</text><text x=\"380\" y=\"225\" text-anchor=\"end\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">南</text></svg>",
+      "choices": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "answer": 2,
+      "explain": "沙漠南緣的半乾燥草原帶，降水比沙漠多、比熱帶雨林少，位置在沙漠與雨林之間，也就是圖中的丙。其他選項：乙降水最少，是撒哈拉沙漠本身；甲在沙漠北方，降水較多，是地中海沿岸；丁降水最多，是熱帶雨林。答案是丙。",
+      "codes": [
+        "地 Bg-Ⅳ-1"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 42 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：蘇丹內戰與尼羅河（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 19 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：漠南非洲人口金字塔（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 27 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：土耳其運河與海峽（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 16 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：漠南非洲平均壽命與經濟條件（圖表題，推測）（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「西亞與北非」",
+      "url": "https://www.junyiacademy.org/search?q=%E8%A5%BF%E4%BA%9E%E8%88%87%E5%8C%97%E9%9D%9E"
+    },
+    {
+      "label": "均一教育平台：搜尋「漠南非洲」",
+      "url": "https://www.junyiacademy.org/search?q=%E6%BC%A0%E5%8D%97%E9%9D%9E%E6%B4%B2"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

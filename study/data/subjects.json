@@ -26,9 +26,9 @@
    "order": 3,
    "icon": "🌏",
    "color": "#a0662b",
-   "status": "coming",
-   "blurb": "八、九年級歷史、地理、公民",
-   "unitCount": 0
+   "status": "ready",
+   "blurb": "九年級世界史、世界區域地理、公民（七、八年級即將推出）",
+   "unitCount": 12
   },
   {
    "id": "chinese",

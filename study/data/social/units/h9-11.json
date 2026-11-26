@@ -1,0 +1,380 @@
+{
+  "id": "h9-11",
+  "subject": "social",
+  "grade": 9,
+  "order": 11,
+  "title": "法律、犯罪與民事責任",
+  "codes": [
+    {
+      "code": "公 Bh-Ⅳ-1",
+      "text": "為什麼行政法與我們日常生活息息相關？"
+    },
+    {
+      "code": "公 Bh-Ⅳ-2",
+      "text": "為什麼政府應依法行政？"
+    },
+    {
+      "code": "公 Bi-Ⅳ-1",
+      "text": "國家為什麼要制定刑法？"
+    },
+    {
+      "code": "公 Bi-Ⅳ-2",
+      "text": "為什麼行為的處罰，必須以行為時的法律有明文規定者為限？"
+    },
+    {
+      "code": "公 Bi-Ⅳ-3",
+      "text": "國家制定刑罰的目的是什麼？"
+    },
+    {
+      "code": "公 Bj-Ⅳ-1",
+      "text": "為什麼一般契約只要雙方當事人合意即可生效，而有些契約必須完成登記方能生效？"
+    },
+    {
+      "code": "公 Bj-Ⅳ-2",
+      "text": "契約不履行會產生哪些責任？"
+    },
+    {
+      "code": "公 Bj-Ⅳ-3",
+      "text": "為什麼一般人能自由訂立契約，而限制行為能力人訂立契約原則上必須得法定代理人同意？"
+    },
+    {
+      "code": "公 Bj-Ⅳ-4",
+      "text": "侵權行為的概念與責任。"
+    },
+    {
+      "code": "公 Bj-Ⅳ-5",
+      "text": "智慧財產權為什麼需要保障？"
+    },
+    {
+      "code": "公 Bk-Ⅳ-1",
+      "text": "為什麼少年應具備重要的兒童及少年保護的相關法律知識？"
+    }
+  ],
+  "intro": "這個單元學行政法、刑法與罪刑法定、契約與不履行責任、侵權行為、智慧財產權與少年保護。會考常用生活情境判斷法律性質、年齡與責任、契約是否生效與侵權責任。",
+  "sections": [
+    {
+      "title": "行政法與依法行政",
+      "points": [
+        "行政法規範的是政府機關與人民之間的關係，例如交通管理、稅捐、環保、建築管理、食品安全。",
+        "依法行政：行政機關做出會影響人民權利的行為，必須有法律依據，不能想罰就罰。",
+        "例子：騎車不戴安全帽被警察開罰單，是行政機關依道路交通管理處罰條例作出的行政處分。",
+        "人民若認為行政處分違法，可以循訴願、行政訴訟等管道尋求救濟。",
+        "迷思：罰款不一定是刑罰。違規罰鍰屬行政罰，刑罰是刑法規定的罰（如徒刑、罰金）。"
+      ]
+    },
+    {
+      "title": "刑法與罪刑法定",
+      "points": [
+        "刑法規定哪些行為是犯罪、要受什麼刑罰，目的是保護社會秩序與人民的生命、身體、財產等權益。",
+        "罪刑法定：行為時的法律沒有明文規定處罰，就不能處罰；也不能用新法去處罰以前的行為（不溯及既往）。",
+        "罪刑法定限制了國家的刑罰權，避免人民因不確定的標準而被處罰。",
+        "刑罰種類（主刑）：死刑、無期徒刑、有期徒刑、拘役、罰金。",
+        "刑罰的目的：讓犯罪者受到應得的責任、預防犯罪（嚇阻一般人、防止本人再犯）、矯正與教化犯人回歸社會。"
+      ]
+    },
+    {
+      "title": "年齡與法律責任",
+      "points": [
+        "民法：未滿 7 歲是無行為能力人；滿 7 歲未滿 18 歲是限制行為能力人；滿 18 歲是成年人。",
+        "刑法：未滿 14 歲的人行為不罰；14 歲以上未滿 18 歲的人行為得減輕其刑；18 歲以上負完全刑責。",
+        "兒童及少年福利與權益保障法：未滿 12 歲為兒童，12 歲以上未滿 18 歲為少年。",
+        "年齡不同，法律保護的程度與要負的責任也不同，這是為了配合未成年人的判斷能力。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 160\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"20\" y=\"22\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">民法：行為能力</text><rect x=\"20\" y=\"30\" width=\"126\" height=\"30\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"83.0\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">無行為能力</text><rect x=\"146\" y=\"30\" width=\"198\" height=\"30\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"245.0\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">限制行為能力</text><rect x=\"344\" y=\"30\" width=\"36\" height=\"30\" rx=\"6\" stroke-width=\"2\"/><text x=\"362.0\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">成年</text><text x=\"20\" y=\"84\" text-anchor=\"start\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">刑法：刑事責任</text><rect x=\"20\" y=\"92\" width=\"252\" height=\"30\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"146.0\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">未滿 14 歲不罰</text><rect x=\"272\" y=\"92\" width=\"72\" height=\"30\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"308.0\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">得減輕</text><rect x=\"344\" y=\"92\" width=\"36\" height=\"30\" rx=\"6\" stroke-width=\"2\"/><text x=\"362.0\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">全責</text><line x1=\"20\" y1=\"62\" x2=\"20\" y2=\"132\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"20\" y=\"150\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">0歲</text><line x1=\"146\" y1=\"62\" x2=\"146\" y2=\"132\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"146\" y=\"150\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">7歲</text><line x1=\"272\" y1=\"62\" x2=\"272\" y2=\"132\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"272\" y=\"150\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">14歲</text><line x1=\"344\" y1=\"62\" x2=\"344\" y2=\"132\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"344\" y=\"150\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">18歲</text></svg>",
+      "caption": "民法與刑法對年齡的分界不同，要分開記。"
+    },
+    {
+      "title": "契約與不履行責任",
+      "points": [
+        "契約是兩個以上的人互相達成合意（一方要約、另一方承諾）所訂定的約定，一般只要雙方意思一致就生效，口頭約定也可以。",
+        "有些契約須完成登記才生效，例如不動產（房屋、土地）所有權的移轉，要辦理移轉登記，保障交易安全。",
+        "契約一旦成立，雙方就要履行；不履行時，對方可以請求強制履行、請求損害賠償，或解除契約。",
+        "限制行為能力人（7 歲以上未滿 18 歲）訂定契約，原則上須得到法定代理人（通常是父母）同意，否則須待其承認才生效。",
+        "例外：接受贈與等只得利益的行為，或依年齡身分日常生活所必需的小額花費，不須事先同意。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"12\" width=\"100\" height=\"34\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"60\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">要約</text><rect x=\"150\" y=\"12\" width=\"100\" height=\"34\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"200\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">承諾</text><rect x=\"290\" y=\"12\" width=\"100\" height=\"34\" rx=\"6\" class=\"soft2\" stroke-width=\"2\"/><text x=\"340\" y=\"34\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">契約成立</text><line x1=\"110\" y1=\"29\" x2=\"148\" y2=\"29\" stroke-width=\"2\"/><polygon points=\"148,29 140.8,32.5 140.8,25.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"250\" y1=\"29\" x2=\"288\" y2=\"29\" stroke-width=\"2\"/><polygon points=\"288,29 280.8,32.5 280.8,25.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"340\" y1=\"46\" x2=\"340\" y2=\"66\" stroke-width=\"2\"/><line x1=\"100\" y1=\"66\" x2=\"340\" y2=\"66\" stroke-width=\"2\"/><line x1=\"100\" y1=\"66\" x2=\"100\" y2=\"92\" stroke-width=\"2\"/><polygon points=\"100,92 96.5,84.8 103.5,84.8\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"300\" y1=\"66\" x2=\"300\" y2=\"92\" stroke-width=\"2\"/><polygon points=\"300,92 296.5,84.8 303.5,84.8\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"10\" y=\"92\" width=\"180\" height=\"36\" rx=\"6\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">一般契約：合意即生效</text><rect x=\"210\" y=\"92\" width=\"180\" height=\"36\" rx=\"6\" stroke-width=\"2\"/><text x=\"300\" y=\"115\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">特殊：須完成登記才生效</text><text x=\"200\" y=\"150\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">不履行的責任</text><rect x=\"10\" y=\"158\" width=\"380\" height=\"32\" rx=\"6\" class=\"soft\" stroke-width=\"2\"/><text x=\"200\" y=\"179\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">強制履行、損害賠償、解除契約</text></svg>",
+      "caption": "契約的成立、生效與不履行的後果。"
+    },
+    {
+      "title": "侵權行為與智慧財產權",
+      "points": [
+        "侵權行為：因故意或過失，不法侵害他人權利，造成損害，加害人要負損害賠償責任。",
+        "侵權責任的重點：有行為、有過失或故意、有損害、行為與損害有因果關係。「不是故意」不等於不用負責，過失也要賠。",
+        "未成年人造成他人損害時，其法定代理人也可能須負連帶賠償責任。",
+        "智慧財產權保護人的創作與創新：著作權（文章、音樂、圖畫、程式等，創作完成即享有，不須登記）、專利權（發明、新型、設計，須申請取得）、商標權（品牌標誌，須註冊取得）。",
+        "未經授權重製、散布他人著作，可能侵害著作權；但為教學、報導、評論等合理範圍的使用，可屬合理使用。"
+      ]
+    },
+    {
+      "title": "少年保護",
+      "points": [
+        "兒童及少年福利與權益保障法保護未滿 18 歲的人，例如禁止兒童及少年吸菸、飲酒、嚼檳榔，也禁止成人提供這些物品。",
+        "遭遇家庭暴力、性侵害、性騷擾、霸凌等情形時，可向師長、警察或社工求助，撥 113 保護專線。",
+        "少年事件處理法規範 12 歲以上未滿 18 歲的少年犯罪或有觸法之虞時，原則重視保護與教育，而不是只有處罰。",
+        "少年具備法律常識，才能保護自己，也避免無意間傷害他人。"
+      ]
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "罪刑法定",
+      "body": "行為時法律明文規定才能處罰，不溯及既往。"
+    },
+    {
+      "name": "民法年齡",
+      "body": "未滿 7 歲無行為能力；7～未滿 18 歲限制行為能力。"
+    },
+    {
+      "name": "刑法年齡",
+      "body": "未滿 14 歲不罰；14～未滿 18 歲得減輕其刑。"
+    },
+    {
+      "name": "契約生效",
+      "body": "一般契約合意即生效；不動產移轉須登記。"
+    },
+    {
+      "name": "不履行責任",
+      "body": "強制履行、損害賠償、解除契約。"
+    },
+    {
+      "name": "侵權行為",
+      "body": "故意或過失、不法侵害、有損害、有因果關係。"
+    },
+    {
+      "name": "智慧財產權",
+      "body": "著作權（完成即有）、專利權與商標權（須申請或註冊）。"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-11-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "罪刑法定",
+      "q": "政府新制定一條法律，規定在公共場所從事甲行為要受刑罰。小明在這條法律公布前就做過甲行為，法院能否依這條新法處罰他？",
+      "choices": [
+        "可以，因為新法公布後可處罰以前所有的行為",
+        "可以，只要多數人認為甲行為不對，就能處罰",
+        "不能，因為他行為時法律沒有明文規定處罰",
+        "不能，但只要法官認為情節嚴重，就可例外處罰"
+      ],
+      "answer": 2,
+      "explain": "罪刑法定原則要求行為時的法律必須明文規定處罰，並且不溯及既往，才能保障人民不被事後立法處罰。\n其他選項：「可以，因為新法公布後可處罰以前所有的行為」這違反不溯及既往的原則；「可以，只要多數人認為甲行為不對，就能處罰」處罰須有法律明文規定，不能只憑多數人的看法；「不能，但只要法官認為情節嚴重，就可例外處罰」罪刑法定沒有這種可由法官任意破例的例外。\n答案是「不能，因為他行為時法律沒有明文規定處罰」。",
+      "codes": [
+        "公 Bi-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-11-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "契約成立",
+      "q": "小華和朋友口頭約好，以 300 元把舊腳踏車賣給朋友，雙方都同意。關於這個約定，下列敘述何者正確？",
+      "choices": [
+        "雙方意思一致，契約已經成立並生效，不一定要有書面",
+        "沒有簽訂書面契約，契約就不成立",
+        "必須經過法院公證，契約才生效",
+        "必須到政府機關辦理登記，契約才生效"
+      ],
+      "answer": 0,
+      "explain": "一般契約只要雙方當事人意思表示一致（合意）就成立生效；須登記才生效的是不動產所有權移轉等特殊情形。\n其他選項：「沒有簽訂書面契約，契約就不成立」一般契約只要合意就成立，不一定要書面；「必須經過法院公證，契約才生效」一般買賣不需要法院公證；「必須到政府機關辦理登記，契約才生效」只有不動產等特殊情形才須登記，腳踏車不須登記。\n答案是「雙方意思一致，契約已經成立並生效，不一定要有書面」。",
+      "codes": [
+        "公 Bj-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-11-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "智慧財產權",
+      "q": "甲：研發出新的防水材料；乙：設計出代表某品牌的圖樣標誌；丙：創作一首原創歌曲。甲、乙、丙最主要分別受到哪一種智慧財產權保護？",
+      "choices": [
+        "甲－著作權；乙－專利權；丙－商標權",
+        "甲－商標權；乙－著作權；丙－專利權",
+        "甲－專利權；乙－著作權；丙－商標權",
+        "甲－專利權；乙－商標權；丙－著作權"
+      ],
+      "answer": 3,
+      "explain": "發明保護靠專利權，品牌標誌靠商標權，文學、音樂、美術等創作靠著作權。\n其他選項：「甲－著作權；乙－專利權；丙－商標權」新材料是發明，屬專利；歌曲才是著作；「甲－商標權；乙－著作權；丙－專利權」品牌標誌的主要保護是商標，歌曲屬著作權；「甲－專利權；乙－著作權；丙－商標權」歌曲屬著作權，不是商標權；品牌標誌主要保護是商標。\n答案是「甲－專利權；乙－商標權；丙－著作權」。",
+      "codes": [
+        "公 Bj-Ⅳ-5"
+      ]
+    },
+    {
+      "id": "h9-11-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "侵權責任",
+      "q": "小傑騎腳踏車時低頭看手機，撞傷路邊行走的王阿姨，造成醫療費用。關於這件事，下列敘述何者正確？",
+      "choices": [
+        "小傑不是故意的，所以不須負任何責任",
+        "小傑因過失造成他人損害，須負損害賠償責任",
+        "只有王阿姨報警，侵權責任才會成立",
+        "小傑只可能有刑事責任，沒有民事責任"
+      ],
+      "answer": 1,
+      "explain": "侵權行為只要有故意或過失、不法侵害他人權利、造成損害，且行為與損害有因果關係，就要賠償。\n其他選項：「小傑不是故意的，所以不須負任何責任」過失也可構成侵權行為，須負賠償責任；「只有王阿姨報警，侵權責任才會成立」侵權責任是否成立，不以報警為要件；「小傑只可能有刑事責任，沒有民事責任」造成他人損害，可能同時有民事賠償責任。\n答案是「小傑因過失造成他人損害，須負損害賠償責任」。",
+      "codes": [
+        "公 Bj-Ⅳ-4"
+      ]
+    },
+    {
+      "id": "h9-11-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "限制行為能力",
+      "q": "15 歲的小安沒有告訴爸媽，就在網路上簽約購買一台價格很高、並非日常小額花費的電腦，爸媽事後不同意。依民法，這份買賣契約的效力為何？",
+      "choices": [
+        "當然有效，因為小安用自己的名義簽約",
+        "當然無效，與未滿 7 歲者簽約的效果完全相同",
+        "效力未定，須經法定代理人承認才有效",
+        "只要賣家同意，就不需要法定代理人承認也有效"
+      ],
+      "answer": 2,
+      "explain": "15 歲屬限制行為能力人，簽訂非日常小額、也不是只得利益的契約，須事先得到法定代理人同意；未同意時，須待其承認才生效，在承認前效力未定。\n其他選項：「當然有效，因為小安用自己的名義簽約」限制行為能力人簽約，原則上須法定代理人同意；「當然無效，與未滿 7 歲者簽約的效果完全相同」當然無效的是無行為能力人；15 歲是限制行為能力人；「只要賣家同意，就不需要法定代理人承認也有效」契約效力取決於法定代理人是否承認，與賣家是否同意無關。\n答案是「效力未定，須經法定代理人承認才有效」。",
+      "codes": [
+        "公 Bj-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-11-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "行政法",
+      "q": "甲：騎車違規停車，被警察依法開罰單；乙：小偷偷走別人的財物，被法院判處有期徒刑；丙：房東未依約退還押金，租客請求返還。甲、乙、丙的案件最主要分別屬於哪一種法律問題？",
+      "choices": [
+        "甲－行政法；乙－刑法；丙－民法",
+        "甲－刑法；乙－行政法；丙－民法",
+        "甲－行政法；乙－民法；丙－刑法",
+        "甲－民法；乙－刑法；丙－行政法"
+      ],
+      "answer": 0,
+      "explain": "政府依法規管理與處罰是行政法；犯罪與刑罰是刑法；私人之間的契約與權利義務是民法。\n其他選項：「甲－刑法；乙－行政法；丙－民法」違規停車開罰單是行政機關的行政處分；竊盜判刑屬刑法；「甲－行政法；乙－民法；丙－刑法」竊盜屬刑法；押金返還是私人之間的民事問題；「甲－民法；乙－刑法；丙－行政法」違規罰單屬行政法；押金問題屬民法。\n答案是「甲－行政法；乙－刑法；丙－民法」。",
+      "codes": [
+        "公 Bh-Ⅳ-1",
+        "公 Bi-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-11-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "刑事責任年齡",
+      "q": "圖中甲、乙、丙三人在同一天，各自涉入一件竊盜案，年齡如圖所示。依我國刑法，下列敘述何者正確？",
+      "svg": "<svg viewBox=\"0 0 360 90\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"40\" x2=\"340\" y2=\"40\" stroke-width=\"2\"/><line x1=\"40\" y1=\"34\" x2=\"40\" y2=\"46\" stroke-width=\"2\"/><line x1=\"120\" y1=\"34\" x2=\"120\" y2=\"46\" stroke-width=\"2\"/><line x1=\"250\" y1=\"34\" x2=\"250\" y2=\"46\" stroke-width=\"2\"/><text x=\"40\" y=\"28\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">甲</text><text x=\"120\" y=\"28\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">乙</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">丙</text><text x=\"40\" y=\"66\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">13 歲</text><text x=\"120\" y=\"66\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">16 歲</text><text x=\"250\" y=\"66\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">20 歲</text></svg>",
+      "choices": [
+        "甲須負刑事責任，與丙完全相同",
+        "乙須負刑事責任，但得減輕其刑",
+        "乙因未成年，完全不須負刑事責任",
+        "丙因年滿 20 歲，可以減輕其刑"
+      ],
+      "answer": 1,
+      "explain": "刑法規定未滿 14 歲不罰（甲 13 歲）；14 歲以上未滿 18 歲得減輕其刑（乙 16 歲）；滿 18 歲負完全刑責（丙 20 歲）。\n其他選項：「甲須負刑事責任，與丙完全相同」未滿 14 歲的人行為不罰，甲 13 歲，與丙不同；「乙因未成年，完全不須負刑事責任」14 歲以上未滿 18 歲仍須負責，只是得減輕其刑；「丙因年滿 20 歲，可以減輕其刑」減輕規定適用於 14 歲以上未滿 18 歲，丙是成年人。\n答案是「乙須負刑事責任，但得減輕其刑」。",
+      "codes": [
+        "公 Bi-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-11-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "不動產登記",
+      "q": "甲與乙簽訂房屋買賣契約，約定價金與交屋日期，乙已付清價金，但還沒辦理所有權移轉登記。下列敘述何者正確？",
+      "choices": [
+        "因為沒有登記，買賣契約根本不成立",
+        "買賣契約須經法院公證才成立",
+        "乙付清價金後，房屋所有權自動移轉給乙，不須登記",
+        "買賣契約已經成立，乙可請求甲辦理登記；登記完成前，房屋所有權仍屬甲"
+      ],
+      "answer": 3,
+      "explain": "房屋買賣契約只要合意就成立，雙方須履行；但不動產所有權的移轉須完成登記才生效，所以登記前所有權仍屬甲，乙可請求甲配合辦理。\n其他選項：「因為沒有登記，買賣契約根本不成立」契約因合意而成立，登記影響的是所有權移轉；「買賣契約須經法院公證才成立」買賣契約成立不須法院公證；「乙付清價金後，房屋所有權自動移轉給乙，不須登記」不動產所有權移轉須辦理登記才生效。\n答案是「買賣契約已經成立，乙可請求甲辦理登記；登記完成前，房屋所有權仍屬甲」。",
+      "codes": [
+        "公 Bj-Ⅳ-1",
+        "公 Bj-Ⅳ-2"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 13 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：行為能力與公民資格（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 24 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：民事刑事行政糾紛處理（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 26 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：民事訴訟與和解（依題目內容人工對應）"
+      },
+      {
+        "label": "115 年社會科第 36 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：自治條例與訴願（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 25 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：勞動事件法與勞資權力平衡（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 36 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：司法審判角色與起訴（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 38 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：監護宣告與行為能力（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 42 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：刑事告訴乃論與調解（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 48 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：行政救濟途徑（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 10 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：兒童及少年福利權益法立法目的（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 13 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：未成年人契約與限制行為能力（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 40 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：告訴乃論與調解（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 48 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：行政處罰與施行期限（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「刑法」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%88%91%E6%B3%95"
+    },
+    {
+      "label": "均一教育平台：搜尋「契約」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%A5%91%E7%B4%84"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "h9-05",
+  "subject": "social",
+  "grade": 9,
+  "order": 5,
+  "title": "戰間期、第二次世界大戰與戰後世界",
+  "codes": [
+    {
+      "code": "歷 Qc-Ⅳ-1",
+      "text": "戰間期的世界局勢。"
+    },
+    {
+      "code": "歷 Qc-Ⅳ-2",
+      "text": "第二次世界大戰。"
+    },
+    {
+      "code": "歷 Qc-Ⅳ-3",
+      "text": "從兩極到多元的戰後世界。"
+    }
+  ],
+  "intro": "這個單元學一戰後到二戰的局勢、二戰的經過，以及冷戰、去殖民化與歐洲整合等戰後發展。會考常考大事排序、因果判讀、陣營對照，以及史料或圖表題。",
+  "sections": [
+    {
+      "title": "戰間期：經濟危機與極權興起",
+      "points": [
+        "1917 年俄國革命後，共產政權建立；1922 年蘇聯成立，後來由史達林掌權，建立一黨專政與計畫經濟。",
+        "1929 年美國紐約股市崩盤，引發經濟大恐慌：銀行倒閉、工廠關閉、失業暴增，並擴及全世界。",
+        "美國總統羅斯福自 1933 年推動新政，由政府介入經濟、提供就業與救濟。",
+        "極權主義興起：義大利的墨索里尼（1922 年掌權，法西斯）、德國的希特勒（1933 年出任總理，納粹黨）；日本則由軍人勢力逐漸主導政治。",
+        "迷思：極權政權不是憑空出現，多半是戰敗的不滿、賠款負擔與經濟危機，讓人民期待強人解決問題。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 145\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"85\" x2=\"408\" y2=\"85\"/><circle cx=\"70\" cy=\"85\" r=\"5\" class=\"soft2\"/><text x=\"70\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1922</text><text x=\"70\" y=\"58\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">墨索里尼</text><circle cx=\"165\" cy=\"85\" r=\"5\" class=\"soft2\"/><text x=\"165\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1929</text><text x=\"165\" y=\"130\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">經濟大恐慌</text><circle cx=\"219\" cy=\"85\" r=\"5\" class=\"soft2\"/><text x=\"219\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1933</text><text x=\"219\" y=\"58\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">希特勒上台</text><circle cx=\"300\" cy=\"85\" r=\"5\" class=\"soft2\"/><text x=\"300\" y=\"112\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1939</text><text x=\"300\" y=\"130\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">二戰爆發</text><circle cx=\"381\" cy=\"85\" r=\"5\" class=\"soft2\"/><text x=\"381\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1945</text><text x=\"381\" y=\"58\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">戰爭結束</text></svg>",
+      "caption": "戰間期重要年代時間軸。"
+    },
+    {
+      "title": "二戰的爆發與經過",
+      "points": [
+        "國際聯盟缺乏武力，也少了美國參與，難以制止侵略：1931 年日本發動九一八事變，占領中國東北，日本 1933 年退出國聯。",
+        "綏靖政策：1938 年慕尼黑會議，英法同意德國取得捷克斯洛伐克的蘇台德地區，希望避免戰爭，但沒有成功。",
+        "1939 年 9 月 1 日德國入侵波蘭，英國與法國對德國宣戰，歐洲戰爭爆發；中日之間在 1937 年起已進入全面戰爭。",
+        "陣營：軸心國以德國、義大利、日本為主；同盟國（盟軍）以英國、美國、蘇聯、中國等為主。",
+        "1941 年德國進攻蘇聯；12 月日本偷襲珍珠港，美國參戰，戰爭擴大為全球規模。",
+        "轉折：1942 年中途島海戰、1942 至 1943 年史達林格勒戰役；1944 年 6 月盟軍在諾曼第登陸。",
+        "終局：1945 年 5 月德國投降；8 月美國在廣島與長崎投下原子彈，日本宣布無條件投降。納粹在戰爭中屠殺約六百萬猶太人。"
+      ]
+    },
+    {
+      "title": "戰後秩序與冷戰",
+      "points": [
+        "1945 年聯合國成立，取代國際聯盟，目標是維護和平與推動合作；戰後也舉行紐倫堡大審等審判。",
+        "德國被美、英、法、蘇分區占領，1949 年分裂為西德與東德；柏林也被分成東西兩部分。",
+        "冷戰：以美國為首的資本主義民主陣營，與以蘇聯為首的共產陣營長期對立，雙方未直接全面開戰。",
+        "美國的圍堵政策：1947 年杜魯門主義與馬歇爾計畫援助西歐；1949 年成立北約，蘇聯陣營於 1955 年組成華沙公約。",
+        "熱點：1948 至 1949 年柏林封鎖、1950 至 1953 年韓戰、1961 年興建柏林圍牆、1962 年古巴飛彈危機。",
+        "結束：1989 年柏林圍牆倒塌，1990 年德國統一，1991 年蘇聯解體，冷戰結束。"
+      ],
+      "svg": "<svg viewBox=\"0 0 400 205\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"170\" height=\"140\" rx=\"6\" class=\"soft\"/><rect x=\"220\" y=\"10\" width=\"170\" height=\"140\" rx=\"6\" class=\"soft2\"/><text x=\"95\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">美國為首</text><text x=\"95\" y=\"68\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">資本主義、民主</text><text x=\"95\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">北約（1949）</text><text x=\"95\" y=\"124\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">杜魯門主義、馬歇爾計畫</text><text x=\"305\" y=\"40\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">蘇聯為首</text><text x=\"305\" y=\"68\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">共產主義、計畫經濟</text><text x=\"305\" y=\"96\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">華沙公約（1955）</text><text x=\"305\" y=\"124\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">東歐多國加入</text><line x1=\"200\" y1=\"0\" x2=\"200\" y2=\"160\" class=\"hl2\" stroke-dasharray=\"6 5\"/><text x=\"200\" y=\"176\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">鐵幕</text><text x=\"200\" y=\"196\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">雙方對抗，但未直接全面開戰</text></svg>",
+      "caption": "冷戰的兩大陣營對照。"
+    },
+    {
+      "title": "多元的戰後世界",
+      "points": [
+        "去殖民化：1947 年印度獨立（後分為印度與巴基斯坦），1949 年印尼獨立，1960 年前後非洲有許多國家獨立。",
+        "不結盟運動：1955 年亞非國家在印尼萬隆開會，主張反殖民、尊重主權，不加入美蘇任一陣營。",
+        "歐洲整合：1951 年歐洲煤鋼共同體，1957 年簽訂羅馬條約成立歐洲經濟共同體，1993 年歐洲聯盟成立。",
+        "中東：1948 年以色列建國，之後阿拉伯國家與以色列發生多次戰爭，是戰後長期的區域衝突焦點（下一單元地理科會再談）。",
+        "冷戰後的世界：經濟與資訊的全球化加深，國際組織與區域組織的角色變多，世界更加多元。"
+      ],
+      "svg": "<svg viewBox=\"0 0 420 105\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"25\" width=\"115\" height=\"60\" rx=\"6\" class=\"soft\"/><text x=\"67\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1951</text><text x=\"67\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">歐洲煤鋼共同體</text><line x1=\"127\" y1=\"55\" x2=\"148\" y2=\"55\"/><polyline points=\"140,50 148,55 140,60\"/><rect x=\"150\" y=\"25\" width=\"115\" height=\"60\" rx=\"6\" class=\"soft\"/><text x=\"207\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1957</text><text x=\"207\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">歐洲經濟共同體</text><line x1=\"267\" y1=\"55\" x2=\"288\" y2=\"55\"/><polyline points=\"280,50 288,55 280,60\"/><rect x=\"290\" y=\"25\" width=\"115\" height=\"60\" rx=\"6\" class=\"soft2\"/><text x=\"347\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"14\">1993</text><text x=\"347\" y=\"72\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">歐洲聯盟成立</text></svg>",
+      "caption": "歐洲整合的三個階段。"
+    }
+  ],
+  "mustKnow": [
+    {
+      "name": "經濟大恐慌",
+      "body": "1929 年紐約股市崩盤，擴及全球；羅斯福 1933 年推動新政"
+    },
+    {
+      "name": "極權政權",
+      "body": "義大利墨索里尼（1922）、德國希特勒（1933）"
+    },
+    {
+      "name": "綏靖政策",
+      "body": "1938 年慕尼黑會議，英法對德國讓步"
+    },
+    {
+      "name": "二戰爆發",
+      "body": "1939 年 9 月 1 日德國入侵波蘭"
+    },
+    {
+      "name": "戰爭轉捩",
+      "body": "1941 年珍珠港、1944 年諾曼第；1945 年 5 月德國、8 月日本投降"
+    },
+    {
+      "name": "冷戰",
+      "body": "美國（北約）對蘇聯（華沙公約），未直接全面開戰"
+    },
+    {
+      "name": "冷戰結束",
+      "body": "1989 年柏林圍牆倒塌，1991 年蘇聯解體"
+    },
+    {
+      "name": "歐洲整合",
+      "body": "1951 煤鋼共同體，1957 羅馬條約，1993 歐洲聯盟"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "h9-05-q01",
+      "level": 1,
+      "tier": "basic",
+      "concept": "經濟大恐慌",
+      "q": "1929 年美國紐約股市崩盤，各國銀行倒閉、工廠關閉、失業人數大增。這場席捲全球的經濟危機通常稱為什麼？",
+      "choices": [
+        "第二次工業革命",
+        "經濟大恐慌",
+        "石油危機",
+        "冷戰"
+      ],
+      "answer": 1,
+      "explain": "1929 年的股市崩盤引發經濟大恐慌（也稱經濟大蕭條）。其他選項：第二次工業革命是十九世紀後半的技術進步；石油危機發生在 1970 年代；冷戰是二戰後美蘇的對抗。答案是經濟大恐慌。",
+      "codes": [
+        "歷 Qc-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-05-q02",
+      "level": 1,
+      "tier": "basic",
+      "concept": "綏靖政策",
+      "q": "1938 年，英國與法國在慕尼黑會議中同意德國取得捷克斯洛伐克的蘇台德地區，希望藉此避免戰爭。英法這種對侵略者讓步的外交作法，稱為什麼？",
+      "choices": [
+        "孤立主義",
+        "圍堵政策",
+        "門戶開放政策",
+        "綏靖政策"
+      ],
+      "answer": 3,
+      "explain": "對侵略者一再讓步以求避免戰爭，稱為綏靖政策。其他選項：孤立主義是不介入他國事務；圍堵政策是冷戰時美國防止共產勢力擴張；門戶開放政策是美國對中國的主張。答案是綏靖政策。",
+      "codes": [
+        "歷 Qc-Ⅳ-1",
+        "歷 Qc-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-05-q03",
+      "level": 1,
+      "tier": "basic",
+      "concept": "軸心國",
+      "q": "第二次世界大戰中，與德國結盟、組成軸心國的另外兩個國家是哪兩國？",
+      "choices": [
+        "義大利、日本",
+        "英國、法國",
+        "蘇聯、美國",
+        "中國、波蘭"
+      ],
+      "answer": 0,
+      "explain": "軸心國以德國、義大利、日本為主。其他選項：英國、法國、蘇聯、美國、中國都屬於與軸心國作戰的同盟國（盟軍），波蘭是遭德國入侵的國家。答案是義大利、日本。",
+      "codes": [
+        "歷 Qc-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-05-q04",
+      "level": 2,
+      "tier": "exam",
+      "concept": "二戰事件排序",
+      "q": "下列四件二戰期間的事件：甲、日本偷襲珍珠港；乙、德國入侵波蘭；丙、盟軍在諾曼第登陸；丁、日本宣布無條件投降。依發生時間由早到晚排列，何者正確？",
+      "choices": [
+        "甲乙丙丁",
+        "乙丙甲丁",
+        "乙甲丙丁",
+        "甲乙丁丙"
+      ],
+      "answer": 2,
+      "explain": "乙是 1939 年，甲是 1941 年，丙是 1944 年，丁是 1945 年，所以順序是乙、甲、丙、丁。其他選項：甲乙丙丁把珍珠港排在德國入侵波蘭之前；乙丙甲丁把諾曼第排在珍珠港之前；甲乙丁丙把日本投降排在諾曼第之前。答案是乙甲丙丁。",
+      "codes": [
+        "歷 Qc-Ⅳ-2"
+      ]
+    },
+    {
+      "id": "h9-05-q05",
+      "level": 2,
+      "tier": "exam",
+      "concept": "極權興起的背景",
+      "q": "一份戰間期某國的宣傳傳單（改寫）寫道：「我們在戰後失去土地、背負賠款，如今又有數百萬人失業。議會吵吵鬧鬧，什麼問題都解決不了。只要把權力交給一位強而有力的領袖，國家就能重新站起來。」這份傳單最能反映哪一項歷史背景？",
+      "choices": [
+        "經濟繁榮使民主制度更受人民信任",
+        "戰敗的不滿與經濟危機，使部分民眾轉而支持強人與極權政黨",
+        "國際聯盟成功調解各國糾紛，使人民不再擔心戰爭",
+        "人民普遍要求縮減政府權力，擴大個人自由"
+      ],
+      "answer": 1,
+      "explain": "傳單提到戰後失土賠款、嚴重失業，並批評議會無能、期待強人領導，反映戰敗不滿與經濟危機助長極權主義。其他選項：當時是經濟危機而非繁榮；傳單沒有提到國際聯盟調解成功；傳單主張把權力集中給領袖，與縮減政府權力相反。答案是戰敗的不滿與經濟危機，使部分民眾轉而支持強人與極權政黨。",
+      "codes": [
+        "歷 Qc-Ⅳ-1"
+      ]
+    },
+    {
+      "id": "h9-05-q06",
+      "level": 2,
+      "tier": "exam",
+      "concept": "冷戰兩大陣營",
+      "q": "下圖是二戰後歐洲局勢的簡化示意：甲、乙兩側分別是西歐與東歐國家，丙是兩大陣營之間的界線。下列敘述何者正確？",
+      "svg": "<svg viewBox=\"0 0 400 132\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"20\" width=\"150\" height=\"70\" rx=\"6\" class=\"soft\"/><rect x=\"240\" y=\"20\" width=\"150\" height=\"70\" rx=\"6\" class=\"soft2\"/><text x=\"85\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"16\">甲</text><text x=\"85\" y=\"74\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">西歐國家</text><text x=\"315\" y=\"50\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"16\">乙</text><text x=\"315\" y=\"74\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"13\">東歐國家</text><line x1=\"200\" y1=\"8\" x2=\"200\" y2=\"104\" class=\"hl2\" stroke-dasharray=\"6 5\"/><text x=\"200\" y=\"124\" text-anchor=\"middle\" stroke=\"none\" fill=\"currentColor\" font-size=\"16\">丙</text></svg>",
+      "choices": [
+        "甲側以美國為首，乙側以蘇聯為首；丙常被稱為「鐵幕」",
+        "甲側以蘇聯為首，乙側以美國為首；丙常被稱為「鐵幕」",
+        "甲側以美國為首，乙側以蘇聯為首；丙常被稱為「馬其諾防線」",
+        "甲、乙兩側都由聯合國領導；丙常被稱為「鐵幕」"
+      ],
+      "answer": 0,
+      "explain": "西歐國家多屬以美國為首的資本主義民主陣營，東歐國家多屬以蘇聯為首的共產陣營，兩者之間的分界常被稱為「鐵幕」。其他選項：第二項把美蘇顛倒；馬其諾防線是法國在二戰前建的邊境防線；聯合國不是任一陣營的領導者。答案是甲側以美國為首，乙側以蘇聯為首；丙常被稱為「鐵幕」。",
+      "codes": [
+        "歷 Qc-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-05-q07",
+      "level": 3,
+      "tier": "exam",
+      "concept": "不結盟運動",
+      "q": "1955 年，二十九個亞洲與非洲國家在印尼萬隆開會，強調互相尊重主權、反對殖民主義，也不願被迫倒向美國或蘇聯任何一方。這場會議最能反映戰後世界的哪一項趨勢？",
+      "choices": [
+        "歐洲國家為了經濟合作而逐步整合",
+        "美蘇冷戰已經結束，世界由單一強權主導",
+        "國際聯盟重新取得各國的支持",
+        "許多殖民地獨立後，新興國家想在兩大陣營之外尋求自主"
+      ],
+      "answer": 3,
+      "explain": "萬隆會議是亞非新興國家反殖民、不結盟的表現，反映戰後去殖民化與世界多元的趨勢。其他選項：歐洲整合與會議主題無關；冷戰在 1991 年才結束，1955 年正處於高峰；國際聯盟在二戰後已被聯合國取代。答案是許多殖民地獨立後，新興國家想在兩大陣營之外尋求自主。",
+      "codes": [
+        "歷 Qc-Ⅳ-3"
+      ]
+    },
+    {
+      "id": "h9-05-q08",
+      "level": 3,
+      "tier": "exam",
+      "concept": "冷戰的意義",
+      "q": "冷戰時期，美國與蘇聯長期對立，卻從未直接大規模交戰。下列何者最能說明冷戰中「冷」的意思？",
+      "choices": [
+        "兩國的戰場多在寒冷地區，所以稱為冷戰",
+        "冷戰期間世界完全沒有戰爭，始終和平",
+        "兩國避免直接全面開戰，而以軍備競賽、結盟、經濟與宣傳競爭，或支持他國戰爭等方式較勁",
+        "兩國直接以核武互相攻擊，戰爭規模比二戰更大"
+      ],
+      "answer": 2,
+      "explain": "「冷」指美蘇沒有直接全面開戰，而是以軍備競賽、結盟、經濟與宣傳對抗，並在韓戰、越戰等地間接較勁。其他選項：冷戰與氣溫無關；冷戰期間仍有韓戰、越戰等戰爭，不是完全和平；美蘇從未以核武直接互攻。答案是兩國避免直接全面開戰，而以軍備競賽、結盟、經濟與宣傳競爭，或支持他國戰爭等方式較勁。",
+      "codes": [
+        "歷 Qc-Ⅳ-3"
+      ]
+    }
+  ],
+  "past": {
+    "items": [
+      {
+        "label": "115 年社會科第 7 題",
+        "url": "https://drive.google.com/file/d/1ITxBlFhNSIbg1u1C7FrU2ODk951wt-RT/view",
+        "note": "考點：歷史漫畫與經濟大恐慌或戰後（圖表題，推測）（依題目內容人工對應）"
+      },
+      {
+        "label": "114 年社會科第 23 題",
+        "url": "https://drive.google.com/file/d/1vFl3qctoBXYcCtWbAqKUqhekIMgV6q-m/view",
+        "note": "考點：1989年東歐脫逃與冷戰（依題目內容人工對應）"
+      },
+      {
+        "label": "113 年社會科第 19 題",
+        "url": "https://drive.google.com/file/d/1NJYibw-N2mHZP5lL8-rOhirWv_ZFQNiz/view",
+        "note": "考點：冷戰時期美蘇領袖信函（依題目內容人工對應）"
+      }
+    ]
+  },
+  "links": [
+    {
+      "label": "均一教育平台：搜尋「第二次世界大戰」",
+      "url": "https://www.junyiacademy.org/search?q=%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%B0"
+    },
+    {
+      "label": "均一教育平台：搜尋「冷戰」",
+      "url": "https://www.junyiacademy.org/search?q=%E5%86%B7%E6%88%B0"
+    },
+    {
+      "label": "教育部因材網（用學校帳號登入，找對應單元）",
+      "url": "https://adl.edu.tw/HomePage/home/"
+    }
+  ]
+}
